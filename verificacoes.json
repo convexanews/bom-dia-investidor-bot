@@ -1,5 +1,17 @@
 [
   {
+    "data": "2026-06-14T11:36:32.660Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso: \"Dinheiro que vai para a Bet não vai para o supermercado, diz gestor da Ibiuna\".",
+    "postId": "18096390011225368",
+    "storyId": "17943258783235002"
+  },
+  {
+    "data": "2026-06-14T11:35:45.248Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada: \"Dinheiro que vai para a Bet não vai para o supermercado, diz gestor da Ibiuna\". Realizando postagem..."
+  },
+  {
     "data": "2026-06-14T11:00:36.535Z",
     "resultado": "reel_postado",
     "mensagem": "Resumo em vídeo do dia publicado com 2 notícia(s).",
