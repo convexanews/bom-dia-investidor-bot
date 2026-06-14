@@ -1,5 +1,17 @@
 [
   {
+    "data": "2026-06-14T14:23:34.648Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso: \"Prefeitura diz que vai processar União por morte em “rope jumping” em Limeira\".",
+    "postId": "18093635165341289",
+    "storyId": "18118298032692626"
+  },
+  {
+    "data": "2026-06-14T14:22:55.713Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada: \"Prefeitura diz que vai processar União por morte em “rope jumping” em Limeira\". Realizando postagem..."
+  },
+  {
     "data": "2026-06-14T11:36:32.660Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso: \"Dinheiro que vai para a Bet não vai para o supermercado, diz gestor da Ibiuna\".",
