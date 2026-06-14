@@ -1,0 +1,37 @@
+name: Bom Dia Investidor - Auto Post
+
+on:
+  schedule:
+    - cron: '5 * * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Instalar dependencias
+        run: npm install
+
+      - name: Executar verificacao e publicacao automatica
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          IG_ACCOUNT_ID: ${{ secrets.IG_ACCOUNT_ID }}
+          PAGES_TOKEN: ${{ secrets.PAGES_TOKEN }}
+        run: node auto-post.cjs
+
+      - name: Salvar relatorio e historico de postagens
+        run: |
+          git config user.email "bot@bomdiainvestidor.com.br"
+          git config user.name "Bom Dia Investidor Bot"
+          git add noticias-postadas.json relatorio.json
+          git diff --cached --quiet || git commit -m "Atualiza registro de postagens automaticas"
+          git push

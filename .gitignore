@@ -1,0 +1,6 @@
+node_modules/
+pages-repo/
+_tmp_card_noticia_*.html
+*.png
+!logo-bdi-icon.png
+.secret_*

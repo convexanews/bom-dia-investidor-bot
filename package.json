@@ -1,0 +1,10 @@
+{
+  "name": "bom-dia-investidor-bot",
+  "private": true,
+  "type": "commonjs",
+  "description": "Automacao do Bom Dia Investidor: coleta noticias do mercado financeiro, gera cards e publica no Instagram via GitHub Actions.",
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "puppeteer": "^23.0.0"
+  }
+}
