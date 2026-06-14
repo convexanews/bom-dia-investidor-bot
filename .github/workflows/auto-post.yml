@@ -29,9 +29,10 @@ jobs:
         run: node auto-post.cjs
 
       - name: Salvar relatorio e historico de postagens
+        if: always()
         run: |
           git config user.email "bot@bomdiainvestidor.com.br"
           git config user.name "Bom Dia Investidor Bot"
-          git add noticias-postadas.json relatorio.json
+          git add noticias-postadas.json relatorio.json verificacoes.json
           git diff --cached --quiet || git commit -m "Atualiza registro de postagens automaticas"
           git push

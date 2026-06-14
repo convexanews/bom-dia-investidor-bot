@@ -14,6 +14,7 @@ const IG_ACCOUNT_ID = process.env.IG_ACCOUNT_ID;
 
 const POSTADAS_FILE = path.join(__dirname, 'noticias-postadas.json');
 const RELATORIO_FILE = path.join(__dirname, 'relatorio.json');
+const VERIFICACOES_FILE = path.join(__dirname, 'verificacoes.json');
 const PAGES_DIR = path.join(__dirname, 'pages-repo');
 const PAGES_REPO = 'convexanews/convexanews.github.io';
 const PAGES_RAW_BASE = `https://raw.githubusercontent.com/${PAGES_REPO}/main/bdi-cards`;
@@ -91,6 +92,12 @@ function git(cmd, cwd) {
   execSync(cmd, { cwd, stdio: 'inherit' });
 }
 
+function registrarVerificacao(resultado, mensagem, extra = {}) {
+  const verificacoes = carregarJson(VERIFICACOES_FILE, []);
+  verificacoes.unshift({ data: new Date().toISOString(), resultado, mensagem, ...extra });
+  salvarJson(VERIFICACOES_FILE, verificacoes.slice(0, 200));
+}
+
 async function main() {
   if (!IG_TOKEN || !IG_ACCOUNT_ID) {
     throw new Error('Defina IG_TOKEN e IG_ACCOUNT_ID nas variaveis de ambiente/secrets.');
@@ -104,8 +111,11 @@ async function main() {
 
   if (!nova) {
     console.log('Nenhuma noticia nova no momento. Nada a postar.');
+    registrarVerificacao('sem_noticia', 'Nenhuma notícia nova encontrada. Nada foi postado.');
     return;
   }
+
+  registrarVerificacao('noticia_encontrada', `Notícia nova encontrada: "${nova.titulo}". Realizando postagem...`);
 
   const cfg = {
     categoria: (nova.categorias && nova.categorias[0]) || 'MERCADO',
@@ -176,10 +186,13 @@ async function main() {
   });
   salvarJson(RELATORIO_FILE, relatorio.slice(0, 200));
 
+  registrarVerificacao('postado', `Postagem realizada com sucesso: "${cfg.manchete}".`, { postId, storyId });
+
   fs.rmSync(PAGES_DIR, { recursive: true, force: true });
 }
 
 main().catch(e => {
   console.error('Erro na execucao automatica:', e.message);
+  registrarVerificacao('erro', `Erro na execução automática: ${e.message}`);
   process.exit(1);
 });
