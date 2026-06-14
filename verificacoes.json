@@ -1,5 +1,16 @@
 [
   {
+    "data": "2026-06-14T11:00:36.535Z",
+    "resultado": "reel_postado",
+    "mensagem": "Resumo em vídeo do dia publicado com 2 notícia(s).",
+    "reelId": "18092332565201532",
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1781434775165.mp4",
+    "noticias": [
+      "Reino Unido e Japão fecharão pacote de investimentos de mais de 18 bi de libras",
+      "SpaceX: como o apelo do IPO foi além da euforia do mercado em torno das ações"
+    ]
+  },
+  {
     "data": "2026-06-14T10:55:26.019Z",
     "resultado": "erro_reel",
     "mensagem": "Erro ao gerar o resumo em vídeo do dia: Command failed: ffmpeg -y -f concat -safe 0 -i \"/tmp/bdi-reel-Er745J/lista.txt\" -vf \"scale=1080:1920:force_original_aspect_ratio=decrease,pad=1080:1920:(ow-iw)/2:(oh-ih)/2,format=yuv420p\" -r 30 -c:v libx264 -pix_fmt yuv420p -movflags +faststart \"/home/runner/work/bom-dia-investidor-bot/bom-dia-investidor-bot/pages-repo/bdi-cards/resumo-1781434524807.mp4\""
