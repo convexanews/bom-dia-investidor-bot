@@ -25,5 +25,17 @@ notícia nova** do mercado financeiro (InfoMoney / Money Times).
 ## Relatório
 
 `relatorio.json` guarda o histórico (data, manchete, fonte, link, IDs do post/story,
-URLs das imagens). O painel local (`promo-bot`) lê esse arquivo para mostrar o
-relatório de postagens automáticas.
+URLs das imagens). `verificacoes.json` guarda o resultado de cada verificação horária
+(notícia nova encontrada / nenhuma notícia nova / erro). O painel local (`promo-bot`)
+lê esses arquivos para mostrar o relatório de postagens automáticas em `/bdi-relatorio`.
+
+## Reel-resumo diário
+
+Uma vez por dia (`.github/workflows/daily-reel.yml`, `auto-reel.cjs`), o bot:
+
+1. Pega as notícias postadas nas últimas 24h em `relatorio.json`
+2. Monta um vídeo (Reel 9:16) juntando os cards de story de cada notícia, 3 segundos
+   cada, usando `ffmpeg` (`gerar_reel.cjs`)
+3. Sobe o vídeo para `convexanews/convexanews.github.io` (pasta `bdi-cards/`)
+4. Publica como Reel no Instagram, com legenda listando as manchetes do dia
+5. Se não houver nenhuma notícia postada nas últimas 24h, não gera reel
