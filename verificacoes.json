@@ -1,5 +1,17 @@
 [
   {
+    "data": "2026-06-14T16:44:53.930Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso: \"Suzano (SUZB3), Vitru (VTRU3) e mais uma empresa pagam dividendos nesta semana; veja o calendário\".",
+    "postId": "17895075666494186",
+    "storyId": "18104837099117274"
+  },
+  {
+    "data": "2026-06-14T16:44:12.154Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada: \"Suzano (SUZB3), Vitru (VTRU3) e mais uma empresa pagam dividendos nesta semana; veja o calendário\". Realizando postagem..."
+  },
+  {
     "data": "2026-06-14T14:23:34.648Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso: \"Prefeitura diz que vai processar União por morte em “rope jumping” em Limeira\".",
