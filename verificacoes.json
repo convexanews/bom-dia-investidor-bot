@@ -1,5 +1,17 @@
 [
   {
+    "data": "2026-06-14T18:20:28.310Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso: \"Morte de chefão do crime venezuelano abre espaço para avanço da mineração\".",
+    "postId": "18326850907254971",
+    "storyId": "18165966790434109"
+  },
+  {
+    "data": "2026-06-14T18:19:47.631Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada: \"Morte de chefão do crime venezuelano abre espaço para avanço da mineração\". Realizando postagem..."
+  },
+  {
     "data": "2026-06-14T17:08:32.338Z",
     "resultado": "postado",
     "mensagem": "Postagem manual realizada pelo painel local: \"‘Data center em casa’: empresas querem levar a potência da IA para usuários comuns; confira\".",
