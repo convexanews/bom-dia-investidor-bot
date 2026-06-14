@@ -1,5 +1,17 @@
 [
   {
+    "data": "2026-06-14T22:20:00.954Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso: \"Futuros de NY avançam e petróleo cai 5% após anúncio de acordo de paz entre EUA e Irã\".",
+    "postId": "18154808992470522",
+    "storyId": "18098441009234093"
+  },
+  {
+    "data": "2026-06-14T22:19:12.467Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada: \"Futuros de NY avançam e petróleo cai 5% após anúncio de acordo de paz entre EUA e Irã\". Realizando postagem..."
+  },
+  {
     "data": "2026-06-14T20:24:52.393Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso: \"Ibovespa reage após 8 semanas de queda; fundo chegou ou é repique?\".",
