@@ -1,5 +1,17 @@
 [
   {
+    "data": "2026-06-15T21:49:09.836Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso: \"Itaúsa (ITSA4) aprova pagamento de JCP no montante bruto de R$ 1,54 bilhão\".",
+    "postId": "18133437610585696",
+    "storyId": "18329074405250332"
+  },
+  {
+    "data": "2026-06-15T21:48:21.042Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada: \"Itaúsa (ITSA4) aprova pagamento de JCP no montante bruto de R$ 1,54 bilhão\". Realizando postagem..."
+  },
+  {
     "data": "2026-06-15T18:46:16.756Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso: \"Tesouro IPCA+ com maior juro da década: em quanto tempo o dinheiro pode dobrar?\".",
