@@ -1,5 +1,17 @@
 [
   {
+    "data": "2026-06-15T06:34:12.784Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso: \"Líderes internacionais elogiam acordo EUA-Irã e cobram sua implementação\".",
+    "postId": "18096336788586219",
+    "storyId": "18112324498925155"
+  },
+  {
+    "data": "2026-06-15T06:33:28.365Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada: \"Líderes internacionais elogiam acordo EUA-Irã e cobram sua implementação\". Realizando postagem..."
+  },
+  {
     "data": "2026-06-15T00:21:17.202Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso: \"Suíça rejeita plano de limitar sua população a 10 milhões\".",
