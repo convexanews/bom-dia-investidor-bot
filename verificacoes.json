@@ -1,5 +1,17 @@
 [
   {
+    "data": "2026-06-15T00:21:17.202Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso: \"Suíça rejeita plano de limitar sua população a 10 milhões\".",
+    "postId": "17896989135331652",
+    "storyId": "18097405165902872"
+  },
+  {
+    "data": "2026-06-15T00:20:30.349Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada: \"Suíça rejeita plano de limitar sua população a 10 milhões\". Realizando postagem..."
+  },
+  {
     "data": "2026-06-15T00:08:09.971Z",
     "resultado": "reel_postado",
     "mensagem": "Resumo em vídeo do dia publicado com 9 notícia(s).",
