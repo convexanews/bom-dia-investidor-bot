@@ -3,6 +3,8 @@ name: Bom Dia Investidor - Auto Post
 on:
   schedule:
     - cron: '*/30 * * * *'
+  repository_dispatch:
+    types: [auto-post]
   workflow_dispatch: {}
 
 permissions:

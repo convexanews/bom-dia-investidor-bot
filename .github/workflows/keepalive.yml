@@ -1,0 +1,22 @@
+name: Keepalive - Manter cron ativo
+
+on:
+  schedule:
+    # Roda 1x por semana (domingo 00h UTC) para manter o repo ativo
+    # GitHub desativa crons de repos sem commits por 60 dias
+    - cron: '0 0 * * 0'
+
+jobs:
+  keepalive:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Keepalive commit
+        run: |
+          git config user.email "bot@bomdiainvestidor.com.br"
+          git config user.name "Bom Dia Investidor Bot"
+          git commit --allow-empty -m "chore: keepalive para manter cron ativo [skip ci]"
+          git push
