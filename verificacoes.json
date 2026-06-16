@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-06-16T00:30:13.230Z",
+    "resultado": "reel_postado",
+    "mensagem": "Resumo em vídeo do dia publicado com 5 notícia(s).",
+    "reelId": "18093881843198262",
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1781569739463.mp4",
+    "noticias": [
+      "Líderes internacionais elogiam acordo EUA-Irã e cobram sua implementação",
+      "Ibovespa sobe mais de 1% com exterior após anúncio de acordo entre EUA e Irã",
+      "Tesouro IPCA+ com maior juro da década: em quanto tempo o dinheiro pode dobrar?",
+      "Itaúsa (ITSA4) aprova pagamento de JCP no montante bruto de R$ 1,54 bilhão",
+      "Netanyahu e Trump entram em rota de colisão enquanto EUA e Irã concordam em suspender guerra"
+    ]
+  },
+  {
     "data": "2026-06-15T23:56:29.962Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso: \"Netanyahu e Trump entram em rota de colisão enquanto EUA e Irã concordam em suspender guerra\".",
