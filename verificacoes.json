@@ -1,5 +1,17 @@
 [
   {
+    "data": "2026-06-16T23:01:42.179Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso: \"Navio de guerra russo dispara tiros de advertência perto de iate britânico\".",
+    "postId": "18100773817935893",
+    "storyId": "17922197253362501"
+  },
+  {
+    "data": "2026-06-16T23:00:46.881Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 38): \"Navio de guerra russo dispara tiros de advertência perto de iate britânico\". Realizando postagem..."
+  },
+  {
     "data": "2026-06-16T22:55:53.691Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso: \"Taxas de DIs sobem à espera de corte na Selic para 14,25%\".",
