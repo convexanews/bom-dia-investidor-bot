@@ -1,5 +1,13 @@
 [
   {
+    "data": "2026-06-16T01:36:00.956Z",
+    "resultado": "postado",
+    "mensagem": "Postagem manual realizada pelo painel local: \"Taxas de DIs caem e curva de juros volta a precificar corte na Selic na próxima decisão do Copom\".",
+    "postId": "18133929370601184",
+    "storyId": "18113415682908341",
+    "origem": "manual"
+  },
+  {
     "data": "2026-06-16T00:30:13.230Z",
     "resultado": "reel_postado",
     "mensagem": "Resumo em vídeo do dia publicado com 5 notícia(s).",
