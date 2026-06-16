@@ -1,5 +1,17 @@
 [
   {
+    "data": "2026-06-16T22:55:53.691Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso: \"Taxas de DIs sobem à espera de corte na Selic para 14,25%\".",
+    "postId": "18102202397125868",
+    "storyId": "18123106387598893"
+  },
+  {
+    "data": "2026-06-16T22:55:01.449Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 39): \"Taxas de DIs sobem à espera de corte na Selic para 14,25%\". Realizando postagem..."
+  },
+  {
     "data": "2026-06-16T22:47:28.757Z",
     "resultado": "carrossel_fechamento",
     "mensagem": "Carrossel de fechamento publicado. Ibovespa: 169.648 -0,87%",
