@@ -1,5 +1,17 @@
 [
   {
+    "data": "2026-06-16T17:34:03.543Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso: \"Petrobras e bancos pressionam o Ibovespa antes de superquarta; dólar sobe\".",
+    "postId": "18167033146449151",
+    "storyId": "18111319949491483"
+  },
+  {
+    "data": "2026-06-16T17:33:13.281Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 49): \"Petrobras e bancos pressionam o Ibovespa antes de superquarta; dólar sobe\". Realizando postagem..."
+  },
+  {
     "data": "2026-06-16T17:31:38.051Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso: \"Dólar opera em alta, de olho no petróleo e à espera de decisões de juros; Ibovespa cai\".",
