@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { width: 1080px; height: 1350px; overflow: hidden; font-family: 'Segoe UI', Arial, sans-serif; background: #fff; }
+  .card { width: 1080px; height: 1350px; position: relative; background: #fff; display: flex; flex-direction: column; }
+
+  .header {
+    background: #1a2f5e;
+    padding: 80px 80px 60px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .deco1 { position:absolute; right:-60px; top:-60px; width:320px; height:320px; border-radius:50%; background:rgba(201,146,10,0.13); }
+  .deco2 { position:absolute; right:80px; bottom:-100px; width:200px; height:200px; border-radius:50%; background:rgba(201,146,10,0.07); }
+
+  .header-top { display:flex; align-items:center; justify-content:space-between; margin-bottom:50px; position:relative; z-index:2; }
+  .logo-area { display:flex; align-items:center; gap:24px; }
+  .logo-circle { width:90px; height:90px; background:#fff; border-radius:50%; display:flex; align-items:center; justify-content:center; flex-shrink:0; }
+  .logo-text strong { font-size:28px; font-weight:900; color:#fff; display:block; letter-spacing:0.5px; }
+  .logo-text span { font-size:20px; color:#c9a24a; font-weight:500; letter-spacing:1px; }
+  .badge {
+    font-size:22px; font-weight:800; letter-spacing:3px; text-transform:uppercase;
+    background:rgba(201,146,10,0.18); color:#f0c060;
+    padding:14px 36px; border-radius:50px;
+    border:2px solid rgba(201,146,10,0.4);
+    display:flex; align-items:center; gap:12px;
+    position:relative; z-index:2;
+  }
+  .badge-dot { width:12px; height:12px; border-radius:50%; background:#f0c060; }
+
+  .header-titulo { font-size:86px; font-weight:900; color:#fff; line-height:1.1; position:relative; z-index:2; }
+  .header-sub { font-size:28px; color:#c9a24a; margin-top:16px; font-weight:500; letter-spacing:0.5px; position:relative; z-index:2; }
+
+  .gold-bar { height:8px; background:linear-gradient(90deg,#c9920a,#f0c060 50%,#c9920a); flex-shrink:0; }
+
+  .body { padding:40px 80px 20px; display:flex; flex-direction:column; gap:0; flex:1; }
+
+  .acao {
+    display:flex; align-items:center; justify-content:space-between;
+    padding:28px 0; border-bottom:1px solid #f1f5f9;
+  }
+  .acao:last-child { border-bottom:none; }
+  .acao-left { display:flex; align-items:center; gap:24px; }
+  .rank {
+    width:52px; height:52px; border-radius:50%;
+    background:#1a2f5e; color:#f0c060;
+    font-size:24px; font-weight:900;
+    display:flex; align-items:center; justify-content:center;
+    flex-shrink:0;
+  }
+  .ticker {
+    width:100px; height:72px; background:#eef3fb;
+    border-radius:16px; display:flex; align-items:center; justify-content:center;
+    font-size:22px; font-weight:900; color:#1a2f5e;
+    text-align:center; flex-shrink:0; letter-spacing:0.5px;
+  }
+  .acao-nome { font-size:22px; color:#94a3b8; font-weight:500; }
+  .acao-preco { font-size:40px; font-weight:900; color:#0f172a; line-height:1.1; }
+  .var { font-size:28px; font-weight:800; padding:10px 26px; border-radius:12px; }
+
+  .footer { padding:28px 80px; background:#f8fafc; border-top:1px solid #f1f5f9; display:flex; justify-content:space-between; align-items:center; flex-shrink:0; }
+  .footer-hora { font-size:22px; color:#94a3b8; font-weight:500; }
+  .footer-site { font-size:22px; color:#c9920a; font-weight:800; }
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="header">
+    <div class="deco1"></div><div class="deco2"></div>
+    <div class="header-top">
+      <div class="logo-area">
+        <div class="logo-circle">
+          <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="50" cy="38" r="26" fill="none" stroke="#c9920a" stroke-width="4"/>
+            <line x1="50" y1="12" x2="50" y2="4" stroke="#c9920a" stroke-width="3" stroke-linecap="round"/>
+            <line x1="24" y1="38" x2="16" y2="38" stroke="#c9920a" stroke-width="3" stroke-linecap="round"/>
+            <line x1="84" y1="38" x2="76" y2="38" stroke="#c9920a" stroke-width="3" stroke-linecap="round"/>
+            <line x1="32" y1="19" x2="26" y2="13" stroke="#c9920a" stroke-width="2.5" stroke-linecap="round"/>
+            <line x1="68" y1="19" x2="74" y2="13" stroke="#c9920a" stroke-width="2.5" stroke-linecap="round"/>
+            <rect x="30" y="52" width="10" height="14" rx="2" fill="#1a2f5e"/>
+            <rect x="44" y="44" width="10" height="22" rx="2" fill="#1a2f5e"/>
+            <rect x="58" y="36" width="10" height="30" rx="2" fill="#1a2f5e"/>
+            <path d="M28 58 Q50 30 74 34" fill="none" stroke="#c9920a" stroke-width="3" stroke-linecap="round"/>
+            <polygon points="74,28 81,37 67,35" fill="#c9920a"/>
+          </svg>
+        </div>
+        <div class="logo-text">
+          <strong>BOM DIA INVESTIDOR</strong>
+          <span>INFORMAÇÃO · ESTRATÉGIA · RESULTADOS</span>
+        </div>
+      </div>
+      <div class="badge"><div class="badge-dot"></div> TOP ALTAS</div>
+    </div>
+    <div class="header-titulo">Maiores altas<br>da B3 hoje</div>
+    <div class="header-sub">{{DATA_EXTENSO}}</div>
+  </div>
+  <div class="gold-bar"></div>
+  <div class="body">
+    <div class="acao">
+      <div class="acao-left">
+        <div class="rank">1</div>
+        <div class="ticker">{{A1_TICKER}}</div>
+        <div><div class="acao-nome">{{A1_NOME}}</div><div class="acao-preco">{{A1_PRECO}}</div></div>
+      </div>
+      <div class="var" style="color:{{A1_COR}};background:{{A1_BG}}">{{A1_VAR}}</div>
+    </div>
+    <div class="acao">
+      <div class="acao-left">
+        <div class="rank">2</div>
+        <div class="ticker">{{A2_TICKER}}</div>
+        <div><div class="acao-nome">{{A2_NOME}}</div><div class="acao-preco">{{A2_PRECO}}</div></div>
+      </div>
+      <div class="var" style="color:{{A2_COR}};background:{{A2_BG}}">{{A2_VAR}}</div>
+    </div>
+    <div class="acao">
+      <div class="acao-left">
+        <div class="rank">3</div>
+        <div class="ticker">{{A3_TICKER}}</div>
+        <div><div class="acao-nome">{{A3_NOME}}</div><div class="acao-preco">{{A3_PRECO}}</div></div>
+      </div>
+      <div class="var" style="color:{{A3_COR}};background:{{A3_BG}}">{{A3_VAR}}</div>
+    </div>
+    <div class="acao">
+      <div class="acao-left">
+        <div class="rank">4</div>
+        <div class="ticker">{{A4_TICKER}}</div>
+        <div><div class="acao-nome">{{A4_NOME}}</div><div class="acao-preco">{{A4_PRECO}}</div></div>
+      </div>
+      <div class="var" style="color:{{A4_COR}};background:{{A4_BG}}">{{A4_VAR}}</div>
+    </div>
+    <div class="acao">
+      <div class="acao-left">
+        <div class="rank">5</div>
+        <div class="ticker">{{A5_TICKER}}</div>
+        <div><div class="acao-nome">{{A5_NOME}}</div><div class="acao-preco">{{A5_PRECO}}</div></div>
+      </div>
+      <div class="var" style="color:{{A5_COR}};background:{{A5_BG}}">{{A5_VAR}}</div>
+    </div>
+  </div>
+  <div class="footer">
+    <span class="footer-hora">Fechamento · 18:00 BRT · 2/2</span>
+    <span class="footer-site">bomdiainvestidor.com.br</span>
+  </div>
+</div>
+</body>
+</html>

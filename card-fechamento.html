@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { width: 1080px; height: 1350px; overflow: hidden; font-family: 'Segoe UI', Arial, sans-serif; background: #fff; }
+  .card { width: 1080px; height: 1350px; position: relative; background: #fff; display: flex; flex-direction: column; }
+
+  .header {
+    background: #1a2f5e;
+    padding: 80px 80px 70px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .deco1 { position:absolute; right:-60px; top:-60px; width:320px; height:320px; border-radius:50%; background:rgba(201,146,10,0.13); }
+  .deco2 { position:absolute; right:80px; bottom:-100px; width:200px; height:200px; border-radius:50%; background:rgba(201,146,10,0.07); }
+
+  .header-top { display:flex; align-items:center; justify-content:space-between; margin-bottom:60px; position:relative; z-index:2; }
+  .logo-area { display:flex; align-items:center; gap:24px; }
+  .logo-circle { width:90px; height:90px; background:#fff; border-radius:50%; display:flex; align-items:center; justify-content:center; flex-shrink:0; }
+  .logo-text strong { font-size:28px; font-weight:900; color:#fff; display:block; letter-spacing:0.5px; }
+  .logo-text span { font-size:20px; color:#c9a24a; font-weight:500; letter-spacing:1px; }
+  .badge {
+    font-size:22px; font-weight:800; letter-spacing:3px; text-transform:uppercase;
+    background:rgba(201,146,10,0.18); color:#f0c060;
+    padding:14px 36px; border-radius:50px;
+    border:2px solid rgba(201,146,10,0.4);
+    display:flex; align-items:center; gap:12px;
+    position:relative; z-index:2;
+  }
+  .badge-dot { width:12px; height:12px; border-radius:50%; background:#f0c060; }
+
+  .header-titulo { font-size:96px; font-weight:900; color:#fff; line-height:1.1; position:relative; z-index:2; }
+  .header-sub { font-size:28px; color:#c9a24a; margin-top:18px; font-weight:500; letter-spacing:0.5px; position:relative; z-index:2; }
+
+  .gold-bar { height:8px; background:linear-gradient(90deg,#c9920a,#f0c060 50%,#c9920a); flex-shrink:0; }
+
+  .body { padding:60px 80px 20px; display:flex; flex-direction:column; gap:0; flex:1; }
+
+  .ativo {
+    display:flex; align-items:center; justify-content:space-between;
+    padding:40px 0; border-bottom:1px solid #f1f5f9;
+  }
+  .ativo:last-child { border-bottom:none; }
+  .ativo-left { display:flex; align-items:center; gap:30px; }
+  .ativo-icon { width:90px; height:90px; border-radius:22px; display:flex; align-items:center; justify-content:center; flex-shrink:0; }
+  .ic-ibov { background:#eef3fb; }
+  .ic-dolar { background:#fef8ec; }
+  .ic-btc { background:#fff4ec; }
+  .ativo-icon svg { width:50px; height:50px; }
+  .ativo-nome { font-size:22px; color:#94a3b8; font-weight:600; letter-spacing:1.5px; text-transform:uppercase; }
+  .ativo-valor { font-size:58px; font-weight:900; color:#0f172a; line-height:1.1; }
+  .var { font-size:32px; font-weight:800; padding:12px 30px; border-radius:14px; }
+
+  .footer { padding:30px 80px; background:#f8fafc; border-top:1px solid #f1f5f9; display:flex; justify-content:space-between; align-items:center; flex-shrink:0; }
+  .footer-hora { font-size:22px; color:#94a3b8; font-weight:500; }
+  .footer-site { font-size:22px; color:#c9920a; font-weight:800; }
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="header">
+    <div class="deco1"></div><div class="deco2"></div>
+    <div class="header-top">
+      <div class="logo-area">
+        <div class="logo-circle">
+          <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="50" cy="38" r="26" fill="none" stroke="#c9920a" stroke-width="4"/>
+            <line x1="50" y1="12" x2="50" y2="4" stroke="#c9920a" stroke-width="3" stroke-linecap="round"/>
+            <line x1="24" y1="38" x2="16" y2="38" stroke="#c9920a" stroke-width="3" stroke-linecap="round"/>
+            <line x1="84" y1="38" x2="76" y2="38" stroke="#c9920a" stroke-width="3" stroke-linecap="round"/>
+            <line x1="32" y1="19" x2="26" y2="13" stroke="#c9920a" stroke-width="2.5" stroke-linecap="round"/>
+            <line x1="68" y1="19" x2="74" y2="13" stroke="#c9920a" stroke-width="2.5" stroke-linecap="round"/>
+            <rect x="30" y="52" width="10" height="14" rx="2" fill="#1a2f5e"/>
+            <rect x="44" y="44" width="10" height="22" rx="2" fill="#1a2f5e"/>
+            <rect x="58" y="36" width="10" height="30" rx="2" fill="#1a2f5e"/>
+            <path d="M28 58 Q50 30 74 34" fill="none" stroke="#c9920a" stroke-width="3" stroke-linecap="round"/>
+            <polygon points="74,28 81,37 67,35" fill="#c9920a"/>
+          </svg>
+        </div>
+        <div class="logo-text">
+          <strong>BOM DIA INVESTIDOR</strong>
+          <span>INFORMAÇÃO · ESTRATÉGIA · RESULTADOS</span>
+        </div>
+      </div>
+      <div class="badge"><div class="badge-dot"></div> FECHAMENTO</div>
+    </div>
+    <div class="header-titulo">Mercado<br>fechou assim</div>
+    <div class="header-sub">{{DATA_EXTENSO}}</div>
+  </div>
+  <div class="gold-bar"></div>
+  <div class="body">
+    <div class="ativo">
+      <div class="ativo-left">
+        <div class="ativo-icon ic-ibov">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#1a2f5e" stroke-width="2" stroke-linecap="round"><rect x="2" y="10" width="4" height="10" rx="1"/><rect x="9" y="6" width="4" height="14" rx="1"/><rect x="16" y="2" width="4" height="18" rx="1"/></svg>
+        </div>
+        <div><div class="ativo-nome">Ibovespa</div><div class="ativo-valor">{{IBOV_VALOR}}</div></div>
+      </div>
+      <div class="var" style="color:{{IBOV_COR}};background:{{IBOV_BG}}">{{IBOV_VAR}}</div>
+    </div>
+    <div class="ativo">
+      <div class="ativo-left">
+        <div class="ativo-icon ic-dolar">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#b45309" stroke-width="2" stroke-linecap="round"><line x1="12" y1="2" x2="12" y2="22"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+        </div>
+        <div><div class="ativo-nome">Dólar</div><div class="ativo-valor">{{DOLAR_VALOR}}</div></div>
+      </div>
+      <div class="var" style="color:{{DOLAR_COR}};background:{{DOLAR_BG}}">{{DOLAR_VAR}}</div>
+    </div>
+    <div class="ativo">
+      <div class="ativo-left">
+        <div class="ativo-icon ic-btc">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#ea580c" stroke-width="2" stroke-linecap="round"><path d="M11.767 19.089c4.924.868 6.14-6.025 1.216-6.894m-1.216 6.894L5.86 18.047m5.908 1.042-.718 4.052m1.927-5.11 1.217 6.894M6.58 13.195l-1.215-6.893m0 0 5.908 1.042M5.365 6.302l-.717 4.051m8.118-5.093c4.924.868 3.707 7.76-1.217 6.893"/></svg>
+        </div>
+        <div><div class="ativo-nome">Bitcoin</div><div class="ativo-valor">{{BTC_VALOR}}</div></div>
+      </div>
+      <div class="var" style="color:{{BTC_COR}};background:{{BTC_BG}}">{{BTC_VAR}}</div>
+    </div>
+  </div>
+  <div class="footer">
+    <span class="footer-hora">Fechamento · 18:00 BRT · 1/2 →</span>
+    <span class="footer-site">bomdiainvestidor.com.br</span>
+  </div>
+</div>
+</body>
+</html>

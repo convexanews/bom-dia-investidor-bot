@@ -1,0 +1,38 @@
+name: Bom Dia Investidor - Carrossel Fechamento
+
+on:
+  schedule:
+    - cron: '0 21 * * 1-5'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  carrossel:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Instalar dependencias
+        run: npm install
+
+      - name: Gerar e publicar carrossel de fechamento
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          IG_ACCOUNT_ID: ${{ secrets.IG_ACCOUNT_ID }}
+          PAGES_TOKEN: ${{ secrets.PAGES_TOKEN }}
+        run: node auto-carrossel-fechamento.cjs
+
+      - name: Salvar registro
+        if: always()
+        run: |
+          git config user.email "bot@bomdiainvestidor.com.br"
+          git config user.name "Bom Dia Investidor Bot"
+          git add verificacoes.json
+          git diff --cached --quiet || git commit -m "Atualiza registro do carrossel de fechamento"
+          git push
