@@ -4,10 +4,15 @@
 const cheerio = require('cheerio');
 
 const FONTES = [
-  { nome: 'InfoMoney',    url: 'https://www.infomoney.com.br/feed/' },
-  { nome: 'Money Times',  url: 'https://www.moneytimes.com.br/feed/' },
-  { nome: 'Exame Invest', url: 'https://exame.com/invest/feed/' },
+  { nome: 'InfoMoney',       url: 'https://www.infomoney.com.br/feed/' },
+  { nome: 'Money Times',     url: 'https://www.moneytimes.com.br/feed/' },
+  { nome: 'Suno',            url: 'https://www.suno.com.br/noticias/feed/' },
+  { nome: 'Exame',           url: 'https://exame.com/feed/' },
+  { nome: 'Exame Invest',    url: 'https://exame.com/invest/feed/' },
+  { nome: 'CNN Brasil',      url: 'https://www.cnnbrasil.com.br/economia/feed/' },
+  { nome: 'Investing.com',   url: 'https://br.investing.com/rss/news.rss' },
   { nome: 'Valor Econômico', url: 'https://valor.globo.com/rss/financas/index.xml' },
+  { nome: 'Bloomberg Línea', url: 'https://www.bloomberglinea.com.br/feed/' },
   { nome: 'Reuters Brasil',  url: 'https://br.reuters.com/rssFeed/businessNews' },
   { nome: 'G1 Economia',     url: 'https://g1.globo.com/rss/g1/economia/' },
 ];
@@ -20,6 +25,17 @@ const PALAVRAS_RELEVANTES = [
   'bitcoin', 'cripto', 'criptomoeda', 'wall street', 'nasdaq', 'dow jones',
   's&p', 'petrobras', 'vale', 'itaú', 'bradesco', 'taxa', 'fed', 'tesouro',
   'recessão', 'pmi', 'câmbio', 'commodities', 'lucro', 'balanço', 'oferta pública',
+  'copom', 'etf', 'renda fixa', 'renda variável', 'cdi', 'ipca+', 'rendimento',
+  'preço', 'alta', 'queda', 'dispara', 'despenca', 'recorde', 'crise',
+  'eua', 'china', 'europa', 'trump', 'lula', 'haddad', 'campos neto',
+  'petróleo', 'ouro', 'minério', 'soja', 'agro', 'energia',
+  'spacex', 'tesla', 'apple', 'nvidia', 'microsoft', 'amazon', 'google',
+  'irã', 'guerra', 'acordo', 'sanção', 'tarifa', 'importação', 'exportação',
+  'emprego', 'desemprego', 'salário', 'renda', 'consumo', 'varejo',
+  'imóvel', 'imobiliário', 'aluguel', 'financiamento', 'crédito',
+  'banco', 'fintech', 'nubank', 'pix', 'drex', 'regulação',
+  'reforma', 'tributária', 'fiscal', 'orçamento', 'déficit', 'superávit',
+  'ipr', 'suzano', 'weg', 'ambev', 'magazine', 'luiza', 'magalu',
 ];
 
 function decodeEntities(str) {
@@ -84,7 +100,7 @@ async function buscarFonte(fonte) {
   }
 }
 
-async function buscarNoticias(limite = 10) {
+async function buscarNoticias(limite = 30) {
   const listas = await Promise.all(FONTES.map(buscarFonte));
   const todas = listas.flat();
   todas.sort((a, b) => b.publicadoEm - a.publicadoEm);
