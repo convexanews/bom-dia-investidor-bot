@@ -1,5 +1,21 @@
 [
   {
+    "data": "2026-06-16T15:31:18.451Z",
+    "resultado": "reel_postado",
+    "mensagem": "Resumo em vídeo do dia publicado com 7 notícia(s).",
+    "reelId": "18109496254846942",
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1781623809638.mp4",
+    "noticias": [
+      "Tesouro IPCA+ com maior juro da década: em quanto tempo o dinheiro pode dobrar?",
+      "Itaúsa (ITSA4) aprova pagamento de JCP no montante bruto de R$ 1,54 bilhão",
+      "Netanyahu e Trump entram em rota de colisão enquanto EUA e Irã concordam em suspender guerra",
+      "Taxas de DIs caem e curva de juros volta a precificar corte na Selic na próxima decisão do Copom",
+      "Ibovespa Futuro cai apesar de alívio geopolítico e decisões de Fed e Copom no radar",
+      "Wall Street tem leve alta com acordo entre EUA e Irã e à espera de Fed; Dow Jones supera 52 mil pontos pela 1ª vez e renova recorde",
+      "Ibovespa Hoje Ao Vivo: Bolsa cai com geopolítica e dados no radar"
+    ]
+  },
+  {
     "data": "2026-06-16T15:29:31.182Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso: \"Ibovespa Hoje Ao Vivo: Bolsa cai com geopolítica e dados no radar\".",
