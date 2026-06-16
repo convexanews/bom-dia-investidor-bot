@@ -1,5 +1,17 @@
 [
   {
+    "data": "2026-06-16T20:56:57.218Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso: \"Ibovespa tem nova queda com Petrobras (PETR4) e no aguardo da ‘Super Quarta’; dólar sobe a R$ 5,08\".",
+    "postId": "18107118713066391",
+    "storyId": "18119731174747881"
+  },
+  {
+    "data": "2026-06-16T20:56:06.401Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 82): \"Ibovespa tem nova queda com Petrobras (PETR4) e no aguardo da ‘Super Quarta’; dólar sobe a R$ 5,08\". Realizando postagem..."
+  },
+  {
     "data": "2026-06-16T20:31:53.378Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso: \"Wall Street fecha sem direção única com acordo entre EUA e Irã em foco; Dow Jones renova recordes\".",
