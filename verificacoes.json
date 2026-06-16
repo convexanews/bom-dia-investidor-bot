@@ -1,5 +1,17 @@
 [
   {
+    "data": "2026-06-16T22:01:42.514Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso: \"Superquarta sem festa? Analistas veem Fed travado e Copom ainda sob pressão\".",
+    "postId": "18225028369316227",
+    "storyId": "18195579940368893"
+  },
+  {
+    "data": "2026-06-16T22:00:53.652Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 42): \"Superquarta sem festa? Analistas veem Fed travado e Copom ainda sob pressão\". Realizando postagem..."
+  },
+  {
     "data": "2026-06-16T21:31:26.804Z",
     "resultado": "erro",
     "mensagem": "Erro na execução automática: Erro ao publicar no feed: {\"error\":{\"message\":\"Media ID is not available\",\"type\":\"OAuthException\",\"code\":9007,\"error_subcode\":2207027,\"is_transient\":false,\"error_user_title\":\"Cannot Publish\",\"error_user_msg\":\"The media is not ready for publishing, please wait for a moment\",\"fbtrace_id\":\"AN8hPSKS7UhAAWLARhZnpRh\"}}"
