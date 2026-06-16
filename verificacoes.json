@@ -1,5 +1,17 @@
 [
   {
+    "data": "2026-06-16T19:01:53.557Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso: \"Ouro fecha em leve alta com expectativas para assinatura de acordo EUA-Irã e Fed no radar\".",
+    "postId": "18084244367532226",
+    "storyId": "17893066059532854"
+  },
+  {
+    "data": "2026-06-16T19:00:59.998Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 46): \"Ouro fecha em leve alta com expectativas para assinatura de acordo EUA-Irã e Fed no radar\". Realizando postagem..."
+  },
+  {
     "data": "2026-06-16T18:31:47.009Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso: \"BofA: Só 31% dos gestores espera Ibovespa acima dos 190 mil pontos em 2026\".",
