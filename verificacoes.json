@@ -1,5 +1,17 @@
 [
   {
+    "data": "2026-06-16T21:01:48.146Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso: \"Dow Jones marca novo recorde intradiário, mas NY fecha sem direção definida\".",
+    "postId": "17943277656231545",
+    "storyId": "18092491964624868"
+  },
+  {
+    "data": "2026-06-16T21:00:57.851Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 54): \"Dow Jones marca novo recorde intradiário, mas NY fecha sem direção definida\". Realizando postagem..."
+  },
+  {
     "data": "2026-06-16T20:56:57.218Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso: \"Ibovespa tem nova queda com Petrobras (PETR4) e no aguardo da ‘Super Quarta’; dólar sobe a R$ 5,08\".",
