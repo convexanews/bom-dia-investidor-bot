@@ -1,5 +1,17 @@
 [
   {
+    "data": "2026-06-16T20:01:38.180Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso: \"Petróleo despenca mais de 5% e Brent fecha abaixo de US$ 80 com acordo EUA-Irã\".",
+    "postId": "17943659373215833",
+    "storyId": "18098130931911894"
+  },
+  {
+    "data": "2026-06-16T20:00:56.892Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 57): \"Petróleo despenca mais de 5% e Brent fecha abaixo de US$ 80 com acordo EUA-Irã\". Realizando postagem..."
+  },
+  {
     "data": "2026-06-16T19:31:50.351Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso: \"Petróleo derruba Petrobras e Ibovespa; dólar fecha em leve alta a R$ 5,06\".",
