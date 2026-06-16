@@ -1,5 +1,17 @@
 [
   {
+    "data": "2026-06-16T18:01:34.851Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso: \"SpaceX compra startup de IA por US$ 60 bilhões; ações sobem\".",
+    "postId": "18133458655579876",
+    "storyId": "18333997897267037"
+  },
+  {
+    "data": "2026-06-16T18:00:47.989Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 46): \"SpaceX compra startup de IA por US$ 60 bilhões; ações sobem\". Realizando postagem..."
+  },
+  {
     "data": "2026-06-16T17:34:03.543Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso: \"Petrobras e bancos pressionam o Ibovespa antes de superquarta; dólar sobe\".",
