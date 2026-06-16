@@ -1,5 +1,17 @@
 [
   {
+    "data": "2026-06-16T18:31:47.009Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso: \"BofA: Só 31% dos gestores espera Ibovespa acima dos 190 mil pontos em 2026\".",
+    "postId": "18087547658099181",
+    "storyId": "18124134490730401"
+  },
+  {
+    "data": "2026-06-16T18:30:50.456Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 45): \"BofA: Só 31% dos gestores espera Ibovespa acima dos 190 mil pontos em 2026\". Realizando postagem..."
+  },
+  {
     "data": "2026-06-16T18:01:34.851Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso: \"SpaceX compra startup de IA por US$ 60 bilhões; ações sobem\".",
