@@ -1,5 +1,17 @@
 [
   {
+    "data": "2026-06-16T12:14:47.431Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso: \"Ibovespa Futuro cai apesar de alívio geopolítico e decisões de Fed e Copom no radar\".",
+    "postId": "18115740202852286",
+    "storyId": "18083537996423053"
+  },
+  {
+    "data": "2026-06-16T12:13:54.152Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 65): \"Ibovespa Futuro cai apesar de alívio geopolítico e decisões de Fed e Copom no radar\". Realizando postagem..."
+  },
+  {
     "data": "2026-06-16T06:39:48.142Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (03:39 BRT). Postagens ocorrem entre 06h e 22h."
