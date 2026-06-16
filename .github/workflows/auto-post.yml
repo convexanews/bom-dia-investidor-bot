@@ -37,19 +37,19 @@ jobs:
           git diff --cached --quiet || git commit -m "Atualiza registro de postagens automaticas"
           git push
 
-      - name: Verificar se deve gerar reel (20h BRT = 23h UTC)
+      - name: Verificar se deve gerar reel (12h BRT = 15h UTC ou 20h BRT = 23h UTC)
         id: check_reel
         run: |
           HORA_UTC=$(date -u +%H)
           HORA_UTC_NUM=$((10#$HORA_UTC))
-          # Janela 23:00-23:59 UTC = 20:00-20:59 BRT
-          if [ "$HORA_UTC_NUM" -eq 23 ]; then
-            # Verifica se ja postou reel nas ultimas 6h (evita duplo post mesmo com atrasos do GitHub)
+          # 15h UTC = 12h BRT (reel do meio-dia) ou 23h UTC = 20h BRT (reel noturno)
+          if [ "$HORA_UTC_NUM" -eq 15 ] || [ "$HORA_UTC_NUM" -eq 23 ]; then
+            # Verifica se ja postou reel nas ultimas 4h (evita duplo post, mas permite 2 por dia)
             JA_FEZ=$(node -e "
               const fs = require('fs');
               const v = JSON.parse(fs.readFileSync('verificacoes.json','utf8'));
-              const seis_horas = 6 * 60 * 60 * 1000;
-              const feito = v.some(e => e.resultado === 'reel_postado' && (Date.now() - new Date(e.data).getTime()) < seis_horas);
+              const quatro_horas = 4 * 60 * 60 * 1000;
+              const feito = v.some(e => e.resultado === 'reel_postado' && (Date.now() - new Date(e.data).getTime()) < quatro_horas);
               console.log(feito ? 'sim' : 'nao');
             ")
             echo "hora_certa=true" >> $GITHUB_OUTPUT
