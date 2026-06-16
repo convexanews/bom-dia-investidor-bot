@@ -4,8 +4,12 @@
 const cheerio = require('cheerio');
 
 const FONTES = [
-  { nome: 'InfoMoney', url: 'https://www.infomoney.com.br/feed/' },
-  { nome: 'Money Times', url: 'https://www.moneytimes.com.br/feed/' },
+  { nome: 'InfoMoney',    url: 'https://www.infomoney.com.br/feed/' },
+  { nome: 'Money Times',  url: 'https://www.moneytimes.com.br/feed/' },
+  { nome: 'Exame Invest', url: 'https://exame.com/invest/feed/' },
+  { nome: 'Valor Econômico', url: 'https://valor.globo.com/rss/financas/index.xml' },
+  { nome: 'Reuters Brasil',  url: 'https://br.reuters.com/rssFeed/businessNews' },
+  { nome: 'G1 Economia',     url: 'https://g1.globo.com/rss/g1/economia/' },
 ];
 
 // Palavras-chave que indicam conteúdo de mercado/economia (filtra esportes, famosos, etc.)

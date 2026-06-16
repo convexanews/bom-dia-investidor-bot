@@ -44,9 +44,25 @@ async function buscarImagemArtigo(link) {
   }
 }
 
+const HASHTAGS = '#investimentos #bolsadevalores #ibovespa #mercadofinanceiro #dolar #economiabrasileira #acoes #b3 #educacaofinanceira #financas #investidor #independenciafinanceira #trading #noticias #mercado';
+
+const CTAS = [
+  '💬 Comente o que você acha disso!',
+  '📌 Salve para não perder essa informação!',
+  '👇 Marque um amigo investidor!',
+  '🔔 Ative as notificações para não perder nada!',
+  '🤔 Concorda? Comente abaixo!',
+];
+
 function montarLegenda(cfg) {
+  const cta = CTAS[Math.floor(Date.now() / 1000) % CTAS.length];
   const base = `${cfg.manchete}\n\n${cfg.resumo || ''}\n\nFonte: ${cfg.fonte || ''}`;
-  return `${base}\n\n📊 Fique por dentro de mais notícias do mercado financeiro: https://bomdiainvestidor.com.br/`;
+  return `${base}\n\n${cta}\n\n📊 Fique por dentro de mais notícias do mercado financeiro: https://bomdiainvestidor.com.br/\n\n${HASHTAGS}`;
+}
+
+function estaNoHorarioPico() {
+  const hora = parseInt(new Date().toLocaleString('en-US', { timeZone: 'America/Sao_Paulo', hour: 'numeric', hour12: false }));
+  return hora >= 6 && hora < 22;
 }
 
 async function aguardarContainerPronto(containerId, tentativas = 15) {
@@ -105,6 +121,13 @@ async function main() {
 
   const postadas = new Set(carregarJson(POSTADAS_FILE, []));
   const relatorio = carregarJson(RELATORIO_FILE, []);
+
+  if (!estaNoHorarioPico()) {
+    const hora = new Date().toLocaleString('pt-BR', { timeZone: 'America/Sao_Paulo', hour: '2-digit', minute: '2-digit' });
+    console.log(`Fora do horário de postagem (${hora} BRT). Postagens acontecem entre 06h e 22h.`);
+    registrarVerificacao('fora_horario', `Verificação fora do horário de pico (${hora} BRT). Postagens ocorrem entre 06h e 22h.`);
+    return;
+  }
 
   const noticias = await buscarNoticias();
   const nova = noticias.find(n => n.link && !postadas.has(n.link));
