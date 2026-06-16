@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-16T06:39:48.142Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (03:39 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-06-16T01:36:00.956Z",
     "resultado": "postado",
     "mensagem": "Postagem manual realizada pelo painel local: \"Taxas de DIs caem e curva de juros volta a precificar corte na Selic na próxima decisão do Copom\".",
