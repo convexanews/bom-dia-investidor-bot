@@ -1,5 +1,17 @@
 [
   {
+    "data": "2026-06-16T14:39:45.055Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso: \"Wall Street tem leve alta com acordo entre EUA e Irã e à espera de Fed; Dow Jones supera 52 mil pontos pela 1ª vez e renova recorde\".",
+    "postId": "18080913443650229",
+    "storyId": "17959127223132482"
+  },
+  {
+    "data": "2026-06-16T14:38:52.912Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 107): \"Wall Street tem leve alta com acordo entre EUA e Irã e à espera de Fed; Dow Jones supera 52 mil pontos pela 1ª vez e renova recorde\". Realizando postagem..."
+  },
+  {
     "data": "2026-06-16T12:14:47.431Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso: \"Ibovespa Futuro cai apesar de alívio geopolítico e decisões de Fed e Copom no radar\".",
