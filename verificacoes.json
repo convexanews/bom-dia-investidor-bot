@@ -1,5 +1,17 @@
 [
   {
+    "data": "2026-06-16T17:31:38.051Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso: \"Dólar opera em alta, de olho no petróleo e à espera de decisões de juros; Ibovespa cai\".",
+    "postId": "18204308290358526",
+    "storyId": "18103942948973660"
+  },
+  {
+    "data": "2026-06-16T17:30:42.475Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 49): \"Dólar opera em alta, de olho no petróleo e à espera de decisões de juros; Ibovespa cai\". Realizando postagem..."
+  },
+  {
     "data": "2026-06-16T17:01:56.334Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso: \"HSBC muda rota para os juros e vê Selic em 14,25% até 2027\".",
