@@ -1,5 +1,17 @@
 [
   {
+    "data": "2026-06-16T20:31:53.378Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso: \"Wall Street fecha sem direção única com acordo entre EUA e Irã em foco; Dow Jones renova recordes\".",
+    "postId": "17882947557438414",
+    "storyId": "18254102788305259"
+  },
+  {
+    "data": "2026-06-16T20:30:53.564Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 93): \"Wall Street fecha sem direção única com acordo entre EUA e Irã em foco; Dow Jones renova recordes\". Realizando postagem..."
+  },
+  {
     "data": "2026-06-16T20:01:38.180Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso: \"Petróleo despenca mais de 5% e Brent fecha abaixo de US$ 80 com acordo EUA-Irã\".",
