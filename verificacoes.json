@@ -1,5 +1,22 @@
 [
   {
+    "data": "2026-06-16T22:47:28.757Z",
+    "resultado": "carrossel_fechamento",
+    "mensagem": "Carrossel de fechamento publicado. Ibovespa: 169.648 -0,87%",
+    "postId": "17877866910478978",
+    "ibov": {
+      "valor": "169.648",
+      "variacao": "-0,87%"
+    },
+    "topAltas": [
+      "RAIZ4 +2,38%",
+      "RADL3 +2,20%",
+      "RDOR3 +0,83%",
+      "SUZB3 +0,80%",
+      "RENT3 +0,76%"
+    ]
+  },
+  {
     "data": "2026-06-16T22:31:35.272Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso: \"SNEL11 negocia mais de R$ 10 mi enquanto IPO da SpaceX reforça tese energética\".",
