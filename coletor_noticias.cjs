@@ -51,6 +51,55 @@ function decodeEntities(str) {
     .trim();
 }
 
+// Peso alto = notícia que mexe forte no mercado / bolso do investidor
+const PESO_ALTO = [
+  'selic', 'copom', 'fed', 'juros', 'inflação', 'ipca', 'pib',
+  'ibovespa', 'b3', 'wall street', 'nasdaq', 'dow jones', 's&p',
+  'dólar', 'câmbio', 'recessão', 'crise',
+  'banco central', 'campos neto', 'haddad',
+  'guerra', 'sanção', 'acordo', 'tarifa',
+  'recorde', 'dispara', 'despenca', 'tomba', 'derrete', 'crash',
+  'reforma tributária', 'fiscal',
+  'petrobras', 'vale', 'itaú', 'bradesco',
+  'bitcoin', 'spacex', 'nvidia', 'tesla', 'apple',
+  'ipo', 'fusão', 'aquisição', 'oferta pública',
+];
+
+// Peso médio = relevante mas menos urgente
+const PESO_MEDIO = [
+  'mercado', 'bolsa', 'ação', 'ações', 'economia',
+  'dividendo', 'fii', 'fiis', 'fundo', 'etf',
+  'investimento', 'investidor', 'rendimento',
+  'lucro', 'balanço', 'resultado',
+  'petróleo', 'ouro', 'minério', 'commodities',
+  'emprego', 'desemprego', 'salário', 'varejo', 'consumo',
+  'dólar', 'real', 'taxa',
+  'eua', 'china', 'europa', 'trump', 'lula',
+  'banco', 'crédito', 'financiamento',
+];
+
+function calcularPesoImpacto(titulo, descricao, categorias) {
+  const texto = (titulo + ' ' + (descricao || '') + ' ' + categorias.join(' ')).toLowerCase();
+  let peso = 0;
+
+  for (const p of PESO_ALTO) {
+    if (texto.includes(p)) peso += 10;
+  }
+  for (const p of PESO_MEDIO) {
+    if (texto.includes(p)) peso += 3;
+  }
+
+  // Bônus: título com palavras de urgência/impacto
+  const tituloLower = titulo.toLowerCase();
+  if (/urgente|breaking|alerta|última hora/.test(tituloLower)) peso += 20;
+  if (/dispara|despenca|recorde|crash|tomba|derrete|surpreende/.test(tituloLower)) peso += 15;
+  if (/sobe mais de \d|cai mais de \d|alta de \d|queda de \d/.test(tituloLower)) peso += 12;
+
+  // Bônus por múltiplas fontes cobrindo o mesmo tema (será calculado externamente)
+  // Penalidade leve por notícia muito antiga (>12h)
+  return peso;
+}
+
 function pareceRelevante(titulo, categorias) {
   const texto = (titulo + ' ' + categorias.join(' ')).toLowerCase();
   return PALAVRAS_RELEVANTES.some(p => texto.includes(p));
@@ -81,6 +130,9 @@ async function buscarFonte(fonte) {
 
       if (!titulo || !pareceRelevante(titulo, categorias)) return;
 
+      const publicadoEm = pubDate ? new Date(pubDate).getTime() : 0;
+      const peso = calcularPesoImpacto(titulo, descricao, categorias);
+
       itens.push({
         titulo,
         link,
@@ -89,7 +141,8 @@ async function buscarFonte(fonte) {
         imagem,
         fonte: fonte.nome,
         pubDate,
-        publicadoEm: pubDate ? new Date(pubDate).getTime() : 0,
+        publicadoEm,
+        peso,
       });
     });
 
@@ -100,11 +153,61 @@ async function buscarFonte(fonte) {
   }
 }
 
+function normalizarTexto(str) {
+  return str.toLowerCase()
+    .normalize('NFD').replace(/[̀-ͯ]/g, '')
+    .replace(/[^a-z0-9 ]/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+function titulosSimilares(a, b) {
+  const na = normalizarTexto(a);
+  const nb = normalizarTexto(b);
+  if (na === nb) return true;
+  // Checa se um contém >70% das palavras do outro
+  const pa = new Set(na.split(' ').filter(w => w.length > 3));
+  const pb = new Set(nb.split(' ').filter(w => w.length > 3));
+  if (pa.size === 0 || pb.size === 0) return false;
+  let comuns = 0;
+  for (const w of pa) { if (pb.has(w)) comuns++; }
+  const menor = Math.min(pa.size, pb.size);
+  return (comuns / menor) >= 0.7;
+}
+
 async function buscarNoticias(limite = 30) {
   const listas = await Promise.all(FONTES.map(buscarFonte));
   const todas = listas.flat();
-  todas.sort((a, b) => b.publicadoEm - a.publicadoEm);
-  return todas.slice(0, limite);
+
+  // Bônus: se múltiplas fontes cobrem o mesmo tema, aumenta o peso
+  for (let i = 0; i < todas.length; i++) {
+    let cobertura = 0;
+    for (let j = 0; j < todas.length; j++) {
+      if (i !== j && titulosSimilares(todas[i].titulo, todas[j].titulo)) cobertura++;
+    }
+    if (cobertura > 0) todas[i].peso += cobertura * 8;
+  }
+
+  // Penalidade por notícia velha (>12h perde peso gradualmente)
+  const agora = Date.now();
+  for (const n of todas) {
+    if (n.publicadoEm > 0) {
+      const horasAtras = (agora - n.publicadoEm) / (1000 * 60 * 60);
+      if (horasAtras > 12) n.peso -= Math.floor(horasAtras - 12) * 2;
+    }
+  }
+
+  // Ordena por peso (impacto) decrescente; desempate por data mais recente
+  todas.sort((a, b) => b.peso - a.peso || b.publicadoEm - a.publicadoEm);
+
+  // Remove duplicatas (mesmo assunto de fontes diferentes)
+  const unicas = [];
+  for (const n of todas) {
+    const jaTem = unicas.some(u => titulosSimilares(u.titulo, n.titulo));
+    if (!jaTem) unicas.push(n);
+  }
+
+  return unicas.slice(0, limite);
 }
 
 if (require.main === module) {

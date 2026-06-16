@@ -130,7 +130,28 @@ async function main() {
   }
 
   const noticias = await buscarNoticias();
-  const nova = noticias.find(n => n.link && !postadas.has(n.link));
+
+  // Títulos já postados (para evitar duplicatas por assunto, não só por link)
+  const titulosPostados = relatorio.map(r => (r.titulo || '').toLowerCase());
+
+  function tituloJaPostado(titulo) {
+    const norm = titulo.toLowerCase()
+      .normalize('NFD').replace(/[̀-ͯ]/g, '')
+      .replace(/[^a-z0-9 ]/g, ' ').replace(/\s+/g, ' ').trim();
+    const palavras = new Set(norm.split(' ').filter(w => w.length > 3));
+    return titulosPostados.some(tp => {
+      const normTp = tp.normalize('NFD').replace(/[̀-ͯ]/g, '')
+        .replace(/[^a-z0-9 ]/g, ' ').replace(/\s+/g, ' ').trim();
+      const pTp = new Set(normTp.split(' ').filter(w => w.length > 3));
+      if (pTp.size === 0 || palavras.size === 0) return false;
+      let comuns = 0;
+      for (const w of palavras) { if (pTp.has(w)) comuns++; }
+      return (comuns / Math.min(palavras.size, pTp.size)) >= 0.7;
+    });
+  }
+
+  // Já vem ordenado por peso (impacto) do coletor - pega o mais impactante não postado
+  const nova = noticias.find(n => n.link && !postadas.has(n.link) && !tituloJaPostado(n.titulo));
 
   if (!nova) {
     console.log('Nenhuma noticia nova no momento. Nada a postar.');
@@ -138,7 +159,8 @@ async function main() {
     return;
   }
 
-  registrarVerificacao('noticia_encontrada', `Notícia nova encontrada: "${nova.titulo}". Realizando postagem...`);
+  console.log(`Notícia selecionada (peso ${nova.peso || '?'}): ${nova.titulo}`);
+  registrarVerificacao('noticia_encontrada', `Notícia nova encontrada (peso ${nova.peso || '?'}): "${nova.titulo}". Realizando postagem...`);
 
   const cfg = {
     categoria: (nova.categorias && nova.categorias[0]) || 'MERCADO',
