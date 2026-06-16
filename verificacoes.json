@@ -1,5 +1,17 @@
 [
   {
+    "data": "2026-06-16T19:31:50.351Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso: \"Petróleo derruba Petrobras e Ibovespa; dólar fecha em leve alta a R$ 5,06\".",
+    "postId": "17955557913165014",
+    "storyId": "18603006388030313"
+  },
+  {
+    "data": "2026-06-16T19:30:55.704Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 43): \"Petróleo derruba Petrobras e Ibovespa; dólar fecha em leve alta a R$ 5,06\". Realizando postagem..."
+  },
+  {
     "data": "2026-06-16T19:01:53.557Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso: \"Ouro fecha em leve alta com expectativas para assinatura de acordo EUA-Irã e Fed no radar\".",
