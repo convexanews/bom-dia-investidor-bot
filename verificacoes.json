@@ -1,5 +1,15 @@
 [
   {
+    "data": "2026-06-16T16:06:57.643Z",
+    "resultado": "erro",
+    "mensagem": "Erro na execução automática: Erro ao criar container do feed: {\"error\":{\"message\":\"Only photo or video can be accepted as media type.\",\"type\":\"OAuthException\",\"code\":9004,\"error_subcode\":2207052,\"is_transient\":false,\"error_user_title\":\"Media download has failed. The media URI doesn't meet our requirements.\",\"error_user_msg\":\"The media could not be fetched from this URI: https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781625992160-feed.png.Please check the limitations section in our development document for more information: https://developers.facebook.com/docs/instagram-platform/instagram-graph-api/reference/ig-user/media#creating\",\"fbtrace_id\":\"A1UhhdJn59EmKqmxLrEEjE6\"}}"
+  },
+  {
+    "data": "2026-06-16T16:06:28.483Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 57): \"Petrobras e bancos pressionam o Ibovespa antes de superquarta; dólar sobe\". Realizando postagem..."
+  },
+  {
     "data": "2026-06-16T15:31:18.451Z",
     "resultado": "reel_postado",
     "mensagem": "Resumo em vídeo do dia publicado com 7 notícia(s).",
