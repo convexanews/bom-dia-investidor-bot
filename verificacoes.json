@@ -1,5 +1,17 @@
 [
   {
+    "data": "2026-06-16T17:01:56.334Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso: \"HSBC muda rota para os juros e vê Selic em 14,25% até 2027\".",
+    "postId": "18460843678104113",
+    "storyId": "18122935093675922"
+  },
+  {
+    "data": "2026-06-16T17:01:04.911Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 52): \"HSBC muda rota para os juros e vê Selic em 14,25% até 2027\". Realizando postagem..."
+  },
+  {
     "data": "2026-06-16T16:31:45.796Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso: \"Copom deveria manter jogo aberto sobre juros diante das incertezas, afirma economista-chefe do Inter\".",
