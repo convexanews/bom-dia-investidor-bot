@@ -36,3 +36,46 @@ jobs:
           git add noticias-postadas.json relatorio.json verificacoes.json
           git diff --cached --quiet || git commit -m "Atualiza registro de postagens automaticas"
           git push
+
+      - name: Verificar se deve gerar reel (20h BRT = 23h UTC)
+        id: check_reel
+        run: |
+          HORA_UTC=$(date -u +%H)
+          HORA_UTC_NUM=$((10#$HORA_UTC))
+          # Janela 23:00-23:59 UTC = 20:00-20:59 BRT
+          if [ "$HORA_UTC_NUM" -eq 23 ]; then
+            # Verifica se ja postou reel nas ultimas 6h (evita duplo post mesmo com atrasos do GitHub)
+            JA_FEZ=$(node -e "
+              const fs = require('fs');
+              const v = JSON.parse(fs.readFileSync('verificacoes.json','utf8'));
+              const seis_horas = 6 * 60 * 60 * 1000;
+              const feito = v.some(e => e.resultado === 'reel_postado' && (Date.now() - new Date(e.data).getTime()) < seis_horas);
+              console.log(feito ? 'sim' : 'nao');
+            ")
+            echo "hora_certa=true" >> $GITHUB_OUTPUT
+            echo "ja_fez=$JA_FEZ" >> $GITHUB_OUTPUT
+          else
+            echo "hora_certa=false" >> $GITHUB_OUTPUT
+            echo "ja_fez=nao" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Instalar ffmpeg para reel
+        if: steps.check_reel.outputs.hora_certa == 'true' && steps.check_reel.outputs.ja_fez == 'nao'
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg
+
+      - name: Gerar e publicar reel do dia
+        if: steps.check_reel.outputs.hora_certa == 'true' && steps.check_reel.outputs.ja_fez == 'nao'
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          IG_ACCOUNT_ID: ${{ secrets.IG_ACCOUNT_ID }}
+          PAGES_TOKEN: ${{ secrets.PAGES_TOKEN }}
+        run: node auto-reel.cjs
+
+      - name: Salvar registro do reel
+        if: steps.check_reel.outputs.hora_certa == 'true' && steps.check_reel.outputs.ja_fez == 'nao'
+        run: |
+          git config user.email "bot@bomdiainvestidor.com.br"
+          git config user.name "Bom Dia Investidor Bot"
+          git add verificacoes.json
+          git diff --cached --quiet || git commit -m "Atualiza registro do reel diario"
+          git push
