@@ -1,5 +1,17 @@
 [
   {
+    "data": "2026-06-16T23:31:38.149Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso: \"Leilões de propriedades rurais disparam no Brasil com aumento da inadimplência no campo\".",
+    "postId": "18086336591417302",
+    "storyId": "18398266528080857"
+  },
+  {
+    "data": "2026-06-16T23:30:48.935Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 32): \"Leilões de propriedades rurais disparam no Brasil com aumento da inadimplência no campo\". Realizando postagem..."
+  },
+  {
     "data": "2026-06-16T23:04:02.748Z",
     "resultado": "reel_postado",
     "mensagem": "Resumo em vídeo do dia publicado com 21 notícia(s).",
