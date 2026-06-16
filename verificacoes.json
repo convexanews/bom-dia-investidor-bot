@@ -1,5 +1,35 @@
 [
   {
+    "data": "2026-06-16T23:04:02.748Z",
+    "resultado": "reel_postado",
+    "mensagem": "Resumo em vídeo do dia publicado com 21 notícia(s).",
+    "reelId": "18078912827406062",
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1781650931343.mp4",
+    "noticias": [
+      "Netanyahu e Trump entram em rota de colisão enquanto EUA e Irã concordam em suspender guerra",
+      "Taxas de DIs caem e curva de juros volta a precificar corte na Selic na próxima decisão do Copom",
+      "Ibovespa Futuro cai apesar de alívio geopolítico e decisões de Fed e Copom no radar",
+      "Wall Street tem leve alta com acordo entre EUA e Irã e à espera de Fed; Dow Jones supera 52 mil pontos pela 1ª vez e renova recorde",
+      "Ibovespa Hoje Ao Vivo: Bolsa cai com geopolítica e dados no radar",
+      "Copom deveria manter jogo aberto sobre juros diante das incertezas, afirma economista-chefe do Inter",
+      "HSBC muda rota para os juros e vê Selic em 14,25% até 2027",
+      "Dólar opera em alta, de olho no petróleo e à espera de decisões de juros; Ibovespa cai",
+      "Petrobras e bancos pressionam o Ibovespa antes de superquarta; dólar sobe",
+      "SpaceX compra startup de IA por US$ 60 bilhões; ações sobem",
+      "BofA: Só 31% dos gestores espera Ibovespa acima dos 190 mil pontos em 2026",
+      "Ouro fecha em leve alta com expectativas para assinatura de acordo EUA-Irã e Fed no radar",
+      "Petróleo derruba Petrobras e Ibovespa; dólar fecha em leve alta a R$ 5,06",
+      "Petróleo despenca mais de 5% e Brent fecha abaixo de US$ 80 com acordo EUA-Irã",
+      "Wall Street fecha sem direção única com acordo entre EUA e Irã em foco; Dow Jones renova recordes",
+      "Ibovespa tem nova queda com Petrobras (PETR4) e no aguardo da ‘Super Quarta’; dólar sobe a R$ 5,08",
+      "Dow Jones marca novo recorde intradiário, mas NY fecha sem direção definida",
+      "Superquarta sem festa? Analistas veem Fed travado e Copom ainda sob pressão",
+      "SNEL11 negocia mais de R$ 10 mi enquanto IPO da SpaceX reforça tese energética",
+      "Taxas de DIs sobem à espera de corte na Selic para 14,25%",
+      "Navio de guerra russo dispara tiros de advertência perto de iate britânico"
+    ]
+  },
+  {
     "data": "2026-06-16T23:01:42.179Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso: \"Navio de guerra russo dispara tiros de advertência perto de iate britânico\".",
