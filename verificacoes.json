@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-06-17T20:33:04.106Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel narrado): \"Fed mantém juros dos EUA entre 3,50% e 3,75% ao ano; decisão era esperada\".",
+    "postId": "17970091803073973",
+    "storyId": null,
+    "reelId": "17970091803073973",
+    "tipo": "reel_narrado"
+  },
+  {
+    "data": "2026-06-17T20:31:03.324Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 45): \"Fed mantém juros dos EUA entre 3,50% e 3,75% ao ano; decisão era esperada\". Realizando postagem..."
+  },
+  {
     "data": "2026-06-17T20:10:36.596Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel narrado): \"Dólar sobe a R$ 5,10 após falas de Warsh e sinalização de política monetária restritiva nos EUA\".",
