@@ -1,5 +1,22 @@
 [
   {
+    "data": "2026-06-17T23:03:02.195Z",
+    "resultado": "reel_postado",
+    "mensagem": "Resumo em vídeo do dia publicado com 8 notícia(s).",
+    "reelId": "18105503557822034",
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1781737292156.mp4",
+    "noticias": [
+      "Navio de guerra russo dispara tiros de advertência perto de iate britânico",
+      "Leilões de propriedades rurais disparam no Brasil com aumento da inadimplência no campo",
+      "Nasdaq e S&P 500 recuam, enquanto Dow Jones atinge novo recorde de fechamento",
+      "Privatização da Copasa é concluída em cerimônia na B3",
+      "Prévia do PIB e decisões de juros no Brasil e EUA: o que move os mercados",
+      "Ibovespa Futuro sobe antes das decisões de juros no Brasil e EUA",
+      "Dólar hoje recua antes das decisões de juros do Copom e Fed",
+      "Ibovespa Hoje Ao Vivo: Bolsa sobe e volta a testar os 171 mil pontos"
+    ]
+  },
+  {
     "data": "2026-06-17T23:01:11.954Z",
     "resultado": "limite_diario",
     "mensagem": "Limite de 15 posts diários atingido (15 já publicados hoje)."
