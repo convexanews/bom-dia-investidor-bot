@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-17T21:01:13.248Z",
+    "resultado": "limite_diario",
+    "mensagem": "Limite de 15 posts diários atingido (15 já publicados hoje)."
+  },
+  {
     "data": "2026-06-17T20:33:04.106Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel narrado): \"Fed mantém juros dos EUA entre 3,50% e 3,75% ao ano; decisão era esperada\".",
