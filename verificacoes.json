@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-06-17T18:34:10.332Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel narrado): \"JPMorgan vê mercado exagerando no Fed: alta de juros só em 2027?\".",
+    "postId": "17976977400028882",
+    "storyId": null,
+    "reelId": "17976977400028882",
+    "tipo": "reel_narrado"
+  },
+  {
+    "data": "2026-06-17T18:31:30.554Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 49): \"JPMorgan vê mercado exagerando no Fed: alta de juros só em 2027?\". Realizando postagem..."
+  },
+  {
     "data": "2026-06-17T18:03:56.754Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel narrado): \"Bolsas europeias fecham na maioria em alta à espera do Fed e avanço em acordo EUA-Irã\".",
