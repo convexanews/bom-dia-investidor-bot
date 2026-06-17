@@ -129,6 +129,19 @@ async function main() {
     return;
   }
 
+  // Limite de 15 posts de notícia por dia (Instagram permite 25/dia; reserva margem para reel e carrossel)
+  const MAX_POSTS_DIA = 15;
+  const inicioDia = new Date(new Date().toLocaleString('en-US', { timeZone: 'America/Sao_Paulo' }));
+  inicioDia.setHours(0, 0, 0, 0);
+  const postasHoje = relatorio.filter(p =>
+    p.origem !== 'manual' && new Date(p.data) >= inicioDia
+  ).length;
+  if (postasHoje >= MAX_POSTS_DIA) {
+    console.log(`Limite diário atingido (${postasHoje}/${MAX_POSTS_DIA} posts hoje). Nada a postar.`);
+    registrarVerificacao('limite_diario', `Limite de ${MAX_POSTS_DIA} posts diários atingido (${postasHoje} já publicados hoje).`);
+    return;
+  }
+
   const noticias = await buscarNoticias();
 
   // Títulos já postados (para evitar duplicatas por assunto, não só por link)
