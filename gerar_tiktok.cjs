@@ -19,7 +19,7 @@ function escapeHtml(str) {
 async function gerarTTS(texto, saida) {
   const textoEscapado = texto.replace(/"/g, '\\"');
   execSync(
-    `python -m edge_tts --voice "pt-BR-AntonioNeural" --rate "-8%" --pitch "-8Hz" --text "${textoEscapado}" --write-media "${saida}"`,
+    `python -m edge_tts --voice "pt-BR-AntonioNeural" --rate="-8%" --pitch="-8Hz" --text "${textoEscapado}" --write-media "${saida}"`,
     { stdio: 'inherit', timeout: 60000 }
   );
   return saida;
