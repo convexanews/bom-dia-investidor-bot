@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-06-17T19:03:09.517Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel narrado): \"Ibovespa: o que fez o índice sair de alta de 1% para quase zerar ganhos após Fed\".",
+    "postId": "18082182170235032",
+    "storyId": null,
+    "reelId": "18082182170235032",
+    "tipo": "reel_narrado"
+  },
+  {
+    "data": "2026-06-17T19:01:20.394Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 48): \"Ibovespa: o que fez o índice sair de alta de 1% para quase zerar ganhos após Fed\". Realizando postagem..."
+  },
+  {
     "data": "2026-06-17T18:34:10.332Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel narrado): \"JPMorgan vê mercado exagerando no Fed: alta de juros só em 2027?\".",
