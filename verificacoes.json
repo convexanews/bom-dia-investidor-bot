@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-06-17T17:03:32.910Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel narrado): \"Acordo EUA-Irã reduz ruído, mas não sustenta rotação para ações de consumo na B3\".",
+    "postId": "18464657410129147",
+    "storyId": null,
+    "reelId": "18464657410129147",
+    "tipo": "reel_narrado"
+  },
+  {
+    "data": "2026-06-17T17:01:55.928Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 71): \"Acordo EUA-Irã reduz ruído, mas não sustenta rotação para ações de consumo na B3\". Realizando postagem..."
+  },
+  {
     "data": "2026-06-17T16:33:04.494Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel narrado): \"Surge uma potencial pagadora de dividendos na bolsa — e ela pode subir mais de 50%\".",
