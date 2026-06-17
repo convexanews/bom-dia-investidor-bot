@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-17T22:03:54.856Z",
+    "resultado": "limite_diario",
+    "mensagem": "Limite de 15 posts diários atingido (15 já publicados hoje)."
+  },
+  {
     "data": "2026-06-17T21:30:56.611Z",
     "resultado": "limite_diario",
     "mensagem": "Limite de 15 posts diários atingido (15 já publicados hoje)."
