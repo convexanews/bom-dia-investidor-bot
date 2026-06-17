@@ -1,5 +1,17 @@
 [
   {
+    "data": "2026-06-17T09:01:49.583Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso: \"Prévia do PIB e decisões de juros no Brasil e EUA: o que move os mercados\".",
+    "postId": "17976810417018970",
+    "storyId": "18330551050269652"
+  },
+  {
+    "data": "2026-06-17T09:00:55.116Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 57): \"Prévia do PIB e decisões de juros no Brasil e EUA: o que move os mercados\". Realizando postagem..."
+  },
+  {
     "data": "2026-06-17T08:30:45.463Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (05:30 BRT). Postagens ocorrem entre 06h e 22h."
