@@ -163,16 +163,27 @@ async function main() {
     });
   }
 
-  // Já vem ordenado por peso (impacto) do coletor - pega o mais impactante não postado
-  const nova = noticias.find(n => n.link && !postadas.has(n.link) && !tituloJaPostado(n.titulo));
+  // Filtra apenas notícias das últimas 1h e não postadas, já ordenadas por peso (impacto)
+  const UMA_HORA_MS = 60 * 60 * 1000;
+  const agora = Date.now();
+  const candidatas = noticias.filter(n =>
+    n.link &&
+    !postadas.has(n.link) &&
+    !tituloJaPostado(n.titulo) &&
+    n.publicadoEm > 0 &&
+    (agora - n.publicadoEm) <= UMA_HORA_MS
+  );
+
+  // Se não houver notícia nova na última 1h, não posta (evita conteúdo desatualizado)
+  const nova = candidatas[0] || null;
 
   if (!nova) {
-    console.log('Nenhuma noticia nova no momento. Nada a postar.');
-    registrarVerificacao('sem_noticia', 'Nenhuma notícia nova encontrada. Nada foi postado.');
+    console.log('Nenhuma noticia nova na última 1h. Nada a postar.');
+    registrarVerificacao('sem_noticia', 'Nenhuma notícia nova na última hora. Nada foi postado.');
     return;
   }
 
-  console.log(`Notícia selecionada (peso ${nova.peso || '?'}): ${nova.titulo}`);
+  console.log(`Notícia selecionada (peso ${nova.peso}): ${nova.titulo}`);
   registrarVerificacao('noticia_encontrada', `Notícia nova encontrada (peso ${nova.peso || '?'}): "${nova.titulo}". Realizando postagem...`);
 
   const cfg = {
