@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-06-17T19:41:14.783Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel narrado): \"Por que o Tesouro IPCA+ de longo prazo passou a recuar após 1ª fala de Warsh no Fed?\".",
+    "postId": "18106091344917972",
+    "storyId": null,
+    "reelId": "18106091344917972",
+    "tipo": "reel_narrado"
+  },
+  {
+    "data": "2026-06-17T19:39:28.044Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 49): \"Por que o Tesouro IPCA+ de longo prazo passou a recuar após 1ª fala de Warsh no Fed?\". Realizando postagem..."
+  },
+  {
     "data": "2026-06-17T19:03:09.517Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel narrado): \"Ibovespa: o que fez o índice sair de alta de 1% para quase zerar ganhos após Fed\".",
