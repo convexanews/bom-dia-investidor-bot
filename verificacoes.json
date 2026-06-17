@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-06-17T20:10:36.596Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel narrado): \"Dólar sobe a R$ 5,10 após falas de Warsh e sinalização de política monetária restritiva nos EUA\".",
+    "postId": "17907945291424689",
+    "storyId": null,
+    "reelId": "17907945291424689",
+    "tipo": "reel_narrado"
+  },
+  {
+    "data": "2026-06-17T20:08:30.996Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 68): \"Dólar sobe a R$ 5,10 após falas de Warsh e sinalização de política monetária restritiva nos EUA\". Realizando postagem..."
+  },
+  {
     "data": "2026-06-17T19:41:14.783Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel narrado): \"Por que o Tesouro IPCA+ de longo prazo passou a recuar após 1ª fala de Warsh no Fed?\".",
