@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-17T23:31:09.914Z",
+    "resultado": "limite_diario",
+    "mensagem": "Limite de 15 posts diários atingido (15 já publicados hoje)."
+  },
+  {
     "data": "2026-06-17T23:03:02.195Z",
     "resultado": "reel_postado",
     "mensagem": "Resumo em vídeo do dia publicado com 8 notícia(s).",
