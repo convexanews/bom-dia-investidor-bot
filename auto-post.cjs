@@ -7,6 +7,10 @@ const path = require('path');
 const { execSync } = require('child_process');
 const { buscarNoticias } = require('./coletor_noticias.cjs');
 const { gerarCard } = require('./gerar_card_noticia.cjs');
+const { gerarVideoTikTok, montarLegendaTikTok } = require('./gerar_tiktok.cjs');
+
+const PESO_MINIMO_REEL = 30;
+const TIKTOK_POSTADAS_FILE = path.join(__dirname, 'tiktok-postadas.json');
 
 const IG_API_BASE = 'https://graph.instagram.com/v23.0';
 const IG_TOKEN = process.env.IG_TOKEN;
@@ -87,6 +91,20 @@ async function publicarFeed(imageUrl, legenda) {
   const publishResp = await fetch(publishUrl, { method: 'POST' });
   const publishData = await publishResp.json();
   if (!publishData.id) throw new Error('Erro ao publicar no feed: ' + JSON.stringify(publishData));
+  return publishData.id;
+}
+
+async function publicarReel(videoUrl, legenda) {
+  const createUrl = `${IG_API_BASE}/${IG_ACCOUNT_ID}/media?media_type=REELS&video_url=${encodeURIComponent(videoUrl)}&caption=${encodeURIComponent(legenda)}&access_token=${IG_TOKEN}`;
+  const createResp = await fetch(createUrl, { method: 'POST' });
+  const createData = await createResp.json();
+  if (!createData.id) throw new Error('Erro ao criar container do reel: ' + JSON.stringify(createData));
+
+  await aguardarContainerPronto(createData.id, 60);
+  const publishUrl = `${IG_API_BASE}/${IG_ACCOUNT_ID}/media_publish?creation_id=${createData.id}&access_token=${IG_TOKEN}`;
+  const publishResp = await fetch(publishUrl, { method: 'POST' });
+  const publishData = await publishResp.json();
+  if (!publishData.id) throw new Error('Erro ao publicar reel: ' + JSON.stringify(publishData));
   return publishData.id;
 }
 
@@ -210,33 +228,83 @@ async function main() {
   if (!fs.existsSync(cardsDir)) fs.mkdirSync(cardsDir, { recursive: true });
 
   const ts = Date.now();
-  const nomeFeed = `noticia-${ts}-feed.png`;
-  const nomeStory = `noticia-${ts}-story.png`;
-  await gerarCard(cfg, path.join(cardsDir, nomeFeed));
-  await gerarCard({ ...cfg, formato: 'story' }, path.join(cardsDir, nomeStory));
-
-  git('git config user.email "bot@bomdiainvestidor.com.br"', PAGES_DIR);
-  git('git config user.name "Bom Dia Investidor Bot"', PAGES_DIR);
-  git(`git add bdi-cards/${nomeFeed} bdi-cards/${nomeStory}`, PAGES_DIR);
-  git(`git commit -m "Card automatico: ${cfg.manchete.slice(0, 60)}"`, PAGES_DIR);
-  git('git push', PAGES_DIR);
-
-  const imageUrl = `${PAGES_RAW_BASE}/${nomeFeed}`;
-  const storyImageUrl = `${PAGES_RAW_BASE}/${nomeStory}`;
-
-  // Espera a CDN do raw.githubusercontent liberar o arquivo recem enviado
-  await new Promise(r => setTimeout(r, 15000));
-
+  const ehAltoImpacto = (nova.peso || 0) >= PESO_MINIMO_REEL;
   const legenda = montarLegenda(cfg);
-  const postId = await publicarFeed(imageUrl, legenda);
-  console.log('Publicado no feed! ID:', postId);
-
+  let postId = null;
   let storyId = null;
-  try {
-    storyId = await publicarStory(storyImageUrl);
-    console.log('Publicado no story! ID:', storyId);
-  } catch (e) {
-    console.log('Erro ao publicar o story (feed ja foi publicado):', e.message);
+  let reelId = null;
+  let videoUrl = null;
+  let imageUrl = null;
+  let storyImageUrl = null;
+
+  if (ehAltoImpacto) {
+    // === REEL NARRADO (alto impacto) ===
+    console.log(`Alto impacto (peso ${nova.peso}) — gerando Reel narrado + TikTok...`);
+
+    const nomeVideo = `reel-${ts}.mp4`;
+    const videoLocal = path.join(__dirname, 'output', nomeVideo);
+    await gerarVideoTikTok(cfg, videoLocal);
+
+    // Salva vídeo no GitHub Pages
+    const tiktokDir = path.join(PAGES_DIR, 'bdi-tiktok');
+    if (!fs.existsSync(tiktokDir)) fs.mkdirSync(tiktokDir, { recursive: true });
+    fs.copyFileSync(videoLocal, path.join(tiktokDir, nomeVideo));
+
+    const legendaTikTok = montarLegendaTikTok(cfg);
+    const legendaFile = `reel-${ts}-legenda.txt`;
+    fs.writeFileSync(path.join(tiktokDir, legendaFile), legendaTikTok, 'utf8');
+
+    git('git config user.email "bot@bomdiainvestidor.com.br"', PAGES_DIR);
+    git('git config user.name "Bom Dia Investidor Bot"', PAGES_DIR);
+    git(`git add bdi-tiktok/${nomeVideo} bdi-tiktok/${legendaFile}`, PAGES_DIR);
+    git(`git commit -m "Reel narrado: ${cfg.manchete.slice(0, 50)}"`, PAGES_DIR);
+    git('git push', PAGES_DIR);
+
+    videoUrl = `https://raw.githubusercontent.com/${PAGES_REPO}/main/bdi-tiktok/${nomeVideo}`;
+    await new Promise(r => setTimeout(r, 20000));
+
+    reelId = await publicarReel(videoUrl, legenda);
+    console.log('Reel narrado publicado no Instagram! ID:', reelId);
+    postId = reelId;
+
+    // Registra no tiktok-postadas.json pra download manual no TikTok
+    const tiktokPostadas = carregarJson(TIKTOK_POSTADAS_FILE, []);
+    tiktokPostadas.unshift({
+      titulo: nova.titulo,
+      link: nova.link,
+      peso: nova.peso,
+      videoUrl,
+      legendaUrl: `https://raw.githubusercontent.com/${PAGES_REPO}/main/bdi-tiktok/${legendaFile}`,
+      data: new Date().toISOString(),
+    });
+    salvarJson(TIKTOK_POSTADAS_FILE, tiktokPostadas.slice(0, 200));
+
+  } else {
+    // === CARD ESTÁTICO (impacto normal) ===
+    const nomeFeed = `noticia-${ts}-feed.png`;
+    const nomeStory = `noticia-${ts}-story.png`;
+    await gerarCard(cfg, path.join(cardsDir, nomeFeed));
+    await gerarCard({ ...cfg, formato: 'story' }, path.join(cardsDir, nomeStory));
+
+    git('git config user.email "bot@bomdiainvestidor.com.br"', PAGES_DIR);
+    git('git config user.name "Bom Dia Investidor Bot"', PAGES_DIR);
+    git(`git add bdi-cards/${nomeFeed} bdi-cards/${nomeStory}`, PAGES_DIR);
+    git(`git commit -m "Card automatico: ${cfg.manchete.slice(0, 60)}"`, PAGES_DIR);
+    git('git push', PAGES_DIR);
+
+    imageUrl = `${PAGES_RAW_BASE}/${nomeFeed}`;
+    storyImageUrl = `${PAGES_RAW_BASE}/${nomeStory}`;
+    await new Promise(r => setTimeout(r, 15000));
+
+    postId = await publicarFeed(imageUrl, legenda);
+    console.log('Publicado no feed! ID:', postId);
+
+    try {
+      storyId = await publicarStory(storyImageUrl);
+      console.log('Publicado no story! ID:', storyId);
+    } catch (e) {
+      console.log('Erro ao publicar o story (feed ja foi publicado):', e.message);
+    }
   }
 
   postadas.add(nova.link);
@@ -250,12 +318,15 @@ async function main() {
     link: cfg.link,
     postId,
     storyId,
+    reelId,
     imagemFeed: imageUrl,
     imagemStory: storyImageUrl,
+    videoUrl,
+    tipo: ehAltoImpacto ? 'reel_narrado' : 'card',
   });
   salvarJson(RELATORIO_FILE, relatorio.slice(0, 200));
 
-  registrarVerificacao('postado', `Postagem realizada com sucesso: "${cfg.manchete}".`, { postId, storyId });
+  registrarVerificacao('postado', `Postagem realizada com sucesso (${ehAltoImpacto ? 'reel narrado' : 'card'}): "${cfg.manchete}".`, { postId, storyId, reelId, tipo: ehAltoImpacto ? 'reel_narrado' : 'card' });
 
   fs.rmSync(PAGES_DIR, { recursive: true, force: true });
 }

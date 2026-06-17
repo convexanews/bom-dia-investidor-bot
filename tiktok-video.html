@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    width: 1080px;
+    height: 1920px;
+    overflow: hidden;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #070b14;
+  }
+
+  .video-frame {
+    width: 1080px;
+    height: 1920px;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(160deg, #060a13 0%, #0b1626 45%, #060a13 100%);
+  }
+
+  .foto {
+    position: absolute;
+    top: 0; left: 0;
+    width: 1080px; height: 1920px;
+    object-fit: cover;
+    opacity: 0.35;
+    filter: blur(2px);
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: linear-gradient(180deg,
+      rgba(6,10,19,0.7) 0%,
+      rgba(6,10,19,0.4) 30%,
+      rgba(6,10,19,0.4) 60%,
+      rgba(6,10,19,0.95) 100%);
+  }
+
+  .pulse-bg {
+    position: absolute;
+    top: 50%; left: 50%;
+    width: 600px; height: 600px;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(0,209,132,0.08) 0%, transparent 70%);
+  }
+
+  .topbar {
+    position: absolute;
+    top: 80px; left: 0; right: 0;
+    display: flex;
+    justify-content: center;
+    z-index: 5;
+  }
+
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    background: rgba(0,209,132,0.12);
+    border: 1px solid rgba(0,209,132,0.3);
+    border-radius: 50px;
+    padding: 14px 30px 14px 20px;
+  }
+  .brand .icone {
+    width: 44px; height: 44px;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .brand .icone img {
+    width: 100%; height: 100%;
+    object-fit: contain;
+  }
+  .brand .nome {
+    font-size: 26px;
+    font-weight: 800;
+    color: #ffffff;
+    letter-spacing: 0.3px;
+  }
+  .brand .nome span { color: #00D184; }
+
+  .alerta-bar {
+    position: absolute;
+    top: 180px; left: 60px; right: 60px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    z-index: 5;
+  }
+  .alerta-icon {
+    font-size: 42px;
+    filter: drop-shadow(0 0 12px rgba(255,60,60,0.6));
+  }
+  .alerta-text {
+    font-size: 28px;
+    font-weight: 800;
+    color: #ff4444;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+  }
+
+  .conteudo {
+    position: absolute;
+    left: 60px; right: 60px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    z-index: 5;
+  }
+
+  .tag {
+    align-self: flex-start;
+    background: linear-gradient(135deg, #00D184, #00A8E8);
+    color: #04150f;
+    font-size: 28px;
+    font-weight: 800;
+    padding: 14px 34px;
+    border-radius: 50px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+  }
+
+  .manchete {
+    color: #ffffff;
+    font-size: 62px;
+    font-weight: 900;
+    line-height: 1.18;
+    max-height: 460px;
+    overflow: hidden;
+    text-shadow: 0 4px 24px rgba(0,0,0,.6);
+  }
+
+  .resumo {
+    color: rgba(255,255,255,0.75);
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 1.4;
+    max-height: 240px;
+    overflow: hidden;
+  }
+
+  .fonte-bar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .fonte-dot {
+    width: 10px; height: 10px;
+    border-radius: 50%;
+    background: #00D184;
+  }
+  .fonte-text {
+    font-size: 24px;
+    color: rgba(255,255,255,0.5);
+    font-weight: 600;
+  }
+
+  .rodape {
+    position: absolute;
+    left: 60px; right: 60px; bottom: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 5;
+  }
+  .site {
+    font-size: 22px;
+    color: rgba(255,255,255,0.35);
+    font-weight: 600;
+  }
+  .tiktok-handle {
+    font-size: 24px;
+    color: #00D184;
+    font-weight: 700;
+  }
+
+  .linha-accent {
+    position: absolute;
+    bottom: 100px;
+    left: 60px; right: 60px;
+    height: 3px;
+    background: linear-gradient(90deg, #00D184, #00A8E8, transparent);
+    z-index: 5;
+  }
+</style>
+</head>
+<body>
+  <div class="video-frame">
+    <img class="foto" src="{{IMAGEM_URL}}" onerror="this.style.display='none'">
+    <div class="overlay"></div>
+    <div class="pulse-bg"></div>
+
+    <div class="topbar">
+      <div class="brand">
+        <div class="icone"><img src="logo-bdi-icon.png"></div>
+        <div class="nome">Bom Dia <span>Investidor</span></div>
+      </div>
+    </div>
+
+    <div class="alerta-bar">
+      <div class="alerta-icon">🔴</div>
+      <div class="alerta-text">Notícia de Alto Impacto</div>
+    </div>
+
+    <div class="conteudo">
+      <div class="tag">{{CATEGORIA}}</div>
+      <div class="manchete">{{MANCHETE}}</div>
+      <div class="resumo">{{RESUMO}}</div>
+      <div class="fonte-bar">
+        <div class="fonte-dot"></div>
+        <div class="fonte-text">{{FONTE}}</div>
+      </div>
+    </div>
+
+    <div class="linha-accent"></div>
+    <div class="rodape">
+      <div class="site">bomdiainvestidor.com.br</div>
+      <div class="tiktok-handle">@bomdiainvestidor</div>
+    </div>
+  </div>
+</body>
+</html>
