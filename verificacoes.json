@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-06-18T00:16:24.956Z",
+    "resultado": "reel_postado",
+    "mensagem": "Resumo em vídeo do dia publicado com 5 notícia(s).",
+    "reelId": "18197973751366311",
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1781741711050.mp4",
+    "noticias": [
+      "Privatização da Copasa é concluída em cerimônia na B3",
+      "Prévia do PIB e decisões de juros no Brasil e EUA: o que move os mercados",
+      "Ibovespa Futuro sobe antes das decisões de juros no Brasil e EUA",
+      "Dólar hoje recua antes das decisões de juros do Copom e Fed",
+      "Ibovespa Hoje Ao Vivo: Bolsa sobe e volta a testar os 171 mil pontos"
+    ]
+  },
+  {
     "data": "2026-06-18T00:01:04.162Z",
     "resultado": "limite_diario",
     "mensagem": "Limite de 15 posts diários atingido (15 já publicados hoje)."
