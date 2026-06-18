@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-18T19:07:22.896Z",
+    "resultado": "limite_diario",
+    "mensagem": "Limite de 8 posts diários atingido (8 já publicados hoje)."
+  },
+  {
     "data": "2026-06-18T18:33:11.411Z",
     "resultado": "limite_diario",
     "mensagem": "Limite de 8 posts diários atingido (8 já publicados hoje)."
@@ -1270,10 +1275,5 @@
     "mensagem": "Postagem realizada com sucesso: \"Líderes internacionais elogiam acordo EUA-Irã e cobram sua implementação\".",
     "postId": "18096336788586219",
     "storyId": "18112324498925155"
-  },
-  {
-    "data": "2026-06-15T06:33:28.365Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada: \"Líderes internacionais elogiam acordo EUA-Irã e cobram sua implementação\". Realizando postagem..."
   }
 ]
