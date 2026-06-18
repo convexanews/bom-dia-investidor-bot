@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-18T21:10:57.451Z",
+    "resultado": "limite_diario",
+    "mensagem": "Limite de 8 posts diários atingido (8 já publicados hoje)."
+  },
+  {
     "data": "2026-06-18T20:02:16.120Z",
     "resultado": "limite_diario",
     "mensagem": "Limite de 8 posts diários atingido (8 já publicados hoje)."
@@ -1266,12 +1271,5 @@
     "data": "2026-06-15T18:45:28.895Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada: \"Tesouro IPCA+ com maior juro da década: em quanto tempo o dinheiro pode dobrar?\". Realizando postagem..."
-  },
-  {
-    "data": "2026-06-15T13:24:59.470Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso: \"Ibovespa sobe mais de 1% com exterior após anúncio de acordo entre EUA e Irã\".",
-    "postId": "18100385879152501",
-    "storyId": "18139426795551551"
   }
 ]
