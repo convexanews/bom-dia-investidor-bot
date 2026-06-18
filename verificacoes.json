@@ -1,5 +1,16 @@
 [
   {
+    "data": "2026-06-18T15:02:11.757Z",
+    "resultado": "reel_postado",
+    "mensagem": "Resumo em vídeo do dia publicado com 2 notícia(s).",
+    "reelId": "18232438930311381",
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1781794881175.mp4",
+    "noticias": [
+      "Dólar hoje recua antes das decisões de juros do Copom e Fed",
+      "Ibovespa Hoje Ao Vivo: Bolsa sobe e volta a testar os 171 mil pontos"
+    ]
+  },
+  {
     "data": "2026-06-18T15:01:09.414Z",
     "resultado": "limite_diario",
     "mensagem": "Limite de 8 posts diários atingido (8 já publicados hoje)."
@@ -1296,10 +1307,5 @@
     "mensagem": "Postagem realizada com sucesso: \"Ibovespa reage após 8 semanas de queda; fundo chegou ou é repique?\".",
     "postId": "17962928406067089",
     "storyId": "18088018898135403"
-  },
-  {
-    "data": "2026-06-14T20:24:00.132Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada: \"Ibovespa reage após 8 semanas de queda; fundo chegou ou é repique?\". Realizando postagem..."
   }
 ]
