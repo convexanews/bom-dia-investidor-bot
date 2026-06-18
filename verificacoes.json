@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-06-18T10:48:25.364Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel narrado): \"Mercados repercutem dúvidas sobre juros; Ibovespa em dólar avança com mais um corte da Selic no radar\".",
+    "postId": "18080592866219647",
+    "storyId": null,
+    "reelId": "18080592866219647",
+    "tipo": "reel_narrado"
+  },
+  {
+    "data": "2026-06-18T10:46:36.856Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 87): \"Mercados repercutem dúvidas sobre juros; Ibovespa em dólar avança com mais um corte da Selic no radar\". Realizando postagem..."
+  },
+  {
     "data": "2026-06-18T10:02:55.180Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel narrado): \"Carrefour despenca após JPMorgan colocar ação em alerta negativo\".",
