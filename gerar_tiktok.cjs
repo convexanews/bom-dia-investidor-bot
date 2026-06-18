@@ -108,7 +108,7 @@ async function gerarVideoTikTok(cfg, saida) {
   // Ken Burns zoom + legendas queimadas (subtitles filter)
   // Estilo: fonte branca grande com borda preta, posição inferior
   const srtEscaped = srtPath.replace(/\\/g, '/').replace(/:/g, '\\:');
-  const subtitleStyle = "FontName=Arial,FontSize=22,PrimaryColour=&H00FFFFFF,OutlineColour=&H00000000,BorderStyle=3,Outline=2,Shadow=1,MarginV=180,Alignment=2,Bold=1";
+  const subtitleStyle = "FontName=Arial,FontSize=18,PrimaryColour=&H00FFFFFF,OutlineColour=&H00000000,BorderStyle=3,Outline=2,Shadow=1,MarginV=60,Alignment=2,Bold=1";
 
   console.log(`  Montando vídeo (${duracaoAudio}s) com legendas...`);
   execSync(
