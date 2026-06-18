@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-06-18T12:03:08.034Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel narrado): \"Banco da Inglaterra mantém juros em 3,75%\".",
+    "postId": "17981442471011379",
+    "storyId": null,
+    "reelId": "17981442471011379",
+    "tipo": "reel_narrado"
+  },
+  {
+    "data": "2026-06-18T12:01:23.984Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 40): \"Banco da Inglaterra mantém juros em 3,75%\". Realizando postagem..."
+  },
+  {
     "data": "2026-06-18T11:33:17.646Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel narrado): \"Fundo imobiliário alerta para forte volatilidade na bolsa de valores; IFIX recua\".",
@@ -1296,17 +1310,5 @@
     "mensagem": "Postagem realizada com sucesso: \"Prefeitura diz que vai processar União por morte em “rope jumping” em Limeira\".",
     "postId": "18093635165341289",
     "storyId": "18118298032692626"
-  },
-  {
-    "data": "2026-06-14T14:22:55.713Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada: \"Prefeitura diz que vai processar União por morte em “rope jumping” em Limeira\". Realizando postagem..."
-  },
-  {
-    "data": "2026-06-14T11:36:32.660Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso: \"Dinheiro que vai para a Bet não vai para o supermercado, diz gestor da Ibiuna\".",
-    "postId": "18096390011225368",
-    "storyId": "17943258783235002"
   }
 ]
