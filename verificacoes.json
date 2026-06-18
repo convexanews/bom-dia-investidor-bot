@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-18T15:32:02.462Z",
+    "resultado": "limite_diario",
+    "mensagem": "Limite de 8 posts diários atingido (8 já publicados hoje)."
+  },
+  {
     "data": "2026-06-18T15:02:11.757Z",
     "resultado": "reel_postado",
     "mensagem": "Resumo em vídeo do dia publicado com 2 notícia(s).",
@@ -1300,12 +1305,5 @@
     "data": "2026-06-14T22:19:12.467Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada: \"Futuros de NY avançam e petróleo cai 5% após anúncio de acordo de paz entre EUA e Irã\". Realizando postagem..."
-  },
-  {
-    "data": "2026-06-14T20:24:52.393Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso: \"Ibovespa reage após 8 semanas de queda; fundo chegou ou é repique?\".",
-    "postId": "17962928406067089",
-    "storyId": "18088018898135403"
   }
 ]
