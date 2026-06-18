@@ -147,8 +147,21 @@ async function main() {
     return;
   }
 
-  // Limite de 15 posts de notícia por dia (Instagram permite 25/dia; reserva margem para reel e carrossel)
-  const MAX_POSTS_DIA = 15;
+  // Intervalo mínimo de 2h entre posts (evita spam, melhora alcance)
+  const INTERVALO_MIN_MS = 2 * 60 * 60 * 1000;
+  const ultimoPost = relatorio.find(p => p.origem !== 'manual');
+  if (ultimoPost) {
+    const tempoDesdeUltimo = Date.now() - new Date(ultimoPost.data).getTime();
+    if (tempoDesdeUltimo < INTERVALO_MIN_MS) {
+      const minRestantes = Math.ceil((INTERVALO_MIN_MS - tempoDesdeUltimo) / 60000);
+      console.log(`Último post há ${Math.floor(tempoDesdeUltimo / 60000)} min. Próximo em ${minRestantes} min (intervalo de 2h).`);
+      registrarVerificacao('aguardando_intervalo', `Aguardando intervalo de 2h entre posts. Faltam ${minRestantes} min.`);
+      return;
+    }
+  }
+
+  // Máximo 8 posts por dia (06h-22h = 16h / 2h = 8 posts)
+  const MAX_POSTS_DIA = 8;
   const inicioDia = new Date(new Date().toLocaleString('en-US', { timeZone: 'America/Sao_Paulo' }));
   inicioDia.setHours(0, 0, 0, 0);
   const postasHoje = relatorio.filter(p =>
