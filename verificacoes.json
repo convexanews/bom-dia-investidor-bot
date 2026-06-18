@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-06-18T09:33:19.829Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel narrado): \"Corte da Selic, cautela do Fed e entrada em vigor do acordo EUA-Irã agitam o mercado\".",
+    "postId": "18129385756717425",
+    "storyId": null,
+    "reelId": "18129385756717425",
+    "tipo": "reel_narrado"
+  },
+  {
+    "data": "2026-06-18T09:31:22.316Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 103): \"Corte da Selic, cautela do Fed e entrada em vigor do acordo EUA-Irã agitam o mercado\". Realizando postagem..."
+  },
+  {
     "data": "2026-06-18T09:19:47.301Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel narrado): \"Bolsas da Ásia fecham mistas após acordo EUA-Irã e queda em NY com sinalização do Fed\".",
