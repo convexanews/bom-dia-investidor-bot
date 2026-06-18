@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-18T22:03:09.913Z",
+    "resultado": "limite_diario",
+    "mensagem": "Limite de 8 posts diários atingido (8 já publicados hoje)."
+  },
+  {
     "data": "2026-06-18T21:32:37.912Z",
     "resultado": "limite_diario",
     "mensagem": "Limite de 8 posts diários atingido (8 já publicados hoje)."
@@ -1276,10 +1281,5 @@
     "mensagem": "Postagem realizada com sucesso: \"Itaúsa (ITSA4) aprova pagamento de JCP no montante bruto de R$ 1,54 bilhão\".",
     "postId": "18133437610585696",
     "storyId": "18329074405250332"
-  },
-  {
-    "data": "2026-06-15T21:48:21.042Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada: \"Itaúsa (ITSA4) aprova pagamento de JCP no montante bruto de R$ 1,54 bilhão\". Realizando postagem..."
   }
 ]
