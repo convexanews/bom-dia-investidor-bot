@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-18T16:33:19.748Z",
+    "resultado": "limite_diario",
+    "mensagem": "Limite de 8 posts diários atingido (8 já publicados hoje)."
+  },
+  {
     "data": "2026-06-18T16:12:55.189Z",
     "resultado": "limite_diario",
     "mensagem": "Limite de 8 posts diários atingido (8 já publicados hoje)."
@@ -1298,12 +1303,5 @@
       "Ibovespa reage após 8 semanas de queda; fundo chegou ou é repique?",
       "Futuros de NY avançam e petróleo cai 5% após anúncio de acordo de paz entre EUA e Irã"
     ]
-  },
-  {
-    "data": "2026-06-14T22:20:00.954Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso: \"Futuros de NY avançam e petróleo cai 5% após anúncio de acordo de paz entre EUA e Irã\".",
-    "postId": "18154808992470522",
-    "storyId": "18098441009234093"
   }
 ]
