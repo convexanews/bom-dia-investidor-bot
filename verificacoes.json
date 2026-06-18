@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-18T17:35:34.315Z",
+    "resultado": "limite_diario",
+    "mensagem": "Limite de 8 posts diários atingido (8 já publicados hoje)."
+  },
+  {
     "data": "2026-06-18T17:03:58.559Z",
     "resultado": "limite_diario",
     "mensagem": "Limite de 8 posts diários atingido (8 já publicados hoje)."
@@ -1272,10 +1277,5 @@
     "mensagem": "Postagem realizada com sucesso: \"Suíça rejeita plano de limitar sua população a 10 milhões\".",
     "postId": "17896989135331652",
     "storyId": "18097405165902872"
-  },
-  {
-    "data": "2026-06-15T00:20:30.349Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada: \"Suíça rejeita plano de limitar sua população a 10 milhões\". Realizando postagem..."
   }
 ]
