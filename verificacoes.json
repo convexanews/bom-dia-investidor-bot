@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-18T16:40:43.241Z",
+    "resultado": "limite_diario",
+    "mensagem": "Limite de 8 posts diários atingido (8 já publicados hoje)."
+  },
+  {
     "data": "2026-06-18T16:33:19.748Z",
     "resultado": "limite_diario",
     "mensagem": "Limite de 8 posts diários atingido (8 já publicados hoje)."
@@ -1274,24 +1279,6 @@
     "mensagem": "Resumo em vídeo do dia publicado com 9 notícia(s).",
     "reelId": "18124715176568820",
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1781482013220.mp4",
-    "noticias": [
-      "Reino Unido e Japão fecharão pacote de investimentos de mais de 18 bi de libras",
-      "SpaceX: como o apelo do IPO foi além da euforia do mercado em torno das ações",
-      "Dinheiro que vai para a Bet não vai para o supermercado, diz gestor da Ibiuna",
-      "Prefeitura diz que vai processar União por morte em “rope jumping” em Limeira",
-      "Suzano (SUZB3), Vitru (VTRU3) e mais uma empresa pagam dividendos nesta semana; veja o calendário",
-      "‘Data center em casa’: empresas querem levar a potência da IA para usuários comuns; confira",
-      "Morte de chefão do crime venezuelano abre espaço para avanço da mineração",
-      "Ibovespa reage após 8 semanas de queda; fundo chegou ou é repique?",
-      "Futuros de NY avançam e petróleo cai 5% após anúncio de acordo de paz entre EUA e Irã"
-    ]
-  },
-  {
-    "data": "2026-06-14T23:32:14.934Z",
-    "resultado": "reel_postado",
-    "mensagem": "Resumo em vídeo do dia publicado com 9 notícia(s).",
-    "reelId": "18397288360087992",
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1781479822612.mp4",
     "noticias": [
       "Reino Unido e Japão fecharão pacote de investimentos de mais de 18 bi de libras",
       "SpaceX: como o apelo do IPO foi além da euforia do mercado em torno das ações",
