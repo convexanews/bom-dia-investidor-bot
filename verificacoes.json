@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-18T23:01:04.180Z",
+    "resultado": "limite_diario",
+    "mensagem": "Limite de 8 posts diários atingido (8 já publicados hoje)."
+  },
+  {
     "data": "2026-06-18T22:50:11.308Z",
     "resultado": "carrossel_fechamento",
     "mensagem": "Carrossel de fechamento publicado. Ibovespa: 168.278 -0,81%",
@@ -1284,12 +1289,5 @@
       "Itaúsa (ITSA4) aprova pagamento de JCP no montante bruto de R$ 1,54 bilhão",
       "Netanyahu e Trump entram em rota de colisão enquanto EUA e Irã concordam em suspender guerra"
     ]
-  },
-  {
-    "data": "2026-06-15T23:56:29.962Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso: \"Netanyahu e Trump entram em rota de colisão enquanto EUA e Irã concordam em suspender guerra\".",
-    "postId": "18095318861264345",
-    "storyId": "18077938988274375"
   }
 ]
