@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-18T21:32:37.912Z",
+    "resultado": "limite_diario",
+    "mensagem": "Limite de 8 posts diários atingido (8 já publicados hoje)."
+  },
+  {
     "data": "2026-06-18T21:12:00.405Z",
     "resultado": "carrossel_fechamento",
     "mensagem": "Carrossel de fechamento publicado. Ibovespa: 168.278 -0,81%",
@@ -1276,12 +1281,5 @@
     "data": "2026-06-15T21:48:21.042Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada: \"Itaúsa (ITSA4) aprova pagamento de JCP no montante bruto de R$ 1,54 bilhão\". Realizando postagem..."
-  },
-  {
-    "data": "2026-06-15T18:46:16.756Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso: \"Tesouro IPCA+ com maior juro da década: em quanto tempo o dinheiro pode dobrar?\".",
-    "postId": "18086043119454715",
-    "storyId": "17971513014111227"
   }
 ]
