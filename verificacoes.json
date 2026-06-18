@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-18T19:32:56.591Z",
+    "resultado": "limite_diario",
+    "mensagem": "Limite de 8 posts diários atingido (8 já publicados hoje)."
+  },
+  {
     "data": "2026-06-18T19:07:22.896Z",
     "resultado": "limite_diario",
     "mensagem": "Limite de 8 posts diários atingido (8 já publicados hoje)."
@@ -1268,12 +1273,5 @@
     "data": "2026-06-15T13:24:13.820Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada: \"Ibovespa sobe mais de 1% com exterior após anúncio de acordo entre EUA e Irã\". Realizando postagem..."
-  },
-  {
-    "data": "2026-06-15T06:34:12.784Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso: \"Líderes internacionais elogiam acordo EUA-Irã e cobram sua implementação\".",
-    "postId": "18096336788586219",
-    "storyId": "18112324498925155"
   }
 ]
