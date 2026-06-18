@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-06-18T09:04:24.654Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel narrado): \"Tempo Real: Ibovespa repercute decisões de juros no Brasil e no exterior\".",
+    "postId": "18103694207092644",
+    "storyId": null,
+    "reelId": "18103694207092644",
+    "tipo": "reel_narrado"
+  },
+  {
+    "data": "2026-06-18T09:02:21.737Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 44): \"Tempo Real: Ibovespa repercute decisões de juros no Brasil e no exterior\". Realizando postagem..."
+  },
+  {
     "data": "2026-06-18T08:31:16.171Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (05:31 BRT). Postagens ocorrem entre 06h e 22h."
