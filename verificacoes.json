@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-06-18T09:19:47.301Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel narrado): \"Bolsas da Ásia fecham mistas após acordo EUA-Irã e queda em NY com sinalização do Fed\".",
+    "postId": "18096045503241408",
+    "storyId": null,
+    "reelId": "18096045503241408",
+    "tipo": "reel_narrado"
+  },
+  {
+    "data": "2026-06-18T09:17:54.795Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 65): \"Bolsas da Ásia fecham mistas após acordo EUA-Irã e queda em NY com sinalização do Fed\". Realizando postagem..."
+  },
+  {
     "data": "2026-06-18T09:04:24.654Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel narrado): \"Tempo Real: Ibovespa repercute decisões de juros no Brasil e no exterior\".",
