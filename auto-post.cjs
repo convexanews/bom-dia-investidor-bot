@@ -241,7 +241,6 @@ async function main() {
   if (!fs.existsSync(cardsDir)) fs.mkdirSync(cardsDir, { recursive: true });
 
   const ts = Date.now();
-  const ehAltoImpacto = (nova.peso || 0) >= PESO_MINIMO_REEL;
   const legenda = montarLegenda(cfg);
   let postId = null;
   let storyId = null;
@@ -250,9 +249,23 @@ async function main() {
   let imageUrl = null;
   let storyImageUrl = null;
 
-  if (ehAltoImpacto) {
-    // === REEL NARRADO (alto impacto) ===
-    console.log(`Alto impacto (peso ${nova.peso}) — gerando Reel narrado + TikTok...`);
+  // Alternância de formatos: reel > carrossel > card > reel > ...
+  // Alto impacto (peso >= 30) sempre vira reel narrado
+  // Demais alternam entre carrossel (2 slides: feed + story) e card estático
+  const FORMATOS = ['reel', 'carrossel', 'card'];
+  const tiposRecentes = relatorio.slice(0, 5).map(r => r.tipo || 'card');
+  const ultimoTipo = tiposRecentes[0] || 'card';
+  const idxUltimo = FORMATOS.indexOf(ultimoTipo);
+  const proximoFormato = FORMATOS[(idxUltimo + 1) % FORMATOS.length];
+
+  const ehAltoImpacto = (nova.peso || 0) >= PESO_MINIMO_REEL;
+  const formato = ehAltoImpacto ? 'reel' : proximoFormato === 'reel' ? 'carrossel' : proximoFormato;
+
+  console.log(`Formato escolhido: ${formato} (peso ${nova.peso}, último: ${ultimoTipo})`);
+
+  if (formato === 'reel') {
+    // === REEL NARRADO ===
+    console.log(`Gerando Reel narrado + TikTok...`);
 
     const nomeVideo = `reel-${ts}.mp4`;
     const videoLocal = path.join(__dirname, 'output', nomeVideo);
@@ -292,8 +305,50 @@ async function main() {
     });
     salvarJson(TIKTOK_POSTADAS_FILE, tiktokPostadas.slice(0, 200));
 
+  } else if (formato === 'carrossel') {
+    // === CARROSSEL (2 slides: manchete + resumo) ===
+    const nomeSlide1 = `noticia-${ts}-slide1.png`;
+    const nomeSlide2 = `noticia-${ts}-slide2.png`;
+    await gerarCard(cfg, path.join(cardsDir, nomeSlide1));
+    await gerarCard({ ...cfg, formato: 'story' }, path.join(cardsDir, nomeSlide2));
+
+    git('git config user.email "bot@bomdiainvestidor.com.br"', PAGES_DIR);
+    git('git config user.name "Bom Dia Investidor Bot"', PAGES_DIR);
+    git(`git add bdi-cards/${nomeSlide1} bdi-cards/${nomeSlide2}`, PAGES_DIR);
+    git(`git commit -m "Carrossel: ${cfg.manchete.slice(0, 60)}"`, PAGES_DIR);
+    git('git push', PAGES_DIR);
+
+    const slide1Url = `${PAGES_RAW_BASE}/${nomeSlide1}`;
+    const slide2Url = `${PAGES_RAW_BASE}/${nomeSlide2}`;
+    await new Promise(r => setTimeout(r, 15000));
+
+    // Cria containers de cada slide
+    const criarItem = async (imgUrl) => {
+      const r = await fetch(`${IG_API_BASE}/${IG_ACCOUNT_ID}/media?image_url=${encodeURIComponent(imgUrl)}&is_carousel_item=true&access_token=${IG_TOKEN}`, { method: 'POST' });
+      const d = await r.json();
+      if (!d.id) throw new Error('Erro ao criar item do carrossel: ' + JSON.stringify(d));
+      return d.id;
+    };
+    const item1 = await criarItem(slide1Url);
+    const item2 = await criarItem(slide2Url);
+
+    // Cria container do carrossel
+    const carouselResp = await fetch(`${IG_API_BASE}/${IG_ACCOUNT_ID}/media?media_type=CAROUSEL&children=${item1},${item2}&caption=${encodeURIComponent(legenda)}&access_token=${IG_TOKEN}`, { method: 'POST' });
+    const carouselData = await carouselResp.json();
+    if (!carouselData.id) throw new Error('Erro ao criar carrossel: ' + JSON.stringify(carouselData));
+
+    await aguardarContainerPronto(carouselData.id);
+    const pubResp = await fetch(`${IG_API_BASE}/${IG_ACCOUNT_ID}/media_publish?creation_id=${carouselData.id}&access_token=${IG_TOKEN}`, { method: 'POST' });
+    const pubData = await pubResp.json();
+    if (!pubData.id) throw new Error('Erro ao publicar carrossel: ' + JSON.stringify(pubData));
+
+    postId = pubData.id;
+    imageUrl = slide1Url;
+    storyImageUrl = slide2Url;
+    console.log('Carrossel publicado no Instagram! ID:', postId);
+
   } else {
-    // === CARD ESTÁTICO (impacto normal) ===
+    // === CARD ESTÁTICO ===
     const nomeFeed = `noticia-${ts}-feed.png`;
     const nomeStory = `noticia-${ts}-story.png`;
     await gerarCard(cfg, path.join(cardsDir, nomeFeed));
@@ -335,11 +390,11 @@ async function main() {
     imagemFeed: imageUrl,
     imagemStory: storyImageUrl,
     videoUrl,
-    tipo: ehAltoImpacto ? 'reel_narrado' : 'card',
+    tipo: formato,
   });
   salvarJson(RELATORIO_FILE, relatorio.slice(0, 200));
 
-  registrarVerificacao('postado', `Postagem realizada com sucesso (${ehAltoImpacto ? 'reel narrado' : 'card'}): "${cfg.manchete}".`, { postId, storyId, reelId, tipo: ehAltoImpacto ? 'reel_narrado' : 'card' });
+  registrarVerificacao('postado', `Postagem realizada com sucesso (${formato}): "${cfg.manchete}".`, { postId, storyId, reelId, tipo: formato });
 
   fs.rmSync(PAGES_DIR, { recursive: true, force: true });
 }

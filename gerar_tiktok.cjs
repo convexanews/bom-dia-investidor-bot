@@ -53,22 +53,39 @@ async function gerarFrame(cfg, saida) {
   return saida;
 }
 
-// Monta o vídeo final: imagem estática + narração TTS + leve zoom (ken burns)
+function gerarSRT(blocos, duracaoTotal, srtPath) {
+  const tempoPorBloco = duracaoTotal / blocos.length;
+  let srt = '';
+  blocos.forEach((texto, i) => {
+    const inicio = i * tempoPorBloco;
+    const fim = Math.min((i + 1) * tempoPorBloco, duracaoTotal);
+    const fmtT = (s) => {
+      const h = Math.floor(s / 3600).toString().padStart(2, '0');
+      const m = Math.floor((s % 3600) / 60).toString().padStart(2, '0');
+      const sec = Math.floor(s % 60).toString().padStart(2, '0');
+      const ms = Math.floor((s % 1) * 1000).toString().padStart(3, '0');
+      return `${h}:${m}:${sec},${ms}`;
+    };
+    srt += `${i + 1}\n${fmtT(inicio)} --> ${fmtT(fim)}\n${texto}\n\n`;
+  });
+  fs.writeFileSync(srtPath, srt, 'utf8');
+  return srtPath;
+}
+
+// Monta o vídeo final: imagem estática + narração TTS + legendas + leve zoom (ken burns)
 async function gerarVideoTikTok(cfg, saida) {
   const tmpDir = fs.mkdtempSync(path.join(os.tmpdir(), 'bdi-tiktok-'));
   const framePath = path.join(tmpDir, 'frame.png');
   const audioPath = path.join(tmpDir, 'narration.mp3');
+  const srtPath = path.join(tmpDir, 'legendas.srt');
 
   console.log('  Gerando frame visual...');
   await gerarFrame(cfg, framePath);
 
-  // Monta texto para narração
   const textoNarracao = montarTextoNarracao(cfg);
   console.log('  Gerando narração TTS...');
   await gerarTTS(textoNarracao, audioPath);
 
-  // Estima duração do áudio pelo tamanho do texto (~13 chars/segundo em pt-BR TTS)
-  // Se ffprobe estiver disponível, usa duração exata
   let duracaoAudio;
   try {
     const durInfo = execSync(
@@ -81,16 +98,25 @@ async function gerarVideoTikTok(cfg, saida) {
     console.log(`  (ffprobe não disponível, duração estimada: ${duracaoAudio}s)`);
   }
 
+  // Gera legendas SRT sincronizadas
+  const blocos = montarBlocosLegenda(cfg);
+  gerarSRT(blocos, duracaoAudio - 1, srtPath);
+  console.log(`  Legendas: ${blocos.length} blocos`);
+
   if (!fs.existsSync(path.dirname(saida))) fs.mkdirSync(path.dirname(saida), { recursive: true });
 
-  // Ken Burns: leve zoom de 1.0 a 1.08 durante a duração do vídeo
-  console.log(`  Montando vídeo (${duracaoAudio}s)...`);
+  // Ken Burns zoom + legendas queimadas (subtitles filter)
+  // Estilo: fonte branca grande com borda preta, posição inferior
+  const srtEscaped = srtPath.replace(/\\/g, '/').replace(/:/g, '\\:');
+  const subtitleStyle = "FontName=Arial,FontSize=22,PrimaryColour=&H00FFFFFF,OutlineColour=&H00000000,BorderStyle=3,Outline=2,Shadow=1,MarginV=180,Alignment=2,Bold=1";
+
+  console.log(`  Montando vídeo (${duracaoAudio}s) com legendas...`);
   execSync(
     `ffmpeg -y -loop 1 -i "${framePath}" -i "${audioPath}" ` +
-    `-vf "zoompan=z='min(zoom+0.0003,1.08)':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=${duracaoAudio * 30}:s=1080x1920:fps=30,format=yuv420p" ` +
+    `-vf "zoompan=z='min(zoom+0.0003,1.08)':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=${duracaoAudio * 30}:s=1080x1920:fps=30,subtitles='${srtEscaped}':force_style='${subtitleStyle}',format=yuv420p" ` +
     `-c:v libx264 -tune stillimage -c:a aac -b:a 192k -pix_fmt yuv420p -movflags +faststart ` +
     `-shortest "${saida}"`,
-    { stdio: 'inherit', timeout: 120000 }
+    { stdio: 'inherit', timeout: 180000 }
   );
 
   fs.rmSync(tmpDir, { recursive: true, force: true });
@@ -98,8 +124,23 @@ async function gerarVideoTikTok(cfg, saida) {
   return saida;
 }
 
+const HOOKS_ABERTURA = [
+  'Urgente! Isso pode mudar seus investimentos hoje.',
+  'Você precisa saber disso antes de investir!',
+  'Alerta no mercado financeiro!',
+  'Isso vai impactar seu bolso. Presta atenção!',
+  'Notícia bombástica no mercado!',
+  'Se você investe, para tudo e escuta isso.',
+  'O mercado acabou de dar um sinal importante!',
+  'Investidor, cuidado! Olha o que acabou de sair.',
+];
+
+function escolherHook() {
+  return HOOKS_ABERTURA[Math.floor(Math.random() * HOOKS_ABERTURA.length)];
+}
+
 function montarTextoNarracao(cfg) {
-  const partes = ['Atenção investidor!'];
+  const partes = [escolherHook()];
 
   if (cfg.manchete) {
     partes.push(cfg.manchete.replace(/\s+/g, ' ').trim() + '.');
@@ -111,9 +152,24 @@ function montarTextoNarracao(cfg) {
     partes.push(resumo);
   }
 
-  partes.push('Acompanhe o Bom Dia Investidor para mais notícias do mercado financeiro.');
+  partes.push('Siga o Bom Dia Investidor pra não perder nenhuma oportunidade!');
 
   return partes.join(' ');
+}
+
+function montarBlocosLegenda(cfg) {
+  const blocos = [];
+  const hook = escolherHook();
+  blocos.push(hook);
+  if (cfg.manchete) blocos.push(cfg.manchete.replace(/\s+/g, ' ').trim());
+  if (cfg.resumo) {
+    let resumo = cfg.resumo.replace(/\s+/g, ' ').trim();
+    if (resumo.length > 200) resumo = resumo.slice(0, 197) + '...';
+    const frases = resumo.match(/[^.!?]+[.!?]+/g) || [resumo];
+    blocos.push(...frases.map(f => f.trim()).filter(f => f.length > 5));
+  }
+  blocos.push('Siga @bomdia_investidor!');
+  return blocos;
 }
 
 function montarLegendaTikTok(cfg) {
@@ -121,7 +177,7 @@ function montarLegendaTikTok(cfg) {
   return `🔴 ${cfg.manchete}\n\n📊 ${cfg.resumo || ''}\n\nFonte: ${cfg.fonte || ''}\n\n${hashtags}`;
 }
 
-module.exports = { gerarVideoTikTok, gerarFrame, gerarTTS, montarLegendaTikTok, montarTextoNarracao };
+module.exports = { gerarVideoTikTok, gerarFrame, gerarTTS, montarLegendaTikTok, montarTextoNarracao, montarBlocosLegenda };
 
 if (require.main === module) {
   const cfg = JSON.parse(process.argv[2] || '{}');
