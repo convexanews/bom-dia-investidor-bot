@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-18T16:12:55.189Z",
+    "resultado": "limite_diario",
+    "mensagem": "Limite de 8 posts diários atingido (8 já publicados hoje)."
+  },
+  {
     "data": "2026-06-18T15:32:02.462Z",
     "resultado": "limite_diario",
     "mensagem": "Limite de 8 posts diários atingido (8 já publicados hoje)."
@@ -1300,10 +1305,5 @@
     "mensagem": "Postagem realizada com sucesso: \"Futuros de NY avançam e petróleo cai 5% após anúncio de acordo de paz entre EUA e Irã\".",
     "postId": "18154808992470522",
     "storyId": "18098441009234093"
-  },
-  {
-    "data": "2026-06-14T22:19:12.467Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada: \"Futuros de NY avançam e petróleo cai 5% após anúncio de acordo de paz entre EUA e Irã\". Realizando postagem..."
   }
 ]
