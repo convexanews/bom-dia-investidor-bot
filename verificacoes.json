@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-18T22:22:20.384Z",
+    "resultado": "limite_diario",
+    "mensagem": "Limite de 8 posts diários atingido (8 já publicados hoje)."
+  },
+  {
     "data": "2026-06-18T22:03:09.913Z",
     "resultado": "limite_diario",
     "mensagem": "Limite de 8 posts diários atingido (8 já publicados hoje)."
@@ -1274,12 +1279,5 @@
     "data": "2026-06-15T23:55:43.584Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada: \"Netanyahu e Trump entram em rota de colisão enquanto EUA e Irã concordam em suspender guerra\". Realizando postagem..."
-  },
-  {
-    "data": "2026-06-15T21:49:09.836Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso: \"Itaúsa (ITSA4) aprova pagamento de JCP no montante bruto de R$ 1,54 bilhão\".",
-    "postId": "18133437610585696",
-    "storyId": "18329074405250332"
   }
 ]
