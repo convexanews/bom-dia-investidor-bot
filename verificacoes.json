@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-18T13:31:08.227Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 32 min."
+  },
+  {
     "data": "2026-06-18T13:01:03.709Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 63 min."
@@ -1301,12 +1306,5 @@
     "postId": "18180662962393901",
     "storyId": "18119487817783876",
     "origem": "manual"
-  },
-  {
-    "data": "2026-06-14T16:44:53.930Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso: \"Suzano (SUZB3), Vitru (VTRU3) e mais uma empresa pagam dividendos nesta semana; veja o calendário\".",
-    "postId": "17895075666494186",
-    "storyId": "18104837099117274"
   }
 ]
