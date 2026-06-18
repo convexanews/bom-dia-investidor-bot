@@ -1,5 +1,22 @@
 [
   {
+    "data": "2026-06-18T22:50:11.308Z",
+    "resultado": "carrossel_fechamento",
+    "mensagem": "Carrossel de fechamento publicado. Ibovespa: 168.278 -0,81%",
+    "postId": "18085334033453410",
+    "ibov": {
+      "valor": "168.278",
+      "variacao": "-0,81%"
+    },
+    "topAltas": [
+      "WEGE3 +4,59%",
+      "SUZB3 +3,20%",
+      "BPAC11 +0,91%",
+      "PETR4 +0,73%",
+      "BBAS3 +0,62%"
+    ]
+  },
+  {
     "data": "2026-06-18T22:22:20.384Z",
     "resultado": "limite_diario",
     "mensagem": "Limite de 8 posts diários atingido (8 já publicados hoje)."
@@ -1274,10 +1291,5 @@
     "mensagem": "Postagem realizada com sucesso: \"Netanyahu e Trump entram em rota de colisão enquanto EUA e Irã concordam em suspender guerra\".",
     "postId": "18095318861264345",
     "storyId": "18077938988274375"
-  },
-  {
-    "data": "2026-06-15T23:55:43.584Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada: \"Netanyahu e Trump entram em rota de colisão enquanto EUA e Irã concordam em suspender guerra\". Realizando postagem..."
   }
 ]
