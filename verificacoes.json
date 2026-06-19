@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-19T01:31:09.342Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (22:31 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-06-19T01:01:03.115Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (22:01 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1266,12 +1271,5 @@
       "Wall Street tem leve alta com acordo entre EUA e Irã e à espera de Fed; Dow Jones supera 52 mil pontos pela 1ª vez e renova recorde",
       "Ibovespa Hoje Ao Vivo: Bolsa cai com geopolítica e dados no radar"
     ]
-  },
-  {
-    "data": "2026-06-16T15:29:31.182Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso: \"Ibovespa Hoje Ao Vivo: Bolsa cai com geopolítica e dados no radar\".",
-    "postId": "18103154825471549",
-    "storyId": "17948283291211984"
   }
 ]
