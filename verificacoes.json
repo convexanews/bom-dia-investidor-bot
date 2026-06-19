@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-19T09:31:07.789Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
+  },
+  {
     "data": "2026-06-19T09:02:59.135Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"Petróleo, inflação e bolsas: os estragos econômicos deixados pela guerra entre EUA e Irã\".",
@@ -1245,10 +1250,5 @@
     "mensagem": "Postagem realizada com sucesso: \"Petróleo derruba Petrobras e Ibovespa; dólar fecha em leve alta a R$ 5,06\".",
     "postId": "17955557913165014",
     "storyId": "18603006388030313"
-  },
-  {
-    "data": "2026-06-16T19:30:55.704Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 43): \"Petróleo derruba Petrobras e Ibovespa; dólar fecha em leve alta a R$ 5,06\". Realizando postagem..."
   }
 ]
