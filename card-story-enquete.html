@@ -2,107 +2,144 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
 <style>
   * { margin: 0; padding: 0; box-sizing: border-box; }
-  body { width: 1080px; height: 1920px; overflow: hidden; font-family: 'Segoe UI', Arial, sans-serif; background: #1a2f5e; }
-  .card { width: 1080px; height: 1920px; position: relative; background: linear-gradient(160deg, #0f1e3d 0%, #1a2f5e 50%, #0f1e3d 100%); display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 80px 80px; gap: 0; }
-
-  .deco1 { position:absolute; right:-120px; top:-120px; width:500px; height:500px; border-radius:50%; background:rgba(201,146,10,0.08); pointer-events:none; }
-  .deco2 { position:absolute; left:-80px; bottom:200px; width:300px; height:300px; border-radius:50%; background:rgba(201,146,10,0.05); pointer-events:none; }
-
-  .logo-area { display:flex; align-items:center; gap:22px; margin-bottom:60px; z-index:2; }
-  .logo-circle { width:90px; height:90px; background:#fff; border-radius:50%; display:flex; align-items:center; justify-content:center; flex-shrink:0; }
-  .logo-text strong { font-size:28px; font-weight:900; color:#fff; display:block; }
-  .logo-text span { font-size:19px; color:#c9a24a; font-weight:500; }
-
-  .enquete-label {
-    font-size:22px; font-weight:800; letter-spacing:4px; text-transform:uppercase;
-    color:#f0c060; background:rgba(201,146,10,0.15); border:2px solid rgba(201,146,10,0.35);
-    padding:12px 36px; border-radius:50px; margin-bottom:48px; z-index:2;
+  body {
+    width: 1080px; height: 1920px; overflow: hidden;
+    font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+    background: #080c16;
+  }
+  .card {
+    width: 1080px; height: 1920px; position: relative; overflow: hidden;
+    background: linear-gradient(160deg, #080e1e 0%, #0f1c3a 50%, #080e1e 100%);
+    display: flex; flex-direction: column; align-items: center;
   }
 
+  /* decoração de fundo */
+  .deco { position:absolute; border-radius:50%; pointer-events:none; }
+  .deco1 { right:-140px; top:-140px; width:560px; height:560px; background:rgba(201,146,10,0.06); }
+  .deco2 { left:-80px; bottom:300px; width:340px; height:340px; background:rgba(201,146,10,0.04); }
+  .deco3 { right:60px; bottom:200px; width:180px; height:180px; background:rgba(26,47,94,0.60); }
+
+  /* linha dourada no topo */
+  .top-bar { width:100%; height:4px; background:linear-gradient(90deg,#c9920a,#f0c060 50%,#c9920a); flex-shrink:0; }
+
+  /* área de conteúdo */
+  .content {
+    flex:1; display:flex; flex-direction:column; align-items:center;
+    justify-content:center; padding:80px 80px 260px; gap:0; width:100%;
+    position:relative; z-index:2;
+  }
+
+  /* brand */
+  .brand-pill {
+    display:flex; align-items:center; gap:14px;
+    background:rgba(255,255,255,0.06); border:1px solid rgba(255,255,255,0.10);
+    border-radius:60px; padding:14px 28px 14px 18px;
+    margin-bottom:48px; align-self:center;
+  }
+  .brand-logo { width:50px; height:50px; border-radius:50%; background:#c9920a; display:flex; align-items:center; justify-content:center; flex-shrink:0; }
+  .brand-logo svg { width:30px; height:30px; }
+  .brand-name { font-size:24px; font-weight:800; color:#fff; }
+  .brand-name span { color:#f0c060; }
+
+  /* badge enquete */
+  .enquete-badge {
+    display:flex; align-items:center; gap:12px;
+    background:rgba(201,146,10,0.14); border:1.5px solid rgba(201,146,10,0.32);
+    border-radius:60px; padding:14px 32px;
+    font-size:20px; font-weight:800; color:#f0c060;
+    letter-spacing:3px; text-transform:uppercase;
+    margin-bottom:44px;
+  }
+  .e-dot { width:10px; height:10px; border-radius:50%; background:#f0c060; }
+
+  /* caixa da pergunta */
   .pergunta-box {
-    background:rgba(255,255,255,0.06); border:1px solid rgba(255,255,255,0.12);
-    border-radius:28px; padding:60px 60px; text-align:center; margin-bottom:60px; z-index:2; width:100%;
+    width:100%; background:rgba(255,255,255,0.05);
+    border:1px solid rgba(255,255,255,0.10);
+    border-radius:24px; padding:52px 56px;
+    text-align:center; margin-bottom:48px;
   }
-  .icone-pergunta { font-size:80px; margin-bottom:28px; display:block; }
-  .pergunta-texto {
-    font-size:56px; font-weight:900; color:#fff; line-height:1.2; text-align:center;
-  }
+  .pergunta-icon { font-size:72px; margin-bottom:24px; display:block; }
+  .pergunta-text { font-size:52px; font-weight:900; color:#fff; line-height:1.18; letter-spacing:-0.5px; }
 
-  .opcoes { display:flex; flex-direction:column; gap:28px; width:100%; z-index:2; margin-bottom:60px; }
-
+  /* opções */
+  .opcoes { display:flex; flex-direction:column; gap:24px; width:100%; margin-bottom:52px; }
   .opcao {
-    display:flex; align-items:center; gap:28px;
-    border-radius:24px; padding:40px 48px;
-    font-size:40px; font-weight:800; cursor:pointer;
-    position:relative; overflow:hidden;
+    display:flex; align-items:center; gap:26px;
+    border-radius:20px; padding:36px 44px;
+    font-size:36px; font-weight:800;
   }
-  .opcao-a {
-    background:linear-gradient(135deg, rgba(0,200,130,0.25), rgba(0,200,130,0.12));
-    border:3px solid #00C882; color:#00E896;
-  }
-  .opcao-b {
-    background:linear-gradient(135deg, rgba(255,68,68,0.25), rgba(255,68,68,0.12));
-    border:3px solid #FF4444; color:#FF6666;
-  }
-  .opcao-icone { font-size:48px; flex-shrink:0; }
-  .opcao-texto { color:#fff; font-size:40px; font-weight:800; line-height:1.2; }
+  .opcao-a { background:rgba(0,200,130,0.12); border:2.5px solid #00C882; }
+  .opcao-b { background:rgba(255,68,68,0.12); border:2.5px solid #FF4444; }
+  .opcao-icon { font-size:44px; flex-shrink:0; }
+  .opcao-text { color:#fff; font-size:38px; font-weight:800; line-height:1.2; }
 
-  .cta-texto { font-size:28px; color:#94a3b8; text-align:center; z-index:2; font-weight:500; }
-  .cta-texto strong { color:#f0c060; }
+  /* cta */
+  .cta { font-size:26px; color:rgba(255,255,255,0.45); text-align:center; font-weight:500; }
+  .cta strong { color:#f0c060; font-weight:700; }
 
-  .footer { position:absolute; bottom:60px; left:80px; right:80px; display:flex; justify-content:space-between; align-items:center; z-index:2; }
-  .footer-data { font-size:22px; color:#64748b; font-weight:500; }
-  .footer-site { font-size:22px; color:#c9920a; font-weight:800; }
+  /* footer fixo acima da UI de resposta */
+  .footer {
+    position:absolute; bottom:68px; left:80px; right:80px;
+    display:flex; justify-content:space-between; align-items:center; z-index:4;
+  }
+  .footer-data { font-size:21px; color:rgba(255,255,255,0.28); font-weight:500; }
+  .footer-handle { font-size:21px; font-weight:700; color:#c9920a; }
 </style>
 </head>
 <body>
 <div class="card">
-  <div class="deco1"></div><div class="deco2"></div>
+  <div class="deco deco1"></div>
+  <div class="deco deco2"></div>
+  <div class="deco deco3"></div>
 
-  <div class="logo-area">
-    <div class="logo-circle">
-      <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" width="60" height="60">
-        <circle cx="50" cy="38" r="26" fill="none" stroke="#c9920a" stroke-width="4"/>
-        <line x1="50" y1="12" x2="50" y2="4" stroke="#c9920a" stroke-width="3" stroke-linecap="round"/>
-        <line x1="24" y1="38" x2="16" y2="38" stroke="#c9920a" stroke-width="3" stroke-linecap="round"/>
-        <line x1="84" y1="38" x2="76" y2="38" stroke="#c9920a" stroke-width="3" stroke-linecap="round"/>
-        <line x1="32" y1="19" x2="26" y2="13" stroke="#c9920a" stroke-width="2.5" stroke-linecap="round"/>
-        <line x1="68" y1="19" x2="74" y2="13" stroke="#c9920a" stroke-width="2.5" stroke-linecap="round"/>
-        <rect x="30" y="52" width="10" height="14" rx="2" fill="#1a2f5e"/>
-        <rect x="44" y="44" width="10" height="22" rx="2" fill="#1a2f5e"/>
-        <rect x="58" y="36" width="10" height="30" rx="2" fill="#1a2f5e"/>
-        <path d="M28 58 Q50 30 74 34" fill="none" stroke="#c9920a" stroke-width="3" stroke-linecap="round"/>
-        <polygon points="74,28 81,37 67,35" fill="#c9920a"/>
-      </svg>
+  <div class="top-bar"></div>
+
+  <div class="content">
+    <div class="brand-pill">
+      <div class="brand-logo">
+        <svg viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="14" cy="10" r="7" fill="none" stroke="#fff" stroke-width="2"/>
+          <line x1="14" y1="3" x2="14" y2="1" stroke="#fff" stroke-width="1.8" stroke-linecap="round"/>
+          <line x1="7" y1="10" x2="5" y2="10" stroke="#fff" stroke-width="1.8" stroke-linecap="round"/>
+          <line x1="23" y1="10" x2="21" y2="10" stroke="#fff" stroke-width="1.8" stroke-linecap="round"/>
+          <rect x="7" y="16" width="3.5" height="6" rx="1" fill="#fff"/>
+          <rect x="12" y="13" width="3.5" height="9" rx="1" fill="#fff"/>
+          <rect x="17" y="10" width="3.5" height="12" rx="1" fill="#fff"/>
+          <path d="M7 19 Q14 11 21 12" fill="none" stroke="#f0c060" stroke-width="1.8" stroke-linecap="round"/>
+          <polygon points="21,9.5 24,13 18,12.5" fill="#f0c060"/>
+        </svg>
+      </div>
+      <div class="brand-name">Bom Dia <span>Investidor</span></div>
     </div>
-    <div class="logo-text"><strong>Bom Dia Investidor</strong><span>Enquete do Dia</span></div>
-  </div>
 
-  <div class="enquete-label">📊 VOTE AGORA</div>
+    <div class="enquete-badge"><div class="e-dot"></div>ENQUETE DO DIA</div>
 
-  <div class="pergunta-box">
-    <span class="icone-pergunta">{{ICONE}}</span>
-    <div class="pergunta-texto">{{PERGUNTA}}</div>
-  </div>
-
-  <div class="opcoes">
-    <div class="opcao opcao-a">
-      <span class="opcao-icone">{{ICONE_A}}</span>
-      <span class="opcao-texto">{{OPCAO_A}}</span>
+    <div class="pergunta-box">
+      <span class="pergunta-icon">{{ICONE}}</span>
+      <div class="pergunta-text">{{PERGUNTA}}</div>
     </div>
-    <div class="opcao opcao-b">
-      <span class="opcao-icone">{{ICONE_B}}</span>
-      <span class="opcao-texto">{{OPCAO_B}}</span>
-    </div>
-  </div>
 
-  <div class="cta-texto">Responda nos comentários! <strong>👇</strong></div>
+    <div class="opcoes">
+      <div class="opcao opcao-a">
+        <span class="opcao-icon">{{ICONE_A}}</span>
+        <span class="opcao-text">{{OPCAO_A}}</span>
+      </div>
+      <div class="opcao opcao-b">
+        <span class="opcao-icon">{{ICONE_B}}</span>
+        <span class="opcao-text">{{OPCAO_B}}</span>
+      </div>
+    </div>
+
+    <div class="cta">Comente sua resposta! <strong>👇</strong></div>
+  </div>
 
   <div class="footer">
     <div class="footer-data">{{DATA}}</div>
-    <div class="footer-site">@bomdia_investidor</div>
+    <div class="footer-handle">@bomdia_investidor</div>
   </div>
 </div>
 </body>

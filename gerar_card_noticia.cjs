@@ -20,12 +20,13 @@ async function gerarCard(cfg, saida) {
   let template = fs.readFileSync(path.join(__dirname, arquivoTemplate), 'utf8');
 
   template = template
-    .replace('{{CATEGORIA}}', escapeHtml((cfg.categoria || 'MERCADO').toUpperCase()))
-    .replace('{{MANCHETE}}', escapeHtml(cfg.manchete || ''))
-    .replace('{{IMAGEM_URL}}', cfg.imagem || '')
-    .replace('{{PERGUNTA}}', escapeHtml(cfg.pergunta || ''))
-    .replace('{{ACENTO_GRADIENTE}}', cfg.acentoGradiente || 'linear-gradient(135deg, #00D184, #00A8E8)')
-    .replace('{{ACENTO_TEXTO}}', cfg.acentoTexto || '#04150f')
+    .replace(/\{\{CATEGORIA\}\}/g, escapeHtml((cfg.categoria || 'MERCADO').toUpperCase()))
+    .replace(/\{\{MANCHETE\}\}/g, escapeHtml(cfg.manchete || ''))
+    .replace(/\{\{IMAGEM_URL\}\}/g, cfg.imagem || '')
+    .replace(/\{\{FONTE\}\}/g, escapeHtml(cfg.fonte || ''))
+    .replace(/\{\{PERGUNTA\}\}/g, escapeHtml(cfg.pergunta || ''))
+    .replace(/\{\{ACENTO_GRADIENTE\}\}/g, cfg.acentoGradiente || 'linear-gradient(135deg, #00D184, #00A8E8)')
+    .replace(/\{\{ACENTO_TEXTO\}\}/g, cfg.acentoTexto || '#04150f')
     .replace(/\{\{ACENTO_COR\}\}/g, cfg.acentoCor || '#00D184');
 
   const tmpHtml = path.join(__dirname, `_tmp_card_noticia_${isStory ? 'story' : 'feed'}.html`);

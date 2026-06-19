@@ -2,128 +2,159 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
 <style>
   * { margin: 0; padding: 0; box-sizing: border-box; }
-  body { width: 1080px; height: 1350px; overflow: hidden; font-family: 'Segoe UI', Arial, sans-serif; background: #fff; }
-  .card { width: 1080px; height: 1350px; position: relative; background: #fff; display: flex; flex-direction: column; }
+  body {
+    width: 1080px; height: 1350px; overflow: hidden;
+    font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+    background: #080c16;
+  }
+  .card { width: 1080px; height: 1350px; display: flex; flex-direction: column; position: relative; overflow: hidden; }
 
+  /* ── HEADER ── */
   .header {
-    background: #1a2f5e;
-    padding: 80px 80px 70px;
-    position: relative;
-    overflow: hidden;
-    flex-shrink: 0;
+    background: linear-gradient(135deg, #0a1628 0%, #1a2f5e 65%, #0d1f45 100%);
+    padding: 54px 72px 50px; flex-shrink:0; position:relative; overflow:hidden;
   }
-  .deco1 { position:absolute; right:-60px; top:-60px; width:320px; height:320px; border-radius:50%; background:rgba(201,146,10,0.13); }
-  .deco2 { position:absolute; right:80px; bottom:-100px; width:200px; height:200px; border-radius:50%; background:rgba(201,146,10,0.07); }
+  .deco { position:absolute; border-radius:50%; pointer-events:none; }
+  .deco1 { right:-100px; top:-100px; width:420px; height:420px; background:rgba(201,146,10,0.09); }
+  .deco2 { left:-60px; bottom:-60px; width:220px; height:220px; background:rgba(201,146,10,0.05); }
 
-  .header-top { display:flex; align-items:center; justify-content:space-between; margin-bottom:60px; position:relative; z-index:2; }
-  .logo-area { display:flex; align-items:center; gap:24px; }
-  .logo-circle { width:90px; height:90px; background:#fff; border-radius:50%; display:flex; align-items:center; justify-content:center; flex-shrink:0; }
-  .logo-text strong { font-size:28px; font-weight:900; color:#fff; display:block; letter-spacing:0.5px; }
-  .logo-text span { font-size:20px; color:#c9a24a; font-weight:500; letter-spacing:1px; }
-  .badge {
-    font-size:22px; font-weight:800; letter-spacing:3px; text-transform:uppercase;
-    background:rgba(201,146,10,0.18); color:#f0c060;
-    padding:14px 36px; border-radius:50px;
-    border:2px solid rgba(201,146,10,0.4);
-    display:flex; align-items:center; gap:12px;
-    position:relative; z-index:2;
+  .header-top { display:flex; align-items:center; justify-content:space-between; margin-bottom:36px; position:relative; z-index:2; }
+  .brand-pill {
+    display:flex; align-items:center; gap:14px;
+    background:rgba(255,255,255,0.07); border:1px solid rgba(255,255,255,0.12);
+    border-radius:60px; padding:12px 26px 12px 16px;
   }
-  .badge-dot { width:12px; height:12px; border-radius:50%; background:#f0c060; }
+  .brand-logo { width:46px; height:46px; border-radius:50%; background:#c9920a; display:flex; align-items:center; justify-content:center; flex-shrink:0; }
+  .brand-logo svg { width:28px; height:28px; }
+  .brand-name { font-size:22px; font-weight:800; color:#fff; }
+  .brand-name span { color:#f0c060; }
 
-  .header-titulo { font-size:96px; font-weight:900; color:#fff; line-height:1.1; position:relative; z-index:2; }
-  .header-sub { font-size:28px; color:#c9a24a; margin-top:18px; font-weight:500; letter-spacing:0.5px; position:relative; z-index:2; }
+  .close-badge {
+    display:flex; align-items:center; gap:10px;
+    background:rgba(201,146,10,0.16); border:1.5px solid rgba(201,146,10,0.35);
+    border-radius:60px; padding:12px 24px;
+    font-size:18px; font-weight:800; color:#f0c060;
+    letter-spacing:2px; text-transform:uppercase;
+  }
+  .cb-dot { width:9px; height:9px; border-radius:50%; background:#f0c060; }
 
-  .gold-bar { height:8px; background:linear-gradient(90deg,#c9920a,#f0c060 50%,#c9920a); flex-shrink:0; }
+  .header-titulo { font-size:80px; font-weight:900; color:#fff; line-height:1.05; letter-spacing:-1.5px; position:relative; z-index:2; }
+  .header-sub { font-size:26px; color:#c9a24a; margin-top:14px; font-weight:600; position:relative; z-index:2; }
 
-  .body { padding:60px 80px 20px; display:flex; flex-direction:column; gap:0; flex:1; }
+  /* barra dourada */
+  .gold-bar { height:5px; background:linear-gradient(90deg,#c9920a,#f0c060 50%,#c9920a); flex-shrink:0; }
+
+  /* ── CORPO com fundo branco ── */
+  .body { flex:1; background:#fff; padding:44px 72px 0; display:flex; flex-direction:column; gap:0; }
 
   .ativo {
     display:flex; align-items:center; justify-content:space-between;
-    padding:40px 0; border-bottom:1px solid #f1f5f9;
+    padding:34px 0; border-bottom:1px solid #f1f5f9;
   }
   .ativo:last-child { border-bottom:none; }
-  .ativo-left { display:flex; align-items:center; gap:30px; }
-  .ativo-icon { width:90px; height:90px; border-radius:22px; display:flex; align-items:center; justify-content:center; flex-shrink:0; }
-  .ic-ibov { background:#eef3fb; }
+
+  .ativo-left { display:flex; align-items:center; gap:24px; }
+  .ativo-icon {
+    width:80px; height:80px; border-radius:20px;
+    display:flex; align-items:center; justify-content:center; flex-shrink:0;
+    font-size:38px;
+  }
+  .ic-ibov { background:#eef2fb; }
   .ic-dolar { background:#fef8ec; }
   .ic-btc { background:#fff4ec; }
-  .ativo-icon svg { width:50px; height:50px; }
-  .ativo-nome { font-size:22px; color:#94a3b8; font-weight:600; letter-spacing:1.5px; text-transform:uppercase; }
-  .ativo-valor { font-size:58px; font-weight:900; color:#0f172a; line-height:1.1; }
-  .var { font-size:32px; font-weight:800; padding:12px 30px; border-radius:14px; }
 
-  .footer { padding:30px 80px; background:#f8fafc; border-top:1px solid #f1f5f9; display:flex; justify-content:space-between; align-items:center; flex-shrink:0; }
-  .footer-hora { font-size:22px; color:#94a3b8; font-weight:500; }
-  .footer-site { font-size:22px; color:#c9920a; font-weight:800; }
+  .ativo-info { display:flex; flex-direction:column; gap:4px; }
+  .ativo-nome { font-size:19px; color:#94a3b8; font-weight:700; letter-spacing:2px; text-transform:uppercase; }
+  .ativo-valor { font-size:52px; font-weight:900; color:#0f172a; line-height:1.05; letter-spacing:-1px; }
+
+  .var-pill {
+    font-size:28px; font-weight:800;
+    padding:12px 28px; border-radius:12px;
+    display:flex; align-items:center; gap:8px;
+  }
+
+  /* ── FOOTER ── */
+  .footer {
+    padding:22px 72px; background:#f8fafc; border-top:1px solid #f1f5f9;
+    display:flex; justify-content:space-between; align-items:center; flex-shrink:0;
+  }
+  .footer-data { font-size:20px; color:#94a3b8; font-weight:500; }
+  .footer-handle { font-size:20px; font-weight:700; color:#c9920a; }
 </style>
 </head>
 <body>
 <div class="card">
+
   <div class="header">
-    <div class="deco1"></div><div class="deco2"></div>
+    <div class="deco deco1"></div><div class="deco deco2"></div>
     <div class="header-top">
-      <div class="logo-area">
-        <div class="logo-circle">
-          <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="50" cy="38" r="26" fill="none" stroke="#c9920a" stroke-width="4"/>
-            <line x1="50" y1="12" x2="50" y2="4" stroke="#c9920a" stroke-width="3" stroke-linecap="round"/>
-            <line x1="24" y1="38" x2="16" y2="38" stroke="#c9920a" stroke-width="3" stroke-linecap="round"/>
-            <line x1="84" y1="38" x2="76" y2="38" stroke="#c9920a" stroke-width="3" stroke-linecap="round"/>
-            <line x1="32" y1="19" x2="26" y2="13" stroke="#c9920a" stroke-width="2.5" stroke-linecap="round"/>
-            <line x1="68" y1="19" x2="74" y2="13" stroke="#c9920a" stroke-width="2.5" stroke-linecap="round"/>
-            <rect x="30" y="52" width="10" height="14" rx="2" fill="#1a2f5e"/>
-            <rect x="44" y="44" width="10" height="22" rx="2" fill="#1a2f5e"/>
-            <rect x="58" y="36" width="10" height="30" rx="2" fill="#1a2f5e"/>
-            <path d="M28 58 Q50 30 74 34" fill="none" stroke="#c9920a" stroke-width="3" stroke-linecap="round"/>
-            <polygon points="74,28 81,37 67,35" fill="#c9920a"/>
+      <div class="brand-pill">
+        <div class="brand-logo">
+          <svg viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="14" cy="10" r="7" fill="none" stroke="#fff" stroke-width="2"/>
+            <line x1="14" y1="3" x2="14" y2="1" stroke="#fff" stroke-width="1.8" stroke-linecap="round"/>
+            <line x1="7" y1="10" x2="5" y2="10" stroke="#fff" stroke-width="1.8" stroke-linecap="round"/>
+            <line x1="23" y1="10" x2="21" y2="10" stroke="#fff" stroke-width="1.8" stroke-linecap="round"/>
+            <rect x="7" y="16" width="3.5" height="6" rx="1" fill="#fff"/>
+            <rect x="12" y="13" width="3.5" height="9" rx="1" fill="#fff"/>
+            <rect x="17" y="10" width="3.5" height="12" rx="1" fill="#fff"/>
+            <path d="M7 19 Q14 11 21 12" fill="none" stroke="#f0c060" stroke-width="1.8" stroke-linecap="round"/>
+            <polygon points="21,9.5 24,13 18,12.5" fill="#f0c060"/>
           </svg>
         </div>
-        <div class="logo-text">
-          <strong>BOM DIA INVESTIDOR</strong>
-          <span>INFORMAÇÃO · ESTRATÉGIA · RESULTADOS</span>
-        </div>
+        <div class="brand-name">Bom Dia <span>Investidor</span></div>
       </div>
-      <div class="badge"><div class="badge-dot"></div> FECHAMENTO</div>
+      <div class="close-badge"><div class="cb-dot"></div>FECHAMENTO</div>
     </div>
-    <div class="header-titulo">Mercado<br>fechou assim</div>
+    <div class="header-titulo">Fechamento<br>do Mercado</div>
     <div class="header-sub">{{DATA_EXTENSO}}</div>
   </div>
+
   <div class="gold-bar"></div>
+
   <div class="body">
     <div class="ativo">
       <div class="ativo-left">
-        <div class="ativo-icon ic-ibov">
-          <svg viewBox="0 0 24 24" fill="none" stroke="#1a2f5e" stroke-width="2" stroke-linecap="round"><rect x="2" y="10" width="4" height="10" rx="1"/><rect x="9" y="6" width="4" height="14" rx="1"/><rect x="16" y="2" width="4" height="18" rx="1"/></svg>
+        <div class="ativo-icon ic-ibov">📈</div>
+        <div class="ativo-info">
+          <div class="ativo-nome">Ibovespa</div>
+          <div class="ativo-valor">{{IBOV_VALOR}}</div>
         </div>
-        <div><div class="ativo-nome">Ibovespa</div><div class="ativo-valor">{{IBOV_VALOR}}</div></div>
       </div>
-      <div class="var" style="color:{{IBOV_COR}};background:{{IBOV_BG}}">{{IBOV_VAR}}</div>
+      <div class="var-pill" style="background:{{IBOV_BG}};color:{{IBOV_COR}};">{{IBOV_VAR}}</div>
     </div>
+
     <div class="ativo">
       <div class="ativo-left">
-        <div class="ativo-icon ic-dolar">
-          <svg viewBox="0 0 24 24" fill="none" stroke="#b45309" stroke-width="2" stroke-linecap="round"><line x1="12" y1="2" x2="12" y2="22"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+        <div class="ativo-icon ic-dolar">💵</div>
+        <div class="ativo-info">
+          <div class="ativo-nome">Dólar</div>
+          <div class="ativo-valor">{{DOLAR_VALOR}}</div>
         </div>
-        <div><div class="ativo-nome">Dólar</div><div class="ativo-valor">{{DOLAR_VALOR}}</div></div>
       </div>
-      <div class="var" style="color:{{DOLAR_COR}};background:{{DOLAR_BG}}">{{DOLAR_VAR}}</div>
+      <div class="var-pill" style="background:{{DOLAR_BG}};color:{{DOLAR_COR}};">{{DOLAR_VAR}}</div>
     </div>
+
     <div class="ativo">
       <div class="ativo-left">
-        <div class="ativo-icon ic-btc">
-          <svg viewBox="0 0 24 24" fill="none" stroke="#ea580c" stroke-width="2" stroke-linecap="round"><path d="M11.767 19.089c4.924.868 6.14-6.025 1.216-6.894m-1.216 6.894L5.86 18.047m5.908 1.042-.718 4.052m1.927-5.11 1.217 6.894M6.58 13.195l-1.215-6.893m0 0 5.908 1.042M5.365 6.302l-.717 4.051m8.118-5.093c4.924.868 3.707 7.76-1.217 6.893"/></svg>
+        <div class="ativo-icon ic-btc">₿</div>
+        <div class="ativo-info">
+          <div class="ativo-nome">Bitcoin</div>
+          <div class="ativo-valor">{{BTC_VALOR}}</div>
         </div>
-        <div><div class="ativo-nome">Bitcoin</div><div class="ativo-valor">{{BTC_VALOR}}</div></div>
       </div>
-      <div class="var" style="color:{{BTC_COR}};background:{{BTC_BG}}">{{BTC_VAR}}</div>
+      <div class="var-pill" style="background:{{BTC_BG}};color:{{BTC_COR}};">{{BTC_VAR}}</div>
     </div>
   </div>
+
   <div class="footer">
-    <span class="footer-hora">Fechamento · 18:00 BRT · 1/2 →</span>
-    <span class="footer-site">bomdiainvestidor.com.br</span>
+    <div class="footer-data">bomdiainvestidor.com.br</div>
+    <div class="footer-handle">@bomdia_investidor</div>
   </div>
+
 </div>
 </body>
 </html>
