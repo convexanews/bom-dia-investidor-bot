@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-19T10:31:08.604Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 32 min."
+  },
+  {
     "data": "2026-06-19T10:01:08.702Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 62 min."
@@ -1243,10 +1248,5 @@
     "mensagem": "Postagem realizada com sucesso: \"Petróleo despenca mais de 5% e Brent fecha abaixo de US$ 80 com acordo EUA-Irã\".",
     "postId": "17943659373215833",
     "storyId": "18098130931911894"
-  },
-  {
-    "data": "2026-06-16T20:00:56.892Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 57): \"Petróleo despenca mais de 5% e Brent fecha abaixo de US$ 80 com acordo EUA-Irã\". Realizando postagem..."
   }
 ]
