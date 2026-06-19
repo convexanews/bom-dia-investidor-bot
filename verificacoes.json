@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-19T04:01:00.785Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (01:01 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-06-19T03:30:59.467Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (00:30 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1253,12 +1258,5 @@
     "data": "2026-06-16T17:01:04.911Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 52): \"HSBC muda rota para os juros e vê Selic em 14,25% até 2027\". Realizando postagem..."
-  },
-  {
-    "data": "2026-06-16T16:31:45.796Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso: \"Copom deveria manter jogo aberto sobre juros diante das incertezas, afirma economista-chefe do Inter\".",
-    "postId": "17907715314427927",
-    "storyId": "17927667375128029"
   }
 ]
