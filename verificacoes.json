@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-19T00:24:48.612Z",
+    "resultado": "sem_reel",
+    "mensagem": "Nenhuma notícia postada nas últimas 24h. Resumo em vídeo não foi gerado."
+  },
+  {
     "data": "2026-06-19T00:10:44.716Z",
     "resultado": "limite_diario",
     "mensagem": "Limite de 8 posts diários atingido (8 já publicados hoje)."
@@ -1270,10 +1275,5 @@
     "mensagem": "Postagem realizada com sucesso: \"Wall Street tem leve alta com acordo entre EUA e Irã e à espera de Fed; Dow Jones supera 52 mil pontos pela 1ª vez e renova recorde\".",
     "postId": "18080913443650229",
     "storyId": "17959127223132482"
-  },
-  {
-    "data": "2026-06-16T14:38:52.912Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 107): \"Wall Street tem leve alta com acordo entre EUA e Irã e à espera de Fed; Dow Jones supera 52 mil pontos pela 1ª vez e renova recorde\". Realizando postagem..."
   }
 ]
