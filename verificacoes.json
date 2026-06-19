@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-06-19T21:33:03.103Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Depois da Superquarta: o corte veio, mas a credibilidade aguenta?\".",
+    "postId": "18091542395188774",
+    "storyId": null,
+    "reelId": "18091542395188774",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-06-19T21:30:59.679Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 52): \"Depois da Superquarta: o corte veio, mas a credibilidade aguenta?\". Realizando postagem..."
+  },
+  {
     "data": "2026-06-19T21:02:15.203Z",
     "resultado": "carrossel_fechamento",
     "mensagem": "Carrossel de fechamento publicado. Ibovespa: 168.334 -0,07%",
@@ -1195,15 +1209,5 @@
     "data": "2026-06-17T04:00:46.763Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (01:00 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-06-17T03:30:41.882Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (00:30 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-06-17T03:00:45.314Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (00:00 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
