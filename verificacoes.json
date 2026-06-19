@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-19T01:01:03.115Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (22:01 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-06-19T00:30:59.423Z",
     "resultado": "limite_diario",
     "mensagem": "Limite de 8 posts diários atingido (8 já publicados hoje)."
@@ -1268,10 +1273,5 @@
     "mensagem": "Postagem realizada com sucesso: \"Ibovespa Hoje Ao Vivo: Bolsa cai com geopolítica e dados no radar\".",
     "postId": "18103154825471549",
     "storyId": "17948283291211984"
-  },
-  {
-    "data": "2026-06-16T15:28:39.053Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 65): \"Ibovespa Hoje Ao Vivo: Bolsa cai com geopolítica e dados no radar\". Realizando postagem..."
   }
 ]
