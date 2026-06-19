@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-19T07:30:57.881Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (04:30 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-06-19T07:01:13.774Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (04:01 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1245,12 +1250,5 @@
     "data": "2026-06-16T18:30:50.456Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 45): \"BofA: Só 31% dos gestores espera Ibovespa acima dos 190 mil pontos em 2026\". Realizando postagem..."
-  },
-  {
-    "data": "2026-06-16T18:01:34.851Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso: \"SpaceX compra startup de IA por US$ 60 bilhões; ações sobem\".",
-    "postId": "18133458655579876",
-    "storyId": "18333997897267037"
   }
 ]
