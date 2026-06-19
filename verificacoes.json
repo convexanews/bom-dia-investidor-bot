@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-19T14:15:09.731Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 108 min."
+  },
+  {
     "data": "2026-06-19T14:02:57.685Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"Dólar cede após ganhos, em dia de poucos negócios com feriado nos EUA\".",
@@ -1231,10 +1236,5 @@
     "mensagem": "Postagem realizada com sucesso: \"Superquarta sem festa? Analistas veem Fed travado e Copom ainda sob pressão\".",
     "postId": "18225028369316227",
     "storyId": "18195579940368893"
-  },
-  {
-    "data": "2026-06-16T22:00:53.652Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 42): \"Superquarta sem festa? Analistas veem Fed travado e Copom ainda sob pressão\". Realizando postagem..."
   }
 ]
