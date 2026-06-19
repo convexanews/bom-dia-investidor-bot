@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-19T06:30:55.037Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (03:30 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-06-19T06:01:05.105Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (03:01 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1247,12 +1252,5 @@
     "data": "2026-06-16T18:00:47.989Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 46): \"SpaceX compra startup de IA por US$ 60 bilhões; ações sobem\". Realizando postagem..."
-  },
-  {
-    "data": "2026-06-16T17:34:03.543Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso: \"Petrobras e bancos pressionam o Ibovespa antes de superquarta; dólar sobe\".",
-    "postId": "18167033146449151",
-    "storyId": "18111319949491483"
   }
 ]
