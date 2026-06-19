@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-19T13:31:00.546Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
+  },
+  {
     "data": "2026-06-19T13:01:14.058Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 32 min."
@@ -1227,22 +1232,5 @@
     "data": "2026-06-16T21:30:52.715Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 65): \"“A cor local está horrorosa”: Legacy teme piora do Brasil pós-eleições\". Realizando postagem..."
-  },
-  {
-    "data": "2026-06-16T21:02:49.489Z",
-    "resultado": "carrossel_fechamento",
-    "mensagem": "Carrossel de fechamento publicado. Ibovespa: 169.648 -0,87%",
-    "postId": "18105048103821581",
-    "ibov": {
-      "valor": "169.648",
-      "variacao": "-0,87%"
-    },
-    "topAltas": [
-      "RAIZ4 +2,38%",
-      "RADL3 +2,20%",
-      "RDOR3 +0,83%",
-      "SUZB3 +0,80%",
-      "RENT3 +0,76%"
-    ]
   }
 ]
