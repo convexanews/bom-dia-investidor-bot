@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-06-19T23:38:47.706Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (carrossel): \"SNEL11, maior fundo de energia da Bolsa, sobe forte após quinta oferta bilionária\".",
+    "postId": "17923895595475775",
+    "storyId": null,
+    "reelId": null,
+    "tipo": "carrossel"
+  },
+  {
+    "data": "2026-06-19T23:37:51.037Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 18): \"SNEL11, maior fundo de energia da Bolsa, sobe forte após quinta oferta bilionária\". Realizando postagem..."
+  },
+  {
     "data": "2026-06-19T23:31:04.551Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
@@ -1216,15 +1230,5 @@
     "data": "2026-06-17T08:00:55.595Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (05:00 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-06-17T07:30:42.157Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (04:30 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-06-17T07:00:57.649Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (04:00 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
