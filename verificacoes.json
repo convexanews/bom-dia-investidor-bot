@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-19T17:01:04.848Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 93 min."
+  },
+  {
     "data": "2026-06-19T16:59:30.494Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 94 min."
@@ -1190,10 +1195,5 @@
     "mensagem": "Postagem realizada com sucesso: \"Leilões de propriedades rurais disparam no Brasil com aumento da inadimplência no campo\".",
     "postId": "18086336591417302",
     "storyId": "18398266528080857"
-  },
-  {
-    "data": "2026-06-16T23:30:48.935Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 32): \"Leilões de propriedades rurais disparam no Brasil com aumento da inadimplência no campo\". Realizando postagem..."
   }
 ]
