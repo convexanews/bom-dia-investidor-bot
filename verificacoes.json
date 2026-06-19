@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-19T05:35:06.049Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (02:35 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-06-19T05:31:02.340Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (02:31 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1249,12 +1254,5 @@
     "data": "2026-06-16T17:33:13.281Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 49): \"Petrobras e bancos pressionam o Ibovespa antes de superquarta; dólar sobe\". Realizando postagem..."
-  },
-  {
-    "data": "2026-06-16T17:31:38.051Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso: \"Dólar opera em alta, de olho no petróleo e à espera de decisões de juros; Ibovespa cai\".",
-    "postId": "18204308290358526",
-    "storyId": "18103942948973660"
   }
 ]
