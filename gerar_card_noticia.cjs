@@ -22,7 +22,11 @@ async function gerarCard(cfg, saida) {
   template = template
     .replace('{{CATEGORIA}}', escapeHtml((cfg.categoria || 'MERCADO').toUpperCase()))
     .replace('{{MANCHETE}}', escapeHtml(cfg.manchete || ''))
-    .replace('{{IMAGEM_URL}}', cfg.imagem || '');
+    .replace('{{IMAGEM_URL}}', cfg.imagem || '')
+    .replace('{{PERGUNTA}}', escapeHtml(cfg.pergunta || ''))
+    .replace('{{ACENTO_GRADIENTE}}', cfg.acentoGradiente || 'linear-gradient(135deg, #00D184, #00A8E8)')
+    .replace('{{ACENTO_TEXTO}}', cfg.acentoTexto || '#04150f')
+    .replace(/\{\{ACENTO_COR\}\}/g, cfg.acentoCor || '#00D184');
 
   const tmpHtml = path.join(__dirname, `_tmp_card_noticia_${isStory ? 'story' : 'feed'}.html`);
   fs.writeFileSync(tmpHtml, template, 'utf8');

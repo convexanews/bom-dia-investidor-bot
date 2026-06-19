@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { width: 1080px; height: 1920px; overflow: hidden; font-family: 'Segoe UI', Arial, sans-serif; background: #1a2f5e; }
+  .card { width: 1080px; height: 1920px; position: relative; background: linear-gradient(160deg, #0f1e3d 0%, #1a2f5e 50%, #0f1e3d 100%); display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 80px 80px; gap: 0; }
+
+  .deco1 { position:absolute; right:-120px; top:-120px; width:500px; height:500px; border-radius:50%; background:rgba(201,146,10,0.08); pointer-events:none; }
+  .deco2 { position:absolute; left:-80px; bottom:200px; width:300px; height:300px; border-radius:50%; background:rgba(201,146,10,0.05); pointer-events:none; }
+
+  .logo-area { display:flex; align-items:center; gap:22px; margin-bottom:60px; z-index:2; }
+  .logo-circle { width:90px; height:90px; background:#fff; border-radius:50%; display:flex; align-items:center; justify-content:center; flex-shrink:0; }
+  .logo-text strong { font-size:28px; font-weight:900; color:#fff; display:block; }
+  .logo-text span { font-size:19px; color:#c9a24a; font-weight:500; }
+
+  .enquete-label {
+    font-size:22px; font-weight:800; letter-spacing:4px; text-transform:uppercase;
+    color:#f0c060; background:rgba(201,146,10,0.15); border:2px solid rgba(201,146,10,0.35);
+    padding:12px 36px; border-radius:50px; margin-bottom:48px; z-index:2;
+  }
+
+  .pergunta-box {
+    background:rgba(255,255,255,0.06); border:1px solid rgba(255,255,255,0.12);
+    border-radius:28px; padding:60px 60px; text-align:center; margin-bottom:60px; z-index:2; width:100%;
+  }
+  .icone-pergunta { font-size:80px; margin-bottom:28px; display:block; }
+  .pergunta-texto {
+    font-size:56px; font-weight:900; color:#fff; line-height:1.2; text-align:center;
+  }
+
+  .opcoes { display:flex; flex-direction:column; gap:28px; width:100%; z-index:2; margin-bottom:60px; }
+
+  .opcao {
+    display:flex; align-items:center; gap:28px;
+    border-radius:24px; padding:40px 48px;
+    font-size:40px; font-weight:800; cursor:pointer;
+    position:relative; overflow:hidden;
+  }
+  .opcao-a {
+    background:linear-gradient(135deg, rgba(0,200,130,0.25), rgba(0,200,130,0.12));
+    border:3px solid #00C882; color:#00E896;
+  }
+  .opcao-b {
+    background:linear-gradient(135deg, rgba(255,68,68,0.25), rgba(255,68,68,0.12));
+    border:3px solid #FF4444; color:#FF6666;
+  }
+  .opcao-icone { font-size:48px; flex-shrink:0; }
+  .opcao-texto { color:#fff; font-size:40px; font-weight:800; line-height:1.2; }
+
+  .cta-texto { font-size:28px; color:#94a3b8; text-align:center; z-index:2; font-weight:500; }
+  .cta-texto strong { color:#f0c060; }
+
+  .footer { position:absolute; bottom:60px; left:80px; right:80px; display:flex; justify-content:space-between; align-items:center; z-index:2; }
+  .footer-data { font-size:22px; color:#64748b; font-weight:500; }
+  .footer-site { font-size:22px; color:#c9920a; font-weight:800; }
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="deco1"></div><div class="deco2"></div>
+
+  <div class="logo-area">
+    <div class="logo-circle">
+      <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" width="60" height="60">
+        <circle cx="50" cy="38" r="26" fill="none" stroke="#c9920a" stroke-width="4"/>
+        <line x1="50" y1="12" x2="50" y2="4" stroke="#c9920a" stroke-width="3" stroke-linecap="round"/>
+        <line x1="24" y1="38" x2="16" y2="38" stroke="#c9920a" stroke-width="3" stroke-linecap="round"/>
+        <line x1="84" y1="38" x2="76" y2="38" stroke="#c9920a" stroke-width="3" stroke-linecap="round"/>
+        <line x1="32" y1="19" x2="26" y2="13" stroke="#c9920a" stroke-width="2.5" stroke-linecap="round"/>
+        <line x1="68" y1="19" x2="74" y2="13" stroke="#c9920a" stroke-width="2.5" stroke-linecap="round"/>
+        <rect x="30" y="52" width="10" height="14" rx="2" fill="#1a2f5e"/>
+        <rect x="44" y="44" width="10" height="22" rx="2" fill="#1a2f5e"/>
+        <rect x="58" y="36" width="10" height="30" rx="2" fill="#1a2f5e"/>
+        <path d="M28 58 Q50 30 74 34" fill="none" stroke="#c9920a" stroke-width="3" stroke-linecap="round"/>
+        <polygon points="74,28 81,37 67,35" fill="#c9920a"/>
+      </svg>
+    </div>
+    <div class="logo-text"><strong>Bom Dia Investidor</strong><span>Enquete do Dia</span></div>
+  </div>
+
+  <div class="enquete-label">📊 VOTE AGORA</div>
+
+  <div class="pergunta-box">
+    <span class="icone-pergunta">{{ICONE}}</span>
+    <div class="pergunta-texto">{{PERGUNTA}}</div>
+  </div>
+
+  <div class="opcoes">
+    <div class="opcao opcao-a">
+      <span class="opcao-icone">{{ICONE_A}}</span>
+      <span class="opcao-texto">{{OPCAO_A}}</span>
+    </div>
+    <div class="opcao opcao-b">
+      <span class="opcao-icone">{{ICONE_B}}</span>
+      <span class="opcao-texto">{{OPCAO_B}}</span>
+    </div>
+  </div>
+
+  <div class="cta-texto">Responda nos comentários! <strong>👇</strong></div>
+
+  <div class="footer">
+    <div class="footer-data">{{DATA}}</div>
+    <div class="footer-site">@bomdia_investidor</div>
+  </div>
+</div>
+</body>
+</html>

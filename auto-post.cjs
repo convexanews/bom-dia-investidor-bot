@@ -58,9 +58,65 @@ const CTAS = [
   '🤔 Concorda? Comente abaixo!',
 ];
 
+const SENTIMENTOS = [
+  { palavras: ['sobe', 'alta', 'suba', 'subiu', 'dispara', 'recorde', 'lucro', 'cresce', 'crescimento', 'recupera', 'valoriza', 'positivo', 'melhora', 'ganho', 'alta histórica'],
+    tipo: 'positivo',
+    gradiente: 'linear-gradient(135deg, #00C853, #00BFA5)',
+    cor: '#00C853', texto: '#023a1d' },
+  { palavras: ['cai', 'queda', 'crise', 'despenca', 'derrete', 'tomba', 'recuo', 'perde', 'baixa', 'desaba', 'recessão', 'crash', 'negativo', 'piora', 'déficit'],
+    tipo: 'negativo',
+    gradiente: 'linear-gradient(135deg, #FF4444, #E53935)',
+    cor: '#FF4444', texto: '#fff' },
+];
+
+const PERGUNTAS = {
+  positivo: 'Você está aproveitando essa alta? 👇',
+  negativo: 'Como você está se protegendo? Comente! 👇',
+  selic:    'Isso muda sua estratégia de renda fixa? 👇',
+  dolar:    'Você já se protegeu da variação cambial? 👇',
+  bitcoin:  'Você tem cripto na carteira? 👇',
+  fii:      'Você tem FIIs na carteira? Comente! 👇',
+  dividendo:'Você vive de dividendos? Conta pra gente! 👇',
+  padrao:   'O que você acha disso? Comente! 👇',
+};
+
+const CONTEXTOS = {
+  positivo: '📈 O que isso significa para você: momento de revisar sua carteira e avaliar se vale aumentar posição.',
+  negativo: '📉 O que isso significa para você: hora de checar stop loss, diversificação e proteções da carteira.',
+  selic:    '💰 O que isso significa para você: rendimento do Tesouro Selic e CDBs pode ser impactado.',
+  dolar:    '💵 O que isso significa para você: quem tem ativos dolarizados ou viagem planejada precisa ficar atento.',
+  bitcoin:  '₿ O que isso significa para você: criptomoedas seguem voláteis — ajuste a exposição ao seu perfil de risco.',
+  fii:      '🏢 O que isso significa para você: fundos imobiliários podem reagir a essa notícia.',
+  dividendo:'💸 O que isso significa para você: investidores de renda podem ser diretamente impactados.',
+  padrao:   '💡 O que isso significa para você: fique atento aos impactos no mercado e na sua carteira.',
+};
+
+function detectarSentimento(titulo, resumo = '') {
+  const texto = (titulo + ' ' + resumo).toLowerCase();
+
+  if (/selic|copom|juros|taxa básica|renda fixa|tesouro/.test(texto))
+    return { tipo: 'selic', gradiente: 'linear-gradient(135deg, #7C4DFF, #651FFF)', cor: '#7C4DFF', texto: '#fff' };
+  if (/dólar|câmbio|real|moeda|euro|libra/.test(texto))
+    return { tipo: 'dolar', gradiente: 'linear-gradient(135deg, #0288D1, #0277BD)', cor: '#0288D1', texto: '#fff' };
+  if (/bitcoin|cripto|ethereum|blockchain/.test(texto))
+    return { tipo: 'bitcoin', gradiente: 'linear-gradient(135deg, #FF9100, #E65100)', cor: '#FF9100', texto: '#fff' };
+  if (/fii|fundo imobiliário|fundo imobiliario/.test(texto))
+    return { tipo: 'fii', gradiente: 'linear-gradient(135deg, #26A69A, #00897B)', cor: '#26A69A', texto: '#fff' };
+  if (/dividendo|proventos|jcp|rendimento/.test(texto))
+    return { tipo: 'dividendo', gradiente: 'linear-gradient(135deg, #5C6BC0, #3949AB)', cor: '#5C6BC0', texto: '#fff' };
+
+  for (const s of SENTIMENTOS) {
+    if (s.palavras.some(p => texto.includes(p)))
+      return { tipo: s.tipo, gradiente: s.gradiente, cor: s.cor, texto: s.texto };
+  }
+
+  return { tipo: 'padrao', gradiente: 'linear-gradient(135deg, #00D184, #00A8E8)', cor: '#00D184', texto: '#04150f' };
+}
+
 function montarLegenda(cfg) {
   const cta = CTAS[Math.floor(Date.now() / 1000) % CTAS.length];
-  const base = `${cfg.manchete}\n\n${cfg.resumo || ''}\n\nFonte: ${cfg.fonte || ''}`;
+  const contexto = CONTEXTOS[cfg.sentimento?.tipo || 'padrao'] || CONTEXTOS.padrao;
+  const base = `${cfg.manchete}\n\n${cfg.resumo || ''}\n\n${contexto}\n\nFonte: ${cfg.fonte || ''}`;
   return `${base}\n\n${cta}\n\n📊 Fique por dentro de mais notícias do mercado financeiro: https://bomdiainvestidor.com.br/\n\n${HASHTAGS}`;
 }
 
@@ -217,6 +273,7 @@ async function main() {
   console.log(`Notícia selecionada (peso ${nova.peso}): ${nova.titulo}`);
   registrarVerificacao('noticia_encontrada', `Notícia nova encontrada (peso ${nova.peso || '?'}): "${nova.titulo}". Realizando postagem...`);
 
+  const sentimento = detectarSentimento(nova.titulo, nova.descricao || '');
   const cfg = {
     categoria: (nova.categorias && nova.categorias[0]) || 'MERCADO',
     manchete: nova.titulo,
@@ -224,6 +281,11 @@ async function main() {
     fonte: nova.fonte,
     link: nova.link,
     imagem: nova.imagem || null,
+    sentimento,
+    pergunta: PERGUNTAS[sentimento.tipo] || PERGUNTAS.padrao,
+    acentoGradiente: sentimento.gradiente,
+    acentoCor: sentimento.cor,
+    acentoTexto: sentimento.texto,
   };
   if (!cfg.imagem) {
     cfg.imagem = await buscarImagemArtigo(cfg.link);

@@ -1,0 +1,38 @@
+name: Bom Dia Investidor - Story Enquete
+
+on:
+  schedule:
+    - cron: '0 9 * * *'  # Todo dia às 6h BRT (9h UTC)
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  enquete:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Instalar dependencias
+        run: npm install
+
+      - name: Gerar e publicar story de enquete
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          IG_ACCOUNT_ID: ${{ secrets.IG_ACCOUNT_ID }}
+          PAGES_TOKEN: ${{ secrets.PAGES_TOKEN }}
+        run: node auto-story-enquete.cjs
+
+      - name: Salvar registro
+        if: always()
+        run: |
+          git config user.email "bot@bomdiainvestidor.com.br"
+          git config user.name "Bom Dia Investidor Bot"
+          git add verificacoes.json
+          git diff --cached --quiet || git commit -m "Atualiza registro do story de enquete"
+          git push

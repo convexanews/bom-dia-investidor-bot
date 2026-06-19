@@ -1,0 +1,38 @@
+name: Bom Dia Investidor - Carrossel Educativo
+
+on:
+  schedule:
+    - cron: '0 13 * * 1'  # Toda segunda-feira às 10h BRT (13h UTC)
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  educativo:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Instalar dependencias
+        run: npm install
+
+      - name: Gerar e publicar carrossel educativo
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          IG_ACCOUNT_ID: ${{ secrets.IG_ACCOUNT_ID }}
+          PAGES_TOKEN: ${{ secrets.PAGES_TOKEN }}
+        run: node auto-carrossel-educativo.cjs
+
+      - name: Salvar registro
+        if: always()
+        run: |
+          git config user.email "bot@bomdiainvestidor.com.br"
+          git config user.name "Bom Dia Investidor Bot"
+          git add verificacoes.json
+          git diff --cached --quiet || git commit -m "Atualiza registro do carrossel educativo"
+          git push
