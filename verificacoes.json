@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-06-19T19:02:01.995Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (carrossel): \"Exportação de algodão do Brasil será recorde em 2026, diz Anea ao elevar projeção\".",
+    "postId": "18096960413332226",
+    "storyId": null,
+    "reelId": null,
+    "tipo": "carrossel"
+  },
+  {
+    "data": "2026-06-19T19:01:09.749Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 28): \"Exportação de algodão do Brasil será recorde em 2026, diz Anea ao elevar projeção\". Realizando postagem..."
+  },
+  {
     "data": "2026-06-19T18:31:10.068Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
@@ -1181,15 +1195,5 @@
     "data": "2026-06-17T00:21:03.536Z",
     "resultado": "erro",
     "mensagem": "Erro na execução automática: Erro ao publicar no feed: {\"error\":{\"message\":\"User is performing too many actions\",\"type\":\"OAuthException\",\"is_transient\":false,\"code\":9,\"error_subcode\":2207042,\"error_user_title\":\"Media Publish Limit Exceeded\",\"error_user_msg\":\"You reached maximum number of posts that is allowed to be published by Content Publishing API.\",\"fbtrace_id\":\"AkgevulEvYZMcwABpLjcDNk\"}}"
-  },
-  {
-    "data": "2026-06-17T00:20:21.320Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 35): \"Privatização da Copasa é concluída em cerimônia na B3\". Realizando postagem..."
-  },
-  {
-    "data": "2026-06-17T00:16:21.013Z",
-    "resultado": "erro_reel",
-    "mensagem": "Erro ao gerar o resumo em vídeo do dia: Erro ao publicar reel: {\"error\":{\"message\":\"User is performing too many actions\",\"type\":\"OAuthException\",\"is_transient\":false,\"code\":9,\"error_subcode\":2207042,\"error_user_title\":\"Media Publish Limit Exceeded\",\"error_user_msg\":\"You reached maximum number of posts that is allowed to be published by Content Publishing API.\",\"fbtrace_id\":\"Au1_t23w0yAEvmjlyP2ealb\"}}"
   }
 ]
