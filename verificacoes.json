@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-19T17:30:57.044Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 63 min."
+  },
+  {
     "data": "2026-06-19T17:01:04.848Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 93 min."
@@ -1188,12 +1193,5 @@
     "data": "2026-06-17T00:00:47.039Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 55): \"Nasdaq e S&P 500 recuam, enquanto Dow Jones atinge novo recorde de fechamento\". Realizando postagem..."
-  },
-  {
-    "data": "2026-06-16T23:31:38.149Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso: \"Leilões de propriedades rurais disparam no Brasil com aumento da inadimplência no campo\".",
-    "postId": "18086336591417302",
-    "storyId": "18398266528080857"
   }
 ]
