@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-19T14:31:26.487Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
+  },
+  {
     "data": "2026-06-19T14:15:09.731Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 108 min."
@@ -1229,12 +1234,5 @@
     "data": "2026-06-16T22:30:42.583Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 45): \"SNEL11 negocia mais de R$ 10 mi enquanto IPO da SpaceX reforça tese energética\". Realizando postagem..."
-  },
-  {
-    "data": "2026-06-16T22:01:42.514Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso: \"Superquarta sem festa? Analistas veem Fed travado e Copom ainda sob pressão\".",
-    "postId": "18225028369316227",
-    "storyId": "18195579940368893"
   }
 ]
