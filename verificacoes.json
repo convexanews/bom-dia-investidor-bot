@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-19T15:31:00.737Z",
+    "resultado": "sem_reel",
+    "mensagem": "Nenhuma notícia postada nas últimas 24h. Resumo em vídeo não foi gerado."
+  },
+  {
     "data": "2026-06-19T15:30:57.768Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 32 min."
@@ -1215,10 +1220,5 @@
     "mensagem": "Postagem realizada com sucesso: \"Taxas de DIs sobem à espera de corte na Selic para 14,25%\".",
     "postId": "18102202397125868",
     "storyId": "18123106387598893"
-  },
-  {
-    "data": "2026-06-16T22:55:01.449Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 39): \"Taxas de DIs sobem à espera de corte na Selic para 14,25%\". Realizando postagem..."
   }
 ]
