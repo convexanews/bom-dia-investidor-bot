@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-06-19T16:33:27.299Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Bradesco BBI vê ponto de entrada na B3 após correção e elege ações favoritas para 3T\".",
+    "postId": "18119495395685755",
+    "storyId": null,
+    "reelId": "18119495395685755",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-06-19T16:31:11.033Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 55): \"Bradesco BBI vê ponto de entrada na B3 após correção e elege ações favoritas para 3T\". Realizando postagem..."
+  },
+  {
     "data": "2026-06-19T16:01:09.312Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
@@ -1206,17 +1220,5 @@
       "Taxas de DIs sobem à espera de corte na Selic para 14,25%",
       "Navio de guerra russo dispara tiros de advertência perto de iate britânico"
     ]
-  },
-  {
-    "data": "2026-06-16T23:01:42.179Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso: \"Navio de guerra russo dispara tiros de advertência perto de iate britânico\".",
-    "postId": "18100773817935893",
-    "storyId": "17922197253362501"
-  },
-  {
-    "data": "2026-06-16T23:00:46.881Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 38): \"Navio de guerra russo dispara tiros de advertência perto de iate britânico\". Realizando postagem..."
   }
 ]
