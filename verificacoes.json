@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-19T18:00:59.312Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 33 min."
+  },
+  {
     "data": "2026-06-19T17:30:57.044Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 63 min."
@@ -1188,10 +1193,5 @@
     "mensagem": "Postagem realizada com sucesso: \"Nasdaq e S&P 500 recuam, enquanto Dow Jones atinge novo recorde de fechamento\".",
     "postId": "18355847920242626",
     "storyId": "18103603199009659"
-  },
-  {
-    "data": "2026-06-17T00:00:47.039Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 55): \"Nasdaq e S&P 500 recuam, enquanto Dow Jones atinge novo recorde de fechamento\". Realizando postagem..."
   }
 ]
