@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-06-19T09:02:59.135Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Petróleo, inflação e bolsas: os estragos econômicos deixados pela guerra entre EUA e Irã\".",
+    "postId": "18117215254827325",
+    "storyId": null,
+    "reelId": "18117215254827325",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-06-19T09:01:04.157Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 51): \"Petróleo, inflação e bolsas: os estragos econômicos deixados pela guerra entre EUA e Irã\". Realizando postagem..."
+  },
+  {
     "data": "2026-06-19T08:31:04.318Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (05:31 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1236,17 +1250,5 @@
     "data": "2026-06-16T19:30:55.704Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 43): \"Petróleo derruba Petrobras e Ibovespa; dólar fecha em leve alta a R$ 5,06\". Realizando postagem..."
-  },
-  {
-    "data": "2026-06-16T19:01:53.557Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso: \"Ouro fecha em leve alta com expectativas para assinatura de acordo EUA-Irã e Fed no radar\".",
-    "postId": "18084244367532226",
-    "storyId": "17893066059532854"
-  },
-  {
-    "data": "2026-06-16T19:00:59.998Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 46): \"Ouro fecha em leve alta com expectativas para assinatura de acordo EUA-Irã e Fed no radar\". Realizando postagem..."
   }
 ]
