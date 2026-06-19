@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-19T15:30:57.768Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 32 min."
+  },
+  {
     "data": "2026-06-19T15:01:09.671Z",
     "resultado": "sem_reel",
     "mensagem": "Nenhuma notícia postada nas últimas 24h. Resumo em vídeo não foi gerado."
@@ -1215,22 +1220,5 @@
     "data": "2026-06-16T22:55:01.449Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 39): \"Taxas de DIs sobem à espera de corte na Selic para 14,25%\". Realizando postagem..."
-  },
-  {
-    "data": "2026-06-16T22:47:28.757Z",
-    "resultado": "carrossel_fechamento",
-    "mensagem": "Carrossel de fechamento publicado. Ibovespa: 169.648 -0,87%",
-    "postId": "17877866910478978",
-    "ibov": {
-      "valor": "169.648",
-      "variacao": "-0,87%"
-    },
-    "topAltas": [
-      "RAIZ4 +2,38%",
-      "RADL3 +2,20%",
-      "RDOR3 +0,83%",
-      "SUZB3 +0,80%",
-      "RENT3 +0,76%"
-    ]
   }
 ]
