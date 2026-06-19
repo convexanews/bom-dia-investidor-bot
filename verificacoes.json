@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-19T11:01:05.646Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
+  },
+  {
     "data": "2026-06-19T10:42:58.407Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 21 min."
@@ -1241,10 +1246,5 @@
     "mensagem": "Postagem realizada com sucesso: \"Wall Street fecha sem direção única com acordo entre EUA e Irã em foco; Dow Jones renova recordes\".",
     "postId": "17882947557438414",
     "storyId": "18254102788305259"
-  },
-  {
-    "data": "2026-06-16T20:30:53.564Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 93): \"Wall Street fecha sem direção única com acordo entre EUA e Irã em foco; Dow Jones renova recordes\". Realizando postagem..."
   }
 ]
