@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-19T00:01:17.146Z",
+    "resultado": "limite_diario",
+    "mensagem": "Limite de 8 posts diários atingido (8 já publicados hoje)."
+  },
+  {
     "data": "2026-06-18T23:30:59.548Z",
     "resultado": "sem_reel",
     "mensagem": "Nenhuma notícia postada nas últimas 24h. Resumo em vídeo não foi gerado."
@@ -1272,10 +1277,5 @@
     "mensagem": "Postagem realizada com sucesso: \"Ibovespa Futuro cai apesar de alívio geopolítico e decisões de Fed e Copom no radar\".",
     "postId": "18115740202852286",
     "storyId": "18083537996423053"
-  },
-  {
-    "data": "2026-06-16T12:13:54.152Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 65): \"Ibovespa Futuro cai apesar de alívio geopolítico e decisões de Fed e Copom no radar\". Realizando postagem..."
   }
 ]
