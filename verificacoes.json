@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-19T12:01:00.599Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
+  },
+  {
     "data": "2026-06-19T11:32:28.407Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"BC do Japão alerta para risco de inflação acima da meta e sinaliza intenção de aumentar juros\".",
@@ -1241,12 +1246,5 @@
     "data": "2026-06-16T21:00:57.851Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 54): \"Dow Jones marca novo recorde intradiário, mas NY fecha sem direção definida\". Realizando postagem..."
-  },
-  {
-    "data": "2026-06-16T20:56:57.218Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso: \"Ibovespa tem nova queda com Petrobras (PETR4) e no aguardo da ‘Super Quarta’; dólar sobe a R$ 5,08\".",
-    "postId": "18107118713066391",
-    "storyId": "18119731174747881"
   }
 ]
