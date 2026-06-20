@@ -1,5 +1,11 @@
 [
   {
+    "data": "2026-06-20T09:01:43.279Z",
+    "resultado": "story_enquete",
+    "mensagem": "Story de enquete publicado: \"Você já investe em Fundos Imobiliários (FIIs)?\"",
+    "postId": "18397128784089259"
+  },
+  {
     "data": "2026-06-20T09:01:04.443Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
@@ -1226,10 +1232,5 @@
     "data": "2026-06-17T14:00:50.845Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 97): \"Wall Street sobe à espera de decisão do Fed; Dow Jones bate novo recorde, aos 52 mil pontos\". Realizando postagem..."
-  },
-  {
-    "data": "2026-06-17T13:31:37.155Z",
-    "resultado": "erro",
-    "mensagem": "Erro na execução automática: Erro ao publicar no feed: {\"error\":{\"message\":\"User is performing too many actions\",\"type\":\"OAuthException\",\"is_transient\":false,\"code\":9,\"error_subcode\":2207042,\"error_user_title\":\"Media Publish Limit Exceeded\",\"error_user_msg\":\"You reached maximum number of posts that is allowed to be published by Content Publishing API.\",\"fbtrace_id\":\"A9mnrT5BfhGvk2lv21ALjj3\"}}"
   }
 ]
