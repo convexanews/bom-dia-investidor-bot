@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-20T19:01:02.244Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
+  },
+  {
     "data": "2026-06-20T18:31:17.862Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 32 min."
@@ -1196,14 +1201,5 @@
     "data": "2026-06-17T20:08:30.996Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 68): \"Dólar sobe a R$ 5,10 após falas de Warsh e sinalização de política monetária restritiva nos EUA\". Realizando postagem..."
-  },
-  {
-    "data": "2026-06-17T19:41:14.783Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel narrado): \"Por que o Tesouro IPCA+ de longo prazo passou a recuar após 1ª fala de Warsh no Fed?\".",
-    "postId": "18106091344917972",
-    "storyId": null,
-    "reelId": "18106091344917972",
-    "tipo": "reel_narrado"
   }
 ]
