@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-20T16:01:18.580Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 33 min."
+  },
+  {
     "data": "2026-06-20T15:31:06.259Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 63 min."
@@ -1208,10 +1213,5 @@
     "data": "2026-06-17T17:32:05.578Z",
     "resultado": "erro",
     "mensagem": "Erro na execução automática: Command failed: git push"
-  },
-  {
-    "data": "2026-06-17T17:31:15.995Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 45): \"Selic elevada por mais tempo? Gestores projetam juros altos para além de 2027\". Realizando postagem..."
   }
 ]
