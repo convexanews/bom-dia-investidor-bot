@@ -1,5 +1,16 @@
 [
   {
+    "data": "2026-06-20T00:09:34.424Z",
+    "resultado": "reel_postado",
+    "mensagem": "Resumo em vídeo do dia publicado com 2 notícia(s).",
+    "reelId": "18072186416367755",
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1781914066790.mp4",
+    "noticias": [
+      "Exportação de algodão do Brasil será recorde em 2026, diz Anea ao elevar projeção",
+      "SNEL11, maior fundo de energia da Bolsa, sobe forte após quinta oferta bilionária"
+    ]
+  },
+  {
     "data": "2026-06-20T00:00:59.693Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 98 min."
@@ -1225,10 +1236,5 @@
     "data": "2026-06-17T09:00:55.116Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 57): \"Prévia do PIB e decisões de juros no Brasil e EUA: o que move os mercados\". Realizando postagem..."
-  },
-  {
-    "data": "2026-06-17T08:30:45.463Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (05:30 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
