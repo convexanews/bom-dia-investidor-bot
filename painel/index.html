@@ -62,11 +62,78 @@
   .badge { font-size: 11px; font-weight: 800; padding: 4px 10px; border-radius: 20px; text-transform: uppercase; letter-spacing: 0.5px; margin-left: auto; }
 
   .lightbox {
-    display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.88);
+    display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.92);
     align-items: center; justify-content: center; z-index: 100; padding: 20px;
+    flex-direction: column; gap: 18px;
   }
   .lightbox.active { display: flex; }
-  .lightbox img { max-height: 90vh; border-radius: 16px; }
+  .lightbox-close {
+    position: absolute; top: 22px; right: 26px; color: #fff; font-size: 26px;
+    background: rgba(255,255,255,0.1); border-radius: 50%; width: 42px; height: 42px;
+    display: flex; align-items: center; justify-content: center; cursor: pointer;
+  }
+
+  /* ── mockup de celular ── */
+  .phone {
+    width: 300px; height: 633px; background: #000; border-radius: 42px;
+    padding: 12px; box-shadow: 0 30px 80px rgba(0,0,0,0.6); position: relative;
+    border: 2px solid #2a2a2a; flex-shrink: 0;
+  }
+  .phone-screen {
+    width: 100%; height: 100%; border-radius: 32px; overflow: hidden; position: relative;
+    background: #000;
+  }
+  .phone-screen img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .phone-notch {
+    position: absolute; top: 0; left: 50%; transform: translateX(-50%);
+    width: 120px; height: 22px; background: #000; border-radius: 0 0 16px 16px; z-index: 5;
+  }
+  .ig-statusbar {
+    position: absolute; top: 10px; left: 22px; right: 22px; z-index: 4;
+    display: flex; justify-content: space-between; align-items: center;
+    font-size: 13px; font-weight: 700; color: #fff; text-shadow: 0 1px 3px rgba(0,0,0,0.5);
+  }
+  .ig-topbar {
+    position: absolute; top: 36px; left: 16px; right: 16px; z-index: 4;
+    display: flex; justify-content: space-between; align-items: center;
+  }
+  .ig-progress { position: absolute; top: 36px; left: 16px; right: 16px; height: 2.5px; background: rgba(255,255,255,0.35); border-radius: 2px; z-index: 4; }
+  .ig-progress::after { content:''; position:absolute; left:0; top:0; bottom:0; width: 70%; background:#fff; border-radius: 2px; }
+  .ig-account { display: flex; align-items: center; gap: 8px; margin-top: 10px; }
+  .ig-account img { width: 26px; height: 26px; border-radius: 50%; border: 1.5px solid #fff; object-fit: cover; }
+  .ig-account span { color: #fff; font-size: 13px; font-weight: 700; text-shadow: 0 1px 3px rgba(0,0,0,0.5); }
+  .ig-icons { display: flex; gap: 16px; color: #fff; font-size: 18px; text-shadow: 0 1px 3px rgba(0,0,0,0.5); margin-top: 10px; }
+  .ig-bottombar {
+    position: absolute; bottom: 14px; left: 16px; right: 16px; z-index: 4;
+    display: flex; align-items: center; gap: 10px;
+  }
+  .ig-textinput {
+    flex: 1; background: rgba(255,255,255,0.15); border: 1px solid rgba(255,255,255,0.4);
+    border-radius: 22px; padding: 10px 16px; color: rgba(255,255,255,0.85); font-size: 13px; font-weight: 500;
+  }
+  .ig-sendbtn {
+    width: 38px; height: 38px; border-radius: 50%; background: #fff;
+    display: flex; align-items: center; justify-content: center; font-size: 16px; flex-shrink: 0;
+  }
+
+  .lightbox-actions { display: flex; gap: 12px; }
+  .lightbox-actions a, .lightbox-actions button {
+    background: linear-gradient(135deg,#c9920a,#f0c060); color: #1a1200; font-weight: 800;
+    font-size: 14px; padding: 12px 24px; border-radius: 10px; text-decoration: none; border: none; cursor: pointer;
+  }
+  .lightbox-actions .secondary { background: rgba(255,255,255,0.12); color: #fff; }
+
+  .guide {
+    background: #1c2440; border: 1px solid #2a3354; border-radius: 14px;
+    padding: 20px 24px; margin-bottom: 24px; display: flex; gap: 22px; flex-wrap: wrap;
+  }
+  .guide-step { display: flex; align-items: flex-start; gap: 10px; flex: 1; min-width: 160px; }
+  .guide-step .gnum {
+    width: 26px; height: 26px; border-radius: 50%; background: #c9920a; color: #1a1200;
+    font-weight: 900; font-size: 13px; display: flex; align-items: center; justify-content: center; flex-shrink: 0;
+  }
+  .guide-step .gtext { font-size: 13px; color: #cfd4e2; line-height: 1.4; }
+  .guide-step .gtext strong { color: #fff; }
 </style>
 </head>
 <body>
@@ -86,7 +153,15 @@
 <main>
   <div class="view active" id="view-storys">
     <div class="section-title">Stories interativos prontos</div>
-    <div class="section-sub">Baixe a imagem e poste manualmente no Instagram Stories. Adicione o sticker de Enquete oficial do Instagram em cima pra interação nativa, ou poste assim mesmo pedindo comentário.</div>
+    <div class="section-sub">Clique numa imagem pra ver como vai ficar no celular. Baixe e poste no Instagram Stories — pra enquete de verdade, adicione o sticker de Enquete oficial do Instagram em cima.</div>
+
+    <div class="guide">
+      <div class="guide-step"><div class="gnum">1</div><div class="gtext">Abra esse painel <strong>no navegador do celular</strong></div></div>
+      <div class="guide-step"><div class="gnum">2</div><div class="gtext">Toque na imagem e depois em <strong>Baixar PNG</strong></div></div>
+      <div class="guide-step"><div class="gnum">3</div><div class="gtext">Abra o <strong>Instagram → Story</strong> e escolha a imagem da galeria</div></div>
+      <div class="guide-step"><div class="gnum">4</div><div class="gtext">Adicione o sticker de <strong>Enquete</strong> do Instagram e publique</div></div>
+    </div>
+
     <div class="grid" id="storysGrid"></div>
   </div>
 
@@ -128,8 +203,31 @@
   </div>
 </main>
 
-<div class="lightbox" id="lightbox" onclick="this.classList.remove('active')">
-  <img id="lightboxImg" src="">
+<div class="lightbox" id="lightbox">
+  <div class="lightbox-close" onclick="closeLightbox()">✕</div>
+  <div class="phone">
+    <div class="phone-screen">
+      <div class="phone-notch"></div>
+      <div class="ig-statusbar"><span id="lbClock">9:41</span><span>📶 🔋</span></div>
+      <div class="ig-progress"></div>
+      <div class="ig-topbar">
+        <div class="ig-account">
+          <img src="../logo-bdi.jpeg" alt="">
+          <span>bomdia_investidor</span>
+        </div>
+        <div class="ig-icons">🎵 ➕</div>
+      </div>
+      <img id="lightboxImg" src="">
+      <div class="ig-bottombar">
+        <div class="ig-textinput">Enviar mensagem</div>
+        <div class="ig-sendbtn">💬</div>
+      </div>
+    </div>
+  </div>
+  <div class="lightbox-actions">
+    <a id="lbDownload" href="" download>⬇ Baixar PNG</a>
+    <button class="secondary" onclick="closeLightbox()">Fechar</button>
+  </div>
 </div>
 
 <script>
@@ -146,7 +244,7 @@
     const grid = document.getElementById('storysGrid');
     grid.innerHTML = items.map(it => `
       <div class="story-card">
-        <img class="thumb" src="storys-imgs/${it.slug}.png" loading="lazy" onclick="openLightbox('storys-imgs/${it.slug}.png')">
+        <img class="thumb" src="storys-imgs/${it.slug}.png" loading="lazy" onclick="openLightbox('storys-imgs/${it.slug}.png','${it.slug}')">
         <div class="body">
           <div class="pergunta">${it.icone} ${it.pergunta}</div>
           <div class="opcoes">${it.opcaoA} · ${it.opcaoB}</div>
@@ -156,9 +254,15 @@
     `).join('');
   });
 
-  function openLightbox(src) {
+  function openLightbox(src, slug) {
     document.getElementById('lightboxImg').src = src;
+    document.getElementById('lbDownload').href = src;
+    document.getElementById('lbDownload').download = 'bdi-story-' + slug + '.png';
+    document.getElementById('lbClock').textContent = new Date().toLocaleTimeString('pt-BR', { hour: '2-digit', minute: '2-digit' });
     document.getElementById('lightbox').classList.add('active');
+  }
+  function closeLightbox() {
+    document.getElementById('lightbox').classList.remove('active');
   }
 </script>
 </body>
