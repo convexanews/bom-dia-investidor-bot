@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Painel — Bom Dia Investidor</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+    background: #0a0e1a; color: #e8ecf4; min-height: 100vh;
+  }
+  header {
+    background: linear-gradient(135deg, #0a1628 0%, #1a2f5e 65%, #0d1f45 100%);
+    padding: 28px 32px; display: flex; align-items: center; gap: 16px;
+    border-bottom: 3px solid #c9920a;
+  }
+  header img { height: 48px; border-radius: 10px; }
+  header h1 { font-size: 22px; font-weight: 900; }
+  header span { font-size: 13px; color: #c9a24a; font-weight: 600; display: block; }
+
+  nav { display: flex; gap: 6px; padding: 18px 32px 0; background: #0e1424; }
+  nav button {
+    background: transparent; border: none; color: #8b93a8; font-size: 15px; font-weight: 700;
+    padding: 14px 22px; cursor: pointer; border-radius: 10px 10px 0 0; transition: 0.15s;
+  }
+  nav button.active { background: #161d33; color: #f0c060; }
+  nav button:hover { color: #fff; }
+
+  main { padding: 28px 32px 60px; background: #161d33; min-height: 80vh; }
+  .view { display: none; }
+  .view.active { display: block; }
+
+  .section-title { font-size: 19px; font-weight: 800; margin-bottom: 6px; }
+  .section-sub { font-size: 14px; color: #8b93a8; margin-bottom: 26px; }
+
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 20px; }
+  .story-card {
+    background: #1c2440; border-radius: 16px; overflow: hidden;
+    border: 1px solid #2a3354; transition: 0.2s;
+  }
+  .story-card:hover { border-color: #c9920a; transform: translateY(-2px); }
+  .story-card .thumb { width: 100%; aspect-ratio: 1080/1920; background: #0a0e1a; display: block; object-fit: cover; cursor: pointer; }
+  .story-card .body { padding: 14px 16px 16px; }
+  .story-card .pergunta { font-size: 14px; font-weight: 700; line-height: 1.35; margin-bottom: 10px; min-height: 38px; }
+  .story-card .opcoes { font-size: 12px; color: #8b93a8; margin-bottom: 12px; }
+  .story-card a.download {
+    display: block; text-align: center; background: linear-gradient(135deg,#c9920a,#f0c060);
+    color: #1a1200; font-weight: 800; font-size: 13px; padding: 10px; border-radius: 8px;
+    text-decoration: none; letter-spacing: 0.3px;
+  }
+  .story-card a.download:hover { filter: brightness(1.08); }
+
+  .tools-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 18px; }
+  .tool-card { background: #1c2440; border: 1px solid #2a3354; border-radius: 14px; padding: 20px 22px; }
+  .tool-card .tname { font-size: 16px; font-weight: 800; margin-bottom: 6px; display: flex; align-items: center; gap: 8px; }
+  .tool-card .tdesc { font-size: 13px; color: #a8aec2; line-height: 1.5; margin-bottom: 12px; }
+  .tool-card .tcron { font-size: 12px; color: #f0c060; font-weight: 700; background: rgba(201,146,10,0.12); border-radius: 6px; padding: 6px 10px; display: inline-block; }
+  .badge-auto { background: rgba(0,200,130,0.15); color: #00d184; }
+  .badge-manual { background: rgba(255,140,0,0.15); color: #ff9d4d; }
+  .badge { font-size: 11px; font-weight: 800; padding: 4px 10px; border-radius: 20px; text-transform: uppercase; letter-spacing: 0.5px; margin-left: auto; }
+
+  .lightbox {
+    display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.88);
+    align-items: center; justify-content: center; z-index: 100; padding: 20px;
+  }
+  .lightbox.active { display: flex; }
+  .lightbox img { max-height: 90vh; border-radius: 16px; }
+</style>
+</head>
+<body>
+<header>
+  <img src="../logo-bdi.jpeg" alt="BDI">
+  <div>
+    <h1>Painel Bom Dia Investidor</h1>
+    <span>Acompanhamento e ferramentas de postagem</span>
+  </div>
+</header>
+
+<nav>
+  <button class="active" data-view="storys">📱 Storys</button>
+  <button data-view="ferramentas">⚙️ Ferramentas</button>
+</nav>
+
+<main>
+  <div class="view active" id="view-storys">
+    <div class="section-title">Stories interativos prontos</div>
+    <div class="section-sub">Baixe a imagem e poste manualmente no Instagram Stories. Adicione o sticker de Enquete oficial do Instagram em cima pra interação nativa, ou poste assim mesmo pedindo comentário.</div>
+    <div class="grid" id="storysGrid"></div>
+  </div>
+
+  <div class="view" id="view-ferramentas">
+    <div class="section-title">Ferramentas e automações ativas</div>
+    <div class="section-sub">Tudo que já roda automaticamente no bot, mais o que ainda exige postagem manual.</div>
+    <div class="tools-grid">
+      <div class="tool-card">
+        <div class="tname">📰 Postagem de notícias <span class="badge badge-auto">automático</span></div>
+        <div class="tdesc">Verifica o mercado, gera o card com a notícia e publica no feed do Instagram.</div>
+        <div class="tcron">A cada 30 minutos</div>
+      </div>
+      <div class="tool-card">
+        <div class="tname">🗳️ Story de enquete <span class="badge badge-auto">automático</span></div>
+        <div class="tdesc">Publica 1 enquete por dia, rotacionando pergunta conforme o dia da semana.</div>
+        <div class="tcron">Todo dia, 6h BRT</div>
+      </div>
+      <div class="tool-card">
+        <div class="tname">📊 Fechamento de mercado <span class="badge badge-auto">automático</span></div>
+        <div class="tdesc">Card com Ibovespa, Dólar e Bitcoin no fechamento do pregão.</div>
+        <div class="tcron">Seg–Sex, 18h BRT</div>
+      </div>
+      <div class="tool-card">
+        <div class="tname">🎓 Carrossel educativo <span class="badge badge-auto">automático</span></div>
+        <div class="tdesc">Carrossel semanal explicando um tema financeiro (SELIC, FIIs, Tesouro etc).</div>
+        <div class="tcron">Toda segunda, 10h BRT</div>
+      </div>
+      <div class="tool-card">
+        <div class="tname">🎬 Reel diário <span class="badge badge-auto">automático</span></div>
+        <div class="tdesc">Vídeo curto gerado automaticamente com a notícia de maior peso do dia.</div>
+        <div class="tcron">Todo dia, 20h BRT</div>
+      </div>
+      <div class="tool-card">
+        <div class="tname">📱 Banco de Storys <span class="badge badge-manual">manual</span></div>
+        <div class="tdesc">16 ideias de enquete prontas pra baixar e postar quando quiser — aba Storys aqui do painel.</div>
+        <div class="tcron">Sob demanda</div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<div class="lightbox" id="lightbox" onclick="this.classList.remove('active')">
+  <img id="lightboxImg" src="">
+</div>
+
+<script>
+  document.querySelectorAll('nav button').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('nav button').forEach(b => b.classList.remove('active'));
+      document.querySelectorAll('.view').forEach(v => v.classList.remove('active'));
+      btn.classList.add('active');
+      document.getElementById('view-' + btn.dataset.view).classList.add('active');
+    });
+  });
+
+  fetch('storys-manifest.json').then(r => r.json()).then(items => {
+    const grid = document.getElementById('storysGrid');
+    grid.innerHTML = items.map(it => `
+      <div class="story-card">
+        <img class="thumb" src="storys-imgs/${it.slug}.png" loading="lazy" onclick="openLightbox('storys-imgs/${it.slug}.png')">
+        <div class="body">
+          <div class="pergunta">${it.icone} ${it.pergunta}</div>
+          <div class="opcoes">${it.opcaoA} · ${it.opcaoB}</div>
+          <a class="download" href="storys-imgs/${it.slug}.png" download="bdi-story-${it.slug}.png">⬇ Baixar PNG</a>
+        </div>
+      </div>
+    `).join('');
+  });
+
+  function openLightbox(src) {
+    document.getElementById('lightboxImg').src = src;
+    document.getElementById('lightbox').classList.add('active');
+  }
+</script>
+</body>
+</html>

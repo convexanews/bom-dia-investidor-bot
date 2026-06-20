@@ -3,4 +3,5 @@ pages-repo/
 _tmp_card_noticia_*.html
 *.png
 !logo-bdi-icon.png
+!painel/storys-imgs/*.png
 .secret_*

@@ -27,51 +27,23 @@ function diaSemanaIndex() {
   return d.getDay(); // 0 = domingo, 1 = segunda...
 }
 
-// Enquetes rotativas por dia da semana
-const ENQUETES = {
-  0: { // Domingo
-    icone: '📆',
-    pergunta: 'Você investe toda semana, mesmo que pouco?',
-    iconeA: '✅', opcaoA: 'Sim, todo semana!',
-    iconeB: '❌', opcaoB: 'Ainda não consigo',
-  },
-  1: { // Segunda
-    icone: '📈',
-    pergunta: 'Ibovespa vai subir ou cair essa semana?',
-    iconeA: '🟢', opcaoA: 'Vai SUBIR',
-    iconeB: '🔴', opcaoB: 'Vai CAIR',
-  },
-  2: { // Terça
-    icone: '💵',
-    pergunta: 'O Dólar vai fechar acima de R$ 5,80 hoje?',
-    iconeA: '📈', opcaoA: 'Sim, vai subir',
-    iconeB: '📉', opcaoB: 'Não, vai cair',
-  },
-  3: { // Quarta
-    icone: '🏦',
-    pergunta: 'Você prefere renda fixa ou renda variável?',
-    iconeA: '🔒', opcaoA: 'Renda Fixa',
-    iconeB: '📊', opcaoB: 'Renda Variável',
-  },
-  4: { // Quinta
-    icone: '₿',
-    pergunta: 'Você tem Bitcoin ou criptomoedas na carteira?',
-    iconeA: '✅', opcaoA: 'Sim, tenho cripto',
-    iconeB: '❌', opcaoB: 'Não, prefiro evitar',
-  },
-  5: { // Sexta
-    icone: '💰',
-    pergunta: 'Você vai investir parte do salário esse mês?',
-    iconeA: '✅', opcaoA: 'Sim, com certeza!',
-    iconeB: '😅', opcaoB: 'Tá difícil esse mês',
-  },
-  6: { // Sábado
-    icone: '🏢',
-    pergunta: 'Você já investe em Fundos Imobiliários (FIIs)?',
-    iconeA: '✅', opcaoA: 'Sim, adoro FIIs!',
-    iconeB: '🤔', opcaoB: 'Ainda não comecei',
-  },
+// Banco completo de enquetes vive em storys-templates.cjs (também usado pelo painel de Storys).
+const TEMPLATES = require('./storys-templates.cjs');
+
+// Enquetes rotativas por dia da semana (mapeadas para slugs do banco compartilhado)
+const ROTACAO_SEMANAL = {
+  0: 'investe-toda-semana', // Domingo
+  1: 'ibov-semana',         // Segunda
+  2: 'dolar-hoje',          // Terça
+  3: 'renda-fixa-variavel', // Quarta
+  4: 'tem-cripto',          // Quinta
+  5: 'investir-salario',    // Sexta
+  6: 'tem-fii',             // Sábado
 };
+
+const ENQUETES = Object.fromEntries(
+  Object.entries(ROTACAO_SEMANAL).map(([dia, slug]) => [dia, TEMPLATES.find(t => t.slug === slug)])
+);
 
 function carregarJson(arquivo, padrao) {
   try { return JSON.parse(fs.readFileSync(arquivo, 'utf8')); } catch { return padrao; }
