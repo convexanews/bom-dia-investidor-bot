@@ -48,6 +48,25 @@ async function buscarImagemArtigo(link) {
   }
 }
 
+// Baixa a imagem e embute como base64 — evita bloqueio de hotlink/referer quando
+// o Puppeteer tenta carregar a URL remota direto no <img src>.
+async function baixarImagemBase64(url) {
+  if (!url) return null;
+  try {
+    const resp = await fetch(url, {
+      headers: { 'User-Agent': 'Mozilla/5.0', Referer: new URL(url).origin },
+    });
+    if (!resp.ok) return null;
+    const contentType = (resp.headers.get('content-type') || 'image/jpeg').split(';')[0];
+    if (!contentType.startsWith('image/')) return null;
+    const buf = Buffer.from(await resp.arrayBuffer());
+    return `data:${contentType};base64,${buf.toString('base64')}`;
+  } catch (e) {
+    console.log('Erro ao baixar imagem:', e.message);
+    return null;
+  }
+}
+
 const HASHTAGS = '#investimentos #bolsadevalores #ibovespa #mercadofinanceiro #dolar #economiabrasileira #acoes #b3 #educacaofinanceira #financas #investidor #independenciafinanceira #trading #noticias #mercado';
 
 const CTAS = [
@@ -289,6 +308,9 @@ async function main() {
   };
   if (!cfg.imagem) {
     cfg.imagem = await buscarImagemArtigo(cfg.link);
+  }
+  if (cfg.imagem) {
+    cfg.imagem = await baixarImagemBase64(cfg.imagem);
   }
 
   console.log('Nova noticia:', cfg.manchete);
