@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-20T11:30:54.873Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
+  },
+  {
     "data": "2026-06-20T11:10:22.516Z",
     "resultado": "story_enquete",
     "mensagem": "Story de enquete publicado: \"Você já investe em Fundos Imobiliários (FIIs)?\"",
@@ -1230,12 +1235,5 @@
     "data": "2026-06-17T15:30:49.940Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 55): \"Ibovespa Hoje Ao Vivo: Bolsa sobe e volta a testar os 171 mil pontos\". Realizando postagem..."
-  },
-  {
-    "data": "2026-06-17T15:02:04.920Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso: \"Dólar hoje recua antes das decisões de juros do Copom e Fed\".",
-    "postId": "18107070139980160",
-    "storyId": "18454782694114371"
   }
 ]
