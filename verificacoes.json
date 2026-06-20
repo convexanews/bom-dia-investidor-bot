@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-20T15:01:04.526Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 93 min."
+  },
+  {
     "data": "2026-06-20T14:54:45.966Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 99 min."
@@ -1205,14 +1210,5 @@
     "data": "2026-06-17T17:01:55.928Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 71): \"Acordo EUA-Irã reduz ruído, mas não sustenta rotação para ações de consumo na B3\". Realizando postagem..."
-  },
-  {
-    "data": "2026-06-17T16:33:04.494Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel narrado): \"Surge uma potencial pagadora de dividendos na bolsa — e ela pode subir mais de 50%\".",
-    "postId": "18108657532970416",
-    "storyId": null,
-    "reelId": "18108657532970416",
-    "tipo": "reel_narrado"
   }
 ]
