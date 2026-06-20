@@ -240,7 +240,26 @@
     });
   });
 
-  fetch('storys-manifest.json').then(r => r.json()).then(items => {
+  const STORYS_MANIFEST = [
+    { "slug": "acoes-gosta", "pergunta": "Você gosta de investir em ações?", "opcaoA": "Sim, adoro!", "opcaoB": "Ainda tenho medo", "icone": "📊" },
+    { "slug": "ibov-semana", "pergunta": "Ibovespa vai subir ou cair essa semana?", "opcaoA": "Vai SUBIR", "opcaoB": "Vai CAIR", "icone": "📈" },
+    { "slug": "dolar-hoje", "pergunta": "O Dólar vai fechar acima de R$ 5,80 hoje?", "opcaoA": "Sim, vai subir", "opcaoB": "Não, vai cair", "icone": "💵" },
+    { "slug": "renda-fixa-variavel", "pergunta": "Você prefere renda fixa ou renda variável?", "opcaoA": "Renda Fixa", "opcaoB": "Renda Variável", "icone": "🏦" },
+    { "slug": "tem-cripto", "pergunta": "Você tem Bitcoin ou criptomoedas na carteira?", "opcaoA": "Sim, tenho cripto", "opcaoB": "Não, prefiro evitar", "icone": "₿" },
+    { "slug": "investir-salario", "pergunta": "Você vai investir parte do salário esse mês?", "opcaoA": "Sim, com certeza!", "opcaoB": "Tá difícil esse mês", "icone": "💰" },
+    { "slug": "tem-fii", "pergunta": "Você já investe em Fundos Imobiliários (FIIs)?", "opcaoA": "Sim, adoro FIIs!", "opcaoB": "Ainda não comecei", "icone": "🏢" },
+    { "slug": "investe-toda-semana", "pergunta": "Você investe toda semana, mesmo que pouco?", "opcaoA": "Sim, todo semana!", "opcaoB": "Ainda não consigo", "icone": "📆" },
+    { "slug": "objetivo-investir", "pergunta": "Qual seu maior objetivo investindo?", "opcaoA": "Comprar um imóvel", "opcaoB": "Aposentadoria/liberdade", "icone": "🎯" },
+    { "slug": "comecou-investir", "pergunta": "Você já começou a investir ou ainda só estuda?", "opcaoA": "Já investo", "opcaoB": "Ainda estudando", "icone": "🌱" },
+    { "slug": "reserva-emergencia", "pergunta": "Você já tem reserva de emergência montada?", "opcaoA": "Sim, já tenho", "opcaoB": "Ainda estou montando", "icone": "🛡️" },
+    { "slug": "dividendos-vs-valorizacao", "pergunta": "O que você mais busca: dividendos ou valorização?", "opcaoA": "Dividendos", "opcaoB": "Valorização", "icone": "💸" },
+    { "slug": "selic-vai-cair", "pergunta": "Você acha que a Selic vai cair na próxima reunião?", "opcaoA": "Sim, vai cair", "opcaoB": "Vai ficar igual", "icone": "🏛️" },
+    { "slug": "acompanha-diario", "pergunta": "Você acompanha o mercado todos os dias?", "opcaoA": "Sim, todo dia!", "opcaoB": "Só de vez em quando", "icone": "👀" },
+    { "slug": "app-investimento", "pergunta": "Você investe direto pelo celular?", "opcaoA": "Sim, tudo pelo app", "opcaoB": "Prefiro o computador", "icone": "📱" },
+    { "slug": "ouro-protecao", "pergunta": "Você investe em ouro como proteção?", "opcaoA": "Sim, tenho ouro", "opcaoB": "Não, ainda não", "icone": "🥇" }
+  ];
+
+  Promise.resolve(STORYS_MANIFEST).then(items => {
     const grid = document.getElementById('storysGrid');
     grid.innerHTML = items.map(it => `
       <div class="story-card">
