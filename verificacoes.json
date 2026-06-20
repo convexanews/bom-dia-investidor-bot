@@ -1,5 +1,17 @@
 [
   {
+    "data": "2026-06-20T15:02:18.338Z",
+    "resultado": "reel_postado",
+    "mensagem": "Resumo em vídeo do dia publicado com 3 notícia(s).",
+    "reelId": "18563168104067854",
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1781967678752.mp4",
+    "noticias": [
+      "Exportação de algodão do Brasil será recorde em 2026, diz Anea ao elevar projeção",
+      "SNEL11, maior fundo de energia da Bolsa, sobe forte após quinta oferta bilionária",
+      "Bitcoin se recupera acima de US$ 63.000 com traders avaliando cenário regulatório"
+    ]
+  },
+  {
     "data": "2026-06-20T15:01:04.526Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 93 min."
@@ -1205,10 +1217,5 @@
     "storyId": null,
     "reelId": "18464657410129147",
     "tipo": "reel_narrado"
-  },
-  {
-    "data": "2026-06-17T17:01:55.928Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 71): \"Acordo EUA-Irã reduz ruído, mas não sustenta rotação para ações de consumo na B3\". Realizando postagem..."
   }
 ]
