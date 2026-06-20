@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-20T23:31:17.090Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 31 min."
+  },
+  {
     "data": "2026-06-20T23:02:47.775Z",
     "resultado": "reel_postado",
     "mensagem": "Resumo em vídeo do dia publicado com 4 notícia(s).",
@@ -1159,10 +1164,5 @@
     "data": "2026-06-18T01:01:03.389Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (22:01 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-06-18T00:31:07.273Z",
-    "resultado": "limite_diario",
-    "mensagem": "Limite de 15 posts diários atingido (15 já publicados hoje)."
   }
 ]
