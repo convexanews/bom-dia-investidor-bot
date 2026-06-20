@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-20T00:31:03.864Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 68 min."
+  },
+  {
     "data": "2026-06-20T00:09:34.424Z",
     "resultado": "reel_postado",
     "mensagem": "Resumo em vídeo do dia publicado com 2 notícia(s).",
@@ -1231,10 +1236,5 @@
     "mensagem": "Postagem realizada com sucesso: \"Prévia do PIB e decisões de juros no Brasil e EUA: o que move os mercados\".",
     "postId": "17976810417018970",
     "storyId": "18330551050269652"
-  },
-  {
-    "data": "2026-06-17T09:00:55.116Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 57): \"Prévia do PIB e decisões de juros no Brasil e EUA: o que move os mercados\". Realizando postagem..."
   }
 ]
