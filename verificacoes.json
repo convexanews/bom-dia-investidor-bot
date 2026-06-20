@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-20T15:31:06.259Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 63 min."
+  },
+  {
     "data": "2026-06-20T15:02:18.338Z",
     "resultado": "reel_postado",
     "mensagem": "Resumo em vídeo do dia publicado com 3 notícia(s).",
@@ -1208,14 +1213,5 @@
     "data": "2026-06-17T17:31:15.995Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 45): \"Selic elevada por mais tempo? Gestores projetam juros altos para além de 2027\". Realizando postagem..."
-  },
-  {
-    "data": "2026-06-17T17:03:32.910Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel narrado): \"Acordo EUA-Irã reduz ruído, mas não sustenta rotação para ações de consumo na B3\".",
-    "postId": "18464657410129147",
-    "storyId": null,
-    "reelId": "18464657410129147",
-    "tipo": "reel_narrado"
   }
 ]
