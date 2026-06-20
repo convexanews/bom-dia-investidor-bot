@@ -1,5 +1,18 @@
 [
   {
+    "data": "2026-06-20T23:02:47.775Z",
+    "resultado": "reel_postado",
+    "mensagem": "Resumo em vídeo do dia publicado com 4 notícia(s).",
+    "reelId": "17960377029124507",
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1781996507079.mp4",
+    "noticias": [
+      "SNEL11, maior fundo de energia da Bolsa, sobe forte após quinta oferta bilionária",
+      "Bitcoin se recupera acima de US$ 63.000 com traders avaliando cenário regulatório",
+      "Governo identificou 10 alertas e primeira ação teria sido no PR, diz secretário",
+      "Trump diz que não haverá pedágio em Ormuz a menos que seja imposto pelos EUA"
+    ]
+  },
+  {
     "data": "2026-06-20T23:01:28.817Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 61 min."
@@ -1151,19 +1164,5 @@
     "data": "2026-06-18T00:31:07.273Z",
     "resultado": "limite_diario",
     "mensagem": "Limite de 15 posts diários atingido (15 já publicados hoje)."
-  },
-  {
-    "data": "2026-06-18T00:16:24.956Z",
-    "resultado": "reel_postado",
-    "mensagem": "Resumo em vídeo do dia publicado com 5 notícia(s).",
-    "reelId": "18197973751366311",
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1781741711050.mp4",
-    "noticias": [
-      "Privatização da Copasa é concluída em cerimônia na B3",
-      "Prévia do PIB e decisões de juros no Brasil e EUA: o que move os mercados",
-      "Ibovespa Futuro sobe antes das decisões de juros no Brasil e EUA",
-      "Dólar hoje recua antes das decisões de juros do Copom e Fed",
-      "Ibovespa Hoje Ao Vivo: Bolsa sobe e volta a testar os 171 mil pontos"
-    ]
   }
 ]
