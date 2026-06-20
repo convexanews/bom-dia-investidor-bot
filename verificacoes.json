@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-20T07:56:16.523Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (04:56 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-06-20T07:31:07.118Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (04:31 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1226,12 +1231,5 @@
     "data": "2026-06-17T13:01:00.626Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 59): \"Dólar hoje tem leve alta antes das decisões de juros do Copom e Fed\". Realizando postagem..."
-  },
-  {
-    "data": "2026-06-17T12:31:35.954Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso: \"Ibovespa Futuro sobe antes das decisões de juros no Brasil e EUA\".",
-    "postId": "17931594828298632",
-    "storyId": "17954500334979945"
   }
 ]
