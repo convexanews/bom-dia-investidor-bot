@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-06-20T22:01:51.443Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (card): \"Trump diz que não haverá pedágio em Ormuz a menos que seja imposto pelos EUA\".",
+    "postId": "18141026689538087",
+    "storyId": null,
+    "reelId": null,
+    "tipo": "card"
+  },
+  {
+    "data": "2026-06-20T22:01:00.478Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 29): \"Trump diz que não haverá pedágio em Ormuz a menos que seja imposto pelos EUA\". Realizando postagem..."
+  },
+  {
     "data": "2026-06-20T21:31:01.433Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 13 min."
@@ -1163,15 +1177,5 @@
       "Dólar hoje recua antes das decisões de juros do Copom e Fed",
       "Ibovespa Hoje Ao Vivo: Bolsa sobe e volta a testar os 171 mil pontos"
     ]
-  },
-  {
-    "data": "2026-06-17T23:01:11.954Z",
-    "resultado": "limite_diario",
-    "mensagem": "Limite de 15 posts diários atingido (15 já publicados hoje)."
-  },
-  {
-    "data": "2026-06-17T22:31:16.520Z",
-    "resultado": "limite_diario",
-    "mensagem": "Limite de 15 posts diários atingido (15 já publicados hoje)."
   }
 ]
