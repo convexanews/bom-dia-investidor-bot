@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-20T00:00:59.693Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 98 min."
+  },
+  {
     "data": "2026-06-19T23:38:47.706Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (carrossel): \"SNEL11, maior fundo de energia da Bolsa, sobe forte após quinta oferta bilionária\".",
@@ -1225,10 +1230,5 @@
     "data": "2026-06-17T08:30:45.463Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (05:30 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-06-17T08:00:55.595Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (05:00 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
