@@ -1,5 +1,11 @@
 [
   {
+    "data": "2026-06-20T11:10:22.516Z",
+    "resultado": "story_enquete",
+    "mensagem": "Story de enquete publicado: \"Você já investe em Fundos Imobiliários (FIIs)?\"",
+    "postId": "18070756031342020"
+  },
+  {
     "data": "2026-06-20T11:01:05.740Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 32 min."
@@ -1231,10 +1237,5 @@
     "mensagem": "Postagem realizada com sucesso: \"Dólar hoje recua antes das decisões de juros do Copom e Fed\".",
     "postId": "18107070139980160",
     "storyId": "18454782694114371"
-  },
-  {
-    "data": "2026-06-17T15:01:06.845Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 59): \"Dólar hoje recua antes das decisões de juros do Copom e Fed\". Realizando postagem..."
   }
 ]
