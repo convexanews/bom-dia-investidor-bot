@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-06-20T09:32:06.301Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (card): \"Bitcoin se recupera acima de US$ 63.000 com traders avaliando cenário regulatório\".",
+    "postId": "18105764081082572",
+    "storyId": "18157134511461390",
+    "reelId": null,
+    "tipo": "card"
+  },
+  {
+    "data": "2026-06-20T09:31:08.646Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 10): \"Bitcoin se recupera acima de US$ 63.000 com traders avaliando cenário regulatório\". Realizando postagem..."
+  },
+  {
     "data": "2026-06-20T09:01:43.279Z",
     "resultado": "story_enquete",
     "mensagem": "Story de enquete publicado: \"Você já investe em Fundos Imobiliários (FIIs)?\"",
@@ -1220,16 +1234,6 @@
   },
   {
     "data": "2026-06-17T14:08:58.216Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 97): \"Wall Street sobe à espera de decisão do Fed; Dow Jones bate novo recorde, aos 52 mil pontos\". Realizando postagem..."
-  },
-  {
-    "data": "2026-06-17T14:01:29.400Z",
-    "resultado": "erro",
-    "mensagem": "Erro na execução automática: Erro ao publicar no feed: {\"error\":{\"message\":\"User is performing too many actions\",\"type\":\"OAuthException\",\"is_transient\":false,\"code\":9,\"error_subcode\":2207042,\"error_user_title\":\"Media Publish Limit Exceeded\",\"error_user_msg\":\"You reached maximum number of posts that is allowed to be published by Content Publishing API.\",\"fbtrace_id\":\"AtwEbODKmEjooieacaE-8iG\"}}"
-  },
-  {
-    "data": "2026-06-17T14:00:50.845Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 97): \"Wall Street sobe à espera de decisão do Fed; Dow Jones bate novo recorde, aos 52 mil pontos\". Realizando postagem..."
   }
