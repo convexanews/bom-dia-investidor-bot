@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-06-20T12:02:56.879Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Cushman & Wakefield dispara 63% após alerta de preço-justo do InvestingPro\".",
+    "postId": "18186944710380298",
+    "storyId": null,
+    "reelId": "18186944710380298",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-06-20T12:01:20.538Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 45): \"Cushman & Wakefield dispara 63% após alerta de preço-justo do InvestingPro\". Realizando postagem..."
+  },
+  {
     "data": "2026-06-20T11:30:54.873Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
@@ -1223,17 +1237,5 @@
       "Dólar hoje recua antes das decisões de juros do Copom e Fed",
       "Ibovespa Hoje Ao Vivo: Bolsa sobe e volta a testar os 171 mil pontos"
     ]
-  },
-  {
-    "data": "2026-06-17T15:31:53.456Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso: \"Ibovespa Hoje Ao Vivo: Bolsa sobe e volta a testar os 171 mil pontos\".",
-    "postId": "18539585776076251",
-    "storyId": "17987757257825085"
-  },
-  {
-    "data": "2026-06-17T15:30:49.940Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 55): \"Ibovespa Hoje Ao Vivo: Bolsa sobe e volta a testar os 171 mil pontos\". Realizando postagem..."
   }
 ]
