@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-20T16:22:44.524Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 11 min."
+  },
+  {
     "data": "2026-06-20T16:01:18.580Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 33 min."
@@ -1208,10 +1213,5 @@
     "data": "2026-06-17T18:01:13.843Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 61): \"Bolsas europeias fecham na maioria em alta à espera do Fed e avanço em acordo EUA-Irã\". Realizando postagem..."
-  },
-  {
-    "data": "2026-06-17T17:32:05.578Z",
-    "resultado": "erro",
-    "mensagem": "Erro na execução automática: Command failed: git push"
   }
 ]
