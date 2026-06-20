@@ -1,5 +1,15 @@
 [
   {
+    "data": "2026-06-20T19:31:44.888Z",
+    "resultado": "erro",
+    "mensagem": "Erro na execução automática: Erro ao criar item do carrossel: {\"error\":{\"message\":\"Only photo or video can be accepted as media type.\",\"type\":\"OAuthException\",\"code\":9004,\"error_subcode\":2207052,\"is_transient\":false,\"error_user_title\":\"Media download has failed. The media URI doesn't meet our requirements.\",\"error_user_msg\":\"The media could not be fetched from this URI: https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781983878136-slide2.png.Please check the limitations section in our development document for more information: https://developers.facebook.com/docs/instagram-platform/instagram-graph-api/reference/ig-user/media#creating\",\"fbtrace_id\":\"AfPnqMn9O_OBnZ9KoA7vAdz\"}}"
+  },
+  {
+    "data": "2026-06-20T19:31:05.243Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 23): \"Governo identificou 10 alertas e primeira ação teria sido no PR, diz secretário\". Realizando postagem..."
+  },
+  {
     "data": "2026-06-20T19:01:02.244Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
@@ -1187,19 +1197,5 @@
     "data": "2026-06-17T20:31:03.324Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 45): \"Fed mantém juros dos EUA entre 3,50% e 3,75% ao ano; decisão era esperada\". Realizando postagem..."
-  },
-  {
-    "data": "2026-06-17T20:10:36.596Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel narrado): \"Dólar sobe a R$ 5,10 após falas de Warsh e sinalização de política monetária restritiva nos EUA\".",
-    "postId": "17907945291424689",
-    "storyId": null,
-    "reelId": "17907945291424689",
-    "tipo": "reel_narrado"
-  },
-  {
-    "data": "2026-06-17T20:08:30.996Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 68): \"Dólar sobe a R$ 5,10 após falas de Warsh e sinalização de política monetária restritiva nos EUA\". Realizando postagem..."
   }
 ]
