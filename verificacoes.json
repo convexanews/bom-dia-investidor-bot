@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-20T18:31:17.862Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 32 min."
+  },
+  {
     "data": "2026-06-20T18:00:58.172Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 62 min."
@@ -1200,10 +1205,5 @@
     "storyId": null,
     "reelId": "18106091344917972",
     "tipo": "reel_narrado"
-  },
-  {
-    "data": "2026-06-17T19:39:28.044Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 49): \"Por que o Tesouro IPCA+ de longo prazo passou a recuar após 1ª fala de Warsh no Fed?\". Realizando postagem..."
   }
 ]
