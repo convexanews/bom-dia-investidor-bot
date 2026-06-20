@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-20T12:31:00.457Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
+  },
+  {
     "data": "2026-06-20T12:28:15.737Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 95 min."
@@ -1205,10 +1210,5 @@
     "data": "2026-06-17T16:01:51.581Z",
     "resultado": "erro",
     "mensagem": "Erro na execução automática: Erro ao publicar no feed: {\"error\":{\"message\":\"User is performing too many actions\",\"type\":\"OAuthException\",\"is_transient\":false,\"code\":9,\"error_subcode\":2207042,\"error_user_title\":\"Media Publish Limit Exceeded\",\"error_user_msg\":\"You reached maximum number of posts that is allowed to be published by Content Publishing API.\",\"fbtrace_id\":\"APXxdArPUZ5k8vHwID3n4wv\"}}"
-  },
-  {
-    "data": "2026-06-17T16:01:09.073Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 42): \"Super Quarta: veja o que esperar das decisões do Copom e do Fed\". Realizando postagem..."
   }
 ]
