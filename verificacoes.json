@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-20T12:28:15.737Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 95 min."
+  },
+  {
     "data": "2026-06-20T12:02:56.879Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"Cushman & Wakefield dispara 63% após alerta de preço-justo do InvestingPro\".",
@@ -1205,37 +1210,5 @@
     "data": "2026-06-17T16:01:09.073Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 42): \"Super Quarta: veja o que esperar das decisões do Copom e do Fed\". Realizando postagem..."
-  },
-  {
-    "data": "2026-06-17T15:34:40.997Z",
-    "resultado": "reel_postado",
-    "mensagem": "Resumo em vídeo do dia publicado com 23 notícia(s).",
-    "reelId": "18132262888584039",
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1781710348430.mp4",
-    "noticias": [
-      "Copom deveria manter jogo aberto sobre juros diante das incertezas, afirma economista-chefe do Inter",
-      "HSBC muda rota para os juros e vê Selic em 14,25% até 2027",
-      "Dólar opera em alta, de olho no petróleo e à espera de decisões de juros; Ibovespa cai",
-      "Petrobras e bancos pressionam o Ibovespa antes de superquarta; dólar sobe",
-      "SpaceX compra startup de IA por US$ 60 bilhões; ações sobem",
-      "BofA: Só 31% dos gestores espera Ibovespa acima dos 190 mil pontos em 2026",
-      "Ouro fecha em leve alta com expectativas para assinatura de acordo EUA-Irã e Fed no radar",
-      "Petróleo derruba Petrobras e Ibovespa; dólar fecha em leve alta a R$ 5,06",
-      "Petróleo despenca mais de 5% e Brent fecha abaixo de US$ 80 com acordo EUA-Irã",
-      "Wall Street fecha sem direção única com acordo entre EUA e Irã em foco; Dow Jones renova recordes",
-      "Ibovespa tem nova queda com Petrobras (PETR4) e no aguardo da ‘Super Quarta’; dólar sobe a R$ 5,08",
-      "Dow Jones marca novo recorde intradiário, mas NY fecha sem direção definida",
-      "Superquarta sem festa? Analistas veem Fed travado e Copom ainda sob pressão",
-      "SNEL11 negocia mais de R$ 10 mi enquanto IPO da SpaceX reforça tese energética",
-      "Taxas de DIs sobem à espera de corte na Selic para 14,25%",
-      "Navio de guerra russo dispara tiros de advertência perto de iate britânico",
-      "Leilões de propriedades rurais disparam no Brasil com aumento da inadimplência no campo",
-      "Nasdaq e S&P 500 recuam, enquanto Dow Jones atinge novo recorde de fechamento",
-      "Privatização da Copasa é concluída em cerimônia na B3",
-      "Prévia do PIB e decisões de juros no Brasil e EUA: o que move os mercados",
-      "Ibovespa Futuro sobe antes das decisões de juros no Brasil e EUA",
-      "Dólar hoje recua antes das decisões de juros do Copom e Fed",
-      "Ibovespa Hoje Ao Vivo: Bolsa sobe e volta a testar os 171 mil pontos"
-    ]
   }
 ]
