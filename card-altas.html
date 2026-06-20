@@ -5,107 +5,63 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
 <style>
   * { margin: 0; padding: 0; box-sizing: border-box; }
-  body {
-    width: 1080px; height: 1350px; overflow: hidden;
-    font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
-    background: #080c16;
-  }
-  .card { width: 1080px; height: 1350px; display: flex; flex-direction: column; position: relative; overflow: hidden; }
+  body { width: 1080px; height: 1350px; overflow: hidden; font-family: 'Inter', 'Segoe UI', Arial, sans-serif; }
+  .card { width: 1080px; height: 1350px; display: flex; flex-direction: column; overflow: hidden; }
 
-  /* ── HEADER ── */
   .header {
     background: linear-gradient(135deg, #0a1628 0%, #1a2f5e 65%, #0d1f45 100%);
-    padding: 54px 72px 50px; flex-shrink:0; position:relative; overflow:hidden;
+    padding: 50px 72px 46px; flex-shrink: 0; position: relative; overflow: hidden;
   }
-  .deco { position:absolute; border-radius:50%; pointer-events:none; }
-  .deco1 { right:-100px; top:-100px; width:420px; height:420px; background:rgba(201,146,10,0.09); }
-  .deco2 { left:-60px; bottom:-60px; width:220px; height:220px; background:rgba(201,146,10,0.05); }
+  .deco { position: absolute; border-radius: 50%; pointer-events: none; }
+  .deco1 { right: -100px; top: -100px; width: 420px; height: 420px; background: rgba(201,146,10,0.09); }
+  .deco2 { left: -60px; bottom: -60px; width: 220px; height: 220px; background: rgba(201,146,10,0.05); }
 
-  .header-top { display:flex; align-items:center; justify-content:space-between; margin-bottom:36px; position:relative; z-index:2; }
-  .brand-pill {
-    display:flex; align-items:center; gap:14px;
-    background:rgba(255,255,255,0.07); border:1px solid rgba(255,255,255,0.12);
-    border-radius:60px; padding:12px 26px 12px 16px;
-  }
-  .brand-logo { width:46px; height:46px; border-radius:50%; background:#c9920a; display:flex; align-items:center; justify-content:center; flex-shrink:0; }
-  .brand-logo svg { width:28px; height:28px; }
-  .brand-name { font-size:22px; font-weight:800; color:#fff; }
-  .brand-name span { color:#f0c060; }
+  .header-top { display: flex; align-items: center; justify-content: space-between; margin-bottom: 32px; position: relative; z-index: 2; }
+
+  .logo-wrap { background: rgba(255,255,255,0.97); border-radius: 16px; padding: 8px 20px 8px 8px; display: flex; align-items: center; gap: 12px; }
+  .logo-wrap img { height: 56px; width: auto; display: block; border-radius: 8px; }
+  .logo-wrap .lt1 { font-size: 19px; font-weight: 900; color: #1a2f5e; display: block; line-height: 1.1; }
+  .logo-wrap .lt2 { font-size: 13px; font-weight: 700; color: #c9920a; letter-spacing: 1px; text-transform: uppercase; display: block; }
 
   .altas-badge {
-    display:flex; align-items:center; gap:10px;
-    background:rgba(0,200,100,0.14); border:1.5px solid rgba(0,200,100,0.35);
-    border-radius:60px; padding:12px 24px;
-    font-size:18px; font-weight:800; color:#00E896;
-    letter-spacing:2px; text-transform:uppercase;
+    display: flex; align-items: center; gap: 10px;
+    background: rgba(0,200,100,0.14); border: 1.5px solid rgba(0,200,100,0.35);
+    border-radius: 60px; padding: 12px 24px;
+    font-size: 18px; font-weight: 800; color: #00E896;
+    letter-spacing: 2px; text-transform: uppercase;
   }
-  .ab-dot { width:9px; height:9px; border-radius:50%; background:#00E896; }
+  .ab-dot { width: 9px; height: 9px; border-radius: 50%; background: #00E896; }
 
-  .header-titulo { font-size:80px; font-weight:900; color:#fff; line-height:1.05; letter-spacing:-1.5px; position:relative; z-index:2; }
-  .header-sub { font-size:26px; color:#c9a24a; margin-top:14px; font-weight:600; position:relative; z-index:2; }
+  .header-titulo { font-size: 76px; font-weight: 900; color: #fff; line-height: 1.05; letter-spacing: -1.5px; position: relative; z-index: 2; }
+  .header-sub { font-size: 24px; color: #c9a24a; margin-top: 12px; font-weight: 600; position: relative; z-index: 2; }
 
-  .gold-bar { height:5px; background:linear-gradient(90deg,#c9920a,#f0c060 50%,#c9920a); flex-shrink:0; }
+  .gold-bar { height: 5px; background: linear-gradient(90deg,#c9920a,#f0c060 50%,#c9920a); flex-shrink: 0; }
 
-  /* ── CORPO ── */
-  .body { flex:1; background:#fff; padding:32px 72px 0; display:flex; flex-direction:column; gap:0; }
+  .body { flex: 1; background: #fff; padding: 28px 72px 0; display: flex; flex-direction: column; }
 
-  .acao {
-    display:flex; align-items:center; gap:20px;
-    padding:24px 0; border-bottom:1px solid #f1f5f9;
-  }
-  .acao:last-child { border-bottom:none; }
+  .acao { display: flex; align-items: center; gap: 20px; padding: 22px 0; border-bottom: 1px solid #f1f5f9; }
+  .acao:last-child { border-bottom: none; }
+  .rank { width: 50px; height: 50px; border-radius: 50%; background: #1a2f5e; color: #f0c060; font-size: 22px; font-weight: 900; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+  .acao-info { flex: 1; min-width: 0; }
+  .acao-header { display: flex; align-items: baseline; gap: 12px; margin-bottom: 4px; }
+  .ticker { font-size: 27px; font-weight: 900; color: #0f172a; background: #f1f5f9; padding: 4px 14px; border-radius: 6px; letter-spacing: 0.5px; }
+  .nome { font-size: 20px; color: #64748b; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .preco { font-size: 21px; color: #94a3b8; font-weight: 600; }
+  .var-pill { font-size: 27px; font-weight: 800; padding: 11px 22px; border-radius: 10px; white-space: nowrap; flex-shrink: 0; }
 
-  .rank {
-    width:52px; height:52px; border-radius:50%; background:#1a2f5e;
-    color:#f0c060; font-size:24px; font-weight:900;
-    display:flex; align-items:center; justify-content:center; flex-shrink:0;
-  }
-
-  .acao-info { flex:1; min-width:0; }
-  .acao-header { display:flex; align-items:baseline; gap:12px; margin-bottom:4px; }
-  .ticker {
-    font-size:28px; font-weight:900; color:#0f172a; letter-spacing:0.5px;
-    background:#f1f5f9; padding:4px 14px; border-radius:6px;
-  }
-  .nome { font-size:21px; color:#64748b; font-weight:600; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
-  .preco { font-size:22px; color:#94a3b8; font-weight:600; }
-
-  .var-pill {
-    font-size:28px; font-weight:800;
-    padding:12px 24px; border-radius:10px;
-    white-space:nowrap; flex-shrink:0;
-  }
-
-  /* ── FOOTER ── */
-  .footer {
-    padding:22px 72px; background:#f8fafc; border-top:1px solid #f1f5f9;
-    display:flex; justify-content:space-between; align-items:center; flex-shrink:0;
-  }
-  .footer-data { font-size:20px; color:#94a3b8; font-weight:500; }
-  .footer-handle { font-size:20px; font-weight:700; color:#c9920a; }
+  .footer { padding: 20px 72px; background: #f8fafc; border-top: 1px solid #f1f5f9; display: flex; justify-content: space-between; align-items: center; flex-shrink: 0; }
+  .footer-site { font-size: 19px; color: #94a3b8; font-weight: 500; }
+  .footer-handle { font-size: 19px; font-weight: 700; color: #c9920a; }
 </style>
 </head>
 <body>
 <div class="card">
-
   <div class="header">
     <div class="deco deco1"></div><div class="deco deco2"></div>
     <div class="header-top">
-      <div class="brand-pill">
-        <div class="brand-logo">
-          <svg viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="14" cy="10" r="7" fill="none" stroke="#fff" stroke-width="2"/>
-            <line x1="14" y1="3" x2="14" y2="1" stroke="#fff" stroke-width="1.8" stroke-linecap="round"/>
-            <line x1="7" y1="10" x2="5" y2="10" stroke="#fff" stroke-width="1.8" stroke-linecap="round"/>
-            <line x1="23" y1="10" x2="21" y2="10" stroke="#fff" stroke-width="1.8" stroke-linecap="round"/>
-            <rect x="7" y="16" width="3.5" height="6" rx="1" fill="#fff"/>
-            <rect x="12" y="13" width="3.5" height="9" rx="1" fill="#fff"/>
-            <rect x="17" y="10" width="3.5" height="12" rx="1" fill="#fff"/>
-            <path d="M7 19 Q14 11 21 12" fill="none" stroke="#f0c060" stroke-width="1.8" stroke-linecap="round"/>
-            <polygon points="21,9.5 24,13 18,12.5" fill="#f0c060"/>
-          </svg>
-        </div>
-        <div class="brand-name">Bom Dia <span>Investidor</span></div>
+      <div class="logo-wrap">
+        <img src="logo-bdi.jpeg" alt="BDI">
+        <div><span class="lt1">BOM DIA INVESTIDOR</span><span class="lt2">Informação · Estratégia</span></div>
       </div>
       <div class="altas-badge"><div class="ab-dot"></div>TOP ALTAS</div>
     </div>
@@ -118,70 +74,35 @@
   <div class="body">
     <div class="acao">
       <div class="rank">1</div>
-      <div class="acao-info">
-        <div class="acao-header">
-          <span class="ticker">{{A1_TICKER}}</span>
-          <span class="nome">{{A1_NOME}}</span>
-        </div>
-        <div class="preco">{{A1_PRECO}}</div>
-      </div>
+      <div class="acao-info"><div class="acao-header"><span class="ticker">{{A1_TICKER}}</span><span class="nome">{{A1_NOME}}</span></div><div class="preco">{{A1_PRECO}}</div></div>
       <div class="var-pill" style="background:{{A1_BG}};color:{{A1_COR}};">{{A1_VAR}}</div>
     </div>
-
     <div class="acao">
       <div class="rank">2</div>
-      <div class="acao-info">
-        <div class="acao-header">
-          <span class="ticker">{{A2_TICKER}}</span>
-          <span class="nome">{{A2_NOME}}</span>
-        </div>
-        <div class="preco">{{A2_PRECO}}</div>
-      </div>
+      <div class="acao-info"><div class="acao-header"><span class="ticker">{{A2_TICKER}}</span><span class="nome">{{A2_NOME}}</span></div><div class="preco">{{A2_PRECO}}</div></div>
       <div class="var-pill" style="background:{{A2_BG}};color:{{A2_COR}};">{{A2_VAR}}</div>
     </div>
-
     <div class="acao">
       <div class="rank">3</div>
-      <div class="acao-info">
-        <div class="acao-header">
-          <span class="ticker">{{A3_TICKER}}</span>
-          <span class="nome">{{A3_NOME}}</span>
-        </div>
-        <div class="preco">{{A3_PRECO}}</div>
-      </div>
+      <div class="acao-info"><div class="acao-header"><span class="ticker">{{A3_TICKER}}</span><span class="nome">{{A3_NOME}}</span></div><div class="preco">{{A3_PRECO}}</div></div>
       <div class="var-pill" style="background:{{A3_BG}};color:{{A3_COR}};">{{A3_VAR}}</div>
     </div>
-
     <div class="acao">
       <div class="rank">4</div>
-      <div class="acao-info">
-        <div class="acao-header">
-          <span class="ticker">{{A4_TICKER}}</span>
-          <span class="nome">{{A4_NOME}}</span>
-        </div>
-        <div class="preco">{{A4_PRECO}}</div>
-      </div>
+      <div class="acao-info"><div class="acao-header"><span class="ticker">{{A4_TICKER}}</span><span class="nome">{{A4_NOME}}</span></div><div class="preco">{{A4_PRECO}}</div></div>
       <div class="var-pill" style="background:{{A4_BG}};color:{{A4_COR}};">{{A4_VAR}}</div>
     </div>
-
     <div class="acao">
       <div class="rank">5</div>
-      <div class="acao-info">
-        <div class="acao-header">
-          <span class="ticker">{{A5_TICKER}}</span>
-          <span class="nome">{{A5_NOME}}</span>
-        </div>
-        <div class="preco">{{A5_PRECO}}</div>
-      </div>
+      <div class="acao-info"><div class="acao-header"><span class="ticker">{{A5_TICKER}}</span><span class="nome">{{A5_NOME}}</span></div><div class="preco">{{A5_PRECO}}</div></div>
       <div class="var-pill" style="background:{{A5_BG}};color:{{A5_COR}};">{{A5_VAR}}</div>
     </div>
   </div>
 
   <div class="footer">
-    <div class="footer-data">bomdiainvestidor.com.br</div>
+    <div class="footer-site">bomdiainvestidor.com.br</div>
     <div class="footer-handle">@bomdia_investidor</div>
   </div>
-
 </div>
 </body>
 </html>
