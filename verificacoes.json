@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-20T21:21:38.219Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 22 min."
+  },
+  {
     "data": "2026-06-20T21:01:09.680Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 43 min."
@@ -1180,10 +1185,5 @@
       "PETR4 +0,08%",
       "BBAS3 +0,05%"
     ]
-  },
-  {
-    "data": "2026-06-17T22:03:54.856Z",
-    "resultado": "limite_diario",
-    "mensagem": "Limite de 15 posts diários atingido (15 já publicados hoje)."
   }
 ]
