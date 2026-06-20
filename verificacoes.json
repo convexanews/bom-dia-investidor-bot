@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-20T08:31:41.366Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (05:31 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-06-20T08:01:00.358Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (05:01 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1226,10 +1231,5 @@
     "data": "2026-06-17T13:30:58.607Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 87): \"O que mudou desde o último Copom? Os dados que o Banco Central terá na mesa para decidir a Selic\". Realizando postagem..."
-  },
-  {
-    "data": "2026-06-17T13:01:42.957Z",
-    "resultado": "erro",
-    "mensagem": "Erro na execução automática: Erro ao publicar no feed: {\"error\":{\"message\":\"User is performing too many actions\",\"type\":\"OAuthException\",\"is_transient\":false,\"code\":9,\"error_subcode\":2207042,\"error_user_title\":\"Media Publish Limit Exceeded\",\"error_user_msg\":\"You reached maximum number of posts that is allowed to be published by Content Publishing API.\",\"fbtrace_id\":\"AfsQukXEzCYW7VjzyBpPpHP\"}}"
   }
 ]
