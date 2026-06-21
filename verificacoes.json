@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-06-21T09:02:09.717Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (card): \"Bitcoin sobe acima de US$ 64.000 com negociações EUA-Irã e apostas otimistas em opções\".",
+    "postId": "18102704234021130",
+    "storyId": "18079181990389999",
+    "reelId": null,
+    "tipo": "card"
+  },
+  {
+    "data": "2026-06-21T09:01:10.000Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 16): \"Bitcoin sobe acima de US$ 64.000 com negociações EUA-Irã e apostas otimistas em opções\". Realizando postagem..."
+  },
+  {
     "data": "2026-06-21T08:31:05.089Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (05:31 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1149,19 +1163,5 @@
     "data": "2026-06-18T10:46:36.856Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 87): \"Mercados repercutem dúvidas sobre juros; Ibovespa em dólar avança com mais um corte da Selic no radar\". Realizando postagem..."
-  },
-  {
-    "data": "2026-06-18T10:02:55.180Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel narrado): \"Carrefour despenca após JPMorgan colocar ação em alerta negativo\".",
-    "postId": "18215316328334569",
-    "storyId": null,
-    "reelId": "18215316328334569",
-    "tipo": "reel_narrado"
-  },
-  {
-    "data": "2026-06-18T10:01:17.644Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 48): \"Carrefour despenca após JPMorgan colocar ação em alerta negativo\". Realizando postagem..."
   }
 ]
