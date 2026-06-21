@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-21T21:31:34.000Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 91 min."
+  },
+  {
     "data": "2026-06-21T21:02:07.439Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (card): \"Coca-Cola e Receita Federal dos EUA travam batalha judicial com US$ 20 bi em jogo\".",
@@ -1143,10 +1148,5 @@
     "data": "2026-06-19T01:01:03.115Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (22:01 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-06-19T00:30:59.423Z",
-    "resultado": "limite_diario",
-    "mensagem": "Limite de 8 posts diários atingido (8 já publicados hoje)."
   }
 ]
