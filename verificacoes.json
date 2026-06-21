@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-06-21T15:02:45.544Z",
+    "resultado": "reel_postado",
+    "mensagem": "Resumo em vídeo do dia publicado com 5 notícia(s).",
+    "reelId": "17955279270156193",
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1782054093410.mp4",
+    "noticias": [
+      "Governo identificou 10 alertas e primeira ação teria sido no PR, diz secretário",
+      "Trump diz que não haverá pedágio em Ormuz a menos que seja imposto pelos EUA",
+      "Lotofácil hoje, concurso 3716: Confira o resultado sorteado neste sábado (20)",
+      "Bitcoin sobe acima de US$ 64.000 com negociações EUA-Irã e apostas otimistas em opções",
+      "EUA e Irã abrem negociações na Suíça para tentar consolidar acordo de paz"
+    ]
+  },
+  {
     "data": "2026-06-21T15:01:14.670Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 62 min."
@@ -1144,11 +1158,6 @@
   },
   {
     "data": "2026-06-18T17:35:34.315Z",
-    "resultado": "limite_diario",
-    "mensagem": "Limite de 8 posts diários atingido (8 já publicados hoje)."
-  },
-  {
-    "data": "2026-06-18T17:03:58.559Z",
     "resultado": "limite_diario",
     "mensagem": "Limite de 8 posts diários atingido (8 já publicados hoje)."
   }
