@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-06-21T11:33:34.850Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Alta de 37% da SpaceX na 1ª semana já confirma entusiasmo para outros IPOs?\".",
+    "postId": "18105725339317725",
+    "storyId": null,
+    "reelId": "18105725339317725",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-06-21T11:31:09.335Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 48): \"Alta de 37% da SpaceX na 1ª semana já confirma entusiasmo para outros IPOs?\". Realizando postagem..."
+  },
+  {
     "data": "2026-06-21T11:00:58.095Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
@@ -1138,19 +1152,5 @@
     "data": "2026-06-18T12:38:01.666Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 86 min."
-  },
-  {
-    "data": "2026-06-18T12:03:08.034Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel narrado): \"Banco da Inglaterra mantém juros em 3,75%\".",
-    "postId": "17981442471011379",
-    "storyId": null,
-    "reelId": "17981442471011379",
-    "tipo": "reel_narrado"
-  },
-  {
-    "data": "2026-06-18T12:01:23.984Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 40): \"Banco da Inglaterra mantém juros em 3,75%\". Realizando postagem..."
   }
 ]
