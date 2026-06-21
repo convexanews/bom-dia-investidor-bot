@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-21T07:31:01.062Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (04:31 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-06-21T07:00:58.682Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (04:00 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1162,14 +1167,5 @@
     "data": "2026-06-18T09:31:22.316Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 103): \"Corte da Selic, cautela do Fed e entrada em vigor do acordo EUA-Irã agitam o mercado\". Realizando postagem..."
-  },
-  {
-    "data": "2026-06-18T09:19:47.301Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel narrado): \"Bolsas da Ásia fecham mistas após acordo EUA-Irã e queda em NY com sinalização do Fed\".",
-    "postId": "18096045503241408",
-    "storyId": null,
-    "reelId": "18096045503241408",
-    "tipo": "reel_narrado"
   }
 ]
