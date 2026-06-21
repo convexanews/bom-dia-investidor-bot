@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-06-21T21:02:07.439Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (card): \"Coca-Cola e Receita Federal dos EUA travam batalha judicial com US$ 20 bi em jogo\".",
+    "postId": "17887993800583441",
+    "storyId": "18086476403425569",
+    "reelId": null,
+    "tipo": "card"
+  },
+  {
+    "data": "2026-06-21T21:01:04.509Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 19): \"Coca-Cola e Receita Federal dos EUA travam batalha judicial com US$ 20 bi em jogo\". Realizando postagem..."
+  },
+  {
     "data": "2026-06-21T20:31:23.073Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 1 min."
@@ -1132,16 +1146,6 @@
   },
   {
     "data": "2026-06-19T00:30:59.423Z",
-    "resultado": "limite_diario",
-    "mensagem": "Limite de 8 posts diários atingido (8 já publicados hoje)."
-  },
-  {
-    "data": "2026-06-19T00:24:48.612Z",
-    "resultado": "sem_reel",
-    "mensagem": "Nenhuma notícia postada nas últimas 24h. Resumo em vídeo não foi gerado."
-  },
-  {
-    "data": "2026-06-19T00:10:44.716Z",
     "resultado": "limite_diario",
     "mensagem": "Limite de 8 posts diários atingido (8 já publicados hoje)."
   }
