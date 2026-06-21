@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-21T13:31:13.605Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
+  },
+  {
     "data": "2026-06-21T13:01:08.022Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 33 min."
@@ -1148,10 +1153,5 @@
       "Dólar hoje recua antes das decisões de juros do Copom e Fed",
       "Ibovespa Hoje Ao Vivo: Bolsa sobe e volta a testar os 171 mil pontos"
     ]
-  },
-  {
-    "data": "2026-06-18T15:01:09.414Z",
-    "resultado": "limite_diario",
-    "mensagem": "Limite de 8 posts diários atingido (8 já publicados hoje)."
   }
 ]
