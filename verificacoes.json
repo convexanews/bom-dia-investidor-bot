@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-06-21T18:32:11.754Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (carrossel): \"Irã rejeita bomba atômica, mas não abre mão do direito de enriquecer urânio\".",
+    "postId": "18081941672648070",
+    "storyId": null,
+    "reelId": null,
+    "tipo": "carrossel"
+  },
+  {
+    "data": "2026-06-21T18:31:09.700Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 13): \"Irã rejeita bomba atômica, mas não abre mão do direito de enriquecer urânio\". Realizando postagem..."
+  },
+  {
     "data": "2026-06-21T18:07:07.960Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 12 min."
@@ -1128,28 +1142,6 @@
   },
   {
     "data": "2026-06-18T23:01:04.180Z",
-    "resultado": "limite_diario",
-    "mensagem": "Limite de 8 posts diários atingido (8 já publicados hoje)."
-  },
-  {
-    "data": "2026-06-18T22:50:11.308Z",
-    "resultado": "carrossel_fechamento",
-    "mensagem": "Carrossel de fechamento publicado. Ibovespa: 168.278 -0,81%",
-    "postId": "18085334033453410",
-    "ibov": {
-      "valor": "168.278",
-      "variacao": "-0,81%"
-    },
-    "topAltas": [
-      "WEGE3 +4,59%",
-      "SUZB3 +3,20%",
-      "BPAC11 +0,91%",
-      "PETR4 +0,73%",
-      "BBAS3 +0,62%"
-    ]
-  },
-  {
-    "data": "2026-06-18T22:22:20.384Z",
     "resultado": "limite_diario",
     "mensagem": "Limite de 8 posts diários atingido (8 já publicados hoje)."
   }
