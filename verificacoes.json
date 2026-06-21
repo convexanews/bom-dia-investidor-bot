@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-21T19:01:03.573Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
+  },
+  {
     "data": "2026-06-21T18:32:11.754Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (carrossel): \"Irã rejeita bomba atômica, mas não abre mão do direito de enriquecer urânio\".",
@@ -1139,10 +1144,5 @@
     "data": "2026-06-18T23:01:06.936Z",
     "resultado": "sem_reel",
     "mensagem": "Nenhuma notícia postada nas últimas 24h. Resumo em vídeo não foi gerado."
-  },
-  {
-    "data": "2026-06-18T23:01:04.180Z",
-    "resultado": "limite_diario",
-    "mensagem": "Limite de 8 posts diários atingido (8 já publicados hoje)."
   }
 ]
