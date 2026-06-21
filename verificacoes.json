@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-21T01:01:01.506Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (22:01 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-06-21T00:32:02.681Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (carrossel): \"Lotofácil hoje, concurso 3716: Confira o resultado sorteado neste sábado (20)\".",
@@ -1170,10 +1175,5 @@
     "data": "2026-06-18T04:31:07.962Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (01:31 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-06-18T04:00:59.856Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (01:00 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
