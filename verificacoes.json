@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-21T18:07:07.960Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 12 min."
+  },
+  {
     "data": "2026-06-21T18:01:10.989Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 18 min."
@@ -1145,11 +1150,6 @@
   },
   {
     "data": "2026-06-18T22:22:20.384Z",
-    "resultado": "limite_diario",
-    "mensagem": "Limite de 8 posts diários atingido (8 já publicados hoje)."
-  },
-  {
-    "data": "2026-06-18T22:03:09.913Z",
     "resultado": "limite_diario",
     "mensagem": "Limite de 8 posts diários atingido (8 já publicados hoje)."
   }
