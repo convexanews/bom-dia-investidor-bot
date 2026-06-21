@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-06-21T23:21:54.717Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (carrossel): \"Premiê da Polônia minimiza tensões com Zelenski e chama conflito de “erro”\".",
+    "postId": "18141557398536915",
+    "storyId": null,
+    "reelId": null,
+    "tipo": "carrossel"
+  },
+  {
+    "data": "2026-06-21T23:20:55.193Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 13): \"Premiê da Polônia minimiza tensões com Zelenski e chama conflito de “erro”\". Realizando postagem..."
+  },
+  {
     "data": "2026-06-21T23:02:44.056Z",
     "resultado": "reel_postado",
     "mensagem": "Resumo em vídeo do dia publicado com 5 notícia(s).",
@@ -1147,15 +1161,5 @@
     "data": "2026-06-19T04:31:01.057Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (01:31 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-06-19T04:01:00.785Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (01:01 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-06-19T03:30:59.467Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (00:30 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
