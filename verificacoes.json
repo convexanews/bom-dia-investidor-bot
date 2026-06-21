@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-21T16:31:03.283Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 109 min."
+  },
+  {
     "data": "2026-06-21T16:19:06.567Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"Petrobras (PETR3), Assaí (ASAI3) e mais duas empresas pagam dividendos nesta semana; veja o calendário\".",
@@ -1157,11 +1162,6 @@
   },
   {
     "data": "2026-06-18T21:10:57.451Z",
-    "resultado": "limite_diario",
-    "mensagem": "Limite de 8 posts diários atingido (8 já publicados hoje)."
-  },
-  {
-    "data": "2026-06-18T20:02:16.120Z",
     "resultado": "limite_diario",
     "mensagem": "Limite de 8 posts diários atingido (8 já publicados hoje)."
   }
