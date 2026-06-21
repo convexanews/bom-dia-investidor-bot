@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-21T23:31:02.011Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 111 min."
+  },
+  {
     "data": "2026-06-21T23:21:54.717Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (carrossel): \"Premiê da Polônia minimiza tensões com Zelenski e chama conflito de “erro”\".",
@@ -1156,10 +1161,5 @@
     "data": "2026-06-19T05:00:56.272Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (02:00 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-06-19T04:31:01.057Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (01:31 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
