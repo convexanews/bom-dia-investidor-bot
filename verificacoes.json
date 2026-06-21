@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-21T10:30:59.797Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 32 min."
+  },
+  {
     "data": "2026-06-21T10:01:11.321Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 61 min."
@@ -1151,10 +1156,5 @@
     "storyId": null,
     "reelId": "17992617050979992",
     "tipo": "reel_narrado"
-  },
-  {
-    "data": "2026-06-18T11:31:24.546Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 54): \"Fundo imobiliário alerta para forte volatilidade na bolsa de valores; IFIX recua\". Realizando postagem..."
   }
 ]
