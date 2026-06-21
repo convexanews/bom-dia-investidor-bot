@@ -1,5 +1,15 @@
 [
   {
+    "data": "2026-06-21T00:12:34.829Z",
+    "resultado": "erro",
+    "mensagem": "Erro na execução automática: Erro ao publicar carrossel: {\"error\":{\"message\":\"Media ID is not available\",\"type\":\"OAuthException\",\"code\":9007,\"error_subcode\":2207027,\"is_transient\":false,\"error_user_title\":\"Cannot Publish\",\"error_user_msg\":\"The media is not ready for publishing, please wait for a moment\",\"fbtrace_id\":\"AFIlTrDKM7lsMMkVOon0wKp\"}}"
+  },
+  {
+    "data": "2026-06-21T00:11:44.038Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 9): \"Meloni volta a responder Trump e diz que ele promove ataques injustificados\". Realizando postagem..."
+  },
+  {
     "data": "2026-06-21T00:05:31.706Z",
     "resultado": "reel_postado",
     "mensagem": "Resumo em vídeo do dia publicado com 3 notícia(s).",
@@ -1161,15 +1171,5 @@
     "data": "2026-06-18T03:01:01.843Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (00:01 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-06-18T02:32:32.411Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (23:32 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-06-18T02:19:06.012Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (23:19 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
