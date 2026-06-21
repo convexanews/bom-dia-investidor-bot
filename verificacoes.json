@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-21T09:31:06.939Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
+  },
+  {
     "data": "2026-06-21T09:10:04.889Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 113 min."
@@ -1155,10 +1160,5 @@
     "storyId": null,
     "reelId": "18315688111263332",
     "tipo": "reel_narrado"
-  },
-  {
-    "data": "2026-06-18T11:01:16.231Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 55): \"Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta quinta\". Realizando postagem..."
   }
 ]
