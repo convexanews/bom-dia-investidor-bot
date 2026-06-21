@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-21T17:31:11.312Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 48 min."
+  },
+  {
     "data": "2026-06-21T17:01:00.723Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 79 min."
@@ -1147,22 +1152,5 @@
     "data": "2026-06-18T21:32:37.912Z",
     "resultado": "limite_diario",
     "mensagem": "Limite de 8 posts diários atingido (8 já publicados hoje)."
-  },
-  {
-    "data": "2026-06-18T21:12:00.405Z",
-    "resultado": "carrossel_fechamento",
-    "mensagem": "Carrossel de fechamento publicado. Ibovespa: 168.278 -0,81%",
-    "postId": "17968216496922681",
-    "ibov": {
-      "valor": "168.278",
-      "variacao": "-0,81%"
-    },
-    "topAltas": [
-      "WEGE3 +4,59%",
-      "SUZB3 +3,20%",
-      "BPAC11 +0,91%",
-      "PETR4 +0,73%",
-      "BBAS3 +0,62%"
-    ]
   }
 ]
