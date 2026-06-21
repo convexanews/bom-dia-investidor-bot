@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-21T11:00:58.095Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
+  },
+  {
     "data": "2026-06-21T10:30:59.797Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 32 min."
@@ -1147,14 +1152,5 @@
     "data": "2026-06-18T12:01:23.984Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 40): \"Banco da Inglaterra mantém juros em 3,75%\". Realizando postagem..."
-  },
-  {
-    "data": "2026-06-18T11:33:17.646Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel narrado): \"Fundo imobiliário alerta para forte volatilidade na bolsa de valores; IFIX recua\".",
-    "postId": "17992617050979992",
-    "storyId": null,
-    "reelId": "17992617050979992",
-    "tipo": "reel_narrado"
   }
 ]
