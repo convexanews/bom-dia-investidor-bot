@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-21T12:00:02.890Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 94 min."
+  },
+  {
     "data": "2026-06-21T11:40:23.899Z",
     "resultado": "story_enquete",
     "mensagem": "Story de enquete publicado: \"Você investe toda semana, mesmo que pouco?\"",
@@ -1148,10 +1153,5 @@
     "data": "2026-06-18T13:31:08.227Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 32 min."
-  },
-  {
-    "data": "2026-06-18T13:01:03.709Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 63 min."
   }
 ]
