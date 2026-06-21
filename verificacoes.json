@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-06-21T14:02:15.722Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (carrossel): \"EUA e Irã abrem negociações na Suíça para tentar consolidar acordo de paz\".",
+    "postId": "18475740199101598",
+    "storyId": null,
+    "reelId": null,
+    "tipo": "carrossel"
+  },
+  {
+    "data": "2026-06-21T14:01:15.764Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 29): \"EUA e Irã abrem negociações na Suíça para tentar consolidar acordo de paz\". Realizando postagem..."
+  },
+  {
     "data": "2026-06-21T13:31:13.605Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
@@ -1137,21 +1151,5 @@
     "data": "2026-06-18T16:12:55.189Z",
     "resultado": "limite_diario",
     "mensagem": "Limite de 8 posts diários atingido (8 já publicados hoje)."
-  },
-  {
-    "data": "2026-06-18T15:32:02.462Z",
-    "resultado": "limite_diario",
-    "mensagem": "Limite de 8 posts diários atingido (8 já publicados hoje)."
-  },
-  {
-    "data": "2026-06-18T15:02:11.757Z",
-    "resultado": "reel_postado",
-    "mensagem": "Resumo em vídeo do dia publicado com 2 notícia(s).",
-    "reelId": "18232438930311381",
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1781794881175.mp4",
-    "noticias": [
-      "Dólar hoje recua antes das decisões de juros do Copom e Fed",
-      "Ibovespa Hoje Ao Vivo: Bolsa sobe e volta a testar os 171 mil pontos"
-    ]
   }
 ]
