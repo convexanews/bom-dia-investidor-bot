@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-21T14:29:39.380Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 93 min."
+  },
+  {
     "data": "2026-06-21T14:02:15.722Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (carrossel): \"EUA e Irã abrem negociações na Suíça para tentar consolidar acordo de paz\".",
@@ -1144,11 +1149,6 @@
   },
   {
     "data": "2026-06-18T16:33:19.748Z",
-    "resultado": "limite_diario",
-    "mensagem": "Limite de 8 posts diários atingido (8 já publicados hoje)."
-  },
-  {
-    "data": "2026-06-18T16:12:55.189Z",
     "resultado": "limite_diario",
     "mensagem": "Limite de 8 posts diários atingido (8 já publicados hoje)."
   }
