@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-21T08:31:05.089Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (05:31 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-06-21T08:01:00.953Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (05:01 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1158,14 +1163,5 @@
     "data": "2026-06-18T10:01:17.644Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 48): \"Carrefour despenca após JPMorgan colocar ação em alerta negativo\". Realizando postagem..."
-  },
-  {
-    "data": "2026-06-18T09:33:19.829Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel narrado): \"Corte da Selic, cautela do Fed e entrada em vigor do acordo EUA-Irã agitam o mercado\".",
-    "postId": "18129385756717425",
-    "storyId": null,
-    "reelId": "18129385756717425",
-    "tipo": "reel_narrado"
   }
 ]
