@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-22T14:44:24.172Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 79 min."
+  },
+  {
     "data": "2026-06-22T14:31:07.902Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 93 min."
@@ -1164,10 +1169,5 @@
     "data": "2026-06-19T19:01:09.749Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 28): \"Exportação de algodão do Brasil será recorde em 2026, diz Anea ao elevar projeção\". Realizando postagem..."
-  },
-  {
-    "data": "2026-06-19T18:31:10.068Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
   }
 ]
