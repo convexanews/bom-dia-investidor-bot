@@ -100,8 +100,18 @@ function calcularPesoImpacto(titulo, descricao, categorias) {
   return peso;
 }
 
+// Bloqueia sempre, mesmo se a categoria bater com uma palavra relevante por coincidência
+// (ex: InfoMoney categoriza resultado de loteria como "Consumo")
+const PALAVRAS_EXCLUIDAS = [
+  'lotofácil', 'lotofacil', 'mega-sena', 'mega sena', 'quina', 'lotomania',
+  'dupla sena', 'timemania', 'dia de sorte', 'loteca', 'lotogol', 'super sete',
+  'resultado da loteria', 'concurso da loteria', 'números sorteados', 'numeros sorteados',
+  'horóscopo', 'horoscopo', 'signo', 'novela', 'celebridade', 'famosos',
+];
+
 function pareceRelevante(titulo, categorias) {
   const texto = (titulo + ' ' + categorias.join(' ')).toLowerCase();
+  if (PALAVRAS_EXCLUIDAS.some(p => texto.includes(p))) return false;
   return PALAVRAS_RELEVANTES.some(p => texto.includes(p));
 }
 

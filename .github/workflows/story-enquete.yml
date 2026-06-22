@@ -1,8 +1,8 @@
 name: Bom Dia Investidor - Story Enquete
 
 on:
-  schedule:
-    - cron: '0 9 * * *'  # Todo dia às 6h BRT (9h UTC)
+  # Postagem automática desativada — enquetes agora são escolhidas e postadas
+  # manualmente pelo painel (painel/index.html). Pode disparar manual aqui se quiser.
   workflow_dispatch: {}
 
 permissions:

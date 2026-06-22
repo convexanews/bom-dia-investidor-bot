@@ -8,12 +8,6 @@ const TEMPLATES = require('./storys-templates.cjs');
 
 const OUT_DIR = path.join(__dirname, 'painel', 'storys-imgs');
 
-function dataHojeBRT() {
-  const MESES = ['janeiro','fevereiro','março','abril','maio','junho','julho','agosto','setembro','outubro','novembro','dezembro'];
-  const d = new Date(new Date().toLocaleString('en-US', { timeZone: 'America/Sao_Paulo' }));
-  return `${d.getDate()} de ${MESES[d.getMonth()]}`;
-}
-
 async function gerarImagem(browser, enquete, data, saida) {
   let html = fs.readFileSync(path.join(__dirname, 'card-story-enquete.html'), 'utf8');
   const subs = {
@@ -41,7 +35,7 @@ async function gerarImagem(browser, enquete, data, saida) {
 
 async function main() {
   if (!fs.existsSync(OUT_DIR)) fs.mkdirSync(OUT_DIR, { recursive: true });
-  const data = dataHojeBRT();
+  const data = ''; // banco evergreen — sem data fixa, vale o ano todo
   const browser = await puppeteer.launch({ args: ['--no-sandbox', '--disable-setuid-sandbox'] });
 
   for (const tpl of TEMPLATES) {
@@ -52,14 +46,18 @@ async function main() {
 
   await browser.close();
 
-  // Manifesto pro painel ler via fetch (lista de slugs + perguntas + categoria)
-  fs.writeFileSync(
-    path.join(__dirname, 'painel', 'storys-manifest.json'),
-    JSON.stringify(TEMPLATES.map(t => ({ slug: t.slug, pergunta: t.pergunta, opcaoA: t.opcaoA, opcaoB: t.opcaoB, icone: t.icone })), null, 2),
-    'utf8'
+  // Injeta a lista direto no index.html (entre os marcadores) — funciona
+  // mesmo abrindo o painel via duplo-clique (file://), sem precisar de fetch.
+  const manifest = TEMPLATES.map(t => ({ slug: t.slug, pergunta: t.pergunta, opcaoA: t.opcaoA, opcaoB: t.opcaoB, icone: t.icone }));
+  const indexPath = path.join(__dirname, 'painel', 'index.html');
+  let indexHtml = fs.readFileSync(indexPath, 'utf8');
+  indexHtml = indexHtml.replace(
+    /\/\*STORYS_MANIFEST_START\*\/[\s\S]*?\/\*STORYS_MANIFEST_END\*\//,
+    `/*STORYS_MANIFEST_START*/${JSON.stringify(manifest)}/*STORYS_MANIFEST_END*/`
   );
+  fs.writeFileSync(indexPath, indexHtml, 'utf8');
 
-  console.log(`Pronto! ${TEMPLATES.length} imagens geradas em painel/storys-imgs/`);
+  console.log(`Pronto! ${TEMPLATES.length} imagens geradas em painel/storys-imgs/ e index.html atualizado.`);
 }
 
 main().catch(e => { console.error(e); process.exit(1); });
