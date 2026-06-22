@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-06-22T00:10:50.111Z",
+    "resultado": "reel_postado",
+    "mensagem": "Resumo em vídeo do dia publicado com 6 notícia(s).",
+    "reelId": "17960036481123514",
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1782086977703.mp4",
+    "noticias": [
+      "Lotofácil hoje, concurso 3716: Confira o resultado sorteado neste sábado (20)",
+      "Bitcoin sobe acima de US$ 64.000 com negociações EUA-Irã e apostas otimistas em opções",
+      "EUA e Irã abrem negociações na Suíça para tentar consolidar acordo de paz",
+      "Irã rejeita bomba atômica, mas não abre mão do direito de enriquecer urânio",
+      "Coca-Cola e Receita Federal dos EUA travam batalha judicial com US$ 20 bi em jogo",
+      "Premiê da Polônia minimiza tensões com Zelenski e chama conflito de “erro”"
+    ]
+  },
+  {
     "data": "2026-06-22T00:01:06.678Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 81 min."
@@ -1156,10 +1171,5 @@
     "data": "2026-06-19T05:35:06.049Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (02:35 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-06-19T05:31:02.340Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (02:31 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
