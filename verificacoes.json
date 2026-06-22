@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-06-22T14:03:23.591Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Wall Street abre sem direção única à espera de dados de inflação e de olho no Oriente Médio\".",
+    "postId": "18083269964443055",
+    "storyId": null,
+    "reelId": "18083269964443055",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-06-22T14:01:14.359Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 68): \"Wall Street abre sem direção única à espera de dados de inflação e de olho no Oriente Médio\". Realizando postagem..."
+  },
+  {
     "data": "2026-06-22T13:31:11.979Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 4 min."
@@ -1155,15 +1169,5 @@
     "data": "2026-06-19T18:00:59.312Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 33 min."
-  },
-  {
-    "data": "2026-06-19T17:30:57.044Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 63 min."
-  },
-  {
-    "data": "2026-06-19T17:01:04.848Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 93 min."
   }
 ]
