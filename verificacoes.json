@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-22T14:31:07.902Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 93 min."
+  },
+  {
     "data": "2026-06-22T14:03:23.591Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"Wall Street abre sem direção única à espera de dados de inflação e de olho no Oriente Médio\".",
@@ -1164,10 +1169,5 @@
     "data": "2026-06-19T18:31:10.068Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
-  },
-  {
-    "data": "2026-06-19T18:00:59.312Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 33 min."
   }
 ]
