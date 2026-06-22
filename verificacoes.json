@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-06-22T18:52:49.155Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"SpaceX recorre a títulos para levantar capital e reporta US$ 100,8 bi em caixa\".",
+    "postId": "17886025095580163",
+    "storyId": null,
+    "reelId": "17886025095580163",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-06-22T18:49:44.144Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 46): \"SpaceX recorre a títulos para levantar capital e reporta US$ 100,8 bi em caixa\". Realizando postagem..."
+  },
+  {
     "data": "2026-06-22T18:31:04.936Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
@@ -1138,27 +1152,5 @@
     "data": "2026-06-19T22:07:12.614Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 86 min."
-  },
-  {
-    "data": "2026-06-19T22:01:04.126Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
-  },
-  {
-    "data": "2026-06-19T21:57:48.345Z",
-    "resultado": "carrossel_fechamento",
-    "mensagem": "Carrossel de fechamento publicado. Ibovespa: 168.334 -0,07%",
-    "postId": "18151006795496178",
-    "ibov": {
-      "valor": "168.334",
-      "variacao": "-0,07%"
-    },
-    "topAltas": [
-      "RAIZ4 +5,00%",
-      "MGLU3 +2,67%",
-      "CSAN3 +2,65%",
-      "ENEV3 +1,62%",
-      "CSNA3 +1,54%"
-    ]
   }
 ]
