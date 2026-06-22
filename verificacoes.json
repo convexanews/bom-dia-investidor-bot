@@ -1,5 +1,15 @@
 [
   {
+    "data": "2026-06-22T23:02:32.311Z",
+    "resultado": "reel_postado",
+    "mensagem": "Resumo em vídeo do dia publicado com 1 notícia(s).",
+    "reelId": "18091561832613536",
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1782169300790.mp4",
+    "noticias": [
+      "Premiê da Polônia minimiza tensões com Zelenski e chama conflito de “erro”"
+    ]
+  },
+  {
     "data": "2026-06-22T23:01:16.053Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 5 min."
@@ -1160,10 +1170,5 @@
     "data": "2026-06-20T02:30:56.746Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (23:30 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-06-20T02:01:10.488Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (23:01 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
