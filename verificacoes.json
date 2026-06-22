@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-06-22T09:03:46.626Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Dow Jones Futuro cai com foco em negociações entre EUA e Irã e na inflação\".",
+    "postId": "18076910942290748",
+    "storyId": null,
+    "reelId": "18076910942290748",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-06-22T09:01:12.279Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 48): \"Dow Jones Futuro cai com foco em negociações entre EUA e Irã e na inflação\". Realizando postagem..."
+  },
+  {
     "data": "2026-06-22T08:39:58.174Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (05:39 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1153,15 +1167,5 @@
     "storyId": null,
     "reelId": "17910291114421847",
     "tipo": "reel"
-  },
-  {
-    "data": "2026-06-19T14:01:03.216Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 45): \"Dólar cede após ganhos, em dia de poucos negócios com feriado nos EUA\". Realizando postagem..."
-  },
-  {
-    "data": "2026-06-19T13:31:00.546Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
   }
 ]
