@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-22T18:31:04.936Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
+  },
+  {
     "data": "2026-06-22T18:01:20.110Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 33 min."
@@ -1155,14 +1160,5 @@
       "ENEV3 +1,62%",
       "CSNA3 +1,54%"
     ]
-  },
-  {
-    "data": "2026-06-19T21:33:03.103Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"Depois da Superquarta: o corte veio, mas a credibilidade aguenta?\".",
-    "postId": "18091542395188774",
-    "storyId": null,
-    "reelId": "18091542395188774",
-    "tipo": "reel"
   }
 ]
