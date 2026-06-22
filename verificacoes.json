@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-22T18:01:20.110Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 33 min."
+  },
+  {
     "data": "2026-06-22T17:41:02.990Z",
     "resultado": "erro_carrossel_educativo",
     "mensagem": "Erro ao publicar carrossel educativo: Command failed: git push"
@@ -1159,10 +1164,5 @@
     "storyId": null,
     "reelId": "18091542395188774",
     "tipo": "reel"
-  },
-  {
-    "data": "2026-06-19T21:30:59.679Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 52): \"Depois da Superquarta: o corte veio, mas a credibilidade aguenta?\". Realizando postagem..."
   }
 ]
