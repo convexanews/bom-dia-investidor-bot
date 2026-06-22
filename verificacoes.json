@@ -1,5 +1,22 @@
 [
   {
+    "data": "2026-06-22T21:06:34.374Z",
+    "resultado": "carrossel_fechamento",
+    "mensagem": "Carrossel de fechamento publicado. Ibovespa: 170.370 +1,24%",
+    "postId": "18041211539603784",
+    "ibov": {
+      "valor": "170.370",
+      "variacao": "+1,24%"
+    },
+    "topAltas": [
+      "CSAN3 +4,58%",
+      "RADL3 +3,32%",
+      "BPAC11 +3,10%",
+      "HAPV3 +2,91%",
+      "ITUB4 +2,68%"
+    ]
+  },
+  {
     "data": "2026-06-22T21:05:24.707Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"‘Tiro pela culatra’? Copom corta Selic, mas mercado parece não ‘confiar’ na decisão; entenda cenário e onde investir agora\".",
@@ -1142,14 +1159,5 @@
     "data": "2026-06-20T00:00:59.693Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 98 min."
-  },
-  {
-    "data": "2026-06-19T23:38:47.706Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (carrossel): \"SNEL11, maior fundo de energia da Bolsa, sobe forte após quinta oferta bilionária\".",
-    "postId": "17923895595475775",
-    "storyId": null,
-    "reelId": null,
-    "tipo": "carrossel"
   }
 ]
