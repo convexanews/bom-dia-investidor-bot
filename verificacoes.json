@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-22T13:31:11.979Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 4 min."
+  },
+  {
     "data": "2026-06-22T13:03:00.555Z",
     "resultado": "carrossel_educativo",
     "mensagem": "Carrossel educativo publicado: O que é a SELIC?",
@@ -1160,10 +1165,5 @@
     "data": "2026-06-19T17:01:04.848Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 93 min."
-  },
-  {
-    "data": "2026-06-19T16:59:30.494Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 94 min."
   }
 ]
