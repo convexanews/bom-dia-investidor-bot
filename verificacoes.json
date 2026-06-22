@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-22T07:31:06.058Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (04:31 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-06-22T07:01:03.046Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (04:01 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1158,14 +1163,5 @@
     "data": "2026-06-19T12:01:00.599Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
-  },
-  {
-    "data": "2026-06-19T11:32:28.407Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"BC do Japão alerta para risco de inflação acima da meta e sinaliza intenção de aumentar juros\".",
-    "postId": "18361940329228083",
-    "storyId": null,
-    "reelId": "18361940329228083",
-    "tipo": "reel"
   }
 ]
