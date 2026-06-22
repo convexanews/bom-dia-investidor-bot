@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-22T13:01:11.640Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 34 min."
+  },
+  {
     "data": "2026-06-22T12:31:21.743Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 63 min."
@@ -1162,10 +1167,5 @@
     "storyId": null,
     "reelId": "18119495395685755",
     "tipo": "reel"
-  },
-  {
-    "data": "2026-06-19T16:31:11.033Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 55): \"Bradesco BBI vê ponto de entrada na B3 após correção e elege ações favoritas para 3T\". Realizando postagem..."
   }
 ]
