@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-22T03:01:06.871Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (00:01 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-06-22T02:31:12.786Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (23:31 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1166,10 +1171,5 @@
     "data": "2026-06-19T09:01:04.157Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 51): \"Petróleo, inflação e bolsas: os estragos econômicos deixados pela guerra entre EUA e Irã\". Realizando postagem..."
-  },
-  {
-    "data": "2026-06-19T08:31:04.318Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (05:31 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
