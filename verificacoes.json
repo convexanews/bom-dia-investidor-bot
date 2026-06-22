@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-22T09:31:35.782Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 93 min."
+  },
+  {
     "data": "2026-06-22T09:03:46.626Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"Dow Jones Futuro cai com foco em negociações entre EUA e Irã e na inflação\".",
@@ -1158,14 +1163,5 @@
     "data": "2026-06-19T14:15:09.731Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 108 min."
-  },
-  {
-    "data": "2026-06-19T14:02:57.685Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"Dólar cede após ganhos, em dia de poucos negócios com feriado nos EUA\".",
-    "postId": "17910291114421847",
-    "storyId": null,
-    "reelId": "17910291114421847",
-    "tipo": "reel"
   }
 ]
