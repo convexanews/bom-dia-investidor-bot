@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-22T17:31:10.853Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 63 min."
+  },
+  {
     "data": "2026-06-22T17:01:05.864Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 93 min."
@@ -1171,10 +1176,5 @@
       "ENEV3 +1,62%",
       "CSNA3 +1,54%"
     ]
-  },
-  {
-    "data": "2026-06-19T21:01:09.348Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 1 min."
   }
 ]
