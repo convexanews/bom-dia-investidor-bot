@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-06-22T16:33:20.904Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Os próximos 60 dias serão de forte volatilidade nos mercados, alerta O2 Capital\".",
+    "postId": "17972973440900699",
+    "storyId": null,
+    "reelId": "17972973440900699",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-06-22T16:31:14.244Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 98): \"Os próximos 60 dias serão de forte volatilidade nos mercados, alerta O2 Capital\". Realizando postagem..."
+  },
+  {
     "data": "2026-06-22T16:01:18.093Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
@@ -1162,15 +1176,5 @@
     "data": "2026-06-19T20:53:09.925Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 9 min."
-  },
-  {
-    "data": "2026-06-19T20:30:56.372Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 32 min."
-  },
-  {
-    "data": "2026-06-19T20:01:05.817Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 61 min."
   }
 ]
