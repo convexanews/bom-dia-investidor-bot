@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-22T19:01:14.879Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 112 min."
+  },
+  {
     "data": "2026-06-22T18:52:49.155Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"SpaceX recorre a títulos para levantar capital e reporta US$ 100,8 bi em caixa\".",
@@ -1147,10 +1152,5 @@
     "data": "2026-06-19T22:31:08.414Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 62 min."
-  },
-  {
-    "data": "2026-06-19T22:07:12.614Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 86 min."
   }
 ]
