@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-22T21:31:23.324Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 95 min."
+  },
+  {
     "data": "2026-06-22T21:06:34.374Z",
     "resultado": "carrossel_fechamento",
     "mensagem": "Carrossel de fechamento publicado. Ibovespa: 170.370 +1,24%",
@@ -1154,10 +1159,5 @@
       "Exportação de algodão do Brasil será recorde em 2026, diz Anea ao elevar projeção",
       "SNEL11, maior fundo de energia da Bolsa, sobe forte após quinta oferta bilionária"
     ]
-  },
-  {
-    "data": "2026-06-20T00:00:59.693Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 98 min."
   }
 ]
