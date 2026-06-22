@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-22T17:01:05.864Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 93 min."
+  },
+  {
     "data": "2026-06-22T16:33:20.904Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"Os próximos 60 dias serão de forte volatilidade nos mercados, alerta O2 Capital\".",
@@ -1171,10 +1176,5 @@
     "data": "2026-06-19T21:01:09.348Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 1 min."
-  },
-  {
-    "data": "2026-06-19T20:53:09.925Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 9 min."
   }
 ]
