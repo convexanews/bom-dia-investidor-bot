@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-06-22T11:34:16.137Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Ibovespa perde força, dólar sobe e Nasdaq mira máximas; o que esperar?\".",
+    "postId": "18127275778569315",
+    "storyId": null,
+    "reelId": "18127275778569315",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-06-22T11:31:16.220Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 62): \"Ibovespa perde força, dólar sobe e Nasdaq mira máximas; o que esperar?\". Realizando postagem..."
+  },
+  {
     "data": "2026-06-22T11:01:03.934Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
@@ -1151,16 +1165,6 @@
   },
   {
     "data": "2026-06-19T15:31:00.737Z",
-    "resultado": "sem_reel",
-    "mensagem": "Nenhuma notícia postada nas últimas 24h. Resumo em vídeo não foi gerado."
-  },
-  {
-    "data": "2026-06-19T15:30:57.768Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 32 min."
-  },
-  {
-    "data": "2026-06-19T15:01:09.671Z",
     "resultado": "sem_reel",
     "mensagem": "Nenhuma notícia postada nas últimas 24h. Resumo em vídeo não foi gerado."
   }
