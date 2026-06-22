@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-22T21:33:08.543Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 93 min."
+  },
+  {
     "data": "2026-06-22T21:31:23.324Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 95 min."
@@ -1148,16 +1153,5 @@
     "data": "2026-06-20T00:31:03.864Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 68 min."
-  },
-  {
-    "data": "2026-06-20T00:09:34.424Z",
-    "resultado": "reel_postado",
-    "mensagem": "Resumo em vídeo do dia publicado com 2 notícia(s).",
-    "reelId": "18072186416367755",
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1781914066790.mp4",
-    "noticias": [
-      "Exportação de algodão do Brasil será recorde em 2026, diz Anea ao elevar projeção",
-      "SNEL11, maior fundo de energia da Bolsa, sobe forte após quinta oferta bilionária"
-    ]
   }
 ]
