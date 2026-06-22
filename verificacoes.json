@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-06-22T21:05:24.707Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"‘Tiro pela culatra’? Copom corta Selic, mas mercado parece não ‘confiar’ na decisão; entenda cenário e onde investir agora\".",
+    "postId": "18461158471114329",
+    "storyId": null,
+    "reelId": "18461158471114329",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-06-22T21:02:55.972Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 75): \"‘Tiro pela culatra’? Copom corta Selic, mas mercado parece não ‘confiar’ na decisão; entenda cenário e onde investir agora\". Realizando postagem..."
+  },
+  {
     "data": "2026-06-22T20:31:07.779Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 22 min."
@@ -1137,15 +1151,5 @@
     "storyId": null,
     "reelId": null,
     "tipo": "carrossel"
-  },
-  {
-    "data": "2026-06-19T23:37:51.037Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 18): \"SNEL11, maior fundo de energia da Bolsa, sobe forte após quinta oferta bilionária\". Realizando postagem..."
-  },
-  {
-    "data": "2026-06-19T23:31:04.551Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
   }
 ]
