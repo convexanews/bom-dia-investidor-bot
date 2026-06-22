@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-22T17:41:02.990Z",
+    "resultado": "erro_carrossel_educativo",
+    "mensagem": "Erro ao publicar carrossel educativo: Command failed: git push"
+  },
+  {
     "data": "2026-06-22T17:31:10.853Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 63 min."
@@ -1159,22 +1164,5 @@
     "data": "2026-06-19T21:30:59.679Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 52): \"Depois da Superquarta: o corte veio, mas a credibilidade aguenta?\". Realizando postagem..."
-  },
-  {
-    "data": "2026-06-19T21:02:15.203Z",
-    "resultado": "carrossel_fechamento",
-    "mensagem": "Carrossel de fechamento publicado. Ibovespa: 168.334 -0,07%",
-    "postId": "18010453484730578",
-    "ibov": {
-      "valor": "168.334",
-      "variacao": "-0,07%"
-    },
-    "topAltas": [
-      "RAIZ4 +5,00%",
-      "MGLU3 +2,67%",
-      "CSAN3 +2,65%",
-      "ENEV3 +1,62%",
-      "CSNA3 +1,54%"
-    ]
   }
 ]
