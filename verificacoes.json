@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-06-22T23:24:38.790Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (carrossel): \"OUJP11 lidera ranking dos FIIs do IFIX com maiores retornos em 2026\".",
+    "postId": "18158123359462787",
+    "storyId": null,
+    "reelId": null,
+    "tipo": "carrossel"
+  },
+  {
+    "data": "2026-06-22T23:23:33.557Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 28): \"OUJP11 lidera ranking dos FIIs do IFIX com maiores retornos em 2026\". Realizando postagem..."
+  },
+  {
     "data": "2026-06-22T23:02:32.311Z",
     "resultado": "reel_postado",
     "mensagem": "Resumo em vídeo do dia publicado com 1 notícia(s).",
@@ -1160,15 +1174,5 @@
     "data": "2026-06-20T03:31:12.985Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (00:31 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-06-20T03:01:00.596Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (00:01 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-06-20T02:30:56.746Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (23:30 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
