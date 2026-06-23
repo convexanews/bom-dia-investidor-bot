@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-23T20:34:50.447Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 119 min."
+  },
+  {
     "data": "2026-06-23T20:33:25.680Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"Wall Street recua com venda dos setores de tecnologia e semicondutores; Nasdaq derrete 2%\".",
@@ -1170,14 +1175,5 @@
     "data": "2026-06-20T22:31:19.065Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 91 min."
-  },
-  {
-    "data": "2026-06-20T22:01:51.443Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (card): \"Trump diz que não haverá pedágio em Ormuz a menos que seja imposto pelos EUA\".",
-    "postId": "18141026689538087",
-    "storyId": null,
-    "reelId": null,
-    "tipo": "card"
   }
 ]
