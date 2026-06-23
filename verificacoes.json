@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-23T17:05:58.434Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 68 min."
+  },
+  {
     "data": "2026-06-23T16:31:19.267Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 102 min."
@@ -1170,10 +1175,5 @@
     "data": "2026-06-20T19:31:05.243Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 23): \"Governo identificou 10 alertas e primeira ação teria sido no PR, diz secretário\". Realizando postagem..."
-  },
-  {
-    "data": "2026-06-20T19:01:02.244Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
   }
 ]
