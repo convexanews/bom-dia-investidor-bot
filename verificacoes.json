@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-23T06:31:08.912Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (03:31 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-06-23T06:11:08.383Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (03:11 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1169,14 +1174,5 @@
     "data": "2026-06-20T10:01:06.198Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
-  },
-  {
-    "data": "2026-06-20T09:32:06.301Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (card): \"Bitcoin se recupera acima de US$ 63.000 com traders avaliando cenário regulatório\".",
-    "postId": "18105764081082572",
-    "storyId": "18157134511461390",
-    "reelId": null,
-    "tipo": "card"
   }
 ]
