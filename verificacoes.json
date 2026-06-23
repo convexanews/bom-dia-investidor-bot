@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-23T05:31:03.063Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (02:31 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-06-23T05:01:20.903Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (02:01 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1174,10 +1179,5 @@
     "resultado": "story_enquete",
     "mensagem": "Story de enquete publicado: \"Você já investe em Fundos Imobiliários (FIIs)?\"",
     "postId": "18397128784089259"
-  },
-  {
-    "data": "2026-06-20T09:01:04.443Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
   }
 ]
