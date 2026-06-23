@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-23T15:01:19.828Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 63 min."
+  },
+  {
     "data": "2026-06-23T14:31:16.746Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 93 min."
@@ -1165,10 +1170,5 @@
     "data": "2026-06-20T17:01:05.424Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 32): \"Vale marca assembleia para destituir presidente do conselho para dia 22 de julho\". Realizando postagem..."
-  },
-  {
-    "data": "2026-06-20T16:30:55.715Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
   }
 ]
