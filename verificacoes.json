@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-23T13:23:11.449Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 11 min."
+  },
+  {
     "data": "2026-06-23T13:01:19.409Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 32 min."
@@ -1168,10 +1173,5 @@
       "SNEL11, maior fundo de energia da Bolsa, sobe forte após quinta oferta bilionária",
       "Bitcoin se recupera acima de US$ 63.000 com traders avaliando cenário regulatório"
     ]
-  },
-  {
-    "data": "2026-06-20T15:01:04.526Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 93 min."
   }
 ]
