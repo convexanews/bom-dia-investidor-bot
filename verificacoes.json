@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-23T12:01:33.201Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
+  },
+  {
     "data": "2026-06-23T11:33:17.591Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"Banco Central admite inflação acima da meta, mas diz que 'melhores práticas' recomendam não reagir a choques de oferta\".",
@@ -1172,10 +1177,5 @@
     "storyId": null,
     "reelId": "18106206878092425",
     "tipo": "reel"
-  },
-  {
-    "data": "2026-06-20T14:31:18.686Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 45): \"Salto de Wall Street, ‘rasteira’ do Federal Reserve e falas do maior investidor da bolsa brasileira: Veja as matérias mais lidas no Money Times\". Realizando postagem..."
   }
 ]
