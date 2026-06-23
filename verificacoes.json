@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-23T09:31:01.819Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 93 min."
+  },
+  {
     "data": "2026-06-23T09:03:33.618Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"Ata do Copom, PMIs nos EUA e Europa e mais destaques desta terça-feira (23)\".",
@@ -1172,10 +1177,5 @@
     "storyId": null,
     "reelId": "18186944710380298",
     "tipo": "reel"
-  },
-  {
-    "data": "2026-06-20T12:01:20.538Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 45): \"Cushman & Wakefield dispara 63% após alerta de preço-justo do InvestingPro\". Realizando postagem..."
   }
 ]
