@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-23T16:31:19.267Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 102 min."
+  },
+  {
     "data": "2026-06-23T16:13:15.644Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"Inflação reacende alerta: BTG vê Fed voltando a subir juros e projeta 3 altas\".",
@@ -1170,10 +1175,5 @@
     "data": "2026-06-20T19:01:02.244Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
-  },
-  {
-    "data": "2026-06-20T18:31:17.862Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 32 min."
   }
 ]
