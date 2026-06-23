@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-23T10:01:11.405Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 63 min."
+  },
+  {
     "data": "2026-06-23T09:31:01.819Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 93 min."
@@ -1168,14 +1173,5 @@
     "data": "2026-06-20T12:28:15.737Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 95 min."
-  },
-  {
-    "data": "2026-06-20T12:02:56.879Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"Cushman & Wakefield dispara 63% após alerta de preço-justo do InvestingPro\".",
-    "postId": "18186944710380298",
-    "storyId": null,
-    "reelId": "18186944710380298",
-    "tipo": "reel"
   }
 ]
