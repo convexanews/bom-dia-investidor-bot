@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-06-23T16:13:15.644Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Inflação reacende alerta: BTG vê Fed voltando a subir juros e projeta 3 altas\".",
+    "postId": "17978803041031666",
+    "storyId": null,
+    "reelId": "17978803041031666",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-06-23T16:11:06.581Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 59): \"Inflação reacende alerta: BTG vê Fed voltando a subir juros e projeta 3 altas\". Realizando postagem..."
+  },
+  {
     "data": "2026-06-23T16:01:14.979Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
@@ -1161,15 +1175,5 @@
     "data": "2026-06-20T18:31:17.862Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 32 min."
-  },
-  {
-    "data": "2026-06-20T18:00:58.172Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 62 min."
-  },
-  {
-    "data": "2026-06-20T17:55:14.903Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 68 min."
   }
 ]
