@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-06-23T14:03:38.793Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Bolha de IA? Wall Street recua com queda de ações de semicondutores\".",
+    "postId": "18122402203631967",
+    "storyId": null,
+    "reelId": "18122402203631967",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-06-23T14:01:22.998Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 61): \"Bolha de IA? Wall Street recua com queda de ações de semicondutores\". Realizando postagem..."
+  },
+  {
     "data": "2026-06-23T13:31:22.846Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
@@ -1156,15 +1170,5 @@
     "data": "2026-06-20T16:22:44.524Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 11 min."
-  },
-  {
-    "data": "2026-06-20T16:01:18.580Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 33 min."
-  },
-  {
-    "data": "2026-06-20T15:31:06.259Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 63 min."
   }
 ]
