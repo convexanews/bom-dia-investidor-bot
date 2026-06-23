@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-23T22:17:31.228Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 16 min."
+  },
+  {
     "data": "2026-06-23T22:07:53.842Z",
     "resultado": "carrossel_fechamento",
     "mensagem": "Carrossel de fechamento publicado. Ibovespa: 171.259 +1,59%",
@@ -1186,10 +1191,5 @@
       "Governo identificou 10 alertas e primeira ação teria sido no PR, diz secretário",
       "Trump diz que não haverá pedágio em Ormuz a menos que seja imposto pelos EUA"
     ]
-  },
-  {
-    "data": "2026-06-21T00:01:03.356Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 1 min."
   }
 ]
