@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-23T18:31:11.809Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 114 min."
+  },
+  {
     "data": "2026-06-23T18:24:46.874Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"Ata do Copom reforça cautela e limita espaço para cortes da Selic, diz economista da Lifetime\".",
@@ -1170,10 +1175,5 @@
     "data": "2026-06-20T20:31:13.841Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 73 min."
-  },
-  {
-    "data": "2026-06-20T20:01:18.760Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 102 min."
   }
 ]
