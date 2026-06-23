@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-23T22:31:00.521Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
+  },
+  {
     "data": "2026-06-23T22:17:31.228Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 16 min."
@@ -1179,17 +1184,5 @@
     "data": "2026-06-21T00:11:44.038Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 9): \"Meloni volta a responder Trump e diz que ele promove ataques injustificados\". Realizando postagem..."
-  },
-  {
-    "data": "2026-06-21T00:05:31.706Z",
-    "resultado": "reel_postado",
-    "mensagem": "Resumo em vídeo do dia publicado com 3 notícia(s).",
-    "reelId": "18081324281384315",
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1782000265817.mp4",
-    "noticias": [
-      "Bitcoin se recupera acima de US$ 63.000 com traders avaliando cenário regulatório",
-      "Governo identificou 10 alertas e primeira ação teria sido no PR, diz secretário",
-      "Trump diz que não haverá pedágio em Ormuz a menos que seja imposto pelos EUA"
-    ]
   }
 ]
