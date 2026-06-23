@@ -1,5 +1,15 @@
 [
   {
+    "data": "2026-06-23T23:05:22.810Z",
+    "resultado": "reel_postado",
+    "mensagem": "Resumo em vídeo do dia publicado com 1 notícia(s).",
+    "reelId": "18060471929721939",
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1782255873239.mp4",
+    "noticias": [
+      "OUJP11 lidera ranking dos FIIs do IFIX com maiores retornos em 2026"
+    ]
+  },
+  {
     "data": "2026-06-23T23:04:09.453Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"Banco Central divulga calendário das reuniões do Copom para 2027\".",
@@ -1183,10 +1193,5 @@
     "storyId": null,
     "reelId": null,
     "tipo": "carrossel"
-  },
-  {
-    "data": "2026-06-21T00:31:05.061Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 14): \"Lotofácil hoje, concurso 3716: Confira o resultado sorteado neste sábado (20)\". Realizando postagem..."
   }
 ]
