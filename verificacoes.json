@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-23T18:01:08.780Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 13 min."
+  },
+  {
     "data": "2026-06-23T17:31:08.100Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 43 min."
@@ -1170,10 +1175,5 @@
     "data": "2026-06-20T19:42:24.472Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 23): \"Governo identificou 10 alertas e primeira ação teria sido no PR, diz secretário\". Realizando postagem..."
-  },
-  {
-    "data": "2026-06-20T19:31:44.888Z",
-    "resultado": "erro",
-    "mensagem": "Erro na execução automática: Erro ao criar item do carrossel: {\"error\":{\"message\":\"Only photo or video can be accepted as media type.\",\"type\":\"OAuthException\",\"code\":9004,\"error_subcode\":2207052,\"is_transient\":false,\"error_user_title\":\"Media download has failed. The media URI doesn't meet our requirements.\",\"error_user_msg\":\"The media could not be fetched from this URI: https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781983878136-slide2.png.Please check the limitations section in our development document for more information: https://developers.facebook.com/docs/instagram-platform/instagram-graph-api/reference/ig-user/media#creating\",\"fbtrace_id\":\"AfPnqMn9O_OBnZ9KoA7vAdz\"}}"
   }
 ]
