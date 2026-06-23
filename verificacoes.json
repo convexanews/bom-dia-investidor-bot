@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-06-23T18:24:46.874Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Ata do Copom reforça cautela e limita espaço para cortes da Selic, diz economista da Lifetime\".",
+    "postId": "17944081422217561",
+    "storyId": null,
+    "reelId": "17944081422217561",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-06-23T18:22:12.182Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 65): \"Ata do Copom reforça cautela e limita espaço para cortes da Selic, diz economista da Lifetime\". Realizando postagem..."
+  },
+  {
     "data": "2026-06-23T18:01:08.780Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 13 min."
@@ -1161,19 +1175,5 @@
     "data": "2026-06-20T20:01:18.760Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 102 min."
-  },
-  {
-    "data": "2026-06-20T19:43:17.434Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (carrossel): \"Governo identificou 10 alertas e primeira ação teria sido no PR, diz secretário\".",
-    "postId": "18594169579028876",
-    "storyId": null,
-    "reelId": null,
-    "tipo": "carrossel"
-  },
-  {
-    "data": "2026-06-20T19:42:24.472Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 23): \"Governo identificou 10 alertas e primeira ação teria sido no PR, diz secretário\". Realizando postagem..."
   }
 ]
