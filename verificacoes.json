@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-23T23:31:13.803Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 93 min."
+  },
+  {
     "data": "2026-06-23T23:05:22.810Z",
     "resultado": "reel_postado",
     "mensagem": "Resumo em vídeo do dia publicado com 1 notícia(s).",
@@ -1184,14 +1189,5 @@
     "data": "2026-06-21T01:01:01.506Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (22:01 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-06-21T00:32:02.681Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (carrossel): \"Lotofácil hoje, concurso 3716: Confira o resultado sorteado neste sábado (20)\".",
-    "postId": "18181100947401031",
-    "storyId": null,
-    "reelId": null,
-    "tipo": "carrossel"
   }
 ]
