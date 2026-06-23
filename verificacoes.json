@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-23T12:31:04.844Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 63 min."
+  },
+  {
     "data": "2026-06-23T12:01:33.201Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
@@ -1168,14 +1173,5 @@
     "data": "2026-06-20T14:54:45.966Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 99 min."
-  },
-  {
-    "data": "2026-06-20T14:33:28.260Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"Salto de Wall Street, ‘rasteira’ do Federal Reserve e falas do maior investidor da bolsa brasileira: Veja as matérias mais lidas no Money Times\".",
-    "postId": "18106206878092425",
-    "storyId": null,
-    "reelId": "18106206878092425",
-    "tipo": "reel"
   }
 ]
