@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-24T04:31:03.013Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (01:31 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-06-24T04:01:10.330Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (01:01 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1184,10 +1189,5 @@
     "data": "2026-06-21T07:00:58.682Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (04:00 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-06-21T06:31:01.936Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (03:31 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
