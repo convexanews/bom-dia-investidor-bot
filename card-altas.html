@@ -9,31 +9,29 @@
   .card { width: 1080px; height: 1350px; display: flex; flex-direction: column; overflow: hidden; }
 
   .header {
-    background: linear-gradient(135deg, #0a1628 0%, #1a2f5e 65%, #0d1f45 100%);
-    padding: 50px 72px 46px; flex-shrink: 0; position: relative; overflow: hidden;
+    background: #ffffff; border-bottom: 1px solid #eef1f6;
+    padding: 50px 72px 40px; flex-shrink: 0; position: relative; overflow: hidden;
   }
-  .deco { position: absolute; border-radius: 50%; pointer-events: none; }
-  .deco1 { right: -100px; top: -100px; width: 420px; height: 420px; background: rgba(201,146,10,0.09); }
-  .deco2 { left: -60px; bottom: -60px; width: 220px; height: 220px; background: rgba(201,146,10,0.05); }
+  .deco { display: none; }
 
   .header-top { display: flex; align-items: center; justify-content: space-between; margin-bottom: 32px; position: relative; z-index: 2; }
 
-  .logo-wrap { background: rgba(255,255,255,0.97); border-radius: 16px; padding: 8px 20px 8px 8px; display: flex; align-items: center; gap: 12px; }
+  .logo-wrap { background: transparent; border-radius: 16px; padding: 0; display: flex; align-items: center; gap: 12px; }
   .logo-wrap img { height: 56px; width: auto; display: block; border-radius: 8px; }
-  .logo-wrap .lt1 { font-size: 19px; font-weight: 900; color: #1a2f5e; display: block; line-height: 1.1; }
+  .logo-wrap .lt1 { font-size: 19px; font-weight: 900; color: #0f172a; display: block; line-height: 1.1; }
   .logo-wrap .lt2 { font-size: 13px; font-weight: 700; color: #c9920a; letter-spacing: 1px; text-transform: uppercase; display: block; }
 
   .altas-badge {
     display: flex; align-items: center; gap: 10px;
-    background: rgba(0,200,100,0.14); border: 1.5px solid rgba(0,200,100,0.35);
+    background: rgba(0,170,90,0.10); border: 1.5px solid rgba(0,170,90,0.35);
     border-radius: 60px; padding: 12px 24px;
-    font-size: 18px; font-weight: 800; color: #00E896;
+    font-size: 18px; font-weight: 800; color: #00a35a;
     letter-spacing: 2px; text-transform: uppercase;
   }
-  .ab-dot { width: 9px; height: 9px; border-radius: 50%; background: #00E896; }
+  .ab-dot { width: 9px; height: 9px; border-radius: 50%; background: #00a35a; }
 
-  .header-titulo { font-size: 76px; font-weight: 900; color: #fff; line-height: 1.05; letter-spacing: -1.5px; position: relative; z-index: 2; }
-  .header-sub { font-size: 24px; color: #c9a24a; margin-top: 12px; font-weight: 600; position: relative; z-index: 2; }
+  .header-titulo { font-size: 76px; font-weight: 900; color: #0f172a; line-height: 1.05; letter-spacing: -1.5px; position: relative; z-index: 2; }
+  .header-sub { font-size: 24px; color: #9a7209; margin-top: 12px; font-weight: 600; position: relative; z-index: 2; }
 
   .gold-bar { height: 5px; background: linear-gradient(90deg,#c9920a,#f0c060 50%,#c9920a); flex-shrink: 0; }
 
@@ -41,7 +39,7 @@
 
   .acao { display: flex; align-items: center; gap: 20px; padding: 22px 0; border-bottom: 1px solid #f1f5f9; }
   .acao:last-child { border-bottom: none; }
-  .rank { width: 50px; height: 50px; border-radius: 50%; background: #1a2f5e; color: #f0c060; font-size: 22px; font-weight: 900; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+  .rank { width: 50px; height: 50px; border-radius: 50%; background: #0f172a; color: #f0c060; font-size: 22px; font-weight: 900; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
   .acao-info { flex: 1; min-width: 0; }
   .acao-header { display: flex; align-items: baseline; gap: 12px; margin-bottom: 4px; }
   .ticker { font-size: 27px; font-weight: 900; color: #0f172a; background: #f1f5f9; padding: 4px 14px; border-radius: 6px; letter-spacing: 0.5px; }
