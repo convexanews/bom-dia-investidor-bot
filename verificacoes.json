@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-24T09:31:24.258Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
+  },
+  {
     "data": "2026-06-24T09:03:09.092Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"Nasdaq Futuro sobe após tombo das ações de tecnologia e à espera do balanço da Micron\".",
@@ -1183,10 +1188,5 @@
     "data": "2026-06-21T11:31:09.335Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 48): \"Alta de 37% da SpaceX na 1ª semana já confirma entusiasmo para outros IPOs?\". Realizando postagem..."
-  },
-  {
-    "data": "2026-06-21T11:00:58.095Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
   }
 ]
