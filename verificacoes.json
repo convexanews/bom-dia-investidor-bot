@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-24T12:01:11.318Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 94 min."
+  },
+  {
     "data": "2026-06-24T11:34:57.307Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"Resultados da Micron ganham importância com mercado em modo “alerta máximo” com IA\".",
@@ -1182,10 +1187,5 @@
     "data": "2026-06-21T13:31:13.605Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
-  },
-  {
-    "data": "2026-06-21T13:01:08.022Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 33 min."
   }
 ]
