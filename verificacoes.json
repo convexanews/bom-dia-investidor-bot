@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-06-24T14:03:26.517Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Ibovespa Hoje Ao Vivo: Bolsa cai com petroleiras e VALE3; bancos sobem\".",
+    "postId": "18127284718714685",
+    "storyId": null,
+    "reelId": "18127284718714685",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-06-24T14:01:19.062Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 58): \"Ibovespa Hoje Ao Vivo: Bolsa cai com petroleiras e VALE3; bancos sobem\". Realizando postagem..."
+  },
+  {
     "data": "2026-06-24T13:31:07.607Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 4 min."
@@ -1173,15 +1187,5 @@
       "Bitcoin sobe acima de US$ 64.000 com negociações EUA-Irã e apostas otimistas em opções",
       "EUA e Irã abrem negociações na Suíça para tentar consolidar acordo de paz"
     ]
-  },
-  {
-    "data": "2026-06-21T15:01:14.670Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 62 min."
-  },
-  {
-    "data": "2026-06-21T14:30:59.822Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
   }
 ]
