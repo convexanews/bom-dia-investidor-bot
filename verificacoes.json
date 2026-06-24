@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-24T10:01:17.145Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 62 min."
+  },
+  {
     "data": "2026-06-24T09:31:24.258Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
@@ -1183,10 +1188,5 @@
     "storyId": null,
     "reelId": "18105725339317725",
     "tipo": "reel"
-  },
-  {
-    "data": "2026-06-21T11:31:09.335Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 48): \"Alta de 37% da SpaceX na 1ª semana já confirma entusiasmo para outros IPOs?\". Realizando postagem..."
   }
 ]
