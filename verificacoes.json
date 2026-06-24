@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-24T13:24:49.879Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 11 min."
+  },
+  {
     "data": "2026-06-24T13:01:10.546Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 34 min."
@@ -1178,14 +1183,5 @@
     "data": "2026-06-21T14:29:39.380Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 93 min."
-  },
-  {
-    "data": "2026-06-21T14:02:15.722Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (carrossel): \"EUA e Irã abrem negociações na Suíça para tentar consolidar acordo de paz\".",
-    "postId": "18475740199101598",
-    "storyId": null,
-    "reelId": null,
-    "tipo": "carrossel"
   }
 ]
