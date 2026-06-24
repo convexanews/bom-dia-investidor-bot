@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-24T07:31:05.286Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (04:31 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-06-24T07:01:24.044Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (04:01 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1180,14 +1185,5 @@
     "resultado": "story_enquete",
     "mensagem": "Story de enquete publicado: \"Você investe toda semana, mesmo que pouco?\"",
     "postId": "17881555641601133"
-  },
-  {
-    "data": "2026-06-21T09:02:09.717Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (card): \"Bitcoin sobe acima de US$ 64.000 com negociações EUA-Irã e apostas otimistas em opções\".",
-    "postId": "18102704234021130",
-    "storyId": "18079181990389999",
-    "reelId": null,
-    "tipo": "card"
   }
 ]
