@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-24T07:44:02.313Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (04:44 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-06-24T07:31:05.286Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (04:31 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1179,11 +1184,5 @@
     "data": "2026-06-21T09:10:04.889Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 113 min."
-  },
-  {
-    "data": "2026-06-21T09:02:55.182Z",
-    "resultado": "story_enquete",
-    "mensagem": "Story de enquete publicado: \"Você investe toda semana, mesmo que pouco?\"",
-    "postId": "17881555641601133"
   }
 ]
