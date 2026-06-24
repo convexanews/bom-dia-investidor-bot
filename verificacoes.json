@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-06-24T11:34:57.307Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Resultados da Micron ganham importância com mercado em modo “alerta máximo” com IA\".",
+    "postId": "18169279075432506",
+    "storyId": null,
+    "reelId": "18169279075432506",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-06-24T11:31:06.638Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 42): \"Resultados da Micron ganham importância com mercado em modo “alerta máximo” com IA\". Realizando postagem..."
+  },
+  {
     "data": "2026-06-24T11:01:02.814Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
@@ -1173,15 +1187,5 @@
     "data": "2026-06-21T13:01:08.022Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 33 min."
-  },
-  {
-    "data": "2026-06-21T12:30:59.671Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 63 min."
-  },
-  {
-    "data": "2026-06-21T12:01:12.462Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 93 min."
   }
 ]
