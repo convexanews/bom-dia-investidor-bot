@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-06-24T16:33:24.504Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Citi passa a ‘faca’ em Banco do Brasil (BBAS3) e Bradesco (BBDC4), elege os melhores bancos da bolsa, mas faz alerta; veja as recomendações\".",
+    "postId": "18111362977734390",
+    "storyId": null,
+    "reelId": "18111362977734390",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-06-24T16:31:04.384Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 71): \"Citi passa a ‘faca’ em Banco do Brasil (BBAS3) e Bradesco (BBDC4), elege os melhores bancos da bolsa, mas faz alerta; veja as recomendações\". Realizando postagem..."
+  },
+  {
     "data": "2026-06-24T16:01:29.719Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
@@ -1164,15 +1178,5 @@
     "data": "2026-06-21T18:31:09.700Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 13): \"Irã rejeita bomba atômica, mas não abre mão do direito de enriquecer urânio\". Realizando postagem..."
-  },
-  {
-    "data": "2026-06-21T18:07:07.960Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 12 min."
-  },
-  {
-    "data": "2026-06-21T18:01:10.989Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 18 min."
   }
 ]
