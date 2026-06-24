@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-24T19:31:05.012Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 93 min."
+  },
+  {
     "data": "2026-06-24T19:03:24.212Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"Ouro fecha em queda pressionado por dólar forte e perspectiva de juros mais altos\".",
@@ -1173,10 +1178,5 @@
     "storyId": "18086476403425569",
     "reelId": null,
     "tipo": "card"
-  },
-  {
-    "data": "2026-06-21T21:01:04.509Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 19): \"Coca-Cola e Receita Federal dos EUA travam batalha judicial com US$ 20 bi em jogo\". Realizando postagem..."
   }
 ]
