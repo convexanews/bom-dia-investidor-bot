@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-24T19:59:21.694Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 65 min."
+  },
+  {
     "data": "2026-06-24T19:31:05.012Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 93 min."
@@ -1169,14 +1174,5 @@
     "data": "2026-06-21T21:31:34.000Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 91 min."
-  },
-  {
-    "data": "2026-06-21T21:02:07.439Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (card): \"Coca-Cola e Receita Federal dos EUA travam batalha judicial com US$ 20 bi em jogo\".",
-    "postId": "17887993800583441",
-    "storyId": "18086476403425569",
-    "reelId": null,
-    "tipo": "card"
   }
 ]
