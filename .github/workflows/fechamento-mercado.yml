@@ -8,6 +8,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: bdi-fechamento
+  cancel-in-progress: false
+
 jobs:
   carrossel:
     runs-on: ubuntu-latest

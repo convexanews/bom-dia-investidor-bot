@@ -8,6 +8,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: bdi-carrossel-educativo
+  cancel-in-progress: false
+
 jobs:
   educativo:
     runs-on: ubuntu-latest

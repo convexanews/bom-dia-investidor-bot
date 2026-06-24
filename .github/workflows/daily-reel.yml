@@ -8,6 +8,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: bdi-reel
+  cancel-in-progress: false
+
 jobs:
   reel:
     runs-on: ubuntu-latest
