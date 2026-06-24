@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-24T15:31:31.275Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 32 min."
+  },
+  {
     "data": "2026-06-24T15:01:20.289Z",
     "resultado": "sem_reel",
     "mensagem": "Nenhuma notícia postada nas últimas 24h. Resumo em vídeo não foi gerado."
@@ -1173,10 +1178,5 @@
     "storyId": null,
     "reelId": "17928488943345413",
     "tipo": "reel"
-  },
-  {
-    "data": "2026-06-21T16:16:57.828Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 35): \"Petrobras (PETR3), Assaí (ASAI3) e mais duas empresas pagam dividendos nesta semana; veja o calendário\". Realizando postagem..."
   }
 ]
