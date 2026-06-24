@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-24T22:01:05.500Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 94 min."
+  },
+  {
     "data": "2026-06-24T21:40:08.687Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 115 min."
@@ -1164,10 +1169,5 @@
     "storyId": null,
     "reelId": null,
     "tipo": "carrossel"
-  },
-  {
-    "data": "2026-06-21T23:20:55.193Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 13): \"Premiê da Polônia minimiza tensões com Zelenski e chama conflito de “erro”\". Realizando postagem..."
   }
 ]
