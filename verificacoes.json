@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-06-24T09:03:09.092Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Nasdaq Futuro sobe após tombo das ações de tecnologia e à espera do balanço da Micron\".",
+    "postId": "18125425216614542",
+    "storyId": null,
+    "reelId": "18125425216614542",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-06-24T09:01:02.263Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 38): \"Nasdaq Futuro sobe após tombo das ações de tecnologia e à espera do balanço da Micron\". Realizando postagem..."
+  },
+  {
     "data": "2026-06-24T08:31:10.624Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (05:31 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1174,15 +1188,5 @@
     "data": "2026-06-21T11:00:58.095Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
-  },
-  {
-    "data": "2026-06-21T10:30:59.797Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 32 min."
-  },
-  {
-    "data": "2026-06-21T10:01:11.321Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 61 min."
   }
 ]
