@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-24T21:40:08.687Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 115 min."
+  },
+  {
     "data": "2026-06-24T21:34:25.101Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"Ibovespa cai com tombo de Petrobras (PETR4) e Vale (VALE3), mas segura os 170 mil pontos\".",
@@ -1164,19 +1169,5 @@
     "data": "2026-06-21T23:20:55.193Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 13): \"Premiê da Polônia minimiza tensões com Zelenski e chama conflito de “erro”\". Realizando postagem..."
-  },
-  {
-    "data": "2026-06-21T23:02:44.056Z",
-    "resultado": "reel_postado",
-    "mensagem": "Resumo em vídeo do dia publicado com 5 notícia(s).",
-    "reelId": "18146243047510697",
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1782082887606.mp4",
-    "noticias": [
-      "Lotofácil hoje, concurso 3716: Confira o resultado sorteado neste sábado (20)",
-      "Bitcoin sobe acima de US$ 64.000 com negociações EUA-Irã e apostas otimistas em opções",
-      "EUA e Irã abrem negociações na Suíça para tentar consolidar acordo de paz",
-      "Irã rejeita bomba atômica, mas não abre mão do direito de enriquecer urânio",
-      "Coca-Cola e Receita Federal dos EUA travam batalha judicial com US$ 20 bi em jogo"
-    ]
   }
 ]
