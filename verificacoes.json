@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-06-24T19:03:24.212Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Ouro fecha em queda pressionado por dólar forte e perspectiva de juros mais altos\".",
+    "postId": "18012082019870989",
+    "storyId": null,
+    "reelId": "18012082019870989",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-06-24T19:01:06.994Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 51): \"Ouro fecha em queda pressionado por dólar forte e perspectiva de juros mais altos\". Realizando postagem..."
+  },
+  {
     "data": "2026-06-24T18:31:28.541Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
@@ -1164,15 +1178,5 @@
     "data": "2026-06-21T21:01:04.509Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 19): \"Coca-Cola e Receita Federal dos EUA travam batalha judicial com US$ 20 bi em jogo\". Realizando postagem..."
-  },
-  {
-    "data": "2026-06-21T20:31:23.073Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 1 min."
-  },
-  {
-    "data": "2026-06-21T20:13:31.476Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 19 min."
   }
 ]
