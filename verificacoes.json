@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-24T10:31:13.287Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 32 min."
+  },
+  {
     "data": "2026-06-24T10:01:17.145Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 62 min."
@@ -1179,14 +1184,5 @@
     "resultado": "story_enquete",
     "mensagem": "Story de enquete publicado: \"Você investe toda semana, mesmo que pouco?\"",
     "postId": "18323288290281047"
-  },
-  {
-    "data": "2026-06-21T11:33:34.850Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"Alta de 37% da SpaceX na 1ª semana já confirma entusiasmo para outros IPOs?\".",
-    "postId": "18105725339317725",
-    "storyId": null,
-    "reelId": "18105725339317725",
-    "tipo": "reel"
   }
 ]
