@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-24T07:01:24.044Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (04:01 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-06-24T06:31:07.534Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (03:31 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1184,10 +1189,5 @@
     "storyId": "18079181990389999",
     "reelId": null,
     "tipo": "card"
-  },
-  {
-    "data": "2026-06-21T09:01:10.000Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 16): \"Bitcoin sobe acima de US$ 64.000 com negociações EUA-Irã e apostas otimistas em opções\". Realizando postagem..."
   }
 ]
