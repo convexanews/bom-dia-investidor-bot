@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-25T22:05:00.392Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 90 min."
+  },
+  {
     "data": "2026-06-25T22:01:19.930Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 93 min."
@@ -1138,15 +1143,5 @@
     "data": "2026-06-22T23:23:33.557Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 28): \"OUJP11 lidera ranking dos FIIs do IFIX com maiores retornos em 2026\". Realizando postagem..."
-  },
-  {
-    "data": "2026-06-22T23:02:32.311Z",
-    "resultado": "reel_postado",
-    "mensagem": "Resumo em vídeo do dia publicado com 1 notícia(s).",
-    "reelId": "18091561832613536",
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1782169300790.mp4",
-    "noticias": [
-      "Premiê da Polônia minimiza tensões com Zelenski e chama conflito de “erro”"
-    ]
   }
 ]
