@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-25T09:53:05.083Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 71 min."
+  },
+  {
     "data": "2026-06-25T09:30:59.893Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 93 min."
@@ -1167,14 +1172,5 @@
     "data": "2026-06-22T12:01:08.235Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 94 min."
-  },
-  {
-    "data": "2026-06-22T11:34:16.137Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"Ibovespa perde força, dólar sobe e Nasdaq mira máximas; o que esperar?\".",
-    "postId": "18127275778569315",
-    "storyId": null,
-    "reelId": "18127275778569315",
-    "tipo": "reel"
   }
 ]
