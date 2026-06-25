@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-06-25T21:34:05.937Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Bradsaúde (SAUB3) pagará R$ 230 milhões em juros sobre capital próprio\".",
+    "postId": "18012243503912060",
+    "storyId": null,
+    "reelId": "18012243503912060",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-06-25T21:31:20.339Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 59): \"Bradsaúde (SAUB3) pagará R$ 230 milhões em juros sobre capital próprio\". Realizando postagem..."
+  },
+  {
     "data": "2026-06-25T21:01:06.530Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 4 min."
@@ -1134,27 +1148,5 @@
     "data": "2026-06-22T23:01:16.053Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 5 min."
-  },
-  {
-    "data": "2026-06-22T22:30:27.224Z",
-    "resultado": "carrossel_fechamento",
-    "mensagem": "Carrossel de fechamento publicado. Ibovespa: 170.370 +1,24%",
-    "postId": "18598738789019871",
-    "ibov": {
-      "valor": "170.370",
-      "variacao": "+1,24%"
-    },
-    "topAltas": [
-      "CSAN3 +4,58%",
-      "RADL3 +3,32%",
-      "BPAC11 +3,10%",
-      "HAPV3 +2,91%",
-      "ITUB4 +2,68%"
-    ]
-  },
-  {
-    "data": "2026-06-22T22:01:11.318Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 65 min."
   }
 ]
