@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-25T17:01:09.413Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
+  },
+  {
     "data": "2026-06-25T16:33:02.400Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"Galípolo diz que BC teve ‘excesso de explicação’, e não falta, após ruído em comunicado\".",
@@ -1167,10 +1172,5 @@
     "storyId": null,
     "reelId": "17886025095580163",
     "tipo": "reel"
-  },
-  {
-    "data": "2026-06-22T18:49:44.144Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 46): \"SpaceX recorre a títulos para levantar capital e reporta US$ 100,8 bi em caixa\". Realizando postagem..."
   }
 ]
