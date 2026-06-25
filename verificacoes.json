@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-25T14:31:09.647Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 93 min."
+  },
+  {
     "data": "2026-06-25T14:03:39.966Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"Ações globais de chips disparam à medida que resultados da Micron reacendem alta da IA\".",
@@ -1162,10 +1167,5 @@
     "data": "2026-06-22T16:31:14.244Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 98): \"Os próximos 60 dias serão de forte volatilidade nos mercados, alerta O2 Capital\". Realizando postagem..."
-  },
-  {
-    "data": "2026-06-22T16:01:18.093Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
   }
 ]
