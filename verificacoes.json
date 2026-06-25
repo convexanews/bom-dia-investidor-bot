@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-06-25T09:03:33.974Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Por que as ações da Elmera estão disparando hoje?\".",
+    "postId": "18093235616032945",
+    "storyId": null,
+    "reelId": "18093235616032945",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-06-25T09:01:04.015Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 44): \"Por que as ações da Elmera estão disparando hoje?\". Realizando postagem..."
+  },
+  {
     "data": "2026-06-25T08:30:56.270Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (05:30 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1162,15 +1176,5 @@
     "data": "2026-06-22T11:31:16.220Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 62): \"Ibovespa perde força, dólar sobe e Nasdaq mira máximas; o que esperar?\". Realizando postagem..."
-  },
-  {
-    "data": "2026-06-22T11:01:03.934Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
-  },
-  {
-    "data": "2026-06-22T10:31:08.075Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 33 min."
   }
 ]
