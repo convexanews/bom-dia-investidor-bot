@@ -1,5 +1,15 @@
 [
   {
+    "data": "2026-06-25T00:10:27.350Z",
+    "resultado": "reel_postado",
+    "mensagem": "Resumo em vídeo do dia publicado com 1 notícia(s).",
+    "reelId": "17893729644484139",
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1782346168169.mp4",
+    "noticias": [
+      "SNEL11 supera R$ 93 milhões em negociações e registra maior liquidez de sua história"
+    ]
+  },
+  {
     "data": "2026-06-25T00:02:17.591Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (carrossel): \"SNEL11 supera R$ 93 milhões em negociações e registra maior liquidez de sua história\".",
@@ -1166,10 +1176,5 @@
     "data": "2026-06-22T02:04:12.641Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (23:04 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-06-22T02:01:26.019Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (23:01 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
