@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-06-25T11:33:37.029Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Com estímulos à economia em um ano eleitoral, BC eleva para 2% estimativa de alta do PIB em 2026\".",
+    "postId": "18108626257968605",
+    "storyId": null,
+    "reelId": "18108626257968605",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-06-25T11:31:00.774Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 72): \"Com estímulos à economia em um ano eleitoral, BC eleva para 2% estimativa de alta do PIB em 2026\". Realizando postagem..."
+  },
+  {
     "data": "2026-06-25T11:01:07.053Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
@@ -1160,17 +1174,5 @@
     "data": "2026-06-22T14:01:14.359Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 68): \"Wall Street abre sem direção única à espera de dados de inflação e de olho no Oriente Médio\". Realizando postagem..."
-  },
-  {
-    "data": "2026-06-22T13:31:11.979Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 4 min."
-  },
-  {
-    "data": "2026-06-22T13:03:00.555Z",
-    "resultado": "carrossel_educativo",
-    "mensagem": "Carrossel educativo publicado: O que é a SELIC?",
-    "postId": "18219108994322858",
-    "tema": "SELIC"
   }
 ]
