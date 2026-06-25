@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-25T19:31:24.707Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 94 min."
+  },
+  {
     "data": "2026-06-25T19:04:29.760Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"Ouro fecha em alta com leve recuperação após índice de preços PCE abaixo do esperado\".",
@@ -1167,10 +1172,5 @@
     "storyId": null,
     "reelId": "18461158471114329",
     "tipo": "reel"
-  },
-  {
-    "data": "2026-06-22T21:02:55.972Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 75): \"‘Tiro pela culatra’? Copom corta Selic, mas mercado parece não ‘confiar’ na decisão; entenda cenário e onde investir agora\". Realizando postagem..."
   }
 ]
