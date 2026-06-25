@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-25T06:31:30.005Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (03:31 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-06-25T06:11:27.555Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (03:11 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1171,10 +1176,5 @@
     "data": "2026-06-22T09:01:12.279Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 48): \"Dow Jones Futuro cai com foco em negociações entre EUA e Irã e na inflação\". Realizando postagem..."
-  },
-  {
-    "data": "2026-06-22T08:39:58.174Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (05:39 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
