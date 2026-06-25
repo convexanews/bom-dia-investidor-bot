@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-06-25T23:54:45.019Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (carrossel): \"ALZR11 gera R$ 14 milhões em caixa e preserva reserva para dividendos\".",
+    "postId": "17944361601038151",
+    "storyId": null,
+    "reelId": null,
+    "tipo": "carrossel"
+  },
+  {
+    "data": "2026-06-25T23:53:49.958Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 28): \"ALZR11 gera R$ 14 milhões em caixa e preserva reserva para dividendos\". Realizando postagem..."
+  },
+  {
     "data": "2026-06-25T23:31:13.326Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
@@ -1136,20 +1150,5 @@
     "data": "2026-06-23T01:01:07.930Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (22:01 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-06-23T00:30:58.057Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 54 min."
-  },
-  {
-    "data": "2026-06-23T00:04:59.587Z",
-    "resultado": "reel_postado",
-    "mensagem": "Resumo em vídeo do dia publicado com 1 notícia(s).",
-    "reelId": "18101253490887854",
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1782173043202.mp4",
-    "noticias": [
-      "OUJP11 lidera ranking dos FIIs do IFIX com maiores retornos em 2026"
-    ]
   }
 ]
