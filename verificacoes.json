@@ -1,5 +1,15 @@
 [
   {
+    "data": "2026-06-25T15:02:31.861Z",
+    "resultado": "reel_postado",
+    "mensagem": "Resumo em vídeo do dia publicado com 1 notícia(s).",
+    "reelId": "18055790276752386",
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1782399692416.mp4",
+    "noticias": [
+      "SNEL11 supera R$ 93 milhões em negociações e registra maior liquidez de sua história"
+    ]
+  },
+  {
     "data": "2026-06-25T15:01:16.535Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 63 min."
@@ -1158,14 +1168,5 @@
     "data": "2026-06-22T17:01:05.864Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 93 min."
-  },
-  {
-    "data": "2026-06-22T16:33:20.904Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"Os próximos 60 dias serão de forte volatilidade nos mercados, alerta O2 Capital\".",
-    "postId": "17972973440900699",
-    "storyId": null,
-    "reelId": "17972973440900699",
-    "tipo": "reel"
   }
 ]
