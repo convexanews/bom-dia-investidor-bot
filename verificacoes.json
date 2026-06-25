@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-06-25T16:33:02.400Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Galípolo diz que BC teve ‘excesso de explicação’, e não falta, após ruído em comunicado\".",
+    "postId": "18124476253709517",
+    "storyId": null,
+    "reelId": "18124476253709517",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-06-25T16:31:17.608Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 68): \"Galípolo diz que BC teve ‘excesso de explicação’, e não falta, após ruído em comunicado\". Realizando postagem..."
+  },
+  {
     "data": "2026-06-25T16:00:59.276Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
@@ -1158,15 +1172,5 @@
     "data": "2026-06-22T18:49:44.144Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 46): \"SpaceX recorre a títulos para levantar capital e reporta US$ 100,8 bi em caixa\". Realizando postagem..."
-  },
-  {
-    "data": "2026-06-22T18:31:04.936Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
-  },
-  {
-    "data": "2026-06-22T18:01:20.110Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 33 min."
   }
 ]
