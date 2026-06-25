@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-06-25T19:04:29.760Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Ouro fecha em alta com leve recuperação após índice de preços PCE abaixo do esperado\".",
+    "postId": "18130039681721708",
+    "storyId": null,
+    "reelId": "18130039681721708",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-06-25T19:01:25.753Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 39): \"Ouro fecha em alta com leve recuperação após índice de preços PCE abaixo do esperado\". Realizando postagem..."
+  },
+  {
     "data": "2026-06-25T18:31:40.297Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
@@ -1158,15 +1172,5 @@
     "data": "2026-06-22T21:02:55.972Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 75): \"‘Tiro pela culatra’? Copom corta Selic, mas mercado parece não ‘confiar’ na decisão; entenda cenário e onde investir agora\". Realizando postagem..."
-  },
-  {
-    "data": "2026-06-22T20:31:07.779Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 22 min."
-  },
-  {
-    "data": "2026-06-22T20:01:25.607Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 52 min."
   }
 ]
