@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-06-25T00:02:17.591Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (carrossel): \"SNEL11 supera R$ 93 milhões em negociações e registra maior liquidez de sua história\".",
+    "postId": "17881476102607597",
+    "storyId": null,
+    "reelId": null,
+    "tipo": "carrossel"
+  },
+  {
+    "data": "2026-06-25T00:01:08.200Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 25): \"SNEL11 supera R$ 93 milhões em negociações e registra maior liquidez de sua história\". Realizando postagem..."
+  },
+  {
     "data": "2026-06-24T23:31:37.493Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
@@ -1157,15 +1171,5 @@
     "data": "2026-06-22T02:01:26.019Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (23:01 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-06-22T01:32:02.516Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (22:32 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-06-22T01:01:05.618Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (22:01 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
