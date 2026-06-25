@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-25T22:01:19.930Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 93 min."
+  },
+  {
     "data": "2026-06-25T21:34:05.937Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"Bradsaúde (SAUB3) pagará R$ 230 milhões em juros sobre capital próprio\".",
@@ -1143,10 +1148,5 @@
     "noticias": [
       "Premiê da Polônia minimiza tensões com Zelenski e chama conflito de “erro”"
     ]
-  },
-  {
-    "data": "2026-06-22T23:01:16.053Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 5 min."
   }
 ]
