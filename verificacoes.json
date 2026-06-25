@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-25T09:30:59.893Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 93 min."
+  },
+  {
     "data": "2026-06-25T09:03:33.974Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"Por que as ações da Elmera estão disparando hoje?\".",
@@ -1171,10 +1176,5 @@
     "storyId": null,
     "reelId": "18127275778569315",
     "tipo": "reel"
-  },
-  {
-    "data": "2026-06-22T11:31:16.220Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 62): \"Ibovespa perde força, dólar sobe e Nasdaq mira máximas; o que esperar?\". Realizando postagem..."
   }
 ]
