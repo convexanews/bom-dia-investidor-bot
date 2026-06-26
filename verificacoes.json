@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-26T20:31:07.636Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 110 min."
+  },
+  {
     "data": "2026-06-26T20:20:54.251Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"Wall Street fecha em queda; Nasdaq derrete 4% na semana com liquidação tech\".",
@@ -1150,10 +1155,5 @@
       "RDOR3 +1,51%",
       "ABEV3 +1,47%"
     ]
-  },
-  {
-    "data": "2026-06-23T21:03:24.915Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 91 min."
   }
 ]
