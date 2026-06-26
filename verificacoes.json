@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-06-26T18:13:41.642Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"SNEL11 supera 110 mil cotistas durante emissão bilionária e mês recorde na Bolsa\".",
+    "postId": "17974551624064306",
+    "storyId": null,
+    "reelId": "17974551624064306",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-06-26T18:11:09.208Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 53): \"SNEL11 supera 110 mil cotistas durante emissão bilionária e mês recorde na Bolsa\". Realizando postagem..."
+  },
+  {
     "data": "2026-06-26T18:01:04.798Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
@@ -1141,19 +1155,5 @@
     "data": "2026-06-23T19:01:15.296Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 84 min."
-  },
-  {
-    "data": "2026-06-23T18:31:11.809Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 114 min."
-  },
-  {
-    "data": "2026-06-23T18:24:46.874Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"Ata do Copom reforça cautela e limita espaço para cortes da Selic, diz economista da Lifetime\".",
-    "postId": "17944081422217561",
-    "storyId": null,
-    "reelId": "17944081422217561",
-    "tipo": "reel"
   }
 ]
