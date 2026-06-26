@@ -1,5 +1,22 @@
 [
   {
+    "data": "2026-06-26T22:00:19.563Z",
+    "resultado": "carrossel_fechamento",
+    "mensagem": "Carrossel de fechamento publicado. Ibovespa: 173.295 +1,64%",
+    "postId": "18107845105850070",
+    "ibov": {
+      "valor": "173.295",
+      "variacao": "+1,64%"
+    },
+    "topAltas": [
+      "TOTS3 +5,63%",
+      "ENEV3 +2,64%",
+      "ABEV3 +2,07%",
+      "EQTL3 +1,79%",
+      "RENT3 +1,77%"
+    ]
+  },
+  {
     "data": "2026-06-26T21:48:35.562Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 33 min."
@@ -1126,22 +1143,5 @@
     "data": "2026-06-23T22:17:31.228Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 16 min."
-  },
-  {
-    "data": "2026-06-23T22:07:53.842Z",
-    "resultado": "carrossel_fechamento",
-    "mensagem": "Carrossel de fechamento publicado. Ibovespa: 171.259 +1,59%",
-    "postId": "17998652483967376",
-    "ibov": {
-      "valor": "171.259",
-      "variacao": "+1,59%"
-    },
-    "topAltas": [
-      "CSAN3 +2,74%",
-      "RENT3 +2,35%",
-      "ENEV3 +2,31%",
-      "RDOR3 +1,51%",
-      "ABEV3 +1,47%"
-    ]
   }
 ]
