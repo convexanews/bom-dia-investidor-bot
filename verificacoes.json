@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-26T13:01:04.215Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 27 min."
+  },
+  {
     "data": "2026-06-26T12:30:59.784Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 57 min."
@@ -1150,10 +1155,5 @@
     "data": "2026-06-23T14:01:22.998Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 61): \"Bolha de IA? Wall Street recua com queda de ações de semicondutores\". Realizando postagem..."
-  },
-  {
-    "data": "2026-06-23T13:31:22.846Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
   }
 ]
