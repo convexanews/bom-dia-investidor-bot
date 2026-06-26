@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-26T23:31:21.467Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 61 min."
+  },
+  {
     "data": "2026-06-26T23:09:50.312Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 83 min."
@@ -1133,15 +1138,5 @@
     "data": "2026-06-23T23:31:13.803Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 93 min."
-  },
-  {
-    "data": "2026-06-23T23:05:22.810Z",
-    "resultado": "reel_postado",
-    "mensagem": "Resumo em vídeo do dia publicado com 1 notícia(s).",
-    "reelId": "18060471929721939",
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1782255873239.mp4",
-    "noticias": [
-      "OUJP11 lidera ranking dos FIIs do IFIX com maiores retornos em 2026"
-    ]
   }
 ]
