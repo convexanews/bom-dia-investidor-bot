@@ -1,5 +1,15 @@
 [
   {
+    "data": "2026-06-26T15:02:20.067Z",
+    "resultado": "reel_postado",
+    "mensagem": "Resumo em vídeo do dia publicado com 1 notícia(s).",
+    "reelId": "18021595166837862",
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1782486082005.mp4",
+    "noticias": [
+      "ALZR11 gera R$ 14 milhões em caixa e preserva reserva para dividendos"
+    ]
+  },
+  {
     "data": "2026-06-26T15:01:03.116Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 33 min."
@@ -1145,10 +1155,5 @@
     "data": "2026-06-23T16:01:14.979Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
-  },
-  {
-    "data": "2026-06-23T15:31:20.259Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 33 min."
   }
 ]
