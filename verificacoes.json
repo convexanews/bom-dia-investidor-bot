@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-26T11:00:56.567Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
+  },
+  {
     "data": "2026-06-26T10:31:05.120Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 32 min."
@@ -1150,10 +1155,5 @@
     "storyId": null,
     "reelId": "17956566837159029",
     "tipo": "reel"
-  },
-  {
-    "data": "2026-06-23T11:31:05.389Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 52): \"Banco Central admite inflação acima da meta, mas diz que 'melhores práticas' recomendam não reagir a choques de oferta\". Realizando postagem..."
   }
 ]
