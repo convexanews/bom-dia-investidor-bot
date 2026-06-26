@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-06-26T16:03:06.135Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Avanço de 4,8% na massa salarial pressiona BC com juros maiores por mais tempo\".",
+    "postId": "18081681338203757",
+    "storyId": null,
+    "reelId": "18081681338203757",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-06-26T16:01:01.981Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 61): \"Avanço de 4,8% na massa salarial pressiona BC com juros maiores por mais tempo\". Realizando postagem..."
+  },
+  {
     "data": "2026-06-26T15:30:58.299Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
@@ -1141,19 +1155,5 @@
     "data": "2026-06-23T16:31:19.267Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 102 min."
-  },
-  {
-    "data": "2026-06-23T16:13:15.644Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"Inflação reacende alerta: BTG vê Fed voltando a subir juros e projeta 3 altas\".",
-    "postId": "17978803041031666",
-    "storyId": null,
-    "reelId": "17978803041031666",
-    "tipo": "reel"
-  },
-  {
-    "data": "2026-06-23T16:11:06.581Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 59): \"Inflação reacende alerta: BTG vê Fed voltando a subir juros e projeta 3 altas\". Realizando postagem..."
   }
 ]
