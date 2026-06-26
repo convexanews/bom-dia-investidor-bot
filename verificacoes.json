@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-06-26T09:02:45.984Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Ações de chips dos EUA recuam após Apple elevar preços e acender alerta sobre IA\".",
+    "postId": "18141272587535877",
+    "storyId": null,
+    "reelId": "18141272587535877",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-06-26T09:01:07.074Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 36): \"Ações de chips dos EUA recuam após Apple elevar preços e acender alerta sobre IA\". Realizando postagem..."
+  },
+  {
     "data": "2026-06-26T08:31:25.352Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (05:31 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1141,15 +1155,5 @@
     "data": "2026-06-23T10:11:35.047Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 52 min."
-  },
-  {
-    "data": "2026-06-23T10:01:11.405Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 63 min."
-  },
-  {
-    "data": "2026-06-23T09:31:01.819Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 93 min."
   }
 ]
