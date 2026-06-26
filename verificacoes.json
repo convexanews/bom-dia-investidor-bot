@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-06-26T13:33:42.013Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Ibovespa Hoje Ao Vivo: Bolsa cai com exterior negativo e peso de PETR4 e VALE3\".",
+    "postId": "18094240424369248",
+    "storyId": null,
+    "reelId": "18094240424369248",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-06-26T13:30:48.920Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 55): \"Ibovespa Hoje Ao Vivo: Bolsa cai com exterior negativo e peso de PETR4 e VALE3\". Realizando postagem..."
+  },
+  {
     "data": "2026-06-26T13:01:04.215Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 27 min."
@@ -1141,19 +1155,5 @@
     "data": "2026-06-23T14:31:16.746Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 93 min."
-  },
-  {
-    "data": "2026-06-23T14:03:38.793Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"Bolha de IA? Wall Street recua com queda de ações de semicondutores\".",
-    "postId": "18122402203631967",
-    "storyId": null,
-    "reelId": "18122402203631967",
-    "tipo": "reel"
-  },
-  {
-    "data": "2026-06-23T14:01:22.998Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 61): \"Bolha de IA? Wall Street recua com queda de ações de semicondutores\". Realizando postagem..."
   }
 ]
