@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-26T18:31:07.737Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 103 min."
+  },
+  {
     "data": "2026-06-26T18:13:41.642Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"SNEL11 supera 110 mil cotistas durante emissão bilionária e mês recorde na Bolsa\".",
@@ -1150,10 +1155,5 @@
     "data": "2026-06-23T19:31:07.402Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 54 min."
-  },
-  {
-    "data": "2026-06-23T19:01:15.296Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 84 min."
   }
 ]
