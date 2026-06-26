@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-26T23:09:50.312Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 83 min."
+  },
+  {
     "data": "2026-06-26T23:01:04.336Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 91 min."
@@ -1138,14 +1143,5 @@
     "noticias": [
       "OUJP11 lidera ranking dos FIIs do IFIX com maiores retornos em 2026"
     ]
-  },
-  {
-    "data": "2026-06-23T23:04:09.453Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"Banco Central divulga calendário das reuniões do Copom para 2027\".",
-    "postId": "18046453895627660",
-    "storyId": null,
-    "reelId": "18046453895627660",
-    "tipo": "reel"
   }
 ]
