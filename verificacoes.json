@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-26T23:01:04.336Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 91 min."
+  },
+  {
     "data": "2026-06-26T22:32:00.905Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (carrossel): \"AAZQ11 aumenta exposição ao CRA da BRF e realiza novos aportes\".",
@@ -1142,10 +1147,5 @@
     "storyId": null,
     "reelId": "18046453895627660",
     "tipo": "reel"
-  },
-  {
-    "data": "2026-06-23T23:01:20.908Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 57): \"Banco Central divulga calendário das reuniões do Copom para 2027\". Realizando postagem..."
   }
 ]
