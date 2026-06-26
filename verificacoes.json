@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-26T16:20:56.242Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 103 min."
+  },
+  {
     "data": "2026-06-26T16:03:06.135Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"Avanço de 4,8% na massa salarial pressiona BC com juros maiores por mais tempo\".",
@@ -1150,10 +1155,5 @@
     "data": "2026-06-23T17:05:58.434Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 68 min."
-  },
-  {
-    "data": "2026-06-23T16:31:19.267Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 102 min."
   }
 ]
