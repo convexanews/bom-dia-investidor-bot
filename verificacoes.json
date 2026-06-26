@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-06-26T11:27:46.255Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Banco Central decreta liquidação extrajudicial da Sefer Investimentos\".",
+    "postId": "17880992451457341",
+    "storyId": null,
+    "reelId": "17880992451457341",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-06-26T11:25:03.301Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 32): \"Banco Central decreta liquidação extrajudicial da Sefer Investimentos\". Realizando postagem..."
+  },
+  {
     "data": "2026-06-26T11:00:56.567Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
@@ -1141,19 +1155,5 @@
     "data": "2026-06-23T12:31:04.844Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 63 min."
-  },
-  {
-    "data": "2026-06-23T12:01:33.201Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
-  },
-  {
-    "data": "2026-06-23T11:33:17.591Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"Banco Central admite inflação acima da meta, mas diz que 'melhores práticas' recomendam não reagir a choques de oferta\".",
-    "postId": "17956566837159029",
-    "storyId": null,
-    "reelId": "17956566837159029",
-    "tipo": "reel"
   }
 ]
