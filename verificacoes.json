@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-26T18:01:04.798Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
+  },
+  {
     "data": "2026-06-26T17:31:03.416Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 33 min."
@@ -1150,10 +1155,5 @@
     "storyId": null,
     "reelId": "17944081422217561",
     "tipo": "reel"
-  },
-  {
-    "data": "2026-06-23T18:22:12.182Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 65): \"Ata do Copom reforça cautela e limita espaço para cortes da Selic, diz economista da Lifetime\". Realizando postagem..."
   }
 ]
