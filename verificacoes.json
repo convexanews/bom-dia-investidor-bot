@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-26T11:30:53.113Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 117 min."
+  },
+  {
     "data": "2026-06-26T11:27:46.255Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"Banco Central decreta liquidação extrajudicial da Sefer Investimentos\".",
@@ -1150,10 +1155,5 @@
     "data": "2026-06-23T13:01:19.409Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 32 min."
-  },
-  {
-    "data": "2026-06-23T12:31:04.844Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 63 min."
   }
 ]
