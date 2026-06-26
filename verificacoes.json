@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-26T08:01:09.238Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (05:01 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-06-26T07:30:55.643Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (04:30 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1150,10 +1155,5 @@
     "storyId": null,
     "reelId": "18106885801970234",
     "tipo": "reel"
-  },
-  {
-    "data": "2026-06-23T09:01:14.427Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 96): \"Ata do Copom, PMIs nos EUA e Europa e mais destaques desta terça-feira (23)\". Realizando postagem..."
   }
 ]
