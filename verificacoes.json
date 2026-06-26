@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-26T20:01:05.224Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 13 min."
+  },
+  {
     "data": "2026-06-26T19:31:05.858Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 43 min."
@@ -1150,10 +1155,5 @@
     "storyId": null,
     "reelId": "18108942355937291",
     "tipo": "reel"
-  },
-  {
-    "data": "2026-06-23T20:31:14.227Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 80): \"Wall Street recua com venda dos setores de tecnologia e semicondutores; Nasdaq derrete 2%\". Realizando postagem..."
   }
 ]
