@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-26T21:48:35.562Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 33 min."
+  },
+  {
     "data": "2026-06-26T21:31:09.261Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 50 min."
@@ -1138,10 +1143,5 @@
       "RDOR3 +1,51%",
       "ABEV3 +1,47%"
     ]
-  },
-  {
-    "data": "2026-06-23T22:01:01.274Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 33 min."
   }
 ]
