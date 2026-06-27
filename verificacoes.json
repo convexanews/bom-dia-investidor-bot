@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-06-27T23:06:48.167Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (carrossel): \"EUA realizam novos ataques contra alvos militares no Irã após investida a petroleiro\".",
+    "postId": "18089870624249028",
+    "storyId": null,
+    "reelId": null,
+    "tipo": "carrossel"
+  },
+  {
+    "data": "2026-06-27T23:05:43.339Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 19): \"EUA realizam novos ataques contra alvos militares no Irã após investida a petroleiro\". Realizando postagem..."
+  },
+  {
     "data": "2026-06-27T23:01:12.598Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
@@ -1127,15 +1141,5 @@
     "data": "2026-06-24T23:07:22.312Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 28 min."
-  },
-  {
-    "data": "2026-06-24T23:01:22.675Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 34 min."
-  },
-  {
-    "data": "2026-06-24T22:31:09.403Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 64 min."
   }
 ]
