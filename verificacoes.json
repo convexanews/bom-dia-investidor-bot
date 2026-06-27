@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-27T10:01:07.998Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 91 min."
+  },
+  {
     "data": "2026-06-27T09:32:02.232Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (card): \"Bitcoin se mantém acima de US$ 60.000 enquanto modelo de financiamento da Strategy enfrenta escrutínio\".",
@@ -1138,10 +1143,5 @@
     "data": "2026-06-24T10:01:17.145Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 62 min."
-  },
-  {
-    "data": "2026-06-24T09:31:24.258Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
   }
 ]
