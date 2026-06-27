@@ -1,5 +1,15 @@
 [
   {
+    "data": "2026-06-27T00:05:24.709Z",
+    "resultado": "reel_postado",
+    "mensagem": "Resumo em vídeo do dia publicado com 1 notícia(s).",
+    "reelId": "18196262683371290",
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1782518666126.mp4",
+    "noticias": [
+      "AAZQ11 aumenta exposição ao CRA da BRF e realiza novos aportes"
+    ]
+  },
+  {
     "data": "2026-06-27T00:00:59.495Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 32 min."
@@ -1133,10 +1143,5 @@
     "data": "2026-06-23T23:54:14.961Z",
     "resultado": "sem_reel",
     "mensagem": "Nenhuma notícia postada nas últimas 24h. Resumo em vídeo não foi gerado."
-  },
-  {
-    "data": "2026-06-23T23:36:55.271Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 88 min."
   }
 ]
