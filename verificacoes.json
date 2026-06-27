@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-06-27T14:16:45.313Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Fundo imobiliário em liquidação e Tesouro IPCA+ 10%: Veja o que mais chamou atenção na semana\".",
+    "postId": "18210325207340754",
+    "storyId": null,
+    "reelId": "18210325207340754",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-06-27T14:14:34.668Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 35): \"Fundo imobiliário em liquidação e Tesouro IPCA+ 10%: Veja o que mais chamou atenção na semana\". Realizando postagem..."
+  },
+  {
     "data": "2026-06-27T14:00:58.145Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
@@ -1129,19 +1143,5 @@
     "data": "2026-06-24T14:30:59.790Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 93 min."
-  },
-  {
-    "data": "2026-06-24T14:03:26.517Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"Ibovespa Hoje Ao Vivo: Bolsa cai com petroleiras e VALE3; bancos sobem\".",
-    "postId": "18127284718714685",
-    "storyId": null,
-    "reelId": "18127284718714685",
-    "tipo": "reel"
-  },
-  {
-    "data": "2026-06-24T14:01:19.062Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 58): \"Ibovespa Hoje Ao Vivo: Bolsa cai com petroleiras e VALE3; bancos sobem\". Realizando postagem..."
   }
 ]
