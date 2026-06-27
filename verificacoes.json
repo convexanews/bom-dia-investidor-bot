@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-27T17:14:46.653Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 78 min."
+  },
+  {
     "data": "2026-06-27T17:00:59.377Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
@@ -1144,14 +1149,5 @@
     "data": "2026-06-24T17:01:03.704Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 93 min."
-  },
-  {
-    "data": "2026-06-24T16:33:24.504Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"Citi passa a ‘faca’ em Banco do Brasil (BBAS3) e Bradesco (BBDC4), elege os melhores bancos da bolsa, mas faz alerta; veja as recomendações\".",
-    "postId": "18111362977734390",
-    "storyId": null,
-    "reelId": "18111362977734390",
-    "tipo": "reel"
   }
 ]
