@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-06-27T21:03:43.025Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Post pedindo para salvar rede de lanchonetes Wendy's viraliza e faz ações da empresa dispararem nos EUA\".",
+    "postId": "17898810771466838",
+    "storyId": null,
+    "reelId": "17898810771466838",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-06-27T21:01:19.590Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 40): \"Post pedindo para salvar rede de lanchonetes Wendy's viraliza e faz ações da empresa dispararem nos EUA\". Realizando postagem..."
+  },
+  {
     "data": "2026-06-27T20:30:57.265Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 18 min."
@@ -1139,15 +1153,5 @@
     "data": "2026-06-24T21:31:59.177Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 51): \"Ibovespa cai com tombo de Petrobras (PETR4) e Vale (VALE3), mas segura os 170 mil pontos\". Realizando postagem..."
-  },
-  {
-    "data": "2026-06-24T21:01:01.602Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
-  },
-  {
-    "data": "2026-06-24T20:31:12.555Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 33 min."
   }
 ]
