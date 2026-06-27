@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-27T17:00:59.377Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
+  },
+  {
     "data": "2026-06-27T16:32:16.738Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (carrossel): \"Lucros do setor industrial na China seguem resilientes em maio\".",
@@ -1148,10 +1153,5 @@
     "storyId": null,
     "reelId": "18111362977734390",
     "tipo": "reel"
-  },
-  {
-    "data": "2026-06-24T16:31:04.384Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 71): \"Citi passa a ‘faca’ em Banco do Brasil (BBAS3) e Bradesco (BBDC4), elege os melhores bancos da bolsa, mas faz alerta; veja as recomendações\". Realizando postagem..."
   }
 ]
