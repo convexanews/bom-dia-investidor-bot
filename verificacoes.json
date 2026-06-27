@@ -1,5 +1,16 @@
 [
   {
+    "data": "2026-06-27T15:02:34.168Z",
+    "resultado": "reel_postado",
+    "mensagem": "Resumo em vídeo do dia publicado com 2 notícia(s).",
+    "reelId": "18104597834019482",
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1782572496541.mp4",
+    "noticias": [
+      "AAZQ11 aumenta exposição ao CRA da BRF e realiza novos aportes",
+      "Bitcoin se mantém acima de US$ 60.000 enquanto modelo de financiamento da Strategy enfrenta escrutínio"
+    ]
+  },
+  {
     "data": "2026-06-27T15:01:12.124Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 76 min."
@@ -1138,10 +1149,5 @@
     "data": "2026-06-24T15:31:31.275Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 32 min."
-  },
-  {
-    "data": "2026-06-24T15:01:20.289Z",
-    "resultado": "sem_reel",
-    "mensagem": "Nenhuma notícia postada nas últimas 24h. Resumo em vídeo não foi gerado."
   }
 ]
