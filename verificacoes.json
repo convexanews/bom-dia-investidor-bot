@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-06-27T09:32:02.232Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (card): \"Bitcoin se mantém acima de US$ 60.000 enquanto modelo de financiamento da Strategy enfrenta escrutínio\".",
+    "postId": "18006774074926482",
+    "storyId": "17873312592527683",
+    "reelId": null,
+    "tipo": "card"
+  },
+  {
+    "data": "2026-06-27T09:31:01.124Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 13): \"Bitcoin se mantém acima de US$ 60.000 enquanto modelo de financiamento da Strategy enfrenta escrutínio\". Realizando postagem..."
+  },
+  {
     "data": "2026-06-27T09:01:30.690Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
@@ -1129,19 +1143,5 @@
     "data": "2026-06-24T09:31:24.258Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
-  },
-  {
-    "data": "2026-06-24T09:03:09.092Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"Nasdaq Futuro sobe após tombo das ações de tecnologia e à espera do balanço da Micron\".",
-    "postId": "18125425216614542",
-    "storyId": null,
-    "reelId": "18125425216614542",
-    "tipo": "reel"
-  },
-  {
-    "data": "2026-06-24T09:01:02.263Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 38): \"Nasdaq Futuro sobe após tombo das ações de tecnologia e à espera do balanço da Micron\". Realizando postagem..."
   }
 ]
