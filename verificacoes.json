@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-06-27T16:32:16.738Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (carrossel): \"Lucros do setor industrial na China seguem resilientes em maio\".",
+    "postId": "17939723655256290",
+    "storyId": null,
+    "reelId": null,
+    "tipo": "carrossel"
+  },
+  {
+    "data": "2026-06-27T16:31:18.329Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 6): \"Lucros do setor industrial na China seguem resilientes em maio\". Realizando postagem..."
+  },
+  {
     "data": "2026-06-27T16:01:10.843Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 16 min."
@@ -1139,15 +1153,5 @@
     "data": "2026-06-24T16:31:04.384Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 71): \"Citi passa a ‘faca’ em Banco do Brasil (BBAS3) e Bradesco (BBDC4), elege os melhores bancos da bolsa, mas faz alerta; veja as recomendações\". Realizando postagem..."
-  },
-  {
-    "data": "2026-06-24T16:01:29.719Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
-  },
-  {
-    "data": "2026-06-24T15:43:59.182Z",
-    "resultado": "sem_reel",
-    "mensagem": "Nenhuma notícia postada nas últimas 24h. Resumo em vídeo não foi gerado."
   }
 ]
