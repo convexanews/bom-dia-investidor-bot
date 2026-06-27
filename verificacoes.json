@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-06-27T18:48:08.773Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Aumento dos preços de iPads e do Xbox evidencia impacto da crise nos chips de memória\".",
+    "postId": "18130815451719600",
+    "storyId": null,
+    "reelId": "18130815451719600",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-06-27T18:45:59.659Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 33): \"Aumento dos preços de iPads e do Xbox evidencia impacto da crise nos chips de memória\". Realizando postagem..."
+  },
+  {
     "data": "2026-06-27T18:31:08.608Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
@@ -1139,15 +1153,5 @@
     "data": "2026-06-24T19:01:06.994Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 51): \"Ouro fecha em queda pressionado por dólar forte e perspectiva de juros mais altos\". Realizando postagem..."
-  },
-  {
-    "data": "2026-06-24T18:31:28.541Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
-  },
-  {
-    "data": "2026-06-24T18:01:01.884Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 33 min."
   }
 ]
