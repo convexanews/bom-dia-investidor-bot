@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-27T21:38:46.549Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 85 min."
+  },
+  {
     "data": "2026-06-27T21:30:56.894Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 93 min."
@@ -1144,14 +1149,5 @@
     "data": "2026-06-24T21:40:08.687Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 115 min."
-  },
-  {
-    "data": "2026-06-24T21:34:25.101Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"Ibovespa cai com tombo de Petrobras (PETR4) e Vale (VALE3), mas segura os 170 mil pontos\".",
-    "postId": "18031423076821522",
-    "storyId": null,
-    "reelId": "18031423076821522",
-    "tipo": "reel"
   }
 ]
