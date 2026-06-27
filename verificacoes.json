@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-27T16:01:10.843Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 16 min."
+  },
+  {
     "data": "2026-06-27T15:49:48.531Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 27 min."
@@ -1144,10 +1149,5 @@
     "data": "2026-06-24T15:43:59.182Z",
     "resultado": "sem_reel",
     "mensagem": "Nenhuma notícia postada nas últimas 24h. Resumo em vídeo não foi gerado."
-  },
-  {
-    "data": "2026-06-24T15:43:55.971Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 20 min."
   }
 ]
