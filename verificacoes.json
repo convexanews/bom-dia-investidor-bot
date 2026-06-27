@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-06-27T12:03:36.149Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Selic baixa popularizou os FIIs, mas deixou uma lição errada, diz professor da USP\".",
+    "postId": "18131658298611666",
+    "storyId": null,
+    "reelId": "18131658298611666",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-06-27T12:01:09.252Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 45): \"Selic baixa popularizou os FIIs, mas deixou uma lição errada, diz professor da USP\". Realizando postagem..."
+  },
+  {
     "data": "2026-06-27T11:31:05.452Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 1 min."
@@ -1129,19 +1143,5 @@
     "data": "2026-06-24T12:01:11.318Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 94 min."
-  },
-  {
-    "data": "2026-06-24T11:34:57.307Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"Resultados da Micron ganham importância com mercado em modo “alerta máximo” com IA\".",
-    "postId": "18169279075432506",
-    "storyId": null,
-    "reelId": "18169279075432506",
-    "tipo": "reel"
-  },
-  {
-    "data": "2026-06-24T11:31:06.638Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 42): \"Resultados da Micron ganham importância com mercado em modo “alerta máximo” com IA\". Realizando postagem..."
   }
 ]
