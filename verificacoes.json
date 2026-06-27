@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-27T14:30:57.894Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 106 min."
+  },
+  {
     "data": "2026-06-27T14:16:45.313Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"Fundo imobiliário em liquidação e Tesouro IPCA+ 10%: Veja o que mais chamou atenção na semana\".",
@@ -1138,10 +1143,5 @@
     "data": "2026-06-24T15:01:15.832Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 63 min."
-  },
-  {
-    "data": "2026-06-24T14:30:59.790Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 93 min."
   }
 ]
