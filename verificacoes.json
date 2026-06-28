@@ -1,5 +1,17 @@
 [
   {
+    "data": "2026-06-28T00:00:55.254Z",
+    "resultado": "reel_postado",
+    "mensagem": "Resumo em vídeo do dia publicado com 3 notícia(s).",
+    "reelId": "18132589237597608",
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1782604793470.mp4",
+    "noticias": [
+      "Bitcoin se mantém acima de US$ 60.000 enquanto modelo de financiamento da Strategy enfrenta escrutínio",
+      "Lucros do setor industrial na China seguem resilientes em maio",
+      "EUA realizam novos ataques contra alvos militares no Irã após investida a petroleiro"
+    ]
+  },
+  {
     "data": "2026-06-27T23:31:03.998Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 96 min."
@@ -1136,10 +1148,5 @@
     "data": "2026-06-25T00:01:08.200Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 25): \"SNEL11 supera R$ 93 milhões em negociações e registra maior liquidez de sua história\". Realizando postagem..."
-  },
-  {
-    "data": "2026-06-24T23:31:37.493Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
   }
 ]
