@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-28T15:31:07.646Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 25 min."
+  },
+  {
     "data": "2026-06-28T15:20:19.872Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 36 min."
@@ -1136,15 +1141,5 @@
     "data": "2026-06-25T15:24:44.505Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 39 min."
-  },
-  {
-    "data": "2026-06-25T15:02:31.861Z",
-    "resultado": "reel_postado",
-    "mensagem": "Resumo em vídeo do dia publicado com 1 notícia(s).",
-    "reelId": "18055790276752386",
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1782399692416.mp4",
-    "noticias": [
-      "SNEL11 supera R$ 93 milhões em negociações e registra maior liquidez de sua história"
-    ]
   }
 ]
