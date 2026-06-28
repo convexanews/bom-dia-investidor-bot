@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-06-28T16:03:40.962Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Irã e Estados Unidos intensificam ataques e ameaçam escalada\".",
+    "postId": "18001246064952138",
+    "storyId": null,
+    "reelId": "18001246064952138",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-06-28T16:01:25.868Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 34): \"Irã e Estados Unidos intensificam ataques e ameaçam escalada\". Realizando postagem..."
+  },
+  {
     "data": "2026-06-28T15:31:07.646Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 25 min."
@@ -1131,15 +1145,5 @@
     "data": "2026-06-25T16:00:59.276Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
-  },
-  {
-    "data": "2026-06-25T15:30:59.008Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 33 min."
-  },
-  {
-    "data": "2026-06-25T15:24:44.505Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 39 min."
   }
 ]
