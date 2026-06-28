@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-28T23:31:01.489Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 68 min."
+  },
+  {
     "data": "2026-06-28T23:01:19.889Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 97 min."
@@ -1128,10 +1133,5 @@
     "storyId": null,
     "reelId": null,
     "tipo": "carrossel"
-  },
-  {
-    "data": "2026-06-25T23:53:49.958Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 28): \"ALZR11 gera R$ 14 milhões em caixa e preserva reserva para dividendos\". Realizando postagem..."
   }
 ]
