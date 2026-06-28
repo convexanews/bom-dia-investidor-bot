@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-28T12:31:05.818Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 80 min."
+  },
+  {
     "data": "2026-06-28T12:01:02.572Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 110 min."
@@ -1134,14 +1139,5 @@
     "data": "2026-06-25T12:01:00.206Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 93 min."
-  },
-  {
-    "data": "2026-06-25T11:33:37.029Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"Com estímulos à economia em um ano eleitoral, BC eleva para 2% estimativa de alta do PIB em 2026\".",
-    "postId": "18108626257968605",
-    "storyId": null,
-    "reelId": "18108626257968605",
-    "tipo": "reel"
   }
 ]
