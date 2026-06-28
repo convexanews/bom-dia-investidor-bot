@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-06-28T11:50:39.119Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Trump confirma ataques dos EUA contra alvos do Irã e alerta para ‘violação’ do cessar-fogo\".",
+    "postId": "18098041868213639",
+    "storyId": null,
+    "reelId": "18098041868213639",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-06-28T11:48:41.462Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 39): \"Trump confirma ataques dos EUA contra alvos do Irã e alerta para ‘violação’ do cessar-fogo\". Realizando postagem..."
+  },
+  {
     "data": "2026-06-28T11:31:03.803Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
@@ -1129,15 +1143,5 @@
     "data": "2026-06-25T11:31:00.774Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 72): \"Com estímulos à economia em um ano eleitoral, BC eleva para 2% estimativa de alta do PIB em 2026\". Realizando postagem..."
-  },
-  {
-    "data": "2026-06-25T11:01:07.053Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
-  },
-  {
-    "data": "2026-06-25T10:31:03.638Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 33 min."
   }
 ]
