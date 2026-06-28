@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-28T14:31:03.505Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 85 min."
+  },
+  {
     "data": "2026-06-28T14:00:57.040Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 115 min."
@@ -1138,10 +1143,5 @@
     "storyId": null,
     "reelId": "18091252409058371",
     "tipo": "reel"
-  },
-  {
-    "data": "2026-06-25T14:01:35.868Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 58): \"Ações globais de chips disparam à medida que resultados da Micron reacendem alta da IA\". Realizando postagem..."
   }
 ]
