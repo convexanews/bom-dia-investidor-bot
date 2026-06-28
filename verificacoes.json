@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-06-28T20:32:11.357Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (carrossel): \"Calendário econômico da semana: dados de trabalho nos EUA e no Brasil serão foco\".",
+    "postId": "18111756493937293",
+    "storyId": null,
+    "reelId": null,
+    "tipo": "carrossel"
+  },
+  {
+    "data": "2026-06-28T20:31:04.974Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 19): \"Calendário econômico da semana: dados de trabalho nos EUA e no Brasil serão foco\". Realizando postagem..."
+  },
+  {
     "data": "2026-06-28T20:01:11.661Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 9 min."
@@ -1131,15 +1145,5 @@
     "data": "2026-06-25T21:31:20.339Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 59): \"Bradsaúde (SAUB3) pagará R$ 230 milhões em juros sobre capital próprio\". Realizando postagem..."
-  },
-  {
-    "data": "2026-06-25T21:01:06.530Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 4 min."
-  },
-  {
-    "data": "2026-06-25T20:30:57.214Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 34 min."
   }
 ]
