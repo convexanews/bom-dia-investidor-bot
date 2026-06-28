@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-28T15:20:19.872Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 36 min."
+  },
+  {
     "data": "2026-06-28T15:02:30.942Z",
     "resultado": "reel_postado",
     "mensagem": "Resumo em vídeo do dia publicado com 3 notícia(s).",
@@ -1141,10 +1146,5 @@
     "noticias": [
       "SNEL11 supera R$ 93 milhões em negociações e registra maior liquidez de sua história"
     ]
-  },
-  {
-    "data": "2026-06-25T15:01:16.535Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 63 min."
   }
 ]
