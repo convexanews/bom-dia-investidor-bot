@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-28T21:01:08.612Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
+  },
+  {
     "data": "2026-06-28T20:32:11.357Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (carrossel): \"Calendário econômico da semana: dados de trabalho nos EUA e no Brasil serão foco\".",
@@ -1140,10 +1145,5 @@
     "storyId": null,
     "reelId": "18012243503912060",
     "tipo": "reel"
-  },
-  {
-    "data": "2026-06-25T21:31:20.339Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 59): \"Bradsaúde (SAUB3) pagará R$ 230 milhões em juros sobre capital próprio\". Realizando postagem..."
   }
 ]
