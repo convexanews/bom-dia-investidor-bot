@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-28T14:00:57.040Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 115 min."
+  },
+  {
     "data": "2026-06-28T13:55:38.141Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"Inter vê chance rara na renda fixa e destaca retorno de mais de 3.000% do IPCA+8%\".",
@@ -1138,10 +1143,5 @@
     "data": "2026-06-25T14:01:35.868Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 58): \"Ações globais de chips disparam à medida que resultados da Micron reacendem alta da IA\". Realizando postagem..."
-  },
-  {
-    "data": "2026-06-25T13:31:18.027Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
   }
 ]
