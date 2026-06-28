@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-28T10:00:59.509Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
+  },
+  {
     "data": "2026-06-28T09:42:40.415Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 110 min."
@@ -1134,14 +1139,5 @@
     "data": "2026-06-25T09:30:59.893Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 93 min."
-  },
-  {
-    "data": "2026-06-25T09:03:33.974Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"Por que as ações da Elmera estão disparando hoje?\".",
-    "postId": "18093235616032945",
-    "storyId": null,
-    "reelId": "18093235616032945",
-    "tipo": "reel"
   }
 ]
