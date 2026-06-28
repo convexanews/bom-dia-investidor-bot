@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-06-28T18:10:07.286Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Calor recorde causa transtornos na Europa; França registra 1.000 mortes\".",
+    "postId": "18124872088730406",
+    "storyId": null,
+    "reelId": "18124872088730406",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-06-28T18:07:55.103Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 36): \"Calor recorde causa transtornos na Europa; França registra 1.000 mortes\". Realizando postagem..."
+  },
+  {
     "data": "2026-06-28T18:01:13.653Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
@@ -1131,15 +1145,5 @@
     "data": "2026-06-25T19:01:25.753Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 39): \"Ouro fecha em alta com leve recuperação após índice de preços PCE abaixo do esperado\". Realizando postagem..."
-  },
-  {
-    "data": "2026-06-25T18:31:40.297Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
-  },
-  {
-    "data": "2026-06-25T18:01:29.122Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 32 min."
   }
 ]
