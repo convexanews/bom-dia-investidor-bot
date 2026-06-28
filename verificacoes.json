@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-28T01:31:00.378Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (22:31 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-06-28T01:01:02.013Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (22:01 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1134,15 +1139,5 @@
     "data": "2026-06-25T00:30:58.873Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
-  },
-  {
-    "data": "2026-06-25T00:10:27.350Z",
-    "resultado": "reel_postado",
-    "mensagem": "Resumo em vídeo do dia publicado com 1 notícia(s).",
-    "reelId": "17893729644484139",
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1782346168169.mp4",
-    "noticias": [
-      "SNEL11 supera R$ 93 milhões em negociações e registra maior liquidez de sua história"
-    ]
   }
 ]
