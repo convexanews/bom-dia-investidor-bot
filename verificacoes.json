@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-06-28T09:32:24.614Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (card): \"Bitcoin se mantém acima de US$ 60.000 com saídas de ETFs e perspectivas do Fed\".",
+    "postId": "18117133801861942",
+    "storyId": "18083191133445962",
+    "reelId": null,
+    "tipo": "card"
+  },
+  {
+    "data": "2026-06-28T09:31:13.181Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 23): \"Bitcoin se mantém acima de US$ 60.000 com saídas de ETFs e perspectivas do Fed\". Realizando postagem..."
+  },
+  {
     "data": "2026-06-28T09:01:09.351Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
@@ -1129,15 +1143,5 @@
     "data": "2026-06-25T09:01:04.015Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 44): \"Por que as ações da Elmera estão disparando hoje?\". Realizando postagem..."
-  },
-  {
-    "data": "2026-06-25T08:30:56.270Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (05:30 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-06-25T08:00:59.290Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (05:00 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
