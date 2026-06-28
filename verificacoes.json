@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-06-28T22:38:06.544Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Melhores investimentos dos últimos 100 anos: quase todos são empresas de tecnologia\".",
+    "postId": "18133004947580176",
+    "storyId": null,
+    "reelId": "18133004947580176",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-06-28T22:35:55.678Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 32): \"Melhores investimentos dos últimos 100 anos: quase todos são empresas de tecnologia\". Realizando postagem..."
+  },
+  {
     "data": "2026-06-28T22:30:54.213Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
@@ -1119,15 +1133,5 @@
     "data": "2026-06-25T23:31:13.326Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
-  },
-  {
-    "data": "2026-06-25T23:01:23.882Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 33 min."
-  },
-  {
-    "data": "2026-06-25T22:31:15.402Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 63 min."
   }
 ]
