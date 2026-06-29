@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-29T14:31:20.232Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 93 min."
+  },
+  {
     "data": "2026-06-29T14:03:31.923Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"Governo central registra déficit primário de R$ 53,3 bilhões em maio\".",
@@ -1125,10 +1130,5 @@
     "noticias": [
       "ALZR11 gera R$ 14 milhões em caixa e preserva reserva para dividendos"
     ]
-  },
-  {
-    "data": "2026-06-26T15:01:03.116Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 33 min."
   }
 ]
