@@ -1,5 +1,16 @@
 [
   {
+    "data": "2026-06-29T00:07:56.489Z",
+    "resultado": "reel_postado",
+    "mensagem": "Resumo em vídeo do dia publicado com 2 notícia(s).",
+    "reelId": "18161313691457130",
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1782691620537.mp4",
+    "noticias": [
+      "Bitcoin se mantém acima de US$ 60.000 com saídas de ETFs e perspectivas do Fed",
+      "Calendário econômico da semana: dados de trabalho nos EUA e no Brasil serão foco"
+    ]
+  },
+  {
     "data": "2026-06-29T00:01:13.159Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 37 min."
@@ -1124,10 +1135,5 @@
     "noticias": [
       "ALZR11 gera R$ 14 milhões em caixa e preserva reserva para dividendos"
     ]
-  },
-  {
-    "data": "2026-06-26T00:01:13.444Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 114 min."
   }
 ]
