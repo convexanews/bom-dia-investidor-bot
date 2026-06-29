@@ -1,5 +1,11 @@
 [
   {
+    "data": "2026-06-29T17:32:05.046Z",
+    "resultado": "alerta_recorde",
+    "mensagem": "Alerta de recorde publicado: Bitcoin (NOVA MÁXIMA).",
+    "postId": "18028687889820926"
+  },
+  {
     "data": "2026-06-29T17:31:05.766Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 63 min."
@@ -1121,14 +1127,5 @@
     "data": "2026-06-26T18:31:07.737Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 103 min."
-  },
-  {
-    "data": "2026-06-26T18:13:41.642Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"SNEL11 supera 110 mil cotistas durante emissão bilionária e mês recorde na Bolsa\".",
-    "postId": "17974551624064306",
-    "storyId": null,
-    "reelId": "17974551624064306",
-    "tipo": "reel"
   }
 ]
