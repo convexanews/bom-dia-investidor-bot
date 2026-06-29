@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-29T17:00:59.407Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 93 min."
+  },
+  {
     "data": "2026-06-29T16:39:18.620Z",
     "resultado": "erro_carrossel_educativo",
     "mensagem": "Erro ao publicar carrossel educativo: Command failed: git push"
@@ -1125,10 +1130,5 @@
     "data": "2026-06-26T18:11:09.208Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 53): \"SNEL11 supera 110 mil cotistas durante emissão bilionária e mês recorde na Bolsa\". Realizando postagem..."
-  },
-  {
-    "data": "2026-06-26T18:01:04.798Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
   }
 ]
