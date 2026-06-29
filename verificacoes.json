@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-29T09:31:11.846Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 93 min."
+  },
+  {
     "data": "2026-06-29T09:03:45.485Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"Gastos de turistas estrangeiros no Brasil soma R$ 25 bilhões em cinco meses\".",
@@ -1125,10 +1130,5 @@
     "data": "2026-06-26T10:31:05.120Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 32 min."
-  },
-  {
-    "data": "2026-06-26T10:01:08.813Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 62 min."
   }
 ]
