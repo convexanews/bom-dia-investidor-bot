@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-29T10:30:55.668Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 33 min."
+  },
+  {
     "data": "2026-06-29T10:11:17.190Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 53 min."
@@ -1125,10 +1130,5 @@
     "storyId": null,
     "reelId": "17880992451457341",
     "tipo": "reel"
-  },
-  {
-    "data": "2026-06-26T11:25:03.301Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 32): \"Banco Central decreta liquidação extrajudicial da Sefer Investimentos\". Realizando postagem..."
   }
 ]
