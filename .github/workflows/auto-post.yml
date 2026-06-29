@@ -101,3 +101,19 @@ jobs:
       # nesses horarios. Ter um "fallback" aqui rodando no mesmo minuto causava
       # post duplicado: os dois liam verificacoes.json antes de qualquer um
       # commitar, viam "ainda nao fiz" e publicavam os dois.
+
+      - name: Verificar alerta de recorde (Ibovespa, Dolar, Bitcoin)
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          IG_ACCOUNT_ID: ${{ secrets.IG_ACCOUNT_ID }}
+          PAGES_TOKEN: ${{ secrets.PAGES_TOKEN }}
+        run: node auto-alerta-recorde.cjs
+
+      - name: Salvar registro do alerta de recorde
+        if: always()
+        run: |
+          git config user.email "bot@bomdiainvestidor.com.br"
+          git config user.name "Bom Dia Investidor Bot"
+          git add verificacoes.json alerta-recorde-estado.json
+          git diff --cached --quiet || git commit -m "Atualiza registro de alerta de recorde"
+          git push

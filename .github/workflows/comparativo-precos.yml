@@ -1,0 +1,42 @@
+name: Bom Dia Investidor - Comparativo de Preços
+
+on:
+  schedule:
+    - cron: '0 13 * * 6'  # Todo sábado às 10h BRT (13h UTC)
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: bdi-comparativo
+  cancel-in-progress: false
+
+jobs:
+  comparativo:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Instalar dependencias
+        run: npm install
+
+      - name: Gerar e publicar comparativo de preços
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          IG_ACCOUNT_ID: ${{ secrets.IG_ACCOUNT_ID }}
+          PAGES_TOKEN: ${{ secrets.PAGES_TOKEN }}
+        run: node auto-carrossel-comparativo.cjs
+
+      - name: Salvar registro
+        if: always()
+        run: |
+          git config user.email "bot@bomdiainvestidor.com.br"
+          git config user.name "Bom Dia Investidor Bot"
+          git add verificacoes.json
+          git diff --cached --quiet || git commit -m "Atualiza registro do comparativo de precos"
+          git push
