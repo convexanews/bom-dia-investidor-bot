@@ -475,6 +475,7 @@ async function main() {
     imagemStory: storyImageUrl,
     videoUrl,
     tipo: formato,
+    peso: nova.peso || 0,
   });
   salvarJson(RELATORIO_FILE, relatorio.slice(0, 200));
 

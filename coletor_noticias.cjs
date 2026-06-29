@@ -109,10 +109,42 @@ const PALAVRAS_EXCLUIDAS = [
   'horóscopo', 'horoscopo', 'signo', 'novela', 'celebridade', 'famosos',
 ];
 
+// Assuntos que NAO sao financeiros por si só (futebol, política, tecnologia, etc.)
+// mas que o publico curte quando tem um angulo de dinheiro — ex: "quanto ganha
+// cada treinador da selecao", "contrato milionario de jogador", "Apple vale X
+// trilhoes". Só entram se o titulo tambem tiver um sinal de dinheiro junto;
+// isso evita que resultado de jogo, escândalo de politico etc. vire post.
+const TOPICOS_CRUZADOS = [
+  'futebol', 'jogador', 'técnico', 'tecnico', 'treinador', 'seleção', 'selecao',
+  'clube', 'copa do mundo', 'libertadores', 'brasileirão', 'brasileirao', 'cbf', 'fifa',
+  'tecnologia', 'inteligência artificial', 'inteligencia artificial', ' ia ', 'startup',
+  'aplicativo', 'app ', 'rede social', 'big tech',
+  'eleição', 'eleições', 'eleicao', 'eleicoes', 'governo', 'presidente', 'ministro',
+  'congresso', 'senado', 'câmara dos deputados', 'camara dos deputados', 'stf',
+  'olimpíada', 'olimpiada', 'nba', 'fórmula 1', 'formula 1', 'f1',
+];
+
+const SINAIS_DINHEIRO = [
+  'salário', 'salario', 'quanto ganha', 'ganha por', 'fortuna', 'patrimônio', 'patrimonio',
+  'bilionário', 'bilionario', 'milionário', 'milionario', 'forbes', 'ranking',
+  'contrato milionário', 'contrato milionario', 'contrato', 'patrocínio', 'patrocinio',
+  'transferência', 'transferencia', 'valor de mercado', 'multa rescisória', 'multa rescisoria',
+  'fatura', 'faturamento', 'receita', 'lucro', 'investimento', 'investe', 'ações',
+  'bolsa', 'vale', 'bilhões', 'bilhoes', 'milhões', 'milhoes', 'trilhão', 'trilhao',
+  'dinheiro', 'custo', 'preço', 'preco', 'imposto', 'dívida', 'divida', 'orçamento', 'orcamento',
+  'financiamento', 'venda', 'compra', 'negócio', 'negocio', 'acordo comercial', 'tarifa',
+  'ipo', 'aquisição', 'aquisicao', 'fusão', 'fusao', 'mercado',
+];
+
 function pareceRelevante(titulo, categorias) {
   const texto = (titulo + ' ' + categorias.join(' ')).toLowerCase();
   if (PALAVRAS_EXCLUIDAS.some(p => texto.includes(p))) return false;
-  return PALAVRAS_RELEVANTES.some(p => texto.includes(p));
+  if (PALAVRAS_RELEVANTES.some(p => texto.includes(p))) return true;
+
+  // Tópico cruzado (futebol, tecnologia, política etc.) só passa com sinal de dinheiro junto
+  const temTopicoCruzado = TOPICOS_CRUZADOS.some(p => texto.includes(p));
+  const temSinalDinheiro = SINAIS_DINHEIRO.some(p => texto.includes(p));
+  return temTopicoCruzado && temSinalDinheiro;
 }
 
 async function buscarFonte(fonte) {
@@ -224,4 +256,4 @@ if (require.main === module) {
   buscarNoticias().then(r => console.log(JSON.stringify(r, null, 2)));
 }
 
-module.exports = { buscarNoticias };
+module.exports = { buscarNoticias, calcularPesoImpacto, titulosSimilares };
