@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-06-29T21:33:33.203Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Bradesco eleva PIB de 2026 e vê inflação e Selic maiores neste ano e em 2027\".",
+    "postId": "18064564604711044",
+    "storyId": null,
+    "reelId": "18064564604711044",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-06-29T21:31:01.071Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 66): \"Bradesco eleva PIB de 2026 e vê inflação e Selic maiores neste ano e em 2027\". Realizando postagem..."
+  },
+  {
     "data": "2026-06-29T21:01:09.208Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
@@ -1105,27 +1119,5 @@
     "storyId": null,
     "reelId": null,
     "tipo": "carrossel"
-  },
-  {
-    "data": "2026-06-26T22:30:57.175Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 19): \"AAZQ11 aumenta exposição ao CRA da BRF e realiza novos aportes\". Realizando postagem..."
-  },
-  {
-    "data": "2026-06-26T22:00:19.563Z",
-    "resultado": "carrossel_fechamento",
-    "mensagem": "Carrossel de fechamento publicado. Ibovespa: 173.295 +1,64%",
-    "postId": "18107845105850070",
-    "ibov": {
-      "valor": "173.295",
-      "variacao": "+1,64%"
-    },
-    "topAltas": [
-      "TOTS3 +5,63%",
-      "ENEV3 +2,64%",
-      "ABEV3 +2,07%",
-      "EQTL3 +1,79%",
-      "RENT3 +1,77%"
-    ]
   }
 ]
