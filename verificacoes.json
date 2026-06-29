@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-29T08:31:04.770Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (05:31 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-06-29T08:01:12.064Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (05:01 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1125,10 +1130,5 @@
     "storyId": null,
     "reelId": "18141272587535877",
     "tipo": "reel"
-  },
-  {
-    "data": "2026-06-26T09:01:07.074Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 36): \"Ações de chips dos EUA recuam após Apple elevar preços e acender alerta sobre IA\". Realizando postagem..."
   }
 ]
