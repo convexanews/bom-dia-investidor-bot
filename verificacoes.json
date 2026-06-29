@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-06-29T14:03:31.923Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Governo central registra déficit primário de R$ 53,3 bilhões em maio\".",
+    "postId": "18412129231148708",
+    "storyId": null,
+    "reelId": "18412129231148708",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-06-29T14:01:08.188Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 53): \"Governo central registra déficit primário de R$ 53,3 bilhões em maio\". Realizando postagem..."
+  },
+  {
     "data": "2026-06-29T13:31:01.284Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
@@ -1116,15 +1130,5 @@
     "data": "2026-06-26T15:01:03.116Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 33 min."
-  },
-  {
-    "data": "2026-06-26T14:31:03.905Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 63 min."
-  },
-  {
-    "data": "2026-06-26T14:01:01.974Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 93 min."
   }
 ]
