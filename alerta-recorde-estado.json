@@ -1,0 +1,14 @@
+{
+  "ibov": {
+    "maiorMarco": 170000,
+    "menorMarco": 170000
+  },
+  "dolar": {
+    "maiorMarco": 5,
+    "menorMarco": 5
+  },
+  "btc": {
+    "maiorMarco": 55000,
+    "menorMarco": 55000
+  }
+}
