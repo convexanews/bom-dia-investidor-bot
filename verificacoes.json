@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-29T19:31:18.512Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 93 min."
+  },
+  {
     "data": "2026-06-29T19:03:37.220Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"B3 inicia negociação de contratos de eventos de IPCA e PIB\".",
@@ -1122,14 +1127,5 @@
     "data": "2026-06-26T20:31:07.636Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 110 min."
-  },
-  {
-    "data": "2026-06-26T20:20:54.251Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"Wall Street fecha em queda; Nasdaq derrete 4% na semana com liquidação tech\".",
-    "postId": "18166991059439572",
-    "storyId": null,
-    "reelId": "18166991059439572",
-    "tipo": "reel"
   }
 ]
