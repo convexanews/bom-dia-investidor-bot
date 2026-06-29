@@ -1,5 +1,15 @@
 [
   {
+    "data": "2026-06-29T15:02:43.711Z",
+    "resultado": "reel_postado",
+    "mensagem": "Resumo em vídeo do dia publicado com 1 notícia(s).",
+    "reelId": "18129224230533558",
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1782745308674.mp4",
+    "noticias": [
+      "Calendário econômico da semana: dados de trabalho nos EUA e no Brasil serão foco"
+    ]
+  },
+  {
     "data": "2026-06-29T15:01:14.054Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 63 min."
@@ -1120,10 +1130,5 @@
     "storyId": null,
     "reelId": "18081681338203757",
     "tipo": "reel"
-  },
-  {
-    "data": "2026-06-26T16:01:01.981Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 61): \"Avanço de 4,8% na massa salarial pressiona BC com juros maiores por mais tempo\". Realizando postagem..."
   }
 ]
