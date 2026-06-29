@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-29T13:31:01.284Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
+  },
+  {
     "data": "2026-06-29T13:01:12.474Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 33 min."
@@ -1121,14 +1126,5 @@
     "data": "2026-06-26T14:01:01.974Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 93 min."
-  },
-  {
-    "data": "2026-06-26T13:33:42.013Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"Ibovespa Hoje Ao Vivo: Bolsa cai com exterior negativo e peso de PETR4 e VALE3\".",
-    "postId": "18094240424369248",
-    "storyId": null,
-    "reelId": "18094240424369248",
-    "tipo": "reel"
   }
 ]
