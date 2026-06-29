@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-29T15:01:14.054Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 63 min."
+  },
+  {
     "data": "2026-06-29T14:35:08.783Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 89 min."
@@ -1120,10 +1125,5 @@
     "data": "2026-06-26T16:01:01.981Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 61): \"Avanço de 4,8% na massa salarial pressiona BC com juros maiores por mais tempo\". Realizando postagem..."
-  },
-  {
-    "data": "2026-06-26T15:30:58.299Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
   }
 ]
