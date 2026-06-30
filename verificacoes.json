@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-06-30T19:04:01.912Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Plano Safra: juros e esforço fiscal são positivos, mas gastos, promessas e redução generalizada decepcionam, avalia Cogo Inteligência\".",
+    "postId": "18408032728151380",
+    "storyId": null,
+    "reelId": "18408032728151380",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-06-30T19:01:22.490Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 48): \"Plano Safra: juros e esforço fiscal são positivos, mas gastos, promessas e redução generalizada decepcionam, avalia Cogo Inteligência\". Realizando postagem..."
+  },
+  {
     "data": "2026-06-30T18:31:13.914Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
@@ -1112,19 +1126,5 @@
     "data": "2026-06-27T19:01:08.553Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 108 min."
-  },
-  {
-    "data": "2026-06-27T18:48:08.773Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"Aumento dos preços de iPads e do Xbox evidencia impacto da crise nos chips de memória\".",
-    "postId": "18130815451719600",
-    "storyId": null,
-    "reelId": "18130815451719600",
-    "tipo": "reel"
-  },
-  {
-    "data": "2026-06-27T18:45:59.659Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 33): \"Aumento dos preços de iPads e do Xbox evidencia impacto da crise nos chips de memória\". Realizando postagem..."
   }
 ]
