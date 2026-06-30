@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-30T14:31:00.602Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 94 min."
+  },
+  {
     "data": "2026-06-30T14:04:09.155Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"Selic em 13,75%? Bradesco ainda enxerga cortes e vê inflação mais resistente\".",
@@ -1122,10 +1127,5 @@
     "data": "2026-06-27T15:01:12.124Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 76 min."
-  },
-  {
-    "data": "2026-06-27T14:30:57.894Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 106 min."
   }
 ]
