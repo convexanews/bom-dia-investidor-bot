@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-30T23:01:11.902Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 33 min."
+  },
+  {
     "data": "2026-06-30T22:51:14.666Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 43 min."
@@ -1129,14 +1134,5 @@
     "data": "2026-06-27T23:31:03.998Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 96 min."
-  },
-  {
-    "data": "2026-06-27T23:06:48.167Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (carrossel): \"EUA realizam novos ataques contra alvos militares no Irã após investida a petroleiro\".",
-    "postId": "18089870624249028",
-    "storyId": null,
-    "reelId": null,
-    "tipo": "carrossel"
   }
 ]
