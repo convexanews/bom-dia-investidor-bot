@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-30T15:01:14.444Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 63 min."
+  },
+  {
     "data": "2026-06-30T14:31:00.602Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 94 min."
@@ -1122,10 +1127,5 @@
       "AAZQ11 aumenta exposição ao CRA da BRF e realiza novos aportes",
       "Bitcoin se mantém acima de US$ 60.000 enquanto modelo de financiamento da Strategy enfrenta escrutínio"
     ]
-  },
-  {
-    "data": "2026-06-27T15:01:12.124Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 76 min."
   }
 ]
