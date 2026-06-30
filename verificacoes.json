@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-06-30T00:32:13.797Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (carrossel): \"RCRB11 recebe exercício de preferência de inquilino na venda do Parque Cultural Paulista\".",
+    "postId": "17896482528473011",
+    "storyId": null,
+    "reelId": null,
+    "tipo": "carrossel"
+  },
+  {
+    "data": "2026-06-30T00:31:03.722Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 25): \"RCRB11 recebe exercício de preferência de inquilino na venda do Parque Cultural Paulista\". Realizando postagem..."
+  },
+  {
     "data": "2026-06-30T00:01:44.215Z",
     "resultado": "sem_reel",
     "mensagem": "Nenhuma notícia postada nas últimas 24h. Resumo em vídeo não foi gerado."
@@ -1112,15 +1126,5 @@
     "data": "2026-06-27T02:01:18.960Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (23:01 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-06-27T01:31:03.125Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (22:31 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-06-27T01:29:29.226Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (22:29 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
