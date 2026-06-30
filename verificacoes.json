@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-06-30T21:33:36.658Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Ibovespa perde carona em recorde de Wall Street e recua com Petrobras (PETR4); dólar cai a R$ 5,16\".",
+    "postId": "18422267926194982",
+    "storyId": null,
+    "reelId": "18422267926194982",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-06-30T21:31:10.884Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 86): \"Ibovespa perde carona em recorde de Wall Street e recua com Petrobras (PETR4); dólar cai a R$ 5,16\". Realizando postagem..."
+  },
+  {
     "data": "2026-06-30T21:16:49.121Z",
     "resultado": "erro",
     "mensagem": "Erro na execução automática: Command failed: git push"
@@ -1112,15 +1126,5 @@
     "data": "2026-06-27T22:01:02.082Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 63 min."
-  },
-  {
-    "data": "2026-06-27T21:38:46.549Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 85 min."
-  },
-  {
-    "data": "2026-06-27T21:30:56.894Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 93 min."
   }
 ]
