@@ -1,5 +1,15 @@
 [
   {
+    "data": "2026-06-30T15:02:43.069Z",
+    "resultado": "reel_postado",
+    "mensagem": "Resumo em vídeo do dia publicado com 1 notícia(s).",
+    "reelId": "17919281430182317",
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1782831705231.mp4",
+    "noticias": [
+      "RCRB11 recebe exercício de preferência de inquilino na venda do Parque Cultural Paulista"
+    ]
+  },
+  {
     "data": "2026-06-30T15:01:14.444Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 63 min."
@@ -1116,16 +1126,5 @@
     "data": "2026-06-27T15:31:08.753Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 46 min."
-  },
-  {
-    "data": "2026-06-27T15:02:34.168Z",
-    "resultado": "reel_postado",
-    "mensagem": "Resumo em vídeo do dia publicado com 2 notícia(s).",
-    "reelId": "18104597834019482",
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1782572496541.mp4",
-    "noticias": [
-      "AAZQ11 aumenta exposição ao CRA da BRF e realiza novos aportes",
-      "Bitcoin se mantém acima de US$ 60.000 enquanto modelo de financiamento da Strategy enfrenta escrutínio"
-    ]
   }
 ]
