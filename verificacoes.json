@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-06-30T11:33:25.488Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Imposto de Renda: Receita paga maior lote de restituição da história nesta terça (30)\".",
+    "postId": "17969184701921054",
+    "storyId": null,
+    "reelId": "17969184701921054",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-06-30T11:30:57.845Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 43): \"Imposto de Renda: Receita paga maior lote de restituição da história nesta terça (30)\". Realizando postagem..."
+  },
+  {
     "data": "2026-06-30T11:01:18.550Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
@@ -1112,19 +1126,5 @@
     "data": "2026-06-27T12:14:14.773Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 110 min."
-  },
-  {
-    "data": "2026-06-27T12:03:36.149Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"Selic baixa popularizou os FIIs, mas deixou uma lição errada, diz professor da USP\".",
-    "postId": "18131658298611666",
-    "storyId": null,
-    "reelId": "18131658298611666",
-    "tipo": "reel"
-  },
-  {
-    "data": "2026-06-27T12:01:09.252Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 45): \"Selic baixa popularizou os FIIs, mas deixou uma lição errada, diz professor da USP\". Realizando postagem..."
   }
 ]
