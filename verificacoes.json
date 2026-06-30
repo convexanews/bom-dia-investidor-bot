@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-06-30T14:04:09.155Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Selic em 13,75%? Bradesco ainda enxerga cortes e vê inflação mais resistente\".",
+    "postId": "18122290702773503",
+    "storyId": null,
+    "reelId": "18122290702773503",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-06-30T14:01:06.454Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 95): \"Selic em 13,75%? Bradesco ainda enxerga cortes e vê inflação mais resistente\". Realizando postagem..."
+  },
+  {
     "data": "2026-06-30T13:31:00.674Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
@@ -1113,19 +1127,5 @@
     "data": "2026-06-27T14:30:57.894Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 106 min."
-  },
-  {
-    "data": "2026-06-27T14:16:45.313Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"Fundo imobiliário em liquidação e Tesouro IPCA+ 10%: Veja o que mais chamou atenção na semana\".",
-    "postId": "18210325207340754",
-    "storyId": null,
-    "reelId": "18210325207340754",
-    "tipo": "reel"
-  },
-  {
-    "data": "2026-06-27T14:14:34.668Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 35): \"Fundo imobiliário em liquidação e Tesouro IPCA+ 10%: Veja o que mais chamou atenção na semana\". Realizando postagem..."
   }
 ]
