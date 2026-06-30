@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-30T13:31:00.674Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
+  },
+  {
     "data": "2026-06-30T13:12:39.057Z",
     "resultado": "story_glossario",
     "mensagem": "Story do glossário publicado: \"Liquidez\"",
@@ -1122,10 +1127,5 @@
     "data": "2026-06-27T14:14:34.668Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 35): \"Fundo imobiliário em liquidação e Tesouro IPCA+ 10%: Veja o que mais chamou atenção na semana\". Realizando postagem..."
-  },
-  {
-    "data": "2026-06-27T14:00:58.145Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
   }
 ]
