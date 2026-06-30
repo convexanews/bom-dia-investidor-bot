@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-30T09:31:43.878Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 93 min."
+  },
+  {
     "data": "2026-06-30T09:03:54.969Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"Resiliência econômica da Europa dá ao BCE mais margem de manobra para ajustar juros, diz Lagarde\".",
@@ -1121,10 +1126,5 @@
     "data": "2026-06-27T10:31:09.585Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 61 min."
-  },
-  {
-    "data": "2026-06-27T10:01:07.998Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 91 min."
   }
 ]
