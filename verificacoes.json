@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-06-30T16:32:29.342Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (carrossel): \"Corretora comete gafe em e-mail, fica sem ações da SpaceX e pede desculpas\".",
+    "postId": "18085847387630346",
+    "storyId": null,
+    "reelId": null,
+    "tipo": "carrossel"
+  },
+  {
+    "data": "2026-06-30T16:31:12.425Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 29): \"Corretora comete gafe em e-mail, fica sem ações da SpaceX e pede desculpas\". Realizando postagem..."
+  },
+  {
     "data": "2026-06-30T16:01:22.384Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
@@ -1112,19 +1126,5 @@
     "data": "2026-06-27T17:00:59.377Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
-  },
-  {
-    "data": "2026-06-27T16:32:16.738Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (carrossel): \"Lucros do setor industrial na China seguem resilientes em maio\".",
-    "postId": "17939723655256290",
-    "storyId": null,
-    "reelId": null,
-    "tipo": "carrossel"
-  },
-  {
-    "data": "2026-06-27T16:31:18.329Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 6): \"Lucros do setor industrial na China seguem resilientes em maio\". Realizando postagem..."
   }
 ]
