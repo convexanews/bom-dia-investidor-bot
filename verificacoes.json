@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-30T16:01:22.384Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
+  },
+  {
     "data": "2026-06-30T15:30:59.778Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 34 min."
@@ -1121,10 +1126,5 @@
     "data": "2026-06-27T16:31:18.329Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 6): \"Lucros do setor industrial na China seguem resilientes em maio\". Realizando postagem..."
-  },
-  {
-    "data": "2026-06-27T16:01:10.843Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 16 min."
   }
 ]
