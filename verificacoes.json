@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-30T11:01:18.550Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
+  },
+  {
     "data": "2026-06-30T10:30:57.201Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 33 min."
@@ -1121,10 +1126,5 @@
     "data": "2026-06-27T12:01:09.252Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 45): \"Selic baixa popularizou os FIIs, mas deixou uma lição errada, diz professor da USP\". Realizando postagem..."
-  },
-  {
-    "data": "2026-06-27T11:31:05.452Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 1 min."
   }
 ]
