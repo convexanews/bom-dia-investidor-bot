@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-06-30T23:30:57.745Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
+  },
+  {
     "data": "2026-06-30T23:01:11.902Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 33 min."
@@ -1129,10 +1134,5 @@
       "Lucros do setor industrial na China seguem resilientes em maio",
       "EUA realizam novos ataques contra alvos militares no Irã após investida a petroleiro"
     ]
-  },
-  {
-    "data": "2026-06-27T23:31:03.998Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 96 min."
   }
 ]
