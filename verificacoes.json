@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-01T16:01:16.843Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 4 min."
+  },
+  {
     "data": "2026-07-01T15:31:15.990Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 34 min."
@@ -1130,10 +1135,5 @@
     "data": "2026-06-28T16:43:55.962Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 80 min."
-  },
-  {
-    "data": "2026-06-28T16:30:56.568Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 93 min."
   }
 ]
