@@ -1,5 +1,16 @@
 [
   {
+    "data": "2026-07-01T15:03:16.776Z",
+    "resultado": "reel_postado",
+    "mensagem": "Resumo em vídeo do dia publicado com 2 notícia(s).",
+    "reelId": "17986200612010509",
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1782918132856.mp4",
+    "noticias": [
+      "Corretora comete gafe em e-mail, fica sem ações da SpaceX e pede desculpas",
+      "Petrobras (PETR4) diz que preço do diesel vai se manter após reajuste e suspensão de desconto"
+    ]
+  },
+  {
     "data": "2026-07-01T15:01:26.315Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 64 min."
@@ -1128,10 +1139,5 @@
     "data": "2026-06-28T16:01:25.868Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 34): \"Irã e Estados Unidos intensificam ataques e ameaçam escalada\". Realizando postagem..."
-  },
-  {
-    "data": "2026-06-28T15:31:07.646Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 25 min."
   }
 ]
