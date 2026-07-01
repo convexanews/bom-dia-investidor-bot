@@ -1,5 +1,22 @@
 [
   {
+    "data": "2026-07-01T22:11:58.647Z",
+    "resultado": "carrossel_fechamento",
+    "mensagem": "Carrossel de fechamento publicado. Ibovespa: 171.689 -0,88%",
+    "postId": "18128674561622262",
+    "ibov": {
+      "valor": "171.689",
+      "variacao": "-0,88%"
+    },
+    "topAltas": [
+      "RAIZ4 +5,26%",
+      "HAPV3 +3,33%",
+      "SUZB3 +2,11%",
+      "USIM5 +1,78%",
+      "TOTS3 +0,98%"
+    ]
+  },
+  {
     "data": "2026-07-01T22:01:12.256Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 70 min."
@@ -1134,10 +1151,5 @@
     "storyId": null,
     "reelId": "18133004947580176",
     "tipo": "reel"
-  },
-  {
-    "data": "2026-06-28T22:35:55.678Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 32): \"Melhores investimentos dos últimos 100 anos: quase todos são empresas de tecnologia\". Realizando postagem..."
   }
 ]
