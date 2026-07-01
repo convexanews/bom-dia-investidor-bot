@@ -36,6 +36,9 @@ jobs:
             libpango-1.0-0 libcairo2 libasound2t64
           pip install edge-tts
 
+      - name: Atualizar repositorio antes de rodar (evita dedup com dados velhos)
+        run: git pull --rebase origin main || true
+
       - name: Executar verificacao e publicacao automatica
         env:
           IG_TOKEN: ${{ secrets.IG_TOKEN }}
@@ -50,6 +53,7 @@ jobs:
           git config user.name "Bom Dia Investidor Bot"
           git add noticias-postadas.json relatorio.json verificacoes.json tiktok-postadas.json
           git diff --cached --quiet || git commit -m "Atualiza registro de postagens automaticas"
+          git pull --rebase origin main
           git push
 
       - name: Verificar se deve gerar reel do meio-dia (12h BRT = 15h UTC)
@@ -94,6 +98,7 @@ jobs:
           git config user.name "Bom Dia Investidor Bot"
           git add verificacoes.json
           git diff --cached --quiet || git commit -m "Atualiza registro do reel diario"
+          git pull --rebase origin main
           git push
 
       # Carrossel de fechamento e carrossel educativo tem workflows dedicados
@@ -116,4 +121,5 @@ jobs:
           git config user.name "Bom Dia Investidor Bot"
           git add verificacoes.json alerta-recorde-estado.json
           git diff --cached --quiet || git commit -m "Atualiza registro de alerta de recorde"
+          git pull --rebase origin main
           git push
