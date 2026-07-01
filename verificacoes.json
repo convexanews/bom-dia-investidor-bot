@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-01T17:31:26.485Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 63 min."
+  },
+  {
     "data": "2026-07-01T17:29:43.676Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 64 min."
@@ -1134,10 +1139,5 @@
     "storyId": null,
     "reelId": "18124872088730406",
     "tipo": "reel"
-  },
-  {
-    "data": "2026-06-28T18:07:55.103Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 36): \"Calor recorde causa transtornos na Europa; França registra 1.000 mortes\". Realizando postagem..."
   }
 ]
