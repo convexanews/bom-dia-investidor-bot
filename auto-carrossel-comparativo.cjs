@@ -73,9 +73,7 @@ function registrarVerificacao(resultado, mensagem, extra = {}) {
   v.unshift({ data: new Date().toISOString(), resultado, mensagem, ...extra });
   salvarJson(VERIFICACOES_FILE, v.slice(0, 200));
 }
-function git(cmd, cwd) {
-  execSync(cmd, { cwd, stdio: 'inherit' });
-}
+const { git } = require('./git-seguro.cjs');
 
 async function aguardarContainerPronto(id, tentativas = 20) {
   for (let i = 0; i < tentativas; i++) {
@@ -145,7 +143,7 @@ async function main() {
   const nomeImg = `comparativo-${ts}.png`;
 
   if (fs.existsSync(PAGES_DIR)) fs.rmSync(PAGES_DIR, { recursive: true, force: true });
-  git(`git clone --depth 1 https://x-access-token:${pagesToken}@github.com/${PAGES_REPO}.git "${PAGES_DIR}"`, __dirname);
+  git(`git clone --depth 1 https://x-access-token@github.com/${PAGES_REPO}.git "${PAGES_DIR}"`, __dirname);
   const cardsDir = path.join(PAGES_DIR, 'bdi-cards');
   if (!fs.existsSync(cardsDir)) fs.mkdirSync(cardsDir, { recursive: true });
 

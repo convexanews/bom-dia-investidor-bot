@@ -38,6 +38,17 @@ const PALAVRAS_RELEVANTES = [
   'ipr', 'suzano', 'weg', 'ambev', 'magazine', 'luiza', 'magalu',
 ];
 
+// Remove lixo que alguns feeds embutem na descrição (ex: InfoMoney anexa
+// "The post <título> appeared first on InfoMoney.") e quebras de linha.
+function limparResumo(str) {
+  return String(str || '')
+    .replace(/The post .{0,300} appeared first on .{0,60}\.?\s*$/is, '')
+    .replace(/O post .{0,300} apareceu primeiro em .{0,60}\.?\s*$/is, '')
+    .replace(/Leia mais(:| em).*$/is, '')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
 function decodeEntities(str) {
   return String(str || '')
     .replace(/&amp;/g, '&')
@@ -160,7 +171,7 @@ async function buscarFonte(fonte) {
       const pubDate = $(el).find('pubDate').first().text().trim();
       const categorias = $(el).find('category').map((__, c) => decodeEntities($(c).text())).get();
       let descricaoHtml = $(el).find('description').first().text();
-      const descricao = decodeEntities(descricaoHtml.replace(/<[^>]+>/g, '')).slice(0, 400);
+      const descricao = limparResumo(decodeEntities(descricaoHtml.replace(/<[^>]+>/g, ''))).slice(0, 400);
 
       // Extrai a imagem de capa da notícia (maior resolução disponível no <img> embutido)
       const conteudoHtml = descricaoHtml + ' ' + $(el).find('content\\:encoded').first().text();

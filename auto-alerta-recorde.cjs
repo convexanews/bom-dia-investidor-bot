@@ -35,9 +35,7 @@ function registrarVerificacao(resultado, mensagem, extra = {}) {
   v.unshift({ data: new Date().toISOString(), resultado, mensagem, ...extra });
   salvarJson(VERIFICACOES_FILE, v.slice(0, 200));
 }
-function git(cmd, cwd) {
-  execSync(cmd, { cwd, stdio: 'inherit' });
-}
+const { git } = require('./git-seguro.cjs');
 
 async function buscarValorAtual(simbolo) {
   const resp = await fetch(`https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(simbolo)}?range=1d&interval=1d`, {
@@ -142,7 +140,7 @@ async function main() {
   console.log(`Recorde detectado: ${alertaParaPostar.ativoNome} — ${alertaParaPostar.tipoAlerta}`);
 
   if (fs.existsSync(PAGES_DIR)) fs.rmSync(PAGES_DIR, { recursive: true, force: true });
-  git(`git clone --depth 1 https://x-access-token:${pagesToken}@github.com/${PAGES_REPO}.git "${PAGES_DIR}"`, __dirname);
+  git(`git clone --depth 1 https://x-access-token@github.com/${PAGES_REPO}.git "${PAGES_DIR}"`, __dirname);
   const cardsDir = path.join(PAGES_DIR, 'bdi-cards');
   if (!fs.existsSync(cardsDir)) fs.mkdirSync(cardsDir, { recursive: true });
 

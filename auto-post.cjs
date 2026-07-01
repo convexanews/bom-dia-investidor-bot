@@ -67,7 +67,17 @@ async function baixarImagemBase64(url) {
   }
 }
 
-const HASHTAGS = '#investimentos #bolsadevalores #ibovespa #mercadofinanceiro #dolar #economiabrasileira #acoes #b3 #educacaofinanceira #financas #investidor #independenciafinanceira #trading #noticias #mercado';
+// Conjuntos rotativos — repetir as mesmas hashtags em todo post pode ser
+// tratado como spam pelo algoritmo do Instagram e reduzir o alcance.
+const CONJUNTOS_HASHTAGS = [
+  '#investimentos #bolsadevalores #ibovespa #mercadofinanceiro #dolar #acoes #b3 #financas #investidor #noticias',
+  '#economiabrasileira #rendavariavel #educacaofinanceira #bolsa #dividendos #fiis #investir #liberdadefinanceira #mercado #dinheiro',
+  '#rendafixa #tesourodireto #selic #inflacao #juros #patrimonio #independenciafinanceira #financaspessoais #economia #trading',
+];
+function escolherHashtags() {
+  const diaDoAno = Math.floor(Date.now() / 86400000);
+  return CONJUNTOS_HASHTAGS[diaDoAno % CONJUNTOS_HASHTAGS.length];
+}
 
 const CTAS = [
   '💬 Comente o que você acha disso!',
@@ -136,7 +146,7 @@ function montarLegenda(cfg) {
   const cta = CTAS[Math.floor(Date.now() / 1000) % CTAS.length];
   const contexto = CONTEXTOS[cfg.sentimento?.tipo || 'padrao'] || CONTEXTOS.padrao;
   const base = `${cfg.manchete}\n\n${cfg.resumo || ''}\n\n${contexto}\n\nFonte: ${cfg.fonte || ''}`;
-  return `${base}\n\n${cta}\n\n📊 Fique por dentro de mais notícias do mercado financeiro: https://bomdiainvestidor.com.br/\n\n${HASHTAGS}`;
+  return `${base}\n\n${cta}\n\n📊 Fique por dentro de mais notícias do mercado financeiro: https://bomdiainvestidor.com.br/\n\n${escolherHashtags()}`;
 }
 
 function estaNoHorarioPico() {
@@ -197,8 +207,22 @@ async function publicarStory(imageUrl) {
   return publishData.id;
 }
 
+// O token NUNCA vai na linha de comando (vazaria em mensagem de erro e na
+// lista de processos). O GIT_ASKPASS entrega a senha via env quando o git
+// pede credencial — vale pro clone e pros pushes seguintes no PAGES_DIR.
+function criarAskpass() {
+  const askpass = path.join(require('os').tmpdir(), 'bdi-askpass.sh');
+  fs.writeFileSync(askpass, '#!/bin/sh\necho "$BDI_GIT_TOKEN"\n', { mode: 0o755 });
+  return askpass;
+}
+
 function git(cmd, cwd) {
-  execSync(cmd, { cwd, stdio: 'inherit' });
+  const env = { ...process.env, GIT_TERMINAL_PROMPT: '0' };
+  if (process.env.PAGES_TOKEN) {
+    env.GIT_ASKPASS = criarAskpass();
+    env.BDI_GIT_TOKEN = process.env.PAGES_TOKEN;
+  }
+  execSync(cmd, { cwd, stdio: 'inherit', env });
 }
 
 function registrarVerificacao(resultado, mensagem, extra = {}) {
@@ -250,8 +274,14 @@ async function main() {
 
   const noticias = await buscarNoticias();
 
-  // Títulos já postados (para evitar duplicatas por assunto, não só por link)
-  const titulosPostados = relatorio.map(r => (r.titulo || '').toLowerCase());
+  // Títulos já postados nos últimos 3 dias (para evitar duplicatas por assunto,
+  // não só por link). Limitado a 3 dias porque manchetes recorrentes ("Dólar
+  // sobe...", "Ibovespa fecha em alta...") são notícias legítimas novas em dias
+  // diferentes — comparar com o histórico inteiro bloqueava conteúdo válido.
+  const TRES_DIAS_MS = 3 * 24 * 60 * 60 * 1000;
+  const titulosPostados = relatorio
+    .filter(r => r.data && (Date.now() - new Date(r.data).getTime()) <= TRES_DIAS_MS)
+    .map(r => (r.titulo || '').toLowerCase());
 
   function tituloJaPostado(titulo) {
     const norm = titulo.toLowerCase()
@@ -319,7 +349,7 @@ async function main() {
   const pagesToken = process.env.PAGES_TOKEN;
   if (!pagesToken) throw new Error('Defina PAGES_TOKEN (PAT com acesso de escrita ao repo do GitHub Pages).');
   if (fs.existsSync(PAGES_DIR)) fs.rmSync(PAGES_DIR, { recursive: true, force: true });
-  git(`git clone --depth 1 https://x-access-token:${pagesToken}@github.com/${PAGES_REPO}.git "${PAGES_DIR}"`, __dirname);
+  git(`git clone --depth 1 https://x-access-token@github.com/${PAGES_REPO}.git "${PAGES_DIR}"`, __dirname);
 
   const cardsDir = path.join(PAGES_DIR, 'bdi-cards');
   if (!fs.existsSync(cardsDir)) fs.mkdirSync(cardsDir, { recursive: true });
