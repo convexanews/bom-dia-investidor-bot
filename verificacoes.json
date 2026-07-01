@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-01T08:31:09.495Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (05:31 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-07-01T08:01:07.380Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (05:01 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1133,10 +1138,5 @@
     "storyId": "18083191133445962",
     "reelId": null,
     "tipo": "card"
-  },
-  {
-    "data": "2026-06-28T09:31:13.181Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 23): \"Bitcoin se mantém acima de US$ 60.000 com saídas de ETFs e perspectivas do Fed\". Realizando postagem..."
   }
 ]
