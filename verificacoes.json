@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-01T14:31:16.448Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 94 min."
+  },
+  {
     "data": "2026-07-01T14:04:55.529Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"Ibovespa cai 1% com exterior e baixa do petróleo; 5 coisas para saber antes de investir hoje (1º)\".",
@@ -1128,17 +1133,5 @@
     "data": "2026-06-28T15:20:19.872Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 36 min."
-  },
-  {
-    "data": "2026-06-28T15:02:30.942Z",
-    "resultado": "reel_postado",
-    "mensagem": "Resumo em vídeo do dia publicado com 3 notícia(s).",
-    "reelId": "18199081576366948",
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1782658889784.mp4",
-    "noticias": [
-      "Lucros do setor industrial na China seguem resilientes em maio",
-      "EUA realizam novos ataques contra alvos militares no Irã após investida a petroleiro",
-      "Bitcoin se mantém acima de US$ 60.000 com saídas de ETFs e perspectivas do Fed"
-    ]
   }
 ]
