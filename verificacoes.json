@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-01T22:31:17.828Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 40 min."
+  },
+  {
     "data": "2026-07-01T22:11:58.647Z",
     "resultado": "carrossel_fechamento",
     "mensagem": "Carrossel de fechamento publicado. Ibovespa: 171.689 -0,88%",
@@ -1142,14 +1147,5 @@
     "data": "2026-06-28T23:01:19.889Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 97 min."
-  },
-  {
-    "data": "2026-06-28T22:38:06.544Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"Melhores investimentos dos últimos 100 anos: quase todos são empresas de tecnologia\".",
-    "postId": "18133004947580176",
-    "storyId": null,
-    "reelId": "18133004947580176",
-    "tipo": "reel"
   }
 ]
