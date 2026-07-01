@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-01T22:01:12.256Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 70 min."
+  },
+  {
     "data": "2026-07-01T21:31:01.416Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 100 min."
@@ -1134,10 +1139,5 @@
     "data": "2026-06-28T22:35:55.678Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 32): \"Melhores investimentos dos últimos 100 anos: quase todos são empresas de tecnologia\". Realizando postagem..."
-  },
-  {
-    "data": "2026-06-28T22:30:54.213Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
   }
 ]
