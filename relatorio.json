@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-01T23:32:26.387Z",
+    "titulo": "CACR11 encolhe quase 16%; IFIX fecha em queda de 0,1%",
+    "categoria": "FIIs",
+    "fonte": "Suno",
+    "link": "https://www.suno.com.br/noticias/cacr11-encolhe-quase-16-ifix-fecha-em-queda-de-01/",
+    "postId": "17934729675276069",
+    "storyId": null,
+    "reelId": null,
+    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1782948700217-slide1.png",
+    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1782948700217-slide2.png",
+    "videoUrl": null,
+    "tipo": "carrossel",
+    "peso": 21
+  },
+  {
     "data": "2026-07-01T21:10:18.667Z",
     "titulo": "Após Dow Jones bater recorde, Wall Street recua de olho em Warsh e à espera do payroll",
     "categoria": "Mercados",
