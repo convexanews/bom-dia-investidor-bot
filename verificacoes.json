@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-01T20:31:15.566Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 33 min."
+  },
+  {
     "data": "2026-07-01T20:01:21.160Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 63 min."
@@ -1130,14 +1135,5 @@
     "data": "2026-06-28T21:01:08.612Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
-  },
-  {
-    "data": "2026-06-28T20:32:11.357Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (carrossel): \"Calendário econômico da semana: dados de trabalho nos EUA e no Brasil serão foco\".",
-    "postId": "18111756493937293",
-    "storyId": null,
-    "reelId": null,
-    "tipo": "carrossel"
   }
 ]
