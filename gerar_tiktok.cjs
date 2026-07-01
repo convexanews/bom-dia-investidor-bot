@@ -13,15 +13,22 @@ function escapeHtml(str) {
     .replace(/>/g, '&gt;');
 }
 
-// Microsoft Edge TTS Neural — voz masculina grave e natural pt-BR
-// Voz: pt-BR-AntonioNeural (grave, profissional)
-// Rate: -10% deixa levemente mais lento e imponente
+// Microsoft Edge TTS Neural — voz feminina natural pt-BR
+// Voz: pt-BR-ThalitaMultilingualNeural (a mais humana disponível);
+// fallback FranciscaNeural se a multilingual falhar.
 async function gerarTTS(texto, saida) {
   const textoEscapado = texto.replace(/"/g, '\\"');
-  execSync(
-    `python -m edge_tts --voice "pt-BR-AntonioNeural" --rate="-8%" --pitch="-8Hz" --text "${textoEscapado}" --write-media "${saida}"`,
-    { stdio: 'inherit', timeout: 60000 }
-  );
+  try {
+    execSync(
+      `python -m edge_tts --voice "pt-BR-ThalitaMultilingualNeural" --rate="-4%" --text "${textoEscapado}" --write-media "${saida}"`,
+      { stdio: 'inherit', timeout: 60000 }
+    );
+  } catch {
+    execSync(
+      `python -m edge_tts --voice "pt-BR-FranciscaNeural" --rate="-4%" --text "${textoEscapado}" --write-media "${saida}"`,
+      { stdio: 'inherit', timeout: 60000 }
+    );
+  }
   return saida;
 }
 
@@ -108,7 +115,7 @@ async function gerarVideoTikTok(cfg, saida) {
   // Ken Burns zoom + legendas queimadas (subtitles filter)
   // Estilo minimalista: fonte branca leve com outline fino, sem caixa de fundo
   const srtEscaped = srtPath.replace(/\\/g, '/').replace(/:/g, '\\:');
-  const subtitleStyle = "FontName=Arial,FontSize=13,PrimaryColour=&H00FFFFFF,OutlineColour=&H80000000,BorderStyle=1,Outline=1.5,Shadow=0,MarginV=80,Alignment=2,Bold=0";
+  const subtitleStyle = "FontName=Arial,FontSize=11,PrimaryColour=&H00FFFFFF,OutlineColour=&H90000000,BorderStyle=1,Outline=1,Shadow=0,MarginV=22,Alignment=2,Bold=0";
 
   console.log(`  Montando vídeo (${duracaoAudio}s) com legendas...`);
   execSync(
@@ -143,8 +150,12 @@ function montarTextoNarracao(cfg) {
 }
 
 function montarBlocosLegenda(cfg) {
+  // A manchete NÃO entra na legenda — ela já está escrita no card do vídeo,
+  // e duplicar o texto por cima ficava poluído. Legenda só acompanha o resumo.
   const blocos = [];
-  if (cfg.manchete) blocos.push(cfg.manchete.replace(/\s+/g, ' ').trim());
+  // Bloco vazio no início: cobre o tempo em que a narração lê a manchete,
+  // mantendo a legenda aproximadamente sincronizada com o resumo.
+  if (cfg.manchete) blocos.push('');
   if (cfg.resumo) {
     let resumo = cfg.resumo.replace(/\s+/g, ' ').trim();
     if (resumo.length > 200) resumo = resumo.slice(0, 197) + '...';
