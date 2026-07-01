@@ -106,9 +106,9 @@ async function gerarVideoTikTok(cfg, saida) {
   if (!fs.existsSync(path.dirname(saida))) fs.mkdirSync(path.dirname(saida), { recursive: true });
 
   // Ken Burns zoom + legendas queimadas (subtitles filter)
-  // Estilo: fonte branca grande com borda preta, posição inferior
+  // Estilo minimalista: fonte branca leve com outline fino, sem caixa de fundo
   const srtEscaped = srtPath.replace(/\\/g, '/').replace(/:/g, '\\:');
-  const subtitleStyle = "FontName=Arial,FontSize=18,PrimaryColour=&H00FFFFFF,OutlineColour=&H00000000,BorderStyle=3,Outline=2,Shadow=1,MarginV=60,Alignment=2,Bold=1";
+  const subtitleStyle = "FontName=Arial,FontSize=13,PrimaryColour=&H00FFFFFF,OutlineColour=&H80000000,BorderStyle=1,Outline=1.5,Shadow=0,MarginV=80,Alignment=2,Bold=0";
 
   console.log(`  Montando vídeo (${duracaoAudio}s) com legendas...`);
   execSync(
@@ -124,23 +124,8 @@ async function gerarVideoTikTok(cfg, saida) {
   return saida;
 }
 
-const HOOKS_ABERTURA = [
-  'Urgente! Isso pode mudar seus investimentos hoje.',
-  'Você precisa saber disso antes de investir!',
-  'Alerta no mercado financeiro!',
-  'Isso vai impactar seu bolso. Presta atenção!',
-  'Notícia bombástica no mercado!',
-  'Se você investe, para tudo e escuta isso.',
-  'O mercado acabou de dar um sinal importante!',
-  'Investidor, cuidado! Olha o que acabou de sair.',
-];
-
-function escolherHook() {
-  return HOOKS_ABERTURA[Math.floor(Math.random() * HOOKS_ABERTURA.length)];
-}
-
 function montarTextoNarracao(cfg) {
-  const partes = [escolherHook()];
+  const partes = [];
 
   if (cfg.manchete) {
     partes.push(cfg.manchete.replace(/\s+/g, ' ').trim() + '.');
@@ -152,15 +137,13 @@ function montarTextoNarracao(cfg) {
     partes.push(resumo);
   }
 
-  partes.push('Siga o Bom Dia Investidor pra não perder nenhuma oportunidade!');
+  partes.push('Siga o Bom Dia Investidor pra não perder nenhuma novidade.');
 
   return partes.join(' ');
 }
 
 function montarBlocosLegenda(cfg) {
   const blocos = [];
-  const hook = escolherHook();
-  blocos.push(hook);
   if (cfg.manchete) blocos.push(cfg.manchete.replace(/\s+/g, ' ').trim());
   if (cfg.resumo) {
     let resumo = cfg.resumo.replace(/\s+/g, ' ').trim();
@@ -168,7 +151,7 @@ function montarBlocosLegenda(cfg) {
     const frases = resumo.match(/[^.!?]+[.!?]+/g) || [resumo];
     blocos.push(...frases.map(f => f.trim()).filter(f => f.length > 5));
   }
-  blocos.push('Siga @bomdia_investidor!');
+  blocos.push('Siga @bomdia_investidor');
   return blocos;
 }
 
