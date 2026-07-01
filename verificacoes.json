@@ -1,5 +1,11 @@
 [
   {
+    "data": "2026-07-01T13:38:22.937Z",
+    "resultado": "story_glossario",
+    "mensagem": "Story do glossário publicado: \"Volatilidade\"",
+    "postId": "18413731825145099"
+  },
+  {
     "data": "2026-07-01T13:32:24.093Z",
     "resultado": "alerta_recorde",
     "mensagem": "Alerta de recorde publicado: Ibovespa (NOVA MÍNIMA).",
@@ -1130,10 +1136,5 @@
     "data": "2026-06-28T14:31:03.505Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 85 min."
-  },
-  {
-    "data": "2026-06-28T14:00:57.040Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 115 min."
   }
 ]
