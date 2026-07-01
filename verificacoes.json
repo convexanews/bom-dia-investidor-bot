@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-01T19:03:43.388Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Ibovespa Hoje Ao Vivo: Bolsa tem leve queda, com PETR4; VALE3 sobe\".",
+    "postId": "18005241521950183",
+    "storyId": null,
+    "reelId": "18005241521950183",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-07-01T19:01:13.708Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 75): \"Ibovespa Hoje Ao Vivo: Bolsa tem leve queda, com PETR4; VALE3 sobe\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-01T18:31:26.003Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
@@ -1125,15 +1139,5 @@
     "data": "2026-06-28T19:55:41.745Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 15 min."
-  },
-  {
-    "data": "2026-06-28T19:31:08.638Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 39 min."
-  },
-  {
-    "data": "2026-06-28T19:00:58.417Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 70 min."
   }
 ]
