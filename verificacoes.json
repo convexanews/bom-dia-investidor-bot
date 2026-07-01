@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-01T15:31:15.990Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 34 min."
+  },
+  {
     "data": "2026-07-01T15:20:27.415Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 45 min."
@@ -1130,14 +1135,5 @@
     "data": "2026-06-28T16:30:56.568Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 93 min."
-  },
-  {
-    "data": "2026-06-28T16:03:40.962Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"Irã e Estados Unidos intensificam ataques e ameaçam escalada\".",
-    "postId": "18001246064952138",
-    "storyId": null,
-    "reelId": "18001246064952138",
-    "tipo": "reel"
   }
 ]
