@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-01T09:31:01.750Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 94 min."
+  },
+  {
     "data": "2026-07-01T09:04:25.194Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"Warsh, emprego nos EUA, pesquisa AtlasIntel e mais destaques desta quarta-feira\".",
@@ -1133,10 +1138,5 @@
     "data": "2026-06-28T10:31:12.751Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 62 min."
-  },
-  {
-    "data": "2026-06-28T10:00:59.509Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
   }
 ]
