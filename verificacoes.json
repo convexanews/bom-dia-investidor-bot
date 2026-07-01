@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-01T19:30:58.260Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 93 min."
+  },
+  {
     "data": "2026-07-01T19:21:06.033Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 103 min."
@@ -1134,10 +1139,5 @@
     "data": "2026-06-28T20:31:04.974Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 19): \"Calendário econômico da semana: dados de trabalho nos EUA e no Brasil serão foco\". Realizando postagem..."
-  },
-  {
-    "data": "2026-06-28T20:01:11.661Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 9 min."
   }
 ]
