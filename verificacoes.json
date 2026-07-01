@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-01T14:04:55.529Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Ibovespa cai 1% com exterior e baixa do petróleo; 5 coisas para saber antes de investir hoje (1º)\".",
+    "postId": "18116223529676323",
+    "storyId": null,
+    "reelId": "18116223529676323",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-07-01T14:01:26.195Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 54): \"Ibovespa cai 1% com exterior e baixa do petróleo; 5 coisas para saber antes de investir hoje (1º)\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-01T13:38:22.937Z",
     "resultado": "story_glossario",
     "mensagem": "Story do glossário publicado: \"Volatilidade\"",
@@ -1126,15 +1140,5 @@
       "EUA realizam novos ataques contra alvos militares no Irã após investida a petroleiro",
       "Bitcoin se mantém acima de US$ 60.000 com saídas de ETFs e perspectivas do Fed"
     ]
-  },
-  {
-    "data": "2026-06-28T15:01:04.897Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 55 min."
-  },
-  {
-    "data": "2026-06-28T14:31:03.505Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 85 min."
   }
 ]
