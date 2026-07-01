@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-01T15:20:27.415Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 45 min."
+  },
+  {
     "data": "2026-07-01T15:03:16.776Z",
     "resultado": "reel_postado",
     "mensagem": "Resumo em vídeo do dia publicado com 2 notícia(s).",
@@ -1134,10 +1139,5 @@
     "storyId": null,
     "reelId": "18001246064952138",
     "tipo": "reel"
-  },
-  {
-    "data": "2026-06-28T16:01:25.868Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 34): \"Irã e Estados Unidos intensificam ataques e ameaçam escalada\". Realizando postagem..."
   }
 ]
