@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-01T11:33:26.154Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Inflação da zona do euro desacelera mais do que o esperado e reduz pressão sobre o BCE\".",
+    "postId": "18114681917501476",
+    "storyId": null,
+    "reelId": "18114681917501476",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-07-01T11:31:01.761Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 45): \"Inflação da zona do euro desacelera mais do que o esperado e reduz pressão sobre o BCE\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-01T11:01:09.108Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 4 min."
@@ -1124,19 +1138,5 @@
     "data": "2026-06-28T12:01:02.572Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 110 min."
-  },
-  {
-    "data": "2026-06-28T11:50:39.119Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"Trump confirma ataques dos EUA contra alvos do Irã e alerta para ‘violação’ do cessar-fogo\".",
-    "postId": "18098041868213639",
-    "storyId": null,
-    "reelId": "18098041868213639",
-    "tipo": "reel"
-  },
-  {
-    "data": "2026-06-28T11:48:41.462Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 39): \"Trump confirma ataques dos EUA contra alvos do Irã e alerta para ‘violação’ do cessar-fogo\". Realizando postagem..."
   }
 ]
