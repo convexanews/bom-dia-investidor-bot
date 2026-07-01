@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-01T09:04:25.194Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Warsh, emprego nos EUA, pesquisa AtlasIntel e mais destaques desta quarta-feira\".",
+    "postId": "18206263099357069",
+    "storyId": null,
+    "reelId": "18206263099357069",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-07-01T09:01:12.580Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 93): \"Warsh, emprego nos EUA, pesquisa AtlasIntel e mais destaques desta quarta-feira\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-01T08:31:09.495Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (05:31 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1124,19 +1138,5 @@
     "data": "2026-06-28T10:00:59.509Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
-  },
-  {
-    "data": "2026-06-28T09:42:40.415Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 110 min."
-  },
-  {
-    "data": "2026-06-28T09:32:24.614Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (card): \"Bitcoin se mantém acima de US$ 60.000 com saídas de ETFs e perspectivas do Fed\".",
-    "postId": "18117133801861942",
-    "storyId": "18083191133445962",
-    "reelId": null,
-    "tipo": "card"
   }
 ]
