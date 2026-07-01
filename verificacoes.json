@@ -1,5 +1,11 @@
 [
   {
+    "data": "2026-07-01T13:32:24.093Z",
+    "resultado": "alerta_recorde",
+    "mensagem": "Alerta de recorde publicado: Ibovespa (NOVA MÍNIMA).",
+    "postId": "18107141890800455"
+  },
+  {
     "data": "2026-07-01T13:31:16.496Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
@@ -1129,14 +1135,5 @@
     "data": "2026-06-28T14:00:57.040Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 115 min."
-  },
-  {
-    "data": "2026-06-28T13:55:38.141Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"Inter vê chance rara na renda fixa e destaca retorno de mais de 3.000% do IPCA+8%\".",
-    "postId": "17944792716210191",
-    "storyId": null,
-    "reelId": "17944792716210191",
-    "tipo": "reel"
   }
 ]
