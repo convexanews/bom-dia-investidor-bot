@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-01T00:02:33.790Z",
+    "titulo": "Petrobras (PETR4) diz que preço do diesel vai se manter após reajuste e suspensão de desconto",
+    "categoria": "Economia",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/petrobras-petr4-diz-que-preco-do-diesel-vai-se-manter-apos-reajuste-e-suspensao-de-desconto/",
+    "postId": "18331230832253552",
+    "storyId": null,
+    "reelId": null,
+    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1782864109627-slide1.png",
+    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1782864109627-slide2.png",
+    "videoUrl": null,
+    "tipo": "carrossel",
+    "peso": 19
+  },
+  {
     "data": "2026-06-30T21:33:36.657Z",
     "titulo": "Ibovespa perde carona em recorde de Wall Street e recua com Petrobras (PETR4); dólar cai a R$ 5,16",
     "categoria": "Mercados",

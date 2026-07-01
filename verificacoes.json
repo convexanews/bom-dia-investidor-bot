@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-01T00:02:33.791Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (carrossel): \"Petrobras (PETR4) diz que preço do diesel vai se manter após reajuste e suspensão de desconto\".",
+    "postId": "18331230832253552",
+    "storyId": null,
+    "reelId": null,
+    "tipo": "carrossel"
+  },
+  {
+    "data": "2026-07-01T00:01:12.228Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 19): \"Petrobras (PETR4) diz que preço do diesel vai se manter após reajuste e suspensão de desconto\". Realizando postagem..."
+  },
+  {
     "data": "2026-06-30T23:30:57.745Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
@@ -1117,22 +1131,5 @@
     "data": "2026-06-28T01:01:02.013Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (22:01 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-06-28T00:31:14.187Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 36 min."
-  },
-  {
-    "data": "2026-06-28T00:00:55.254Z",
-    "resultado": "reel_postado",
-    "mensagem": "Resumo em vídeo do dia publicado com 3 notícia(s).",
-    "reelId": "18132589237597608",
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1782604793470.mp4",
-    "noticias": [
-      "Bitcoin se mantém acima de US$ 60.000 enquanto modelo de financiamento da Strategy enfrenta escrutínio",
-      "Lucros do setor industrial na China seguem resilientes em maio",
-      "EUA realizam novos ataques contra alvos militares no Irã após investida a petroleiro"
-    ]
   }
 ]
