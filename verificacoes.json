@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-01T11:01:09.108Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 4 min."
+  },
+  {
     "data": "2026-07-01T10:31:02.533Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 34 min."
@@ -1133,10 +1138,5 @@
     "data": "2026-06-28T11:48:41.462Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 39): \"Trump confirma ataques dos EUA contra alvos do Irã e alerta para ‘violação’ do cessar-fogo\". Realizando postagem..."
-  },
-  {
-    "data": "2026-06-28T11:31:03.803Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
   }
 ]
