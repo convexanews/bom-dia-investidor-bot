@@ -67,16 +67,39 @@ async function baixarImagemBase64(url) {
   }
 }
 
-// Conjuntos rotativos — repetir as mesmas hashtags em todo post pode ser
-// tratado como spam pelo algoritmo do Instagram e reduzir o alcance.
-const CONJUNTOS_HASHTAGS = [
-  '#investimentos #bolsadevalores #ibovespa #mercadofinanceiro #dolar #acoes #b3 #financas #investidor #noticias',
-  '#economiabrasileira #rendavariavel #educacaofinanceira #bolsa #dividendos #fiis #investir #liberdadefinanceira #mercado #dinheiro',
-  '#rendafixa #tesourodireto #selic #inflacao #juros #patrimonio #independenciafinanceira #financaspessoais #economia #trading',
+// Estratégia de hashtags em 3 camadas (misturar volumes melhora alcance):
+// 1. Gigantes (milhões de posts) — visibilidade ampla, rotacionam por dia
+// 2. Por assunto — casam com o conteúdo da notícia, onde o algoritmo
+//    realmente entrega pra quem se interessa pelo tema
+// 3. Nicho/comunidade — menor volume, mais chance de ranquear no topo
+const HASHTAGS_GIGANTES = [
+  '#dinheiro #investimentos #empreendedorismo #sucesso #rendaextra',
+  '#financas #negocios #riqueza #prosperidade #metas',
+  '#educacaofinanceira #mentalidade #foco #liberdadefinanceira #brasil',
 ];
-function escolherHashtags() {
+
+const HASHTAGS_POR_ASSUNTO = {
+  selic:    '#selic #rendafixa #tesourodireto #cdb #jurosaltos',
+  dolar:    '#dolar #cambio #dolarhoje #economiabrasileira #moeda',
+  bitcoin:  '#bitcoin #criptomoedas #btc #cripto #blockchain',
+  fii:      '#fiis #fundosimobiliarios #dividendos #rendapassiva #vivaderenda',
+  dividendo:'#dividendos #rendapassiva #vivaderenda #buyandhold #carteiradeinvestimentos',
+  positivo: '#bolsadevalores #ibovespa #acoes #b3 #daytrade',
+  negativo: '#bolsadevalores #ibovespa #crise #protecaopatrimonial #gestaoderisco',
+  padrao:   '#mercadofinanceiro #bolsadevalores #ibovespa #acoes #b3',
+};
+
+const HASHTAGS_NICHO = [
+  '#bomdiainvestidor #investidorbrasileiro #noticiasdomercado #mercadohoje #analisedemercado',
+  '#investidoriniciante #aprenderainvestir #vidadeinvestidor #jornadafinanceira #dicasdeinvestimento',
+];
+
+function escolherHashtags(tipoSentimento = 'padrao') {
   const diaDoAno = Math.floor(Date.now() / 86400000);
-  return CONJUNTOS_HASHTAGS[diaDoAno % CONJUNTOS_HASHTAGS.length];
+  const gigantes = HASHTAGS_GIGANTES[diaDoAno % HASHTAGS_GIGANTES.length];
+  const assunto = HASHTAGS_POR_ASSUNTO[tipoSentimento] || HASHTAGS_POR_ASSUNTO.padrao;
+  const nicho = HASHTAGS_NICHO[diaDoAno % HASHTAGS_NICHO.length];
+  return `${assunto} ${gigantes} ${nicho}`;
 }
 
 const CTAS = [
@@ -146,7 +169,7 @@ function montarLegenda(cfg) {
   const cta = CTAS[Math.floor(Date.now() / 1000) % CTAS.length];
   const contexto = CONTEXTOS[cfg.sentimento?.tipo || 'padrao'] || CONTEXTOS.padrao;
   const base = `${cfg.manchete}\n\n${cfg.resumo || ''}\n\n${contexto}\n\nFonte: ${cfg.fonte || ''}`;
-  return `${base}\n\n${cta}\n\n📊 Fique por dentro de mais notícias do mercado financeiro: https://bomdiainvestidor.com.br/\n\n${escolherHashtags()}`;
+  return `${base}\n\n${cta}\n\n📊 Fique por dentro de mais notícias do mercado financeiro: https://bomdiainvestidor.com.br/\n\n${escolherHashtags(cfg.sentimento?.tipo)}`;
 }
 
 function estaNoHorarioPico() {
