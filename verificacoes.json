@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-02T09:03:23.928Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Payroll nos EUA, taxa de desemprego na Europa, falas de Durigan e mais destaques hoje\".",
+    "postId": "18106044008045100",
+    "storyId": null,
+    "reelId": "18106044008045100",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-07-02T09:01:18.391Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 102): \"Payroll nos EUA, taxa de desemprego na Europa, falas de Durigan e mais destaques hoje\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-02T08:31:16.870Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (05:31 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1136,15 +1150,5 @@
     "data": "2026-06-29T10:30:55.668Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 33 min."
-  },
-  {
-    "data": "2026-06-29T10:11:17.190Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 53 min."
-  },
-  {
-    "data": "2026-06-29T10:01:22.644Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 63 min."
   }
 ]
