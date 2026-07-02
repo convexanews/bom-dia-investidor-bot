@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-02T09:31:04.972Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 93 min."
+  },
+  {
     "data": "2026-07-02T09:14:07.197Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 110 min."
@@ -1145,10 +1150,5 @@
     "data": "2026-06-29T11:31:08.902Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 38): \"Petrobras (PETR4) recebe R$ 170 milhões na 2ª parcela do programa de subvenção do diesel\". Realizando postagem..."
-  },
-  {
-    "data": "2026-06-29T11:00:58.905Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
   }
 ]
