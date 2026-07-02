@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-02T17:54:00.899Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"BlackRock diz que é hora da renda fixa e vê Brasil como uma das estrelas\".",
+    "postId": "18071560199363685",
+    "storyId": null,
+    "reelId": "18071560199363685",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-07-02T17:52:00.176Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 61): \"BlackRock diz que é hora da renda fixa e vê Brasil como uma das estrelas\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-02T17:31:33.233Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
@@ -1137,19 +1151,5 @@
     "data": "2026-06-29T20:01:14.325Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 63 min."
-  },
-  {
-    "data": "2026-06-29T19:31:18.512Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 93 min."
-  },
-  {
-    "data": "2026-06-29T19:03:37.220Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"B3 inicia negociação de contratos de eventos de IPCA e PIB\".",
-    "postId": "18086926040421847",
-    "storyId": null,
-    "reelId": "18086926040421847",
-    "tipo": "reel"
   }
 ]
