@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-02T19:31:14.703Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 23 min."
+  },
+  {
     "data": "2026-07-02T19:29:49.304Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 25 min."
@@ -1146,10 +1151,5 @@
     "storyId": null,
     "reelId": "18064564604711044",
     "tipo": "reel"
-  },
-  {
-    "data": "2026-06-29T21:31:01.071Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 66): \"Bradesco eleva PIB de 2026 e vê inflação e Selic maiores neste ano e em 2027\". Realizando postagem..."
   }
 ]
