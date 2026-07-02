@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-02T20:03:07.300Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (carrossel): \"Papel ou tijolo? Santander muda estratégia e revela os melhores FIIs para julho\".",
+    "postId": "17921313840390300",
+    "storyId": "17897726160529565",
+    "reelId": null,
+    "tipo": "carrossel"
+  },
+  {
+    "data": "2026-07-02T20:01:10.813Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 24): \"Papel ou tijolo? Santander muda estratégia e revela os melhores FIIs para julho\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-02T19:31:14.703Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 23 min."
@@ -1137,19 +1151,5 @@
     "data": "2026-06-29T22:01:10.623Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 93 min."
-  },
-  {
-    "data": "2026-06-29T21:53:15.917Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 101 min."
-  },
-  {
-    "data": "2026-06-29T21:33:33.203Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"Bradesco eleva PIB de 2026 e vê inflação e Selic maiores neste ano e em 2027\".",
-    "postId": "18064564604711044",
-    "storyId": null,
-    "reelId": "18064564604711044",
-    "tipo": "reel"
   }
 ]
