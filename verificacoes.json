@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-02T14:31:14.436Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 50 min."
+  },
+  {
     "data": "2026-07-02T14:01:18.286Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 80 min."
@@ -1141,10 +1146,5 @@
     "storyId": null,
     "reelId": "17962294461129212",
     "tipo": "reel"
-  },
-  {
-    "data": "2026-06-29T16:31:17.198Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 68): \"“Kit Brasil”: investidores estão em alerta e de olho no próximo gatilho para ativos\". Realizando postagem..."
   }
 ]
