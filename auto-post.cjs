@@ -7,6 +7,7 @@ const path = require('path');
 const { execSync } = require('child_process');
 const { buscarNoticias, titulosSimilares } = require('./coletor_noticias.cjs');
 const { gerarCard } = require('./gerar_card_noticia.cjs');
+const { gerarSlide, dividirResumo } = require('./gerar_slide_carrossel.cjs');
 const { gerarVideoTikTok, montarLegendaTikTok } = require('./gerar_tiktok.cjs');
 
 const PESO_MINIMO_REEL = 30;
@@ -489,20 +490,48 @@ async function main() {
     salvarJson(TIKTOK_POSTADAS_FILE, tiktokPostadas.slice(0, 200));
 
   } else if (formato === 'carrossel') {
-    // === CARROSSEL (2 slides: manchete + resumo) ===
-    const nomeSlide1 = `noticia-${ts}-slide1.png`;
-    const nomeSlide2 = `noticia-${ts}-slide2.png`;
-    await gerarCard(cfg, path.join(cardsDir, nomeSlide1));
-    await gerarCard({ ...cfg, formato: 'story' }, path.join(cardsDir, nomeSlide2));
+    // === CARROSSEL RICO (5-6 slides) ===
+    // Capa (foto + manchete) > resumo em 1-2 slides > "e pra você?" >
+    // pergunta de engajamento > CTA "siga". Carrosséis com mais slides
+    // retêm mais tempo de visualização e são re-servidos pelo algoritmo
+    // pra quem não deslizou até o fim.
+    const slidesCfg = [];
+    const blocosResumo = dividirResumo(cfg.resumo, 2);
+    blocosResumo.forEach(b => slidesCfg.push({ kicker: 'O que aconteceu', texto: b }));
+
+    const contextoBruto = CONTEXTOS[cfg.sentimento?.tipo || 'padrao'] || CONTEXTOS.padrao;
+    const contextoTexto = contextoBruto.replace(/^.*?O que isso significa para você: /, '');
+    slidesCfg.push({ kicker: 'E pra você?', texto: contextoTexto.charAt(0).toUpperCase() + contextoTexto.slice(1) });
+    slidesCfg.push({ kicker: 'Participa', texto: cfg.pergunta || 'O que você acha disso? Comenta! 👇', rodapeDireita: 'comenta aqui 👇' });
+
+    const totalSlides = 1 + slidesCfg.length + 1; // capa + internos + final
+    const nomes = [];
+
+    // Capa: card de notícia com a foto
+    const nomeCapa = `noticia-${ts}-slide1.png`;
+    await gerarCard(cfg, path.join(cardsDir, nomeCapa));
+    nomes.push(nomeCapa);
+
+    for (let i = 0; i < slidesCfg.length; i++) {
+      const nome = `noticia-${ts}-slide${i + 2}.png`;
+      await gerarSlide({ ...slidesCfg[i], contador: `${i + 2}/${totalSlides}` }, path.join(cardsDir, nome));
+      nomes.push(nome);
+    }
+
+    const nomeFinal = `noticia-${ts}-slide${totalSlides}.png`;
+    await gerarSlide({ final: true }, path.join(cardsDir, nomeFinal));
+    nomes.push(nomeFinal);
+
+    // Story continua saindo junto (superfície extra de alcance)
+    const nomeStory = `noticia-${ts}-story.png`;
+    await gerarCard({ ...cfg, formato: 'story' }, path.join(cardsDir, nomeStory));
 
     git('git config user.email "bot@bomdiainvestidor.com.br"', PAGES_DIR);
     git('git config user.name "Bom Dia Investidor Bot"', PAGES_DIR);
-    git(`git add bdi-cards/${nomeSlide1} bdi-cards/${nomeSlide2}`, PAGES_DIR);
+    git(`git add ${nomes.map(n => `bdi-cards/${n}`).join(' ')} bdi-cards/${nomeStory}`, PAGES_DIR);
     git(`git commit -m "Carrossel: ${cfg.manchete.slice(0, 60)}"`, PAGES_DIR);
     git('git push', PAGES_DIR);
 
-    const slide1Url = `${PAGES_RAW_BASE}/${nomeSlide1}`;
-    const slide2Url = `${PAGES_RAW_BASE}/${nomeSlide2}`;
     await new Promise(r => setTimeout(r, 15000));
 
     // Cria containers de cada slide
@@ -512,11 +541,13 @@ async function main() {
       if (!d.id) throw new Error('Erro ao criar item do carrossel: ' + JSON.stringify(d));
       return d.id;
     };
-    const item1 = await criarItem(slide1Url);
-    const item2 = await criarItem(slide2Url);
+    const itens = [];
+    for (const nome of nomes) {
+      itens.push(await criarItem(`${PAGES_RAW_BASE}/${nome}`));
+    }
 
     // Cria container do carrossel
-    const carouselResp = await fetch(`${IG_API_BASE}/${IG_ACCOUNT_ID}/media?media_type=CAROUSEL&children=${item1},${item2}&caption=${encodeURIComponent(legenda)}&access_token=${IG_TOKEN}`, { method: 'POST' });
+    const carouselResp = await fetch(`${IG_API_BASE}/${IG_ACCOUNT_ID}/media?media_type=CAROUSEL&children=${itens.join(',')}&caption=${encodeURIComponent(legenda)}&access_token=${IG_TOKEN}`, { method: 'POST' });
     const carouselData = await carouselResp.json();
     if (!carouselData.id) throw new Error('Erro ao criar carrossel: ' + JSON.stringify(carouselData));
 
@@ -526,9 +557,16 @@ async function main() {
     if (!pubData.id) throw new Error('Erro ao publicar carrossel: ' + JSON.stringify(pubData));
 
     postId = pubData.id;
-    imageUrl = slide1Url;
-    storyImageUrl = slide2Url;
-    console.log('Carrossel publicado no Instagram! ID:', postId);
+    imageUrl = `${PAGES_RAW_BASE}/${nomes[0]}`;
+    storyImageUrl = `${PAGES_RAW_BASE}/${nomeStory}`;
+    console.log(`Carrossel de ${totalSlides} slides publicado no Instagram! ID:`, postId);
+
+    try {
+      storyId = await publicarStory(storyImageUrl);
+      console.log('Publicado no story! ID:', storyId);
+    } catch (e) {
+      console.log('Erro ao publicar o story (carrossel ja foi publicado):', e.message);
+    }
 
   } else {
     // === CARD ESTÁTICO ===
