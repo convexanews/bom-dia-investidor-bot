@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-02T08:13:30.938Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (05:13 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-07-02T08:01:09.665Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (05:01 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1141,14 +1146,5 @@
     "data": "2026-06-29T09:31:11.846Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 93 min."
-  },
-  {
-    "data": "2026-06-29T09:03:45.485Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"Gastos de turistas estrangeiros no Brasil soma R$ 25 bilhões em cinco meses\".",
-    "postId": "18078000638460345",
-    "storyId": null,
-    "reelId": "18078000638460345",
-    "tipo": "reel"
   }
 ]
