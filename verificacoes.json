@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-02T07:31:03.280Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (04:31 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-07-02T07:01:08.480Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (04:01 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1145,10 +1150,5 @@
     "data": "2026-06-29T09:01:24.793Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 39): \"Gastos de turistas estrangeiros no Brasil soma R$ 25 bilhões em cinco meses\". Realizando postagem..."
-  },
-  {
-    "data": "2026-06-29T08:31:04.770Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (05:31 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
