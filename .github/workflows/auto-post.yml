@@ -53,8 +53,12 @@ jobs:
           git config user.name "Bom Dia Investidor Bot"
           git add noticias-postadas.json relatorio.json verificacoes.json tiktok-postadas.json
           git diff --cached --quiet || git commit -m "Atualiza registro de postagens automaticas"
-          git pull --rebase origin main
-          git push
+          for i in 1 2 3; do
+            git pull --rebase -X theirs origin main && git push && exit 0
+            git rebase --abort 2>/dev/null || true
+            sleep 5
+          done
+          echo "Falha ao salvar estado apos 3 tentativas" && exit 1
 
       - name: Verificar se deve gerar reel do meio-dia (12h BRT = 15h UTC)
         id: check_reel
@@ -98,8 +102,12 @@ jobs:
           git config user.name "Bom Dia Investidor Bot"
           git add verificacoes.json
           git diff --cached --quiet || git commit -m "Atualiza registro do reel diario"
-          git pull --rebase origin main
-          git push
+          for i in 1 2 3; do
+            git pull --rebase -X theirs origin main && git push && exit 0
+            git rebase --abort 2>/dev/null || true
+            sleep 5
+          done
+          echo "Falha ao salvar estado apos 3 tentativas" && exit 1
 
       # Carrossel de fechamento e carrossel educativo tem workflows dedicados
       # (fechamento-mercado.yml e carrossel-educativo.yml) que rodam exatamente
@@ -121,5 +129,9 @@ jobs:
           git config user.name "Bom Dia Investidor Bot"
           git add verificacoes.json alerta-recorde-estado.json
           git diff --cached --quiet || git commit -m "Atualiza registro de alerta de recorde"
-          git pull --rebase origin main
-          git push
+          for i in 1 2 3; do
+            git pull --rebase -X theirs origin main && git push && exit 0
+            git rebase --abort 2>/dev/null || true
+            sleep 5
+          done
+          echo "Falha ao salvar estado apos 3 tentativas" && exit 1

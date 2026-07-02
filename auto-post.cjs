@@ -5,7 +5,7 @@
 const fs = require('fs');
 const path = require('path');
 const { execSync } = require('child_process');
-const { buscarNoticias } = require('./coletor_noticias.cjs');
+const { buscarNoticias, titulosSimilares } = require('./coletor_noticias.cjs');
 const { gerarCard } = require('./gerar_card_noticia.cjs');
 const { gerarVideoTikTok, montarLegendaTikTok } = require('./gerar_tiktok.cjs');
 
@@ -216,6 +216,25 @@ async function publicarReel(videoUrl, legenda) {
   return publishData.id;
 }
 
+// Consulta os últimos posts publicados no Instagram — é a fonte da verdade
+// DEFINITIVA contra duplicatas: mesmo que o registro local se perca (falha de
+// push, conflito de git, execução paralela), o que já está no perfil nunca é
+// postado de novo. A primeira linha da legenda é sempre a manchete.
+async function buscarCaptionsRecentes() {
+  try {
+    const resp = await fetch(`${IG_API_BASE}/${IG_ACCOUNT_ID}/media?fields=caption,timestamp&limit=25&access_token=${IG_TOKEN}`);
+    const data = await resp.json();
+    const DOIS_DIAS_MS = 48 * 60 * 60 * 1000;
+    return (data.data || [])
+      .filter(m => m.caption && (Date.now() - new Date(m.timestamp).getTime()) < DOIS_DIAS_MS)
+      .map(m => m.caption.split('\n')[0].trim())
+      .filter(Boolean);
+  } catch (e) {
+    console.log('Aviso: não foi possível consultar posts recentes do Instagram:', e.message);
+    return [];
+  }
+}
+
 async function publicarStory(imageUrl) {
   const createUrl = `${IG_API_BASE}/${IG_ACCOUNT_ID}/media?image_url=${encodeURIComponent(imageUrl)}&media_type=STORIES&access_token=${IG_TOKEN}`;
   const createResp = await fetch(createUrl, { method: 'POST' });
@@ -333,8 +352,17 @@ async function main() {
     (agora - n.publicadoEm) <= UMA_HORA_MS
   );
 
+  // Camada final de dedup: consulta o PRÓPRIO Instagram e descarta qualquer
+  // candidata cujo título já apareça na legenda de um post das últimas 48h.
+  const captionsRecentes = await buscarCaptionsRecentes();
+  console.log(`Dedup Instagram: ${captionsRecentes.length} legendas recentes consultadas.`);
+
   // Se não houver notícia nova na última 1h, não posta (evita conteúdo desatualizado)
-  const nova = candidatas[0] || null;
+  const nova = candidatas.find(c => {
+    const jaNoPerfil = captionsRecentes.some(cap => titulosSimilares(c.titulo, cap));
+    if (jaNoPerfil) console.log(`Pulando (já está no perfil): ${c.titulo.slice(0, 70)}`);
+    return !jaNoPerfil;
+  }) || null;
 
   if (!nova) {
     console.log('Nenhuma noticia nova na última 1h. Nada a postar.');
