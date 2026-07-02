@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-02T15:32:51.030Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (card): \"Ibovespa fecha mês no ‘zero a zero’, mas essas 3 ações do mesmo setor dispararam mais de 10% no período: qual o segredo?\".",
+    "postId": "18089247185395190",
+    "storyId": "18604536280042408",
+    "reelId": null,
+    "tipo": "card"
+  },
+  {
+    "data": "2026-07-02T15:31:29.064Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 44): \"Ibovespa fecha mês no ‘zero a zero’, mas essas 3 ações do mesmo setor dispararam mais de 10% no período: qual o segredo?\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-02T15:02:53.202Z",
     "resultado": "reel_postado",
     "mensagem": "Resumo em vídeo do dia publicado com 2 notícia(s).",
@@ -1138,15 +1152,5 @@
     "resultado": "alerta_recorde",
     "mensagem": "Alerta de recorde publicado: Bitcoin (NOVA MÁXIMA).",
     "postId": "18028687889820926"
-  },
-  {
-    "data": "2026-06-29T17:31:05.766Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 63 min."
-  },
-  {
-    "data": "2026-06-29T17:00:59.407Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 93 min."
   }
 ]
