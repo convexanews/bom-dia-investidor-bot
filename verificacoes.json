@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-02T11:31:21.824Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 100 min."
+  },
+  {
     "data": "2026-07-02T11:11:09.272Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"Mercado cauteloso à espera do payroll; Ibovespa em dólar cai hoje (2)\".",
@@ -1145,10 +1150,5 @@
     "data": "2026-06-29T14:01:08.188Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 53): \"Governo central registra déficit primário de R$ 53,3 bilhões em maio\". Realizando postagem..."
-  },
-  {
-    "data": "2026-06-29T13:31:01.284Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
   }
 ]
