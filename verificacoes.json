@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-02T14:01:18.286Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 80 min."
+  },
+  {
     "data": "2026-07-02T13:30:59.068Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 110 min."
@@ -1141,10 +1146,5 @@
     "data": "2026-06-29T16:31:17.198Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 68): \"“Kit Brasil”: investidores estão em alerta e de olho no próximo gatilho para ativos\". Realizando postagem..."
-  },
-  {
-    "data": "2026-06-29T16:00:58.648Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
   }
 ]
