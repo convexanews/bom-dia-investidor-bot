@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-02T22:31:07.946Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 102 min."
+  },
+  {
     "data": "2026-07-02T22:12:29.986Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (card): \"Produção da Prio (PRIO3) bate recorde no ano\".",
@@ -1146,14 +1151,5 @@
     "data": "2026-06-30T01:00:57.103Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (22:00 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-06-30T00:32:13.797Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (carrossel): \"RCRB11 recebe exercício de preferência de inquilino na venda do Parque Cultural Paulista\".",
-    "postId": "17896482528473011",
-    "storyId": null,
-    "reelId": null,
-    "tipo": "carrossel"
   }
 ]
