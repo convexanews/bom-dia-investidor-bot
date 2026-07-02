@@ -94,20 +94,26 @@ const HASHTAGS_NICHO = [
   '#investidoriniciante #aprenderainvestir #vidadeinvestidor #jornadafinanceira #dicasdeinvestimento',
 ];
 
+// 5 hashtags no total — desde 2024/25 o Instagram prioriza palavras-chave na
+// legenda; listas longas de hashtags diluem o sinal e parecem spam. O ideal
+// atual é 3-5 tags muito relevantes ao conteúdo.
 function escolherHashtags(tipoSentimento = 'padrao') {
   const diaDoAno = Math.floor(Date.now() / 86400000);
-  const gigantes = HASHTAGS_GIGANTES[diaDoAno % HASHTAGS_GIGANTES.length];
-  const assunto = HASHTAGS_POR_ASSUNTO[tipoSentimento] || HASHTAGS_POR_ASSUNTO.padrao;
-  const nicho = HASHTAGS_NICHO[diaDoAno % HASHTAGS_NICHO.length];
-  return `${assunto} ${gigantes} ${nicho}`;
+  const assunto = (HASHTAGS_POR_ASSUNTO[tipoSentimento] || HASHTAGS_POR_ASSUNTO.padrao).split(' ').slice(0, 3);
+  const gigante = HASHTAGS_GIGANTES[diaDoAno % HASHTAGS_GIGANTES.length].split(' ')[diaDoAno % 5];
+  const nicho = HASHTAGS_NICHO[diaDoAno % HASHTAGS_NICHO.length].split(' ')[diaDoAno % 5];
+  return [...assunto, gigante, nicho].join(' ');
 }
 
+// Compartilhamento via DM é o sinal mais forte do algoritmo (Adam Mosseri),
+// seguido de salvamentos — os CTAs priorizam essas duas ações.
 const CTAS = [
-  '💬 Comente o que você acha disso!',
-  '📌 Salve para não perder essa informação!',
-  '👇 Marque um amigo investidor!',
-  '🔔 Ative as notificações para não perder nada!',
-  '🤔 Concorda? Comente abaixo!',
+  '📤 Envia essa notícia pra aquele amigo que investe!',
+  '📌 Salva esse post pra consultar depois!',
+  '📤 Compartilha com quem precisa saber disso hoje!',
+  '📌 Salva aqui pra não esquecer dessa informação!',
+  '💬 Concorda? Comenta o que você acha!',
+  '📤 Manda pro grupo de investimentos!',
 ];
 
 const SENTIMENTOS = [
@@ -414,17 +420,29 @@ async function main() {
   let imageUrl = null;
   let storyImageUrl = null;
 
-  // Alternância de formatos: reel > carrossel > card > reel > ...
-  // Alto impacto (peso >= 30) sempre vira reel narrado
-  // Demais alternam entre carrossel (2 slides: feed + story) e card estático
+  // Alternância REAL de formatos: reel > carrossel > card > reel > ...
+  // O algoritmo do Instagram trata cada formato de um jeito: reels dão mais
+  // alcance (~2,3x), carrosséis têm o maior engajamento e ganham "segunda
+  // chance" na entrega (re-servidos pra quem não deslizou), e a variedade de
+  // formatos por si só melhora a distribuição do perfil.
+  // Antes o limite de "alto impacto" (peso 30) era tão baixo que quase toda
+  // notícia virava reel e o revezamento nunca acontecia.
   const FORMATOS = ['reel', 'carrossel', 'card'];
   const tiposRecentes = relatorio.slice(0, 5).map(r => r.tipo || 'card');
   const ultimoTipo = tiposRecentes[0] || 'card';
   const idxUltimo = FORMATOS.indexOf(ultimoTipo);
   const proximoFormato = FORMATOS[(idxUltimo + 1) % FORMATOS.length];
 
-  const ehAltoImpacto = (nova.peso || 0) >= PESO_MINIMO_REEL;
-  const formato = ehAltoImpacto ? 'reel' : proximoFormato === 'reel' ? 'carrossel' : proximoFormato;
+  // peso >= 60: notícia realmente bombástica, sempre reel narrado
+  // peso >= 30: pode ser reel, mas só se for a vez dele no revezamento
+  // peso < 30: segue o revezamento pulando o reel (carrossel ou card)
+  const ehAltoImpacto = (nova.peso || 0) >= 60;
+  const podeSerReel = (nova.peso || 0) >= PESO_MINIMO_REEL;
+  const formato = ehAltoImpacto
+    ? 'reel'
+    : proximoFormato === 'reel' && !podeSerReel
+      ? 'carrossel'
+      : proximoFormato;
 
   console.log(`Formato escolhido: ${formato} (peso ${nova.peso}, último: ${ultimoTipo})`);
 
