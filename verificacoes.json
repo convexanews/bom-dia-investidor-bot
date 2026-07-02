@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-02T13:20:41.555Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (carrossel): \"Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta quinta\".",
+    "postId": "17886870102418545",
+    "storyId": "18006770207936549",
+    "reelId": null,
+    "tipo": "carrossel"
+  },
+  {
+    "data": "2026-07-02T13:18:53.949Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 58): \"Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta quinta\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-02T13:03:25.171Z",
     "resultado": "story_glossario",
     "mensagem": "Story do glossário publicado: \"Diversificação\"",
@@ -1132,20 +1146,5 @@
     "data": "2026-06-29T15:31:06.216Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 33 min."
-  },
-  {
-    "data": "2026-06-29T15:02:43.711Z",
-    "resultado": "reel_postado",
-    "mensagem": "Resumo em vídeo do dia publicado com 1 notícia(s).",
-    "reelId": "18129224230533558",
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1782745308674.mp4",
-    "noticias": [
-      "Calendário econômico da semana: dados de trabalho nos EUA e no Brasil serão foco"
-    ]
-  },
-  {
-    "data": "2026-06-29T15:01:14.054Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 63 min."
   }
 ]
