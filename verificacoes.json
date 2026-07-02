@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-02T11:11:09.272Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Mercado cauteloso à espera do payroll; Ibovespa em dólar cai hoje (2)\".",
+    "postId": "18103231409276633",
+    "storyId": null,
+    "reelId": "18103231409276633",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-07-02T11:08:55.794Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 70): \"Mercado cauteloso à espera do payroll; Ibovespa em dólar cai hoje (2)\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-02T11:01:31.708Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
@@ -1136,15 +1150,5 @@
     "data": "2026-06-29T13:31:01.284Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
-  },
-  {
-    "data": "2026-06-29T13:01:12.474Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 33 min."
-  },
-  {
-    "data": "2026-06-29T12:31:00.265Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 63 min."
   }
 ]
