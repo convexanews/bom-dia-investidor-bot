@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-02T20:31:21.563Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
+  },
+  {
     "data": "2026-07-02T20:03:07.300Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (carrossel): \"Papel ou tijolo? Santander muda estratégia e revela os melhores FIIs para julho\".",
@@ -1146,10 +1151,5 @@
       "HAPV3 +1,07%",
       "USIM5 +0,73%"
     ]
-  },
-  {
-    "data": "2026-06-29T22:01:10.623Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 93 min."
   }
 ]
