@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-02T22:12:29.986Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (card): \"Produção da Prio (PRIO3) bate recorde no ano\".",
+    "postId": "18013836839716053",
+    "storyId": "18136185775524233",
+    "reelId": null,
+    "tipo": "card"
+  },
+  {
+    "data": "2026-07-02T22:10:58.227Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 50): \"Produção da Prio (PRIO3) bate recorde no ano\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-02T22:01:09.789Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
@@ -1141,15 +1155,5 @@
     "storyId": null,
     "reelId": null,
     "tipo": "carrossel"
-  },
-  {
-    "data": "2026-06-30T00:31:03.722Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 25): \"RCRB11 recebe exercício de preferência de inquilino na venda do Parque Cultural Paulista\". Realizando postagem..."
-  },
-  {
-    "data": "2026-06-30T00:01:44.215Z",
-    "resultado": "sem_reel",
-    "mensagem": "Nenhuma notícia postada nas últimas 24h. Resumo em vídeo não foi gerado."
   }
 ]

@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-02T22:12:29.984Z",
+    "titulo": "Produção da Prio (PRIO3) bate recorde no ano",
+    "categoria": "Empresas",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/producao-da-prio-prio3-bate-recorde-no-ano/",
+    "postId": "18013836839716053",
+    "storyId": "18136185775524233",
+    "reelId": null,
+    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783030298453-feed.png",
+    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783030298453-story.png",
+    "videoUrl": null,
+    "tipo": "card",
+    "peso": 50
+  },
+  {
     "data": "2026-07-02T20:03:07.299Z",
     "titulo": "Papel ou tijolo? Santander muda estratégia e revela os melhores FIIs para julho",
     "categoria": "Economia",
