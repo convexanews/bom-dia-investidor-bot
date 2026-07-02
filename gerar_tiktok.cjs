@@ -32,11 +32,21 @@ async function gerarTTS(texto, saida) {
   return saida;
 }
 
+let logoB64Cache = null;
+function getLogoB64() {
+  if (!logoB64Cache) {
+    const buf = fs.readFileSync(path.join(__dirname, 'logo-bdi.jpeg'));
+    logoB64Cache = 'data:image/jpeg;base64,' + buf.toString('base64');
+  }
+  return logoB64Cache;
+}
+
 // Gera o frame estático (PNG 1080x1920) usando o template HTML
 async function gerarFrame(cfg, saida) {
   let template = fs.readFileSync(path.join(__dirname, 'tiktok-video.html'), 'utf8');
 
   template = template
+    .replace('{{LOGO_B64}}', getLogoB64())
     .replace('{{CATEGORIA}}', escapeHtml((cfg.categoria || 'MERCADO').toUpperCase()))
     .replace('{{MANCHETE}}', escapeHtml(cfg.manchete || ''))
     .replace('{{RESUMO}}', escapeHtml(cfg.resumo || ''))
@@ -115,7 +125,9 @@ async function gerarVideoTikTok(cfg, saida) {
   // Ken Burns zoom + legendas queimadas (subtitles filter)
   // Estilo minimalista: fonte branca leve com outline fino, sem caixa de fundo
   const srtEscaped = srtPath.replace(/\\/g, '/').replace(/:/g, '\\:');
-  const subtitleStyle = "FontName=Arial,FontSize=11,PrimaryColour=&H00FFFFFF,OutlineColour=&H90000000,BorderStyle=1,Outline=1,Shadow=0,MarginV=22,Alignment=2,Bold=0";
+  // Frame branco embaixo: legenda em texto escuro com contorno branco fino
+  // (cores ASS em formato BGR: #0f172a -> &H002A170F)
+  const subtitleStyle = "FontName=Arial,FontSize=11,PrimaryColour=&H002A170F,OutlineColour=&H00FFFFFF,BorderStyle=1,Outline=1.5,Shadow=0,MarginV=22,Alignment=2,Bold=0";
 
   console.log(`  Montando vídeo (${duracaoAudio}s) com legendas...`);
   execSync(

@@ -1,7 +1,8 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
 <style>
   * { margin: 0; padding: 0; box-sizing: border-box; }
 
@@ -9,219 +10,116 @@
     width: 1080px;
     height: 1920px;
     overflow: hidden;
-    font-family: 'Segoe UI', Arial, sans-serif;
-    background: #070b14;
+    font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+    background: #ffffff;
   }
 
-  .video-frame {
-    width: 1080px;
-    height: 1920px;
-    position: relative;
-    overflow: hidden;
-    background: linear-gradient(160deg, #060a13 0%, #0b1626 45%, #060a13 100%);
-  }
+  .video-frame { width: 1080px; height: 1920px; position: relative; overflow: hidden; background: #fff; }
 
-  .foto {
-    position: absolute;
-    top: 0; left: 0;
-    width: 1080px; height: 1920px;
-    object-fit: cover;
-    opacity: 0.35;
-    filter: blur(2px);
-  }
+  /* Foto da notícia no topo, colorida e nítida (sem véu azulado) */
+  .foto { position: absolute; top: 0; left: 0; width: 100%; height: 1060px; object-fit: cover; filter: saturate(1.05); }
+  .fallback-bg { position: absolute; top: 0; left: 0; width: 100%; height: 1060px; background: #f3f4f6; }
+  .fallback-icon { position: absolute; top: 0; left: 0; width: 100%; height: 1060px; display: flex; align-items: center; justify-content: center; font-size: 300px; opacity: 0.08; color: #0f172a; }
 
+  /* Degradê suave só na emenda com o painel branco */
   .overlay {
-    position: absolute;
-    top: 0; left: 0; right: 0; bottom: 0;
+    position: absolute; top: 0; left: 0; width: 100%; height: 1060px;
     background: linear-gradient(180deg,
-      rgba(6,10,19,0.7) 0%,
-      rgba(6,10,19,0.4) 30%,
-      rgba(6,10,19,0.4) 60%,
-      rgba(6,10,19,0.95) 100%);
+      rgba(255,255,255,0) 0%,
+      rgba(255,255,255,0) 72%,
+      rgba(255,255,255,0.95) 95%,
+      #ffffff 100%);
   }
 
-  .pulse-bg {
-    position: absolute;
-    top: 50%; left: 50%;
-    width: 600px; height: 600px;
-    transform: translate(-50%, -50%);
-    border-radius: 50%;
-    background: radial-gradient(circle, rgba(0,209,132,0.08) 0%, transparent 70%);
-  }
-
+  /* ── TOPBAR ── */
   .topbar {
-    position: absolute;
-    top: 80px; left: 0; right: 0;
-    display: flex;
-    justify-content: center;
-    z-index: 5;
+    position: absolute; top: 64px; left: 60px; right: 60px;
+    display: flex; align-items: center; justify-content: space-between; z-index: 10;
   }
+  .brand-pill {
+    display: flex; align-items: center; gap: 16px;
+    background: rgba(255,255,255,0.94);
+    border-radius: 999px; padding: 12px 30px 12px 14px;
+    box-shadow: 0 4px 18px rgba(15,23,42,0.14);
+  }
+  .brand-pill img { height: 58px; width: 58px; display: block; border-radius: 50%; object-fit: cover; }
+  .brand-text { display: flex; flex-direction: column; line-height: 1.12; }
+  .brand-text .t1 { font-size: 22px; font-weight: 900; color: #0f172a; letter-spacing: 0.5px; }
+  .brand-text .t2 { font-size: 14px; font-weight: 700; color: #c9920a; letter-spacing: 2px; text-transform: uppercase; }
+  .live-badge {
+    display: flex; align-items: center; gap: 12px;
+    background: rgba(255,255,255,0.94); border-radius: 999px; padding: 14px 26px;
+    box-shadow: 0 4px 18px rgba(15,23,42,0.14);
+    font-size: 22px; font-weight: 800; color: #0f172a; letter-spacing: 2px;
+  }
+  .live-dot { width: 14px; height: 14px; border-radius: 50%; background: #c9920a; }
 
-  .brand {
-    display: flex;
-    align-items: center;
-    gap: 14px;
-    background: rgba(0,209,132,0.12);
-    border: 1px solid rgba(0,209,132,0.3);
-    border-radius: 50px;
-    padding: 14px 30px 14px 20px;
+  /* ── PAINEL BRANCO ── */
+  .panel {
+    position: absolute; left: 0; right: 0; bottom: 0; top: 1010px;
+    padding: 40px 64px 0; background: transparent; z-index: 5;
+    display: flex; flex-direction: column; gap: 30px;
   }
-  .brand .icone {
-    width: 44px; height: 44px;
-    display: flex; align-items: center; justify-content: center;
-  }
-  .brand .icone img {
-    width: 100%; height: 100%;
-    object-fit: contain;
-  }
-  .brand .nome {
-    font-size: 26px;
-    font-weight: 800;
-    color: #ffffff;
-    letter-spacing: 0.3px;
-  }
-  .brand .nome span { color: #00D184; }
-
-  .alerta-bar {
-    position: absolute;
-    top: 180px; left: 60px; right: 60px;
-    display: flex;
-    align-items: center;
-    gap: 14px;
-    z-index: 5;
-  }
-  .alerta-icon {
-    font-size: 42px;
-    filter: drop-shadow(0 0 12px rgba(255,60,60,0.6));
-  }
-  .alerta-text {
-    font-size: 28px;
-    font-weight: 800;
-    color: #ff4444;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-  }
-
-  .conteudo {
-    position: absolute;
-    left: 60px; right: 60px;
-    top: 50%;
-    transform: translateY(-50%);
-    display: flex;
-    flex-direction: column;
-    gap: 36px;
-    z-index: 5;
-  }
-
   .tag {
     align-self: flex-start;
-    background: linear-gradient(135deg, #00D184, #00A8E8);
-    color: #04150f;
-    font-size: 28px;
-    font-weight: 800;
-    padding: 14px 34px;
-    border-radius: 50px;
-    letter-spacing: 1.5px;
-    text-transform: uppercase;
+    background: linear-gradient(135deg, #00b8a9, #00a8e8);
+    color: #ffffff; font-size: 26px; font-weight: 800;
+    letter-spacing: 2px; text-transform: uppercase;
+    padding: 12px 30px; border-radius: 12px;
   }
-
-  .manchete {
-    color: #ffffff;
-    font-size: 62px;
-    font-weight: 900;
-    line-height: 1.18;
-    max-height: 460px;
-    overflow: hidden;
-    text-shadow: 0 4px 24px rgba(0,0,0,.6);
+  .headline {
+    font-size: 62px; font-weight: 900; color: #0f172a;
+    line-height: 1.18; letter-spacing: -1px;
+    display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden;
   }
-
   .resumo {
-    color: rgba(255,255,255,0.75);
-    font-size: 34px;
-    font-weight: 400;
-    line-height: 1.4;
-    max-height: 240px;
-    overflow: hidden;
+    font-size: 30px; font-weight: 500; color: #475569; line-height: 1.5;
+    display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;
   }
-
-  .fonte-bar {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-  }
-  .fonte-dot {
-    width: 10px; height: 10px;
-    border-radius: 50%;
-    background: #00D184;
-  }
-  .fonte-text {
-    font-size: 24px;
-    color: rgba(255,255,255,0.5);
-    font-weight: 600;
-  }
+  .fonte-row { display: flex; flex-direction: column; gap: 4px; }
+  .fonte-label { font-size: 18px; font-weight: 700; color: #94a3b8; letter-spacing: 2px; text-transform: uppercase; }
+  .fonte-nome { font-size: 26px; font-weight: 800; color: #0f172a; }
 
   .rodape {
-    position: absolute;
-    left: 60px; right: 60px; bottom: 120px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 5;
+    position: absolute; bottom: 48px; left: 64px; right: 64px;
+    display: flex; justify-content: space-between; align-items: center;
+    font-size: 22px; font-weight: 600; color: #94a3b8; z-index: 5;
   }
-  .site {
-    font-size: 22px;
-    color: rgba(255,255,255,0.35);
-    font-weight: 600;
-  }
-  .tiktok-handle {
-    font-size: 24px;
-    color: #00D184;
-    font-weight: 700;
-  }
-
-  .linha-accent {
-    position: absolute;
-    bottom: 100px;
-    left: 60px; right: 60px;
-    height: 3px;
-    background: linear-gradient(90deg, #00D184, #00A8E8, transparent);
-    z-index: 5;
-  }
+  .rodape .handle { color: #c9920a; font-weight: 800; }
 </style>
 </head>
 <body>
-  <div class="video-frame">
-    <img class="foto" src="{{IMAGEM_URL}}" onerror="this.style.display='none'">
-    <div class="overlay"></div>
-    <div class="pulse-bg"></div>
+<div class="video-frame">
+  <div class="fallback-bg"></div>
+  <div class="fallback-icon">📈</div>
+  <img class="foto" src="{{IMAGEM_URL}}" onerror="this.style.display='none'">
+  <div class="overlay"></div>
 
-    <div class="topbar">
-      <div class="brand">
-        <div class="icone"><img src="logo-bdi-icon.png"></div>
-        <div class="nome">Bom Dia <span>Investidor</span></div>
+  <div class="topbar">
+    <div class="brand-pill">
+      <img src="{{LOGO_B64}}" alt="">
+      <div class="brand-text">
+        <span class="t1">BOM DIA INVESTIDOR</span>
+        <span class="t2">Informação · Estratégia</span>
       </div>
     </div>
+    <div class="live-badge"><span class="live-dot"></span>AO VIVO</div>
+  </div>
 
-    <div class="alerta-bar">
-      <div class="alerta-icon">🔴</div>
-      <div class="alerta-text">Notícia de Alto Impacto</div>
-    </div>
-
-    <div class="conteudo">
-      <div class="tag">{{CATEGORIA}}</div>
-      <div class="manchete">{{MANCHETE}}</div>
-      <div class="resumo">{{RESUMO}}</div>
-      <div class="fonte-bar">
-        <div class="fonte-dot"></div>
-        <div class="fonte-text">{{FONTE}}</div>
-      </div>
-    </div>
-
-    <div class="linha-accent"></div>
-    <div class="rodape">
-      <div class="site">bomdiainvestidor.com.br</div>
-      <div class="tiktok-handle">@bomdiainvestidor</div>
+  <div class="panel">
+    <div class="tag">{{CATEGORIA}}</div>
+    <div class="headline">{{MANCHETE}}</div>
+    <div class="resumo">{{RESUMO}}</div>
+    <div class="fonte-row">
+      <span class="fonte-label">Fonte</span>
+      <span class="fonte-nome">{{FONTE}}</span>
     </div>
   </div>
+
+  <div class="rodape">
+    <span>bomdiainvestidor.com.br</span>
+    <span class="handle">@bomdia_investidor</span>
+  </div>
+</div>
 </body>
 </html>
