@@ -1,5 +1,11 @@
 [
   {
+    "data": "2026-07-02T13:03:25.171Z",
+    "resultado": "story_glossario",
+    "mensagem": "Story do glossário publicado: \"Diversificação\"",
+    "postId": "18072523346355086"
+  },
+  {
     "data": "2026-07-02T13:01:07.021Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 11 min."
@@ -1141,10 +1147,5 @@
     "data": "2026-06-29T15:01:14.054Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 63 min."
-  },
-  {
-    "data": "2026-06-29T14:35:08.783Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 89 min."
   }
 ]
