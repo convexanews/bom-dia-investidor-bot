@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-02T09:14:07.197Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 110 min."
+  },
+  {
     "data": "2026-07-02T09:03:23.928Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"Payroll nos EUA, taxa de desemprego na Europa, falas de Durigan e mais destaques hoje\".",
@@ -1145,10 +1150,5 @@
     "data": "2026-06-29T11:00:58.905Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
-  },
-  {
-    "data": "2026-06-29T10:30:55.668Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 33 min."
   }
 ]
