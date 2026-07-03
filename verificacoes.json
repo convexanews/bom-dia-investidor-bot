@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-03T10:14:38.587Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 50 min."
+  },
+  {
     "data": "2026-07-03T10:01:07.997Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 63 min."
@@ -1153,11 +1158,5 @@
     "data": "2026-06-30T13:31:00.674Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
-  },
-  {
-    "data": "2026-06-30T13:12:39.057Z",
-    "resultado": "story_glossario",
-    "mensagem": "Story do glossário publicado: \"Liquidez\"",
-    "postId": "18124349872775563"
   }
 ]
