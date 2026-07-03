@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-03T17:59:36.748Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 31 min."
+  },
+  {
     "data": "2026-07-03T17:31:27.730Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 59 min."
@@ -1159,10 +1164,5 @@
     "data": "2026-06-30T21:15:24.661Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 90): \"Wall Street: Dow Jones fecha em recorde e tem melhor desempenho semestral em 5 anos\". Realizando postagem..."
-  },
-  {
-    "data": "2026-06-30T21:01:08.631Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
   }
 ]
