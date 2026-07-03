@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-03T13:31:03.530Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
+  },
+  {
     "data": "2026-07-03T13:02:37.270Z",
     "resultado": "story_glossario",
     "mensagem": "Story do glossário publicado: \"Renda Fixa\"",
@@ -1149,10 +1154,5 @@
     "data": "2026-06-30T16:31:12.425Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 29): \"Corretora comete gafe em e-mail, fica sem ações da SpaceX e pede desculpas\". Realizando postagem..."
-  },
-  {
-    "data": "2026-06-30T16:01:22.384Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
   }
 ]
