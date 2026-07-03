@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-03T21:02:41.139Z",
+    "titulo": "Dólar fecha a R$ 5,16, com queda de 0,76%, em pregão de liquidez reduzida",
+    "categoria": "Mercados",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/dolar-fecha-a-r-516-com-queda-de-076-em-pregao-de-liquidez-reduzida/",
+    "postId": "17972847171068797",
+    "storyId": "18600489817016609",
+    "reelId": null,
+    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783112514143-feed.png",
+    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783112514143-story.png",
+    "videoUrl": null,
+    "tipo": "card",
+    "peso": 57
+  },
+  {
     "data": "2026-07-03T18:33:22.431Z",
     "titulo": "Bolsas da Europa fecham em alta com PMIs europeus e impulso tech, com liquidez reduzida sem NY",
     "categoria": "Mercados",

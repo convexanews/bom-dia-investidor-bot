@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-03T21:02:41.140Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (card): \"Dólar fecha a R$ 5,16, com queda de 0,76%, em pregão de liquidez reduzida\".",
+    "postId": "17972847171068797",
+    "storyId": "18600489817016609",
+    "reelId": null,
+    "tipo": "card"
+  },
+  {
+    "data": "2026-07-03T21:01:17.970Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 57): \"Dólar fecha a R$ 5,16, com queda de 0,76%, em pregão de liquidez reduzida\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-03T20:31:03.334Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
@@ -1142,15 +1156,5 @@
     "data": "2026-07-01T00:01:12.228Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 19): \"Petrobras (PETR4) diz que preço do diesel vai se manter após reajuste e suspensão de desconto\". Realizando postagem..."
-  },
-  {
-    "data": "2026-06-30T23:30:57.745Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
-  },
-  {
-    "data": "2026-06-30T23:01:11.902Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 33 min."
   }
 ]
