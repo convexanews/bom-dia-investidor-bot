@@ -1,5 +1,22 @@
 [
   {
+    "data": "2026-07-03T21:54:23.888Z",
+    "resultado": "carrossel_fechamento",
+    "mensagem": "Carrossel de fechamento publicado. Ibovespa: 174.070 +1,39%",
+    "postId": "17996415167971273",
+    "ibov": {
+      "valor": "174.070",
+      "variacao": "+1,39%"
+    },
+    "topAltas": [
+      "CSNA3 +4,33%",
+      "MGLU3 +4,22%",
+      "RAIZ4 +2,63%",
+      "USIM5 +2,45%",
+      "BPAC11 +2,38%"
+    ]
+  },
+  {
     "data": "2026-07-03T21:31:04.602Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
@@ -1140,17 +1157,5 @@
     "data": "2026-07-01T00:09:35.699Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 113 min."
-  },
-  {
-    "data": "2026-07-01T00:06:04.780Z",
-    "resultado": "reel_postado",
-    "mensagem": "Resumo em vídeo do dia publicado com 3 notícia(s).",
-    "reelId": "18206992774348681",
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1782864284143.mp4",
-    "noticias": [
-      "RCRB11 recebe exercício de preferência de inquilino na venda do Parque Cultural Paulista",
-      "Corretora comete gafe em e-mail, fica sem ações da SpaceX e pede desculpas",
-      "Petrobras (PETR4) diz que preço do diesel vai se manter após reajuste e suspensão de desconto"
-    ]
   }
 ]
