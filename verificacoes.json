@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-03T16:30:13.344Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Bolsa brasileira segue sem gatilhos para subir; juros nos EUA e fluxo para IA pesam sobre mercado, diz Bank of America\".",
+    "postId": "18135842806568691",
+    "storyId": null,
+    "reelId": "18135842806568691",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-07-03T16:28:04.925Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 61): \"Bolsa brasileira segue sem gatilhos para subir; juros nos EUA e fluxo para IA pesam sobre mercado, diz Bank of America\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-03T16:01:39.968Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 1 min."
@@ -1150,19 +1164,5 @@
     "data": "2026-06-30T19:31:20.448Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 93 min."
-  },
-  {
-    "data": "2026-06-30T19:20:14.948Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 104 min."
-  },
-  {
-    "data": "2026-06-30T19:04:01.912Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"Plano Safra: juros e esforço fiscal são positivos, mas gastos, promessas e redução generalizada decepcionam, avalia Cogo Inteligência\".",
-    "postId": "18408032728151380",
-    "storyId": null,
-    "reelId": "18408032728151380",
-    "tipo": "reel"
   }
 ]
