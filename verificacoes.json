@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-03T21:11:03.511Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 112 min."
+  },
+  {
     "data": "2026-07-03T21:02:41.140Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (card): \"Dólar fecha a R$ 5,16, com queda de 0,76%, em pregão de liquidez reduzida\".",
@@ -1151,10 +1156,5 @@
     "storyId": null,
     "reelId": null,
     "tipo": "carrossel"
-  },
-  {
-    "data": "2026-07-01T00:01:12.228Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 19): \"Petrobras (PETR4) diz que preço do diesel vai se manter após reajuste e suspensão de desconto\". Realizando postagem..."
   }
 ]
