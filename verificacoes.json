@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-03T19:31:08.746Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 63 min."
+  },
+  {
     "data": "2026-07-03T19:01:03.024Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 93 min."
@@ -1159,10 +1164,5 @@
       "WEGE3 +0,26%",
       "SUZB3 +0,18%"
     ]
-  },
-  {
-    "data": "2026-06-30T22:01:00.883Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 93 min."
   }
 ]
