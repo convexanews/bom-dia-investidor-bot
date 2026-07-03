@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-03T15:31:19.112Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 32 min."
+  },
+  {
     "data": "2026-07-03T15:03:48.652Z",
     "resultado": "reel_postado",
     "mensagem": "Resumo em vídeo do dia publicado com 6 notícia(s).",
@@ -1159,10 +1164,5 @@
     "data": "2026-06-30T19:01:22.490Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 48): \"Plano Safra: juros e esforço fiscal são positivos, mas gastos, promessas e redução generalizada decepcionam, avalia Cogo Inteligência\". Realizando postagem..."
-  },
-  {
-    "data": "2026-06-30T18:31:13.914Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
   }
 ]
