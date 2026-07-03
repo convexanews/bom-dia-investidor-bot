@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-03T08:01:09.945Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (05:01 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-07-03T07:31:07.273Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (04:31 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1154,10 +1159,5 @@
     "data": "2026-06-30T11:30:57.845Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 43): \"Imposto de Renda: Receita paga maior lote de restituição da história nesta terça (30)\". Realizando postagem..."
-  },
-  {
-    "data": "2026-06-30T11:01:18.550Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
   }
 ]
