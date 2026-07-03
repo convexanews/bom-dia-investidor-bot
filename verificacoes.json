@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-03T23:33:22.066Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (carrossel): \"Genial troca BTLG11 por GGRC11 em carteira recomendada de FIIs para julho\".",
+    "postId": "17993534091002325",
+    "storyId": "17895990441511994",
+    "reelId": null,
+    "tipo": "carrossel"
+  },
+  {
+    "data": "2026-07-03T23:31:23.568Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 25): \"Genial troca BTLG11 por GGRC11 em carteira recomendada de FIIs para julho\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-03T23:01:08.556Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
@@ -1147,15 +1161,5 @@
     "data": "2026-07-01T03:01:15.557Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (00:01 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-01T02:31:12.592Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (23:31 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-01T02:01:08.812Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (23:01 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
