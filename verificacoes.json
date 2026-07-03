@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-03T01:01:05.325Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (22:01 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-07-03T00:33:41.938Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (carrossel): \"Como investir em energia solar? Setor movimenta R$ 300 bilhões e amplia opções na Bolsa\".",
@@ -1158,10 +1163,5 @@
     "data": "2026-06-30T05:01:20.307Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (02:01 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-06-30T04:31:18.034Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (01:31 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
