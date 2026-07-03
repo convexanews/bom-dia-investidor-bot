@@ -1,5 +1,18 @@
 [
   {
+    "data": "2026-07-03T00:05:26.737Z",
+    "resultado": "reel_postado",
+    "mensagem": "Resumo em vídeo do dia publicado com 4 notícia(s).",
+    "reelId": "18060229703505620",
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1783037056547.mp4",
+    "noticias": [
+      "Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta quinta",
+      "Ibovespa fecha mês no ‘zero a zero’, mas essas 3 ações do mesmo setor dispararam mais de 10% no período: qual o segredo?",
+      "Papel ou tijolo? Santander muda estratégia e revela os melhores FIIs para julho",
+      "Produção da Prio (PRIO3) bate recorde no ano"
+    ]
+  },
+  {
     "data": "2026-07-03T00:01:18.309Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 12 min."
@@ -1146,10 +1159,5 @@
     "data": "2026-06-30T03:31:15.948Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (00:31 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-06-30T03:01:07.874Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (00:01 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
