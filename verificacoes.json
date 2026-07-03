@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-03T21:31:04.602Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
+  },
+  {
     "data": "2026-07-03T21:11:03.511Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 112 min."
@@ -1147,14 +1152,5 @@
       "Corretora comete gafe em e-mail, fica sem ações da SpaceX e pede desculpas",
       "Petrobras (PETR4) diz que preço do diesel vai se manter após reajuste e suspensão de desconto"
     ]
-  },
-  {
-    "data": "2026-07-01T00:02:33.791Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (carrossel): \"Petrobras (PETR4) diz que preço do diesel vai se manter após reajuste e suspensão de desconto\".",
-    "postId": "18331230832253552",
-    "storyId": null,
-    "reelId": null,
-    "tipo": "carrossel"
   }
 ]
