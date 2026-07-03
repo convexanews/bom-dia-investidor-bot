@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-03T18:33:22.432Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (carrossel): \"Bolsas da Europa fecham em alta com PMIs europeus e impulso tech, com liquidez reduzida sem NY\".",
+    "postId": "18108008336084340",
+    "storyId": "17867367435631223",
+    "reelId": null,
+    "tipo": "carrossel"
+  },
+  {
+    "data": "2026-07-03T18:31:22.844Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 44): \"Bolsas da Europa fecham em alta com PMIs europeus e impulso tech, com liquidez reduzida sem NY\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-03T18:01:05.136Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 30 min."
@@ -1154,15 +1168,5 @@
     "storyId": null,
     "reelId": "18422267926194982",
     "tipo": "reel"
-  },
-  {
-    "data": "2026-06-30T21:31:10.884Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 86): \"Ibovespa perde carona em recorde de Wall Street e recua com Petrobras (PETR4); dólar cai a R$ 5,16\". Realizando postagem..."
-  },
-  {
-    "data": "2026-06-30T21:16:49.121Z",
-    "resultado": "erro",
-    "mensagem": "Erro na execução automática: Command failed: git push"
   }
 ]
