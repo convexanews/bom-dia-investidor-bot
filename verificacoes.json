@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-03T11:33:06.554Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (carrossel): \"Fundo imobiliário compra fatia de shopping em Curitiba por R$ 45,2 milhões; IFIX avança\".",
+    "postId": "18093193394040012",
+    "storyId": "17871272013547419",
+    "reelId": null,
+    "tipo": "carrossel"
+  },
+  {
+    "data": "2026-07-03T11:31:03.188Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 32): \"Fundo imobiliário compra fatia de shopping em Curitiba por R$ 45,2 milhões; IFIX avança\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-03T11:01:19.895Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
@@ -1144,19 +1158,5 @@
     "data": "2026-06-30T15:01:14.444Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 63 min."
-  },
-  {
-    "data": "2026-06-30T14:31:00.602Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 94 min."
-  },
-  {
-    "data": "2026-06-30T14:04:09.155Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"Selic em 13,75%? Bradesco ainda enxerga cortes e vê inflação mais resistente\".",
-    "postId": "18122290702773503",
-    "storyId": null,
-    "reelId": "18122290702773503",
-    "tipo": "reel"
   }
 ]
