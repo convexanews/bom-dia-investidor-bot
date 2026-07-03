@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-03T12:01:05.006Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 93 min."
+  },
+  {
     "data": "2026-07-03T11:33:06.554Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (carrossel): \"Fundo imobiliário compra fatia de shopping em Curitiba por R$ 45,2 milhões; IFIX avança\".",
@@ -1153,10 +1158,5 @@
     "noticias": [
       "RCRB11 recebe exercício de preferência de inquilino na venda do Parque Cultural Paulista"
     ]
-  },
-  {
-    "data": "2026-06-30T15:01:14.444Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 63 min."
   }
 ]
