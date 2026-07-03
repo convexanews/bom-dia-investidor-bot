@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-03T12:27:39.402Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 66 min."
+  },
+  {
     "data": "2026-07-03T12:01:05.006Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 93 min."
@@ -1148,15 +1153,5 @@
     "data": "2026-06-30T15:16:10.775Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 48 min."
-  },
-  {
-    "data": "2026-06-30T15:02:43.069Z",
-    "resultado": "reel_postado",
-    "mensagem": "Resumo em vídeo do dia publicado com 1 notícia(s).",
-    "reelId": "17919281430182317",
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1782831705231.mp4",
-    "noticias": [
-      "RCRB11 recebe exercício de preferência de inquilino na venda do Parque Cultural Paulista"
-    ]
   }
 ]
