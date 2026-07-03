@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-03T06:01:20.050Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (03:01 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-07-03T05:31:02.423Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (02:31 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1154,14 +1159,5 @@
     "data": "2026-06-30T09:31:43.878Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 93 min."
-  },
-  {
-    "data": "2026-06-30T09:03:54.969Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"Resiliência econômica da Europa dá ao BCE mais margem de manobra para ajustar juros, diz Lagarde\".",
-    "postId": "18321449692272910",
-    "storyId": null,
-    "reelId": "18321449692272910",
-    "tipo": "reel"
   }
 ]
