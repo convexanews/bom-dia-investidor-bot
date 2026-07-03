@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-03T15:03:48.652Z",
+    "resultado": "reel_postado",
+    "mensagem": "Resumo em vídeo do dia publicado com 6 notícia(s).",
+    "reelId": "17888793468581237",
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1783090912955.mp4",
+    "noticias": [
+      "Ibovespa fecha mês no ‘zero a zero’, mas essas 3 ações do mesmo setor dispararam mais de 10% no período: qual o segredo?",
+      "Papel ou tijolo? Santander muda estratégia e revela os melhores FIIs para julho",
+      "Produção da Prio (PRIO3) bate recorde no ano",
+      "Como investir em energia solar? Setor movimenta R$ 300 bilhões e amplia opções na Bolsa",
+      "Fundo imobiliário compra fatia de shopping em Curitiba por R$ 45,2 milhões; IFIX avança",
+      "A grande alteração foi no pré-fixado’: juros altos recolocam pós-fixados no centro das atenções, avalia analista da Empiricus"
+    ]
+  },
+  {
     "data": "2026-07-03T15:01:13.886Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 62 min."
@@ -1149,10 +1164,5 @@
     "data": "2026-06-30T18:31:13.914Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
-  },
-  {
-    "data": "2026-06-30T18:01:12.307Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 32 min."
   }
 ]
