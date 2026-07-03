@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-03T19:01:03.024Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 93 min."
+  },
+  {
     "data": "2026-07-03T18:33:22.432Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (carrossel): \"Bolsas da Europa fecham em alta com PMIs europeus e impulso tech, com liquidez reduzida sem NY\".",
@@ -1159,14 +1164,5 @@
     "data": "2026-06-30T22:01:00.883Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 93 min."
-  },
-  {
-    "data": "2026-06-30T21:33:36.658Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"Ibovespa perde carona em recorde de Wall Street e recua com Petrobras (PETR4); dólar cai a R$ 5,16\".",
-    "postId": "18422267926194982",
-    "storyId": null,
-    "reelId": "18422267926194982",
-    "tipo": "reel"
   }
 ]
