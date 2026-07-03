@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-03T11:01:19.895Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
+  },
+  {
     "data": "2026-07-03T10:31:17.168Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 33 min."
@@ -1153,10 +1158,5 @@
     "storyId": null,
     "reelId": "18122290702773503",
     "tipo": "reel"
-  },
-  {
-    "data": "2026-06-30T14:01:06.454Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 95): \"Selic em 13,75%? Bradesco ainda enxerga cortes e vê inflação mais resistente\". Realizando postagem..."
   }
 ]
