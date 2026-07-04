@@ -1,5 +1,18 @@
 [
   {
+    "data": "2026-07-04T15:02:51.632Z",
+    "resultado": "reel_postado",
+    "mensagem": "Resumo em vídeo do dia publicado com 4 notícia(s).",
+    "reelId": "18089161829148155",
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1783177306583.mp4",
+    "noticias": [
+      "Bolsas da Europa fecham em alta com PMIs europeus e impulso tech, com liquidez reduzida sem NY",
+      "Dólar fecha a R$ 5,16, com queda de 0,76%, em pregão de liquidez reduzida",
+      "Genial troca BTLG11 por GGRC11 em carteira recomendada de FIIs para julho",
+      "Projeções para o Ibov e “guerra” das canetas emagrecedoras; veja destaques da semana"
+    ]
+  },
+  {
     "data": "2026-07-04T15:01:07.797Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 33 min."
@@ -1152,10 +1165,5 @@
     "data": "2026-07-01T19:01:13.708Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 75): \"Ibovespa Hoje Ao Vivo: Bolsa tem leve queda, com PETR4; VALE3 sobe\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-01T18:31:26.003Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
   }
 ]
