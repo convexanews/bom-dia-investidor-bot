@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-04T18:06:10.463Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (card): \"Presidente da Turquia afirma que Israel não pode arruinar acordo entre EUA e Irã\".",
+    "postId": "17961998982131662",
+    "storyId": "18150370363446177",
+    "reelId": null,
+    "tipo": "card"
+  },
+  {
+    "data": "2026-07-04T18:04:45.859Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 21): \"Presidente da Turquia afirma que Israel não pode arruinar acordo entre EUA e Irã\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-04T18:01:15.749Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
@@ -1151,15 +1165,5 @@
       "USIM5 +1,78%",
       "TOTS3 +0,98%"
     ]
-  },
-  {
-    "data": "2026-07-01T22:01:12.256Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 70 min."
-  },
-  {
-    "data": "2026-07-01T21:31:01.416Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 100 min."
   }
 ]
