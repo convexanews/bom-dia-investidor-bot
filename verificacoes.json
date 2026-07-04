@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-04T11:02:36.712Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (card): \"Projeções para o Ibov e “guerra” das canetas emagrecedoras; veja destaques da semana\".",
+    "postId": "18105785396089771",
+    "storyId": "18226745983318306",
+    "reelId": null,
+    "tipo": "card"
+  },
+  {
+    "data": "2026-07-04T11:01:10.655Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 36): \"Projeções para o Ibov e “guerra” das canetas emagrecedoras; veja destaques da semana\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-04T10:31:11.174Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
@@ -1151,16 +1165,5 @@
     "storyId": null,
     "reelId": "18116223529676323",
     "tipo": "reel"
-  },
-  {
-    "data": "2026-07-01T14:01:26.195Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 54): \"Ibovespa cai 1% com exterior e baixa do petróleo; 5 coisas para saber antes de investir hoje (1º)\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-01T13:38:22.937Z",
-    "resultado": "story_glossario",
-    "mensagem": "Story do glossário publicado: \"Volatilidade\"",
-    "postId": "18413731825145099"
   }
 ]
