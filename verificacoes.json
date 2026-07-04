@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-04T21:01:04.133Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
+  },
+  {
     "data": "2026-07-04T20:33:02.268Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (carrossel): \"Goldman Sachs vê fraqueza ampla do dólar como improvável no curto prazo\".",
@@ -1143,15 +1148,5 @@
     "data": "2026-07-02T00:11:51.565Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 81 min."
-  },
-  {
-    "data": "2026-07-02T00:06:20.933Z",
-    "resultado": "reel_postado",
-    "mensagem": "Resumo em vídeo do dia publicado com 1 notícia(s).",
-    "reelId": "18123367663668118",
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1782950719928.mp4",
-    "noticias": [
-      "CACR11 encolhe quase 16%; IFIX fecha em queda de 0,1%"
-    ]
   }
 ]
