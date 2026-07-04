@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-04T19:45:33.015Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 21 min."
+  },
+  {
     "data": "2026-07-04T19:31:15.885Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 35 min."
@@ -1148,10 +1153,5 @@
     "data": "2026-07-01T23:31:06.115Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 21): \"CACR11 encolhe quase 16%; IFIX fecha em queda de 0,1%\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-01T23:01:03.808Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 10 min."
   }
 ]
