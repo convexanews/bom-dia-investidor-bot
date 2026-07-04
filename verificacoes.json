@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-04T05:01:05.553Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (02:01 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-07-04T04:31:09.872Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (01:31 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1166,10 +1171,5 @@
     "storyId": null,
     "reelId": "18206263099357069",
     "tipo": "reel"
-  },
-  {
-    "data": "2026-07-01T09:01:12.580Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 93): \"Warsh, emprego nos EUA, pesquisa AtlasIntel e mais destaques desta quarta-feira\". Realizando postagem..."
   }
 ]
