@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-04T07:23:43.288Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (04:23 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-07-04T07:01:11.242Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (04:01 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1162,10 +1167,5 @@
     "data": "2026-07-01T11:31:01.761Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 45): \"Inflação da zona do euro desacelera mais do que o esperado e reduz pressão sobre o BCE\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-01T11:01:09.108Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 4 min."
   }
 ]
