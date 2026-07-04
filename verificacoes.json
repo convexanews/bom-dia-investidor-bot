@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-04T00:04:49.275Z",
+    "resultado": "reel_postado",
+    "mensagem": "Resumo em vídeo do dia publicado com 6 notícia(s).",
+    "reelId": "17993174873995865",
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1783123419021.mp4",
+    "noticias": [
+      "Como investir em energia solar? Setor movimenta R$ 300 bilhões e amplia opções na Bolsa",
+      "Fundo imobiliário compra fatia de shopping em Curitiba por R$ 45,2 milhões; IFIX avança",
+      "A grande alteração foi no pré-fixado’: juros altos recolocam pós-fixados no centro das atenções, avalia analista da Empiricus",
+      "Bolsas da Europa fecham em alta com PMIs europeus e impulso tech, com liquidez reduzida sem NY",
+      "Dólar fecha a R$ 5,16, com queda de 0,76%, em pregão de liquidez reduzida",
+      "Genial troca BTLG11 por GGRC11 em carteira recomendada de FIIs para julho"
+    ]
+  },
+  {
     "data": "2026-07-04T00:01:13.850Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 93 min."
@@ -1156,10 +1171,5 @@
     "data": "2026-07-01T04:01:18.088Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (01:01 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-01T03:31:16.223Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (00:31 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
