@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-04T10:31:11.174Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
+  },
+  {
     "data": "2026-07-04T10:01:32.488Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
@@ -1157,11 +1162,5 @@
     "resultado": "story_glossario",
     "mensagem": "Story do glossário publicado: \"Volatilidade\"",
     "postId": "18413731825145099"
-  },
-  {
-    "data": "2026-07-01T13:32:24.093Z",
-    "resultado": "alerta_recorde",
-    "mensagem": "Alerta de recorde publicado: Ibovespa (NOVA MÍNIMA).",
-    "postId": "18107141890800455"
   }
 ]
