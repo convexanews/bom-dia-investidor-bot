@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-04T15:08:11.755Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 26 min."
+  },
+  {
     "data": "2026-07-04T15:02:51.632Z",
     "resultado": "reel_postado",
     "mensagem": "Resumo em vídeo do dia publicado com 4 notícia(s).",
@@ -1160,10 +1165,5 @@
     "storyId": null,
     "reelId": "18005241521950183",
     "tipo": "reel"
-  },
-  {
-    "data": "2026-07-01T19:01:13.708Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 75): \"Ibovespa Hoje Ao Vivo: Bolsa tem leve queda, com PETR4; VALE3 sobe\". Realizando postagem..."
   }
 ]
