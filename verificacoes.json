@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-04T10:01:32.488Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
+  },
+  {
     "data": "2026-07-04T09:37:32.622Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
@@ -1158,10 +1163,5 @@
     "resultado": "alerta_recorde",
     "mensagem": "Alerta de recorde publicado: Ibovespa (NOVA MÍNIMA).",
     "postId": "18107141890800455"
-  },
-  {
-    "data": "2026-07-01T13:31:16.496Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
   }
 ]
