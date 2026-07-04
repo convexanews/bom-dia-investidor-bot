@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-04T23:32:31.328Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (card): \"Putin e Trump conversam sobre guerra na Ucrânia e cúpula da Otan em telefonema\".",
+    "postId": "17914984146408693",
+    "storyId": "18193750726332192",
+    "reelId": null,
+    "tipo": "card"
+  },
+  {
+    "data": "2026-07-04T23:31:06.795Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 22): \"Putin e Trump conversam sobre guerra na Ucrânia e cúpula da Otan em telefonema\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-04T23:01:20.491Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
@@ -1138,15 +1152,5 @@
     "data": "2026-07-02T04:01:05.944Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (01:01 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-02T03:31:02.329Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (00:31 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-02T03:01:27.900Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (00:01 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
