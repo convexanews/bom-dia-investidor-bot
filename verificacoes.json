@@ -1,5 +1,11 @@
 [
   {
+    "data": "2026-07-04T12:12:16.559Z",
+    "resultado": "story_glossario",
+    "mensagem": "Story do glossário publicado: \"Renda Variável\"",
+    "postId": "18116987984501195"
+  },
+  {
     "data": "2026-07-04T12:01:03.591Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 62 min."
@@ -1150,16 +1156,5 @@
     "data": "2026-07-01T15:20:27.415Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 45 min."
-  },
-  {
-    "data": "2026-07-01T15:03:16.776Z",
-    "resultado": "reel_postado",
-    "mensagem": "Resumo em vídeo do dia publicado com 2 notícia(s).",
-    "reelId": "17986200612010509",
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1782918132856.mp4",
-    "noticias": [
-      "Corretora comete gafe em e-mail, fica sem ações da SpaceX e pede desculpas",
-      "Petrobras (PETR4) diz que preço do diesel vai se manter após reajuste e suspensão de desconto"
-    ]
   }
 ]
