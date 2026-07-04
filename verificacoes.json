@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-04T11:31:12.642Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
+  },
+  {
     "data": "2026-07-04T11:02:36.712Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (card): \"Projeções para o Ibov e “guerra” das canetas emagrecedoras; veja destaques da semana\".",
@@ -1156,14 +1161,5 @@
     "data": "2026-07-01T14:31:16.448Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 94 min."
-  },
-  {
-    "data": "2026-07-01T14:04:55.529Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"Ibovespa cai 1% com exterior e baixa do petróleo; 5 coisas para saber antes de investir hoje (1º)\".",
-    "postId": "18116223529676323",
-    "storyId": null,
-    "reelId": "18116223529676323",
-    "tipo": "reel"
   }
 ]
