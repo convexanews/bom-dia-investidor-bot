@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-04T17:31:13.709Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 33 min."
+  },
+  {
     "data": "2026-07-04T17:01:15.788Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 63 min."
@@ -1160,10 +1165,5 @@
     "storyId": null,
     "reelId": "18231778831313279",
     "tipo": "reel"
-  },
-  {
-    "data": "2026-07-01T21:08:07.671Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 109): \"Após Dow Jones bater recorde, Wall Street recua de olho em Warsh e à espera do payroll\". Realizando postagem..."
   }
 ]
