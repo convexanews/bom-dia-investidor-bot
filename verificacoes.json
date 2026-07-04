@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-04T20:33:02.268Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (carrossel): \"Goldman Sachs vê fraqueza ampla do dólar como improvável no curto prazo\".",
+    "postId": "18124811494657966",
+    "storyId": "18477300145099360",
+    "reelId": null,
+    "tipo": "carrossel"
+  },
+  {
+    "data": "2026-07-04T20:31:08.454Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 13): \"Goldman Sachs vê fraqueza ampla do dólar como improvável no curto prazo\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-04T20:01:09.037Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 6 min."
@@ -1139,19 +1153,5 @@
     "noticias": [
       "CACR11 encolhe quase 16%; IFIX fecha em queda de 0,1%"
     ]
-  },
-  {
-    "data": "2026-07-02T00:01:21.723Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
-  },
-  {
-    "data": "2026-07-01T23:32:26.389Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (carrossel): \"CACR11 encolhe quase 16%; IFIX fecha em queda de 0,1%\".",
-    "postId": "17934729675276069",
-    "storyId": null,
-    "reelId": null,
-    "tipo": "carrossel"
   }
 ]
