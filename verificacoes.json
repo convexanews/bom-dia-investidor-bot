@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-04T13:33:35.327Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Dividendos de julho, Fred Trajano sereno e FIIs: o que bombou no Money Times nesta semana\".",
+    "postId": "18011161958733366",
+    "storyId": null,
+    "reelId": "18011161958733366",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-07-04T13:31:20.491Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 38): \"Dividendos de julho, Fred Trajano sereno e FIIs: o que bombou no Money Times nesta semana\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-04T13:01:12.052Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
@@ -1146,15 +1160,5 @@
     "storyId": null,
     "reelId": "18455803525112632",
     "tipo": "reel"
-  },
-  {
-    "data": "2026-07-01T16:31:17.941Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 42): \"Dólar hoje sobe quase 1% e volta a superar R$ 5,20\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-01T16:01:16.843Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 4 min."
   }
 ]
