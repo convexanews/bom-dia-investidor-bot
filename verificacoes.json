@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-05T05:31:09.932Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (02:31 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-07-05T05:01:13.285Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (02:01 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1152,14 +1157,5 @@
     "data": "2026-07-02T09:14:07.197Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 110 min."
-  },
-  {
-    "data": "2026-07-02T09:03:23.928Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"Payroll nos EUA, taxa de desemprego na Europa, falas de Durigan e mais destaques hoje\".",
-    "postId": "18106044008045100",
-    "storyId": null,
-    "reelId": "18106044008045100",
-    "tipo": "reel"
   }
 ]
