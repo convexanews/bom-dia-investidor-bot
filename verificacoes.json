@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-05T14:27:34.085Z",
+    "resultado": "resumo_semanal",
+    "mensagem": "Resumo semanal publicado com 7 notícias.",
+    "postId": "18157245562472743",
+    "noticias": [
+      "Após Dow Jones bater recorde, Wall Street recua de olho em Warsh e à espera do payroll",
+      "Payroll nos EUA, taxa de desemprego na Europa, falas de Durigan e mais destaques hoje",
+      "Selic em 13,75%? Bradesco ainda enxerga cortes e vê inflação mais resistente",
+      "Feriado nos EUA, indústria no Brasil, PMIs e mais destaques desta sexta",
+      "Warsh, emprego nos EUA, pesquisa AtlasIntel e mais destaques desta quarta-feira",
+      "Ibovespa perde carona em recorde de Wall Street e recua com Petrobras (PETR4); dólar cai a R$ 5,16",
+      "Ibovespa Hoje Ao Vivo: Bolsa tem leve queda, com PETR4; VALE3 sobe"
+    ]
+  },
+  {
     "data": "2026-07-05T14:01:12.249Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 108 min."
@@ -1146,10 +1161,5 @@
     "data": "2026-07-02T17:52:00.176Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 61): \"BlackRock diz que é hora da renda fixa e vê Brasil como uma das estrelas\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-02T17:31:33.233Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
   }
 ]
