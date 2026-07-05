@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-05T12:01:24.987Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 98 min."
+  },
+  {
     "data": "2026-07-05T11:38:50.041Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (card): \"Três riscos que podem definir seus investimentos em 2026 no Brasil\".",
@@ -1151,10 +1156,5 @@
       "CACR11 encolhe quase 16%; IFIX fecha em queda de 0,1%",
       "Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta quinta"
     ]
-  },
-  {
-    "data": "2026-07-02T15:01:13.356Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 20 min."
   }
 ]
