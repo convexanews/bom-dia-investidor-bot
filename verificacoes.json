@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-05T09:55:45.602Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 98 min."
+  },
+  {
     "data": "2026-07-05T09:32:55.386Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (carrossel): \"Opep+ deve aprovar novo aumento na produção de petróleo para agosto\".",
@@ -1152,10 +1157,5 @@
     "resultado": "story_glossario",
     "mensagem": "Story do glossário publicado: \"Diversificação\"",
     "postId": "18072523346355086"
-  },
-  {
-    "data": "2026-07-02T13:01:07.021Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 11 min."
   }
 ]
