@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-05T21:02:58.907Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (card): \"Copa do Mundo: com pouco tempo de recuperação, Argentina e Egito jogarão na 3ª\".",
+    "postId": "18100018366914329",
+    "storyId": "18476580592096078",
+    "reelId": null,
+    "tipo": "card"
+  },
+  {
+    "data": "2026-07-05T21:01:28.673Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 6): \"Copa do Mundo: com pouco tempo de recuperação, Argentina e Egito jogarão na 3ª\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-05T20:31:25.538Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
@@ -1146,15 +1160,5 @@
       "Papel ou tijolo? Santander muda estratégia e revela os melhores FIIs para julho",
       "Produção da Prio (PRIO3) bate recorde no ano"
     ]
-  },
-  {
-    "data": "2026-07-03T00:01:18.309Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 12 min."
-  },
-  {
-    "data": "2026-07-02T23:39:29.540Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 34 min."
   }
 ]
