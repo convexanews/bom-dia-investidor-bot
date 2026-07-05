@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-05T13:01:17.909Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 38 min."
+  },
+  {
     "data": "2026-07-05T12:31:14.861Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 68 min."
@@ -1142,14 +1147,5 @@
     "data": "2026-07-02T15:42:11.715Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 111 min."
-  },
-  {
-    "data": "2026-07-02T15:32:51.030Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (card): \"Ibovespa fecha mês no ‘zero a zero’, mas essas 3 ações do mesmo setor dispararam mais de 10% no período: qual o segredo?\".",
-    "postId": "18089247185395190",
-    "storyId": "18604536280042408",
-    "reelId": null,
-    "tipo": "card"
   }
 ]
