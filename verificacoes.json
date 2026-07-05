@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-05T18:08:40.959Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (carrossel): \"Trump exibe nova nota de US$ 100 com assinatura presidencial inédita\".",
+    "postId": "17895243102519034",
+    "storyId": "18139931974510840",
+    "reelId": null,
+    "tipo": "carrossel"
+  },
+  {
+    "data": "2026-07-05T18:06:38.165Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 9): \"Trump exibe nova nota de US$ 100 com assinatura presidencial inédita\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-05T18:01:11.159Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
@@ -1146,27 +1160,5 @@
     "data": "2026-07-02T22:01:09.789Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
-  },
-  {
-    "data": "2026-07-02T21:57:06.548Z",
-    "resultado": "carrossel_fechamento",
-    "mensagem": "Carrossel de fechamento publicado. Ibovespa: 172.788 +0,44%",
-    "postId": "18102449143973617",
-    "ibov": {
-      "valor": "172.788",
-      "variacao": "+0,44%"
-    },
-    "topAltas": [
-      "TOTS3 +1,93%",
-      "RDOR3 +1,46%",
-      "EQTL3 +1,45%",
-      "BBAS3 +1,37%",
-      "PETR3 +1,27%"
-    ]
-  },
-  {
-    "data": "2026-07-02T21:31:18.983Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 32 min."
   }
 ]
