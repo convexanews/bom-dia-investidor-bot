@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-05T16:31:20.793Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
+  },
+  {
     "data": "2026-07-05T16:02:37.686Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (card): \"Trump se oferece para ajudar Putin a chegar a acordo com a Ucrânia e também conversa com Zelenskiy\".",
@@ -1167,10 +1172,5 @@
     "storyId": "17897726160529565",
     "reelId": null,
     "tipo": "carrossel"
-  },
-  {
-    "data": "2026-07-02T20:01:10.813Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 24): \"Papel ou tijolo? Santander muda estratégia e revela os melhores FIIs para julho\". Realizando postagem..."
   }
 ]
