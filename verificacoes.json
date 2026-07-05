@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-05T09:32:55.386Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (carrossel): \"Opep+ deve aprovar novo aumento na produção de petróleo para agosto\".",
+    "postId": "18009198473926426",
+    "storyId": "17982133029046327",
+    "reelId": null,
+    "tipo": "carrossel"
+  },
+  {
+    "data": "2026-07-05T09:31:09.448Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 3): \"Opep+ deve aprovar novo aumento na produção de petróleo para agosto\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-05T09:01:12.668Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
@@ -1143,15 +1157,5 @@
     "data": "2026-07-02T13:01:07.021Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 11 min."
-  },
-  {
-    "data": "2026-07-02T12:31:15.719Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 40 min."
-  },
-  {
-    "data": "2026-07-02T12:01:12.984Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 70 min."
   }
 ]
