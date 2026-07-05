@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-05T11:38:50.041Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (card): \"Três riscos que podem definir seus investimentos em 2026 no Brasil\".",
+    "postId": "17982438473855955",
+    "storyId": "18181987495400449",
+    "reelId": null,
+    "tipo": "card"
+  },
+  {
+    "data": "2026-07-05T11:37:20.661Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 35): \"Três riscos que podem definir seus investimentos em 2026 no Brasil\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-05T11:31:21.077Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
@@ -1142,15 +1156,5 @@
     "data": "2026-07-02T15:01:13.356Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 20 min."
-  },
-  {
-    "data": "2026-07-02T14:31:14.436Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 50 min."
-  },
-  {
-    "data": "2026-07-02T14:01:18.286Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 80 min."
   }
 ]
