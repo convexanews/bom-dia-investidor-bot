@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-05T21:04:58.501Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 119 min."
+  },
+  {
     "data": "2026-07-05T21:02:58.907Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (card): \"Copa do Mundo: com pouco tempo de recuperação, Argentina e Egito jogarão na 3ª\".",
@@ -1147,18 +1152,5 @@
     "data": "2026-07-03T00:31:23.176Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 15): \"Como investir em energia solar? Setor movimenta R$ 300 bilhões e amplia opções na Bolsa\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-03T00:05:26.737Z",
-    "resultado": "reel_postado",
-    "mensagem": "Resumo em vídeo do dia publicado com 4 notícia(s).",
-    "reelId": "18060229703505620",
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1783037056547.mp4",
-    "noticias": [
-      "Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta quinta",
-      "Ibovespa fecha mês no ‘zero a zero’, mas essas 3 ações do mesmo setor dispararam mais de 10% no período: qual o segredo?",
-      "Papel ou tijolo? Santander muda estratégia e revela os melhores FIIs para julho",
-      "Produção da Prio (PRIO3) bate recorde no ano"
-    ]
   }
 ]
