@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-05T16:02:37.686Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (card): \"Trump se oferece para ajudar Putin a chegar a acordo com a Ucrânia e também conversa com Zelenskiy\".",
+    "postId": "18160976107459049",
+    "storyId": "18123867643668703",
+    "reelId": null,
+    "tipo": "card"
+  },
+  {
+    "data": "2026-07-05T16:01:13.163Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 13): \"Trump se oferece para ajudar Putin a chegar a acordo com a Ucrânia e também conversa com Zelenskiy\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-05T15:31:08.682Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 18 min."
@@ -1158,15 +1172,5 @@
     "data": "2026-07-02T20:01:10.813Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 24): \"Papel ou tijolo? Santander muda estratégia e revela os melhores FIIs para julho\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-02T19:31:14.703Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 23 min."
-  },
-  {
-    "data": "2026-07-02T19:29:49.304Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 25 min."
   }
 ]
