@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-05T10:01:28.219Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
+  },
+  {
     "data": "2026-07-05T09:55:45.602Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 98 min."
@@ -1151,11 +1156,5 @@
     "data": "2026-07-02T13:18:53.949Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 58): \"Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta quinta\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-02T13:03:25.171Z",
-    "resultado": "story_glossario",
-    "mensagem": "Story do glossário publicado: \"Diversificação\"",
-    "postId": "18072523346355086"
   }
 ]
