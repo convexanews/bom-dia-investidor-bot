@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-05T04:31:50.602Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (01:31 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-07-05T04:01:15.878Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (01:01 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1156,10 +1161,5 @@
     "data": "2026-07-02T09:01:18.391Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 102): \"Payroll nos EUA, taxa de desemprego na Europa, falas de Durigan e mais destaques hoje\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-02T08:31:16.870Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (05:31 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
