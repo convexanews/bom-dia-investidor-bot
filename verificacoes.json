@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-05T19:01:12.992Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 68 min."
+  },
+  {
     "data": "2026-07-05T18:31:13.901Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 98 min."
@@ -1155,10 +1160,5 @@
     "storyId": "18136185775524233",
     "reelId": null,
     "tipo": "card"
-  },
-  {
-    "data": "2026-07-02T22:10:58.227Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 50): \"Produção da Prio (PRIO3) bate recorde no ano\". Realizando postagem..."
   }
 ]
