@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-05T14:01:12.249Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 108 min."
+  },
+  {
     "data": "2026-07-05T13:48:27.667Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (carrossel): \"Micro e pequenas empresas e negócios maduros concentram endividamento no País\".",
@@ -1146,10 +1151,5 @@
     "data": "2026-07-02T17:31:33.233Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
-  },
-  {
-    "data": "2026-07-02T17:01:12.675Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 32 min."
   }
 ]
