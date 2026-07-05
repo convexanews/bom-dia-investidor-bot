@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-05T13:48:27.667Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (carrossel): \"Micro e pequenas empresas e negócios maduros concentram endividamento no País\".",
+    "postId": "17988558956830858",
+    "storyId": "18458821207115704",
+    "reelId": null,
+    "tipo": "carrossel"
+  },
+  {
+    "data": "2026-07-05T13:46:27.653Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 16): \"Micro e pequenas empresas e negócios maduros concentram endividamento no País\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-05T13:31:21.628Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 8 min."
@@ -1137,15 +1151,5 @@
     "data": "2026-07-02T17:01:12.675Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 32 min."
-  },
-  {
-    "data": "2026-07-02T16:31:21.160Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 62 min."
-  },
-  {
-    "data": "2026-07-02T16:01:04.935Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
   }
 ]
