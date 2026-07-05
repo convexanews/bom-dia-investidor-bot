@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-05T22:01:07.142Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 62 min."
+  },
+  {
     "data": "2026-07-05T21:31:25.069Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
@@ -1143,14 +1148,5 @@
     "data": "2026-07-03T01:01:05.325Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (22:01 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-03T00:33:41.938Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (carrossel): \"Como investir em energia solar? Setor movimenta R$ 300 bilhões e amplia opções na Bolsa\".",
-    "postId": "18088627016313381",
-    "storyId": "18325291687286579",
-    "reelId": null,
-    "tipo": "carrossel"
   }
 ]
