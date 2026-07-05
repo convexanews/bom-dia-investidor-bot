@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-05T21:31:25.069Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
+  },
+  {
     "data": "2026-07-05T21:04:58.501Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 119 min."
@@ -1147,10 +1152,5 @@
     "storyId": "18325291687286579",
     "reelId": null,
     "tipo": "carrossel"
-  },
-  {
-    "data": "2026-07-03T00:31:23.176Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 15): \"Como investir em energia solar? Setor movimenta R$ 300 bilhões e amplia opções na Bolsa\". Realizando postagem..."
   }
 ]
