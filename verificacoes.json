@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-05T14:31:14.451Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 78 min."
+  },
+  {
     "data": "2026-07-05T14:27:34.085Z",
     "resultado": "resumo_semanal",
     "mensagem": "Resumo semanal publicado com 7 notícias.",
@@ -1156,10 +1161,5 @@
     "storyId": null,
     "reelId": "18071560199363685",
     "tipo": "reel"
-  },
-  {
-    "data": "2026-07-02T17:52:00.176Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 61): \"BlackRock diz que é hora da renda fixa e vê Brasil como uma das estrelas\". Realizando postagem..."
   }
 ]
