@@ -1,8 +1,17 @@
 [
   {
-    "data": "2026-07-05T00:01:09.773Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
+    "data": "2026-07-05T00:01:54.946Z",
+    "resultado": "reel_postado",
+    "mensagem": "Resumo em vídeo do dia publicado com 5 notícia(s).",
+    "reelId": "18104801648113564",
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1783209644885.mp4",
+    "noticias": [
+      "Projeções para o Ibov e “guerra” das canetas emagrecedoras; veja destaques da semana",
+      "Dividendos de 11%: Veja os fundos imobiliários recomendados pelo Itaú BBA para julho",
+      "Presidente da Turquia afirma que Israel não pode arruinar acordo entre EUA e Irã",
+      "Goldman Sachs vê fraqueza ampla do dólar como improvável no curto prazo",
+      "Putin e Trump conversam sobre guerra na Ucrânia e cúpula da Otan em telefonema"
+    ]
   },
   {
     "data": "2026-07-04T23:35:51.693Z",
