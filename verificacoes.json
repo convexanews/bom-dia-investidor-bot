@@ -1,5 +1,11 @@
 [
   {
+    "data": "2026-07-05T12:22:57.322Z",
+    "resultado": "story_glossario",
+    "mensagem": "Story do glossário publicado: \"B3\"",
+    "postId": "18080171351668666"
+  },
+  {
     "data": "2026-07-05T12:01:24.987Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 98 min."
@@ -1145,16 +1151,5 @@
     "data": "2026-07-02T15:31:29.064Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 44): \"Ibovespa fecha mês no ‘zero a zero’, mas essas 3 ações do mesmo setor dispararam mais de 10% no período: qual o segredo?\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-02T15:02:53.202Z",
-    "resultado": "reel_postado",
-    "mensagem": "Resumo em vídeo do dia publicado com 2 notícia(s).",
-    "reelId": "17956539870155155",
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1783004516089.mp4",
-    "noticias": [
-      "CACR11 encolhe quase 16%; IFIX fecha em queda de 0,1%",
-      "Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta quinta"
-    ]
   }
 ]
