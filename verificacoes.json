@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-05T15:01:19.909Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 48 min."
+  },
+  {
     "data": "2026-07-05T14:31:14.451Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 78 min."
@@ -1152,14 +1157,5 @@
     "data": "2026-07-02T18:01:20.691Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 113 min."
-  },
-  {
-    "data": "2026-07-02T17:54:00.899Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"BlackRock diz que é hora da renda fixa e vê Brasil como uma das estrelas\".",
-    "postId": "18071560199363685",
-    "storyId": null,
-    "reelId": "18071560199363685",
-    "tipo": "reel"
   }
 ]
