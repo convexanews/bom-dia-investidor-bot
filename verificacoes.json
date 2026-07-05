@@ -1,5 +1,21 @@
 [
   {
+    "data": "2026-07-05T15:03:16.796Z",
+    "resultado": "reel_postado",
+    "mensagem": "Resumo em vídeo do dia publicado com 7 notícia(s).",
+    "reelId": "18120295597771698",
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1783263725082.mp4",
+    "noticias": [
+      "Dividendos de 11%: Veja os fundos imobiliários recomendados pelo Itaú BBA para julho",
+      "Presidente da Turquia afirma que Israel não pode arruinar acordo entre EUA e Irã",
+      "Goldman Sachs vê fraqueza ampla do dólar como improvável no curto prazo",
+      "Putin e Trump conversam sobre guerra na Ucrânia e cúpula da Otan em telefonema",
+      "Opep+ deve aprovar novo aumento na produção de petróleo para agosto",
+      "Três riscos que podem definir seus investimentos em 2026 no Brasil",
+      "Micro e pequenas empresas e negócios maduros concentram endividamento no País"
+    ]
+  },
+  {
     "data": "2026-07-05T15:01:19.909Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 48 min."
@@ -1152,10 +1168,5 @@
     "data": "2026-07-02T18:31:19.156Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 83 min."
-  },
-  {
-    "data": "2026-07-02T18:01:20.691Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 113 min."
   }
 ]
