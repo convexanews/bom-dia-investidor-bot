@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-05T08:01:28.831Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (05:01 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-07-05T07:31:10.032Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (04:31 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1152,10 +1157,5 @@
     "storyId": null,
     "reelId": "18103231409276633",
     "tipo": "reel"
-  },
-  {
-    "data": "2026-07-02T11:08:55.794Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 70): \"Mercado cauteloso à espera do payroll; Ibovespa em dólar cai hoje (2)\". Realizando postagem..."
   }
 ]
