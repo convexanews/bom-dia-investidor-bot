@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-06T00:03:15.372Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Dólar fecha estável na semana,  mas gráfico alerta para \"muralha\" de baixa\".",
+    "postId": "17923344225382966",
+    "storyId": null,
+    "reelId": "17923344225382966",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-07-06T00:01:29.396Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 33): \"Dólar fecha estável na semana,  mas gráfico alerta para \"muralha\" de baixa\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-05T23:31:12.602Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
@@ -1138,15 +1152,5 @@
     "data": "2026-07-03T03:33:41.601Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (00:33 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-03T03:31:12.062Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (00:31 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-03T03:01:21.208Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (00:01 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
