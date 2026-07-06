@@ -1,5 +1,15 @@
 [
   {
+    "data": "2026-07-06T12:02:50.630Z",
+    "resultado": "erro",
+    "mensagem": "Erro na execução automática: Container com erro: {\"status_code\":\"ERROR\",\"id\":\"18123396970665621\"}"
+  },
+  {
+    "data": "2026-07-06T12:01:29.564Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 89): \"Após meses de altas, mercado corta projeção da inflação para 2026; confira o Focus desta segunda-feira (6)\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-06T11:31:56.295Z",
     "resultado": "erro",
     "mensagem": "Erro na execução automática: fetch failed"
@@ -1139,19 +1149,5 @@
     "data": "2026-07-03T14:54:27.939Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 69 min."
-  },
-  {
-    "data": "2026-07-03T14:31:17.181Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
-  },
-  {
-    "data": "2026-07-03T14:02:32.510Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (card): \"A grande alteração foi no pré-fixado’: juros altos recolocam pós-fixados no centro das atenções, avalia analista da Empiricus\".",
-    "postId": "18571597378064706",
-    "storyId": "18097490543339025",
-    "reelId": null,
-    "tipo": "card"
   }
 ]
