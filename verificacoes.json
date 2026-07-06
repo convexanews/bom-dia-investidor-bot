@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-06T15:31:20.536Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
+  },
+  {
     "data": "2026-07-06T15:04:45.697Z",
     "resultado": "reel_postado",
     "mensagem": "Resumo em vídeo do dia publicado com 4 notícia(s).",
@@ -1147,10 +1152,5 @@
     "data": "2026-07-03T18:31:22.844Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 44): \"Bolsas da Europa fecham em alta com PMIs europeus e impulso tech, com liquidez reduzida sem NY\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-03T18:01:05.136Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 30 min."
   }
 ]
