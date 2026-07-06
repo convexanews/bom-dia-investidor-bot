@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-06T20:02:58.510Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (carrossel): \"15 ações para buscar retornos acima do Ibovespa em julho, segundo a Ativa\".",
+    "postId": "18101577182331401",
+    "storyId": "18082848302213365",
+    "reelId": null,
+    "tipo": "carrossel"
+  },
+  {
+    "data": "2026-07-06T20:01:27.535Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 55): \"15 ações para buscar retornos acima do Ibovespa em julho, segundo a Ativa\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-06T19:31:16.660Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
@@ -1126,15 +1140,5 @@
     "data": "2026-07-03T22:35:02.018Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 28 min."
-  },
-  {
-    "data": "2026-07-03T22:31:06.717Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 32 min."
-  },
-  {
-    "data": "2026-07-03T22:01:12.754Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 62 min."
   }
 ]
