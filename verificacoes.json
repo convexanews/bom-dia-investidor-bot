@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-06T09:03:39.256Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Boletim Focus, ISM de serviços e falas do Fed movimentam a agenda desta segunda\".",
+    "postId": "18381765331206513",
+    "storyId": null,
+    "reelId": "18381765331206513",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-07-06T09:01:29.632Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 80): \"Boletim Focus, ISM de serviços e falas do Fed movimentam a agenda desta segunda\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-06T08:31:20.059Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (05:31 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1144,15 +1158,5 @@
     "storyId": "17871272013547419",
     "reelId": null,
     "tipo": "carrossel"
-  },
-  {
-    "data": "2026-07-03T11:31:03.188Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 32): \"Fundo imobiliário compra fatia de shopping em Curitiba por R$ 45,2 milhões; IFIX avança\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-03T11:01:19.895Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
   }
 ]
