@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-06T18:01:19.354Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 93 min."
+  },
+  {
     "data": "2026-07-06T17:33:52.639Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"Inadimplência recorde acende alerta para consumo e crédito no Brasil\".",
@@ -1147,10 +1152,5 @@
     "storyId": "18600489817016609",
     "reelId": null,
     "tipo": "card"
-  },
-  {
-    "data": "2026-07-03T21:01:17.970Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 57): \"Dólar fecha a R$ 5,16, com queda de 0,76%, em pregão de liquidez reduzida\". Realizando postagem..."
   }
 ]
