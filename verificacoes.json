@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-06T22:01:24.231Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
+  },
+  {
     "data": "2026-07-06T21:31:26.798Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 32 min."
@@ -1131,10 +1136,5 @@
       "Dólar fecha a R$ 5,16, com queda de 0,76%, em pregão de liquidez reduzida",
       "Genial troca BTLG11 por GGRC11 em carteira recomendada de FIIs para julho"
     ]
-  },
-  {
-    "data": "2026-07-04T00:01:13.850Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 93 min."
   }
 ]
