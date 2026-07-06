@@ -1,0 +1,28 @@
+name: Bom Dia Investidor - Limpeza do Pages
+
+on:
+  schedule:
+    - cron: '0 6 * * *'  # Todo dia às 3h BRT (6h UTC)
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+concurrency:
+  group: bdi-limpeza-pages
+  cancel-in-progress: false
+
+jobs:
+  limpar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Remover midias com mais de 7 dias do repo do Pages
+        env:
+          PAGES_TOKEN: ${{ secrets.PAGES_TOKEN }}
+        run: node limpar_pages.cjs
