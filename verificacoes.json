@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-06T17:33:52.639Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Inadimplência recorde acende alerta para consumo e crédito no Brasil\".",
+    "postId": "18120786808774903",
+    "storyId": null,
+    "reelId": "18120786808774903",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-07-06T17:31:53.389Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 73): \"Inadimplência recorde acende alerta para consumo e crédito no Brasil\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-06T17:01:21.699Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
@@ -1138,15 +1152,5 @@
     "data": "2026-07-03T21:01:17.970Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 57): \"Dólar fecha a R$ 5,16, com queda de 0,76%, em pregão de liquidez reduzida\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-03T20:31:03.334Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
-  },
-  {
-    "data": "2026-07-03T20:01:07.596Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 33 min."
   }
 ]
