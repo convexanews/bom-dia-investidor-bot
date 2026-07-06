@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-06T09:04:29.982Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 120 min."
+  },
+  {
     "data": "2026-07-06T09:03:39.256Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"Boletim Focus, ISM de serviços e falas do Fed movimentam a agenda desta segunda\".",
@@ -1149,14 +1154,5 @@
     "data": "2026-07-03T12:01:05.006Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 93 min."
-  },
-  {
-    "data": "2026-07-03T11:33:06.554Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (carrossel): \"Fundo imobiliário compra fatia de shopping em Curitiba por R$ 45,2 milhões; IFIX avança\".",
-    "postId": "18093193394040012",
-    "storyId": "17871272013547419",
-    "reelId": null,
-    "tipo": "carrossel"
   }
 ]
