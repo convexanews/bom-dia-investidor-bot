@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-06T14:31:11.865Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
+  },
+  {
     "data": "2026-07-06T14:01:15.578Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 33 min."
@@ -1134,14 +1139,5 @@
     "data": "2026-07-03T16:31:14.531Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 119 min."
-  },
-  {
-    "data": "2026-07-03T16:30:13.344Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"Bolsa brasileira segue sem gatilhos para subir; juros nos EUA e fluxo para IA pesam sobre mercado, diz Bank of America\".",
-    "postId": "18135842806568691",
-    "storyId": null,
-    "reelId": "18135842806568691",
-    "tipo": "reel"
   }
 ]
