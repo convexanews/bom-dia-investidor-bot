@@ -1,5 +1,15 @@
 [
   {
+    "data": "2026-07-06T11:31:56.295Z",
+    "resultado": "erro",
+    "mensagem": "Erro na execução automática: fetch failed"
+  },
+  {
+    "data": "2026-07-06T11:31:10.849Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 55): \"Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta segunda\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-06T11:01:18.328Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
@@ -1143,15 +1153,5 @@
     "storyId": "18097490543339025",
     "reelId": null,
     "tipo": "card"
-  },
-  {
-    "data": "2026-07-03T14:01:07.692Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 58): \"A grande alteração foi no pré-fixado’: juros altos recolocam pós-fixados no centro das atenções, avalia analista da Empiricus\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-03T13:31:03.530Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
   }
 ]
