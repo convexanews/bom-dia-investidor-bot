@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-06T20:56:08.963Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 67 min."
+  },
+  {
     "data": "2026-07-06T20:31:29.225Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
@@ -1135,10 +1140,5 @@
     "data": "2026-07-03T23:31:23.568Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 25): \"Genial troca BTLG11 por GGRC11 em carteira recomendada de FIIs para julho\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-03T23:01:08.556Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
   }
 ]
