@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-06T12:33:27.877Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Após meses de altas, mercado corta projeção da inflação para 2026; confira o Focus desta segunda-feira (6)\".",
+    "postId": "18071728937383673",
+    "storyId": null,
+    "reelId": "18071728937383673",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-07-06T12:31:24.062Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 89): \"Após meses de altas, mercado corta projeção da inflação para 2026; confira o Focus desta segunda-feira (6)\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-06T12:02:50.630Z",
     "resultado": "erro",
     "mensagem": "Erro na execução automática: Container com erro: {\"status_code\":\"ERROR\",\"id\":\"18123396970665621\"}"
@@ -1139,15 +1153,5 @@
       "Fundo imobiliário compra fatia de shopping em Curitiba por R$ 45,2 milhões; IFIX avança",
       "A grande alteração foi no pré-fixado’: juros altos recolocam pós-fixados no centro das atenções, avalia analista da Empiricus"
     ]
-  },
-  {
-    "data": "2026-07-03T15:01:13.886Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 62 min."
-  },
-  {
-    "data": "2026-07-03T14:54:27.939Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 69 min."
   }
 ]
