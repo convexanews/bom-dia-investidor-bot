@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-06T16:31:22.483Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 32 min."
+  },
+  {
     "data": "2026-07-06T16:20:53.777Z",
     "resultado": "erro_carrossel_educativo",
     "mensagem": "Erro ao publicar carrossel educativo: Command failed: git push"
@@ -1143,10 +1148,5 @@
     "data": "2026-07-03T19:31:08.746Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 63 min."
-  },
-  {
-    "data": "2026-07-03T19:01:03.024Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 93 min."
   }
 ]
