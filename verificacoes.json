@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-06T19:01:27.716Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 33 min."
+  },
+  {
     "data": "2026-07-06T18:57:59.444Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 36 min."
@@ -1143,10 +1148,5 @@
       "USIM5 +2,45%",
       "BPAC11 +2,38%"
     ]
-  },
-  {
-    "data": "2026-07-03T21:31:04.602Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
   }
 ]
