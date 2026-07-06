@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-06T06:31:24.373Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (03:31 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-07-06T06:01:26.130Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (03:01 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1149,14 +1154,5 @@
     "data": "2026-07-03T09:31:17.507Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 93 min."
-  },
-  {
-    "data": "2026-07-03T09:04:00.979Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"Feriado nos EUA, indústria no Brasil, PMIs e mais destaques desta sexta\".",
-    "postId": "17969038674114655",
-    "storyId": null,
-    "reelId": "17969038674114655",
-    "tipo": "reel"
   }
 ]
