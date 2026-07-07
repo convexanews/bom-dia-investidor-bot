@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-07T21:31:25.961Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
+  },
+  {
     "data": "2026-07-07T21:07:40.883Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 116 min."
@@ -1147,10 +1152,5 @@
     "data": "2026-07-04T23:31:06.795Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 22): \"Putin e Trump conversam sobre guerra na Ucrânia e cúpula da Otan em telefonema\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-04T23:01:20.491Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
   }
 ]
