@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-07T22:31:35.105Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 32 min."
+  },
+  {
     "data": "2026-07-07T22:04:03.728Z",
     "resultado": "carrossel_fechamento",
     "mensagem": "Carrossel de fechamento publicado. Ibovespa: 172.021 -1,29%",
@@ -1155,10 +1160,5 @@
       "Goldman Sachs vê fraqueza ampla do dólar como improvável no curto prazo",
       "Putin e Trump conversam sobre guerra na Ucrânia e cúpula da Otan em telefonema"
     ]
-  },
-  {
-    "data": "2026-07-04T23:35:51.693Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 117 min."
   }
 ]
