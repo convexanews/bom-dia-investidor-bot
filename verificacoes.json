@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-07T13:32:57.857Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Tempo Real: Ibovespa avança com alta de Petrobras (PETR4); dólar sobe\".",
+    "postId": "18117664528843225",
+    "storyId": null,
+    "reelId": "18117664528843225",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-07-07T13:31:22.754Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 71): \"Tempo Real: Ibovespa avança com alta de Petrobras (PETR4); dólar sobe\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-07T13:24:29.762Z",
     "resultado": "story_glossario",
     "mensagem": "Story do glossário publicado: \"ETF\"",
@@ -1130,23 +1144,5 @@
     "data": "2026-07-04T15:31:05.183Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
-  },
-  {
-    "data": "2026-07-04T15:08:11.755Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 26 min."
-  },
-  {
-    "data": "2026-07-04T15:02:51.632Z",
-    "resultado": "reel_postado",
-    "mensagem": "Resumo em vídeo do dia publicado com 4 notícia(s).",
-    "reelId": "18089161829148155",
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1783177306583.mp4",
-    "noticias": [
-      "Bolsas da Europa fecham em alta com PMIs europeus e impulso tech, com liquidez reduzida sem NY",
-      "Dólar fecha a R$ 5,16, com queda de 0,76%, em pregão de liquidez reduzida",
-      "Genial troca BTLG11 por GGRC11 em carteira recomendada de FIIs para julho",
-      "Projeções para o Ibov e “guerra” das canetas emagrecedoras; veja destaques da semana"
-    ]
   }
 ]
