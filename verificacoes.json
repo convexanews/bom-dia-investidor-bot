@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-07T16:03:05.782Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Nem bancos, nem elétricas: rainha dos dividendos é a favorita de 14 analistas para julho\".",
+    "postId": "18111202994491499",
+    "storyId": null,
+    "reelId": "18111202994491499",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-07-07T16:01:28.602Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 61): \"Nem bancos, nem elétricas: rainha dos dividendos é a favorita de 14 analistas para julho\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-07T15:31:41.830Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
@@ -1138,15 +1152,5 @@
     "data": "2026-07-04T18:04:45.859Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 21): \"Presidente da Turquia afirma que Israel não pode arruinar acordo entre EUA e Irã\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-04T18:01:15.749Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
-  },
-  {
-    "data": "2026-07-04T17:31:13.709Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 33 min."
   }
 ]
