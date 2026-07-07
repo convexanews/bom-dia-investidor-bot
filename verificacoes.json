@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-07T16:34:03.708Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 90 min."
+  },
+  {
     "data": "2026-07-07T16:31:22.366Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
@@ -1143,14 +1148,5 @@
     "data": "2026-07-04T18:31:21.639Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 95 min."
-  },
-  {
-    "data": "2026-07-04T18:06:10.463Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (card): \"Presidente da Turquia afirma que Israel não pode arruinar acordo entre EUA e Irã\".",
-    "postId": "17961998982131662",
-    "storyId": "18150370363446177",
-    "reelId": null,
-    "tipo": "card"
   }
 ]
