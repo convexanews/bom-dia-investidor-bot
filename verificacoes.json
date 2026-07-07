@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-07T07:42:44.529Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (04:42 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-07-07T07:31:10.275Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (04:31 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1144,10 +1149,5 @@
     "data": "2026-07-04T11:01:10.655Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 36): \"Projeções para o Ibov e “guerra” das canetas emagrecedoras; veja destaques da semana\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-04T10:31:11.174Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
   }
 ]
