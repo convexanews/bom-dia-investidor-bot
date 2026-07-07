@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-07T09:02:59.539Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Futuros de NY operam mistos após Samsung frustrar mercado apesar de lucro recorde\".",
+    "postId": "18212606479339586",
+    "storyId": null,
+    "reelId": "18212606479339586",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-07-07T09:01:25.865Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 60): \"Futuros de NY operam mistos após Samsung frustrar mercado apesar de lucro recorde\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-07T08:31:26.596Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (05:31 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1135,15 +1149,5 @@
     "data": "2026-07-04T12:01:03.591Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 62 min."
-  },
-  {
-    "data": "2026-07-04T11:35:26.814Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 88 min."
-  },
-  {
-    "data": "2026-07-04T11:31:12.642Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
   }
 ]
