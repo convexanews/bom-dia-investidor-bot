@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-07T14:01:25.189Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
+  },
+  {
     "data": "2026-07-07T13:36:01.985Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 117 min."
@@ -1139,10 +1144,5 @@
     "storyId": "17934760071089670",
     "reelId": null,
     "tipo": "carrossel"
-  },
-  {
-    "data": "2026-07-04T16:01:13.312Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 38): \"Dividendos de 11%: Veja os fundos imobiliários recomendados pelo Itaú BBA para julho\". Realizando postagem..."
   }
 ]
