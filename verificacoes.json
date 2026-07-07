@@ -1,5 +1,17 @@
 [
   {
+    "data": "2026-07-07T23:57:48.106Z",
+    "resultado": "reel_postado",
+    "mensagem": "Resumo em vídeo do dia publicado com 3 notícia(s).",
+    "reelId": "18135300991551494",
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1783468548272.mp4",
+    "noticias": [
+      "Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta terça",
+      "Futuros do algodão disparam e atingem limite diário com alta de 3 centavos",
+      "FII GAME11 lucra R$ 3,16 mi, supera benchmark e reforça reservas de dividendos"
+    ]
+  },
+  {
     "data": "2026-07-07T23:33:01.750Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (carrossel): \"FII GAME11 lucra R$ 3,16 mi, supera benchmark e reforça reservas de dividendos\".",
@@ -1150,10 +1162,5 @@
     "data": "2026-07-05T02:31:11.841Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (23:31 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-05T02:01:09.177Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (23:01 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
