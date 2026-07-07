@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-07T23:33:01.750Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (carrossel): \"FII GAME11 lucra R$ 3,16 mi, supera benchmark e reforça reservas de dividendos\".",
+    "postId": "18545592775074734",
+    "storyId": "18094468436197055",
+    "reelId": null,
+    "tipo": "carrossel"
+  },
+  {
+    "data": "2026-07-07T23:31:34.836Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 38): \"FII GAME11 lucra R$ 3,16 mi, supera benchmark e reforça reservas de dividendos\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-07T23:01:25.241Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
@@ -1141,15 +1155,5 @@
     "data": "2026-07-05T02:01:09.177Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (23:01 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-05T01:31:15.426Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (22:31 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-05T01:01:21.786Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (22:01 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
