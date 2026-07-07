@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-07T08:31:26.596Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (05:31 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-07-07T08:01:30.187Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (05:01 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1140,14 +1145,5 @@
     "data": "2026-07-04T11:31:12.642Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
-  },
-  {
-    "data": "2026-07-04T11:02:36.712Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (card): \"Projeções para o Ibov e “guerra” das canetas emagrecedoras; veja destaques da semana\".",
-    "postId": "18105785396089771",
-    "storyId": "18226745983318306",
-    "reelId": null,
-    "tipo": "card"
   }
 ]
