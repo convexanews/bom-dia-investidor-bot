@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-07T21:03:08.883Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Wall Street fecha em queda com liquidação de ações de chips e tensão no Oriente Médio; Dow Jones tem recorde intradia\".",
+    "postId": "18183878896403825",
+    "storyId": null,
+    "reelId": "18183878896403825",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-07-07T21:01:31.729Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 96): \"Wall Street fecha em queda com liquidação de ações de chips e tensão no Oriente Médio; Dow Jones tem recorde intradia\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-07T20:31:46.165Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 1 min."
@@ -1138,15 +1152,5 @@
     "data": "2026-07-04T22:31:16.067Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
-  },
-  {
-    "data": "2026-07-04T22:29:10.028Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 4 min."
-  },
-  {
-    "data": "2026-07-04T22:01:08.100Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 32 min."
   }
 ]
