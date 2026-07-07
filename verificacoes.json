@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-07T19:04:53.224Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 88 min."
+  },
+  {
     "data": "2026-07-07T19:01:29.720Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
@@ -1143,14 +1148,5 @@
     "data": "2026-07-04T21:01:04.133Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
-  },
-  {
-    "data": "2026-07-04T20:33:02.268Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (carrossel): \"Goldman Sachs vê fraqueza ampla do dólar como improvável no curto prazo\".",
-    "postId": "18124811494657966",
-    "storyId": "18477300145099360",
-    "reelId": null,
-    "tipo": "carrossel"
   }
 ]
