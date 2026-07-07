@@ -1,5 +1,17 @@
 [
   {
+    "data": "2026-07-07T00:07:20.888Z",
+    "resultado": "reel_postado",
+    "mensagem": "Resumo em vídeo do dia publicado com 3 notícia(s).",
+    "reelId": "18094604012366467",
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1783382752007.mp4",
+    "noticias": [
+      "Ibovespa Hoje Ao Vivo: Bolsa cai com bancos, PETR4, VALE3 e varejistas",
+      "15 ações para buscar retornos acima do Ibovespa em julho, segundo a Ativa",
+      "Walmart (WALM34) vai reduzir preço dos produtos; carne moída deve cair cerca de 15%, diz Trump"
+    ]
+  },
+  {
     "data": "2026-07-07T00:01:33.442Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 17 min."
@@ -1137,10 +1149,5 @@
     "data": "2026-07-04T04:01:04.894Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (01:01 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-04T03:31:12.060Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (00:31 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
