@@ -1,5 +1,11 @@
 [
   {
+    "data": "2026-07-07T13:24:29.762Z",
+    "resultado": "story_glossario",
+    "mensagem": "Story do glossário publicado: \"ETF\"",
+    "postId": "17946397635215015"
+  },
+  {
     "data": "2026-07-07T13:01:34.541Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 12 min."
@@ -1142,10 +1148,5 @@
       "Genial troca BTLG11 por GGRC11 em carteira recomendada de FIIs para julho",
       "Projeções para o Ibov e “guerra” das canetas emagrecedoras; veja destaques da semana"
     ]
-  },
-  {
-    "data": "2026-07-04T15:01:07.797Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 33 min."
   }
 ]
