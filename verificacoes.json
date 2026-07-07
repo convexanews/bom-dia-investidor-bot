@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-07T16:31:22.366Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
+  },
+  {
     "data": "2026-07-07T16:03:05.782Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"Nem bancos, nem elétricas: rainha dos dividendos é a favorita de 14 analistas para julho\".",
@@ -1147,10 +1152,5 @@
     "storyId": "18150370363446177",
     "reelId": null,
     "tipo": "card"
-  },
-  {
-    "data": "2026-07-04T18:04:45.859Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 21): \"Presidente da Turquia afirma que Israel não pode arruinar acordo entre EUA e Irã\". Realizando postagem..."
   }
 ]
