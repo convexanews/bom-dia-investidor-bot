@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-07T18:32:38.379Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (carrossel): \"Futuros do algodão disparam e atingem limite diário com alta de 3 centavos\".",
+    "postId": "17922433875163325",
+    "storyId": "18088573343386098",
+    "reelId": null,
+    "tipo": "carrossel"
+  },
+  {
+    "data": "2026-07-07T18:31:30.094Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 37): \"Futuros do algodão disparam e atingem limite diário com alta de 3 centavos\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-07T18:01:42.291Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
@@ -1138,15 +1152,5 @@
     "data": "2026-07-04T20:31:08.454Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 13): \"Goldman Sachs vê fraqueza ampla do dólar como improvável no curto prazo\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-04T20:01:09.037Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 6 min."
-  },
-  {
-    "data": "2026-07-04T19:45:33.015Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 21 min."
   }
 ]
