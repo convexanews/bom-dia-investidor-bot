@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-07T10:01:18.026Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 62 min."
+  },
+  {
     "data": "2026-07-07T09:31:18.766Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
@@ -1143,11 +1148,5 @@
     "data": "2026-07-04T12:31:08.546Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 32 min."
-  },
-  {
-    "data": "2026-07-04T12:12:16.559Z",
-    "resultado": "story_glossario",
-    "mensagem": "Story do glossário publicado: \"Renda Variável\"",
-    "postId": "18116987984501195"
   }
 ]
