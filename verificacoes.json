@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-08T18:03:41.015Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (carrossel): \"Tenda (TEND3): Ações caem 3% após prévia do 2T26; analistas respondem se é hora de comprar ou vender\".",
+    "postId": "18096647888244133",
+    "storyId": "18122114110684697",
+    "reelId": null,
+    "tipo": "carrossel"
+  },
+  {
+    "data": "2026-07-08T18:02:10.271Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 35): \"Tenda (TEND3): Ações caem 3% após prévia do 2T26; analistas respondem se é hora de comprar ou vender\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-08T17:41:21.429Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
@@ -1134,15 +1148,5 @@
     "data": "2026-07-05T20:01:15.369Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 8 min."
-  },
-  {
-    "data": "2026-07-05T19:52:08.793Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 17 min."
-  },
-  {
-    "data": "2026-07-05T19:31:44.184Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 37 min."
   }
 ]
