@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-08T19:31:24.392Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 33 min."
+  },
+  {
     "data": "2026-07-08T19:01:35.025Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 63 min."
@@ -1143,10 +1148,5 @@
     "storyId": "18476580592096078",
     "reelId": null,
     "tipo": "card"
-  },
-  {
-    "data": "2026-07-05T21:01:28.673Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 6): \"Copa do Mundo: com pouco tempo de recuperação, Argentina e Egito jogarão na 3ª\". Realizando postagem..."
   }
 ]
