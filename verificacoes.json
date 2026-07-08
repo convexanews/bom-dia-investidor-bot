@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-08T11:31:48.860Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 115 min."
+  },
+  {
     "data": "2026-07-08T11:25:57.595Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (carrossel): \"Bolsas da Europa recuam com alta do petróleo; Trump diz que acordo com Irã “acabou”\".",
@@ -1156,10 +1161,5 @@
     "storyId": "18458821207115704",
     "reelId": null,
     "tipo": "carrossel"
-  },
-  {
-    "data": "2026-07-05T13:46:27.653Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 16): \"Micro e pequenas empresas e negócios maduros concentram endividamento no País\". Realizando postagem..."
   }
 ]
