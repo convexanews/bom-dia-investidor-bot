@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-08T20:33:13.137Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Wall Street fecha sem direção única após escalada no Oriente Médio e após ata do Fed\".",
+    "postId": "17936173833329021",
+    "storyId": null,
+    "reelId": "17936173833329021",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-07-08T20:31:30.718Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 78): \"Wall Street fecha sem direção única após escalada no Oriente Médio e após ata do Fed\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-08T20:01:27.657Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
@@ -1134,15 +1148,5 @@
     "data": "2026-07-05T22:31:05.894Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 32 min."
-  },
-  {
-    "data": "2026-07-05T22:01:07.142Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 62 min."
-  },
-  {
-    "data": "2026-07-05T21:31:25.069Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
   }
 ]
