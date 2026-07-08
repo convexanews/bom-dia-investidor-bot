@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-08T14:02:10.825Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 94 min."
+  },
+  {
     "data": "2026-07-08T13:36:06.461Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"BTG muda visão para Selic e passa a projetar mais dois cortes de juros em 2026; veja o que mudou\".",
@@ -1136,10 +1141,5 @@
     "data": "2026-07-05T16:01:13.163Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 13): \"Trump se oferece para ajudar Putin a chegar a acordo com a Ucrânia e também conversa com Zelenskiy\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-05T15:31:08.682Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 18 min."
   }
 ]
