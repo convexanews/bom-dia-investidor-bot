@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-08T15:01:29.048Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 35 min."
+  },
+  {
     "data": "2026-07-08T14:32:11.517Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 64 min."
@@ -1132,14 +1137,5 @@
     "data": "2026-07-05T16:31:20.793Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
-  },
-  {
-    "data": "2026-07-05T16:02:37.686Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (card): \"Trump se oferece para ajudar Putin a chegar a acordo com a Ucrânia e também conversa com Zelenskiy\".",
-    "postId": "18160976107459049",
-    "storyId": "18123867643668703",
-    "reelId": null,
-    "tipo": "card"
   }
 ]
