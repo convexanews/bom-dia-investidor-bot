@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-08T09:02:58.803Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Dow Jones Futuro cai enquanto petróleo dispara 5% após ataques dos EUA ao Irã\".",
+    "postId": "17974429548060239",
+    "storyId": null,
+    "reelId": "17974429548060239",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-07-08T09:01:28.444Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 70): \"Dow Jones Futuro cai enquanto petróleo dispara 5% após ataques dos EUA ao Irã\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-08T08:31:17.689Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (05:31 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1148,15 +1162,5 @@
     "data": "2026-07-05T11:37:20.661Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 35): \"Três riscos que podem definir seus investimentos em 2026 no Brasil\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-05T11:31:21.077Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
-  },
-  {
-    "data": "2026-07-05T11:01:14.912Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 32 min."
   }
 ]
