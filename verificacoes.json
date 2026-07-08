@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-08T13:36:06.461Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"BTG muda visão para Selic e passa a projetar mais dois cortes de juros em 2026; veja o que mudou\".",
+    "postId": "18071671760401093",
+    "storyId": null,
+    "reelId": "18071671760401093",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-07-08T13:34:22.952Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 65): \"BTG muda visão para Selic e passa a projetar mais dois cortes de juros em 2026; veja o que mudou\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-08T13:07:54.285Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 19 min."
@@ -1127,26 +1141,5 @@
     "data": "2026-07-05T15:31:08.682Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 18 min."
-  },
-  {
-    "data": "2026-07-05T15:15:35.659Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 33 min."
-  },
-  {
-    "data": "2026-07-05T15:03:16.796Z",
-    "resultado": "reel_postado",
-    "mensagem": "Resumo em vídeo do dia publicado com 7 notícia(s).",
-    "reelId": "18120295597771698",
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1783263725082.mp4",
-    "noticias": [
-      "Dividendos de 11%: Veja os fundos imobiliários recomendados pelo Itaú BBA para julho",
-      "Presidente da Turquia afirma que Israel não pode arruinar acordo entre EUA e Irã",
-      "Goldman Sachs vê fraqueza ampla do dólar como improvável no curto prazo",
-      "Putin e Trump conversam sobre guerra na Ucrânia e cúpula da Otan em telefonema",
-      "Opep+ deve aprovar novo aumento na produção de petróleo para agosto",
-      "Três riscos que podem definir seus investimentos em 2026 no Brasil",
-      "Micro e pequenas empresas e negócios maduros concentram endividamento no País"
-    ]
   }
 ]
