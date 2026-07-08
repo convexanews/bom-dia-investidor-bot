@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-08T06:32:08.789Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (03:32 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-07-08T06:30:56.319Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (03:30 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1157,10 +1162,5 @@
     "storyId": "17982133029046327",
     "reelId": null,
     "tipo": "carrossel"
-  },
-  {
-    "data": "2026-07-05T09:31:09.448Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 3): \"Opep+ deve aprovar novo aumento na produção de petróleo para agosto\". Realizando postagem..."
   }
 ]
