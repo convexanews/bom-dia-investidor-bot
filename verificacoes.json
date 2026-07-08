@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-08T22:01:30.354Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 32 min."
+  },
+  {
     "data": "2026-07-08T21:56:37.123Z",
     "resultado": "carrossel_fechamento",
     "mensagem": "Carrossel de fechamento publicado. Ibovespa: 170.653 -1,04%",
@@ -1145,20 +1150,5 @@
     "data": "2026-07-06T00:10:05.185Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 114 min."
-  },
-  {
-    "data": "2026-07-06T00:05:01.898Z",
-    "resultado": "reel_postado",
-    "mensagem": "Resumo em vídeo do dia publicado com 6 notícia(s).",
-    "reelId": "17963904051132947",
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1783296193335.mp4",
-    "noticias": [
-      "Opep+ deve aprovar novo aumento na produção de petróleo para agosto",
-      "Três riscos que podem definir seus investimentos em 2026 no Brasil",
-      "Micro e pequenas empresas e negócios maduros concentram endividamento no País",
-      "Trump se oferece para ajudar Putin a chegar a acordo com a Ucrânia e também conversa com Zelenskiy",
-      "Trump exibe nova nota de US$ 100 com assinatura presidencial inédita",
-      "Copa do Mundo: com pouco tempo de recuperação, Argentina e Egito jogarão na 3ª"
-    ]
   }
 ]
