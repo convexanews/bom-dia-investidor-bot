@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-08T21:01:39.805Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
+  },
+  {
     "data": "2026-07-08T20:33:13.137Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"Wall Street fecha sem direção única após escalada no Oriente Médio e após ata do Fed\".",
@@ -1141,11 +1146,6 @@
   },
   {
     "data": "2026-07-05T22:31:55.422Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 32 min."
-  },
-  {
-    "data": "2026-07-05T22:31:05.894Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 32 min."
   }
