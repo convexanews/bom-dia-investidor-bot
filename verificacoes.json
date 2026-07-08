@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-08T18:31:32.019Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 93 min."
+  },
+  {
     "data": "2026-07-08T18:03:41.015Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (carrossel): \"Tenda (TEND3): Ações caem 3% após prévia do 2T26; analistas respondem se é hora de comprar ou vender\".",
@@ -1143,10 +1148,5 @@
     "data": "2026-07-05T20:31:25.538Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
-  },
-  {
-    "data": "2026-07-05T20:01:15.369Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 8 min."
   }
 ]
