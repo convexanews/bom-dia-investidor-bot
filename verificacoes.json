@@ -1,5 +1,11 @@
 [
   {
+    "data": "2026-07-08T12:26:54.426Z",
+    "resultado": "story_glossario",
+    "mensagem": "Story do glossário publicado: \"Spread Bancário\"",
+    "postId": "18115350172821367"
+  },
+  {
     "data": "2026-07-08T12:01:39.739Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 85 min."
@@ -1152,10 +1158,5 @@
       "Ibovespa perde carona em recorde de Wall Street e recua com Petrobras (PETR4); dólar cai a R$ 5,16",
       "Ibovespa Hoje Ao Vivo: Bolsa tem leve queda, com PETR4; VALE3 sobe"
     ]
-  },
-  {
-    "data": "2026-07-05T14:01:12.249Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 108 min."
   }
 ]
