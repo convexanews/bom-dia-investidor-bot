@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-08T07:01:29.339Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (04:01 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-07-08T06:32:08.789Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (03:32 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1153,14 +1158,5 @@
     "data": "2026-07-05T09:55:45.602Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 98 min."
-  },
-  {
-    "data": "2026-07-05T09:32:55.386Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (carrossel): \"Opep+ deve aprovar novo aumento na produção de petróleo para agosto\".",
-    "postId": "18009198473926426",
-    "storyId": "17982133029046327",
-    "reelId": null,
-    "tipo": "carrossel"
   }
 ]
