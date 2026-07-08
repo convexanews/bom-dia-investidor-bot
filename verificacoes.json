@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-08T14:32:11.517Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 64 min."
+  },
+  {
     "data": "2026-07-08T14:02:10.825Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 94 min."
@@ -1136,10 +1141,5 @@
     "storyId": "18123867643668703",
     "reelId": null,
     "tipo": "card"
-  },
-  {
-    "data": "2026-07-05T16:01:13.163Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 13): \"Trump se oferece para ajudar Putin a chegar a acordo com a Ucrânia e também conversa com Zelenskiy\". Realizando postagem..."
   }
 ]
