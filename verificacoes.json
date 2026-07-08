@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-08T17:01:28.829Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 43 min."
+  },
+  {
     "data": "2026-07-08T16:57:16.951Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 47 min."
@@ -1139,14 +1144,5 @@
     "data": "2026-07-05T18:31:13.901Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 98 min."
-  },
-  {
-    "data": "2026-07-05T18:08:40.959Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (carrossel): \"Trump exibe nova nota de US$ 100 com assinatura presidencial inédita\".",
-    "postId": "17895243102519034",
-    "storyId": "18139931974510840",
-    "reelId": null,
-    "tipo": "carrossel"
   }
 ]
