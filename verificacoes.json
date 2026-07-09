@@ -1,5 +1,22 @@
 [
   {
+    "data": "2026-07-09T22:11:52.325Z",
+    "resultado": "carrossel_fechamento",
+    "mensagem": "Carrossel de fechamento publicado. Ibovespa: 172.742 +0,42%",
+    "postId": "17905544493448065",
+    "ibov": {
+      "valor": "172.742",
+      "variacao": "+0,42%"
+    },
+    "topAltas": [
+      "MGLU3 +7,76%",
+      "RADL3 +4,68%",
+      "BPAC11 +3,21%",
+      "RDOR3 +3,14%",
+      "CSAN3 +2,93%"
+    ]
+  },
+  {
     "data": "2026-07-09T22:01:25.989Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
@@ -1136,10 +1153,5 @@
     "data": "2026-07-07T01:01:26.887Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (22:01 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-07T00:31:14.128Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
   }
 ]
