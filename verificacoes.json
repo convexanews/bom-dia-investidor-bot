@@ -1,5 +1,18 @@
 [
   {
+    "data": "2026-07-09T15:02:59.168Z",
+    "resultado": "reel_postado",
+    "mensagem": "Resumo em vídeo do dia publicado com 4 notícia(s).",
+    "reelId": "18118670488896722",
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1783609294574.mp4",
+    "noticias": [
+      "Tenda (TEND3): Ações caem 3% após prévia do 2T26; analistas respondem se é hora de comprar ou vender",
+      "Diretor financeiro da Omada Health vende US$ 85.423 em ações da empresa",
+      "Dow Jones Futuro avança mesmo com tensão entre EUA e Irã",
+      "Wall Street avança com recuperação do setor de tecnologia, apesar do conflito no Oriente Médio"
+    ]
+  },
+  {
     "data": "2026-07-09T15:01:22.135Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 62 min."
@@ -1143,14 +1156,5 @@
     "data": "2026-07-06T18:01:19.354Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 93 min."
-  },
-  {
-    "data": "2026-07-06T17:33:52.639Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"Inadimplência recorde acende alerta para consumo e crédito no Brasil\".",
-    "postId": "18120786808774903",
-    "storyId": null,
-    "reelId": "18120786808774903",
-    "tipo": "reel"
   }
 ]
