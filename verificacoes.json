@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-09T20:01:27.473Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 62 min."
+  },
+  {
     "data": "2026-07-09T19:58:59.443Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 64 min."
@@ -1139,14 +1144,5 @@
     "data": "2026-07-06T22:31:48.363Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 107 min."
-  },
-  {
-    "data": "2026-07-06T22:18:15.454Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (card): \"Walmart (WALM34) vai reduzir preço dos produtos; carne moída deve cair cerca de 15%, diz Trump\".",
-    "postId": "18170632531376702",
-    "storyId": "18108951103956772",
-    "reelId": null,
-    "tipo": "card"
   }
 ]
