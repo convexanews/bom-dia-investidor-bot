@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-09T11:33:42.439Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Bitcoin (BTC) volta a subir apesar dos temores da guerra no Irã; veja preços das criptomoedas nesta quinta-feira (9)\".",
+    "postId": "18110068339910993",
+    "storyId": null,
+    "reelId": "18110068339910993",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-07-09T11:31:35.508Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 42): \"Bitcoin (BTC) volta a subir apesar dos temores da guerra no Irã; veja preços das criptomoedas nesta quinta-feira (9)\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-09T11:06:31.049Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
@@ -1145,16 +1159,5 @@
     "storyId": "18087876035112996",
     "reelId": null,
     "tipo": "carrossel"
-  },
-  {
-    "data": "2026-07-06T15:01:42.790Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 58): \"Ibovespa Hoje Ao Vivo: Bolsa cai com bancos, PETR4, VALE3 e varejistas\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-06T14:32:25.374Z",
-    "resultado": "story_glossario",
-    "mensagem": "Story do glossário publicado: \"IPO\"",
-    "postId": "18106101407094742"
   }
 ]
