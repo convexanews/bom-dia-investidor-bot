@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-09T16:33:17.512Z",
+    "titulo": "‘Trump não vai resolver conflito com o Irã’; acordo deve ficar para o próximo presidente, diz estrategista da Empiricus",
+    "categoria": "Mercados",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/trump-nao-vai-resolver-conflito-com-o-ira-acordo-deve-ficar-para-o-proximo-presidente-diz-estrategista-jcav/",
+    "postId": "18136648042584830",
+    "storyId": null,
+    "reelId": "18136648042584830",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783614701336.mp4",
+    "tipo": "reel",
+    "peso": 61
+  },
+  {
     "data": "2026-07-09T14:02:45.076Z",
     "titulo": "Wall Street avança com recuperação do setor de tecnologia, apesar do conflito no Oriente Médio",
     "categoria": "Mercados",
@@ -2735,16 +2750,5 @@
     "storyId": "17943258783235002",
     "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781436946148-feed.png",
     "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781436946148-story.png"
-  },
-  {
-    "data": "2026-06-14T08:20:51.522Z",
-    "titulo": "SpaceX: como o apelo do IPO foi além da euforia do mercado em torno das ações",
-    "categoria": "Mercados",
-    "fonte": "InfoMoney",
-    "link": "https://www.infomoney.com.br/mercados/spacex-como-o-apelo-do-ipo-foi-alem-da-euforia-do-mercado-em-torno-das-acoes/",
-    "postId": "17972112141058802",
-    "storyId": "18320567974274498",
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781425205237-feed.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781425205237-story.png"
   }
 ]

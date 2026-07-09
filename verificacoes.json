@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-09T16:33:17.514Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"‘Trump não vai resolver conflito com o Irã’; acordo deve ficar para o próximo presidente, diz estrategista da Empiricus\".",
+    "postId": "18136648042584830",
+    "storyId": null,
+    "reelId": "18136648042584830",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-07-09T16:31:32.397Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 61): \"‘Trump não vai resolver conflito com o Irã’; acordo deve ficar para o próximo presidente, diz estrategista da Empiricus\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-09T16:01:22.958Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
@@ -1146,15 +1160,5 @@
     "data": "2026-07-06T20:01:27.535Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 55): \"15 ações para buscar retornos acima do Ibovespa em julho, segundo a Ativa\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-06T19:31:16.660Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
-  },
-  {
-    "data": "2026-07-06T19:01:27.716Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 33 min."
   }
 ]
