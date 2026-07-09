@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-09T12:03:37.971Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 91 min."
+  },
+  {
     "data": "2026-07-09T11:33:42.439Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"Bitcoin (BTC) volta a subir apesar dos temores da guerra no Irã; veja preços das criptomoedas nesta quinta-feira (9)\".",
@@ -1150,14 +1155,5 @@
       "Copa do Mundo: com pouco tempo de recuperação, Argentina e Egito jogarão na 3ª",
       "Ibovespa Hoje Ao Vivo: Bolsa cai com bancos, PETR4, VALE3 e varejistas"
     ]
-  },
-  {
-    "data": "2026-07-06T15:03:18.847Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (carrossel): \"Ibovespa Hoje Ao Vivo: Bolsa cai com bancos, PETR4, VALE3 e varejistas\".",
-    "postId": "17956231995151305",
-    "storyId": "18087876035112996",
-    "reelId": null,
-    "tipo": "carrossel"
   }
 ]
