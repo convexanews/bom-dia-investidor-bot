@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-09T08:38:01.329Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (05:38 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-07-09T08:31:07.880Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (05:31 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1151,10 +1156,5 @@
     "storyId": null,
     "reelId": "18071728937383673",
     "tipo": "reel"
-  },
-  {
-    "data": "2026-07-06T12:31:24.062Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 89): \"Após meses de altas, mercado corta projeção da inflação para 2026; confira o Focus desta segunda-feira (6)\". Realizando postagem..."
   }
 ]
