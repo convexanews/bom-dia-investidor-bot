@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-09T19:58:59.443Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 64 min."
+  },
+  {
     "data": "2026-07-09T19:31:20.586Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
@@ -1143,10 +1148,5 @@
     "storyId": "18108951103956772",
     "reelId": null,
     "tipo": "card"
-  },
-  {
-    "data": "2026-07-06T22:17:12.905Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 31): \"Walmart (WALM34) vai reduzir preço dos produtos; carne moída deve cair cerca de 15%, diz Trump\". Realizando postagem..."
   }
 ]
