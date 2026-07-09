@@ -1,5 +1,11 @@
 [
   {
+    "data": "2026-07-09T13:53:06.755Z",
+    "resultado": "story_glossario",
+    "mensagem": "Story do glossário publicado: \"Marcação a Mercado\"",
+    "postId": "18125928763658745"
+  },
+  {
     "data": "2026-07-09T13:31:29.834Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
@@ -1142,10 +1148,5 @@
     "data": "2026-07-06T16:31:22.483Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 32 min."
-  },
-  {
-    "data": "2026-07-06T16:20:53.777Z",
-    "resultado": "erro_carrossel_educativo",
-    "mensagem": "Erro ao publicar carrossel educativo: Command failed: git push"
   }
 ]
