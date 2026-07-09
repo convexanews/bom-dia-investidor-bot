@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-09T09:31:35.326Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 97 min."
+  },
+  {
     "data": "2026-07-09T09:08:28.046Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (card): \"Dow Jones Futuro avança mesmo com tensão entre EUA e Irã\".",
@@ -1151,10 +1156,5 @@
     "data": "2026-07-06T13:31:20.268Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 63 min."
-  },
-  {
-    "data": "2026-07-06T13:05:01.344Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 89 min."
   }
 ]
