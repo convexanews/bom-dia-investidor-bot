@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-09T21:37:51.934Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 116 min."
+  },
+  {
     "data": "2026-07-09T21:33:02.569Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (carrossel): \"Ibovespa hoje fecha alta, seguindo NY, com ações de bancos; dólar cai para R$ 5,12\".",
@@ -1143,10 +1148,5 @@
       "15 ações para buscar retornos acima do Ibovespa em julho, segundo a Ativa",
       "Walmart (WALM34) vai reduzir preço dos produtos; carne moída deve cair cerca de 15%, diz Trump"
     ]
-  },
-  {
-    "data": "2026-07-07T00:01:33.442Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 17 min."
   }
 ]
