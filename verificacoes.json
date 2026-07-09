@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-09T17:01:19.277Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
+  },
+  {
     "data": "2026-07-09T16:33:17.514Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"‘Trump não vai resolver conflito com o Irã’; acordo deve ficar para o próximo presidente, diz estrategista da Empiricus\".",
@@ -1155,10 +1160,5 @@
     "storyId": "18082848302213365",
     "reelId": null,
     "tipo": "carrossel"
-  },
-  {
-    "data": "2026-07-06T20:01:27.535Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 55): \"15 ações para buscar retornos acima do Ibovespa em julho, segundo a Ativa\". Realizando postagem..."
   }
 ]
