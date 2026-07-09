@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-09T14:02:45.076Z",
+    "titulo": "Wall Street avança com recuperação do setor de tecnologia, apesar do conflito no Oriente Médio",
+    "categoria": "Mercados",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/wall-street-abertura-9-7-26-apsa/",
+    "postId": "18006886292948088",
+    "storyId": "17898928773528918",
+    "reelId": null,
+    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783605690448-slide1.png",
+    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783605690448-story.png",
+    "videoUrl": null,
+    "tipo": "carrossel",
+    "peso": 55
+  },
+  {
     "data": "2026-07-09T11:33:42.437Z",
     "titulo": "Bitcoin (BTC) volta a subir apesar dos temores da guerra no Irã; veja preços das criptomoedas nesta quinta-feira (9)",
     "categoria": "Criptomoedas",
@@ -2731,16 +2746,5 @@
     "storyId": "18320567974274498",
     "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781425205237-feed.png",
     "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781425205237-story.png"
-  },
-  {
-    "data": "2026-06-14T03:36:09.181Z",
-    "titulo": "Reino Unido e Japão fecharão pacote de investimentos de mais de 18 bi de libras",
-    "categoria": "Mundo",
-    "fonte": "InfoMoney",
-    "link": "https://www.infomoney.com.br/mundo/reino-unido-e-japao-fecharao-pacote-de-investimentos-de-mais-de-18-bi-de-libras/",
-    "postId": "18092070485357028",
-    "storyId": "17911634862223709",
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781408127899-feed.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781408127899-story.png"
   }
 ]
