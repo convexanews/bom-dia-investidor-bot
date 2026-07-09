@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-09T14:31:17.136Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
+  },
+  {
     "data": "2026-07-09T14:02:45.078Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (carrossel): \"Wall Street avança com recuperação do setor de tecnologia, apesar do conflito no Oriente Médio\".",
@@ -1147,10 +1152,5 @@
     "data": "2026-07-06T17:31:53.389Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 73): \"Inadimplência recorde acende alerta para consumo e crédito no Brasil\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-06T17:01:21.699Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
   }
 ]
