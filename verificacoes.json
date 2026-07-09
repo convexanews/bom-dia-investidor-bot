@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-09T19:02:46.756Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Opções de Copom da B3 apontam para corte de 0,25% na Selic em agosto\".",
+    "postId": "18107976013803647",
+    "storyId": null,
+    "reelId": "18107976013803647",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-07-09T19:01:22.776Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 73): \"Opções de Copom da B3 apontam para corte de 0,25% na Selic em agosto\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-09T18:31:39.265Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
@@ -1146,15 +1160,5 @@
       "PRIO3 +1,15%",
       "SUZB3 -0,20%"
     ]
-  },
-  {
-    "data": "2026-07-06T22:01:24.231Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
-  },
-  {
-    "data": "2026-07-06T21:31:26.798Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 32 min."
   }
 ]

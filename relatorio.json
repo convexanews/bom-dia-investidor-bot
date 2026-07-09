@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-09T19:02:46.755Z",
+    "titulo": "Opções de Copom da B3 apontam para corte de 0,25% na Selic em agosto",
+    "categoria": "Mercados",
+    "fonte": "InfoMoney",
+    "link": "https://www.infomoney.com.br/mercados/opcoes-de-copom-da-b3-apontam-para-corte-de-025-na-selic-em-agosto/",
+    "postId": "18107976013803647",
+    "storyId": null,
+    "reelId": "18107976013803647",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783623692201.mp4",
+    "tipo": "reel",
+    "peso": 73
+  },
+  {
     "data": "2026-07-09T16:33:17.512Z",
     "titulo": "‘Trump não vai resolver conflito com o Irã’; acordo deve ficar para o próximo presidente, diz estrategista da Empiricus",
     "categoria": "Mercados",
@@ -2739,16 +2754,5 @@
     "storyId": "18118298032692626",
     "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781446977334-feed.png",
     "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781446977334-story.png"
-  },
-  {
-    "data": "2026-06-14T11:36:32.660Z",
-    "titulo": "Dinheiro que vai para a Bet não vai para o supermercado, diz gestor da Ibiuna",
-    "categoria": "Onde Investir",
-    "fonte": "InfoMoney",
-    "link": "https://www.infomoney.com.br/onde-investir/dinheiro-que-vai-para-a-bet-nao-vai-para-o-supermercado-diz-gestor-da-ibiuna/",
-    "postId": "18096390011225368",
-    "storyId": "17943258783235002",
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781436946148-feed.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781436946148-story.png"
   }
 ]
