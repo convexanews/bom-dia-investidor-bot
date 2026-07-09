@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-09T09:08:28.046Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (card): \"Dow Jones Futuro avança mesmo com tensão entre EUA e Irã\".",
+    "postId": "18171008299384811",
+    "storyId": "18081804167670913",
+    "reelId": null,
+    "tipo": "card"
+  },
+  {
+    "data": "2026-07-09T09:07:23.074Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 42): \"Dow Jones Futuro avança mesmo com tensão entre EUA e Irã\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-09T08:38:01.329Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (05:38 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1142,19 +1156,5 @@
     "data": "2026-07-06T13:05:01.344Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 89 min."
-  },
-  {
-    "data": "2026-07-06T13:01:33.152Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
-  },
-  {
-    "data": "2026-07-06T12:33:27.877Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"Após meses de altas, mercado corta projeção da inflação para 2026; confira o Focus desta segunda-feira (6)\".",
-    "postId": "18071728937383673",
-    "storyId": null,
-    "reelId": "18071728937383673",
-    "tipo": "reel"
   }
 ]

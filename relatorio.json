@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-09T09:08:28.043Z",
+    "titulo": "Dow Jones Futuro avança mesmo com tensão entre EUA e Irã",
+    "categoria": "Mercados",
+    "fonte": "InfoMoney",
+    "link": "https://www.infomoney.com.br/mercados/dow-jones-futuro-avanca-mesmo-com-tensao-entre-eua-e-ira/",
+    "postId": "18171008299384811",
+    "storyId": "18081804167670913",
+    "reelId": null,
+    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783588054263-feed.png",
+    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783588054263-story.png",
+    "videoUrl": null,
+    "tipo": "card",
+    "peso": 42
+  },
+  {
     "data": "2026-07-09T00:32:40.038Z",
     "titulo": "Diretor financeiro da Omada Health vende US$ 85.423 em ações da empresa",
     "categoria": "MERCADO",
