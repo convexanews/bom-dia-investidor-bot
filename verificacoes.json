@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-09T21:33:02.569Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (carrossel): \"Ibovespa hoje fecha alta, seguindo NY, com ações de bancos; dólar cai para R$ 5,12\".",
+    "postId": "18194877634374371",
+    "storyId": "17920064922403340",
+    "reelId": null,
+    "tipo": "carrossel"
+  },
+  {
+    "data": "2026-07-09T21:31:32.136Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 54): \"Ibovespa hoje fecha alta, seguindo NY, com ações de bancos; dólar cai para R$ 5,12\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-09T21:01:27.241Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
@@ -1134,15 +1148,5 @@
     "data": "2026-07-07T00:01:33.442Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 17 min."
-  },
-  {
-    "data": "2026-07-06T23:39:13.481Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 40 min."
-  },
-  {
-    "data": "2026-07-06T23:31:18.767Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 47 min."
   }
 ]

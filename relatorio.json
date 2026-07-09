@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-09T21:33:02.568Z",
+    "titulo": "Ibovespa hoje fecha alta, seguindo NY, com ações de bancos; dólar cai para R$ 5,12",
+    "categoria": "Mercados",
+    "fonte": "InfoMoney",
+    "link": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-09072026/",
+    "postId": "18194877634374371",
+    "storyId": "17920064922403340",
+    "reelId": null,
+    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783632702359-slide1.png",
+    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783632702359-story.png",
+    "videoUrl": null,
+    "tipo": "carrossel",
+    "peso": 54
+  },
+  {
     "data": "2026-07-09T19:02:46.755Z",
     "titulo": "Opções de Copom da B3 apontam para corte de 0,25% na Selic em agosto",
     "categoria": "Mercados",
@@ -2743,16 +2758,5 @@
     "storyId": "18104837099117274",
     "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781455452920-feed.png",
     "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781455452920-story.png"
-  },
-  {
-    "data": "2026-06-14T14:23:34.648Z",
-    "titulo": "Prefeitura diz que vai processar União por morte em “rope jumping” em Limeira",
-    "categoria": "Brasil",
-    "fonte": "InfoMoney",
-    "link": "https://www.infomoney.com.br/brasil/prefeitura-diz-que-vai-processar-uniao-por-morte-em-rope-jumping-em-limeira/",
-    "postId": "18093635165341289",
-    "storyId": "18118298032692626",
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781446977334-feed.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781446977334-story.png"
   }
 ]
