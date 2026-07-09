@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-09T15:01:22.135Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 62 min."
+  },
+  {
     "data": "2026-07-09T14:31:17.136Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
@@ -1147,10 +1152,5 @@
     "storyId": null,
     "reelId": "18120786808774903",
     "tipo": "reel"
-  },
-  {
-    "data": "2026-07-06T17:31:53.389Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 73): \"Inadimplência recorde acende alerta para consumo e crédito no Brasil\". Realizando postagem..."
   }
 ]
