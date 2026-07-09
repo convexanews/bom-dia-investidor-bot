@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-09T03:31:18.489Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (00:31 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-07-09T03:01:25.033Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (00:01 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1155,10 +1160,5 @@
     "data": "2026-07-06T09:01:29.632Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 80): \"Boletim Focus, ISM de serviços e falas do Fed movimentam a agenda desta segunda\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-06T08:31:20.059Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (05:31 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
