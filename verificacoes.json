@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-10T18:01:28.575Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 79 min."
+  },
+  {
     "data": "2026-07-10T17:31:31.260Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 109 min."
@@ -1152,10 +1157,5 @@
     "data": "2026-07-07T21:01:31.729Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 96): \"Wall Street fecha em queda com liquidação de ações de chips e tensão no Oriente Médio; Dow Jones tem recorde intradia\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-07T20:31:46.165Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 1 min."
   }
 ]
