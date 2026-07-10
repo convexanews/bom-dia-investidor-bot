@@ -1,5 +1,15 @@
 [
   {
+    "data": "2026-07-10T22:02:31.109Z",
+    "resultado": "erro",
+    "mensagem": "Erro na execução automática: Command failed: git push"
+  },
+  {
+    "data": "2026-07-10T22:01:34.052Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 68): \"Ibovespa dispara quase 3% com IPCA surpreendente e renova máxima em quase dois meses\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-10T21:49:02.201Z",
     "resultado": "carrossel_fechamento",
     "mensagem": "Carrossel de fechamento publicado. Ibovespa: 177.866 +4,23%",
@@ -1136,22 +1146,5 @@
     "data": "2026-07-08T00:01:40.562Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
-  },
-  {
-    "data": "2026-07-08T00:00:23.460Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 93 min."
-  },
-  {
-    "data": "2026-07-07T23:57:48.106Z",
-    "resultado": "reel_postado",
-    "mensagem": "Resumo em vídeo do dia publicado com 3 notícia(s).",
-    "reelId": "18135300991551494",
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1783468548272.mp4",
-    "noticias": [
-      "Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta terça",
-      "Futuros do algodão disparam e atingem limite diário com alta de 3 centavos",
-      "FII GAME11 lucra R$ 3,16 mi, supera benchmark e reforça reservas de dividendos"
-    ]
   }
 ]
