@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-10T17:21:18.023Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 120 min."
+  },
+  {
     "data": "2026-07-10T17:20:25.713Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"Fed revela resiliência surpreendente do sistema financeiro americano em meio a crises\".",
@@ -1152,10 +1157,5 @@
     "data": "2026-07-07T20:01:40.768Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 31 min."
-  },
-  {
-    "data": "2026-07-07T19:31:29.030Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 62 min."
   }
 ]
