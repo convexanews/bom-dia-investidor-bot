@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-10T20:01:21.591Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 93 min."
+  },
+  {
     "data": "2026-07-10T19:33:31.954Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"Inflação abaixo do esperado já permite sonhar com mais cortes na Selic? Veja as projeções dos bancos\".",
@@ -1140,22 +1145,5 @@
     "data": "2026-07-07T22:31:35.105Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 32 min."
-  },
-  {
-    "data": "2026-07-07T22:04:03.728Z",
-    "resultado": "carrossel_fechamento",
-    "mensagem": "Carrossel de fechamento publicado. Ibovespa: 172.021 -1,29%",
-    "postId": "18167510617444623",
-    "ibov": {
-      "valor": "172.021",
-      "variacao": "-1,29%"
-    },
-    "topAltas": [
-      "PRIO3 +4,97%",
-      "PETR3 +2,65%",
-      "RAIZ4 +2,63%",
-      "PETR4 +1,77%",
-      "MGLU3 +1,61%"
-    ]
   }
 ]
