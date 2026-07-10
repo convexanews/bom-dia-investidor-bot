@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-10T22:31:25.352Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 98 min."
+  },
+  {
     "data": "2026-07-10T22:08:54.322Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"Ibovespa dispara quase 3% com IPCA surpreendente e renova máxima em quase dois meses\".",
@@ -1145,10 +1150,5 @@
     "data": "2026-07-08T01:31:21.622Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (22:31 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-08T01:01:30.356Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (22:01 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
