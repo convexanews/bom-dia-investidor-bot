@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-10T19:33:31.954Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Inflação abaixo do esperado já permite sonhar com mais cortes na Selic? Veja as projeções dos bancos\".",
+    "postId": "17993181555004446",
+    "storyId": null,
+    "reelId": "17993181555004446",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-07-10T19:31:29.413Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 68): \"Inflação abaixo do esperado já permite sonhar com mais cortes na Selic? Veja as projeções dos bancos\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-10T19:03:09.023Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 18 min."
@@ -1143,15 +1157,5 @@
       "PETR4 +1,77%",
       "MGLU3 +1,61%"
     ]
-  },
-  {
-    "data": "2026-07-07T22:01:32.103Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 62 min."
-  },
-  {
-    "data": "2026-07-07T21:31:25.961Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
   }
 ]

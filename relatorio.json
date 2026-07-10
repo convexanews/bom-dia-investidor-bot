@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-10T19:33:31.953Z",
+    "titulo": "Inflação abaixo do esperado já permite sonhar com mais cortes na Selic? Veja as projeções dos bancos",
+    "categoria": "Economia",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/inflacao-abaixo-do-esperado-ja-permite-sonhar-com-mais-cortes-na-selic-veja-as-projecoes-dos-bancos-jcav/",
+    "postId": "17993181555004446",
+    "storyId": null,
+    "reelId": "17993181555004446",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783711901301.mp4",
+    "tipo": "reel",
+    "peso": 68
+  },
+  {
     "data": "2026-07-10T17:20:25.711Z",
     "titulo": "Fed revela resiliência surpreendente do sistema financeiro americano em meio a crises",
     "categoria": "Economia",
@@ -2766,16 +2781,5 @@
     "storyId": "18112324498925155",
     "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781505211179-feed.png",
     "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781505211179-story.png"
-  },
-  {
-    "data": "2026-06-15T00:21:17.202Z",
-    "titulo": "Suíça rejeita plano de limitar sua população a 10 milhões",
-    "categoria": "Mercados",
-    "fonte": "InfoMoney",
-    "link": "https://www.infomoney.com.br/mercados/suica-rejeita-plano-de-limitar-sua-populacao-a-10-milhoes/",
-    "postId": "17896989135331652",
-    "storyId": "18097405165902872",
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781482832503-feed.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781482832503-story.png"
   }
 ]
