@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-10T22:08:54.321Z",
+    "titulo": "Ibovespa dispara quase 3% com IPCA surpreendente e renova máxima em quase dois meses",
+    "categoria": "Mercado Financeiro",
+    "fonte": "Suno",
+    "link": "https://www.suno.com.br/noticias/ibovespa-hoje-10-julho-2026-fechamento-mt/",
+    "postId": "18188086795377783",
+    "storyId": null,
+    "reelId": "18188086795377783",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783721237881.mp4",
+    "tipo": "reel",
+    "peso": 68
+  },
+  {
     "data": "2026-07-10T19:33:31.953Z",
     "titulo": "Inflação abaixo do esperado já permite sonhar com mais cortes na Selic? Veja as projeções dos bancos",
     "categoria": "Economia",
@@ -2770,16 +2785,5 @@
     "storyId": "18139426795551551",
     "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781529856689-feed.png",
     "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781529856689-story.png"
-  },
-  {
-    "data": "2026-06-15T06:34:12.783Z",
-    "titulo": "Líderes internacionais elogiam acordo EUA-Irã e cobram sua implementação",
-    "categoria": "Mundo",
-    "fonte": "InfoMoney",
-    "link": "https://www.infomoney.com.br/mundo/lideres-internacionais-elogiam-acordo-eua-ira-e-cobram-sua-implementacao/",
-    "postId": "18096336788586219",
-    "storyId": "18112324498925155",
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781505211179-feed.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781505211179-story.png"
   }
 ]

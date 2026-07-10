@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-10T22:08:54.322Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Ibovespa dispara quase 3% com IPCA surpreendente e renova máxima em quase dois meses\".",
+    "postId": "18188086795377783",
+    "storyId": null,
+    "reelId": "18188086795377783",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-07-10T22:07:06.248Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 68): \"Ibovespa dispara quase 3% com IPCA surpreendente e renova máxima em quase dois meses\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-10T22:02:31.109Z",
     "resultado": "erro",
     "mensagem": "Erro na execução automática: Command failed: git push"
@@ -1136,15 +1150,5 @@
     "data": "2026-07-08T01:01:30.356Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (22:01 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-08T00:31:19.887Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 62 min."
-  },
-  {
-    "data": "2026-07-08T00:01:40.562Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
   }
 ]
