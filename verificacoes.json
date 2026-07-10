@@ -1,5 +1,16 @@
 [
   {
+    "data": "2026-07-10T23:57:16.229Z",
+    "resultado": "reel_postado",
+    "mensagem": "Resumo em vídeo do dia publicado com 2 notícia(s).",
+    "reelId": "18092948672377140",
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1783727774142.mp4",
+    "noticias": [
+      "Chips de memória caem até 50% em três semanas, mas Dahlia mantém aposta na IA",
+      "Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta sexta"
+    ]
+  },
+  {
     "data": "2026-07-10T23:32:10.295Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 37 min."
@@ -1145,10 +1156,5 @@
     "data": "2026-07-08T03:31:31.065Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (00:31 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-08T03:01:19.272Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (00:01 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
