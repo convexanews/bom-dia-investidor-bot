@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-10T18:31:30.409Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 49 min."
+  },
+  {
     "data": "2026-07-10T18:01:28.575Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 79 min."
@@ -1152,10 +1157,5 @@
     "storyId": null,
     "reelId": "18183878896403825",
     "tipo": "reel"
-  },
-  {
-    "data": "2026-07-07T21:01:31.729Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 96): \"Wall Street fecha em queda com liquidação de ações de chips e tensão no Oriente Médio; Dow Jones tem recorde intradia\". Realizando postagem..."
   }
 ]
