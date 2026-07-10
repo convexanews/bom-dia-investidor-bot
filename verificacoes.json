@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-10T06:01:23.610Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (03:01 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-07-10T05:38:44.189Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (02:38 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1156,10 +1161,5 @@
     "storyId": null,
     "reelId": "18212606479339586",
     "tipo": "reel"
-  },
-  {
-    "data": "2026-07-07T09:01:25.865Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 60): \"Futuros de NY operam mistos após Samsung frustrar mercado apesar de lucro recorde\". Realizando postagem..."
   }
 ]
