@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-10T16:02:02.057Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
+  },
+  {
     "data": "2026-07-10T15:31:10.614Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 32 min."
@@ -1148,14 +1153,5 @@
     "data": "2026-07-07T19:01:29.720Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
-  },
-  {
-    "data": "2026-07-07T18:32:38.379Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (carrossel): \"Futuros do algodão disparam e atingem limite diário com alta de 3 centavos\".",
-    "postId": "17922433875163325",
-    "storyId": "18088573343386098",
-    "reelId": null,
-    "tipo": "carrossel"
   }
 ]
