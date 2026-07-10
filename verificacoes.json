@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-10T17:20:25.713Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Fed revela resiliência surpreendente do sistema financeiro americano em meio a crises\".",
+    "postId": "18067287470480257",
+    "storyId": null,
+    "reelId": "18067287470480257",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-07-10T17:18:05.642Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 83): \"Fed revela resiliência surpreendente do sistema financeiro americano em meio a crises\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-10T16:02:02.057Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
@@ -1143,15 +1157,5 @@
     "data": "2026-07-07T19:31:29.030Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 62 min."
-  },
-  {
-    "data": "2026-07-07T19:04:53.224Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 88 min."
-  },
-  {
-    "data": "2026-07-07T19:01:29.720Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
   }
 ]
