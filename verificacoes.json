@@ -1,5 +1,22 @@
 [
   {
+    "data": "2026-07-10T21:49:02.201Z",
+    "resultado": "carrossel_fechamento",
+    "mensagem": "Carrossel de fechamento publicado. Ibovespa: 177.866 +4,23%",
+    "postId": "18125357005740041",
+    "ibov": {
+      "valor": "177.866",
+      "variacao": "+4,23%"
+    },
+    "topAltas": [
+      "CSNA3 +7,92%",
+      "MGLU3 +7,41%",
+      "BPAC11 +5,48%",
+      "CSAN3 +5,44%",
+      "HAPV3 +5,26%"
+    ]
+  },
+  {
     "data": "2026-07-10T21:31:38.270Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
@@ -1136,14 +1153,5 @@
       "Futuros do algodão disparam e atingem limite diário com alta de 3 centavos",
       "FII GAME11 lucra R$ 3,16 mi, supera benchmark e reforça reservas de dividendos"
     ]
-  },
-  {
-    "data": "2026-07-07T23:33:01.750Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (carrossel): \"FII GAME11 lucra R$ 3,16 mi, supera benchmark e reforça reservas de dividendos\".",
-    "postId": "18545592775074734",
-    "storyId": "18094468436197055",
-    "reelId": null,
-    "tipo": "carrossel"
   }
 ]
