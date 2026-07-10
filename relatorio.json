@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-10T09:03:16.361Z",
+    "titulo": "Tempo Real: Ibovespa fecha semana de olho na inflação brasileira",
+    "categoria": "Mercados",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/tempo-real-ibovespa-hoje-mercado-ao-vivo-10-07-2026-jals-lils-apsa/",
+    "postId": "17945679495039252",
+    "storyId": null,
+    "reelId": "17945679495039252",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783674108566.mp4",
+    "tipo": "reel",
+    "peso": 39
+  },
+  {
     "data": "2026-07-10T00:02:20.198Z",
     "titulo": "Chips de memória caem até 50% em três semanas, mas Dahlia mantém aposta na IA",
     "categoria": "Onde Investir",
@@ -2750,17 +2765,5 @@
     "storyId": "18165966790434109",
     "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781461188859-feed.png",
     "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781461188859-story.png"
-  },
-  {
-    "data": "2026-06-14T17:08:32.338Z",
-    "titulo": "‘Data center em casa’: empresas querem levar a potência da IA para usuários comuns; confira",
-    "categoria": "Mercados",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/conteudo-de-marca/data-center-em-casa-empresas-querem-levar-a-potencia-da-ia-para-usuarios-comuns-confira-lbrdjm007/",
-    "postId": "18180662962393901",
-    "storyId": "18119487817783876",
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781456864291-feed.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781456864297-story.png",
-    "origem": "manual"
   }
 ]
