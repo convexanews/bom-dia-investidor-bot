@@ -1,5 +1,11 @@
 [
   {
+    "data": "2026-07-10T13:16:59.501Z",
+    "resultado": "story_glossario",
+    "mensagem": "Story do glossário publicado: \"Taxa de Administração\"",
+    "postId": "18088314557451161"
+  },
+  {
     "data": "2026-07-10T13:01:17.293Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 32 min."
@@ -1143,18 +1149,5 @@
     "data": "2026-07-07T15:31:41.830Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
-  },
-  {
-    "data": "2026-07-07T15:02:58.593Z",
-    "resultado": "reel_postado",
-    "mensagem": "Resumo em vídeo do dia publicado com 4 notícia(s).",
-    "reelId": "18144280558534009",
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1783436509172.mp4",
-    "noticias": [
-      "Ibovespa Hoje Ao Vivo: Bolsa cai com bancos, PETR4, VALE3 e varejistas",
-      "15 ações para buscar retornos acima do Ibovespa em julho, segundo a Ativa",
-      "Walmart (WALM34) vai reduzir preço dos produtos; carne moída deve cair cerca de 15%, diz Trump",
-      "Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta terça"
-    ]
   }
 ]
