@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-10T14:03:02.353Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"IPCA fraco reforça aposta em corte da Selic em agosto, mas petróleo mantém alerta\".",
+    "postId": "18107058979997358",
+    "storyId": null,
+    "reelId": "18107058979997358",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-07-10T14:01:20.468Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 66): \"IPCA fraco reforça aposta em corte da Selic em agosto, mas petróleo mantém alerta\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-10T13:32:03.224Z",
     "resultado": "alerta_recorde",
     "mensagem": "Alerta de recorde publicado: Ibovespa (NOVA MÁXIMA).",
@@ -1136,19 +1150,5 @@
     "data": "2026-07-07T16:34:03.708Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 90 min."
-  },
-  {
-    "data": "2026-07-07T16:31:22.366Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
-  },
-  {
-    "data": "2026-07-07T16:03:05.782Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"Nem bancos, nem elétricas: rainha dos dividendos é a favorita de 14 analistas para julho\".",
-    "postId": "18111202994491499",
-    "storyId": null,
-    "reelId": "18111202994491499",
-    "tipo": "reel"
   }
 ]

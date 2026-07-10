@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-10T14:03:02.352Z",
+    "titulo": "IPCA fraco reforça aposta em corte da Selic em agosto, mas petróleo mantém alerta",
+    "categoria": "Economia",
+    "fonte": "InfoMoney",
+    "link": "https://www.infomoney.com.br/economia/ipca-fraco-reforca-aposta-em-corte-da-selic-em-agosto-mas-petroleo-mantem-alerta/",
+    "postId": "18107058979997358",
+    "storyId": null,
+    "reelId": "18107058979997358",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783692089571.mp4",
+    "tipo": "reel",
+    "peso": 66
+  },
+  {
     "data": "2026-07-10T11:32:50.444Z",
     "titulo": "Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta sexta",
     "categoria": "Mercados",
@@ -2758,16 +2773,5 @@
     "storyId": "18098441009234093",
     "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781475555028-feed.png",
     "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781475555028-story.png"
-  },
-  {
-    "data": "2026-06-14T20:24:52.393Z",
-    "titulo": "Ibovespa reage após 8 semanas de queda; fundo chegou ou é repique?",
-    "categoria": "Mercados",
-    "fonte": "InfoMoney",
-    "link": "https://www.infomoney.com.br/mercados/ibovespa-reage-apos-8-semanas-de-queda-fundo-chegou-ou-e-repique/",
-    "postId": "17962928406067089",
-    "storyId": "18088018898135403",
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781468642483-feed.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781468642483-story.png"
   }
 ]
