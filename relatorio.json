@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-10T00:02:20.198Z",
+    "titulo": "Chips de memória caem até 50% em três semanas, mas Dahlia mantém aposta na IA",
+    "categoria": "Onde Investir",
+    "fonte": "InfoMoney",
+    "link": "https://www.infomoney.com.br/onde-investir/rascunho-automatico-5-6/",
+    "postId": "18083537978383745",
+    "storyId": "18432862816123160",
+    "reelId": null,
+    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783641694735-feed.png",
+    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783641694735-story.png",
+    "videoUrl": null,
+    "tipo": "card",
+    "peso": 16
+  },
+  {
     "data": "2026-07-09T21:33:02.568Z",
     "titulo": "Ibovespa hoje fecha alta, seguindo NY, com ações de bancos; dólar cai para R$ 5,12",
     "categoria": "Mercados",
@@ -2747,16 +2762,5 @@
     "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781456864291-feed.png",
     "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781456864297-story.png",
     "origem": "manual"
-  },
-  {
-    "data": "2026-06-14T16:44:53.929Z",
-    "titulo": "Suzano (SUZB3), Vitru (VTRU3) e mais uma empresa pagam dividendos nesta semana; veja o calendário",
-    "categoria": "Empresas",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/dividendos-da-semana-12-6-26-apsa/",
-    "postId": "17895075666494186",
-    "storyId": "18104837099117274",
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781455452920-feed.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781455452920-story.png"
   }
 ]
