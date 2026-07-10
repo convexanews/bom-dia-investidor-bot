@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-10T11:01:41.705Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
+  },
+  {
     "data": "2026-07-10T10:32:02.171Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 32 min."
@@ -1151,11 +1156,5 @@
     "data": "2026-07-07T13:31:22.754Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 71): \"Tempo Real: Ibovespa avança com alta de Petrobras (PETR4); dólar sobe\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-07T13:24:29.762Z",
-    "resultado": "story_glossario",
-    "mensagem": "Story do glossário publicado: \"ETF\"",
-    "postId": "17946397635215015"
   }
 ]
