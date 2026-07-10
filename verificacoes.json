@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-10T11:32:50.446Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (carrossel): \"Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta sexta\".",
+    "postId": "18383621257165945",
+    "storyId": "18479889394097753",
+    "reelId": null,
+    "tipo": "carrossel"
+  },
+  {
+    "data": "2026-07-10T11:31:26.794Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 55): \"Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta sexta\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-10T11:01:41.705Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
@@ -1142,19 +1156,5 @@
     "data": "2026-07-07T13:36:01.985Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 117 min."
-  },
-  {
-    "data": "2026-07-07T13:32:57.857Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"Tempo Real: Ibovespa avança com alta de Petrobras (PETR4); dólar sobe\".",
-    "postId": "18117664528843225",
-    "storyId": null,
-    "reelId": "18117664528843225",
-    "tipo": "reel"
-  },
-  {
-    "data": "2026-07-07T13:31:22.754Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 71): \"Tempo Real: Ibovespa avança com alta de Petrobras (PETR4); dólar sobe\". Realizando postagem..."
   }
 ]

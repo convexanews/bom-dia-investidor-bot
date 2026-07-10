@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-10T11:32:50.444Z",
+    "titulo": "Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta sexta",
+    "categoria": "Mercados",
+    "fonte": "InfoMoney",
+    "link": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-10072026/",
+    "postId": "18383621257165945",
+    "storyId": "18479889394097753",
+    "reelId": null,
+    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783683095779-slide1.png",
+    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783683095779-story.png",
+    "videoUrl": null,
+    "tipo": "carrossel",
+    "peso": 55
+  },
+  {
     "data": "2026-07-10T09:03:16.361Z",
     "titulo": "Tempo Real: Ibovespa fecha semana de olho na inflação brasileira",
     "categoria": "Mercados",
@@ -2754,16 +2769,5 @@
     "storyId": "18088018898135403",
     "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781468642483-feed.png",
     "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781468642483-story.png"
-  },
-  {
-    "data": "2026-06-14T18:20:28.309Z",
-    "titulo": "Morte de chefão do crime venezuelano abre espaço para avanço da mineração",
-    "categoria": "Mercados",
-    "fonte": "InfoMoney",
-    "link": "https://www.infomoney.com.br/mercados/morte-de-chefao-do-crime-venezuelano-abre-espaco-para-avanco-da-mineracao/",
-    "postId": "18326850907254971",
-    "storyId": "18165966790434109",
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781461188859-feed.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781461188859-story.png"
   }
 ]
