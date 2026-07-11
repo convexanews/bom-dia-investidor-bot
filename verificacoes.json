@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-11T15:32:52.296Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (carrossel): \"Bitcoin (BTC) sobe e mantém nível dos US$ 64 mil com otimismo do setor de tecnologia; veja preços das criptomoedas neste sábado (11)\".",
+    "postId": "18038388149803065",
+    "storyId": "17898022701509861",
+    "reelId": null,
+    "tipo": "carrossel"
+  },
+  {
+    "data": "2026-07-11T15:31:15.776Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 45): \"Bitcoin (BTC) sobe e mantém nível dos US$ 64 mil com otimismo do setor de tecnologia; veja preços das criptomoedas neste sábado (11)\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-11T15:02:44.954Z",
     "resultado": "reel_postado",
     "mensagem": "Resumo em vídeo do dia publicado com 2 notícia(s).",
@@ -1138,15 +1152,5 @@
     "data": "2026-07-08T19:31:24.392Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 33 min."
-  },
-  {
-    "data": "2026-07-08T19:01:35.025Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 63 min."
-  },
-  {
-    "data": "2026-07-08T18:31:32.019Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 93 min."
   }
 ]

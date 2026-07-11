@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-11T15:32:52.295Z",
+    "titulo": "Bitcoin (BTC) sobe e mantém nível dos US$ 64 mil com otimismo do setor de tecnologia; veja preços das criptomoedas neste sábado (11)",
+    "categoria": "Criptomoedas",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/bitcoin-btc-11-7-26-lils/",
+    "postId": "18038388149803065",
+    "storyId": "17898022701509861",
+    "reelId": null,
+    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783783883519-slide1.png",
+    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783783883519-story.png",
+    "videoUrl": null,
+    "tipo": "carrossel",
+    "peso": 45
+  },
+  {
     "data": "2026-07-11T13:03:15.507Z",
     "titulo": "Haddad, sobre taxa de juros: Banco Central está criando problema desnecessariamente",
     "categoria": "Política",
@@ -2786,16 +2801,5 @@
     "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781573703649-feed.png",
     "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781573703656-story.png",
     "origem": "manual"
-  },
-  {
-    "data": "2026-06-15T23:56:29.962Z",
-    "titulo": "Netanyahu e Trump entram em rota de colisão enquanto EUA e Irã concordam em suspender guerra",
-    "categoria": "Internacional",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/netanyahu-e-trump-entram-em-rota-de-colisao-enquanto-eua-e-ira-concordam-em-suspender-guerra/",
-    "postId": "18095318861264345",
-    "storyId": "18077938988274375",
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781567745253-feed.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781567745253-story.png"
   }
 ]
