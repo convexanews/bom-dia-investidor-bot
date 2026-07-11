@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-11T18:27:43.583Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 95 min."
+  },
+  {
     "data": "2026-07-11T18:02:22.660Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (card): \"Demanda ampla por IA é o fator-chave para investidores da Nvidia, diz Morgan Stanley\".",
@@ -1135,22 +1140,5 @@
     "data": "2026-07-08T22:01:30.354Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 32 min."
-  },
-  {
-    "data": "2026-07-08T21:56:37.123Z",
-    "resultado": "carrossel_fechamento",
-    "mensagem": "Carrossel de fechamento publicado. Ibovespa: 170.653 -1,04%",
-    "postId": "18108882667811263",
-    "ibov": {
-      "valor": "170.653",
-      "variacao": "-1,04%"
-    },
-    "topAltas": [
-      "PETR4 +3,15%",
-      "PETR3 +2,79%",
-      "MGLU3 +2,04%",
-      "GGBR4 +1,33%",
-      "TOTS3 +0,94%"
-    ]
   }
 ]
