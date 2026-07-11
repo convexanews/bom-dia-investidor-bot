@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-11T20:53:14.736Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 101 min."
+  },
+  {
     "data": "2026-07-11T20:33:16.581Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (carrossel): \"Federação alemã diz estar confiante sobre contratação de técnico Klopp para a seleção\".",
@@ -1139,10 +1144,5 @@
     "data": "2026-07-09T00:01:53.943Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 32): \"RBRP11 anuncia dividendos para julho; veja valor e quem recebe\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-08T23:32:31.724Z",
-    "resultado": "erro",
-    "mensagem": "Erro na execução automática: Erro ao criar item do carrossel: {\"error\":{\"message\":\"Only photo or video can be accepted as media type.\",\"type\":\"OAuthException\",\"code\":9004,\"error_subcode\":2207052,\"is_transient\":false,\"error_user_title\":\"Media download has failed. The media URI doesn't meet our requirements.\",\"error_user_msg\":\"The media could not be fetched from this URI: https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783553514218-slide1.png.Please check the limitations section in our development document for more information: https://developers.facebook.com/docs/instagram-platform/instagram-graph-api/reference/ig-user/media#creating\",\"fbtrace_id\":\"AW8ncJAUCLZTS2ovuT-_Z72\"}}"
   }
 ]
