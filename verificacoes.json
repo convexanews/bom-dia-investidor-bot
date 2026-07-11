@@ -1,5 +1,11 @@
 [
   {
+    "data": "2026-07-11T11:58:10.352Z",
+    "resultado": "story_glossario",
+    "mensagem": "Story do glossário publicado: \"Come-cotas\"",
+    "postId": "18143646832527436"
+  },
+  {
     "data": "2026-07-11T11:31:41.602Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 61 min."
@@ -1146,10 +1152,5 @@
     "data": "2026-07-08T15:01:29.048Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 35 min."
-  },
-  {
-    "data": "2026-07-08T14:32:11.517Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 64 min."
   }
 ]
