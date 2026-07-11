@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-11T00:32:49.692Z",
+    "titulo": "HSAF11 mantém dividendos em R$ 0,95 por cota pelo 18º mês",
+    "categoria": "FIIs",
+    "fonte": "Suno",
+    "link": "https://www.suno.com.br/noticias/hsaf11-mantem-dividendos-em-r-095-por-cota-pelo-18o-mes/",
+    "postId": "17900019384327008",
+    "storyId": "18083270390249517",
+    "reelId": null,
+    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783729902449-slide1.png",
+    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783729902449-story.png",
+    "videoUrl": null,
+    "tipo": "carrossel",
+    "peso": 28
+  },
+  {
     "data": "2026-07-10T22:08:54.321Z",
     "titulo": "Ibovespa dispara quase 3% com IPCA surpreendente e renova máxima em quase dois meses",
     "categoria": "Mercado Financeiro",
@@ -2774,16 +2789,5 @@
     "storyId": "17971513014111227",
     "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781549129713-feed.png",
     "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781549129713-story.png"
-  },
-  {
-    "data": "2026-06-15T13:24:59.469Z",
-    "titulo": "Ibovespa sobe mais de 1% com exterior após anúncio de acordo entre EUA e Irã",
-    "categoria": "Mercados",
-    "fonte": "InfoMoney",
-    "link": "https://www.infomoney.com.br/mercados/ibovespa-sobe-mais-de-1-com-exterior-apos-anuncio-de-acordo-entre-eua-e-ira/",
-    "postId": "18100385879152501",
-    "storyId": "18139426795551551",
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781529856689-feed.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781529856689-story.png"
   }
 ]

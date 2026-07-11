@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-11T00:32:49.693Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (carrossel): \"HSAF11 mantém dividendos em R$ 0,95 por cota pelo 18º mês\".",
+    "postId": "17900019384327008",
+    "storyId": "18083270390249517",
+    "reelId": null,
+    "tipo": "carrossel"
+  },
+  {
+    "data": "2026-07-11T00:31:28.222Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 28): \"HSAF11 mantém dividendos em R$ 0,95 por cota pelo 18º mês\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-11T00:01:16.642Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 8 min."
@@ -1146,15 +1160,5 @@
     "data": "2026-07-08T04:31:34.985Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (01:31 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-08T04:01:33.651Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (01:01 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-08T03:37:31.850Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (00:37 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
