@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-11T19:01:17.797Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 62 min."
+  },
+  {
     "data": "2026-07-11T18:31:42.119Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 91 min."
@@ -1135,10 +1140,5 @@
     "data": "2026-07-08T22:34:38.971Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 24): \"AIEC11 recua 4,01%; IFIX fecha em queda de 0,2%, aos 3.821,06 pontos\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-08T22:31:33.301Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
   }
 ]
