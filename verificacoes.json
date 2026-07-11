@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-11T12:30:04.807Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
+  },
+  {
     "data": "2026-07-11T12:01:34.977Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 31 min."
@@ -1140,17 +1145,5 @@
     "data": "2026-07-08T15:31:22.992Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 5 min."
-  },
-  {
-    "data": "2026-07-08T15:03:07.193Z",
-    "resultado": "reel_postado",
-    "mensagem": "Resumo em vídeo do dia publicado com 3 notícia(s).",
-    "reelId": "17940292449280246",
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1783522901406.mp4",
-    "noticias": [
-      "Futuros do algodão disparam e atingem limite diário com alta de 3 centavos",
-      "FII GAME11 lucra R$ 3,16 mi, supera benchmark e reforça reservas de dividendos",
-      "Bolsas da Europa recuam com alta do petróleo; Trump diz que acordo com Irã “acabou”"
-    ]
   }
 ]
