@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-11T20:33:16.580Z",
+    "titulo": "Federação alemã diz estar confiante sobre contratação de técnico Klopp para a seleção",
+    "categoria": "Esportes",
+    "fonte": "InfoMoney",
+    "link": "https://www.infomoney.com.br/esportes/federacao-alema-diz-estar-confiante-sobre-contratacao-de-tecnico-klopp-para-a-selecao/",
+    "postId": "17993262977809125",
+    "storyId": "18134541682592740",
+    "reelId": null,
+    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783801915969-slide1.png",
+    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783801915969-story.png",
+    "videoUrl": null,
+    "tipo": "carrossel",
+    "peso": 21
+  },
+  {
     "data": "2026-07-11T18:02:22.658Z",
     "titulo": "Demanda ampla por IA é o fator-chave para investidores da Nvidia, diz Morgan Stanley",
     "categoria": "MERCADO",
@@ -2793,16 +2808,5 @@
     "storyId": "17959127223132482",
     "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781620739085-feed.png",
     "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781620739085-story.png"
-  },
-  {
-    "data": "2026-06-16T12:14:47.430Z",
-    "titulo": "Ibovespa Futuro cai apesar de alívio geopolítico e decisões de Fed e Copom no radar",
-    "categoria": "Mercados",
-    "fonte": "InfoMoney",
-    "link": "https://www.infomoney.com.br/mercados/ibovespa-futuro-cai-apesar-de-alivio-geopolitico-e-decisoes-de-fed-e-copom-no-radar/",
-    "postId": "18115740202852286",
-    "storyId": "18083537996423053",
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781612037948-feed.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781612037948-story.png"
   }
 ]
