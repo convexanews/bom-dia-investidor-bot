@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-11T22:54:09.753Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (card): \"Mendonça ordena apreensão de passaporte de Thiago Miranda, ligado a Vorcaro\".",
+    "postId": "18176111113411147",
+    "storyId": "18188191270387741",
+    "reelId": null,
+    "tipo": "card"
+  },
+  {
+    "data": "2026-07-11T22:53:20.747Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 16): \"Mendonça ordena apreensão de passaporte de Thiago Miranda, ligado a Vorcaro\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-11T22:31:16.478Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
@@ -1124,19 +1138,5 @@
     "data": "2026-07-09T01:31:20.996Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (22:31 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-09T01:01:45.707Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (22:01 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-09T00:32:40.040Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (carrossel): \"Diretor financeiro da Omada Health vende US$ 85.423 em ações da empresa\".",
-    "postId": "17981053788013147",
-    "storyId": null,
-    "reelId": null,
-    "tipo": "carrossel"
   }
 ]

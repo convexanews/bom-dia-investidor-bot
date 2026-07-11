@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-11T22:54:09.752Z",
+    "titulo": "Mendonça ordena apreensão de passaporte de Thiago Miranda, ligado a Vorcaro",
+    "categoria": "Política",
+    "fonte": "InfoMoney",
+    "link": "https://www.infomoney.com.br/politica/mendonca-ordena-apreensao-de-passaporte-de-thiago-miranda-ligado-a-vorcaro/",
+    "postId": "18176111113411147",
+    "storyId": "18188191270387741",
+    "reelId": null,
+    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783810409398-feed.png",
+    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783810409398-story.png",
+    "videoUrl": null,
+    "tipo": "card",
+    "peso": 16
+  },
+  {
     "data": "2026-07-11T20:33:16.580Z",
     "titulo": "Federação alemã diz estar confiante sobre contratação de técnico Klopp para a seleção",
     "categoria": "Esportes",
@@ -2797,16 +2812,5 @@
     "storyId": "17948283291211984",
     "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781623724199-feed.png",
     "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781623724199-story.png"
-  },
-  {
-    "data": "2026-06-16T14:39:45.054Z",
-    "titulo": "Wall Street tem leve alta com acordo entre EUA e Irã e à espera de Fed; Dow Jones supera 52 mil pontos pela 1ª vez e renova recorde",
-    "categoria": "Mercados",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/wall-street-abertura-16-6-26-lils/",
-    "postId": "18080913443650229",
-    "storyId": "17959127223132482",
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781620739085-feed.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781620739085-story.png"
   }
 ]
