@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-11T09:31:37.450Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
+  },
+  {
     "data": "2026-07-11T09:01:23.961Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
@@ -1147,10 +1152,5 @@
     "resultado": "story_glossario",
     "mensagem": "Story do glossário publicado: \"Spread Bancário\"",
     "postId": "18115350172821367"
-  },
-  {
-    "data": "2026-07-08T12:01:39.739Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 85 min."
   }
 ]
