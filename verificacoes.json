@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-11T12:01:34.977Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 31 min."
+  },
+  {
     "data": "2026-07-11T11:58:10.352Z",
     "resultado": "story_glossario",
     "mensagem": "Story do glossário publicado: \"Come-cotas\"",
@@ -1147,10 +1152,5 @@
       "FII GAME11 lucra R$ 3,16 mi, supera benchmark e reforça reservas de dividendos",
       "Bolsas da Europa recuam com alta do petróleo; Trump diz que acordo com Irã “acabou”"
     ]
-  },
-  {
-    "data": "2026-07-08T15:01:29.048Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 35 min."
   }
 ]
