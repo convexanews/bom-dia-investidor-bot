@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-11T23:01:24.949Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 113 min."
+  },
+  {
     "data": "2026-07-11T22:54:09.753Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (card): \"Mendonça ordena apreensão de passaporte de Thiago Miranda, ligado a Vorcaro\".",
@@ -1133,10 +1138,5 @@
     "data": "2026-07-09T02:01:21.164Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (23:01 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-09T01:31:20.996Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (22:31 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
