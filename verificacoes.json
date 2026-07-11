@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-11T08:01:58.829Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (05:01 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-07-11T08:01:08.367Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (05:01 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1151,10 +1156,5 @@
     "storyId": "17896850109480022",
     "reelId": null,
     "tipo": "carrossel"
-  },
-  {
-    "data": "2026-07-08T11:24:29.882Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 44): \"Bolsas da Europa recuam com alta do petróleo; Trump diz que acordo com Irã “acabou”\". Realizando postagem..."
   }
 ]
