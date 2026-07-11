@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-11T15:33:41.182Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 120 min."
+  },
+  {
     "data": "2026-07-11T15:32:52.296Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (carrossel): \"Bitcoin (BTC) sobe e mantém nível dos US$ 64 mil com otimismo do setor de tecnologia; veja preços das criptomoedas neste sábado (11)\".",
@@ -1147,10 +1152,5 @@
     "data": "2026-07-08T19:37:08.323Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 27 min."
-  },
-  {
-    "data": "2026-07-08T19:31:24.392Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 33 min."
   }
 ]
