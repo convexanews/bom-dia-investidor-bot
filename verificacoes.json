@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-11T05:43:52.169Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (02:43 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-07-11T05:31:18.955Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (02:31 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1151,14 +1156,5 @@
     "data": "2026-07-08T09:27:12.232Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 96 min."
-  },
-  {
-    "data": "2026-07-08T09:02:58.803Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"Dow Jones Futuro cai enquanto petróleo dispara 5% após ataques dos EUA ao Irã\".",
-    "postId": "17974429548060239",
-    "storyId": null,
-    "reelId": "17974429548060239",
-    "tipo": "reel"
   }
 ]
