@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-11T10:32:19.717Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (card): \"XP mantém otimismo com PIB e prevê dólar a R$ 5,00; veja os destaques da semana\".",
+    "postId": "17899000296472240",
+    "storyId": "17872702857623576",
+    "reelId": null,
+    "tipo": "card"
+  },
+  {
+    "data": "2026-07-11T10:31:26.259Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 52): \"XP mantém otimismo com PIB e prevê dólar a R$ 5,00; veja os destaques da semana\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-11T10:01:27.734Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
@@ -1141,15 +1155,5 @@
     "data": "2026-07-08T13:34:22.952Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 65): \"BTG muda visão para Selic e passa a projetar mais dois cortes de juros em 2026; veja o que mudou\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-08T13:07:54.285Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 19 min."
-  },
-  {
-    "data": "2026-07-08T13:01:28.530Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 25 min."
   }
 ]

@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-11T10:32:19.716Z",
+    "titulo": "XP mantém otimismo com PIB e prevê dólar a R$ 5,00; veja os destaques da semana",
+    "categoria": "Onde Investir",
+    "fonte": "InfoMoney",
+    "link": "https://www.infomoney.com.br/onde-investir/xp-mantem-otimismo-com-pib-e-preve-dolar-a-r-500-veja-os-destaques-da-semana/",
+    "postId": "17899000296472240",
+    "storyId": "17872702857623576",
+    "reelId": null,
+    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783765896530-feed.png",
+    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783765896530-story.png",
+    "videoUrl": null,
+    "tipo": "card",
+    "peso": 52
+  },
+  {
     "data": "2026-07-11T00:32:49.692Z",
     "titulo": "HSAF11 mantém dividendos em R$ 0,95 por cota pelo 18º mês",
     "categoria": "FIIs",
@@ -2778,16 +2793,5 @@
     "storyId": "18329074405250332",
     "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781560103620-feed.png",
     "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781560103620-story.png"
-  },
-  {
-    "data": "2026-06-15T18:46:16.756Z",
-    "titulo": "Tesouro IPCA+ com maior juro da década: em quanto tempo o dinheiro pode dobrar?",
-    "categoria": "Onde Investir",
-    "fonte": "InfoMoney",
-    "link": "https://www.infomoney.com.br/onde-investir/tesouro-ipca-com-maior-juro-da-decada-em-quanto-tempo-o-dinheiro-pode-dobrar/",
-    "postId": "18086043119454715",
-    "storyId": "17971513014111227",
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781549129713-feed.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781549129713-story.png"
   }
 ]
