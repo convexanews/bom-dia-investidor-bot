@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-11T18:02:22.658Z",
+    "titulo": "Demanda ampla por IA é o fator-chave para investidores da Nvidia, diz Morgan Stanley",
+    "categoria": "MERCADO",
+    "fonte": "Investing.com",
+    "link": "https://br.investing.com/news/stock-market-news/demanda-ampla-por-ia-e-o-fatorchave-para-investidores-da-nvidia-diz-morgan-stanley-1999044",
+    "postId": "17901907611464568",
+    "storyId": "18602479855049363",
+    "reelId": null,
+    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783792901412-feed.png",
+    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783792901412-story.png",
+    "videoUrl": null,
+    "tipo": "card",
+    "peso": 13
+  },
+  {
     "data": "2026-07-11T15:32:52.295Z",
     "titulo": "Bitcoin (BTC) sobe e mantém nível dos US$ 64 mil com otimismo do setor de tecnologia; veja preços das criptomoedas neste sábado (11)",
     "categoria": "Criptomoedas",
@@ -2789,17 +2804,5 @@
     "storyId": "18083537996423053",
     "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781612037948-feed.png",
     "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781612037948-story.png"
-  },
-  {
-    "data": "2026-06-16T01:36:00.955Z",
-    "titulo": "Taxas de DIs caem e curva de juros volta a precificar corte na Selic na próxima decisão do Copom",
-    "categoria": "Mercados",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/taxas-de-dis-caem-e-curva-de-juros-volta-a-precificar-corte-na-selic-lils/",
-    "postId": "18133929370601184",
-    "storyId": "18113415682908341",
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781573703649-feed.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781573703656-story.png",
-    "origem": "manual"
   }
 ]

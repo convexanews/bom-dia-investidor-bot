@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-11T18:02:22.660Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (card): \"Demanda ampla por IA é o fator-chave para investidores da Nvidia, diz Morgan Stanley\".",
+    "postId": "17901907611464568",
+    "storyId": "18602479855049363",
+    "reelId": null,
+    "tipo": "card"
+  },
+  {
+    "data": "2026-07-11T18:01:32.322Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 13): \"Demanda ampla por IA é o fator-chave para investidores da Nvidia, diz Morgan Stanley\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-11T17:31:20.929Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
@@ -1138,15 +1152,5 @@
       "GGBR4 +1,33%",
       "TOTS3 +0,94%"
     ]
-  },
-  {
-    "data": "2026-07-08T21:31:20.808Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 62 min."
-  },
-  {
-    "data": "2026-07-08T21:11:11.160Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 83 min."
   }
 ]
