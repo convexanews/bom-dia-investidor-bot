@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-11T13:03:15.509Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Haddad, sobre taxa de juros: Banco Central está criando problema desnecessariamente\".",
+    "postId": "18418887697181121",
+    "storyId": null,
+    "reelId": "18418887697181121",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-07-11T13:01:24.041Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 49): \"Haddad, sobre taxa de juros: Banco Central está criando problema desnecessariamente\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-11T12:31:27.182Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 1 min."
@@ -1131,19 +1145,5 @@
     "data": "2026-07-08T16:01:28.441Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 103 min."
-  },
-  {
-    "data": "2026-07-08T15:44:16.031Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"Ibovespa Hoje Ao Vivo: Bolsa cai 1% com tensões geopolíticas; VALE3 despenca 4%\".",
-    "postId": "17979021977881673",
-    "storyId": null,
-    "reelId": "17979021977881673",
-    "tipo": "reel"
-  },
-  {
-    "data": "2026-07-08T15:42:44.372Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 83): \"Ibovespa Hoje Ao Vivo: Bolsa cai 1% com tensões geopolíticas; VALE3 despenca 4%\". Realizando postagem..."
   }
 ]

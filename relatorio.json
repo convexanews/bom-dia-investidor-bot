@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-11T13:03:15.507Z",
+    "titulo": "Haddad, sobre taxa de juros: Banco Central está criando problema desnecessariamente",
+    "categoria": "Política",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/haddad-sobre-taxa-de-juros-banco-central-esta-criando-problema-desnecessariamente-lils/",
+    "postId": "18418887697181121",
+    "storyId": null,
+    "reelId": "18418887697181121",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783774896873.mp4",
+    "tipo": "reel",
+    "peso": 49
+  },
+  {
     "data": "2026-07-11T10:32:19.716Z",
     "titulo": "XP mantém otimismo com PIB e prevê dólar a R$ 5,00; veja os destaques da semana",
     "categoria": "Onde Investir",
@@ -2782,16 +2797,5 @@
     "storyId": "18077938988274375",
     "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781567745253-feed.png",
     "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781567745253-story.png"
-  },
-  {
-    "data": "2026-06-15T21:49:09.836Z",
-    "titulo": "Itaúsa (ITSA4) aprova pagamento de JCP no montante bruto de R$ 1,54 bilhão",
-    "categoria": "Mercados",
-    "fonte": "InfoMoney",
-    "link": "https://www.infomoney.com.br/mercados/itausa-itsa4-aprova-pagamento-de-jcp-no-montante-bruto-de-r-154-bilhao/",
-    "postId": "18133437610585696",
-    "storyId": "18329074405250332",
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781560103620-feed.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781560103620-story.png"
   }
 ]
