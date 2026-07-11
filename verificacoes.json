@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-11T21:53:04.168Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 41 min."
+  },
+  {
     "data": "2026-07-11T21:31:21.237Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 62 min."
@@ -1133,16 +1138,5 @@
     "data": "2026-07-09T00:14:02.222Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
-  },
-  {
-    "data": "2026-07-09T00:07:54.255Z",
-    "resultado": "reel_postado",
-    "mensagem": "Resumo em vídeo do dia publicado com 2 notícia(s).",
-    "reelId": "17933540943324583",
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1783555615563.mp4",
-    "noticias": [
-      "Bolsas da Europa recuam com alta do petróleo; Trump diz que acordo com Irã “acabou”",
-      "Tenda (TEND3): Ações caem 3% após prévia do 2T26; analistas respondem se é hora de comprar ou vender"
-    ]
   }
 ]
