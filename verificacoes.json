@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-11T12:31:27.182Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 1 min."
+  },
+  {
     "data": "2026-07-11T12:30:04.807Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
@@ -1140,10 +1145,5 @@
     "data": "2026-07-08T15:42:44.372Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 83): \"Ibovespa Hoje Ao Vivo: Bolsa cai 1% com tensões geopolíticas; VALE3 despenca 4%\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-08T15:31:22.992Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 5 min."
   }
 ]
