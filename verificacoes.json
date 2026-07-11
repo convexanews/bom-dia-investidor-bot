@@ -1,5 +1,16 @@
 [
   {
+    "data": "2026-07-11T15:02:44.954Z",
+    "resultado": "reel_postado",
+    "mensagem": "Resumo em vídeo do dia publicado com 2 notícia(s).",
+    "reelId": "18217695667328011",
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1783782102067.mp4",
+    "noticias": [
+      "HSAF11 mantém dividendos em R$ 0,95 por cota pelo 18º mês",
+      "XP mantém otimismo com PIB e prevê dólar a R$ 5,00; veja os destaques da semana"
+    ]
+  },
+  {
     "data": "2026-07-11T15:01:29.746Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
@@ -1137,14 +1148,5 @@
     "data": "2026-07-08T18:31:32.019Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 93 min."
-  },
-  {
-    "data": "2026-07-08T18:03:41.015Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (carrossel): \"Tenda (TEND3): Ações caem 3% após prévia do 2T26; analistas respondem se é hora de comprar ou vender\".",
-    "postId": "18096647888244133",
-    "storyId": "18122114110684697",
-    "reelId": null,
-    "tipo": "carrossel"
   }
 ]
