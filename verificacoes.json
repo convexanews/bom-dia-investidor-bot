@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-11T13:31:19.907Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
+  },
+  {
     "data": "2026-07-11T13:03:15.509Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"Haddad, sobre taxa de juros: Banco Central está criando problema desnecessariamente\".",
@@ -1140,10 +1145,5 @@
     "data": "2026-07-08T16:57:16.951Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 47 min."
-  },
-  {
-    "data": "2026-07-08T16:01:28.441Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 103 min."
   }
 ]
