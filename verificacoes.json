@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-11T15:01:29.746Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
+  },
+  {
     "data": "2026-07-11T14:31:36.019Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 32 min."
@@ -1141,10 +1146,5 @@
     "storyId": "18122114110684697",
     "reelId": null,
     "tipo": "carrossel"
-  },
-  {
-    "data": "2026-07-08T18:02:10.271Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 35): \"Tenda (TEND3): Ações caem 3% após prévia do 2T26; analistas respondem se é hora de comprar ou vender\". Realizando postagem..."
   }
 ]
