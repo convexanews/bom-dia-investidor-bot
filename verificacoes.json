@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-11T16:31:14.461Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 62 min."
+  },
+  {
     "data": "2026-07-11T16:01:26.570Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
@@ -1147,10 +1152,5 @@
     "data": "2026-07-08T20:31:30.718Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 78): \"Wall Street fecha sem direção única após escalada no Oriente Médio e após ata do Fed\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-08T20:01:27.657Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
   }
 ]
