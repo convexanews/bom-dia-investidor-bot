@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-11T22:31:16.478Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
+  },
+  {
     "data": "2026-07-11T22:01:23.841Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 32 min."
@@ -1133,10 +1138,5 @@
     "storyId": null,
     "reelId": null,
     "tipo": "carrossel"
-  },
-  {
-    "data": "2026-07-09T00:31:28.860Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 35): \"Diretor financeiro da Omada Health vende US$ 85.423 em ações da empresa\". Realizando postagem..."
   }
 ]
