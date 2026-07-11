@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-11T11:15:04.989Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 78 min."
+  },
+  {
     "data": "2026-07-11T11:01:18.482Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
@@ -1146,14 +1151,5 @@
     "data": "2026-07-08T14:02:10.825Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 94 min."
-  },
-  {
-    "data": "2026-07-08T13:36:06.461Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"BTG muda visão para Selic e passa a projetar mais dois cortes de juros em 2026; veja o que mudou\".",
-    "postId": "18071671760401093",
-    "storyId": null,
-    "reelId": "18071671760401093",
-    "tipo": "reel"
   }
 ]
