@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-12T15:03:22.003Z",
+    "resultado": "reel_postado",
+    "mensagem": "Resumo em vídeo do dia publicado com 6 notícia(s).",
+    "reelId": "17973313437115575",
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1783868533156.mp4",
+    "noticias": [
+      "Bitcoin (BTC) sobe e mantém nível dos US$ 64 mil com otimismo do setor de tecnologia; veja preços das criptomoedas neste sábado (11)",
+      "Demanda ampla por IA é o fator-chave para investidores da Nvidia, diz Morgan Stanley",
+      "Federação alemã diz estar confiante sobre contratação de técnico Klopp para a seleção",
+      "Mendonça ordena apreensão de passaporte de Thiago Miranda, ligado a Vorcaro",
+      "Irã anuncia novo fechamento do Estreito de Ormuz e diz ter atingido embarcação na rota",
+      "Investidores em criptomoedas, atenção: ‘see you, space cowboy!’ e as mais lidas do Crypto Times"
+    ]
+  },
+  {
     "data": "2026-07-12T15:02:00.243Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 61 min."
@@ -1136,14 +1151,5 @@
     "data": "2026-07-09T19:31:20.586Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
-  },
-  {
-    "data": "2026-07-09T19:02:46.756Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"Opções de Copom da B3 apontam para corte de 0,25% na Selic em agosto\".",
-    "postId": "18107976013803647",
-    "storyId": null,
-    "reelId": "18107976013803647",
-    "tipo": "reel"
   }
 ]
