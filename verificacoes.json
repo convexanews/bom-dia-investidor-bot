@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-12T17:01:24.709Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
+  },
+  {
     "data": "2026-07-12T16:32:56.855Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (carrossel): \"Lojas Renner (LREN3) e Telefônica Brasil (VIVT3) pagam dividendos nesta semana; veja o calendário\".",
@@ -1150,10 +1155,5 @@
     "storyId": "17920064922403340",
     "reelId": null,
     "tipo": "carrossel"
-  },
-  {
-    "data": "2026-07-09T21:31:32.136Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 54): \"Ibovespa hoje fecha alta, seguindo NY, com ações de bancos; dólar cai para R$ 5,12\". Realizando postagem..."
   }
 ]
