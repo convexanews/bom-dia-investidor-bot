@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-12T12:04:15.796Z",
+    "resultado": "erro_story_glossario",
+    "mensagem": "Erro ao publicar story do glossário: Erro ao publicar story: {\"error\":{\"message\":\"The requested resource does not exist\",\"type\":\"OAuthException\",\"code\":24,\"error_subcode\":2207006,\"is_transient\":false,\"error_user_title\":\"Media Not Found\",\"error_user_msg\":\"The media with 18,124,854,718,665,621 cannot be found.\",\"fbtrace_id\":\"ALzY8bEBa949uiqcQowMe0Y\"}}"
+  },
+  {
     "data": "2026-07-12T12:02:38.261Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 90 min."
@@ -1130,10 +1135,5 @@
     "data": "2026-07-09T16:01:22.958Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
-  },
-  {
-    "data": "2026-07-09T15:41:40.082Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 22 min."
   }
 ]
