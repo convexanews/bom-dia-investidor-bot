@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-12T06:01:18.376Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (03:01 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-07-12T05:31:19.311Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (02:31 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1143,10 +1148,5 @@
     "storyId": "18081804167670913",
     "reelId": null,
     "tipo": "card"
-  },
-  {
-    "data": "2026-07-09T09:07:23.074Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 42): \"Dow Jones Futuro avança mesmo com tensão entre EUA e Irã\". Realizando postagem..."
   }
 ]
