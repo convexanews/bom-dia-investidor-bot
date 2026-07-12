@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-12T10:55:14.518Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 9 min."
+  },
+  {
     "data": "2026-07-12T10:31:13.748Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 33 min."
@@ -1138,10 +1143,5 @@
     "storyId": "17898928773528918",
     "reelId": null,
     "tipo": "carrossel"
-  },
-  {
-    "data": "2026-07-09T14:01:21.957Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 55): \"Wall Street avança com recuperação do setor de tecnologia, apesar do conflito no Oriente Médio\". Realizando postagem..."
   }
 ]
