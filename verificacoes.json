@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-12T14:05:58.796Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 117 min."
+  },
+  {
     "data": "2026-07-12T14:02:35.388Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (card): \"Investidores em criptomoedas, atenção: ‘see you, space cowboy!’ e as mais lidas do Crypto Times\".",
@@ -1130,10 +1135,5 @@
     "data": "2026-07-09T18:01:38.826Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 32 min."
-  },
-  {
-    "data": "2026-07-09T17:58:58.977Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 35 min."
   }
 ]
