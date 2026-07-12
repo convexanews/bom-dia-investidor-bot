@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-12T12:01:47.722Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 91 min."
+  },
+  {
     "data": "2026-07-12T11:32:33.758Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (carrossel): \"Irã anuncia novo fechamento do Estreito de Ormuz e diz ter atingido embarcação na rota\".",
@@ -1130,18 +1135,5 @@
     "data": "2026-07-09T15:31:35.682Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 32 min."
-  },
-  {
-    "data": "2026-07-09T15:02:59.168Z",
-    "resultado": "reel_postado",
-    "mensagem": "Resumo em vídeo do dia publicado com 4 notícia(s).",
-    "reelId": "18118670488896722",
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1783609294574.mp4",
-    "noticias": [
-      "Tenda (TEND3): Ações caem 3% após prévia do 2T26; analistas respondem se é hora de comprar ou vender",
-      "Diretor financeiro da Omada Health vende US$ 85.423 em ações da empresa",
-      "Dow Jones Futuro avança mesmo com tensão entre EUA e Irã",
-      "Wall Street avança com recuperação do setor de tecnologia, apesar do conflito no Oriente Médio"
-    ]
   }
 ]
