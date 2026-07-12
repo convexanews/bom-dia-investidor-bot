@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-12T14:02:35.386Z",
+    "titulo": "Investidores em criptomoedas, atenção: ‘see you, space cowboy!’ e as mais lidas do Crypto Times",
+    "categoria": "Colunas",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/investidores-em-criptomoedas-atencao-see-you-space-cowboy-e-as-mais-lidas-do-crypto-times-rens/",
+    "postId": "18134210050591997",
+    "storyId": "18448293961190677",
+    "reelId": null,
+    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783864906775-feed.png",
+    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783864906775-story.png",
+    "videoUrl": null,
+    "tipo": "card",
+    "peso": 32
+  },
+  {
     "data": "2026-07-12T11:32:33.757Z",
     "titulo": "Irã anuncia novo fechamento do Estreito de Ormuz e diz ter atingido embarcação na rota",
     "categoria": "Internacional",
@@ -2809,16 +2824,5 @@
     "storyId": "18103942948973660",
     "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781631049046-feed.png",
     "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781631049046-story.png"
-  },
-  {
-    "data": "2026-06-16T17:01:56.333Z",
-    "titulo": "HSBC muda rota para os juros e vê Selic em 14,25% até 2027",
-    "categoria": "Economia",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/hsbc-muda-rota-para-os-juros-e-ve-selic-em-1425-ate-2027/",
-    "postId": "18460843678104113",
-    "storyId": "18122935093675922",
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781629270400-feed.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781629270400-story.png"
   }
 ]
