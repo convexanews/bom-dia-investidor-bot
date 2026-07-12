@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-12T19:42:46.594Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 80 min."
+  },
+  {
     "data": "2026-07-12T19:31:19.375Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 91 min."
@@ -1130,18 +1135,5 @@
     "data": "2026-07-10T00:31:23.331Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 91 min."
-  },
-  {
-    "data": "2026-07-10T00:04:49.830Z",
-    "resultado": "reel_postado",
-    "mensagem": "Resumo em vídeo do dia publicado com 4 notícia(s).",
-    "reelId": "18109153564784929",
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1783641760222.mp4",
-    "noticias": [
-      "Diretor financeiro da Omada Health vende US$ 85.423 em ações da empresa",
-      "Dow Jones Futuro avança mesmo com tensão entre EUA e Irã",
-      "Wall Street avança com recuperação do setor de tecnologia, apesar do conflito no Oriente Médio",
-      "Ibovespa hoje fecha alta, seguindo NY, com ações de bancos; dólar cai para R$ 5,12"
-    ]
   }
 ]
