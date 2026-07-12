@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-12T23:59:28.713Z",
+    "titulo": "Petróleo sobe forte após EUA e Irã trocarem ataques e divergirem sobre Ormuz",
+    "categoria": "Mercados",
+    "fonte": "InfoMoney",
+    "link": "https://www.infomoney.com.br/mercados/petroleo-sobe-forte-apos-eua-e-ira-trocarem-ataques-e-divergirem-sobre-ormuz/",
+    "postId": "18189487939391255",
+    "storyId": "18130210087622467",
+    "reelId": null,
+    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783900717369-feed.png",
+    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783900717369-story.png",
+    "videoUrl": null,
+    "tipo": "card",
+    "peso": 12
+  },
+  {
     "data": "2026-07-12T21:33:00.284Z",
     "titulo": "Rússia - Ações fecharam o pregão em queda e o Índice MOEX Russia Index terminou sem alterações",
     "categoria": "MERCADO",
@@ -2825,16 +2840,5 @@
     "storyId": "17893066059532854",
     "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781636466963-feed.png",
     "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781636466963-story.png"
-  },
-  {
-    "data": "2026-06-16T18:31:47.009Z",
-    "titulo": "BofA: Só 31% dos gestores espera Ibovespa acima dos 190 mil pontos em 2026",
-    "categoria": "Mercados",
-    "fonte": "InfoMoney",
-    "link": "https://www.infomoney.com.br/onde-investir/bofa-so-31-dos-gestores-espera-ibovespa-acima-dos-190-mil-pontos-em-2026/",
-    "postId": "18087547658099181",
-    "storyId": "18124134490730401",
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781634656664-feed.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781634656664-story.png"
   }
 ]
