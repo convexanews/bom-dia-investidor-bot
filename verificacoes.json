@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-12T21:33:00.285Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (carrossel): \"Rússia - Ações fecharam o pregão em queda e o Índice MOEX Russia Index terminou sem alterações\".",
+    "postId": "18101557079138919",
+    "storyId": "18103279754165696",
+    "reelId": null,
+    "tipo": "carrossel"
+  },
+  {
+    "data": "2026-07-12T21:31:40.167Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 3): \"Rússia - Ações fecharam o pregão em queda e o Índice MOEX Russia Index terminou sem alterações\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-12T21:01:24.887Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 1 min."
@@ -1125,15 +1139,5 @@
     "data": "2026-07-10T03:02:04.117Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (00:02 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-10T02:31:21.071Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (23:31 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-10T02:01:23.808Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (23:01 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]

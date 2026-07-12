@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-12T21:33:00.284Z",
+    "titulo": "Rússia - Ações fecharam o pregão em queda e o Índice MOEX Russia Index terminou sem alterações",
+    "categoria": "MERCADO",
+    "fonte": "Investing.com",
+    "link": "https://br.investing.com/news/stock-market-news/russia--acoes-fecharam-o-pregao-em-queda-e-o-indice-moex-russia-index-terminou-sem-alteracoes-1999235",
+    "postId": "18101557079138919",
+    "storyId": "18103279754165696",
+    "reelId": null,
+    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783891910106-slide1.png",
+    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783891910106-story.png",
+    "videoUrl": null,
+    "tipo": "carrossel",
+    "peso": 3
+  },
+  {
     "data": "2026-07-12T19:02:18.058Z",
     "titulo": "Eleições nacionais em Israel serão realizadas em 27 de outubro, diz líder da coalizão",
     "categoria": "Mundo",
@@ -2821,16 +2836,5 @@
     "storyId": "18124134490730401",
     "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781634656664-feed.png",
     "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781634656664-story.png"
-  },
-  {
-    "data": "2026-06-16T18:01:34.851Z",
-    "titulo": "SpaceX compra startup de IA por US$ 60 bilhões; ações sobem",
-    "categoria": "Negócios",
-    "fonte": "Suno",
-    "link": "https://www.suno.com.br/noticias/spacex-compra-startup-ia-cursor-us-60-bilhoes-acoes-sobem-go/",
-    "postId": "18133458655579876",
-    "storyId": "18333997897267037",
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781632853894-feed.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781632853894-story.png"
   }
 ]
