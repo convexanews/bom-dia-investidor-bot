@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-12T17:02:43.413Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 91 min."
+  },
+  {
     "data": "2026-07-12T17:01:24.709Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
@@ -1146,14 +1151,5 @@
     "data": "2026-07-09T21:37:51.934Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 116 min."
-  },
-  {
-    "data": "2026-07-09T21:33:02.569Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (carrossel): \"Ibovespa hoje fecha alta, seguindo NY, com ações de bancos; dólar cai para R$ 5,12\".",
-    "postId": "18194877634374371",
-    "storyId": "17920064922403340",
-    "reelId": null,
-    "tipo": "carrossel"
   }
 ]
