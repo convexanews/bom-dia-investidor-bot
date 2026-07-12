@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-12T23:52:41.500Z",
+    "resultado": "reel_postado",
+    "mensagem": "Resumo em vídeo do dia publicado com 5 notícia(s).",
+    "reelId": "18379776358164354",
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1783900274797.mp4",
+    "noticias": [
+      "Irã anuncia novo fechamento do Estreito de Ormuz e diz ter atingido embarcação na rota",
+      "Investidores em criptomoedas, atenção: ‘see you, space cowboy!’ e as mais lidas do Crypto Times",
+      "Lojas Renner (LREN3) e Telefônica Brasil (VIVT3) pagam dividendos nesta semana; veja o calendário",
+      "Eleições nacionais em Israel serão realizadas em 27 de outubro, diz líder da coalizão",
+      "Rússia - Ações fecharam o pregão em queda e o Índice MOEX Russia Index terminou sem alterações"
+    ]
+  },
+  {
     "data": "2026-07-12T23:31:19.046Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
@@ -1134,10 +1148,5 @@
     "data": "2026-07-10T06:01:23.610Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (03:01 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-10T05:38:44.189Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (02:38 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
