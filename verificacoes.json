@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-12T09:04:47.745Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 119 min."
+  },
+  {
     "data": "2026-07-12T09:03:15.605Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"5 grandes movimentos de analistas em IA: SpaceX recebe preço-alvo recorde, queda da Samsung é exagerada\".",
@@ -1139,10 +1144,5 @@
     "data": "2026-07-09T13:11:26.540Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 23 min."
-  },
-  {
-    "data": "2026-07-09T12:07:58.713Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 86 min."
   }
 ]
