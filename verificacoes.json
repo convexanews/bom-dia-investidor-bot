@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-12T09:03:15.605Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"5 grandes movimentos de analistas em IA: SpaceX recebe preço-alvo recorde, queda da Samsung é exagerada\".",
+    "postId": "17912957382430533",
+    "storyId": null,
+    "reelId": "17912957382430533",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-07-12T09:01:27.123Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 35): \"5 grandes movimentos de analistas em IA: SpaceX recebe preço-alvo recorde, queda da Samsung é exagerada\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-12T08:31:50.360Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (05:31 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1130,19 +1144,5 @@
     "data": "2026-07-09T12:07:58.713Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 86 min."
-  },
-  {
-    "data": "2026-07-09T12:03:37.971Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 91 min."
-  },
-  {
-    "data": "2026-07-09T11:33:42.439Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"Bitcoin (BTC) volta a subir apesar dos temores da guerra no Irã; veja preços das criptomoedas nesta quinta-feira (9)\".",
-    "postId": "18110068339910993",
-    "storyId": null,
-    "reelId": "18110068339910993",
-    "tipo": "reel"
   }
 ]

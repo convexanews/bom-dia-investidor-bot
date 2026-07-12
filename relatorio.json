@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-12T09:03:15.603Z",
+    "titulo": "5 grandes movimentos de analistas em IA: SpaceX recebe preço-alvo recorde, queda da Samsung é exagerada",
+    "categoria": "MERCADO",
+    "fonte": "Investing.com",
+    "link": "https://br.investing.com/news/stock-market-news/5-grandes-movimentos-de-analistas-em-ia-spacex-recebe-precoalvo-recorde-queda-da-samsung-e-exagerada-1999133",
+    "postId": "17912957382430533",
+    "storyId": null,
+    "reelId": "17912957382430533",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783846895123.mp4",
+    "tipo": "reel",
+    "peso": 35
+  },
+  {
     "data": "2026-07-11T22:54:09.752Z",
     "titulo": "Mendonça ordena apreensão de passaporte de Thiago Miranda, ligado a Vorcaro",
     "categoria": "Política",
@@ -2801,16 +2816,5 @@
     "storyId": "17927667375128029",
     "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781627464476-feed.png",
     "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781627464476-story.png"
-  },
-  {
-    "data": "2026-06-16T15:29:31.181Z",
-    "titulo": "Ibovespa Hoje Ao Vivo: Bolsa cai com geopolítica e dados no radar",
-    "categoria": "Mercados",
-    "fonte": "InfoMoney",
-    "link": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-16062026/",
-    "postId": "18103154825471549",
-    "storyId": "17948283291211984",
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781623724199-feed.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781623724199-story.png"
   }
 ]
