@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-12T11:32:33.758Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (carrossel): \"Irã anuncia novo fechamento do Estreito de Ormuz e diz ter atingido embarcação na rota\".",
+    "postId": "18091767710272491",
+    "storyId": "17900134644326034",
+    "reelId": null,
+    "tipo": "carrossel"
+  },
+  {
+    "data": "2026-07-12T11:31:18.514Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 12): \"Irã anuncia novo fechamento do Estreito de Ormuz e diz ter atingido embarcação na rota\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-12T11:01:15.235Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
@@ -1129,15 +1143,5 @@
       "Dow Jones Futuro avança mesmo com tensão entre EUA e Irã",
       "Wall Street avança com recuperação do setor de tecnologia, apesar do conflito no Oriente Médio"
     ]
-  },
-  {
-    "data": "2026-07-09T15:01:22.135Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 62 min."
-  },
-  {
-    "data": "2026-07-09T14:31:17.136Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
   }
 ]

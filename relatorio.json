@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-12T11:32:33.757Z",
+    "titulo": "Irã anuncia novo fechamento do Estreito de Ormuz e diz ter atingido embarcação na rota",
+    "categoria": "Internacional",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/ira-anuncia-novo-fechamento-do-estreito-de-ormuz-e-diz-ter-atingido-embarcacao-na-rota-lmrs/",
+    "postId": "18091767710272491",
+    "storyId": "17900134644326034",
+    "reelId": null,
+    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783855886593-slide1.png",
+    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783855886593-story.png",
+    "videoUrl": null,
+    "tipo": "carrossel",
+    "peso": 12
+  },
+  {
     "data": "2026-07-12T09:03:15.603Z",
     "titulo": "5 grandes movimentos de analistas em IA: SpaceX recebe preço-alvo recorde, queda da Samsung é exagerada",
     "categoria": "MERCADO",
@@ -2805,16 +2820,5 @@
     "storyId": "18122935093675922",
     "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781629270400-feed.png",
     "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781629270400-story.png"
-  },
-  {
-    "data": "2026-06-16T16:31:45.796Z",
-    "titulo": "Copom deveria manter jogo aberto sobre juros diante das incertezas, afirma economista-chefe do Inter",
-    "categoria": "Economia",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/copom-deveria-deixar-proximos-passos-em-aberto-diante-das-incertezas-afirma-economista-chefe-do-inter-jcav/",
-    "postId": "17907715314427927",
-    "storyId": "17927667375128029",
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781627464476-feed.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781627464476-story.png"
   }
 ]
