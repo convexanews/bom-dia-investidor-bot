@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-12T13:31:13.202Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
+  },
+  {
     "data": "2026-07-12T13:01:19.016Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 32 min."
@@ -1126,14 +1131,5 @@
     "data": "2026-07-09T17:01:19.277Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
-  },
-  {
-    "data": "2026-07-09T16:33:17.514Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"‘Trump não vai resolver conflito com o Irã’; acordo deve ficar para o próximo presidente, diz estrategista da Empiricus\".",
-    "postId": "18136648042584830",
-    "storyId": null,
-    "reelId": "18136648042584830",
-    "tipo": "reel"
   }
 ]
