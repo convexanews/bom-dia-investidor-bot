@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-12T10:01:19.066Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 62 min."
+  },
+  {
     "data": "2026-07-12T09:31:12.379Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 93 min."
@@ -1139,10 +1144,5 @@
     "resultado": "story_glossario",
     "mensagem": "Story do glossário publicado: \"Marcação a Mercado\"",
     "postId": "18125928763658745"
-  },
-  {
-    "data": "2026-07-09T13:31:29.834Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
   }
 ]
