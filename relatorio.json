@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-12T16:32:56.853Z",
+    "titulo": "Lojas Renner (LREN3) e Telefônica Brasil (VIVT3) pagam dividendos nesta semana; veja o calendário",
+    "categoria": "Empresas",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/dividendos-da-semana-10-7-26-apsa/",
+    "postId": "18115097680896587",
+    "storyId": "17916957399205547",
+    "reelId": null,
+    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783873898241-slide1.png",
+    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783873898241-story.png",
+    "videoUrl": null,
+    "tipo": "carrossel",
+    "peso": 25
+  },
+  {
     "data": "2026-07-12T14:02:35.386Z",
     "titulo": "Investidores em criptomoedas, atenção: ‘see you, space cowboy!’ e as mais lidas do Crypto Times",
     "categoria": "Colunas",
@@ -2813,16 +2828,5 @@
     "storyId": "18111319949491483",
     "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781631200320-feed.png",
     "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781631200320-story.png"
-  },
-  {
-    "data": "2026-06-16T17:31:38.050Z",
-    "titulo": "Dólar opera em alta, de olho no petróleo e à espera de decisões de juros; Ibovespa cai",
-    "categoria": "G1",
-    "fonte": "G1 Economia",
-    "link": "https://g1.globo.com/economia/noticia/2026/06/16/dolar-ibovespa.ghtml",
-    "postId": "18204308290358526",
-    "storyId": "18103942948973660",
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781631049046-feed.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781631049046-story.png"
   }
 ]
