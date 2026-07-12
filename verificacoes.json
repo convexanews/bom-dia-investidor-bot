@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-12T08:31:50.360Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (05:31 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-07-12T08:01:21.269Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (05:01 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1139,10 +1144,5 @@
     "storyId": null,
     "reelId": "18110068339910993",
     "tipo": "reel"
-  },
-  {
-    "data": "2026-07-09T11:31:35.508Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 42): \"Bitcoin (BTC) volta a subir apesar dos temores da guerra no Irã; veja preços das criptomoedas nesta quinta-feira (9)\". Realizando postagem..."
   }
 ]
