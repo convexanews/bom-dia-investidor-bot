@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-13T11:32:55.926Z",
+    "titulo": "Ação da SK Hynix despenca após estreia na Nasdaq em meio a realizações de lucros",
+    "categoria": "Mercados",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/acao-da-sk-hynix-despenca-apos-estreia-na-nasdaq-em-meio-a-realizacoes-de-lucros-lmrs/",
+    "postId": "18118608937864079",
+    "storyId": "18015755498864000",
+    "reelId": null,
+    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783942300298-slide1.png",
+    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783942300298-story.png",
+    "videoUrl": null,
+    "tipo": "carrossel",
+    "peso": 56
+  },
+  {
     "data": "2026-07-13T09:04:16.062Z",
     "titulo": "Conflito EUA-Irã, falas do Fed, Focus e mais destaques desta segunda-feira",
     "categoria": "Mercados",
@@ -2833,16 +2848,5 @@
     "storyId": "18098130931911894",
     "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781640063927-feed.png",
     "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781640063927-story.png"
-  },
-  {
-    "data": "2026-06-16T19:31:50.350Z",
-    "titulo": "Petróleo derruba Petrobras e Ibovespa; dólar fecha em leve alta a R$ 5,06",
-    "categoria": "Invest",
-    "fonte": "Exame Invest",
-    "link": "https://exame.com/invest/mercados/petroleo-derruba-petrobras-e-ibovespa-dolar-fecha-em-leve-alta-a-r-506/",
-    "postId": "17955557913165014",
-    "storyId": "18603006388030313",
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781638262046-feed.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781638262046-story.png"
   }
 ]
