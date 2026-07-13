@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-13T19:01:26.594Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 79 min."
+  },
+  {
     "data": "2026-07-13T18:32:05.899Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 108 min."
@@ -1134,10 +1139,5 @@
       "Chips de memória caem até 50% em três semanas, mas Dahlia mantém aposta na IA",
       "Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta sexta"
     ]
-  },
-  {
-    "data": "2026-07-10T23:32:10.295Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 37 min."
   }
 ]
