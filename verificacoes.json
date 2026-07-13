@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-13T17:31:30.656Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 37 min."
+  },
+  {
     "data": "2026-07-13T17:01:29.581Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 67 min."
@@ -1134,10 +1139,5 @@
     "storyId": null,
     "reelId": "18188086795377783",
     "tipo": "reel"
-  },
-  {
-    "data": "2026-07-10T22:07:06.248Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 68): \"Ibovespa dispara quase 3% com IPCA surpreendente e renova máxima em quase dois meses\". Realizando postagem..."
   }
 ]
