@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-13T09:04:16.064Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Conflito EUA-Irã, falas do Fed, Focus e mais destaques desta segunda-feira\".",
+    "postId": "17961345543157386",
+    "storyId": null,
+    "reelId": "17961345543157386",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-07-13T09:01:56.271Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 80): \"Conflito EUA-Irã, falas do Fed, Focus e mais destaques desta segunda-feira\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-13T08:31:20.904Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (05:31 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1128,19 +1142,5 @@
     "data": "2026-07-10T14:31:16.341Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
-  },
-  {
-    "data": "2026-07-10T14:03:02.353Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"IPCA fraco reforça aposta em corte da Selic em agosto, mas petróleo mantém alerta\".",
-    "postId": "18107058979997358",
-    "storyId": null,
-    "reelId": "18107058979997358",
-    "tipo": "reel"
-  },
-  {
-    "data": "2026-07-10T14:01:20.468Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 66): \"IPCA fraco reforça aposta em corte da Selic em agosto, mas petróleo mantém alerta\". Realizando postagem..."
   }
 ]

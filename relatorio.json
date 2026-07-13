@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-13T09:04:16.062Z",
+    "titulo": "Conflito EUA-Irã, falas do Fed, Focus e mais destaques desta segunda-feira",
+    "categoria": "Mercados",
+    "fonte": "InfoMoney",
+    "link": "https://www.infomoney.com.br/mercados/conflito-eua-ira-falas-fed-focus-agenda-13072026/",
+    "postId": "17961345543157386",
+    "storyId": null,
+    "reelId": "17961345543157386",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783933327007.mp4",
+    "tipo": "reel",
+    "peso": 80
+  },
+  {
     "data": "2026-07-12T23:59:28.713Z",
     "titulo": "Petróleo sobe forte após EUA e Irã trocarem ataques e divergirem sobre Ormuz",
     "categoria": "Mercados",
@@ -2829,16 +2844,5 @@
     "storyId": "18603006388030313",
     "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781638262046-feed.png",
     "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781638262046-story.png"
-  },
-  {
-    "data": "2026-06-16T19:01:53.556Z",
-    "titulo": "Ouro fecha em leve alta com expectativas para assinatura de acordo EUA-Irã e Fed no radar",
-    "categoria": "Mercados",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/ouro-fecha-em-leve-alta-com-expectativas-para-assinatura-de-acordo-eua-ira-e-fed-no-radar-lils/",
-    "postId": "18084244367532226",
-    "storyId": "17893066059532854",
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781636466963-feed.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781636466963-story.png"
   }
 ]
