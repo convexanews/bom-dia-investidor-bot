@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-13T10:31:59.936Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 33 min."
+  },
+  {
     "data": "2026-07-13T10:01:25.049Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 63 min."
@@ -1130,17 +1135,5 @@
     "data": "2026-07-10T15:14:56.745Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 49 min."
-  },
-  {
-    "data": "2026-07-10T15:02:31.352Z",
-    "resultado": "reel_postado",
-    "mensagem": "Resumo em vídeo do dia publicado com 3 notícia(s).",
-    "reelId": "18431120803192442",
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1783695688874.mp4",
-    "noticias": [
-      "Ibovespa hoje fecha alta, seguindo NY, com ações de bancos; dólar cai para R$ 5,12",
-      "Chips de memória caem até 50% em três semanas, mas Dahlia mantém aposta na IA",
-      "Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta sexta"
-    ]
   }
 ]
