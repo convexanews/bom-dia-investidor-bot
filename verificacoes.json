@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-13T17:01:29.581Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 67 min."
+  },
+  {
     "data": "2026-07-13T16:31:40.572Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 97 min."
@@ -1134,10 +1139,5 @@
     "data": "2026-07-10T22:07:06.248Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 68): \"Ibovespa dispara quase 3% com IPCA surpreendente e renova máxima em quase dois meses\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-10T22:02:31.109Z",
-    "resultado": "erro",
-    "mensagem": "Erro na execução automática: Command failed: git push"
   }
 ]
