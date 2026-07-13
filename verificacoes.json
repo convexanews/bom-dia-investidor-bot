@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-13T07:31:18.834Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (04:31 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-07-13T07:01:21.721Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (04:01 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1138,11 +1143,5 @@
     "data": "2026-07-10T13:31:22.127Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
-  },
-  {
-    "data": "2026-07-10T13:16:59.501Z",
-    "resultado": "story_glossario",
-    "mensagem": "Story do glossário publicado: \"Taxa de Administração\"",
-    "postId": "18088314557451161"
   }
 ]
