@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-13T08:31:20.904Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (05:31 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-07-13T08:01:21.260Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (05:01 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1137,11 +1142,5 @@
     "data": "2026-07-10T14:01:20.468Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 66): \"IPCA fraco reforça aposta em corte da Selic em agosto, mas petróleo mantém alerta\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-10T13:32:03.224Z",
-    "resultado": "alerta_recorde",
-    "mensagem": "Alerta de recorde publicado: Ibovespa (NOVA MÁXIMA).",
-    "postId": "18084350498179940"
   }
 ]
