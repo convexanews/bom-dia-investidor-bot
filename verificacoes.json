@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-13T23:03:12.521Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (carrossel): \"Eztec (EZTC3) bate recorde de lançamentos e vendas no 1º semestre de 2026\".",
+    "postId": "18103835492134997",
+    "storyId": "18105116332843771",
+    "reelId": null,
+    "tipo": "carrossel"
+  },
+  {
+    "data": "2026-07-13T23:01:43.075Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 40): \"Eztec (EZTC3) bate recorde de lançamentos e vendas no 1º semestre de 2026\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-13T22:31:28.919Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
@@ -1135,15 +1149,5 @@
     "data": "2026-07-11T05:31:18.955Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (02:31 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-11T05:01:55.578Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (02:01 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-11T04:31:19.404Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (01:31 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]

@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-13T23:03:12.520Z",
+    "titulo": "Eztec (EZTC3) bate recorde de lançamentos e vendas no 1º semestre de 2026",
+    "categoria": "Empresas",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/eztec-eztc3-bate-recorde-de-lancamentos-e-vendas-no-1o-semestre-de-2026/",
+    "postId": "18103835492134997",
+    "storyId": "18105116332843771",
+    "reelId": null,
+    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783983713341-slide1.png",
+    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783983713341-story.png",
+    "videoUrl": null,
+    "tipo": "carrossel",
+    "peso": 40
+  },
+  {
     "data": "2026-07-13T20:34:06.610Z",
     "titulo": "Wall Street cai com disparada dos preços do petróleo e à espera de dados de inflação",
     "categoria": "Mercados",
@@ -2853,16 +2868,5 @@
     "storyId": "18214354309327748",
     "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781649049424-feed.png",
     "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781649049424-story.png"
-  },
-  {
-    "data": "2026-06-16T22:01:42.513Z",
-    "titulo": "Superquarta sem festa? Analistas veem Fed travado e Copom ainda sob pressão",
-    "categoria": "Economia",
-    "fonte": "Suno",
-    "link": "https://www.suno.com.br/noticias/copom-fed-superquarta-juros-selic-analistas-mt/",
-    "postId": "18225028369316227",
-    "storyId": "18195579940368893",
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781647261216-feed.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781647261216-story.png"
   }
 ]
