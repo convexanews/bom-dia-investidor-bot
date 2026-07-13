@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-13T14:03:32.306Z",
+    "titulo": "TSMC tem receita recorde no 2º tri impulsionada pela demanda por IA",
+    "categoria": "Empresas",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/tsmc-tem-receita-recorde-no-2o-tri-impulsionada-pela-demanda-por-ia/",
+    "postId": "18122677552720727",
+    "storyId": null,
+    "reelId": "18122677552720727",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783951310138.mp4",
+    "tipo": "reel",
+    "peso": 70
+  },
+  {
     "data": "2026-07-13T11:32:55.926Z",
     "titulo": "Ação da SK Hynix despenca após estreia na Nasdaq em meio a realizações de lucros",
     "categoria": "Mercados",
@@ -2837,16 +2852,5 @@
     "storyId": "18254102788305259",
     "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781641865694-feed.png",
     "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781641865694-story.png"
-  },
-  {
-    "data": "2026-06-16T20:01:38.180Z",
-    "titulo": "Petróleo despenca mais de 5% e Brent fecha abaixo de US$ 80 com acordo EUA-Irã",
-    "categoria": "Mercados",
-    "fonte": "InfoMoney",
-    "link": "https://www.infomoney.com.br/mercados/petroleo-abertura-fechamento-ira-eua-16062026/",
-    "postId": "17943659373215833",
-    "storyId": "18098130931911894",
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781640063927-feed.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781640063927-story.png"
   }
 ]

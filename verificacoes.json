@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-13T14:03:32.307Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"TSMC tem receita recorde no 2º tri impulsionada pela demanda por IA\".",
+    "postId": "18122677552720727",
+    "storyId": null,
+    "reelId": "18122677552720727",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-07-13T14:01:37.380Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 70): \"TSMC tem receita recorde no 2º tri impulsionada pela demanda por IA\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-13T13:32:38.617Z",
     "resultado": "story_glossario",
     "mensagem": "Story do glossário publicado: \"Spread Cambial\"",
@@ -1126,15 +1140,5 @@
     "data": "2026-07-10T19:31:29.413Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 68): \"Inflação abaixo do esperado já permite sonhar com mais cortes na Selic? Veja as projeções dos bancos\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-10T19:03:09.023Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 18 min."
-  },
-  {
-    "data": "2026-07-10T19:01:28.151Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 19 min."
   }
 ]
