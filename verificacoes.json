@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-13T16:08:17.221Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"O alerta do Bradesco BBI para a Usiminas (USIM5), que perdeu R$ 4 bi na Bolsa em 1 mês\".",
+    "postId": "17886432171599376",
+    "storyId": null,
+    "reelId": "17886432171599376",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-07-13T16:06:03.608Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 71): \"O alerta do Bradesco BBI para a Usiminas (USIM5), que perdeu R$ 4 bi na Bolsa em 1 mês\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-13T16:01:57.641Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
@@ -1125,27 +1139,5 @@
     "data": "2026-07-10T22:01:34.052Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 68): \"Ibovespa dispara quase 3% com IPCA surpreendente e renova máxima em quase dois meses\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-10T21:49:02.201Z",
-    "resultado": "carrossel_fechamento",
-    "mensagem": "Carrossel de fechamento publicado. Ibovespa: 177.866 +4,23%",
-    "postId": "18125357005740041",
-    "ibov": {
-      "valor": "177.866",
-      "variacao": "+4,23%"
-    },
-    "topAltas": [
-      "CSNA3 +7,92%",
-      "MGLU3 +7,41%",
-      "BPAC11 +5,48%",
-      "CSAN3 +5,44%",
-      "HAPV3 +5,26%"
-    ]
-  },
-  {
-    "data": "2026-07-10T21:31:38.270Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
   }
 ]

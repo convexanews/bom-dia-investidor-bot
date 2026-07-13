@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-13T16:08:17.219Z",
+    "titulo": "O alerta do Bradesco BBI para a Usiminas (USIM5), que perdeu R$ 4 bi na Bolsa em 1 mês",
+    "categoria": "Mercados",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/o-alerta-do-bradesco-bbi-para-a-usiminas-usim5-que-perdeu-r-4-bi-na-bolsa-em-1-mes-rnda/",
+    "postId": "17886432171599376",
+    "storyId": null,
+    "reelId": "17886432171599376",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783958776714.mp4",
+    "tipo": "reel",
+    "peso": 71
+  },
+  {
     "data": "2026-07-13T14:03:32.306Z",
     "titulo": "TSMC tem receita recorde no 2º tri impulsionada pela demanda por IA",
     "categoria": "Empresas",
@@ -2841,16 +2856,5 @@
     "storyId": "18119731174747881",
     "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781643372232-feed.png",
     "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781643372232-story.png"
-  },
-  {
-    "data": "2026-06-16T20:31:53.378Z",
-    "titulo": "Wall Street fecha sem direção única com acordo entre EUA e Irã em foco; Dow Jones renova recordes",
-    "categoria": "Mercados",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/wall-street-16-6-26-lils/",
-    "postId": "17882947557438414",
-    "storyId": "18254102788305259",
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781641865694-feed.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781641865694-story.png"
   }
 ]
