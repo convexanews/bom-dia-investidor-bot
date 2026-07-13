@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-13T14:32:01.645Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
+  },
+  {
     "data": "2026-07-13T14:03:32.307Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"TSMC tem receita recorde no 2º tri impulsionada pela demanda por IA\".",
@@ -1135,10 +1140,5 @@
     "storyId": null,
     "reelId": "17993181555004446",
     "tipo": "reel"
-  },
-  {
-    "data": "2026-07-10T19:31:29.413Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 68): \"Inflação abaixo do esperado já permite sonhar com mais cortes na Selic? Veja as projeções dos bancos\". Realizando postagem..."
   }
 ]
