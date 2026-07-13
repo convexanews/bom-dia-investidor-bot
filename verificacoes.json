@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-13T15:01:37.235Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 62 min."
+  },
+  {
     "data": "2026-07-13T14:32:01.645Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
@@ -1131,14 +1136,5 @@
     "data": "2026-07-10T20:01:21.591Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 93 min."
-  },
-  {
-    "data": "2026-07-10T19:33:31.954Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"Inflação abaixo do esperado já permite sonhar com mais cortes na Selic? Veja as projeções dos bancos\".",
-    "postId": "17993181555004446",
-    "storyId": null,
-    "reelId": "17993181555004446",
-    "tipo": "reel"
   }
 ]
