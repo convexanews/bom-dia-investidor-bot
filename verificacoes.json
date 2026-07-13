@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-13T20:01:37.677Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 19 min."
+  },
+  {
     "data": "2026-07-13T19:59:37.203Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 21 min."
@@ -1128,10 +1133,5 @@
     "storyId": "18083270390249517",
     "reelId": null,
     "tipo": "carrossel"
-  },
-  {
-    "data": "2026-07-11T00:31:28.222Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 28): \"HSAF11 mantém dividendos em R$ 0,95 por cota pelo 18º mês\". Realizando postagem..."
   }
 ]
