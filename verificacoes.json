@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-13T02:01:28.560Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (23:01 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-07-13T01:31:28.232Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (22:31 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1147,10 +1152,5 @@
     "storyId": null,
     "reelId": "17945679495039252",
     "tipo": "reel"
-  },
-  {
-    "data": "2026-07-10T09:01:36.959Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 39): \"Tempo Real: Ibovespa fecha semana de olho na inflação brasileira\". Realizando postagem..."
   }
 ]
