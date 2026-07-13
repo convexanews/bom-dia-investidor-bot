@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-13T09:32:16.815Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
+  },
+  {
     "data": "2026-07-13T09:04:16.064Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"Conflito EUA-Irã, falas do Fed, Focus e mais destaques desta segunda-feira\".",
@@ -1137,10 +1142,5 @@
     "data": "2026-07-10T15:01:15.391Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 62 min."
-  },
-  {
-    "data": "2026-07-10T14:31:16.341Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
   }
 ]
