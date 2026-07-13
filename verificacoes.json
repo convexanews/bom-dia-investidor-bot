@@ -1,5 +1,12 @@
 [
   {
+    "data": "2026-07-13T15:46:03.538Z",
+    "resultado": "carrossel_educativo",
+    "mensagem": "Carrossel educativo publicado: Viver de Dividendos",
+    "postId": "18151199299498377",
+    "tema": "DIVIDENDOS"
+  },
+  {
     "data": "2026-07-13T15:32:05.110Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 32 min."
@@ -1140,10 +1147,5 @@
     "data": "2026-07-10T21:01:30.009Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 33 min."
-  },
-  {
-    "data": "2026-07-10T20:51:02.108Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 43 min."
   }
 ]
