@@ -1,5 +1,17 @@
 [
   {
+    "data": "2026-07-13T23:53:47.621Z",
+    "resultado": "reel_postado",
+    "mensagem": "Resumo em vídeo do dia publicado com 3 notícia(s).",
+    "reelId": "18046375280589127",
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1783986764303.mp4",
+    "noticias": [
+      "Petróleo sobe forte após EUA e Irã trocarem ataques e divergirem sobre Ormuz",
+      "Ação da SK Hynix despenca após estreia na Nasdaq em meio a realizações de lucros",
+      "Eztec (EZTC3) bate recorde de lançamentos e vendas no 1º semestre de 2026"
+    ]
+  },
+  {
     "data": "2026-07-13T23:31:16.429Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
@@ -1144,10 +1156,5 @@
     "data": "2026-07-11T06:31:12.449Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (03:31 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-11T06:01:20.034Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (03:01 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
