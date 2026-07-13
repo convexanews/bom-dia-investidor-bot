@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-13T20:34:06.611Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Wall Street cai com disparada dos preços do petróleo e à espera de dados de inflação\".",
+    "postId": "17866143882633929",
+    "storyId": null,
+    "reelId": "17866143882633929",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-07-13T20:31:35.078Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 93): \"Wall Street cai com disparada dos preços do petróleo e à espera de dados de inflação\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-13T20:01:37.677Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 19 min."
@@ -1119,19 +1133,5 @@
     "data": "2026-07-11T01:31:28.527Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (22:31 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-11T01:01:18.893Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (22:01 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-11T00:32:49.693Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (carrossel): \"HSAF11 mantém dividendos em R$ 0,95 por cota pelo 18º mês\".",
-    "postId": "17900019384327008",
-    "storyId": "18083270390249517",
-    "reelId": null,
-    "tipo": "carrossel"
   }
 ]

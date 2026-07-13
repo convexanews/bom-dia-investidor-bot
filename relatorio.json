@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-13T20:34:06.610Z",
+    "titulo": "Wall Street cai com disparada dos preços do petróleo e à espera de dados de inflação",
+    "categoria": "Mercados",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/wall-street-13-7-26-lils/",
+    "postId": "17866143882633929",
+    "storyId": null,
+    "reelId": "17866143882633929",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783974703489.mp4",
+    "tipo": "reel",
+    "peso": 93
+  },
+  {
     "data": "2026-07-13T18:19:48.208Z",
     "titulo": "Alívio com inflação X tensão com Ormuz: o que deve prevalecer para Ibovespa e dólar?",
     "categoria": "Mercados",
@@ -2849,16 +2864,5 @@
     "storyId": "18195579940368893",
     "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781647261216-feed.png",
     "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781647261216-story.png"
-  },
-  {
-    "data": "2026-06-16T21:01:48.146Z",
-    "titulo": "Dow Jones marca novo recorde intradiário, mas NY fecha sem direção definida",
-    "categoria": "Mercados",
-    "fonte": "InfoMoney",
-    "link": "https://www.infomoney.com.br/mercados/dow-jones-marca-novo-recorde-intradiario-com-petroleo-em-queda-e-spacex-disparando/",
-    "postId": "17943277656231545",
-    "storyId": "18092491964624868",
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781643664117-feed.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781643664117-story.png"
   }
 ]
