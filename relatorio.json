@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-13T18:19:48.208Z",
+    "titulo": "Alívio com inflação X tensão com Ormuz: o que deve prevalecer para Ibovespa e dólar?",
+    "categoria": "Mercados",
+    "fonte": "InfoMoney",
+    "link": "https://www.infomoney.com.br/mercados/alivio-com-inflacao-x-tensao-com-ormuz-o-que-deve-prevalecer-para-ibovespa-e-dolar/",
+    "postId": "18345019159220082",
+    "storyId": null,
+    "reelId": "18345019159220082",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783966702605.mp4",
+    "tipo": "reel",
+    "peso": 95
+  },
+  {
     "data": "2026-07-13T16:08:17.219Z",
     "titulo": "O alerta do Bradesco BBI para a Usiminas (USIM5), que perdeu R$ 4 bi na Bolsa em 1 mês",
     "categoria": "Mercados",
@@ -2845,16 +2860,5 @@
     "storyId": "18092491964624868",
     "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781643664117-feed.png",
     "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781643664117-story.png"
-  },
-  {
-    "data": "2026-06-16T20:56:57.218Z",
-    "titulo": "Ibovespa tem nova queda com Petrobras (PETR4) e no aguardo da ‘Super Quarta’; dólar sobe a R$ 5,08",
-    "categoria": "Mercados",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/ibovespa-16-6-26-lils/",
-    "postId": "18107118713066391",
-    "storyId": "18119731174747881",
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781643372232-feed.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781643372232-story.png"
   }
 ]

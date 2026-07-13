@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-13T18:19:48.209Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Alívio com inflação X tensão com Ormuz: o que deve prevalecer para Ibovespa e dólar?\".",
+    "postId": "18345019159220082",
+    "storyId": null,
+    "reelId": "18345019159220082",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-07-13T18:18:07.847Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 95): \"Alívio com inflação X tensão com Ormuz: o que deve prevalecer para Ibovespa e dólar?\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-13T18:01:59.389Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 7 min."
@@ -1125,15 +1139,5 @@
     "data": "2026-07-10T23:31:21.149Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 38 min."
-  },
-  {
-    "data": "2026-07-10T23:01:20.533Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 68 min."
-  },
-  {
-    "data": "2026-07-10T22:31:25.352Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 98 min."
   }
 ]
