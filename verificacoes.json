@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-14T13:02:12.594Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 10 min."
+  },
+  {
     "data": "2026-07-14T12:48:41.751Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 24 min."
@@ -1140,10 +1145,5 @@
     "data": "2026-07-11T18:01:32.322Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 13): \"Demanda ampla por IA é o fator-chave para investidores da Nvidia, diz Morgan Stanley\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-11T17:31:20.929Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
   }
 ]
