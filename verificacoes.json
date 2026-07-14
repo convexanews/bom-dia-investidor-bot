@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-14T11:31:43.457Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 101 min."
+  },
+  {
     "data": "2026-07-14T11:11:50.590Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"Petróleo dispara e eleva cautela nos mercados; Ibovespa em dólar sobe hoje (14)\".",
@@ -1139,10 +1144,5 @@
     "data": "2026-07-11T16:01:26.570Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
-  },
-  {
-    "data": "2026-07-11T15:33:41.182Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 120 min."
   }
 ]
