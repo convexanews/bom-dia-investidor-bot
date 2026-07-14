@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-14T09:03:22.227Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Inflação nos EUA, sabatina de Warsh, balanços de bancos e mais destaques desta terça\".",
+    "postId": "18146603080459932",
+    "storyId": null,
+    "reelId": "18146603080459932",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-07-14T09:01:54.612Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 83): \"Inflação nos EUA, sabatina de Warsh, balanços de bancos e mais destaques desta terça\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-14T08:31:29.410Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (05:31 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1137,15 +1151,5 @@
     "data": "2026-07-11T14:04:20.062Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 59 min."
-  },
-  {
-    "data": "2026-07-11T14:01:20.384Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 62 min."
-  },
-  {
-    "data": "2026-07-11T13:31:19.907Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
   }
 ]

@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-14T09:03:22.225Z",
+    "titulo": "Inflação nos EUA, sabatina de Warsh, balanços de bancos e mais destaques desta terça",
+    "categoria": "Mercados",
+    "fonte": "InfoMoney",
+    "link": "https://www.infomoney.com.br/mercados/inflacao-eua-sabatina-warsh-balancos-bancos-14072026/",
+    "postId": "18146603080459932",
+    "storyId": null,
+    "reelId": "18146603080459932",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1784019722753.mp4",
+    "tipo": "reel",
+    "peso": 83
+  },
+  {
     "data": "2026-07-13T23:03:12.520Z",
     "titulo": "Eztec (EZTC3) bate recorde de lançamentos e vendas no 1º semestre de 2026",
     "categoria": "Empresas",
@@ -2857,16 +2872,5 @@
     "storyId": "18123106387598893",
     "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781650509679-feed.png",
     "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781650509679-story.png"
-  },
-  {
-    "data": "2026-06-16T22:31:35.271Z",
-    "titulo": "SNEL11 negocia mais de R$ 10 mi enquanto IPO da SpaceX reforça tese energética",
-    "categoria": "FIIs",
-    "fonte": "Suno",
-    "link": "https://www.suno.com.br/noticias/snel11-negocia-mais-de-r-10-mi-enquanto-ipo-da-spacex-reforca-tese-energetica/",
-    "postId": "18104375045006075",
-    "storyId": "18214354309327748",
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781649049424-feed.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781649049424-story.png"
   }
 ]
