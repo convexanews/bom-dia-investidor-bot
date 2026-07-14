@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-14T16:03:05.152Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (card): \"Inflação para baixo no Brasil e nos EUA pode trazer fluxo gringo de volta para B3?\".",
+    "postId": "17926514571363468",
+    "storyId": "18168881236446796",
+    "reelId": null,
+    "tipo": "card"
+  },
+  {
+    "data": "2026-07-14T16:02:06.018Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 55): \"Inflação para baixo no Brasil e nos EUA pode trazer fluxo gringo de volta para B3?\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-14T15:31:19.671Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
@@ -1137,19 +1151,5 @@
     "data": "2026-07-11T20:53:14.736Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 101 min."
-  },
-  {
-    "data": "2026-07-11T20:33:16.581Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (carrossel): \"Federação alemã diz estar confiante sobre contratação de técnico Klopp para a seleção\".",
-    "postId": "17993262977809125",
-    "storyId": "18134541682592740",
-    "reelId": null,
-    "tipo": "carrossel"
-  },
-  {
-    "data": "2026-07-11T20:31:46.687Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 21): \"Federação alemã diz estar confiante sobre contratação de técnico Klopp para a seleção\". Realizando postagem..."
   }
 ]
