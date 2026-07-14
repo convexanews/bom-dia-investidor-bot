@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-14T04:01:42.433Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (01:01 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-07-14T03:33:20.716Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (00:33 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1151,10 +1156,5 @@
     "data": "2026-07-11T10:31:26.259Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 52): \"XP mantém otimismo com PIB e prevê dólar a R$ 5,00; veja os destaques da semana\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-11T10:01:27.734Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
   }
 ]
