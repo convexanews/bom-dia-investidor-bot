@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-14T08:31:29.410Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (05:31 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-07-14T08:01:29.109Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (05:01 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1142,14 +1147,5 @@
     "data": "2026-07-11T13:31:19.907Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
-  },
-  {
-    "data": "2026-07-11T13:03:15.509Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"Haddad, sobre taxa de juros: Banco Central está criando problema desnecessariamente\".",
-    "postId": "18418887697181121",
-    "storyId": null,
-    "reelId": "18418887697181121",
-    "tipo": "reel"
   }
 ]
