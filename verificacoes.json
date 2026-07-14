@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-14T11:11:50.590Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Petróleo dispara e eleva cautela nos mercados; Ibovespa em dólar sobe hoje (14)\".",
+    "postId": "17914130097424497",
+    "storyId": null,
+    "reelId": "17914130097424497",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-07-14T11:09:23.491Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 79): \"Petróleo dispara e eleva cautela nos mercados; Ibovespa em dólar sobe hoje (14)\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-14T11:01:41.556Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
@@ -1130,19 +1144,5 @@
     "data": "2026-07-11T15:33:41.182Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 120 min."
-  },
-  {
-    "data": "2026-07-11T15:32:52.296Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (carrossel): \"Bitcoin (BTC) sobe e mantém nível dos US$ 64 mil com otimismo do setor de tecnologia; veja preços das criptomoedas neste sábado (11)\".",
-    "postId": "18038388149803065",
-    "storyId": "17898022701509861",
-    "reelId": null,
-    "tipo": "carrossel"
-  },
-  {
-    "data": "2026-07-11T15:31:15.776Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 45): \"Bitcoin (BTC) sobe e mantém nível dos US$ 64 mil com otimismo do setor de tecnologia; veja preços das criptomoedas neste sábado (11)\". Realizando postagem..."
   }
 ]

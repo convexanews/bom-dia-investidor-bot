@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-14T11:11:50.588Z",
+    "titulo": "Petróleo dispara e eleva cautela nos mercados; Ibovespa em dólar sobe hoje (14)",
+    "categoria": "Mercados",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/petroleo-dispara-e-eleva-cautela-nos-mercados-ibovespa-em-dolar-sobe-hoje-14/",
+    "postId": "17914130097424497",
+    "storyId": null,
+    "reelId": "17914130097424497",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1784027371052.mp4",
+    "tipo": "reel",
+    "peso": 79
+  },
+  {
     "data": "2026-07-14T09:03:22.225Z",
     "titulo": "Inflação nos EUA, sabatina de Warsh, balanços de bancos e mais destaques desta terça",
     "categoria": "Mercados",
@@ -2861,16 +2876,5 @@
     "storyId": "17922197253362501",
     "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781650855586-feed.png",
     "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781650855586-story.png"
-  },
-  {
-    "data": "2026-06-16T22:55:53.690Z",
-    "titulo": "Taxas de DIs sobem à espera de corte na Selic para 14,25%",
-    "categoria": "Mercados",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/taxas-de-dis-juros-futuros-16-6-26-lils/",
-    "postId": "18102202397125868",
-    "storyId": "18123106387598893",
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781650509679-feed.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781650509679-story.png"
   }
 ]
