@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-14T04:31:16.904Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (01:31 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-07-14T04:05:54.895Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (01:05 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1147,14 +1152,5 @@
     "data": "2026-07-11T11:01:18.482Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
-  },
-  {
-    "data": "2026-07-11T10:32:19.717Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (card): \"XP mantém otimismo com PIB e prevê dólar a R$ 5,00; veja os destaques da semana\".",
-    "postId": "17899000296472240",
-    "storyId": "17872702857623576",
-    "reelId": null,
-    "tipo": "card"
   }
 ]
