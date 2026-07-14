@@ -1,5 +1,17 @@
 [
   {
+    "data": "2026-07-14T23:52:41.022Z",
+    "resultado": "reel_postado",
+    "mensagem": "Resumo em vídeo do dia publicado com 3 notícia(s).",
+    "reelId": "18401971417081377",
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1784073088607.mp4",
+    "noticias": [
+      "Ibovespa Hoje Ao Vivo: Bolsa sobe com CPI dos EUA e guerra em foco",
+      "Inflação para baixo no Brasil e nos EUA pode trazer fluxo gringo de volta para B3?",
+      "CACR11 volta a fechar no negativo; IFIX termina pregão estável"
+    ]
+  },
+  {
     "data": "2026-07-14T23:31:25.720Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
@@ -1156,10 +1168,5 @@
     "data": "2026-07-12T06:31:31.201Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (03:31 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-12T06:01:18.376Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (03:01 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
