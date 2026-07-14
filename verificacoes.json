@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-14T10:32:06.019Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 32 min."
+  },
+  {
     "data": "2026-07-14T10:01:27.332Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 62 min."
@@ -1145,10 +1150,5 @@
       "HSAF11 mantém dividendos em R$ 0,95 por cota pelo 18º mês",
       "XP mantém otimismo com PIB e prevê dólar a R$ 5,00; veja os destaques da semana"
     ]
-  },
-  {
-    "data": "2026-07-11T15:01:29.746Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
   }
 ]
