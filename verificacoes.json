@@ -1,5 +1,16 @@
 [
   {
+    "data": "2026-07-14T15:02:39.007Z",
+    "resultado": "reel_postado",
+    "mensagem": "Resumo em vídeo do dia publicado com 2 notícia(s).",
+    "reelId": "18097475582521717",
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1784041298971.mp4",
+    "noticias": [
+      "Eztec (EZTC3) bate recorde de lançamentos e vendas no 1º semestre de 2026",
+      "Ibovespa Hoje Ao Vivo: Bolsa sobe com CPI dos EUA e guerra em foco"
+    ]
+  },
+  {
     "data": "2026-07-14T15:01:28.639Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 33 min."
@@ -1140,10 +1151,5 @@
     "data": "2026-07-11T20:01:23.333Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 1 min."
-  },
-  {
-    "data": "2026-07-11T19:45:05.780Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 18 min."
   }
 ]
