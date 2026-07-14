@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-14T13:33:51.944Z",
+    "titulo": "Ibovespa Hoje Ao Vivo: Bolsa sobe com CPI dos EUA e guerra em foco",
+    "categoria": "Mercados",
+    "fonte": "InfoMoney",
+    "link": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-14072026/",
+    "postId": "18447687550187478",
+    "storyId": "18100519690913870",
+    "reelId": null,
+    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784035955629-slide1.png",
+    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784035955629-story.png",
+    "videoUrl": null,
+    "tipo": "carrossel",
+    "peso": 55
+  },
+  {
     "data": "2026-07-14T11:11:50.588Z",
     "titulo": "Petróleo dispara e eleva cautela nos mercados; Ibovespa em dólar sobe hoje (14)",
     "categoria": "Mercados",
@@ -2865,16 +2880,5 @@
     "storyId": "18398266528080857",
     "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781652658184-feed.png",
     "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781652658184-story.png"
-  },
-  {
-    "data": "2026-06-16T23:01:42.178Z",
-    "titulo": "Navio de guerra russo dispara tiros de advertência perto de iate britânico",
-    "categoria": "Mundo",
-    "fonte": "InfoMoney",
-    "link": "https://www.infomoney.com.br/mundo/navio-de-guerra-russo-dispara-tiros-de-advertencia-perto-de-iate-britanico/",
-    "postId": "18100773817935893",
-    "storyId": "17922197253362501",
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781650855586-feed.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781650855586-story.png"
   }
 ]

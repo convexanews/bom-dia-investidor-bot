@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-14T13:33:51.945Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (carrossel): \"Ibovespa Hoje Ao Vivo: Bolsa sobe com CPI dos EUA e guerra em foco\".",
+    "postId": "18447687550187478",
+    "storyId": "18100519690913870",
+    "reelId": null,
+    "tipo": "carrossel"
+  },
+  {
+    "data": "2026-07-14T13:32:28.370Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 55): \"Ibovespa Hoje Ao Vivo: Bolsa sobe com CPI dos EUA e guerra em foco\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-14T13:02:12.594Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 10 min."
@@ -1131,19 +1145,5 @@
     "data": "2026-07-11T18:27:43.583Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 95 min."
-  },
-  {
-    "data": "2026-07-11T18:02:22.660Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (card): \"Demanda ampla por IA é o fator-chave para investidores da Nvidia, diz Morgan Stanley\".",
-    "postId": "17901907611464568",
-    "storyId": "18602479855049363",
-    "reelId": null,
-    "tipo": "card"
-  },
-  {
-    "data": "2026-07-11T18:01:32.322Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 13): \"Demanda ampla por IA é o fator-chave para investidores da Nvidia, diz Morgan Stanley\". Realizando postagem..."
   }
 ]
