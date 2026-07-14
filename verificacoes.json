@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-14T11:01:41.556Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
+  },
+  {
     "data": "2026-07-14T10:32:06.019Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 32 min."
@@ -1139,16 +1144,5 @@
     "data": "2026-07-11T15:31:15.776Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 45): \"Bitcoin (BTC) sobe e mantém nível dos US$ 64 mil com otimismo do setor de tecnologia; veja preços das criptomoedas neste sábado (11)\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-11T15:02:44.954Z",
-    "resultado": "reel_postado",
-    "mensagem": "Resumo em vídeo do dia publicado com 2 notícia(s).",
-    "reelId": "18217695667328011",
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1783782102067.mp4",
-    "noticias": [
-      "HSAF11 mantém dividendos em R$ 0,95 por cota pelo 18º mês",
-      "XP mantém otimismo com PIB e prevê dólar a R$ 5,00; veja os destaques da semana"
-    ]
   }
 ]
