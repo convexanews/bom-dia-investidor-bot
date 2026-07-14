@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-14T16:18:27.167Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 105 min."
+  },
+  {
     "data": "2026-07-14T16:03:05.152Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (card): \"Inflação para baixo no Brasil e nos EUA pode trazer fluxo gringo de volta para B3?\".",
@@ -1146,10 +1151,5 @@
     "data": "2026-07-11T21:01:32.643Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
-  },
-  {
-    "data": "2026-07-11T20:53:14.736Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 101 min."
   }
 ]
