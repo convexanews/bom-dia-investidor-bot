@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-14T20:40:45.974Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Wall Street tem alta após inflação abaixo do esperado reduzir apostas de elevação nos juros pelo Fed\".",
+    "postId": "18060533594583475",
+    "storyId": null,
+    "reelId": "18060533594583475",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-07-14T20:39:03.487Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 95): \"Wall Street tem alta após inflação abaixo do esperado reduzir apostas de elevação nos juros pelo Fed\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-14T20:31:23.747Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
@@ -1131,15 +1145,5 @@
     "data": "2026-07-12T01:31:24.971Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (22:31 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-12T01:01:16.076Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (22:01 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-12T00:31:29.532Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 23 min."
   }
 ]
