@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-14T23:03:00.636Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (carrossel): \"CACR11 volta a fechar no negativo; IFIX termina pregão estável\".",
+    "postId": "17921371770402104",
+    "storyId": "17999270516995048",
+    "reelId": null,
+    "tipo": "carrossel"
+  },
+  {
+    "data": "2026-07-14T23:01:21.812Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 25): \"CACR11 volta a fechar no negativo; IFIX termina pregão estável\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-14T22:31:21.626Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 10 min."
@@ -1147,15 +1161,5 @@
     "data": "2026-07-12T05:01:18.881Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (02:01 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-12T04:31:14.049Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (01:31 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-12T04:01:49.344Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (01:01 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]

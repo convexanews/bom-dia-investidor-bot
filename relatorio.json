@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-14T23:03:00.635Z",
+    "titulo": "CACR11 volta a fechar no negativo; IFIX termina pregão estável",
+    "categoria": "FIIs",
+    "fonte": "Suno",
+    "link": "https://www.suno.com.br/noticias/cacr11-volta-a-fechar-no-negativo-ifix-termina-pregao-estavel/",
+    "postId": "17921371770402104",
+    "storyId": "17999270516995048",
+    "reelId": null,
+    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784070089475-slide1.png",
+    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784070089475-story.png",
+    "videoUrl": null,
+    "tipo": "carrossel",
+    "peso": 25
+  },
+  {
     "data": "2026-07-14T20:40:45.972Z",
     "titulo": "Wall Street tem alta após inflação abaixo do esperado reduzir apostas de elevação nos juros pelo Fed",
     "categoria": "Mercados",
@@ -2881,16 +2896,5 @@
     "imagemFeed": null,
     "imagemStory": null,
     "origem": "manual_download"
-  },
-  {
-    "data": "2026-06-17T09:01:49.583Z",
-    "titulo": "Prévia do PIB e decisões de juros no Brasil e EUA: o que move os mercados",
-    "categoria": "Invest",
-    "fonte": "Exame",
-    "link": "https://exame.com/invest/mercados/previa-do-pib-e-decisoes-de-juros-no-brasil-e-eua-o-que-move-os-mercados/",
-    "postId": "17976810417018970",
-    "storyId": "18330551050269652",
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781686866555-feed.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781686866555-story.png"
   }
 ]
