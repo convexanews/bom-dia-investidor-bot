@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-14T18:33:22.100Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Ibovespa pode chegar aos 300 mil pontos, mas sob uma condição, diz ASA\".",
+    "postId": "18159227458476033",
+    "storyId": null,
+    "reelId": "18159227458476033",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-07-14T18:31:33.598Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 74): \"Ibovespa pode chegar aos 300 mil pontos, mas sob uma condição, diz ASA\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-14T18:02:10.839Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 1 min."
@@ -1137,19 +1151,5 @@
     "data": "2026-07-11T23:01:24.949Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 113 min."
-  },
-  {
-    "data": "2026-07-11T22:54:09.753Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (card): \"Mendonça ordena apreensão de passaporte de Thiago Miranda, ligado a Vorcaro\".",
-    "postId": "18176111113411147",
-    "storyId": "18188191270387741",
-    "reelId": null,
-    "tipo": "card"
-  },
-  {
-    "data": "2026-07-11T22:53:20.747Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 16): \"Mendonça ordena apreensão de passaporte de Thiago Miranda, ligado a Vorcaro\". Realizando postagem..."
   }
 ]

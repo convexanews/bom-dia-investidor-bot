@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-14T18:33:22.099Z",
+    "titulo": "Ibovespa pode chegar aos 300 mil pontos, mas sob uma condição, diz ASA",
+    "categoria": "Mercados",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/ibovespa-pode-chegar-aos-300-mil-pontos-mas-sob-uma-condicao-diz-asa/",
+    "postId": "18159227458476033",
+    "storyId": null,
+    "reelId": "18159227458476033",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1784053903819.mp4",
+    "tipo": "reel",
+    "peso": 74
+  },
+  {
     "data": "2026-07-14T16:03:05.151Z",
     "titulo": "Inflação para baixo no Brasil e nos EUA pode trazer fluxo gringo de volta para B3?",
     "categoria": "Mercados",
@@ -2873,16 +2888,5 @@
     "storyId": "18135188827571706",
     "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781656253138-feed.png",
     "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781656253138-story.png"
-  },
-  {
-    "data": "2026-06-17T00:01:42.407Z",
-    "titulo": "Nasdaq e S&P 500 recuam, enquanto Dow Jones atinge novo recorde de fechamento",
-    "categoria": "MERCADO",
-    "fonte": "Investing.com",
-    "link": "https://br.investing.com/news/economy-news/nasdaq-e-sp-500-recuam-enquanto-dow-jones-atinge-novo-recorde-de-fechamento-1975406",
-    "postId": "18355847920242626",
-    "storyId": "18103603199009659",
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781654457077-feed.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781654457077-story.png"
   }
 ]
