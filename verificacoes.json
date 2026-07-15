@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-15T19:31:31.448Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 62 min."
+  },
+  {
     "data": "2026-07-15T19:16:29.995Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 77 min."
@@ -1140,10 +1145,5 @@
     "storyId": "18130210087622467",
     "reelId": null,
     "tipo": "card"
-  },
-  {
-    "data": "2026-07-12T23:58:27.857Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 12): \"Petróleo sobe forte após EUA e Irã trocarem ataques e divergirem sobre Ormuz\". Realizando postagem..."
   }
 ]
