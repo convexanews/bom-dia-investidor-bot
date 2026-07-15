@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-15T13:33:07.876Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (carrossel): \"Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta quarta\".",
+    "postId": "18098327918581584",
+    "storyId": "18454011322141485",
+    "reelId": null,
+    "tipo": "carrossel"
+  },
+  {
+    "data": "2026-07-15T13:31:47.375Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 55): \"Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta quarta\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-15T13:01:28.775Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 12 min."
@@ -1132,15 +1146,5 @@
     "data": "2026-07-12T18:31:11.530Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
-  },
-  {
-    "data": "2026-07-12T18:28:39.422Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 5 min."
-  },
-  {
-    "data": "2026-07-12T18:01:16.790Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 32 min."
   }
 ]

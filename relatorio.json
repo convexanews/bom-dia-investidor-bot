@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-15T13:33:07.874Z",
+    "titulo": "Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta quarta",
+    "categoria": "Mercados",
+    "fonte": "InfoMoney",
+    "link": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-15072026/",
+    "postId": "18098327918581584",
+    "storyId": "18454011322141485",
+    "reelId": null,
+    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784122316917-slide1.png",
+    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784122316917-story.png",
+    "videoUrl": null,
+    "tipo": "carrossel",
+    "peso": 55
+  },
+  {
     "data": "2026-07-15T11:12:42.942Z",
     "titulo": "Mercados monitoram inflação mais fraca e tensão em Ormuz; Ibovespa em dólar cai hoje (15)",
     "categoria": "Mercados",
@@ -2892,16 +2907,5 @@
     "storyId": "17987757257825085",
     "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781710258835-feed.png",
     "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781710258835-story.png"
-  },
-  {
-    "data": "2026-06-17T15:02:04.919Z",
-    "titulo": "Dólar hoje recua antes das decisões de juros do Copom e Fed",
-    "categoria": "Mercados",
-    "fonte": "InfoMoney",
-    "link": "https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-17062026/",
-    "postId": "18107070139980160",
-    "storyId": "18454782694114371",
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781708476454-feed.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781708476454-story.png"
   }
 ]
