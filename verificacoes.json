@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-15T19:01:28.759Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
+  },
+  {
     "data": "2026-07-15T18:33:03.168Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"Dois fatores que podem ajudar o Brasil a cortar juros, segundo HSBC\".",
@@ -1149,10 +1154,5 @@
       "Eleições nacionais em Israel serão realizadas em 27 de outubro, diz líder da coalizão",
       "Rússia - Ações fecharam o pregão em queda e o Índice MOEX Russia Index terminou sem alterações"
     ]
-  },
-  {
-    "data": "2026-07-12T23:31:19.046Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
   }
 ]
