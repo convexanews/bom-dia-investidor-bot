@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-15T17:02:36.514Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 62 min."
+  },
+  {
     "data": "2026-07-15T16:31:28.277Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 93 min."
@@ -1145,14 +1150,5 @@
     "data": "2026-07-12T21:55:10.976Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 98 min."
-  },
-  {
-    "data": "2026-07-12T21:33:00.285Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (carrossel): \"Rússia - Ações fecharam o pregão em queda e o Índice MOEX Russia Index terminou sem alterações\".",
-    "postId": "18101557079138919",
-    "storyId": "18103279754165696",
-    "reelId": null,
-    "tipo": "carrossel"
   }
 ]
