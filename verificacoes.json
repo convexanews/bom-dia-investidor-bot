@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-15T16:25:12.361Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 100 min."
+  },
+  {
     "data": "2026-07-15T16:04:12.381Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"Gringos ingressam com R$ 1,5 bilhão na B3 em dia de inflação abaixo do esperado\".",
@@ -1149,10 +1154,5 @@
     "data": "2026-07-12T21:31:40.167Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 3): \"Rússia - Ações fecharam o pregão em queda e o Índice MOEX Russia Index terminou sem alterações\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-12T21:01:24.887Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 1 min."
   }
 ]
