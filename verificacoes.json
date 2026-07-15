@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-15T18:33:03.168Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Dois fatores que podem ajudar o Brasil a cortar juros, segundo HSBC\".",
+    "postId": "18032613740818189",
+    "storyId": null,
+    "reelId": "18032613740818189",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-07-15T18:31:24.380Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 91): \"Dois fatores que podem ajudar o Brasil a cortar juros, segundo HSBC\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-15T18:01:36.048Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
@@ -1140,15 +1154,5 @@
     "data": "2026-07-12T23:31:19.046Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
-  },
-  {
-    "data": "2026-07-12T23:01:27.220Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 32 min."
-  },
-  {
-    "data": "2026-07-12T22:53:37.157Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 40 min."
   }
 ]

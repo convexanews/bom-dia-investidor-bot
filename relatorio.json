@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-15T18:33:03.166Z",
+    "titulo": "Dois fatores que podem ajudar o Brasil a cortar juros, segundo HSBC",
+    "categoria": "Economia",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/dolar-fraco-e-petroleo-mais-barato-ajudam-brasil-a-cortar-juros-diz-hsbc-jcav/",
+    "postId": "18032613740818189",
+    "storyId": null,
+    "reelId": "18032613740818189",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1784140288712.mp4",
+    "tipo": "reel",
+    "peso": 91
+  },
+  {
     "data": "2026-07-15T16:04:12.379Z",
     "titulo": "Gringos ingressam com R$ 1,5 bilhão na B3 em dia de inflação abaixo do esperado",
     "categoria": "Mercados",
@@ -2896,20 +2911,6 @@
     "imagemFeed": null,
     "imagemStory": null,
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1781715727129.mp4",
-    "tipo": "reel_narrado"
-  },
-  {
-    "data": "2026-06-17T16:33:04.493Z",
-    "titulo": "Surge uma potencial pagadora de dividendos na bolsa — e ela pode subir mais de 50%",
-    "categoria": "Mercados",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/surge-uma-potencial-pagadora-de-dividendos-na-bolsa-e-ela-pode-subir-mais-de-50/",
-    "postId": "18108657532970416",
-    "storyId": null,
-    "reelId": "18108657532970416",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1781713878141.mp4",
     "tipo": "reel_narrado"
   }
 ]
