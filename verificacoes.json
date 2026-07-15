@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-15T11:02:04.525Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 1 min."
+  },
+  {
     "data": "2026-07-15T10:31:45.756Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 31 min."
@@ -1136,20 +1141,5 @@
     "data": "2026-07-12T15:31:43.323Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 31 min."
-  },
-  {
-    "data": "2026-07-12T15:03:22.003Z",
-    "resultado": "reel_postado",
-    "mensagem": "Resumo em vídeo do dia publicado com 6 notícia(s).",
-    "reelId": "17973313437115575",
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1783868533156.mp4",
-    "noticias": [
-      "Bitcoin (BTC) sobe e mantém nível dos US$ 64 mil com otimismo do setor de tecnologia; veja preços das criptomoedas neste sábado (11)",
-      "Demanda ampla por IA é o fator-chave para investidores da Nvidia, diz Morgan Stanley",
-      "Federação alemã diz estar confiante sobre contratação de técnico Klopp para a seleção",
-      "Mendonça ordena apreensão de passaporte de Thiago Miranda, ligado a Vorcaro",
-      "Irã anuncia novo fechamento do Estreito de Ormuz e diz ter atingido embarcação na rota",
-      "Investidores em criptomoedas, atenção: ‘see you, space cowboy!’ e as mais lidas do Crypto Times"
-    ]
   }
 ]
