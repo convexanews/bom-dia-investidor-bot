@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-15T16:04:12.379Z",
+    "titulo": "Gringos ingressam com R$ 1,5 bilhão na B3 em dia de inflação abaixo do esperado",
+    "categoria": "Mercados",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/gringos-ingressam-com-r-15-bilhao-na-b3-em-dia-de-inflacao-abaixo-do-esperado-lils/",
+    "postId": "18123749074742594",
+    "storyId": null,
+    "reelId": "18123749074742594",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1784131310642.mp4",
+    "tipo": "reel",
+    "peso": 77
+  },
+  {
     "data": "2026-07-15T13:33:07.874Z",
     "titulo": "Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta quarta",
     "categoria": "Mercados",
@@ -2896,16 +2911,5 @@
     "imagemStory": null,
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1781713878141.mp4",
     "tipo": "reel_narrado"
-  },
-  {
-    "data": "2026-06-17T15:31:53.456Z",
-    "titulo": "Ibovespa Hoje Ao Vivo: Bolsa sobe e volta a testar os 171 mil pontos",
-    "categoria": "Mercados",
-    "fonte": "InfoMoney",
-    "link": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-17062026/",
-    "postId": "18539585776076251",
-    "storyId": "17987757257825085",
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781710258835-feed.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781710258835-story.png"
   }
 ]

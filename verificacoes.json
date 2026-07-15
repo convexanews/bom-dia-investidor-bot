@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-15T16:04:12.381Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Gringos ingressam com R$ 1,5 bilhão na B3 em dia de inflação abaixo do esperado\".",
+    "postId": "18123749074742594",
+    "storyId": null,
+    "reelId": "18123749074742594",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-07-15T16:01:45.000Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 77): \"Gringos ingressam com R$ 1,5 bilhão na B3 em dia de inflação abaixo do esperado\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-15T15:31:16.646Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
@@ -1140,15 +1154,5 @@
     "data": "2026-07-12T21:01:24.887Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 1 min."
-  },
-  {
-    "data": "2026-07-12T20:53:55.468Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 9 min."
-  },
-  {
-    "data": "2026-07-12T20:31:35.801Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 31 min."
   }
 ]
