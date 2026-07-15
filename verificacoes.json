@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-15T19:16:29.995Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 77 min."
+  },
+  {
     "data": "2026-07-15T19:01:28.759Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
@@ -1140,19 +1145,5 @@
     "data": "2026-07-12T23:58:27.857Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 12): \"Petróleo sobe forte após EUA e Irã trocarem ataques e divergirem sobre Ormuz\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-12T23:52:41.500Z",
-    "resultado": "reel_postado",
-    "mensagem": "Resumo em vídeo do dia publicado com 5 notícia(s).",
-    "reelId": "18379776358164354",
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1783900274797.mp4",
-    "noticias": [
-      "Irã anuncia novo fechamento do Estreito de Ormuz e diz ter atingido embarcação na rota",
-      "Investidores em criptomoedas, atenção: ‘see you, space cowboy!’ e as mais lidas do Crypto Times",
-      "Lojas Renner (LREN3) e Telefônica Brasil (VIVT3) pagam dividendos nesta semana; veja o calendário",
-      "Eleições nacionais em Israel serão realizadas em 27 de outubro, diz líder da coalizão",
-      "Rússia - Ações fecharam o pregão em queda e o Índice MOEX Russia Index terminou sem alterações"
-    ]
   }
 ]
