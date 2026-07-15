@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-15T09:31:25.435Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
+  },
+  {
     "data": "2026-07-15T09:11:12.237Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 112 min."
@@ -1146,20 +1151,5 @@
     "data": "2026-07-12T14:31:12.816Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
-  },
-  {
-    "data": "2026-07-12T14:24:39.038Z",
-    "resultado": "resumo_semanal",
-    "mensagem": "Resumo semanal publicado com 7 notícias.",
-    "postId": "17921839221390781",
-    "noticias": [
-      "Wall Street fecha em queda com liquidação de ações de chips e tensão no Oriente Médio; Dow Jones tem recorde intradia",
-      "Após meses de altas, mercado corta projeção da inflação para 2026; confira o Focus desta segunda-feira (6)",
-      "Fed revela resiliência surpreendente do sistema financeiro americano em meio a crises",
-      "Ibovespa Hoje Ao Vivo: Bolsa cai 1% com tensões geopolíticas; VALE3 despenca 4%",
-      "Boletim Focus, ISM de serviços e falas do Fed movimentam a agenda desta segunda",
-      "Wall Street fecha sem direção única após escalada no Oriente Médio e após ata do Fed",
-      "Opções de Copom da B3 apontam para corte de 0,25% na Selic em agosto"
-    ]
   }
 ]
