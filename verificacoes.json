@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-15T08:31:29.176Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (05:31 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-07-15T08:02:02.046Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (05:02 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1156,10 +1161,5 @@
     "data": "2026-07-12T14:01:37.535Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 32): \"Investidores em criptomoedas, atenção: ‘see you, space cowboy!’ e as mais lidas do Crypto Times\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-12T13:31:13.202Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
   }
 ]
