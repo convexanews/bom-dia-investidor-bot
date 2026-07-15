@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-15T10:31:45.756Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 31 min."
+  },
+  {
     "data": "2026-07-15T10:01:26.529Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 62 min."
@@ -1146,10 +1151,5 @@
       "Irã anuncia novo fechamento do Estreito de Ormuz e diz ter atingido embarcação na rota",
       "Investidores em criptomoedas, atenção: ‘see you, space cowboy!’ e as mais lidas do Crypto Times"
     ]
-  },
-  {
-    "data": "2026-07-12T15:02:00.243Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 61 min."
   }
 ]
