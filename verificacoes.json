@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-15T14:53:56.169Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 40 min."
+  },
+  {
     "data": "2026-07-15T14:31:28.393Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 62 min."
@@ -1137,14 +1142,5 @@
     "data": "2026-07-12T19:31:19.375Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 91 min."
-  },
-  {
-    "data": "2026-07-12T19:02:18.060Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (card): \"Eleições nacionais em Israel serão realizadas em 27 de outubro, diz líder da coalizão\".",
-    "postId": "18101975624266916",
-    "storyId": "18187601989385938",
-    "reelId": null,
-    "tipo": "card"
   }
 ]
