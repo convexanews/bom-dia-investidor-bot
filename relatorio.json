@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-15T11:12:42.942Z",
+    "titulo": "Mercados monitoram inflação mais fraca e tensão em Ormuz; Ibovespa em dólar cai hoje (15)",
+    "categoria": "Mercados",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/mercados-monitoram-inflacao-mais-fraca-e-tensao-em-ormuz-ibovespa-em-dolar-cai-hoje-15/",
+    "postId": "18121101862801736",
+    "storyId": null,
+    "reelId": "18121101862801736",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1784113880742.mp4",
+    "tipo": "reel",
+    "peso": 67
+  },
+  {
     "data": "2026-07-15T09:02:39.644Z",
     "titulo": "Em reunião com Jamieson Greer, Brasil chama tarifa dos EUA de “injusta”; governo já prepara nova MP de apoio aos exportadores",
     "categoria": "Economia",
@@ -2888,16 +2903,5 @@
     "storyId": "18454782694114371",
     "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781708476454-feed.png",
     "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781708476454-story.png"
-  },
-  {
-    "data": "2026-06-17T12:31:35.953Z",
-    "titulo": "Ibovespa Futuro sobe antes das decisões de juros no Brasil e EUA",
-    "categoria": "Mercados",
-    "fonte": "InfoMoney",
-    "link": "https://www.infomoney.com.br/mercados/ibovespa-futuro-sobe-antes-das-decisoes-de-juros-no-brasil-e-eua/",
-    "postId": "17931594828298632",
-    "storyId": "17954500334979945",
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781699454454-feed.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781699454454-story.png"
   }
 ]
