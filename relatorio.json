@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-15T09:02:39.644Z",
+    "titulo": "Em reunião com Jamieson Greer, Brasil chama tarifa dos EUA de “injusta”; governo já prepara nova MP de apoio aos exportadores",
+    "categoria": "Economia",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/em-reuniao-com-jamieson-greer-brasil-chama-tarifa-dos-eua-de-injusta-governo-ja-prepara-nova-mp-de-apoio-aos-exportadores-fets/",
+    "postId": "18111125464948052",
+    "storyId": "17872149582547084",
+    "reelId": null,
+    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784106111833-feed.png",
+    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784106111833-story.png",
+    "videoUrl": null,
+    "tipo": "card",
+    "peso": 38
+  },
+  {
     "data": "2026-07-14T23:03:00.635Z",
     "titulo": "CACR11 volta a fechar no negativo; IFIX termina pregão estável",
     "categoria": "FIIs",
@@ -2884,17 +2899,5 @@
     "storyId": "17954500334979945",
     "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781699454454-feed.png",
     "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781699454454-story.png"
-  },
-  {
-    "data": "2026-06-17T11:30:54.320Z",
-    "titulo": "Alupar (ALUP11) pagará R$ 69,2 milhões em dividendos em 6 de julho",
-    "categoria": "Mercados",
-    "fonte": "InfoMoney",
-    "link": "https://www.infomoney.com.br/mercados/alupar-alup11-pagara-r-692-milhoes-em-dividendos-em-6-de-julho/",
-    "postId": null,
-    "storyId": null,
-    "imagemFeed": null,
-    "imagemStory": null,
-    "origem": "manual_download"
   }
 ]

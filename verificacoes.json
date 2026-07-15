@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-15T09:02:39.646Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (card): \"Em reunião com Jamieson Greer, Brasil chama tarifa dos EUA de “injusta”; governo já prepara nova MP de apoio aos exportadores\".",
+    "postId": "18111125464948052",
+    "storyId": "17872149582547084",
+    "reelId": null,
+    "tipo": "card"
+  },
+  {
+    "data": "2026-07-15T09:01:41.045Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 38): \"Em reunião com Jamieson Greer, Brasil chama tarifa dos EUA de “injusta”; governo já prepara nova MP de apoio aos exportadores\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-15T08:31:29.176Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (05:31 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1147,19 +1161,5 @@
     "data": "2026-07-12T14:05:58.796Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 117 min."
-  },
-  {
-    "data": "2026-07-12T14:02:35.388Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (card): \"Investidores em criptomoedas, atenção: ‘see you, space cowboy!’ e as mais lidas do Crypto Times\".",
-    "postId": "18134210050591997",
-    "storyId": "18448293961190677",
-    "reelId": null,
-    "tipo": "card"
-  },
-  {
-    "data": "2026-07-12T14:01:37.535Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 32): \"Investidores em criptomoedas, atenção: ‘see you, space cowboy!’ e as mais lidas do Crypto Times\". Realizando postagem..."
   }
 ]
