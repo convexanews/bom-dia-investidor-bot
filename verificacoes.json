@@ -1,5 +1,17 @@
 [
   {
+    "data": "2026-07-15T23:59:09.110Z",
+    "resultado": "reel_postado",
+    "mensagem": "Resumo em vídeo do dia publicado com 3 notícia(s).",
+    "reelId": "17888219700416961",
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1784159838981.mp4",
+    "noticias": [
+      "Em reunião com Jamieson Greer, Brasil chama tarifa dos EUA de “injusta”; governo já prepara nova MP de apoio aos exportadores",
+      "Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta quarta",
+      "Gerdau (GGBR4) e Usiminas (USIM5): Morgan Stanley eleva preços-alvo, mas mantém cautela"
+    ]
+  },
+  {
     "data": "2026-07-15T23:31:24.262Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
@@ -1156,10 +1168,5 @@
     "data": "2026-07-13T06:57:12.673Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (03:57 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-13T06:31:33.115Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (03:31 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
