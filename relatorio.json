@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-15T20:37:02.388Z",
+    "titulo": "Wall Street avança após mercado adiar aposta de alta nos juros pelo Fed; Oriente Médio fica no radar",
+    "categoria": "Mercados",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/wall-street-15-7-26-lils/",
+    "postId": "18108000559967946",
+    "storyId": null,
+    "reelId": "18108000559967946",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1784147726082.mp4",
+    "tipo": "reel",
+    "peso": 88
+  },
+  {
     "data": "2026-07-15T18:33:03.166Z",
     "titulo": "Dois fatores que podem ajudar o Brasil a cortar juros, segundo HSBC",
     "categoria": "Economia",
@@ -2897,20 +2912,6 @@
     "imagemFeed": null,
     "imagemStory": null,
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1781719285221.mp4",
-    "tipo": "reel_narrado"
-  },
-  {
-    "data": "2026-06-17T17:03:32.909Z",
-    "titulo": "Acordo EUA-Irã reduz ruído, mas não sustenta rotação para ações de consumo na B3",
-    "categoria": "Mercados",
-    "fonte": "InfoMoney",
-    "link": "https://www.infomoney.com.br/mercados/acordo-eua-ira-reduz-ruido-mas-nao-sustenta-rotacao-para-acoes-de-consumo-na-b3/",
-    "postId": "18464657410129147",
-    "storyId": null,
-    "reelId": "18464657410129147",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1781715727129.mp4",
     "tipo": "reel_narrado"
   }
 ]

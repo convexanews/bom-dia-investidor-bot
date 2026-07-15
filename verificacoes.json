@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-15T20:37:02.389Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Wall Street avança após mercado adiar aposta de alta nos juros pelo Fed; Oriente Médio fica no radar\".",
+    "postId": "18108000559967946",
+    "storyId": null,
+    "reelId": "18108000559967946",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-07-15T20:35:19.890Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 88): \"Wall Street avança após mercado adiar aposta de alta nos juros pelo Fed; Oriente Médio fica no radar\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-15T20:31:33.513Z",
     "resultado": "erro_alerta_recorde",
     "mensagem": "Erro ao verificar alerta de recorde: Unexpected token '<', \"<!doctype \"... is not valid JSON"
@@ -1131,15 +1145,5 @@
     "data": "2026-07-13T02:01:28.560Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (23:01 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-13T01:31:28.232Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (22:31 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-13T01:01:20.735Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (22:01 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
