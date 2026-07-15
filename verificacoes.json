@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-15T02:31:30.865Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (23:31 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-07-15T02:01:23.532Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (23:01 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1163,10 +1168,5 @@
     "storyId": null,
     "reelId": "17912957382430533",
     "tipo": "reel"
-  },
-  {
-    "data": "2026-07-12T09:01:27.123Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 35): \"5 grandes movimentos de analistas em IA: SpaceX recebe preço-alvo recorde, queda da Samsung é exagerada\". Realizando postagem..."
   }
 ]
