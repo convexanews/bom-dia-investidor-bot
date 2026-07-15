@@ -1,5 +1,18 @@
 [
   {
+    "data": "2026-07-15T15:02:45.786Z",
+    "resultado": "reel_postado",
+    "mensagem": "Resumo em vídeo do dia publicado com 4 notícia(s).",
+    "reelId": "17875749630623631",
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1784127699621.mp4",
+    "noticias": [
+      "Inflação para baixo no Brasil e nos EUA pode trazer fluxo gringo de volta para B3?",
+      "CACR11 volta a fechar no negativo; IFIX termina pregão estável",
+      "Em reunião com Jamieson Greer, Brasil chama tarifa dos EUA de “injusta”; governo já prepara nova MP de apoio aos exportadores",
+      "Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta quarta"
+    ]
+  },
+  {
     "data": "2026-07-15T15:01:27.563Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 32 min."
@@ -1137,10 +1150,5 @@
     "data": "2026-07-12T20:01:17.592Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 62 min."
-  },
-  {
-    "data": "2026-07-12T19:42:46.594Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 80 min."
   }
 ]
