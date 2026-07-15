@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-15T20:31:33.513Z",
+    "resultado": "erro_alerta_recorde",
+    "mensagem": "Erro ao verificar alerta de recorde: Unexpected token '<', \"<!doctype \"... is not valid JSON"
+  },
+  {
     "data": "2026-07-15T20:31:31.522Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
@@ -1136,10 +1141,5 @@
     "data": "2026-07-13T01:01:20.735Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (22:01 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-13T00:31:19.497Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 89 min."
   }
 ]
