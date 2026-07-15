@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-15T23:02:52.116Z",
+    "titulo": "Gerdau (GGBR4) e Usiminas (USIM5): Morgan Stanley eleva preços-alvo, mas mantém cautela",
+    "categoria": "Empresas",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/gerdau-ggbr4-e-usiminas-usim5-morgan-stanley-eleva-precos-alvo-mas-mantem-cautela-vtra/",
+    "postId": "18131851771613157",
+    "storyId": "18231014737317019",
+    "reelId": null,
+    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784156490265-slide1.png",
+    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784156490265-story.png",
+    "videoUrl": null,
+    "tipo": "carrossel",
+    "peso": 31
+  },
+  {
     "data": "2026-07-15T20:37:02.388Z",
     "titulo": "Wall Street avança após mercado adiar aposta de alta nos juros pelo Fed; Oriente Médio fica no radar",
     "categoria": "Mercados",
@@ -2898,20 +2913,6 @@
     "imagemFeed": null,
     "imagemStory": null,
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1781721100333.mp4",
-    "tipo": "reel_narrado"
-  },
-  {
-    "data": "2026-06-17T18:03:56.752Z",
-    "titulo": "Bolsas europeias fecham na maioria em alta à espera do Fed e avanço em acordo EUA-Irã",
-    "categoria": "Mercados",
-    "fonte": "InfoMoney",
-    "link": "https://www.infomoney.com.br/mercados/bolsas-europeias-fecham-na-maioria-em-alta-a-espera-do-fed-e-avanco-em-acordo-eua-ira/",
-    "postId": "18091747364038768",
-    "storyId": null,
-    "reelId": "18091747364038768",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1781719285221.mp4",
     "tipo": "reel_narrado"
   }
 ]

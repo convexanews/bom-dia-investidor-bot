@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-15T23:02:52.117Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (carrossel): \"Gerdau (GGBR4) e Usiminas (USIM5): Morgan Stanley eleva preços-alvo, mas mantém cautela\".",
+    "postId": "18131851771613157",
+    "storyId": "18231014737317019",
+    "reelId": null,
+    "tipo": "carrossel"
+  },
+  {
+    "data": "2026-07-15T23:01:23.779Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 31): \"Gerdau (GGBR4) e Usiminas (USIM5): Morgan Stanley eleva preços-alvo, mas mantém cautela\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-15T22:31:21.552Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 6 min."
@@ -1147,15 +1161,5 @@
     "data": "2026-07-13T05:31:17.619Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (02:31 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-13T05:01:17.691Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (02:01 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-13T04:31:19.906Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (01:31 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
