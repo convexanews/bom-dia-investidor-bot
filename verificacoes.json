@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-16T05:31:17.557Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (02:31 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-07-16T05:01:39.828Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (02:01 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1155,14 +1160,5 @@
     "data": "2026-07-13T12:01:24.701Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
-  },
-  {
-    "data": "2026-07-13T11:32:55.928Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (carrossel): \"Ação da SK Hynix despenca após estreia na Nasdaq em meio a realizações de lucros\".",
-    "postId": "18118608937864079",
-    "storyId": "18015755498864000",
-    "reelId": null,
-    "tipo": "carrossel"
   }
 ]
