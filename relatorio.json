@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-16T09:02:17.107Z",
+    "titulo": "Ações da SIG despencam 22% após alerta de lucros e vendas fracas",
+    "categoria": "MERCADO",
+    "fonte": "Investing.com",
+    "link": "https://br.investing.com/news/stock-market-news/acoes-da-sig-despencam-22-apos-alerta-de-lucros-e-vendas-fracas-93CH-2003456",
+    "postId": "18103814827882569",
+    "storyId": "17999250128957230",
+    "reelId": null,
+    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784192497038-feed.png",
+    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784192497038-story.png",
+    "videoUrl": null,
+    "tipo": "card",
+    "peso": 51
+  },
+  {
     "data": "2026-07-15T23:02:52.116Z",
     "titulo": "Gerdau (GGBR4) e Usiminas (USIM5): Morgan Stanley eleva preços-alvo, mas mantém cautela",
     "categoria": "Empresas",
@@ -2899,20 +2914,6 @@
     "imagemFeed": null,
     "imagemStory": null,
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1781722890530.mp4",
-    "tipo": "reel_narrado"
-  },
-  {
-    "data": "2026-06-17T18:34:10.330Z",
-    "titulo": "JPMorgan vê mercado exagerando no Fed: alta de juros só em 2027?",
-    "categoria": "Internacional",
-    "fonte": "Suno",
-    "link": "https://www.suno.com.br/noticias/jpmorgan-fed-juros-kevin-warsh-2026-mt/",
-    "postId": "17976977400028882",
-    "storyId": null,
-    "reelId": "17976977400028882",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1781721100333.mp4",
     "tipo": "reel_narrado"
   }
 ]
