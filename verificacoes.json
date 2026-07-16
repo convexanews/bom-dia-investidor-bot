@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-16T17:31:55.568Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 31 min."
+  },
+  {
     "data": "2026-07-16T17:20:46.907Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 42 min."
@@ -1139,10 +1144,5 @@
     "storyId": "18105116332843771",
     "reelId": null,
     "tipo": "carrossel"
-  },
-  {
-    "data": "2026-07-13T23:01:43.075Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 40): \"Eztec (EZTC3) bate recorde de lançamentos e vendas no 1º semestre de 2026\". Realizando postagem..."
   }
 ]
