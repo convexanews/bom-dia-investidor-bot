@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-16T11:43:14.642Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 111 min."
+  },
+  {
     "data": "2026-07-16T11:33:29.575Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"Fundo imobiliário anuncia recompra de até 10% das cotas; IFIX avança\".",
@@ -1143,10 +1148,5 @@
     "data": "2026-07-13T17:31:30.656Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 37 min."
-  },
-  {
-    "data": "2026-07-13T17:01:29.581Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 67 min."
   }
 ]
