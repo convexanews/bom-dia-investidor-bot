@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-16T23:32:31.521Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (card): \"Retaliação do Brasil aos EUA pode envolver royalties do audiovisual e patentes farmacêuticas, dizem fontes\".",
+    "postId": "18028965608837313",
+    "storyId": null,
+    "reelId": null,
+    "tipo": "card"
+  },
+  {
+    "data": "2026-07-16T23:31:36.036Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 35): \"Retaliação do Brasil aos EUA pode envolver royalties do audiovisual e patentes farmacêuticas, dizem fontes\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-16T23:01:08.419Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
@@ -1143,15 +1157,5 @@
     "data": "2026-07-14T06:35:38.225Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (03:35 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-14T06:32:02.722Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (03:32 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-14T06:01:31.928Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (03:01 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]

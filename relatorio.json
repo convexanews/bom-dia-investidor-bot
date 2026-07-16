@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-16T23:32:31.519Z",
+    "titulo": "Retaliação do Brasil aos EUA pode envolver royalties do audiovisual e patentes farmacêuticas, dizem fontes",
+    "categoria": "Política",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/retaliacao-do-brasil-aos-eua-pode-envolver-royalties-do-audiovisual-e-patentes-farmaceuticas-dizem-fontes-vtra/",
+    "postId": "18028965608837313",
+    "storyId": null,
+    "reelId": null,
+    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784244709773-feed.png",
+    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784244709773-story.png",
+    "videoUrl": null,
+    "tipo": "card",
+    "peso": 35
+  },
+  {
     "data": "2026-07-16T21:03:02.038Z",
     "titulo": "Netflix desaponta em receita no 2T26 e reduz guidance para o ano; ação tomba 8% em NY",
     "categoria": "Mercados",
@@ -2905,20 +2920,6 @@
     "imagemFeed": null,
     "imagemStory": null,
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1781775102251.mp4",
-    "tipo": "reel_narrado"
-  },
-  {
-    "data": "2026-06-18T09:19:47.300Z",
-    "titulo": "Bolsas da Ásia fecham mistas após acordo EUA-Irã e queda em NY com sinalização do Fed",
-    "categoria": "Mercados",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/bolsas-da-asia-fecham-mistas-apos-acordo-eua-ira-e-queda-em-ny-com-sinalizacao-do-fed-fets/",
-    "postId": "18096045503241408",
-    "storyId": null,
-    "reelId": "18096045503241408",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1781774288427.mp4",
     "tipo": "reel_narrado"
   }
 ]
