@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-16T09:31:24.260Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 91 min."
+  },
+  {
     "data": "2026-07-16T09:02:17.109Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (card): \"Ações da SIG despencam 22% após alerta de lucros e vendas fracas\".",
@@ -1145,19 +1150,5 @@
     "data": "2026-07-13T15:32:05.110Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 32 min."
-  },
-  {
-    "data": "2026-07-13T15:03:04.499Z",
-    "resultado": "reel_postado",
-    "mensagem": "Resumo em vídeo do dia publicado com 5 notícia(s).",
-    "reelId": "18085192043404707",
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1783954916766.mp4",
-    "noticias": [
-      "Lojas Renner (LREN3) e Telefônica Brasil (VIVT3) pagam dividendos nesta semana; veja o calendário",
-      "Eleições nacionais em Israel serão realizadas em 27 de outubro, diz líder da coalizão",
-      "Rússia - Ações fecharam o pregão em queda e o Índice MOEX Russia Index terminou sem alterações",
-      "Petróleo sobe forte após EUA e Irã trocarem ataques e divergirem sobre Ormuz",
-      "Ação da SK Hynix despenca após estreia na Nasdaq em meio a realizações de lucros"
-    ]
   }
 ]
