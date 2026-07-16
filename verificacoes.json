@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-16T18:42:09.413Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 111 min."
+  },
+  {
     "data": "2026-07-16T18:32:47.756Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"Novas tarifas dos Estados Unidos impactam principalmente as empresas de pequeno porte, diz sócio da Voga Investimentos\".",
@@ -1132,17 +1137,5 @@
     "data": "2026-07-14T00:01:34.998Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 62 min."
-  },
-  {
-    "data": "2026-07-13T23:53:47.621Z",
-    "resultado": "reel_postado",
-    "mensagem": "Resumo em vídeo do dia publicado com 3 notícia(s).",
-    "reelId": "18046375280589127",
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1783986764303.mp4",
-    "noticias": [
-      "Petróleo sobe forte após EUA e Irã trocarem ataques e divergirem sobre Ormuz",
-      "Ação da SK Hynix despenca após estreia na Nasdaq em meio a realizações de lucros",
-      "Eztec (EZTC3) bate recorde de lançamentos e vendas no 1º semestre de 2026"
-    ]
   }
 ]
