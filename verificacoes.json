@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-16T16:02:31.463Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (card): \"S&P 500 e Nasdaq caem com perdas em chips e foco em balanços e dados econômicos\".",
+    "postId": "18041887418619184",
+    "storyId": "18108322670013687",
+    "reelId": null,
+    "tipo": "card"
+  },
+  {
+    "data": "2026-07-16T16:01:34.413Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 49): \"S&P 500 e Nasdaq caem com perdas em chips e foco em balanços e dados econômicos\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-16T15:44:39.731Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 17 min."
@@ -1130,27 +1144,5 @@
     "data": "2026-07-13T22:01:42.052Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 33 min."
-  },
-  {
-    "data": "2026-07-13T21:42:29.681Z",
-    "resultado": "carrossel_fechamento",
-    "mensagem": "Carrossel de fechamento publicado. Ibovespa: 175.739 +1,74%",
-    "postId": "18127660990709909",
-    "ibov": {
-      "valor": "175.739",
-      "variacao": "+1,74%"
-    },
-    "topAltas": [
-      "PETR3 +3,44%",
-      "PRIO3 +3,16%",
-      "PETR4 +2,55%",
-      "CSNA3 +1,16%",
-      "ABEV3 +0,06%"
-    ]
-  },
-  {
-    "data": "2026-07-13T21:31:28.662Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 63 min."
   }
 ]

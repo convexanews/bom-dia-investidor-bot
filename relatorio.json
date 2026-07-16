@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-16T16:02:31.461Z",
+    "titulo": "S&P 500 e Nasdaq caem com perdas em chips e foco em balanços e dados econômicos",
+    "categoria": "Mercados",
+    "fonte": "InfoMoney",
+    "link": "https://www.infomoney.com.br/mercados/sp-500-e-nasdaq-caem-com-perdas-de-chips/",
+    "postId": "18041887418619184",
+    "storyId": "18108322670013687",
+    "reelId": null,
+    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784217702767-feed.png",
+    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784217702767-story.png",
+    "videoUrl": null,
+    "tipo": "card",
+    "peso": 49
+  },
+  {
     "data": "2026-07-16T14:01:12.589Z",
     "titulo": "Chips pesam e Wall Street opera majoritariamente em queda; Oriente Médio continua no radar",
     "categoria": "Mercados",
@@ -2902,20 +2917,6 @@
     "imagemFeed": null,
     "imagemStory": null,
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1781728276237.mp4",
-    "tipo": "reel_narrado"
-  },
-  {
-    "data": "2026-06-17T20:10:36.594Z",
-    "titulo": "Dólar sobe a R$ 5,10 após falas de Warsh e sinalização de política monetária restritiva nos EUA",
-    "categoria": "Mercados",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/dolar-17-6-26-apsa/",
-    "postId": "17907945291424689",
-    "storyId": null,
-    "reelId": "17907945291424689",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1781726930713.mp4",
     "tipo": "reel_narrado"
   }
 ]
