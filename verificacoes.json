@@ -1,5 +1,17 @@
 [
   {
+    "data": "2026-07-16T15:03:11.656Z",
+    "resultado": "reel_postado",
+    "mensagem": "Resumo em vídeo do dia publicado com 3 notícia(s).",
+    "reelId": "18012455354728320",
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1784214108175.mp4",
+    "noticias": [
+      "Gerdau (GGBR4) e Usiminas (USIM5): Morgan Stanley eleva preços-alvo, mas mantém cautela",
+      "Ações da SIG despencam 22% após alerta de lucros e vendas fracas",
+      "Chips pesam e Wall Street opera majoritariamente em queda; Oriente Médio continua no radar"
+    ]
+  },
+  {
     "data": "2026-07-16T15:01:34.254Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 60 min."
@@ -1140,14 +1152,5 @@
     "data": "2026-07-13T21:01:41.070Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 93 min."
-  },
-  {
-    "data": "2026-07-13T20:34:06.611Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"Wall Street cai com disparada dos preços do petróleo e à espera de dados de inflação\".",
-    "postId": "17866143882633929",
-    "storyId": null,
-    "reelId": "17866143882633929",
-    "tipo": "reel"
   }
 ]
