@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-16T18:32:47.756Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Novas tarifas dos Estados Unidos impactam principalmente as empresas de pequeno porte, diz sócio da Voga Investimentos\".",
+    "postId": "18477497953102993",
+    "storyId": null,
+    "reelId": "18477497953102993",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-07-16T18:31:06.972Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 48): \"Novas tarifas dos Estados Unidos impactam principalmente as empresas de pequeno porte, diz sócio da Voga Investimentos\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-16T18:01:06.624Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
@@ -1130,15 +1144,5 @@
       "Ação da SK Hynix despenca após estreia na Nasdaq em meio a realizações de lucros",
       "Eztec (EZTC3) bate recorde de lançamentos e vendas no 1º semestre de 2026"
     ]
-  },
-  {
-    "data": "2026-07-13T23:31:16.429Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
-  },
-  {
-    "data": "2026-07-13T23:29:13.138Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 94 min."
   }
 ]

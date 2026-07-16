@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-16T18:32:47.754Z",
+    "titulo": "Novas tarifas dos Estados Unidos impactam principalmente as empresas de pequeno porte, diz sócio da Voga Investimentos",
+    "categoria": "Economia",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/novas-tarifas-dos-estados-unidos-impactam-empresas-de-pequeno-porte-garg/",
+    "postId": "18477497953102993",
+    "storyId": null,
+    "reelId": "18477497953102993",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1784226673706.mp4",
+    "tipo": "reel",
+    "peso": 48
+  },
+  {
     "data": "2026-07-16T16:02:31.461Z",
     "titulo": "S&P 500 e Nasdaq caem com perdas em chips e foco em balanços e dados econômicos",
     "categoria": "Mercados",
@@ -2903,20 +2918,6 @@
     "imagemFeed": null,
     "imagemStory": null,
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1781773359243.mp4",
-    "tipo": "reel_narrado"
-  },
-  {
-    "data": "2026-06-17T20:33:04.104Z",
-    "titulo": "Fed mantém juros dos EUA entre 3,50% e 3,75% ao ano; decisão era esperada",
-    "categoria": "Negócios",
-    "fonte": "Suno",
-    "link": "https://www.suno.com.br/noticias/fed-mantem-juros-eua-inalterados-junho-2026-go/",
-    "postId": "17970091803073973",
-    "storyId": null,
-    "reelId": "17970091803073973",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1781728276237.mp4",
     "tipo": "reel_narrado"
   }
 ]
