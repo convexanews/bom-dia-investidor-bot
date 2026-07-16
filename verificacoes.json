@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-16T14:02:58.830Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 119 min."
+  },
+  {
     "data": "2026-07-16T14:01:12.591Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (carrossel): \"Chips pesam e Wall Street opera majoritariamente em queda; Oriente Médio continua no radar\".",
@@ -1144,10 +1149,5 @@
     "data": "2026-07-13T20:01:37.677Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 19 min."
-  },
-  {
-    "data": "2026-07-13T19:59:37.203Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 21 min."
   }
 ]
