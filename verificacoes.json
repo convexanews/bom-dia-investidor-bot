@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-16T08:31:19.465Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (05:31 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-07-16T08:01:39.384Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (05:01 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1150,14 +1155,5 @@
     "data": "2026-07-13T14:32:01.645Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
-  },
-  {
-    "data": "2026-07-13T14:03:32.307Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"TSMC tem receita recorde no 2º tri impulsionada pela demanda por IA\".",
-    "postId": "18122677552720727",
-    "storyId": null,
-    "reelId": "18122677552720727",
-    "tipo": "reel"
   }
 ]
