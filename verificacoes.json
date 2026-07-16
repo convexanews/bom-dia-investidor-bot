@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-16T14:01:12.591Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (carrossel): \"Chips pesam e Wall Street opera majoritariamente em queda; Oriente Médio continua no radar\".",
+    "postId": "18114134417297234",
+    "storyId": "17917939209205795",
+    "reelId": null,
+    "tipo": "carrossel"
+  },
+  {
+    "data": "2026-07-16T13:59:42.336Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 58): \"Chips pesam e Wall Street opera majoritariamente em queda; Oriente Médio continua no radar\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-16T13:31:28.955Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
@@ -1135,15 +1149,5 @@
     "data": "2026-07-13T19:59:37.203Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 21 min."
-  },
-  {
-    "data": "2026-07-13T19:31:22.155Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 49 min."
-  },
-  {
-    "data": "2026-07-13T19:01:26.594Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 79 min."
   }
 ]

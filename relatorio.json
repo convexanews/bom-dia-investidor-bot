@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-16T14:01:12.589Z",
+    "titulo": "Chips pesam e Wall Street opera majoritariamente em queda; Oriente Médio continua no radar",
+    "categoria": "Mercados",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/wall-street-abertura-16-7-26-lils/",
+    "postId": "18114134417297234",
+    "storyId": "17917939209205795",
+    "reelId": null,
+    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784210388346-slide1.png",
+    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784210388346-story.png",
+    "videoUrl": null,
+    "tipo": "carrossel",
+    "peso": 58
+  },
+  {
     "data": "2026-07-16T11:33:29.574Z",
     "titulo": "Fundo imobiliário anuncia recompra de até 10% das cotas; IFIX avança",
     "categoria": "Economia",
@@ -2901,20 +2916,6 @@
     "imagemFeed": null,
     "imagemStory": null,
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1781726930713.mp4",
-    "tipo": "reel_narrado"
-  },
-  {
-    "data": "2026-06-17T19:41:14.782Z",
-    "titulo": "Por que o Tesouro IPCA+ de longo prazo passou a recuar após 1ª fala de Warsh no Fed?",
-    "categoria": "Onde Investir",
-    "fonte": "InfoMoney",
-    "link": "https://www.infomoney.com.br/onde-investir/tesouro-ipca-volta-a-pagar-mais-apos-divulgacao-da-previa-do-pib/",
-    "postId": "18106091344917972",
-    "storyId": null,
-    "reelId": "18106091344917972",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1781725178489.mp4",
     "tipo": "reel_narrado"
   }
 ]
