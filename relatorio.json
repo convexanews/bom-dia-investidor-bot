@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-16T21:03:02.038Z",
+    "titulo": "Netflix desaponta em receita no 2T26 e reduz guidance para o ano; ação tomba 8% em NY",
+    "categoria": "Mercados",
+    "fonte": "InfoMoney",
+    "link": "https://www.infomoney.com.br/mercados/netflix-desaponta-em-receita-no-2t26-e-reduz-guidance-para-o-ano-acao-tomba-8-em-ny/",
+    "postId": "18119148953308534",
+    "storyId": "17978271399109411",
+    "reelId": null,
+    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784235704766-slide1.png",
+    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784235704766-story.png",
+    "videoUrl": null,
+    "tipo": "carrossel",
+    "peso": 47
+  },
+  {
     "data": "2026-07-16T18:32:47.754Z",
     "titulo": "Novas tarifas dos Estados Unidos impactam principalmente as empresas de pequeno porte, diz sócio da Voga Investimentos",
     "categoria": "Economia",
@@ -2904,20 +2919,6 @@
     "imagemFeed": null,
     "imagemStory": null,
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1781774288427.mp4",
-    "tipo": "reel_narrado"
-  },
-  {
-    "data": "2026-06-18T09:04:24.652Z",
-    "titulo": "Tempo Real: Ibovespa repercute decisões de juros no Brasil e no exterior",
-    "categoria": "Mercados",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/tempo-real-ibovespa-hoje-mercado-ao-vivo-18-06-2026-jals-lils-apsa/",
-    "postId": "18103694207092644",
-    "storyId": null,
-    "reelId": "18103694207092644",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1781773359243.mp4",
     "tipo": "reel_narrado"
   }
 ]

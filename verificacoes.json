@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-16T21:03:02.039Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (carrossel): \"Netflix desaponta em receita no 2T26 e reduz guidance para o ano; ação tomba 8% em NY\".",
+    "postId": "18119148953308534",
+    "storyId": "17978271399109411",
+    "reelId": null,
+    "tipo": "carrossel"
+  },
+  {
+    "data": "2026-07-16T21:01:34.654Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 47): \"Netflix desaponta em receita no 2T26 e reduz guidance para o ano; ação tomba 8% em NY\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-16T20:31:22.484Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
@@ -1127,15 +1141,5 @@
     "data": "2026-07-14T03:01:19.238Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (00:01 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-14T02:31:17.259Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (23:31 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-14T02:01:30.491Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (23:01 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
