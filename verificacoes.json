@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-16T23:58:52.343Z",
+    "resultado": "reel_postado",
+    "mensagem": "Resumo em vídeo do dia publicado com 5 notícia(s).",
+    "reelId": "18448061101142452",
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1784246209784.mp4",
+    "noticias": [
+      "Ações da SIG despencam 22% após alerta de lucros e vendas fracas",
+      "Chips pesam e Wall Street opera majoritariamente em queda; Oriente Médio continua no radar",
+      "S&P 500 e Nasdaq caem com perdas em chips e foco em balanços e dados econômicos",
+      "Netflix desaponta em receita no 2T26 e reduz guidance para o ano; ação tomba 8% em NY",
+      "Retaliação do Brasil aos EUA pode envolver royalties do audiovisual e patentes farmacêuticas, dizem fontes"
+    ]
+  },
+  {
     "data": "2026-07-16T23:32:31.521Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (card): \"Retaliação do Brasil aos EUA pode envolver royalties do audiovisual e patentes farmacêuticas, dizem fontes\".",
@@ -1152,10 +1166,5 @@
     "data": "2026-07-14T07:01:23.072Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (04:01 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-14T06:35:38.225Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (03:35 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
