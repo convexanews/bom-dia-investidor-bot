@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-16T11:01:20.546Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 1 min."
+  },
+  {
     "data": "2026-07-16T10:31:31.106Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 31 min."
@@ -1143,10 +1148,5 @@
     "storyId": null,
     "reelId": "17886432171599376",
     "tipo": "reel"
-  },
-  {
-    "data": "2026-07-13T16:06:03.608Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 71): \"O alerta do Bradesco BBI para a Usiminas (USIM5), que perdeu R$ 4 bi na Bolsa em 1 mês\". Realizando postagem..."
   }
 ]
