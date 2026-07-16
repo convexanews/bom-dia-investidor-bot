@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-16T13:01:39.133Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 32 min."
+  },
+  {
     "data": "2026-07-16T12:31:31.986Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 62 min."
@@ -1140,14 +1145,5 @@
     "data": "2026-07-13T18:32:05.899Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 108 min."
-  },
-  {
-    "data": "2026-07-13T18:19:48.209Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"Alívio com inflação X tensão com Ormuz: o que deve prevalecer para Ibovespa e dólar?\".",
-    "postId": "18345019159220082",
-    "storyId": null,
-    "reelId": "18345019159220082",
-    "tipo": "reel"
   }
 ]
