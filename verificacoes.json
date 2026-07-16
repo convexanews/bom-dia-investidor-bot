@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-16T07:24:59.713Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (04:24 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-07-16T07:01:44.230Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (04:01 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1155,10 +1160,5 @@
     "resultado": "story_glossario",
     "mensagem": "Story do glossário publicado: \"Spread Cambial\"",
     "postId": "18099517403221290"
-  },
-  {
-    "data": "2026-07-13T13:26:48.568Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 7 min."
   }
 ]
