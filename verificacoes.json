@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-16T11:33:29.575Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Fundo imobiliário anuncia recompra de até 10% das cotas; IFIX avança\".",
+    "postId": "18386964250163947",
+    "storyId": null,
+    "reelId": "18386964250163947",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-07-16T11:31:39.366Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 44): \"Fundo imobiliário anuncia recompra de até 10% das cotas; IFIX avança\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-16T11:01:20.546Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 1 min."
@@ -1134,19 +1148,5 @@
     "data": "2026-07-13T17:01:29.581Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 67 min."
-  },
-  {
-    "data": "2026-07-13T16:31:40.572Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 97 min."
-  },
-  {
-    "data": "2026-07-13T16:08:17.221Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"O alerta do Bradesco BBI para a Usiminas (USIM5), que perdeu R$ 4 bi na Bolsa em 1 mês\".",
-    "postId": "17886432171599376",
-    "storyId": null,
-    "reelId": "17886432171599376",
-    "tipo": "reel"
   }
 ]

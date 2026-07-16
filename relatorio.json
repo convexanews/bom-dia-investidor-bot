@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-16T11:33:29.574Z",
+    "titulo": "Fundo imobiliário anuncia recompra de até 10% das cotas; IFIX avança",
+    "categoria": "Economia",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/fundo-imobiliario-anuncia-recompra-de-ate-10-das-cotas-ifix-avanca-igdl/",
+    "postId": "18386964250163947",
+    "storyId": null,
+    "reelId": "18386964250163947",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1784201505937.mp4",
+    "tipo": "reel",
+    "peso": 44
+  },
+  {
     "data": "2026-07-16T09:02:17.107Z",
     "titulo": "Ações da SIG despencam 22% após alerta de lucros e vendas fracas",
     "categoria": "MERCADO",
@@ -2900,20 +2915,6 @@
     "imagemFeed": null,
     "imagemStory": null,
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1781725178489.mp4",
-    "tipo": "reel_narrado"
-  },
-  {
-    "data": "2026-06-17T19:03:09.516Z",
-    "titulo": "Ibovespa: o que fez o índice sair de alta de 1% para quase zerar ganhos após Fed",
-    "categoria": "Mercados",
-    "fonte": "InfoMoney",
-    "link": "https://www.infomoney.com.br/mercados/ibovespa-o-que-fez-o-indice-sair-de-alta-de-1-para-quase-zerar-ganhos-apos-fed/",
-    "postId": "18082182170235032",
-    "storyId": null,
-    "reelId": "18082182170235032",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1781722890530.mp4",
     "tipo": "reel_narrado"
   }
 ]
