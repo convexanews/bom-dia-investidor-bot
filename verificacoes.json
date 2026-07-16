@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-16T02:01:21.372Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (23:01 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-07-16T01:31:26.010Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (22:31 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1163,10 +1168,5 @@
     "storyId": null,
     "reelId": "17961345543157386",
     "tipo": "reel"
-  },
-  {
-    "data": "2026-07-13T09:01:56.271Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 80): \"Conflito EUA-Irã, falas do Fed, Focus e mais destaques desta segunda-feira\". Realizando postagem..."
   }
 ]
