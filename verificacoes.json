@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-17T05:01:13.733Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (02:01 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-07-17T04:31:51.156Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (01:31 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1153,14 +1158,5 @@
     "data": "2026-07-14T11:31:43.457Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 101 min."
-  },
-  {
-    "data": "2026-07-14T11:11:50.590Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"Petróleo dispara e eleva cautela nos mercados; Ibovespa em dólar sobe hoje (14)\".",
-    "postId": "17914130097424497",
-    "storyId": null,
-    "reelId": "17914130097424497",
-    "tipo": "reel"
   }
 ]
