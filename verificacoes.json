@@ -1,5 +1,17 @@
 [
   {
+    "data": "2026-07-17T23:51:38.328Z",
+    "resultado": "reel_postado",
+    "mensagem": "Resumo em vídeo do dia publicado com 3 notícia(s).",
+    "reelId": "17959176795171118",
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1784332240998.mp4",
+    "noticias": [
+      "Fundo imobiliário renova contrato com Banrisul (BRSR6) por mais 5 anos; IFIX avança",
+      "Ações da Netflix tombam após resultado com cenário de desaceleração do crescimento",
+      "Indicador de risco de crédito da Oracle atinge recorde em meio a preocupações com gastos em IA"
+    ]
+  },
+  {
     "data": "2026-07-17T23:31:21.908Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 116 min."
@@ -1155,11 +1167,5 @@
     "data": "2026-07-15T07:01:21.262Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (04:01 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-15T06:38:09.452Z",
-    "resultado": "alerta_recorde",
-    "mensagem": "Alerta de recorde publicado: Bitcoin (NOVA MÁXIMA).",
-    "postId": "18177417271411354"
   }
 ]
