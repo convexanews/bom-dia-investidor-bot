@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-17T10:49:50.148Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 14 min."
+  },
+  {
     "data": "2026-07-17T10:31:08.195Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 32 min."
@@ -1146,10 +1151,5 @@
     "storyId": "18168881236446796",
     "reelId": null,
     "tipo": "card"
-  },
-  {
-    "data": "2026-07-14T16:02:06.018Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 55): \"Inflação para baixo no Brasil e nos EUA pode trazer fluxo gringo de volta para B3?\". Realizando postagem..."
   }
 ]
