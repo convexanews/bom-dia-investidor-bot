@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-17T12:01:02.714Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
+  },
+  {
     "data": "2026-07-17T11:32:32.569Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (carrossel): \"Fundo imobiliário renova contrato com Banrisul (BRSR6) por mais 5 anos; IFIX avança\".",
@@ -1146,10 +1151,5 @@
     "data": "2026-07-14T17:31:18.792Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 32 min."
-  },
-  {
-    "data": "2026-07-14T17:02:15.345Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 61 min."
   }
 ]
