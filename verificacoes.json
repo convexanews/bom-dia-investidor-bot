@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-17T09:02:54.060Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Prévia do PIB no Brasil, indústria e confiança consumidor nos EUA e mais destaques\".",
+    "postId": "17980539123047334",
+    "storyId": null,
+    "reelId": "17980539123047334",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-07-17T09:01:19.249Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 90): \"Prévia do PIB no Brasil, indústria e confiança consumidor nos EUA e mais destaques\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-17T08:36:07.056Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (05:36 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1143,15 +1157,5 @@
     "data": "2026-07-14T15:01:28.639Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 33 min."
-  },
-  {
-    "data": "2026-07-14T14:55:10.245Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 39 min."
-  },
-  {
-    "data": "2026-07-14T14:31:28.221Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 63 min."
   }
 ]
