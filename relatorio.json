@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-17T16:32:58.299Z",
+    "titulo": "Ações da Netflix tombam após resultado com cenário de desaceleração do crescimento",
+    "categoria": "Mercados",
+    "fonte": "InfoMoney",
+    "link": "https://www.infomoney.com.br/mercados/acoes-da-netflix-tombam-apos-resultado-com-cenario-de-desaceleracao-do-crescimento/",
+    "postId": "17946462345246565",
+    "storyId": "18121989733688979",
+    "reelId": null,
+    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784305887346-slide1.png",
+    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784305887346-story.png",
+    "videoUrl": null,
+    "tipo": "carrossel",
+    "peso": 56
+  },
+  {
     "data": "2026-07-17T14:03:09.344Z",
     "titulo": "B3 lança três novos índices de renda fixa para acompanhar títulos do Tesouro IPCA+",
     "categoria": "Renda Fixa",
@@ -2909,20 +2924,6 @@
     "imagemFeed": null,
     "imagemStory": null,
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1781782292851.mp4",
-    "tipo": "reel_narrado"
-  },
-  {
-    "data": "2026-06-18T11:03:36.619Z",
-    "titulo": "Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta quinta",
-    "categoria": "Mercados",
-    "fonte": "InfoMoney",
-    "link": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-18062026/",
-    "postId": "18315688111263332",
-    "storyId": null,
-    "reelId": "18315688111263332",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1781780484151.mp4",
     "tipo": "reel_narrado"
   }
 ]

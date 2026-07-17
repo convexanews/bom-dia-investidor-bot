@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-17T16:32:58.301Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (carrossel): \"Ações da Netflix tombam após resultado com cenário de desaceleração do crescimento\".",
+    "postId": "17946462345246565",
+    "storyId": "18121989733688979",
+    "reelId": null,
+    "tipo": "carrossel"
+  },
+  {
+    "data": "2026-07-17T16:31:18.511Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 56): \"Ações da Netflix tombam após resultado com cenário de desaceleração do crescimento\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-17T16:01:33.584Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
@@ -1134,27 +1148,5 @@
     "data": "2026-07-14T22:01:54.072Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 39 min."
-  },
-  {
-    "data": "2026-07-14T22:00:46.063Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 40 min."
-  },
-  {
-    "data": "2026-07-14T21:44:49.071Z",
-    "resultado": "carrossel_fechamento",
-    "mensagem": "Carrossel de fechamento publicado. Ibovespa: 176.641 -0,69%",
-    "postId": "18334783123253039",
-    "ibov": {
-      "valor": "176.641",
-      "variacao": "-0,69%"
-    },
-    "topAltas": [
-      "HAPV3 +6,98%",
-      "RADL3 +2,20%",
-      "GGBR4 +2,19%",
-      "EQTL3 +1,84%",
-      "BBAS3 +1,73%"
-    ]
   }
 ]
