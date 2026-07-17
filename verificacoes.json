@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-17T23:31:21.908Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 116 min."
+  },
+  {
     "data": "2026-07-17T23:27:01.040Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (carrossel): \"Indicador de risco de crédito da Oracle atinge recorde em meio a preocupações com gastos em IA\".",
@@ -1156,10 +1161,5 @@
     "resultado": "alerta_recorde",
     "mensagem": "Alerta de recorde publicado: Bitcoin (NOVA MÁXIMA).",
     "postId": "18177417271411354"
-  },
-  {
-    "data": "2026-07-15T06:37:28.048Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (03:37 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
