@@ -1,5 +1,11 @@
 [
   {
+    "data": "2026-07-17T12:16:01.957Z",
+    "resultado": "story_glossario",
+    "mensagem": "Story do glossário publicado: \"Lucro por Ação (LPA)\"",
+    "postId": "18064669745708176"
+  },
+  {
     "data": "2026-07-17T12:12:04.549Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 81 min."
@@ -1146,10 +1152,5 @@
     "data": "2026-07-14T18:02:10.839Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 1 min."
-  },
-  {
-    "data": "2026-07-14T17:41:37.649Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 22 min."
   }
 ]
