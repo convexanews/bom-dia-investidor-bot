@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-17T09:31:02.458Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
+  },
+  {
     "data": "2026-07-17T09:02:54.060Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"Prévia do PIB no Brasil, indústria e confiança consumidor nos EUA e mais destaques\".",
@@ -1152,10 +1157,5 @@
       "Eztec (EZTC3) bate recorde de lançamentos e vendas no 1º semestre de 2026",
       "Ibovespa Hoje Ao Vivo: Bolsa sobe com CPI dos EUA e guerra em foco"
     ]
-  },
-  {
-    "data": "2026-07-14T15:01:28.639Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 33 min."
   }
 ]
