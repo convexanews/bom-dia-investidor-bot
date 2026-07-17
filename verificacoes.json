@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-17T11:32:32.569Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (carrossel): \"Fundo imobiliário renova contrato com Banrisul (BRSR6) por mais 5 anos; IFIX avança\".",
+    "postId": "18099190421613215",
+    "storyId": "18086390327406985",
+    "reelId": null,
+    "tipo": "carrossel"
+  },
+  {
+    "data": "2026-07-17T11:31:09.937Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 34): \"Fundo imobiliário renova contrato com Banrisul (BRSR6) por mais 5 anos; IFIX avança\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-17T11:01:10.706Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
@@ -1137,15 +1151,5 @@
     "data": "2026-07-14T17:02:15.345Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 61 min."
-  },
-  {
-    "data": "2026-07-14T16:31:32.375Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
-  },
-  {
-    "data": "2026-07-14T16:18:27.167Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 105 min."
   }
 ]

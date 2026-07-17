@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-17T11:32:32.568Z",
+    "titulo": "Fundo imobiliário renova contrato com Banrisul (BRSR6) por mais 5 anos; IFIX avança",
+    "categoria": "Economia",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/fundo-imobiliario-renova-contrato-com-banrisul-brsr6-por-mais-5-anos-ifix-avanca-igdl/",
+    "postId": "18099190421613215",
+    "storyId": "18086390327406985",
+    "reelId": null,
+    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784287879373-slide1.png",
+    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784287879373-story.png",
+    "videoUrl": null,
+    "tipo": "carrossel",
+    "peso": 34
+  },
+  {
     "data": "2026-07-17T09:02:54.058Z",
     "titulo": "Prévia do PIB no Brasil, indústria e confiança consumidor nos EUA e mais destaques",
     "categoria": "Mercados",
@@ -2907,20 +2922,6 @@
     "imagemFeed": null,
     "imagemStory": null,
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1781779604425.mp4",
-    "tipo": "reel_narrado"
-  },
-  {
-    "data": "2026-06-18T10:02:55.178Z",
-    "titulo": "Carrefour despenca após JPMorgan colocar ação em alerta negativo",
-    "categoria": "MERCADO",
-    "fonte": "Investing.com",
-    "link": "https://br.investing.com/news/stock-market-news/carrefour-despenca-apos-jpmorgan-colocar-acao-em-alerta-negativo-1977148",
-    "postId": "18215316328334569",
-    "storyId": null,
-    "reelId": "18215316328334569",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1781776881933.mp4",
     "tipo": "reel_narrado"
   }
 ]
