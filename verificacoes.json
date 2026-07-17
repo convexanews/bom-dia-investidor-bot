@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-17T23:27:01.040Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (carrossel): \"Indicador de risco de crédito da Oracle atinge recorde em meio a preocupações com gastos em IA\".",
+    "postId": "18168493432440146",
+    "storyId": "18092452211076024",
+    "reelId": null,
+    "tipo": "carrossel"
+  },
+  {
+    "data": "2026-07-17T23:25:42.951Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 31): \"Indicador de risco de crédito da Oracle atinge recorde em meio a preocupações com gastos em IA\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-17T23:01:10.311Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
@@ -1147,15 +1161,5 @@
     "data": "2026-07-15T06:37:28.048Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (03:37 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-15T06:32:15.954Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (03:32 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-15T06:01:20.536Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (03:01 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]

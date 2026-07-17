@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-17T23:27:01.038Z",
+    "titulo": "Indicador de risco de crédito da Oracle atinge recorde em meio a preocupações com gastos em IA",
+    "categoria": "MERCADO",
+    "fonte": "Investing.com",
+    "link": "https://br.investing.com/news/company-news/indicador-de-risco-de-credito-da-oracle-atinge-recorde-em-meio-a-preocupacoes-com-gastos-em-ia-2005755",
+    "postId": "18168493432440146",
+    "storyId": "18092452211076024",
+    "reelId": null,
+    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784330753448-slide1.png",
+    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784330753448-story.png",
+    "videoUrl": null,
+    "tipo": "carrossel",
+    "peso": 31
+  },
+  {
     "data": "2026-07-17T21:04:01.615Z",
     "titulo": "Wall Street tomba 1% na semana com tecnologia e alta do petróleo; Nasdaq lidera perdas",
     "categoria": "Mercados",
@@ -2912,20 +2927,6 @@
     "imagemFeed": null,
     "imagemStory": null,
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1781868668033.mp4",
-    "tipo": "reel"
-  },
-  {
-    "data": "2026-06-19T09:02:59.134Z",
-    "titulo": "Petróleo, inflação e bolsas: os estragos econômicos deixados pela guerra entre EUA e Irã",
-    "categoria": "G1",
-    "fonte": "G1 Economia",
-    "link": "https://g1.globo.com/economia/noticia/2026/06/19/petroleo-inflacao-e-bolsas-os-estragos-economicos-deixados-pela-guerra-entre-eua-e-ira.ghtml",
-    "postId": "18117215254827325",
-    "storyId": null,
-    "reelId": "18117215254827325",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1781859674060.mp4",
     "tipo": "reel"
   }
 ]
