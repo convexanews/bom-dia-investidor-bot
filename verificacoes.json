@@ -1,5 +1,18 @@
 [
   {
+    "data": "2026-07-17T15:02:34.719Z",
+    "resultado": "reel_postado",
+    "mensagem": "Resumo em vídeo do dia publicado com 4 notícia(s).",
+    "reelId": "18087606953641025",
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1784300487799.mp4",
+    "noticias": [
+      "S&P 500 e Nasdaq caem com perdas em chips e foco em balanços e dados econômicos",
+      "Netflix desaponta em receita no 2T26 e reduz guidance para o ano; ação tomba 8% em NY",
+      "Retaliação do Brasil aos EUA pode envolver royalties do audiovisual e patentes farmacêuticas, dizem fontes",
+      "Fundo imobiliário renova contrato com Banrisul (BRSR6) por mais 5 anos; IFIX avança"
+    ]
+  },
+  {
     "data": "2026-07-17T15:01:14.873Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 62 min."
@@ -1147,10 +1160,5 @@
     "storyId": null,
     "reelId": "18060533594583475",
     "tipo": "reel"
-  },
-  {
-    "data": "2026-07-14T20:39:03.487Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 95): \"Wall Street tem alta após inflação abaixo do esperado reduzir apostas de elevação nos juros pelo Fed\". Realizando postagem..."
   }
 ]
