@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-17T07:31:22.183Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (04:31 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-07-17T07:01:27.785Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (04:01 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1152,10 +1157,5 @@
     "data": "2026-07-14T13:32:28.370Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 55): \"Ibovespa Hoje Ao Vivo: Bolsa sobe com CPI dos EUA e guerra em foco\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-14T13:02:12.594Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 10 min."
   }
 ]
