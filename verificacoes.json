@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-17T19:01:16.213Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 96 min."
+  },
+  {
     "data": "2026-07-17T18:37:10.349Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"Mais 12,5% e temor com reciprocidade: tarifaço ainda não foi precificado pelo mercado\".",
@@ -1136,10 +1141,5 @@
     "data": "2026-07-15T00:31:40.745Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 32 min."
-  },
-  {
-    "data": "2026-07-15T00:01:27.959Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 62 min."
   }
 ]
