@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-17T15:01:14.873Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 62 min."
+  },
+  {
     "data": "2026-07-17T14:31:06.905Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 93 min."
@@ -1147,10 +1152,5 @@
     "data": "2026-07-14T20:39:03.487Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 95): \"Wall Street tem alta após inflação abaixo do esperado reduzir apostas de elevação nos juros pelo Fed\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-14T20:31:23.747Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
   }
 ]
