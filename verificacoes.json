@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-17T16:01:33.584Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
+  },
+  {
     "data": "2026-07-17T15:57:06.612Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 7 min."
@@ -1151,10 +1156,5 @@
       "EQTL3 +1,84%",
       "BBAS3 +1,73%"
     ]
-  },
-  {
-    "data": "2026-07-14T21:31:57.289Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 69 min."
   }
 ]
