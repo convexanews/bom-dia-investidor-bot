@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-17T13:01:16.310Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 32 min."
+  },
+  {
     "data": "2026-07-17T12:31:41.804Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 61 min."
@@ -1147,10 +1152,5 @@
     "storyId": null,
     "reelId": "18159227458476033",
     "tipo": "reel"
-  },
-  {
-    "data": "2026-07-14T18:31:33.598Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 74): \"Ibovespa pode chegar aos 300 mil pontos, mas sob uma condição, diz ASA\". Realizando postagem..."
   }
 ]
