@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-17T17:01:08.824Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
+  },
+  {
     "data": "2026-07-17T16:32:58.301Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (carrossel): \"Ações da Netflix tombam após resultado com cenário de desaceleração do crescimento\".",
@@ -1143,10 +1148,5 @@
     "data": "2026-07-14T22:31:21.626Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 10 min."
-  },
-  {
-    "data": "2026-07-14T22:01:54.072Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 39 min."
   }
 ]
