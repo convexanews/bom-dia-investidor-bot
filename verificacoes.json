@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-17T18:37:10.349Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Mais 12,5% e temor com reciprocidade: tarifaço ainda não foi precificado pelo mercado\".",
+    "postId": "18123595150689307",
+    "storyId": null,
+    "reelId": "18123595150689307",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-07-17T18:35:29.661Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 62): \"Mais 12,5% e temor com reciprocidade: tarifaço ainda não foi precificado pelo mercado\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-17T18:31:11.971Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
@@ -1127,22 +1141,5 @@
     "data": "2026-07-15T00:01:27.959Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 62 min."
-  },
-  {
-    "data": "2026-07-14T23:52:41.022Z",
-    "resultado": "reel_postado",
-    "mensagem": "Resumo em vídeo do dia publicado com 3 notícia(s).",
-    "reelId": "18401971417081377",
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1784073088607.mp4",
-    "noticias": [
-      "Ibovespa Hoje Ao Vivo: Bolsa sobe com CPI dos EUA e guerra em foco",
-      "Inflação para baixo no Brasil e nos EUA pode trazer fluxo gringo de volta para B3?",
-      "CACR11 volta a fechar no negativo; IFIX termina pregão estável"
-    ]
-  },
-  {
-    "data": "2026-07-14T23:31:25.720Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
   }
 ]
