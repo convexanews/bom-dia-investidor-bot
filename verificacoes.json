@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-17T01:31:38.329Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (22:31 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-07-17T01:01:48.999Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (22:01 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1161,10 +1166,5 @@
     "storyId": null,
     "reelId": "18146603080459932",
     "tipo": "reel"
-  },
-  {
-    "data": "2026-07-14T09:01:54.612Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 83): \"Inflação nos EUA, sabatina de Warsh, balanços de bancos e mais destaques desta terça\". Realizando postagem..."
   }
 ]
