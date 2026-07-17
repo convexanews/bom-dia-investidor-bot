@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-17T21:04:01.617Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Wall Street tomba 1% na semana com tecnologia e alta do petróleo; Nasdaq lidera perdas\".",
+    "postId": "18609541807023058",
+    "storyId": null,
+    "reelId": "18609541807023058",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-07-17T21:01:24.133Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 80): \"Wall Street tomba 1% na semana com tecnologia e alta do petróleo; Nasdaq lidera perdas\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-17T20:31:06.807Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 7 min."
@@ -1131,15 +1145,5 @@
     "data": "2026-07-15T03:01:19.092Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (00:01 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-15T02:31:30.865Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (23:31 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-15T02:01:23.532Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (23:01 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]

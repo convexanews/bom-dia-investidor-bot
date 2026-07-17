@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-17T21:04:01.615Z",
+    "titulo": "Wall Street tomba 1% na semana com tecnologia e alta do petróleo; Nasdaq lidera perdas",
+    "categoria": "Mercados",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/wall-street-17-7-26-apsa/",
+    "postId": "18609541807023058",
+    "storyId": null,
+    "reelId": "18609541807023058",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1784322095715.mp4",
+    "tipo": "reel",
+    "peso": 80
+  },
+  {
     "data": "2026-07-17T18:37:10.348Z",
     "titulo": "Mais 12,5% e temor com reciprocidade: tarifaço ainda não foi precificado pelo mercado",
     "categoria": "Mercados",
@@ -2912,19 +2927,5 @@
     "imagemStory": null,
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1781859674060.mp4",
     "tipo": "reel"
-  },
-  {
-    "data": "2026-06-18T12:03:08.032Z",
-    "titulo": "Banco da Inglaterra mantém juros em 3,75%",
-    "categoria": "Economia",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/banco-da-inglaterra-vota-por-7-a-2-pela-manutencao-dos-juros-em-375/",
-    "postId": "17981442471011379",
-    "storyId": null,
-    "reelId": "17981442471011379",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1781784092484.mp4",
-    "tipo": "reel_narrado"
   }
 ]
