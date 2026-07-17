@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-17T06:19:58.675Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (03:19 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-07-17T06:01:21.024Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (03:01 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1152,11 +1157,5 @@
     "data": "2026-07-14T12:31:19.430Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 41 min."
-  },
-  {
-    "data": "2026-07-14T12:19:55.815Z",
-    "resultado": "story_glossario",
-    "mensagem": "Story do glossário publicado: \"Home Broker\"",
-    "postId": "18346253674168919"
   }
 ]
