@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-17T15:31:16.310Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 32 min."
+  },
+  {
     "data": "2026-07-17T15:02:34.719Z",
     "resultado": "reel_postado",
     "mensagem": "Resumo em vídeo do dia publicado com 4 notícia(s).",
@@ -1151,14 +1156,5 @@
     "data": "2026-07-14T21:01:35.172Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 100 min."
-  },
-  {
-    "data": "2026-07-14T20:40:45.974Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"Wall Street tem alta após inflação abaixo do esperado reduzir apostas de elevação nos juros pelo Fed\".",
-    "postId": "18060533594583475",
-    "storyId": null,
-    "reelId": "18060533594583475",
-    "tipo": "reel"
   }
 ]
