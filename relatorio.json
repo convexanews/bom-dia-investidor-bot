@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-17T14:03:09.344Z",
+    "titulo": "B3 lança três novos índices de renda fixa para acompanhar títulos do Tesouro IPCA+",
+    "categoria": "Renda Fixa",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/b3-lanca-tres-novos-indices-de-renda-fixa-para-acompanhar-titulos-do-tesouro-ipca/",
+    "postId": "18471987406109753",
+    "storyId": null,
+    "reelId": "18471987406109753",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1784296882898.mp4",
+    "tipo": "reel",
+    "peso": 66
+  },
+  {
     "data": "2026-07-17T11:32:32.568Z",
     "titulo": "Fundo imobiliário renova contrato com Banrisul (BRSR6) por mais 5 anos; IFIX avança",
     "categoria": "Economia",
@@ -2908,20 +2923,6 @@
     "imagemFeed": null,
     "imagemStory": null,
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1781780484151.mp4",
-    "tipo": "reel_narrado"
-  },
-  {
-    "data": "2026-06-18T10:48:25.363Z",
-    "titulo": "Mercados repercutem dúvidas sobre juros; Ibovespa em dólar avança com mais um corte da Selic no radar",
-    "categoria": "Economia",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/mercados-repercutem-duvidas-sobre-juros-ibovespa-em-dolar-avanca-com-mais-um-corte-da-selic-no-radar/",
-    "postId": "18080592866219647",
-    "storyId": null,
-    "reelId": "18080592866219647",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1781779604425.mp4",
     "tipo": "reel_narrado"
   }
 ]
