@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-18T15:07:15.050Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (carrossel): \"Incêndios no Canadá desencadeiam nova ameaça tarifária de Trump e colocam final da Copa em alerta\".",
+    "postId": "17869608027691665",
+    "storyId": "18072746615372100",
+    "reelId": null,
+    "tipo": "carrossel"
+  },
+  {
+    "data": "2026-07-18T15:05:49.926Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 33): \"Incêndios no Canadá desencadeiam nova ameaça tarifária de Trump e colocam final da Copa em alerta\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-18T15:03:31.298Z",
     "resultado": "reel_postado",
     "mensagem": "Resumo em vídeo do dia publicado com 3 notícia(s).",
@@ -1141,19 +1155,5 @@
     "data": "2026-07-15T21:31:41.658Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 66 min."
-  },
-  {
-    "data": "2026-07-15T21:01:36.401Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 96 min."
-  },
-  {
-    "data": "2026-07-15T20:37:02.389Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"Wall Street avança após mercado adiar aposta de alta nos juros pelo Fed; Oriente Médio fica no radar\".",
-    "postId": "18108000559967946",
-    "storyId": null,
-    "reelId": "18108000559967946",
-    "tipo": "reel"
   }
 ]

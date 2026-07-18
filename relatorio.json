@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-18T15:07:15.049Z",
+    "titulo": "Incêndios no Canadá desencadeiam nova ameaça tarifária de Trump e colocam final da Copa em alerta",
+    "categoria": "G1",
+    "fonte": "G1 Economia",
+    "link": "https://g1.globo.com/economia/noticia/2026/07/18/incendios-canada-ameaca-tarifaria-trump-final-copa.ghtml",
+    "postId": "17869608027691665",
+    "storyId": "18072746615372100",
+    "reelId": null,
+    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784387161988-slide1.png",
+    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784387161988-story.png",
+    "videoUrl": null,
+    "tipo": "carrossel",
+    "peso": 33
+  },
+  {
     "data": "2026-07-18T13:03:05.328Z",
     "titulo": "Transferência de US$ 288 milhões em cripto, top picks de bancos e compras da SLC (SLCE3): o que bombou no Money Times nesta semana",
     "categoria": "Economia",
@@ -2916,19 +2931,5 @@
     "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781895682974-slide2.png",
     "videoUrl": null,
     "tipo": "carrossel"
-  },
-  {
-    "data": "2026-06-19T16:33:27.298Z",
-    "titulo": "Bradesco BBI vê ponto de entrada na B3 após correção e elege ações favoritas para 3T",
-    "categoria": "Mercados",
-    "fonte": "InfoMoney",
-    "link": "https://www.infomoney.com.br/mercados/bradesco-bbi-ve-ponto-de-entrada-na-b3-apos-correcao-e-elege-acoes-favoritas-para-3t/",
-    "postId": "18119495395685755",
-    "storyId": null,
-    "reelId": "18119495395685755",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1781886683181.mp4",
-    "tipo": "reel"
   }
 ]
