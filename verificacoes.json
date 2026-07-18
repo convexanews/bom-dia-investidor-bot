@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-18T13:03:05.330Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Transferência de US$ 288 milhões em cripto, top picks de bancos e compras da SLC (SLCE3): o que bombou no Money Times nesta semana\".",
+    "postId": "18076430237325374",
+    "storyId": null,
+    "reelId": "18076430237325374",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-07-18T13:01:17.750Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 37): \"Transferência de US$ 288 milhões em cripto, top picks de bancos e compras da SLC (SLCE3): o que bombou no Money Times nesta semana\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-18T12:31:14.569Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 1 min."
@@ -1133,19 +1147,5 @@
     "data": "2026-07-15T19:01:28.759Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
-  },
-  {
-    "data": "2026-07-15T18:33:03.168Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"Dois fatores que podem ajudar o Brasil a cortar juros, segundo HSBC\".",
-    "postId": "18032613740818189",
-    "storyId": null,
-    "reelId": "18032613740818189",
-    "tipo": "reel"
-  },
-  {
-    "data": "2026-07-15T18:31:24.380Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 91): \"Dois fatores que podem ajudar o Brasil a cortar juros, segundo HSBC\". Realizando postagem..."
   }
 ]
