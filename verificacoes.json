@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-18T22:31:00.144Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 115 min."
+  },
+  {
     "data": "2026-07-18T22:25:41.987Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (card): \"EUA afirmam que militares foram mortos na Jordânia; líder do Irã faz advertência\".",
@@ -1139,10 +1144,5 @@
     "data": "2026-07-16T06:01:36.986Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (03:01 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-16T05:31:17.557Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (02:31 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
