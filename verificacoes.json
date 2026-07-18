@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-18T05:01:16.456Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (02:01 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-07-18T04:31:10.797Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (01:31 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1154,14 +1159,5 @@
     "data": "2026-07-15T11:31:32.670Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 102 min."
-  },
-  {
-    "data": "2026-07-15T11:12:42.943Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"Mercados monitoram inflação mais fraca e tensão em Ormuz; Ibovespa em dólar cai hoje (15)\".",
-    "postId": "18121101862801736",
-    "storyId": null,
-    "reelId": "18121101862801736",
-    "tipo": "reel"
   }
 ]
