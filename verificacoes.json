@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-18T13:30:59.648Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 93 min."
+  },
+  {
     "data": "2026-07-18T13:03:05.330Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"Transferência de US$ 288 milhões em cripto, top picks de bancos e compras da SLC (SLCE3): o que bombou no Money Times nesta semana\".",
@@ -1142,10 +1147,5 @@
     "data": "2026-07-15T19:16:29.995Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 77 min."
-  },
-  {
-    "data": "2026-07-15T19:01:28.759Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
   }
 ]
