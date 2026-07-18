@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-18T06:28:38.452Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (03:28 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-07-18T06:01:03.044Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (03:01 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1153,11 +1158,5 @@
     "data": "2026-07-15T12:31:45.328Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 41 min."
-  },
-  {
-    "data": "2026-07-15T12:20:49.809Z",
-    "resultado": "story_glossario",
-    "mensagem": "Story do glossário publicado: \"Stop Loss\"",
-    "postId": "18135254524538053"
   }
 ]
