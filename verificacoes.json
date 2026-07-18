@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-18T15:31:08.185Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 97 min."
+  },
+  {
     "data": "2026-07-18T15:07:15.050Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (carrossel): \"Incêndios no Canadá desencadeiam nova ameaça tarifária de Trump e colocam final da Copa em alerta\".",
@@ -1150,10 +1155,5 @@
       "SUZB3 +0,90%",
       "CSNA3 +0,77%"
     ]
-  },
-  {
-    "data": "2026-07-15T21:31:41.658Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 66 min."
   }
 ]
