@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-18T10:32:00.441Z",
+    "titulo": "Guerra entre EUA e Irã se intensifica com novos ataques no Golfo; petróleo atinge maior nível em mais de um mês",
+    "categoria": "G1",
+    "fonte": "G1 Economia",
+    "link": "https://g1.globo.com/mundo/noticia/2026/07/18/guerra-eua-ira-ataques-golfo-petroleo.ghtml",
+    "postId": "17887624671666011",
+    "storyId": "18159230179465556",
+    "reelId": null,
+    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784370676066-feed.png",
+    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784370676066-story.png",
+    "videoUrl": null,
+    "tipo": "card",
+    "peso": 29
+  },
+  {
     "data": "2026-07-17T23:27:01.038Z",
     "titulo": "Indicador de risco de crédito da Oracle atinge recorde em meio a preocupações com gastos em IA",
     "categoria": "MERCADO",
@@ -2913,20 +2928,6 @@
     "imagemFeed": null,
     "imagemStory": null,
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1781877674435.mp4",
-    "tipo": "reel"
-  },
-  {
-    "data": "2026-06-19T11:32:28.406Z",
-    "titulo": "BC do Japão alerta para risco de inflação acima da meta e sinaliza intenção de aumentar juros",
-    "categoria": "MERCADO",
-    "fonte": "Investing.com",
-    "link": "https://br.investing.com/news/economy-news/bc-do-japao-alerta-para-risco-de-inflacao-acima-da-meta-e-sinaliza-intencao-de-aumentar-juros-1978391",
-    "postId": "18361940329228083",
-    "storyId": null,
-    "reelId": "18361940329228083",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1781868668033.mp4",
     "tipo": "reel"
   }
 ]

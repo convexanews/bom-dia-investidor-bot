@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-18T10:32:00.443Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (card): \"Guerra entre EUA e Irã se intensifica com novos ataques no Golfo; petróleo atinge maior nível em mais de um mês\".",
+    "postId": "17887624671666011",
+    "storyId": "18159230179465556",
+    "reelId": null,
+    "tipo": "card"
+  },
+  {
+    "data": "2026-07-18T10:31:04.611Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 29): \"Guerra entre EUA e Irã se intensifica com novos ataques no Golfo; petróleo atinge maior nível em mais de um mês\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-18T10:01:06.986Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
@@ -1136,15 +1150,5 @@
     "storyId": null,
     "reelId": "18123749074742594",
     "tipo": "reel"
-  },
-  {
-    "data": "2026-07-15T16:01:45.000Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 77): \"Gringos ingressam com R$ 1,5 bilhão na B3 em dia de inflação abaixo do esperado\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-15T15:31:16.646Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
   }
 ]
