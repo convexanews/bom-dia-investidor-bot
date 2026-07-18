@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-18T14:31:04.853Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 33 min."
+  },
+  {
     "data": "2026-07-18T14:23:10.005Z",
     "resultado": "comparativo_precos",
     "mensagem": "Comparativo de preços publicado. Ibovespa +28,1%, Dólar -8,2%, Bitcoin -45,7%.",
@@ -1143,10 +1148,5 @@
     "data": "2026-07-15T20:31:33.513Z",
     "resultado": "erro_alerta_recorde",
     "mensagem": "Erro ao verificar alerta de recorde: Unexpected token '<', \"<!doctype \"... is not valid JSON"
-  },
-  {
-    "data": "2026-07-15T20:31:31.522Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
   }
 ]
