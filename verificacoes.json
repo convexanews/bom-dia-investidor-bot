@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-18T15:01:16.795Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
+  },
+  {
     "data": "2026-07-18T14:31:04.853Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 33 min."
@@ -1143,10 +1148,5 @@
     "data": "2026-07-15T20:35:19.890Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 88): \"Wall Street avança após mercado adiar aposta de alta nos juros pelo Fed; Oriente Médio fica no radar\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-15T20:31:33.513Z",
-    "resultado": "erro_alerta_recorde",
-    "mensagem": "Erro ao verificar alerta de recorde: Unexpected token '<', \"<!doctype \"... is not valid JSON"
   }
 ]
