@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-18T23:53:05.656Z",
+    "resultado": "reel_postado",
+    "mensagem": "Resumo em vídeo do dia publicado com 5 notícia(s).",
+    "reelId": "18117275485806980",
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1784418716172.mp4",
+    "noticias": [
+      "Guerra entre EUA e Irã se intensifica com novos ataques no Golfo; petróleo atinge maior nível em mais de um mês",
+      "Incêndios no Canadá desencadeiam nova ameaça tarifária de Trump e colocam final da Copa em alerta",
+      "Iguatemi (IGTI11) e mais 4 ações para investir na semana, segundo Terra Investimentos",
+      "Petrobras (PETR4) e BB (BBAS3) à venda? Zema promete privatização para bancar obras",
+      "EUA afirmam que militares foram mortos na Jordânia; líder do Irã faz advertência"
+    ]
+  },
+  {
     "data": "2026-07-18T23:30:58.589Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 55 min."
@@ -1139,10 +1153,5 @@
     "data": "2026-07-16T07:31:26.930Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (04:31 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-16T07:24:59.713Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (04:24 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
