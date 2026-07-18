@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-18T09:01:35.498Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
+  },
+  {
     "data": "2026-07-18T08:30:57.081Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (05:30 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1149,10 +1154,5 @@
     "data": "2026-07-15T14:53:56.169Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 40 min."
-  },
-  {
-    "data": "2026-07-15T14:31:28.393Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 62 min."
   }
 ]
