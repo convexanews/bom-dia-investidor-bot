@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-18T02:01:06.611Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (23:01 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-07-18T01:31:00.412Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (22:31 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1158,14 +1163,5 @@
     "data": "2026-07-15T09:11:12.237Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 112 min."
-  },
-  {
-    "data": "2026-07-15T09:02:39.646Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (card): \"Em reunião com Jamieson Greer, Brasil chama tarifa dos EUA de “injusta”; governo já prepara nova MP de apoio aos exportadores\".",
-    "postId": "18111125464948052",
-    "storyId": "17872149582547084",
-    "reelId": null,
-    "tipo": "card"
   }
 ]
