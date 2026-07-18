@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-18T17:01:16.323Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 6 min."
+  },
+  {
     "data": "2026-07-18T16:31:14.830Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 37 min."
@@ -1138,10 +1143,5 @@
     "data": "2026-07-15T23:01:23.779Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 31): \"Gerdau (GGBR4) e Usiminas (USIM5): Morgan Stanley eleva preços-alvo, mas mantém cautela\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-15T22:31:21.552Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 6 min."
   }
 ]
