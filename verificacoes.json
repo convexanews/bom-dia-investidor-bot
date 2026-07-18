@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-18T11:01:17.816Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 91 min."
+  },
+  {
     "data": "2026-07-18T10:32:00.443Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (card): \"Guerra entre EUA e Irã se intensifica com novos ataques no Golfo; petróleo atinge maior nível em mais de um mês\".",
@@ -1141,14 +1146,5 @@
     "data": "2026-07-15T16:25:12.361Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 100 min."
-  },
-  {
-    "data": "2026-07-15T16:04:12.381Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"Gringos ingressam com R$ 1,5 bilhão na B3 em dia de inflação abaixo do esperado\".",
-    "postId": "18123749074742594",
-    "storyId": null,
-    "reelId": "18123749074742594",
-    "tipo": "reel"
   }
 ]
