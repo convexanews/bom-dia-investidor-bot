@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-18T20:02:24.109Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (carrossel): \"Petrobras (PETR4) e BB (BBAS3) à venda? Zema promete privatização para bancar obras\".",
+    "postId": "18098971691596601",
+    "storyId": "17893970793564440",
+    "reelId": null,
+    "tipo": "carrossel"
+  },
+  {
+    "data": "2026-07-18T20:01:05.957Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 16): \"Petrobras (PETR4) e BB (BBAS3) à venda? Zema promete privatização para bancar obras\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-18T19:30:58.578Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
@@ -1126,15 +1140,5 @@
     "data": "2026-07-16T02:01:21.372Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (23:01 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-16T01:31:26.010Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (22:31 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-16T01:02:55.024Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (22:02 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]

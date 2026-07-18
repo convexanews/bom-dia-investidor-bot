@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-18T20:02:24.108Z",
+    "titulo": "Petrobras (PETR4) e BB (BBAS3) à venda? Zema promete privatização para bancar obras",
+    "categoria": "Política",
+    "fonte": "InfoMoney",
+    "link": "https://www.infomoney.com.br/politica/zema-promete-privatizar-petrobras-e-banco-do-brasil-para-investir-em-infraestrutura/",
+    "postId": "18098971691596601",
+    "storyId": "17893970793564440",
+    "reelId": null,
+    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784404875482-slide1.png",
+    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784404875482-story.png",
+    "videoUrl": null,
+    "tipo": "carrossel",
+    "peso": 16
+  },
+  {
     "data": "2026-07-18T17:32:27.890Z",
     "titulo": "Iguatemi (IGTI11) e mais 4 ações para investir na semana, segundo Terra Investimentos",
     "categoria": "Mercados",
@@ -2918,19 +2933,5 @@
     "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781912284532-slide2.png",
     "videoUrl": null,
     "tipo": "carrossel"
-  },
-  {
-    "data": "2026-06-19T21:33:03.102Z",
-    "titulo": "Depois da Superquarta: o corte veio, mas a credibilidade aguenta?",
-    "categoria": "Colunas",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/depois-da-superquarta-o-corte-veio-mas-a-credibilidade-aguenta/",
-    "postId": "18091542395188774",
-    "storyId": null,
-    "reelId": "18091542395188774",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1781904672088.mp4",
-    "tipo": "reel"
   }
 ]
