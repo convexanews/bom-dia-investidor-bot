@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-18T20:13:16.712Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 110 min."
+  },
+  {
     "data": "2026-07-18T20:02:24.109Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (carrossel): \"Petrobras (PETR4) e BB (BBAS3) à venda? Zema promete privatização para bancar obras\".",
@@ -1135,10 +1140,5 @@
     "data": "2026-07-16T02:31:34.106Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (23:31 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-16T02:01:21.372Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (23:01 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
