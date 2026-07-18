@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-18T22:25:41.985Z",
+    "titulo": "EUA afirmam que militares foram mortos na Jordânia; líder do Irã faz advertência",
+    "categoria": "Mundo",
+    "fonte": "InfoMoney",
+    "link": "https://www.infomoney.com.br/mundo/eua-afirmam-que-militares-foram-mortos-na-jordania-lider-do-ira-faz-advertencia/",
+    "postId": "17983071612020896",
+    "storyId": "18083466179230181",
+    "reelId": null,
+    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784413496856-feed.png",
+    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784413496856-story.png",
+    "videoUrl": null,
+    "tipo": "card",
+    "peso": 11
+  },
+  {
     "data": "2026-07-18T20:02:24.108Z",
     "titulo": "Petrobras (PETR4) e BB (BBAS3) à venda? Zema promete privatização para bancar obras",
     "categoria": "Política",
@@ -2919,19 +2934,5 @@
     "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781947880214-story.png",
     "videoUrl": null,
     "tipo": "card"
-  },
-  {
-    "data": "2026-06-19T23:38:47.704Z",
-    "titulo": "SNEL11, maior fundo de energia da Bolsa, sobe forte após quinta oferta bilionária",
-    "categoria": "FIIs",
-    "fonte": "Suno",
-    "link": "https://www.suno.com.br/noticias/snel11-maior-fundo-de-energia-da-bolsa-sobe-forte-apos-quinta-oferta-bilionaria/",
-    "postId": "17923895595475775",
-    "storyId": null,
-    "reelId": null,
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781912284532-slide1.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781912284532-slide2.png",
-    "videoUrl": null,
-    "tipo": "carrossel"
   }
 ]
