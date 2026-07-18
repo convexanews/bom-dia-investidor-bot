@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-18T17:32:27.892Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (card): \"Iguatemi (IGTI11) e mais 4 ações para investir na semana, segundo Terra Investimentos\".",
+    "postId": "18109612361287131",
+    "storyId": "17885757579434876",
+    "reelId": null,
+    "tipo": "card"
+  },
+  {
+    "data": "2026-07-18T17:31:26.202Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 32): \"Iguatemi (IGTI11) e mais 4 ações para investir na semana, segundo Terra Investimentos\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-18T17:01:16.323Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 6 min."
@@ -1129,19 +1143,5 @@
     "data": "2026-07-15T23:30:38.126Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 93 min."
-  },
-  {
-    "data": "2026-07-15T23:02:52.117Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (carrossel): \"Gerdau (GGBR4) e Usiminas (USIM5): Morgan Stanley eleva preços-alvo, mas mantém cautela\".",
-    "postId": "18131851771613157",
-    "storyId": "18231014737317019",
-    "reelId": null,
-    "tipo": "carrossel"
-  },
-  {
-    "data": "2026-07-15T23:01:23.779Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 31): \"Gerdau (GGBR4) e Usiminas (USIM5): Morgan Stanley eleva preços-alvo, mas mantém cautela\". Realizando postagem..."
   }
 ]

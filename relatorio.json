@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-18T17:32:27.890Z",
+    "titulo": "Iguatemi (IGTI11) e mais 4 ações para investir na semana, segundo Terra Investimentos",
+    "categoria": "Mercados",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/iguatemi-igti11-e-mais-4-acoes-para-investir-na-semana-segundo-terra-investimentos-lmrs/",
+    "postId": "18109612361287131",
+    "storyId": "17885757579434876",
+    "reelId": null,
+    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784395896822-feed.png",
+    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784395896822-story.png",
+    "videoUrl": null,
+    "tipo": "card",
+    "peso": 32
+  },
+  {
     "data": "2026-07-18T15:07:15.049Z",
     "titulo": "Incêndios no Canadá desencadeiam nova ameaça tarifária de Trump e colocam final da Copa em alerta",
     "categoria": "G1",
@@ -2917,19 +2932,5 @@
     "imagemStory": null,
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1781904672088.mp4",
     "tipo": "reel"
-  },
-  {
-    "data": "2026-06-19T19:02:01.993Z",
-    "titulo": "Exportação de algodão do Brasil será recorde em 2026, diz Anea ao elevar projeção",
-    "categoria": "MERCADO",
-    "fonte": "Investing.com",
-    "link": "https://br.investing.com/news/commodities-news/exportacao-de-algodao-do-brasil-sera-recorde-em-2026-diz-anea-ao-elevar-projecao-1978536",
-    "postId": "18096960413332226",
-    "storyId": null,
-    "reelId": null,
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781895682974-slide1.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781895682974-slide2.png",
-    "videoUrl": null,
-    "tipo": "carrossel"
   }
 ]
