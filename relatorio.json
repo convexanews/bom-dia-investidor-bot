@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-19T19:33:41.897Z",
+    "titulo": "Anvisa fez 33 fiscalizações em farmácias que produzem canetas emagrecedoras em 2026",
+    "categoria": "Consumo",
+    "fonte": "InfoMoney",
+    "link": "https://www.infomoney.com.br/consumo/anvisa-fez-33-fiscalizacoes-em-farmacias-que-produzem-canetas-emagrecedoras-em-2026/",
+    "postId": "18097974685998436",
+    "storyId": "18144185671546757",
+    "reelId": null,
+    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784489480810-slide1.png",
+    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784489480810-story.png",
+    "videoUrl": null,
+    "tipo": "carrossel",
+    "peso": 32
+  },
+  {
     "data": "2026-07-19T16:33:11.289Z",
     "titulo": "TIM (TIMS3) paga dividendos nesta semana; veja o calendário",
     "categoria": "Empresas",
@@ -2925,19 +2940,5 @@
     "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1782001878285-slide2.png",
     "videoUrl": null,
     "tipo": "carrossel"
-  },
-  {
-    "data": "2026-06-20T22:01:51.441Z",
-    "titulo": "Trump diz que não haverá pedágio em Ormuz a menos que seja imposto pelos EUA",
-    "categoria": "Mundo",
-    "fonte": "InfoMoney",
-    "link": "https://www.infomoney.com.br/mundo/trump-nao-havera-pedagio-em-ormuz/",
-    "postId": "18141026689538087",
-    "storyId": null,
-    "reelId": null,
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781992873942-feed.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781992873942-story.png",
-    "videoUrl": null,
-    "tipo": "card"
   }
 ]

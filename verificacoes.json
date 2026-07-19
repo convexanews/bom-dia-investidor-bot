@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-19T19:33:41.898Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (carrossel): \"Anvisa fez 33 fiscalizações em farmácias que produzem canetas emagrecedoras em 2026\".",
+    "postId": "18097974685998436",
+    "storyId": "18144185671546757",
+    "reelId": null,
+    "tipo": "carrossel"
+  },
+  {
+    "data": "2026-07-19T19:31:07.631Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 32): \"Anvisa fez 33 fiscalizações em farmácias que produzem canetas emagrecedoras em 2026\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-19T19:01:54.414Z",
     "resultado": "erro",
     "mensagem": "Erro na execução automática: Command failed: git push"
@@ -1128,15 +1142,5 @@
     "data": "2026-07-17T03:31:29.540Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (00:31 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-17T03:01:58.760Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (00:01 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-17T02:31:15.009Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (23:31 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
