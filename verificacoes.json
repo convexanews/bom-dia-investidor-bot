@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-19T07:30:58.798Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (04:30 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-07-19T07:28:42.368Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (04:28 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1139,14 +1144,5 @@
     "data": "2026-07-16T14:02:58.830Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 119 min."
-  },
-  {
-    "data": "2026-07-16T14:01:12.591Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (carrossel): \"Chips pesam e Wall Street opera majoritariamente em queda; Oriente Médio continua no radar\".",
-    "postId": "18114134417297234",
-    "storyId": "17917939209205795",
-    "reelId": null,
-    "tipo": "carrossel"
   }
 ]
