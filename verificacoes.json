@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-19T14:02:19.912Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (card): \"Congresso ameaça CPI sobre suposta interferência do governo na Vale (VALE3), diz portal\".",
+    "postId": "18001105952970853",
+    "storyId": "18406216774155396",
+    "reelId": null,
+    "tipo": "card"
+  },
+  {
+    "data": "2026-07-19T14:01:19.454Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 29): \"Congresso ameaça CPI sobre suposta interferência do governo na Vale (VALE3), diz portal\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-19T13:30:58.322Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
@@ -1128,15 +1142,5 @@
     "data": "2026-07-16T20:31:22.484Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
-  },
-  {
-    "data": "2026-07-16T20:04:43.639Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 29 min."
-  },
-  {
-    "data": "2026-07-16T20:01:20.319Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 32 min."
   }
 ]

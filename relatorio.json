@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-19T14:02:19.909Z",
+    "titulo": "Congresso ameaça CPI sobre suposta interferência do governo na Vale (VALE3), diz portal",
+    "categoria": "Empresas",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/congresso-ameaca-cpi-sobre-suposta-interferencia-do-governo-na-vale-vale3-diz-portal-lils/",
+    "postId": "18001105952970853",
+    "storyId": "18406216774155396",
+    "reelId": null,
+    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784469690624-feed.png",
+    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784469690624-story.png",
+    "videoUrl": null,
+    "tipo": "card",
+    "peso": 29
+  },
+  {
     "data": "2026-07-19T11:32:36.822Z",
     "titulo": "33% do eleitorado brasileiro vê culpa de Lula e Bolsonaro em aumento das bets, diz pesquisa",
     "categoria": "Política",
@@ -2923,19 +2938,5 @@
     "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781984557558-slide2.png",
     "videoUrl": null,
     "tipo": "carrossel"
-  },
-  {
-    "data": "2026-06-20T17:02:58.023Z",
-    "titulo": "Vale marca assembleia para destituir presidente do conselho para dia 22 de julho",
-    "categoria": "Mercados",
-    "fonte": "InfoMoney",
-    "link": "https://www.infomoney.com.br/mercados/vale-marca-assembleia-para-destituir-presidente-do-conselho-para-dia-22-de-julho/",
-    "postId": "18008868203921577",
-    "storyId": null,
-    "reelId": "18008868203921577",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1781974877881.mp4",
-    "tipo": "reel"
   }
 ]
