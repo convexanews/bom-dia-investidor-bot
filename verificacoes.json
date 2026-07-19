@@ -1,5 +1,21 @@
 [
   {
+    "data": "2026-07-19T15:32:33.119Z",
+    "resultado": "reel_postado",
+    "mensagem": "Resumo em vídeo do dia publicado com 7 notícia(s).",
+    "reelId": "18408599893158412",
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1784475080772.mp4",
+    "noticias": [
+      "Iguatemi (IGTI11) e mais 4 ações para investir na semana, segundo Terra Investimentos",
+      "Petrobras (PETR4) e BB (BBAS3) à venda? Zema promete privatização para bancar obras",
+      "EUA afirmam que militares foram mortos na Jordânia; líder do Irã faz advertência",
+      "Gol está perto de fechar acordo por jatos E2 da Embraer",
+      "Quando sai o resultado da Vale (VALE3) do 2º tri de 2026?",
+      "33% do eleitorado brasileiro vê culpa de Lula e Bolsonaro em aumento das bets, diz pesquisa",
+      "Congresso ameaça CPI sobre suposta interferência do governo na Vale (VALE3), diz portal"
+    ]
+  },
+  {
     "data": "2026-07-19T15:31:06.051Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 32 min."
@@ -1131,10 +1147,5 @@
     "data": "2026-07-16T22:31:45.327Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 32 min."
-  },
-  {
-    "data": "2026-07-16T22:01:16.247Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 62 min."
   }
 ]
