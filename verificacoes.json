@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-19T01:05:04.212Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (22:05 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-07-19T01:01:10.613Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (22:01 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1148,14 +1153,5 @@
     "data": "2026-07-16T09:31:24.260Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 91 min."
-  },
-  {
-    "data": "2026-07-16T09:02:17.109Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (card): \"Ações da SIG despencam 22% após alerta de lucros e vendas fracas\".",
-    "postId": "18103814827882569",
-    "storyId": "17999250128957230",
-    "reelId": null,
-    "tipo": "card"
   }
 ]
