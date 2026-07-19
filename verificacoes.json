@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-19T09:31:43.381Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 119 min."
+  },
+  {
     "data": "2026-07-19T09:30:42.272Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (card): \"Quando sai o resultado da Vale (VALE3) do 2º tri de 2026?\".",
@@ -1136,10 +1141,5 @@
     "storyId": "18108322670013687",
     "reelId": null,
     "tipo": "card"
-  },
-  {
-    "data": "2026-07-16T16:01:34.413Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 49): \"S&P 500 e Nasdaq caem com perdas em chips e foco em balanços e dados econômicos\". Realizando postagem..."
   }
 ]
