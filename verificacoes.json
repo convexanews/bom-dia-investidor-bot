@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-19T16:33:11.292Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"TIM (TIMS3) paga dividendos nesta semana; veja o calendário\".",
+    "postId": "18601877908050381",
+    "storyId": null,
+    "reelId": "18601877908050381",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-07-19T16:31:08.608Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 30): \"TIM (TIMS3) paga dividendos nesta semana; veja o calendário\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-19T16:01:00.268Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
@@ -1137,15 +1151,5 @@
     "storyId": null,
     "reelId": null,
     "tipo": "card"
-  },
-  {
-    "data": "2026-07-16T23:31:36.036Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 35): \"Retaliação do Brasil aos EUA pode envolver royalties do audiovisual e patentes farmacêuticas, dizem fontes\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-16T23:01:08.419Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
   }
 ]

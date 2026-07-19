@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-19T16:33:11.289Z",
+    "titulo": "TIM (TIMS3) paga dividendos nesta semana; veja o calendário",
+    "categoria": "Empresas",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/dividendos-da-semana-17-7-26-apsa/",
+    "postId": "18601877908050381",
+    "storyId": null,
+    "reelId": "18601877908050381",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1784478679374.mp4",
+    "tipo": "reel",
+    "peso": 30
+  },
+  {
     "data": "2026-07-19T14:02:19.909Z",
     "titulo": "Congresso ameaça CPI sobre suposta interferência do governo na Vale (VALE3), diz portal",
     "categoria": "Empresas",
@@ -2924,19 +2939,5 @@
     "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781992873942-story.png",
     "videoUrl": null,
     "tipo": "card"
-  },
-  {
-    "data": "2026-06-20T19:43:17.432Z",
-    "titulo": "Governo identificou 10 alertas e primeira ação teria sido no PR, diz secretário",
-    "categoria": "Brasil",
-    "fonte": "InfoMoney",
-    "link": "https://www.infomoney.com.br/brasil/governo-identificou-10-alertas-e-primeira-acao-teria-sido-no-pr-diz-secretario/",
-    "postId": "18594169579028876",
-    "storyId": null,
-    "reelId": null,
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781984557558-slide1.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1781984557558-slide2.png",
-    "videoUrl": null,
-    "tipo": "carrossel"
   }
 ]
