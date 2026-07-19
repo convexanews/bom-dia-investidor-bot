@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-19T15:31:06.051Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 32 min."
+  },
+  {
     "data": "2026-07-19T15:07:33.676Z",
     "resultado": "erro_reel",
     "mensagem": "Erro ao gerar o resumo em vídeo do dia: Timeout esperando o container do reel ficar pronto: 18126484996665621"
@@ -1131,22 +1136,5 @@
     "data": "2026-07-16T22:01:16.247Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 62 min."
-  },
-  {
-    "data": "2026-07-16T21:53:37.655Z",
-    "resultado": "carrossel_fechamento",
-    "mensagem": "Carrossel de fechamento publicado. Ibovespa: 173.825 -1,59%",
-    "postId": "17946715773229249",
-    "ibov": {
-      "valor": "173.825",
-      "variacao": "-1,59%"
-    },
-    "topAltas": [
-      "BBAS3 +1,02%",
-      "SUZB3 +0,53%",
-      "ABEV3 +0,19%",
-      "RAIZ4 +0,00%",
-      "TOTS3 -0,07%"
-    ]
   }
 ]
