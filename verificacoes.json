@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-19T05:01:02.273Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (02:01 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-07-19T04:49:43.197Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (01:49 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1144,10 +1149,5 @@
     "resultado": "story_glossario",
     "mensagem": "Story do glossário publicado: \"Day Trade\"",
     "postId": "17959143021153175"
-  },
-  {
-    "data": "2026-07-16T12:01:22.359Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 93 min."
   }
 ]
