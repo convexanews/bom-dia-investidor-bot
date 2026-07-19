@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-19T14:03:10.185Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 120 min."
+  },
+  {
     "data": "2026-07-19T14:02:19.912Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (card): \"Congresso ameaça CPI sobre suposta interferência do governo na Vale (VALE3), diz portal\".",
@@ -1137,10 +1142,5 @@
     "data": "2026-07-16T21:01:34.654Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 47): \"Netflix desaponta em receita no 2T26 e reduz guidance para o ano; ação tomba 8% em NY\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-16T20:31:22.484Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
   }
 ]
