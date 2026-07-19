@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-19T14:31:06.569Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
+  },
+  {
     "data": "2026-07-19T14:22:15.732Z",
     "resultado": "resumo_semanal",
     "mensagem": "Resumo semanal publicado com 7 notícias.",
@@ -1143,14 +1148,5 @@
     "data": "2026-07-16T21:31:19.472Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
-  },
-  {
-    "data": "2026-07-16T21:03:02.039Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (carrossel): \"Netflix desaponta em receita no 2T26 e reduz guidance para o ano; ação tomba 8% em NY\".",
-    "postId": "18119148953308534",
-    "storyId": "17978271399109411",
-    "reelId": null,
-    "tipo": "carrossel"
   }
 ]
