@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-19T17:02:16.666Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 91 min."
+  },
+  {
     "data": "2026-07-19T17:01:21.541Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
@@ -1133,19 +1138,5 @@
     "data": "2026-07-17T00:01:08.017Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
-  },
-  {
-    "data": "2026-07-16T23:58:52.343Z",
-    "resultado": "reel_postado",
-    "mensagem": "Resumo em vídeo do dia publicado com 5 notícia(s).",
-    "reelId": "18448061101142452",
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1784246209784.mp4",
-    "noticias": [
-      "Ações da SIG despencam 22% após alerta de lucros e vendas fracas",
-      "Chips pesam e Wall Street opera majoritariamente em queda; Oriente Médio continua no radar",
-      "S&P 500 e Nasdaq caem com perdas em chips e foco em balanços e dados econômicos",
-      "Netflix desaponta em receita no 2T26 e reduz guidance para o ano; ação tomba 8% em NY",
-      "Retaliação do Brasil aos EUA pode envolver royalties do audiovisual e patentes farmacêuticas, dizem fontes"
-    ]
   }
 ]
