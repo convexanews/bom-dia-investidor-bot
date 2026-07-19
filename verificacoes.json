@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-19T15:07:33.676Z",
+    "resultado": "erro_reel",
+    "mensagem": "Erro ao gerar o resumo em vídeo do dia: Timeout esperando o container do reel ficar pronto: 18126484996665621"
+  },
+  {
     "data": "2026-07-19T15:01:26.450Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 61 min."
@@ -1143,10 +1148,5 @@
       "RAIZ4 +0,00%",
       "TOTS3 -0,07%"
     ]
-  },
-  {
-    "data": "2026-07-16T21:34:01.084Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 90 min."
   }
 ]
