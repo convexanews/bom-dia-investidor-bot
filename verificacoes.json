@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-19T11:32:36.824Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (carrossel): \"33% do eleitorado brasileiro vê culpa de Lula e Bolsonaro em aumento das bets, diz pesquisa\".",
+    "postId": "17993331389816517",
+    "storyId": "17867690358587710",
+    "reelId": null,
+    "tipo": "carrossel"
+  },
+  {
+    "data": "2026-07-19T11:31:08.511Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 19): \"33% do eleitorado brasileiro vê culpa de Lula e Bolsonaro em aumento das bets, diz pesquisa\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-19T11:01:11.355Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 30 min."
@@ -1127,15 +1141,5 @@
     "data": "2026-07-16T18:31:06.972Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 48): \"Novas tarifas dos Estados Unidos impactam principalmente as empresas de pequeno porte, diz sócio da Voga Investimentos\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-16T18:01:06.624Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
-  },
-  {
-    "data": "2026-07-16T17:31:55.568Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 31 min."
   }
 ]

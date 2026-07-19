@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-19T11:32:36.822Z",
+    "titulo": "33% do eleitorado brasileiro vê culpa de Lula e Bolsonaro em aumento das bets, diz pesquisa",
+    "categoria": "Política",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/33-do-eleitorado-brasileiro-ve-culpa-de-lula-e-bolsonaro-em-aumento-das-bets-diz-pesquisa-lils/",
+    "postId": "17993331389816517",
+    "storyId": "17867690358587710",
+    "reelId": null,
+    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784460678525-slide1.png",
+    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784460678525-story.png",
+    "videoUrl": null,
+    "tipo": "carrossel",
+    "peso": 19
+  },
+  {
     "data": "2026-07-19T09:30:42.269Z",
     "titulo": "Quando sai o resultado da Vale (VALE3) do 2º tri de 2026?",
     "categoria": "Mercados",
@@ -2921,20 +2936,6 @@
     "imagemFeed": null,
     "imagemStory": null,
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1781974877881.mp4",
-    "tipo": "reel"
-  },
-  {
-    "data": "2026-06-20T14:33:28.259Z",
-    "titulo": "Salto de Wall Street, ‘rasteira’ do Federal Reserve e falas do maior investidor da bolsa brasileira: Veja as matérias mais lidas no Money Times",
-    "categoria": "Mercados",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/salto-de-wall-street-rasteira-do-federal-reserve-e-falas-do-maior-investidor-da-bolsa-brasileira-veja-as-materias-mais-lidas-no-money-times-rens/",
-    "postId": "18106206878092425",
-    "storyId": null,
-    "reelId": "18106206878092425",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1781965891839.mp4",
     "tipo": "reel"
   }
 ]
