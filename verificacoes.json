@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-19T10:01:16.121Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 90 min."
+  },
+  {
     "data": "2026-07-19T09:31:43.381Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 119 min."
@@ -1132,14 +1137,5 @@
     "data": "2026-07-16T16:31:23.667Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
-  },
-  {
-    "data": "2026-07-16T16:02:31.463Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (card): \"S&P 500 e Nasdaq caem com perdas em chips e foco em balanços e dados econômicos\".",
-    "postId": "18041887418619184",
-    "storyId": "18108322670013687",
-    "reelId": null,
-    "tipo": "card"
   }
 ]
