@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-19T21:57:16.731Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (card): \"Dino determina prisão domiciliar e afastamento de secretário do Maranhão\".",
+    "postId": "17882985747460310",
+    "storyId": "18099405116352860",
+    "reelId": null,
+    "tipo": "card"
+  },
+  {
+    "data": "2026-07-19T21:56:24.740Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 13): \"Dino determina prisão domiciliar e afastamento de secretário do Maranhão\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-19T21:31:03.795Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
@@ -1132,15 +1146,5 @@
     "data": "2026-07-17T06:31:10.644Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (03:31 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-17T06:19:58.675Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (03:19 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-17T06:01:21.024Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (03:01 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]

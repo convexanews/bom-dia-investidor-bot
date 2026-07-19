@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-19T21:57:16.729Z",
+    "titulo": "Dino determina prisão domiciliar e afastamento de secretário do Maranhão",
+    "categoria": "Política",
+    "fonte": "InfoMoney",
+    "link": "https://www.infomoney.com.br/politica/dino-determina-prisao-domiciliar-e-afastamento-de-secretario-do-maranhao/",
+    "postId": "17882985747460310",
+    "storyId": "18099405116352860",
+    "reelId": null,
+    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784498196163-feed.png",
+    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784498196163-story.png",
+    "videoUrl": null,
+    "tipo": "card",
+    "peso": 13
+  },
+  {
     "data": "2026-07-19T19:33:41.897Z",
     "titulo": "Anvisa fez 33 fiscalizações em farmácias que produzem canetas emagrecedoras em 2026",
     "categoria": "Consumo",
@@ -2926,19 +2941,5 @@
     "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1782032484554-story.png",
     "videoUrl": null,
     "tipo": "card"
-  },
-  {
-    "data": "2026-06-21T00:32:02.680Z",
-    "titulo": "Lotofácil hoje, concurso 3716: Confira o resultado sorteado neste sábado (20)",
-    "categoria": "Consumo",
-    "fonte": "InfoMoney",
-    "link": "https://www.infomoney.com.br/consumo/lotofacil-hoje-concurso-3716-confira-o-resultado-sorteado-neste-sabado-20/",
-    "postId": "18181100947401031",
-    "storyId": null,
-    "reelId": null,
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1782001878285-slide1.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1782001878285-slide2.png",
-    "videoUrl": null,
-    "tipo": "carrossel"
   }
 ]
