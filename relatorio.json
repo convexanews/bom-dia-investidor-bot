@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-19T09:30:42.269Z",
+    "titulo": "Quando sai o resultado da Vale (VALE3) do 2º tri de 2026?",
+    "categoria": "Mercados",
+    "fonte": "InfoMoney",
+    "link": "https://www.infomoney.com.br/mercados/quando-sai-o-resultado-da-vale-vale3-do-2o-tri-de-2026/",
+    "postId": "17953949735997100",
+    "storyId": "18086859821534887",
+    "reelId": null,
+    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784453398997-feed.png",
+    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784453398997-story.png",
+    "videoUrl": null,
+    "tipo": "card",
+    "peso": 29
+  },
+  {
     "data": "2026-07-19T00:32:27.889Z",
     "titulo": "Gol está perto de fechar acordo por jatos E2 da Embraer",
     "categoria": "Business",
@@ -2920,20 +2935,6 @@
     "imagemFeed": null,
     "imagemStory": null,
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1781965891839.mp4",
-    "tipo": "reel"
-  },
-  {
-    "data": "2026-06-20T12:02:56.876Z",
-    "titulo": "Cushman & Wakefield dispara 63% após alerta de preço-justo do InvestingPro",
-    "categoria": "MERCADO",
-    "fonte": "Investing.com",
-    "link": "https://br.investing.com/news/investment-ideas/cushman--wakefield-dispara-63-apos-alerta-de-precojusto-do-investingpro-93CH-1978673",
-    "postId": "18186944710380298",
-    "storyId": null,
-    "reelId": "18186944710380298",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1781956892359.mp4",
     "tipo": "reel"
   }
 ]
