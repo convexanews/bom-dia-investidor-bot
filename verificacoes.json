@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-19T00:32:27.891Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (carrossel): \"Gol está perto de fechar acordo por jatos E2 da Embraer\".",
+    "postId": "18332722732284144",
+    "storyId": "17899486707532348",
+    "reelId": null,
+    "tipo": "carrossel"
+  },
+  {
+    "data": "2026-07-19T00:30:58.384Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 10): \"Gol está perto de fechar acordo por jatos E2 da Embraer\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-19T00:01:16.189Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 25 min."
@@ -1143,15 +1157,5 @@
     "data": "2026-07-16T09:01:30.962Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 51): \"Ações da SIG despencam 22% após alerta de lucros e vendas fracas\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-16T08:31:19.465Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (05:31 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-16T08:01:39.384Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (05:01 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
