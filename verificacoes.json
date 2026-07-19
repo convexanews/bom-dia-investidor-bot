@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-19T12:00:59.561Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
+  },
+  {
     "data": "2026-07-19T11:32:36.824Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (carrossel): \"33% do eleitorado brasileiro vê culpa de Lula e Bolsonaro em aumento das bets, diz pesquisa\".",
@@ -1136,10 +1141,5 @@
     "storyId": null,
     "reelId": "18477497953102993",
     "tipo": "reel"
-  },
-  {
-    "data": "2026-07-16T18:31:06.972Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 48): \"Novas tarifas dos Estados Unidos impactam principalmente as empresas de pequeno porte, diz sócio da Voga Investimentos\". Realizando postagem..."
   }
 ]
