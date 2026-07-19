@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-19T03:30:58.921Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (00:30 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-07-19T03:01:13.813Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (00:01 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1148,10 +1153,5 @@
     "data": "2026-07-16T11:31:39.366Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 44): \"Fundo imobiliário anuncia recompra de até 10% das cotas; IFIX avança\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-16T11:01:20.546Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 1 min."
   }
 ]
