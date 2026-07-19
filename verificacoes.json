@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-19T22:01:05.285Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 117 min."
+  },
+  {
     "data": "2026-07-19T21:57:16.731Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (card): \"Dino determina prisão domiciliar e afastamento de secretário do Maranhão\".",
@@ -1141,10 +1146,5 @@
     "data": "2026-07-17T07:01:27.785Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (04:01 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-17T06:31:10.644Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (03:31 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
