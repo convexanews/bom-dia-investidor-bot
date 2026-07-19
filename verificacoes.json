@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-19T19:44:46.262Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 109 min."
+  },
+  {
     "data": "2026-07-19T19:33:41.898Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (carrossel): \"Anvisa fez 33 fiscalizações em farmácias que produzem canetas emagrecedoras em 2026\".",
@@ -1137,10 +1142,5 @@
     "data": "2026-07-17T03:48:10.512Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (00:48 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-17T03:31:29.540Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (00:31 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
