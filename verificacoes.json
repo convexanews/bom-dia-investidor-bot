@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-19T01:01:10.613Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (22:01 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-07-19T00:32:27.891Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (carrossel): \"Gol está perto de fechar acordo por jatos E2 da Embraer\".",
@@ -1152,10 +1157,5 @@
     "storyId": "17999250128957230",
     "reelId": null,
     "tipo": "card"
-  },
-  {
-    "data": "2026-07-16T09:01:30.962Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 51): \"Ações da SIG despencam 22% após alerta de lucros e vendas fracas\". Realizando postagem..."
   }
 ]
