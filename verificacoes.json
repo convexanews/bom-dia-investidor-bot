@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-20T23:30:58.285Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
+  },
+  {
     "data": "2026-07-20T23:02:28.996Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (carrossel): \"EUA impõem novas tarifas de 50% sobre alguns produtos canadenses\".",
@@ -1152,10 +1157,5 @@
     "data": "2026-07-17T23:01:10.311Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
-  },
-  {
-    "data": "2026-07-17T22:31:07.607Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 33 min."
   }
 ]
