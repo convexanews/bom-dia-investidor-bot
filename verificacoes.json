@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-20T00:04:09.748Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 120 min."
+  },
+  {
     "data": "2026-07-20T00:03:11.024Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (carrossel): \"Petróleo sobe e futuros de NY abrem estáveis com escalada do conflito entre Irã e EUA\".",
@@ -1151,10 +1156,5 @@
     "data": "2026-07-17T10:01:33.490Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 62 min."
-  },
-  {
-    "data": "2026-07-17T09:31:02.458Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
   }
 ]
