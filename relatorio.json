@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-20T13:57:18.021Z",
+    "titulo": "Nem guerra atrapalha e Ibovespa avança com otimismo no exterior; 5 coisas para saber antes de investir hoje (20)",
+    "categoria": "Mercados",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/ibovespa-5-coisas-20-7-26-apsa/",
+    "postId": "18088378997124862",
+    "storyId": "17889497490604721",
+    "reelId": null,
+    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784555790299-feed.png",
+    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784555790299-story.png",
+    "videoUrl": null,
+    "tipo": "card",
+    "peso": 58
+  },
+  {
     "data": "2026-07-20T00:03:11.023Z",
     "titulo": "Petróleo sobe e futuros de NY abrem estáveis com escalada do conflito entre Irã e EUA",
     "categoria": "Mercados",
@@ -2928,19 +2943,5 @@
     "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1782050492302-slide2.png",
     "videoUrl": null,
     "tipo": "carrossel"
-  },
-  {
-    "data": "2026-06-21T11:33:34.849Z",
-    "titulo": "Alta de 37% da SpaceX na 1ª semana já confirma entusiasmo para outros IPOs?",
-    "categoria": "Mercados",
-    "fonte": "InfoMoney",
-    "link": "https://www.infomoney.com.br/mercados/alta-de-37-da-spacex-na-1a-semana-ja-confirma-entusiasmo-para-outros-ipos/",
-    "postId": "18105725339317725",
-    "storyId": null,
-    "reelId": "18105725339317725",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782041485012.mp4",
-    "tipo": "reel"
   }
 ]
