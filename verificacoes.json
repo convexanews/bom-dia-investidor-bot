@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-20T16:31:28.571Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
+  },
+  {
     "data": "2026-07-20T16:03:03.717Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"Ação renda fixa: Esta elétrica rende mais que o Tesouro IPCA+ — e pode ganhar R$ 20 na bolsa; vale a compra?\".",
@@ -1152,10 +1157,5 @@
     "data": "2026-07-17T16:31:18.511Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 56): \"Ações da Netflix tombam após resultado com cenário de desaceleração do crescimento\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-17T16:01:33.584Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
   }
 ]
