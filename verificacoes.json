@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-20T15:30:56.690Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 27 min."
+  },
+  {
     "data": "2026-07-20T15:29:20.327Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 28 min."
@@ -1148,18 +1153,5 @@
     "data": "2026-07-17T15:31:16.310Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 32 min."
-  },
-  {
-    "data": "2026-07-17T15:02:34.719Z",
-    "resultado": "reel_postado",
-    "mensagem": "Resumo em vídeo do dia publicado com 4 notícia(s).",
-    "reelId": "18087606953641025",
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1784300487799.mp4",
-    "noticias": [
-      "S&P 500 e Nasdaq caem com perdas em chips e foco em balanços e dados econômicos",
-      "Netflix desaponta em receita no 2T26 e reduz guidance para o ano; ação tomba 8% em NY",
-      "Retaliação do Brasil aos EUA pode envolver royalties do audiovisual e patentes farmacêuticas, dizem fontes",
-      "Fundo imobiliário renova contrato com Banrisul (BRSR6) por mais 5 anos; IFIX avança"
-    ]
   }
 ]
