@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-20T15:29:20.327Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 28 min."
+  },
+  {
     "data": "2026-07-20T15:12:48.327Z",
     "resultado": "carrossel_educativo",
     "mensagem": "Carrossel educativo publicado: Tesouro Direto",
@@ -1156,10 +1161,5 @@
       "Retaliação do Brasil aos EUA pode envolver royalties do audiovisual e patentes farmacêuticas, dizem fontes",
       "Fundo imobiliário renova contrato com Banrisul (BRSR6) por mais 5 anos; IFIX avança"
     ]
-  },
-  {
-    "data": "2026-07-17T15:01:14.873Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 62 min."
   }
 ]
