@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-20T22:01:07.687Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 50 min."
+  },
+  {
     "data": "2026-07-20T21:54:39.797Z",
     "resultado": "carrossel_fechamento",
     "mensagem": "Carrossel de fechamento publicado. Ibovespa: 173.371 -0,26%",
@@ -1160,10 +1165,5 @@
     "data": "2026-07-17T21:31:10.919Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 93 min."
-  },
-  {
-    "data": "2026-07-17T21:22:43.261Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 102 min."
   }
 ]
