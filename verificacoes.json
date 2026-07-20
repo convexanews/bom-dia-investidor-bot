@@ -1,5 +1,18 @@
 [
   {
+    "data": "2026-07-20T15:02:22.452Z",
+    "resultado": "reel_postado",
+    "mensagem": "Resumo em vídeo do dia publicado com 4 notícia(s).",
+    "reelId": "17871482496689733",
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1784559682008.mp4",
+    "noticias": [
+      "Anvisa fez 33 fiscalizações em farmácias que produzem canetas emagrecedoras em 2026",
+      "Dino determina prisão domiciliar e afastamento de secretário do Maranhão",
+      "Petróleo sobe e futuros de NY abrem estáveis com escalada do conflito entre Irã e EUA",
+      "Nem guerra atrapalha e Ibovespa avança com otimismo no exterior; 5 coisas para saber antes de investir hoje (20)"
+    ]
+  },
+  {
     "data": "2026-07-20T15:01:14.245Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 57 min."
@@ -1146,10 +1159,5 @@
     "data": "2026-07-17T14:31:06.905Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 93 min."
-  },
-  {
-    "data": "2026-07-17T14:13:22.029Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 110 min."
   }
 ]
