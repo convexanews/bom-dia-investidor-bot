@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-20T16:03:03.717Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Ação renda fixa: Esta elétrica rende mais que o Tesouro IPCA+ — e pode ganhar R$ 20 na bolsa; vale a compra?\".",
+    "postId": "18142541023556298",
+    "storyId": null,
+    "reelId": "18142541023556298",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-07-20T16:01:00.372Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 48): \"Ação renda fixa: Esta elétrica rende mais que o Tesouro IPCA+ — e pode ganhar R$ 20 na bolsa; vale a compra?\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-20T15:30:56.690Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 27 min."
@@ -1143,15 +1157,5 @@
     "data": "2026-07-17T16:01:33.584Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
-  },
-  {
-    "data": "2026-07-17T15:57:06.612Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 7 min."
-  },
-  {
-    "data": "2026-07-17T15:31:16.310Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 32 min."
   }
 ]
