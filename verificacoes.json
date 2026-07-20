@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-20T22:02:19.994Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 49 min."
+  },
+  {
     "data": "2026-07-20T22:01:07.687Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 50 min."
@@ -1160,10 +1165,5 @@
       "PETR4 +2,53%",
       "PRIO3 +1,87%"
     ]
-  },
-  {
-    "data": "2026-07-17T21:31:10.919Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 93 min."
   }
 ]
