@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-20T19:14:22.659Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 79 min."
+  },
+  {
     "data": "2026-07-20T19:00:56.374Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
@@ -1152,10 +1157,5 @@
     "storyId": null,
     "reelId": "18123595150689307",
     "tipo": "reel"
-  },
-  {
-    "data": "2026-07-17T18:35:29.661Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 62): \"Mais 12,5% e temor com reciprocidade: tarifaço ainda não foi precificado pelo mercado\". Realizando postagem..."
   }
 ]
