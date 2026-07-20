@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-20T23:31:44.806Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 91 min."
+  },
+  {
     "data": "2026-07-20T23:30:58.285Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
@@ -1152,10 +1157,5 @@
     "data": "2026-07-17T23:25:42.951Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 31): \"Indicador de risco de crédito da Oracle atinge recorde em meio a preocupações com gastos em IA\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-17T23:01:10.311Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
   }
 ]
