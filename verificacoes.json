@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-20T15:01:14.245Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 57 min."
+  },
+  {
     "data": "2026-07-20T14:30:54.251Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 87 min."
@@ -1146,14 +1151,5 @@
     "data": "2026-07-17T14:13:22.029Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 110 min."
-  },
-  {
-    "data": "2026-07-17T14:03:09.346Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"B3 lança três novos índices de renda fixa para acompanhar títulos do Tesouro IPCA+\".",
-    "postId": "18471987406109753",
-    "storyId": null,
-    "reelId": "18471987406109753",
-    "tipo": "reel"
   }
 ]
