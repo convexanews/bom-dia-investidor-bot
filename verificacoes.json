@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-20T23:02:28.996Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (carrossel): \"EUA impõem novas tarifas de 50% sobre alguns produtos canadenses\".",
+    "postId": "18108424591823064",
+    "storyId": "18170252410440612",
+    "reelId": null,
+    "tipo": "carrossel"
+  },
+  {
+    "data": "2026-07-20T23:01:17.611Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 21): \"EUA impõem novas tarifas de 50% sobre alguns produtos canadenses\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-20T22:30:53.042Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 20 min."
@@ -1143,15 +1157,5 @@
     "data": "2026-07-17T22:31:07.607Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 33 min."
-  },
-  {
-    "data": "2026-07-17T22:23:51.701Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 41 min."
-  },
-  {
-    "data": "2026-07-17T22:01:21.460Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 63 min."
   }
 ]

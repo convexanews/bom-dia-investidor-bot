@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-20T23:02:28.994Z",
+    "titulo": "EUA impõem novas tarifas de 50% sobre alguns produtos canadenses",
+    "categoria": "MERCADO",
+    "fonte": "Investing.com",
+    "link": "https://br.investing.com/news/economy-news/eua-impoem-novas-tarifas-de-50-sobre-alguns-produtos-canadenses-2007457",
+    "postId": "18108424591823064",
+    "storyId": "18170252410440612",
+    "reelId": null,
+    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784588485418-slide1.png",
+    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784588485418-story.png",
+    "videoUrl": null,
+    "tipo": "carrossel",
+    "peso": 21
+  },
+  {
     "data": "2026-07-20T20:50:46.252Z",
     "titulo": "Wall Street cai após falas de Trump sobre Irã; semicondutores perdem força",
     "categoria": "Mercados",
@@ -2932,19 +2947,5 @@
     "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1782084072027-slide2.png",
     "videoUrl": null,
     "tipo": "carrossel"
-  },
-  {
-    "data": "2026-06-21T21:02:07.438Z",
-    "titulo": "Coca-Cola e Receita Federal dos EUA travam batalha judicial com US$ 20 bi em jogo",
-    "categoria": "Mercados",
-    "fonte": "InfoMoney",
-    "link": "https://www.infomoney.com.br/mercados/coca-cola-receita-federal-eua-travam-batalha-judicial/",
-    "postId": "17887993800583441",
-    "storyId": "18086476403425569",
-    "reelId": null,
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1782075681983-feed.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1782075681983-story.png",
-    "videoUrl": null,
-    "tipo": "card"
   }
 ]
