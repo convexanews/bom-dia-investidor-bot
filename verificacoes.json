@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-20T00:03:11.024Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (carrossel): \"Petróleo sobe e futuros de NY abrem estáveis com escalada do conflito entre Irã e EUA\".",
+    "postId": "18112233760908229",
+    "storyId": "18011804783923040",
+    "reelId": null,
+    "tipo": "carrossel"
+  },
+  {
+    "data": "2026-07-20T00:01:43.833Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 12): \"Petróleo sobe e futuros de NY abrem estáveis com escalada do conflito entre Irã e EUA\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-19T23:55:59.950Z",
     "resultado": "reel_postado",
     "mensagem": "Resumo em vídeo do dia publicado com 6 notícia(s).",
@@ -1142,19 +1156,5 @@
     "data": "2026-07-17T09:31:02.458Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
-  },
-  {
-    "data": "2026-07-17T09:02:54.060Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"Prévia do PIB no Brasil, indústria e confiança consumidor nos EUA e mais destaques\".",
-    "postId": "17980539123047334",
-    "storyId": null,
-    "reelId": "17980539123047334",
-    "tipo": "reel"
-  },
-  {
-    "data": "2026-07-17T09:01:19.249Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 90): \"Prévia do PIB no Brasil, indústria e confiança consumidor nos EUA e mais destaques\". Realizando postagem..."
   }
 ]

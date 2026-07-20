@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-20T00:03:11.023Z",
+    "titulo": "Petróleo sobe e futuros de NY abrem estáveis com escalada do conflito entre Irã e EUA",
+    "categoria": "Mercados",
+    "fonte": "InfoMoney",
+    "link": "https://www.infomoney.com.br/mercados/petroleo-sobe-e-futuros-de-ny-abrem-estaveis-com-escalada-do-conflito-entre-ira-e-eua/",
+    "postId": "18112233760908229",
+    "storyId": "18011804783923040",
+    "reelId": null,
+    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784505710976-slide1.png",
+    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784505710976-story.png",
+    "videoUrl": null,
+    "tipo": "carrossel",
+    "peso": 12
+  },
+  {
     "data": "2026-07-19T21:57:16.729Z",
     "titulo": "Dino determina prisão domiciliar e afastamento de secretário do Maranhão",
     "categoria": "Política",
@@ -2927,19 +2942,5 @@
     "imagemStory": null,
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782041485012.mp4",
     "tipo": "reel"
-  },
-  {
-    "data": "2026-06-21T09:02:09.715Z",
-    "titulo": "Bitcoin sobe acima de US$ 64.000 com negociações EUA-Irã e apostas otimistas em opções",
-    "categoria": "MERCADO",
-    "fonte": "Investing.com",
-    "link": "https://br.investing.com/news/cryptocurrency-news/bitcoin-sobe-acima-de-us-64000-com-negociacoes-entre-eua-e-ira-e-apostas-otimistas-em-opcoes-1978809",
-    "postId": "18102704234021130",
-    "storyId": "18079181990389999",
-    "reelId": null,
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1782032484554-feed.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1782032484554-story.png",
-    "videoUrl": null,
-    "tipo": "card"
   }
 ]
