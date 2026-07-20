@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-20T18:32:55.070Z",
+    "titulo": "Ouro fecha perto da estabilidade com juros dos Treasuries e dólar",
+    "categoria": "Mercados",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/ouro-fecha-perto-da-estabilidade-com-juros-dos-treasuries-e-dolar-garg/",
+    "postId": "18127806763645379",
+    "storyId": "17855955861696903",
+    "reelId": null,
+    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784572290216-slide1.png",
+    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784572290216-story.png",
+    "videoUrl": null,
+    "tipo": "carrossel",
+    "peso": 43
+  },
+  {
     "data": "2026-07-20T16:03:03.715Z",
     "titulo": "Ação renda fixa: Esta elétrica rende mais que o Tesouro IPCA+ — e pode ganhar R$ 20 na bolsa; vale a compra?",
     "categoria": "Mercados",
@@ -2930,19 +2945,5 @@
     "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1782066685273-slide2.png",
     "videoUrl": null,
     "tipo": "carrossel"
-  },
-  {
-    "data": "2026-06-21T16:19:06.565Z",
-    "titulo": "Petrobras (PETR3), Assaí (ASAI3) e mais duas empresas pagam dividendos nesta semana; veja o calendário",
-    "categoria": "Empresas",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/dividendos-da-semana-19-6-26-apsa/",
-    "postId": "17928488943345413",
-    "storyId": null,
-    "reelId": "17928488943345413",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782058633066.mp4",
-    "tipo": "reel"
   }
 ]

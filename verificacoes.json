@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-20T18:32:55.071Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (carrossel): \"Ouro fecha perto da estabilidade com juros dos Treasuries e dólar\".",
+    "postId": "18127806763645379",
+    "storyId": "17855955861696903",
+    "reelId": null,
+    "tipo": "carrossel"
+  },
+  {
+    "data": "2026-07-20T18:31:22.785Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 43): \"Ouro fecha perto da estabilidade com juros dos Treasuries e dólar\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-20T18:01:13.281Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
@@ -1143,15 +1157,5 @@
     "data": "2026-07-17T18:31:11.971Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
-  },
-  {
-    "data": "2026-07-17T18:01:25.381Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 32 min."
-  },
-  {
-    "data": "2026-07-17T17:31:02.442Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 62 min."
   }
 ]
