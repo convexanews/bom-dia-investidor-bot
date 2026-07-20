@@ -1,5 +1,12 @@
 [
   {
+    "data": "2026-07-20T15:12:48.327Z",
+    "resultado": "carrossel_educativo",
+    "mensagem": "Carrossel educativo publicado: Tesouro Direto",
+    "postId": "18399053737091742",
+    "tema": "TESOURO"
+  },
+  {
     "data": "2026-07-20T15:02:22.452Z",
     "resultado": "reel_postado",
     "mensagem": "Resumo em vídeo do dia publicado com 4 notícia(s).",
@@ -1154,10 +1161,5 @@
     "data": "2026-07-17T15:01:14.873Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 62 min."
-  },
-  {
-    "data": "2026-07-17T14:31:06.905Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 93 min."
   }
 ]
