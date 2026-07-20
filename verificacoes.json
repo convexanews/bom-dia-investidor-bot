@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-20T21:30:58.687Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 80 min."
+  },
+  {
     "data": "2026-07-20T21:00:55.069Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 110 min."
@@ -1152,10 +1157,5 @@
     "storyId": null,
     "reelId": "18609541807023058",
     "tipo": "reel"
-  },
-  {
-    "data": "2026-07-17T21:01:24.133Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 80): \"Wall Street tomba 1% na semana com tecnologia e alta do petróleo; Nasdaq lidera perdas\". Realizando postagem..."
   }
 ]
