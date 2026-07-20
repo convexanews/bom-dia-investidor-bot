@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-20T20:50:46.252Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Wall Street cai após falas de Trump sobre Irã; semicondutores perdem força\".",
+    "postId": "18333516763282614",
+    "storyId": null,
+    "reelId": "18333516763282614",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-07-20T20:49:25.260Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 65): \"Wall Street cai após falas de Trump sobre Irã; semicondutores perdem força\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-20T20:31:31.080Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
@@ -1143,15 +1157,5 @@
     "data": "2026-07-17T20:31:06.807Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 7 min."
-  },
-  {
-    "data": "2026-07-17T20:07:43.089Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 30 min."
-  },
-  {
-    "data": "2026-07-17T20:01:15.272Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 36 min."
   }
 ]

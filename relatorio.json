@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-20T20:50:46.252Z",
+    "titulo": "Wall Street cai após falas de Trump sobre Irã; semicondutores perdem força",
+    "categoria": "Mercados",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/wall-street-20-7-26-apsa/",
+    "postId": "18333516763282614",
+    "storyId": null,
+    "reelId": "18333516763282614",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1784580570821.mp4",
+    "tipo": "reel",
+    "peso": 65
+  },
+  {
     "data": "2026-07-20T18:32:55.070Z",
     "titulo": "Ouro fecha perto da estabilidade com juros dos Treasuries e dólar",
     "categoria": "Mercados",
@@ -2931,19 +2946,5 @@
     "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1782075681983-story.png",
     "videoUrl": null,
     "tipo": "card"
-  },
-  {
-    "data": "2026-06-21T18:32:11.753Z",
-    "titulo": "Irã rejeita bomba atômica, mas não abre mão do direito de enriquecer urânio",
-    "categoria": "Mundo",
-    "fonte": "InfoMoney",
-    "link": "https://www.infomoney.com.br/mundo/ira-rejeita-bomba-atomica-nao-mao-direito-enriquecer-uranio/",
-    "postId": "18081941672648070",
-    "storyId": null,
-    "reelId": null,
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1782066685273-slide1.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1782066685273-slide2.png",
-    "videoUrl": null,
-    "tipo": "carrossel"
   }
 ]
