@@ -1,5 +1,18 @@
 [
   {
+    "data": "2026-07-20T23:56:09.743Z",
+    "resultado": "reel_postado",
+    "mensagem": "Resumo em vídeo do dia publicado com 4 notícia(s).",
+    "reelId": "18079515614298317",
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1784591707961.mp4",
+    "noticias": [
+      "Petróleo sobe e futuros de NY abrem estáveis com escalada do conflito entre Irã e EUA",
+      "Nem guerra atrapalha e Ibovespa avança com otimismo no exterior; 5 coisas para saber antes de investir hoje (20)",
+      "Ouro fecha perto da estabilidade com juros dos Treasuries e dólar",
+      "EUA impõem novas tarifas de 50% sobre alguns produtos canadenses"
+    ]
+  },
+  {
     "data": "2026-07-20T23:31:44.806Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 91 min."
@@ -1152,10 +1165,5 @@
     "storyId": "18092452211076024",
     "reelId": null,
     "tipo": "carrossel"
-  },
-  {
-    "data": "2026-07-17T23:25:42.951Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 31): \"Indicador de risco de crédito da Oracle atinge recorde em meio a preocupações com gastos em IA\". Realizando postagem..."
   }
 ]
