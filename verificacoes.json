@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-20T02:31:03.135Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (23:31 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-07-20T02:01:04.466Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (23:01 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1151,10 +1156,5 @@
     "storyId": "18086390327406985",
     "reelId": null,
     "tipo": "carrossel"
-  },
-  {
-    "data": "2026-07-17T11:31:09.937Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 34): \"Fundo imobiliário renova contrato com Banrisul (BRSR6) por mais 5 anos; IFIX avança\". Realizando postagem..."
   }
 ]
