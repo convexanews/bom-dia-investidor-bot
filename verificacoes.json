@@ -1,5 +1,16 @@
 [
   {
+    "data": "2026-07-21T15:02:54.918Z",
+    "resultado": "reel_postado",
+    "mensagem": "Resumo em vídeo do dia publicado com 2 notícia(s).",
+    "reelId": "18130307593651554",
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1784646114866.mp4",
+    "noticias": [
+      "Ouro fecha perto da estabilidade com juros dos Treasuries e dólar",
+      "EUA impõem novas tarifas de 50% sobre alguns produtos canadenses"
+    ]
+  },
+  {
     "data": "2026-07-21T15:01:41.283Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 83 min."
@@ -1132,10 +1143,5 @@
     "data": "2026-07-18T17:01:16.323Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 6 min."
-  },
-  {
-    "data": "2026-07-18T16:31:14.830Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 37 min."
   }
 ]
