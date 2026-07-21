@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-21T21:00:58.522Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
+  },
+  {
     "data": "2026-07-21T20:59:19.784Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 4 min."
@@ -1138,10 +1143,5 @@
     "storyId": "18083466179230181",
     "reelId": null,
     "tipo": "card"
-  },
-  {
-    "data": "2026-07-18T22:24:47.088Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 11): \"EUA afirmam que militares foram mortos na Jordânia; líder do Irã faz advertência\". Realizando postagem..."
   }
 ]
