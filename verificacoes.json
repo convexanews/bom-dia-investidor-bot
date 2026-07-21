@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-21T14:24:10.291Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Wall Street avança com apoio de semicondutores; tarifas e conflito no Oriente Médio seguem no radar\".",
+    "postId": "18091295177567567",
+    "storyId": null,
+    "reelId": "18091295177567567",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-07-21T14:21:42.782Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 75): \"Wall Street avança com apoio de semicondutores; tarifas e conflito no Oriente Médio seguem no radar\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-21T14:02:54.396Z",
     "resultado": "erro",
     "mensagem": "Erro na execução automática: Erro ao criar container do reel: {\"error\":{\"message\":\"User access is restricted\",\"type\":\"OAuthException\",\"code\":25,\"error_subcode\":2207050,\"is_transient\":false,\"error_user_title\":\"User is restricted\",\"error_user_msg\":\"The Instagram account is restricted.\",\"fbtrace_id\":\"Av_bBudSrenEdTUGwIpxB0F\"}}"
@@ -1123,19 +1137,5 @@
     "data": "2026-07-18T16:01:17.536Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 66 min."
-  },
-  {
-    "data": "2026-07-18T15:31:08.185Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 97 min."
-  },
-  {
-    "data": "2026-07-18T15:07:15.050Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (carrossel): \"Incêndios no Canadá desencadeiam nova ameaça tarifária de Trump e colocam final da Copa em alerta\".",
-    "postId": "17869608027691665",
-    "storyId": "18072746615372100",
-    "reelId": null,
-    "tipo": "carrossel"
   }
 ]
