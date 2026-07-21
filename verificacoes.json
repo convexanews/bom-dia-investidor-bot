@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-21T22:05:01.787Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 88 min."
+  },
+  {
     "data": "2026-07-21T22:00:55.773Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
@@ -1150,10 +1155,5 @@
       "Petrobras (PETR4) e BB (BBAS3) à venda? Zema promete privatização para bancar obras",
       "EUA afirmam que militares foram mortos na Jordânia; líder do Irã faz advertência"
     ]
-  },
-  {
-    "data": "2026-07-18T23:30:58.589Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 55 min."
   }
 ]
