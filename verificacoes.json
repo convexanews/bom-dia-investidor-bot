@@ -1,5 +1,15 @@
 [
   {
+    "data": "2026-07-21T13:01:28.169Z",
+    "resultado": "erro",
+    "mensagem": "Erro na execução automática: Erro ao criar container do feed: {\"error\":{\"message\":\"User access is restricted\",\"type\":\"OAuthException\",\"code\":25,\"error_subcode\":2207050,\"is_transient\":false,\"error_user_title\":\"User is restricted\",\"error_user_msg\":\"The Instagram account is restricted.\",\"fbtrace_id\":\"A055yYbO3p5OCQUb1CpqekD\"}}"
+  },
+  {
+    "data": "2026-07-21T13:00:57.919Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 37): \"Minério de ferro despenca com retomada da oferta após atrasos causados por tufão\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-21T12:57:05.520Z",
     "resultado": "erro",
     "mensagem": "Erro na execução automática: Erro ao criar container do feed: {\"error\":{\"message\":\"User access is restricted\",\"type\":\"OAuthException\",\"code\":25,\"error_subcode\":2207050,\"is_transient\":false,\"error_user_title\":\"User is restricted\",\"error_user_msg\":\"The Instagram account is restricted.\",\"fbtrace_id\":\"AVdN4iXRv0KcJTj5v9bS6R0\"}}"
@@ -1134,16 +1144,5 @@
     "data": "2026-07-18T14:31:04.853Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 33 min."
-  },
-  {
-    "data": "2026-07-18T14:23:10.005Z",
-    "resultado": "comparativo_precos",
-    "mensagem": "Comparativo de preços publicado. Ibovespa +28,1%, Dólar -8,2%, Bitcoin -45,7%.",
-    "postId": "18009350819949040"
-  },
-  {
-    "data": "2026-07-18T14:01:10.849Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 62 min."
   }
 ]
