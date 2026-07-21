@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-21T01:00:55.423Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (22:00 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-07-21T00:31:07.439Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 32 min."
@@ -1149,17 +1154,5 @@
     "data": "2026-07-18T00:01:16.295Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 86 min."
-  },
-  {
-    "data": "2026-07-17T23:51:38.328Z",
-    "resultado": "reel_postado",
-    "mensagem": "Resumo em vídeo do dia publicado com 3 notícia(s).",
-    "reelId": "17959176795171118",
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1784332240998.mp4",
-    "noticias": [
-      "Fundo imobiliário renova contrato com Banrisul (BRSR6) por mais 5 anos; IFIX avança",
-      "Ações da Netflix tombam após resultado com cenário de desaceleração do crescimento",
-      "Indicador de risco de crédito da Oracle atinge recorde em meio a preocupações com gastos em IA"
-    ]
   }
 ]
