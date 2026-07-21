@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-21T16:32:25.432Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (carrossel): \"Ibovespa Hoje Ao Vivo: Bolsa cai e perde os 173 mil pontos\".",
+    "postId": "17932604337359845",
+    "storyId": "18095385530340255",
+    "reelId": null,
+    "tipo": "carrossel"
+  },
+  {
+    "data": "2026-07-21T16:31:04.042Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 51): \"Ibovespa Hoje Ao Vivo: Bolsa cai e perde os 173 mil pontos\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-21T16:03:36.772Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 21 min."
@@ -1129,15 +1143,5 @@
     "data": "2026-07-18T18:30:57.660Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 62 min."
-  },
-  {
-    "data": "2026-07-18T18:01:14.911Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
-  },
-  {
-    "data": "2026-07-18T17:33:36.654Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 119 min."
   }
 ]

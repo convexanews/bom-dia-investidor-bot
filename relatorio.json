@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-21T16:32:25.431Z",
+    "titulo": "Ibovespa Hoje Ao Vivo: Bolsa cai e perde os 173 mil pontos",
+    "categoria": "Mercados",
+    "fonte": "InfoMoney",
+    "link": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-21072026/",
+    "postId": "17932604337359845",
+    "storyId": "18095385530340255",
+    "reelId": null,
+    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784651473751-slide1.png",
+    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784651473751-story.png",
+    "videoUrl": null,
+    "tipo": "carrossel",
+    "peso": 51
+  },
+  {
     "data": "2026-07-21T14:24:10.289Z",
     "titulo": "Wall Street avança com apoio de semicondutores; tarifas e conflito no Oriente Médio seguem no radar",
     "categoria": "Mercados",
@@ -2933,20 +2948,6 @@
     "imagemFeed": null,
     "imagemStory": null,
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782127894030.mp4",
-    "tipo": "reel"
-  },
-  {
-    "data": "2026-06-22T09:03:46.625Z",
-    "titulo": "Dow Jones Futuro cai com foco em negociações entre EUA e Irã e na inflação",
-    "categoria": "Mercados",
-    "fonte": "InfoMoney",
-    "link": "https://www.infomoney.com.br/mercados/dow-jones-futuro-cai-com-foco-em-negociacoes-entre-eua-e-ira-e-na-inflacao/",
-    "postId": "18076910942290748",
-    "storyId": null,
-    "reelId": "18076910942290748",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782118888292.mp4",
     "tipo": "reel"
   }
 ]
