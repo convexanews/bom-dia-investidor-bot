@@ -1,5 +1,15 @@
 [
   {
+    "data": "2026-07-21T14:02:54.396Z",
+    "resultado": "erro",
+    "mensagem": "Erro na execução automática: Erro ao criar container do reel: {\"error\":{\"message\":\"User access is restricted\",\"type\":\"OAuthException\",\"code\":25,\"error_subcode\":2207050,\"is_transient\":false,\"error_user_title\":\"User is restricted\",\"error_user_msg\":\"The Instagram account is restricted.\",\"fbtrace_id\":\"Av_bBudSrenEdTUGwIpxB0F\"}}"
+  },
+  {
+    "data": "2026-07-21T14:01:51.125Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 75): \"Wall Street avança com apoio de semicondutores; tarifas e conflito no Oriente Médio seguem no radar\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-21T13:31:50.072Z",
     "resultado": "erro",
     "mensagem": "Erro na execução automática: Erro ao criar container do feed: {\"error\":{\"message\":\"User access is restricted\",\"type\":\"OAuthException\",\"code\":25,\"error_subcode\":2207050,\"is_transient\":false,\"error_user_title\":\"User is restricted\",\"error_user_msg\":\"The Instagram account is restricted.\",\"fbtrace_id\":\"AR3SsRyBRyG6hctQFag1TLG\"}}"
@@ -1127,22 +1137,5 @@
     "storyId": "18072746615372100",
     "reelId": null,
     "tipo": "carrossel"
-  },
-  {
-    "data": "2026-07-18T15:05:49.926Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 33): \"Incêndios no Canadá desencadeiam nova ameaça tarifária de Trump e colocam final da Copa em alerta\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-18T15:03:31.298Z",
-    "resultado": "reel_postado",
-    "mensagem": "Resumo em vídeo do dia publicado com 3 notícia(s).",
-    "reelId": "17885947272434537",
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1784386890060.mp4",
-    "noticias": [
-      "Ações da Netflix tombam após resultado com cenário de desaceleração do crescimento",
-      "Indicador de risco de crédito da Oracle atinge recorde em meio a preocupações com gastos em IA",
-      "Guerra entre EUA e Irã se intensifica com novos ataques no Golfo; petróleo atinge maior nível em mais de um mês"
-    ]
   }
 ]
