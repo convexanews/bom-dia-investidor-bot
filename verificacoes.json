@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-21T19:02:52.904Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Bitcoin (BTC) em disparada? Até onde a criptomoeda pode chegar, segundo especialistas\".",
+    "postId": "18122447902686188",
+    "storyId": null,
+    "reelId": "18122447902686188",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-07-21T19:01:12.830Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 64): \"Bitcoin (BTC) em disparada? Até onde a criptomoeda pode chegar, segundo especialistas\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-21T18:30:55.669Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
@@ -1129,19 +1143,5 @@
     "data": "2026-07-18T20:30:57.473Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
-  },
-  {
-    "data": "2026-07-18T20:13:16.712Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 110 min."
-  },
-  {
-    "data": "2026-07-18T20:02:24.109Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (carrossel): \"Petrobras (PETR4) e BB (BBAS3) à venda? Zema promete privatização para bancar obras\".",
-    "postId": "18098971691596601",
-    "storyId": "17893970793564440",
-    "reelId": null,
-    "tipo": "carrossel"
   }
 ]
