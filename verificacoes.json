@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-21T16:03:36.772Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 21 min."
+  },
+  {
     "data": "2026-07-21T15:30:55.676Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 54 min."
@@ -1134,14 +1139,5 @@
     "data": "2026-07-18T17:33:36.654Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 119 min."
-  },
-  {
-    "data": "2026-07-18T17:32:27.892Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (card): \"Iguatemi (IGTI11) e mais 4 ações para investir na semana, segundo Terra Investimentos\".",
-    "postId": "18109612361287131",
-    "storyId": "17885757579434876",
-    "reelId": null,
-    "tipo": "card"
   }
 ]
