@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-21T23:00:58.855Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 32 min."
+  },
+  {
     "data": "2026-07-21T22:31:00.208Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 62 min."
@@ -1141,10 +1146,5 @@
     "data": "2026-07-19T00:30:58.384Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 10): \"Gol está perto de fechar acordo por jatos E2 da Embraer\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-19T00:01:16.189Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 25 min."
   }
 ]
