@@ -1,5 +1,15 @@
 [
   {
+    "data": "2026-07-21T12:32:34.746Z",
+    "resultado": "erro",
+    "mensagem": "Erro na execução automática: Erro ao criar container do feed: {\"error\":{\"message\":\"User access is restricted\",\"type\":\"OAuthException\",\"code\":25,\"error_subcode\":2207050,\"is_transient\":false,\"error_user_title\":\"User is restricted\",\"error_user_msg\":\"The Instagram account is restricted.\",\"fbtrace_id\":\"AU2Njgs9JJ3nieDlIpkqgKY\"}}"
+  },
+  {
+    "data": "2026-07-21T12:32:04.440Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 58): \"Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta terça\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-21T12:27:19.359Z",
     "resultado": "erro_story_glossario",
     "mensagem": "Erro ao publicar story do glossário: Erro ao criar container de stories: {\"error\":{\"message\":\"User access is restricted\",\"type\":\"OAuthException\",\"code\":25,\"error_subcode\":2207050,\"is_transient\":false,\"error_user_title\":\"User is restricted\",\"error_user_msg\":\"The Instagram account is restricted.\",\"fbtrace_id\":\"AWtJaakpKwdyulVoqelrXkF\"}}"
@@ -1135,19 +1145,5 @@
     "data": "2026-07-18T13:30:59.648Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 93 min."
-  },
-  {
-    "data": "2026-07-18T13:03:05.330Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"Transferência de US$ 288 milhões em cripto, top picks de bancos e compras da SLC (SLCE3): o que bombou no Money Times nesta semana\".",
-    "postId": "18076430237325374",
-    "storyId": null,
-    "reelId": "18076430237325374",
-    "tipo": "reel"
-  },
-  {
-    "data": "2026-07-18T13:01:17.750Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 37): \"Transferência de US$ 288 milhões em cripto, top picks de bancos e compras da SLC (SLCE3): o que bombou no Money Times nesta semana\". Realizando postagem..."
   }
 ]
