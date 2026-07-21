@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-21T23:51:08.405Z",
+    "titulo": "Fiagros atingem marca de 600 mil investidores; SNAG11 se destaca entre mais negociados",
+    "categoria": "Fiagro",
+    "fonte": "Suno",
+    "link": "https://www.suno.com.br/noticias/fiagros-atingem-marca-de-600-mil-investidores-snag11-se-destaca-entre-mais-negociados/",
+    "postId": "18608191930010984",
+    "storyId": "18454205053136458",
+    "reelId": null,
+    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784677815293-feed.png",
+    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784677815293-story.png",
+    "videoUrl": null,
+    "tipo": "card",
+    "peso": 26
+  },
+  {
     "data": "2026-07-21T21:32:21.978Z",
     "titulo": "Bolsas da NY sobem com impulso de semicondutores, mas com balanços e guerra no radar",
     "categoria": "Mercados",
@@ -2936,20 +2951,6 @@
     "imagemFeed": null,
     "imagemStory": null,
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782154205459.mp4",
-    "tipo": "reel"
-  },
-  {
-    "data": "2026-06-22T16:33:20.903Z",
-    "titulo": "Os próximos 60 dias serão de forte volatilidade nos mercados, alerta O2 Capital",
-    "categoria": "Mercados",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/o2-capital-ve-apenas-mais-um-corte-da-selic-e-alerta-para-60-dias-de-forte-volatilidade-nos-mercados-globais-ceci/",
-    "postId": "17972973440900699",
-    "storyId": null,
-    "reelId": "17972973440900699",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782145894019.mp4",
     "tipo": "reel"
   }
 ]

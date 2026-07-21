@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-21T23:51:08.408Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (card): \"Fiagros atingem marca de 600 mil investidores; SNAG11 se destaca entre mais negociados\".",
+    "postId": "18608191930010984",
+    "storyId": "18454205053136458",
+    "reelId": null,
+    "tipo": "card"
+  },
+  {
+    "data": "2026-07-21T23:50:04.721Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 26): \"Fiagros atingem marca de 600 mil investidores; SNAG11 se destaca entre mais negociados\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-21T23:31:11.007Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
@@ -1132,19 +1146,5 @@
     "data": "2026-07-19T01:05:04.212Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (22:05 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-19T01:01:10.613Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (22:01 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-19T00:32:27.891Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (carrossel): \"Gol está perto de fechar acordo por jatos E2 da Embraer\".",
-    "postId": "18332722732284144",
-    "storyId": "17899486707532348",
-    "reelId": null,
-    "tipo": "carrossel"
   }
 ]
