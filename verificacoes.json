@@ -1,5 +1,15 @@
 [
   {
+    "data": "2026-07-21T10:31:27.993Z",
+    "resultado": "erro",
+    "mensagem": "Erro na execução automática: Erro ao criar container do feed: {\"error\":{\"message\":\"User access is restricted\",\"type\":\"OAuthException\",\"code\":25,\"error_subcode\":2207050,\"is_transient\":false,\"error_user_title\":\"User is restricted\",\"error_user_msg\":\"The Instagram account is restricted.\",\"fbtrace_id\":\"Af0Cw_zVzTrWeGpxgfzPcwk\"}}"
+  },
+  {
+    "data": "2026-07-21T10:30:58.413Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 58): \"Vale (VALE3) divulga produção na véspera de decisão sobre comando da empresa; Ibovespa em dólar sobe hoje (21)\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-21T10:02:06.811Z",
     "resultado": "erro",
     "mensagem": "Erro na execução automática: Erro ao criar container do reel: {\"error\":{\"message\":\"User access is restricted\",\"type\":\"OAuthException\",\"code\":25,\"error_subcode\":2207050,\"is_transient\":false,\"error_user_title\":\"User is restricted\",\"error_user_msg\":\"The Instagram account is restricted.\",\"fbtrace_id\":\"AEx7lOqR0497r5p9U28u6mw\"}}"
@@ -1144,15 +1154,5 @@
     "data": "2026-07-18T10:31:04.611Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 29): \"Guerra entre EUA e Irã se intensifica com novos ataques no Golfo; petróleo atinge maior nível em mais de um mês\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-18T10:01:06.986Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
-  },
-  {
-    "data": "2026-07-18T09:58:23.271Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
   }
 ]
