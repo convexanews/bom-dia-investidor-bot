@@ -1,5 +1,17 @@
 [
   {
+    "data": "2026-07-21T23:55:30.533Z",
+    "resultado": "reel_postado",
+    "mensagem": "Resumo em vídeo do dia publicado com 3 notícia(s).",
+    "reelId": "18108102905001651",
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1784678060953.mp4",
+    "noticias": [
+      "Ibovespa Hoje Ao Vivo: Bolsa cai e perde os 173 mil pontos",
+      "Bolsas da NY sobem com impulso de semicondutores, mas com balanços e guerra no radar",
+      "Fiagros atingem marca de 600 mil investidores; SNAG11 se destaca entre mais negociados"
+    ]
+  },
+  {
     "data": "2026-07-21T23:51:08.408Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (card): \"Fiagros atingem marca de 600 mil investidores; SNAG11 se destaca entre mais negociados\".",
@@ -1141,10 +1153,5 @@
     "data": "2026-07-19T01:30:55.576Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (22:30 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-19T01:05:04.212Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (22:05 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
