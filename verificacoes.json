@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-21T19:06:17.869Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 117 min."
+  },
+  {
     "data": "2026-07-21T19:02:52.904Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"Bitcoin (BTC) em disparada? Até onde a criptomoeda pode chegar, segundo especialistas\".",
@@ -1138,10 +1143,5 @@
     "data": "2026-07-18T21:01:15.675Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 62 min."
-  },
-  {
-    "data": "2026-07-18T20:30:57.473Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
   }
 ]
