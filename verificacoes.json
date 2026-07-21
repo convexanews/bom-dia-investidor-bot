@@ -1,5 +1,15 @@
 [
   {
+    "data": "2026-07-21T09:32:07.667Z",
+    "resultado": "erro",
+    "mensagem": "Erro na execução automática: Erro ao criar container do reel: {\"error\":{\"message\":\"User access is restricted\",\"type\":\"OAuthException\",\"code\":25,\"error_subcode\":2207050,\"is_transient\":false,\"error_user_title\":\"User is restricted\",\"error_user_msg\":\"The Instagram account is restricted.\",\"fbtrace_id\":\"AAwoqY_8TTaWx_VhAqi4D5S\"}}"
+  },
+  {
+    "data": "2026-07-21T09:31:21.017Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 100): \"Produção da Vale, pesquisa eleitoral, guerra no Irã e mais destaques desta terça\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-21T09:01:29.971Z",
     "resultado": "erro",
     "mensagem": "Erro na execução automática: Erro ao criar container do feed: {\"error\":{\"message\":\"User access is restricted\",\"type\":\"OAuthException\",\"code\":25,\"error_subcode\":2207050,\"is_transient\":false,\"error_user_title\":\"User is restricted\",\"error_user_msg\":\"The Instagram account is restricted.\",\"fbtrace_id\":\"AOcfGHjHd4ynxl7EwZv3NJO\"}}"
@@ -1144,15 +1154,5 @@
     "data": "2026-07-18T09:01:35.498Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
-  },
-  {
-    "data": "2026-07-18T08:30:57.081Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (05:30 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-18T08:23:30.129Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (05:23 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
