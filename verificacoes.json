@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-21T17:01:50.822Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 91 min."
+  },
+  {
     "data": "2026-07-21T16:32:25.432Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (carrossel): \"Ibovespa Hoje Ao Vivo: Bolsa cai e perde os 173 mil pontos\".",
@@ -1138,10 +1143,5 @@
     "data": "2026-07-18T19:01:28.166Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 31 min."
-  },
-  {
-    "data": "2026-07-18T18:30:57.660Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 62 min."
   }
 ]
