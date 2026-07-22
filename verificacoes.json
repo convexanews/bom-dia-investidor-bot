@@ -1,5 +1,17 @@
 [
   {
+    "data": "2026-07-22T15:02:42.513Z",
+    "resultado": "reel_postado",
+    "mensagem": "Resumo em vídeo do dia publicado com 3 notícia(s).",
+    "reelId": "18363572542240124",
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1784732501284.mp4",
+    "noticias": [
+      "Ibovespa Hoje Ao Vivo: Bolsa cai e perde os 173 mil pontos",
+      "Bolsas da NY sobem com impulso de semicondutores, mas com balanços e guerra no radar",
+      "Fiagros atingem marca de 600 mil investidores; SNAG11 se destaca entre mais negociados"
+    ]
+  },
+  {
     "data": "2026-07-22T15:01:25.226Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
@@ -1114,10 +1126,5 @@
     "data": "2026-07-19T19:01:54.414Z",
     "resultado": "erro",
     "mensagem": "Erro na execução automática: Command failed: git push"
-  },
-  {
-    "data": "2026-07-19T19:01:21.638Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 23): \"Semana começa com tempestades no Sul e alerta de vendaval no interior de SP\". Realizando postagem..."
   }
 ]
