@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-22T22:01:28.597Z",
+    "titulo": "Ibovespa dispara 2,44% com Vale (VALE3) e WEG (WEGE3), apesar do tarifaço",
+    "categoria": "Mercado Financeiro",
+    "fonte": "Suno",
+    "link": "https://www.suno.com.br/noticias/ibovespa-hoje-22-julho-2026-vale3-wege3-tarifaco-mt/",
+    "postId": "18089367713120531",
+    "storyId": null,
+    "reelId": "18089367713120531",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1784757561160.mp4",
+    "tipo": "reel",
+    "peso": 77
+  },
+  {
     "data": "2026-07-22T19:32:31.961Z",
     "titulo": "Por que Ibovespa sobe mais de 2% e dólar cai em dia em que tarifaço passou a valer?",
     "categoria": "Mercados",
@@ -2940,20 +2955,6 @@
     "imagemFeed": null,
     "imagemStory": null,
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782214287527.mp4",
-    "tipo": "reel"
-  },
-  {
-    "data": "2026-06-23T09:03:33.616Z",
-    "titulo": "Ata do Copom, PMIs nos EUA e Europa e mais destaques desta terça-feira (23)",
-    "categoria": "Mercados",
-    "fonte": "InfoMoney",
-    "link": "https://www.infomoney.com.br/mercados/ata-copom-pmis-agenda-23062026/",
-    "postId": "18106885801970234",
-    "storyId": null,
-    "reelId": "18106885801970234",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782205297855.mp4",
     "tipo": "reel"
   }
 ]

@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-22T22:01:28.599Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Ibovespa dispara 2,44% com Vale (VALE3) e WEG (WEGE3), apesar do tarifaço\".",
+    "postId": "18089367713120531",
+    "storyId": null,
+    "reelId": "18089367713120531",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-07-22T21:59:08.223Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 77): \"Ibovespa dispara 2,44% com Vale (VALE3) e WEG (WEGE3), apesar do tarifaço\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-22T21:53:56.032Z",
     "resultado": "carrossel_fechamento",
     "mensagem": "Carrossel de fechamento publicado. Ibovespa: 177.548 +2,41%",
@@ -1114,15 +1128,5 @@
     "data": "2026-07-20T01:01:09.066Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (22:01 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-20T00:31:30.659Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
-  },
-  {
-    "data": "2026-07-20T00:04:09.748Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 120 min."
   }
 ]
