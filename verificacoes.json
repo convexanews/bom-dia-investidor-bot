@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-22T20:00:58.996Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
+  },
+  {
     "data": "2026-07-22T19:32:31.962Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"Por que Ibovespa sobe mais de 2% e dólar cai em dia em que tarifaço passou a valer?\".",
@@ -1121,10 +1126,5 @@
     "data": "2026-07-19T23:01:03.914Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 57 min."
-  },
-  {
-    "data": "2026-07-19T22:57:14.341Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 61 min."
   }
 ]
