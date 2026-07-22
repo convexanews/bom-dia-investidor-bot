@@ -1,5 +1,15 @@
 [
   {
+    "data": "2026-07-22T11:02:49.367Z",
+    "resultado": "erro",
+    "mensagem": "Erro na execução automática: Erro ao criar container do reel: {\"error\":{\"message\":\"User access is restricted\",\"type\":\"OAuthException\",\"code\":25,\"error_subcode\":2207050,\"is_transient\":false,\"error_user_title\":\"User is restricted\",\"error_user_msg\":\"The Instagram account is restricted.\",\"fbtrace_id\":\"AHy0WjkgGfEu1-oxtF-tOMj\"}}"
+  },
+  {
+    "data": "2026-07-22T11:01:56.514Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 61): \"Mercado repercute melhor produção da Vale em oito anos e mudanças na governança; Ibovespa em dólar cai hoje (22)\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-22T11:01:10.172Z",
     "resultado": "erro",
     "mensagem": "Erro na execução automática: Erro ao criar container do reel: {\"error\":{\"message\":\"User access is restricted\",\"type\":\"OAuthException\",\"code\":25,\"error_subcode\":2207050,\"is_transient\":false,\"error_user_title\":\"User is restricted\",\"error_user_msg\":\"The Instagram account is restricted.\",\"fbtrace_id\":\"AMIDoNXaKXh5cp8vP4gTGLY\"}}"
@@ -1134,15 +1144,5 @@
     "data": "2026-07-19T14:01:19.454Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 29): \"Congresso ameaça CPI sobre suposta interferência do governo na Vale (VALE3), diz portal\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-19T13:30:58.322Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
-  },
-  {
-    "data": "2026-07-19T13:01:25.435Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 32 min."
   }
 ]
