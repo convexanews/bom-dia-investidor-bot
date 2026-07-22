@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-22T12:44:10.549Z",
+    "resultado": "erro_story_glossario",
+    "mensagem": "Erro ao publicar story do glossário: Erro ao criar container de stories: {\"error\":{\"message\":\"User access is restricted\",\"type\":\"OAuthException\",\"code\":25,\"error_subcode\":2207050,\"is_transient\":false,\"error_user_title\":\"User is restricted\",\"error_user_msg\":\"The Instagram account is restricted.\",\"fbtrace_id\":\"A0r_RoSC7Q8XTYYc68Dyb5D\"}}"
+  },
+  {
     "data": "2026-07-22T12:31:50.294Z",
     "resultado": "erro",
     "mensagem": "Erro na execução automática: Erro ao criar container do reel: {\"error\":{\"message\":\"User access is restricted\",\"type\":\"OAuthException\",\"code\":25,\"error_subcode\":2207050,\"is_transient\":false,\"error_user_title\":\"User is restricted\",\"error_user_msg\":\"The Instagram account is restricted.\",\"fbtrace_id\":\"AV27d2YEDs_3MIUHNizPDpI\"}}"
@@ -1114,21 +1119,5 @@
     "data": "2026-07-19T15:33:43.828Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 29 min."
-  },
-  {
-    "data": "2026-07-19T15:32:33.119Z",
-    "resultado": "reel_postado",
-    "mensagem": "Resumo em vídeo do dia publicado com 7 notícia(s).",
-    "reelId": "18408599893158412",
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1784475080772.mp4",
-    "noticias": [
-      "Iguatemi (IGTI11) e mais 4 ações para investir na semana, segundo Terra Investimentos",
-      "Petrobras (PETR4) e BB (BBAS3) à venda? Zema promete privatização para bancar obras",
-      "EUA afirmam que militares foram mortos na Jordânia; líder do Irã faz advertência",
-      "Gol está perto de fechar acordo por jatos E2 da Embraer",
-      "Quando sai o resultado da Vale (VALE3) do 2º tri de 2026?",
-      "33% do eleitorado brasileiro vê culpa de Lula e Bolsonaro em aumento das bets, diz pesquisa",
-      "Congresso ameaça CPI sobre suposta interferência do governo na Vale (VALE3), diz portal"
-    ]
   }
 ]
