@@ -1,5 +1,15 @@
 [
   {
+    "data": "2026-07-22T09:01:52.415Z",
+    "resultado": "erro",
+    "mensagem": "Erro na execução automática: Erro ao criar container do reel: {\"error\":{\"message\":\"User access is restricted\",\"type\":\"OAuthException\",\"code\":25,\"error_subcode\":2207050,\"is_transient\":false,\"error_user_title\":\"User is restricted\",\"error_user_msg\":\"The Instagram account is restricted.\",\"fbtrace_id\":\"ATIErF3zAaTobnQ8S3Gr5s_\"}}"
+  },
+  {
+    "data": "2026-07-22T09:01:03.799Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 52): \"Dow Jones Futuro opera em baixa com Wall Street de olho em Alphabet e Tesla\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-22T08:30:59.525Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (05:30 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1139,15 +1149,5 @@
     "data": "2026-07-19T10:31:13.748Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 60 min."
-  },
-  {
-    "data": "2026-07-19T10:01:16.121Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 90 min."
-  },
-  {
-    "data": "2026-07-19T09:31:43.381Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 119 min."
   }
 ]
