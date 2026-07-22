@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-22T18:31:09.708Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 32 min."
+  },
+  {
     "data": "2026-07-22T18:03:31.950Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 59 min."
@@ -1121,10 +1126,5 @@
     "storyId": "18099405116352860",
     "reelId": null,
     "tipo": "card"
-  },
-  {
-    "data": "2026-07-19T21:56:24.740Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 13): \"Dino determina prisão domiciliar e afastamento de secretário do Maranhão\". Realizando postagem..."
   }
 ]
