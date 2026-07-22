@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-22T19:32:31.961Z",
+    "titulo": "Por que Ibovespa sobe mais de 2% e dólar cai em dia em que tarifaço passou a valer?",
+    "categoria": "Mercados",
+    "fonte": "InfoMoney",
+    "link": "https://www.infomoney.com.br/mercados/por-que-ibovespa-sobe-forte-e-dolar-cai-em-dia-que-o-tarifaco-eua-passou-a-valer/",
+    "postId": "18136245058597998",
+    "storyId": null,
+    "reelId": "18136245058597998",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1784748677803.mp4",
+    "tipo": "reel",
+    "peso": 74
+  },
+  {
     "data": "2026-07-22T17:02:24.218Z",
     "titulo": "JBS (JBSS32) pode reagir no 2T26, mas XP ainda vê alerta na carne",
     "categoria": "Agro",
@@ -2940,19 +2955,5 @@
     "imagemStory": null,
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782205297855.mp4",
     "tipo": "reel"
-  },
-  {
-    "data": "2026-06-22T23:24:38.789Z",
-    "titulo": "OUJP11 lidera ranking dos FIIs do IFIX com maiores retornos em 2026",
-    "categoria": "FIIs",
-    "fonte": "Suno",
-    "link": "https://www.suno.com.br/noticias/oujp11-lidera-ranking-dos-fiis-do-ifix-com-maiores-retornos-em-2026/",
-    "postId": "18158123359462787",
-    "storyId": null,
-    "reelId": null,
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1782170631560-slide1.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1782170631560-slide2.png",
-    "videoUrl": null,
-    "tipo": "carrossel"
   }
 ]
