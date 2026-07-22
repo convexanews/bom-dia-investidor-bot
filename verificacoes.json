@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-22T17:30:57.175Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
+  },
+  {
     "data": "2026-07-22T17:02:24.219Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (carrossel): \"JBS (JBSS32) pode reagir no 2T26, mas XP ainda vê alerta na carne\".",
@@ -1121,10 +1126,5 @@
     "data": "2026-07-19T21:01:17.540Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 33 min."
-  },
-  {
-    "data": "2026-07-19T20:54:03.257Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 40 min."
   }
 ]
