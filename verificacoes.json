@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-22T07:01:09.214Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (04:01 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-07-22T06:30:55.199Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (03:30 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1148,10 +1153,5 @@
     "data": "2026-07-19T09:01:17.987Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 29): \"Quando sai o resultado da Vale (VALE3) do 2º tri de 2026?\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-19T08:31:00.815Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (05:31 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
