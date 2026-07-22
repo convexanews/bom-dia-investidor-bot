@@ -1,5 +1,15 @@
 [
   {
+    "data": "2026-07-22T13:31:46.356Z",
+    "resultado": "erro",
+    "mensagem": "Erro na execução automática: Erro ao criar container do reel: {\"error\":{\"message\":\"User access is restricted\",\"type\":\"OAuthException\",\"code\":25,\"error_subcode\":2207050,\"is_transient\":false,\"error_user_title\":\"User is restricted\",\"error_user_msg\":\"The Instagram account is restricted.\",\"fbtrace_id\":\"AkWH5k-Tqh3Fj-Lb-wYsZeo\"}}"
+  },
+  {
+    "data": "2026-07-22T13:30:57.884Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 71): \"Ibovespa Hoje Ao Vivo: Bolsa sobe com balanços, tarifas e guerra no radar\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-22T13:02:45.287Z",
     "resultado": "erro",
     "mensagem": "Erro na execução automática: Erro ao criar container do reel: {\"error\":{\"message\":\"User access is restricted\",\"type\":\"OAuthException\",\"code\":25,\"error_subcode\":2207050,\"is_transient\":false,\"error_user_title\":\"User is restricted\",\"error_user_msg\":\"The Instagram account is restricted.\",\"fbtrace_id\":\"AA2xtfevqiugMLTe3Eg_ri5\"}}"
@@ -1105,19 +1115,5 @@
     "data": "2026-07-19T17:01:21.541Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
-  },
-  {
-    "data": "2026-07-19T16:33:11.292Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"TIM (TIMS3) paga dividendos nesta semana; veja o calendário\".",
-    "postId": "18601877908050381",
-    "storyId": null,
-    "reelId": "18601877908050381",
-    "tipo": "reel"
-  },
-  {
-    "data": "2026-07-19T16:31:08.608Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 30): \"TIM (TIMS3) paga dividendos nesta semana; veja o calendário\". Realizando postagem..."
   }
 ]
