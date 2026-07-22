@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-22T16:01:16.920Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 32 min."
+  },
+  {
     "data": "2026-07-22T15:31:02.506Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 62 min."
@@ -1121,10 +1126,5 @@
     "storyId": "18144185671546757",
     "reelId": null,
     "tipo": "carrossel"
-  },
-  {
-    "data": "2026-07-19T19:31:07.631Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 32): \"Anvisa fez 33 fiscalizações em farmácias que produzem canetas emagrecedoras em 2026\". Realizando postagem..."
   }
 ]
