@@ -1,5 +1,22 @@
 [
   {
+    "data": "2026-07-22T21:53:56.032Z",
+    "resultado": "carrossel_fechamento",
+    "mensagem": "Carrossel de fechamento publicado. Ibovespa: 177.548 +2,41%",
+    "postId": "18098037083595101",
+    "ibov": {
+      "valor": "177.548",
+      "variacao": "+2,41%"
+    },
+    "topAltas": [
+      "WEGE3 +10,05%",
+      "CSNA3 +6,32%",
+      "VALE3 +3,96%",
+      "CSAN3 +3,70%",
+      "BPAC11 +2,98%"
+    ]
+  },
+  {
     "data": "2026-07-22T21:31:02.025Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
@@ -1107,14 +1124,5 @@
     "data": "2026-07-20T00:04:09.748Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 120 min."
-  },
-  {
-    "data": "2026-07-20T00:03:11.024Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (carrossel): \"Petróleo sobe e futuros de NY abrem estáveis com escalada do conflito entre Irã e EUA\".",
-    "postId": "18112233760908229",
-    "storyId": "18011804783923040",
-    "reelId": null,
-    "tipo": "carrossel"
   }
 ]
