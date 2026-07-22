@@ -1,5 +1,15 @@
 [
   {
+    "data": "2026-07-22T12:03:18.032Z",
+    "resultado": "erro",
+    "mensagem": "Erro na execução automática: Erro ao criar container do reel: {\"error\":{\"message\":\"User access is restricted\",\"type\":\"OAuthException\",\"code\":25,\"error_subcode\":2207050,\"is_transient\":false,\"error_user_title\":\"User is restricted\",\"error_user_msg\":\"The Instagram account is restricted.\",\"fbtrace_id\":\"AgGRQgu-dsuNnoLrW6KJDRr\"}}"
+  },
+  {
+    "data": "2026-07-22T12:02:10.970Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 39): \"Petróleo supera US$ 95 pela primeira vez desde junho após escalada da guerra entre EUA e Irã\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-22T11:31:42.057Z",
     "resultado": "erro",
     "mensagem": "Erro na execução automática: Erro ao criar container do reel: {\"error\":{\"message\":\"User access is restricted\",\"type\":\"OAuthException\",\"code\":25,\"error_subcode\":2207050,\"is_transient\":false,\"error_user_title\":\"User is restricted\",\"error_user_msg\":\"The Instagram account is restricted.\",\"fbtrace_id\":\"A_AwfbXw79MsWJ1ms0lFFqb\"}}"
@@ -1120,25 +1130,5 @@
     "data": "2026-07-19T14:31:06.569Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
-  },
-  {
-    "data": "2026-07-19T14:22:15.732Z",
-    "resultado": "resumo_semanal",
-    "mensagem": "Resumo semanal publicado com 7 notícias.",
-    "postId": "18083573420225443",
-    "noticias": [
-      "Wall Street tem alta após inflação abaixo do esperado reduzir apostas de elevação nos juros pelo Fed",
-      "Alívio com inflação X tensão com Ormuz: o que deve prevalecer para Ibovespa e dólar?",
-      "Wall Street cai com disparada dos preços do petróleo e à espera de dados de inflação",
-      "Dois fatores que podem ajudar o Brasil a cortar juros, segundo HSBC",
-      "Prévia do PIB no Brasil, indústria e confiança consumidor nos EUA e mais destaques",
-      "Wall Street avança após mercado adiar aposta de alta nos juros pelo Fed; Oriente Médio fica no radar",
-      "Inflação nos EUA, sabatina de Warsh, balanços de bancos e mais destaques desta terça"
-    ]
-  },
-  {
-    "data": "2026-07-19T14:03:10.185Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 120 min."
   }
 ]
