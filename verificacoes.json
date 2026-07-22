@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-22T21:06:10.496Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 27 min."
+  },
+  {
     "data": "2026-07-22T20:31:10.857Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 62 min."
@@ -1111,20 +1116,5 @@
     "data": "2026-07-20T00:01:43.833Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 12): \"Petróleo sobe e futuros de NY abrem estáveis com escalada do conflito entre Irã e EUA\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-19T23:55:59.950Z",
-    "resultado": "reel_postado",
-    "mensagem": "Resumo em vídeo do dia publicado com 6 notícia(s).",
-    "reelId": "18173414407423988",
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1784505274349.mp4",
-    "noticias": [
-      "Gol está perto de fechar acordo por jatos E2 da Embraer",
-      "Quando sai o resultado da Vale (VALE3) do 2º tri de 2026?",
-      "33% do eleitorado brasileiro vê culpa de Lula e Bolsonaro em aumento das bets, diz pesquisa",
-      "Congresso ameaça CPI sobre suposta interferência do governo na Vale (VALE3), diz portal",
-      "Anvisa fez 33 fiscalizações em farmácias que produzem canetas emagrecedoras em 2026",
-      "Dino determina prisão domiciliar e afastamento de secretário do Maranhão"
-    ]
   }
 ]
