@@ -1,5 +1,15 @@
 [
   {
+    "data": "2026-07-22T10:01:52.205Z",
+    "resultado": "erro",
+    "mensagem": "Erro na execução automática: Erro ao criar container do reel: {\"error\":{\"message\":\"User access is restricted\",\"type\":\"OAuthException\",\"code\":25,\"error_subcode\":2207050,\"is_transient\":false,\"error_user_title\":\"User is restricted\",\"error_user_msg\":\"The Instagram account is restricted.\",\"fbtrace_id\":\"AsdHCZ1moSDX7mSbeJARXy2\"}}"
+  },
+  {
+    "data": "2026-07-22T10:01:03.014Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 113): \"Tarifas dos EUA, AGE da Vale e balanços de Google, Tesla e WEG: os destaques hoje\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-22T09:31:52.670Z",
     "resultado": "erro",
     "mensagem": "Erro na execução automática: Erro ao criar container do reel: {\"error\":{\"message\":\"User access is restricted\",\"type\":\"OAuthException\",\"code\":25,\"error_subcode\":2207050,\"is_transient\":false,\"error_user_title\":\"User is restricted\",\"error_user_msg\":\"The Instagram account is restricted.\",\"fbtrace_id\":\"AzOcKVFacz_GL2jUDBY9-Rs\"}}"
@@ -1139,15 +1149,5 @@
     "storyId": "17867690358587710",
     "reelId": null,
     "tipo": "carrossel"
-  },
-  {
-    "data": "2026-07-19T11:31:08.511Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 19): \"33% do eleitorado brasileiro vê culpa de Lula e Bolsonaro em aumento das bets, diz pesquisa\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-19T11:01:11.355Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 30 min."
   }
 ]
