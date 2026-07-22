@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-22T15:31:02.506Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 62 min."
+  },
+  {
     "data": "2026-07-22T15:02:42.513Z",
     "resultado": "reel_postado",
     "mensagem": "Resumo em vídeo do dia publicado com 3 notícia(s).",
@@ -1121,10 +1126,5 @@
     "data": "2026-07-19T19:31:07.631Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 32): \"Anvisa fez 33 fiscalizações em farmácias que produzem canetas emagrecedoras em 2026\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-19T19:01:54.414Z",
-    "resultado": "erro",
-    "mensagem": "Erro na execução automática: Command failed: git push"
   }
 ]
