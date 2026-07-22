@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-22T14:32:27.638Z",
+    "titulo": "Wall Street abre sem direção única com avanço do petróleo e resultados da Alphabet",
+    "categoria": "Mercados",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/wall-street-abertura-22-7-26-apsa/",
+    "postId": "18064657556706176",
+    "storyId": null,
+    "reelId": "18064657556706176",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1784730671077.mp4",
+    "tipo": "reel",
+    "peso": 67
+  },
+  {
     "data": "2026-07-21T23:51:08.405Z",
     "titulo": "Fiagros atingem marca de 600 mil investidores; SNAG11 se destaca entre mais negociados",
     "categoria": "Fiagro",
@@ -2937,20 +2952,6 @@
     "imagemFeed": null,
     "imagemStory": null,
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782162197157.mp4",
-    "tipo": "reel"
-  },
-  {
-    "data": "2026-06-22T18:52:49.154Z",
-    "titulo": "SpaceX recorre a títulos para levantar capital e reporta US$ 100,8 bi em caixa",
-    "categoria": "Mercados",
-    "fonte": "InfoMoney",
-    "link": "https://www.infomoney.com.br/mercados/spacex-recorre-a-titulos-para-levantar-capital-e-reporta-us-1008-bi-em-caixa/",
-    "postId": "17886025095580163",
-    "storyId": null,
-    "reelId": "17886025095580163",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782154205459.mp4",
     "tipo": "reel"
   }
 ]
