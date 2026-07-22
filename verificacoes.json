@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-22T15:01:25.226Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
+  },
+  {
     "data": "2026-07-22T14:58:25.505Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 95 min."
@@ -1114,10 +1119,5 @@
     "data": "2026-07-19T19:01:21.638Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 23): \"Semana começa com tempestades no Sul e alerta de vendaval no interior de SP\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-19T18:31:14.633Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
   }
 ]
