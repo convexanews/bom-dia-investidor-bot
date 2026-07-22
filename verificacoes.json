@@ -1,5 +1,15 @@
 [
   {
+    "data": "2026-07-22T12:28:21.948Z",
+    "resultado": "erro",
+    "mensagem": "Erro na execução automática: Erro ao criar container do reel: {\"error\":{\"message\":\"User access is restricted\",\"type\":\"OAuthException\",\"code\":25,\"error_subcode\":2207050,\"is_transient\":false,\"error_user_title\":\"User is restricted\",\"error_user_msg\":\"The Instagram account is restricted.\",\"fbtrace_id\":\"A17OLPtxlGAdw5k2uMoPnSZ\"}}"
+  },
+  {
+    "data": "2026-07-22T12:27:35.099Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 58): \"Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta quarta\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-22T12:03:18.032Z",
     "resultado": "erro",
     "mensagem": "Erro na execução automática: Erro ao criar container do reel: {\"error\":{\"message\":\"User access is restricted\",\"type\":\"OAuthException\",\"code\":25,\"error_subcode\":2207050,\"is_transient\":false,\"error_user_title\":\"User is restricted\",\"error_user_msg\":\"The Instagram account is restricted.\",\"fbtrace_id\":\"AgGRQgu-dsuNnoLrW6KJDRr\"}}"
@@ -1120,15 +1130,5 @@
     "data": "2026-07-19T15:07:33.676Z",
     "resultado": "erro_reel",
     "mensagem": "Erro ao gerar o resumo em vídeo do dia: Timeout esperando o container do reel ficar pronto: 18126484996665621"
-  },
-  {
-    "data": "2026-07-19T15:01:26.450Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 61 min."
-  },
-  {
-    "data": "2026-07-19T14:31:06.569Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
   }
 ]
