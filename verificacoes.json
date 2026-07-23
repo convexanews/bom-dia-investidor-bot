@@ -1,5 +1,18 @@
 [
   {
+    "data": "2026-07-23T15:02:15.521Z",
+    "resultado": "reel_postado",
+    "mensagem": "Resumo em vídeo do dia publicado com 4 notícia(s).",
+    "reelId": "18109726336995046",
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1784818874797.mp4",
+    "noticias": [
+      "JBS (JBSS32) pode reagir no 2T26, mas XP ainda vê alerta na carne",
+      "FII do BTG fecha duas locações, reduz vacância para cerca de 20% e projeta alta de 28% na receita",
+      "Mercado em tempo real: Ibovespa segue decisão de juros do BCE e dados globais",
+      "Pedidos semanais de auxílio-desemprego nos EUA têm forte queda na última semana"
+    ]
+  },
+  {
     "data": "2026-07-23T15:00:59.706Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 28 min."
@@ -1095,10 +1108,5 @@
     "data": "2026-07-21T02:01:05.607Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (23:01 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-21T01:30:52.934Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (22:30 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
