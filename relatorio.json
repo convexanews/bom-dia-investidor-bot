@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-23T13:28:56.927Z",
+    "titulo": "Pedidos semanais de auxílio-desemprego nos EUA têm forte queda na última semana",
+    "categoria": "Economia",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/pedidos-semanais-de-auxilio-desemprego-nos-eua-tem-forte-queda-na-ultima-semana-jcav/",
+    "postId": "18087306182642348",
+    "storyId": "18008939630945986",
+    "reelId": null,
+    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784813258855-slide1.png",
+    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784813258855-story.png",
+    "videoUrl": null,
+    "tipo": "carrossel",
+    "peso": 51
+  },
+  {
     "data": "2026-07-23T11:03:51.031Z",
     "titulo": "Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta quinta",
     "categoria": "Mercados",
@@ -2944,20 +2959,6 @@
     "imagemFeed": null,
     "imagemStory": null,
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782246693317.mp4",
-    "tipo": "reel"
-  },
-  {
-    "data": "2026-06-23T18:24:46.873Z",
-    "titulo": "Ata do Copom reforça cautela e limita espaço para cortes da Selic, diz economista da Lifetime",
-    "categoria": "Mercados",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/ata-do-copom-inflacao-resistente-e-dependencia-de-dados-para-proximos-passos-avalia-economista-da-lifetime-jvka/",
-    "postId": "17944081422217561",
-    "storyId": null,
-    "reelId": "17944081422217561",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782238966542.mp4",
     "tipo": "reel"
   }
 ]

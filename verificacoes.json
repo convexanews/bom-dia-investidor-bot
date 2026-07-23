@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-23T13:28:56.929Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (carrossel): \"Pedidos semanais de auxílio-desemprego nos EUA têm forte queda na última semana\".",
+    "postId": "18087306182642348",
+    "storyId": "18008939630945986",
+    "reelId": null,
+    "tipo": "carrossel"
+  },
+  {
+    "data": "2026-07-23T13:27:26.569Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 51): \"Pedidos semanais de auxílio-desemprego nos EUA têm forte queda na última semana\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-23T13:01:54.692Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
@@ -1094,15 +1108,5 @@
       "Ouro fecha perto da estabilidade com juros dos Treasuries e dólar",
       "EUA impõem novas tarifas de 50% sobre alguns produtos canadenses"
     ]
-  },
-  {
-    "data": "2026-07-20T23:31:44.806Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 91 min."
-  },
-  {
-    "data": "2026-07-20T23:30:58.285Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
   }
 ]
