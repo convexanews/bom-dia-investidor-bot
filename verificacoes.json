@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-23T01:01:19.010Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (22:01 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-07-23T00:32:34.931Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (carrossel): \"FII do BTG fecha duas locações, reduz vacância para cerca de 20% e projeta alta de 28% na receita\".",
@@ -1128,14 +1133,5 @@
     "data": "2026-07-20T14:00:58.197Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 117 min."
-  },
-  {
-    "data": "2026-07-20T13:57:18.024Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (card): \"Nem guerra atrapalha e Ibovespa avança com otimismo no exterior; 5 coisas para saber antes de investir hoje (20)\".",
-    "postId": "18088378997124862",
-    "storyId": "17889497490604721",
-    "reelId": null,
-    "tipo": "card"
   }
 ]
