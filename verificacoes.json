@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-23T04:31:25.484Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (01:31 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-07-23T04:01:00.436Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (01:01 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1118,10 +1123,5 @@
     "storyId": null,
     "reelId": "18142541023556298",
     "tipo": "reel"
-  },
-  {
-    "data": "2026-07-20T16:01:00.372Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 48): \"Ação renda fixa: Esta elétrica rende mais que o Tesouro IPCA+ — e pode ganhar R$ 20 na bolsa; vale a compra?\". Realizando postagem..."
   }
 ]
