@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-23T09:31:10.964Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 91 min."
+  },
+  {
     "data": "2026-07-23T09:01:57.890Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (card): \"Mercado em tempo real: Ibovespa segue decisão de juros do BCE e dados globais\".",
@@ -1114,10 +1119,5 @@
     "data": "2026-07-20T20:49:25.260Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 65): \"Wall Street cai após falas de Trump sobre Irã; semicondutores perdem força\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-20T20:31:31.080Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
   }
 ]
