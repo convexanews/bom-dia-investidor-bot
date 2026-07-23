@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-23T18:32:24.093Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 91 min."
+  },
+  {
     "data": "2026-07-23T18:02:46.927Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (carrossel): \"Bolsas da Europa têm forte queda com disparada do petróleo e decisão do BCE\".",
@@ -1111,10 +1116,5 @@
     "data": "2026-07-21T06:30:58.247Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (03:30 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-21T06:01:30.694Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (03:01 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
