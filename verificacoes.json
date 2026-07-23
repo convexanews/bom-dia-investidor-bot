@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-23T13:31:00.815Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 118 min."
+  },
+  {
     "data": "2026-07-23T13:28:56.929Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (carrossel): \"Pedidos semanais de auxílio-desemprego nos EUA têm forte queda na última semana\".",
@@ -1095,18 +1100,5 @@
     "data": "2026-07-21T00:01:29.558Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 61 min."
-  },
-  {
-    "data": "2026-07-20T23:56:09.743Z",
-    "resultado": "reel_postado",
-    "mensagem": "Resumo em vídeo do dia publicado com 4 notícia(s).",
-    "reelId": "18079515614298317",
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1784591707961.mp4",
-    "noticias": [
-      "Petróleo sobe e futuros de NY abrem estáveis com escalada do conflito entre Irã e EUA",
-      "Nem guerra atrapalha e Ibovespa avança com otimismo no exterior; 5 coisas para saber antes de investir hoje (20)",
-      "Ouro fecha perto da estabilidade com juros dos Treasuries e dólar",
-      "EUA impõem novas tarifas de 50% sobre alguns produtos canadenses"
-    ]
   }
 ]
