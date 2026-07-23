@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-23T00:32:34.930Z",
+    "titulo": "FII do BTG fecha duas locações, reduz vacância para cerca de 20% e projeta alta de 28% na receita",
+    "categoria": "FIIs",
+    "fonte": "Suno",
+    "link": "https://www.suno.com.br/noticias/fii-do-btg-fecha-duas-locacoes-reduz-vacancia-para-cerca-de-20-e-projeta-alta-de-28-na-receita/",
+    "postId": "18369198055227635",
+    "storyId": "18108850208090063",
+    "reelId": null,
+    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784766679050-slide1.png",
+    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784766679050-story.png",
+    "videoUrl": null,
+    "tipo": "carrossel",
+    "peso": 27
+  },
+  {
     "data": "2026-07-22T22:01:28.597Z",
     "titulo": "Ibovespa dispara 2,44% com Vale (VALE3) e WEG (WEGE3), apesar do tarifaço",
     "categoria": "Mercado Financeiro",
@@ -2941,20 +2956,6 @@
     "imagemFeed": null,
     "imagemStory": null,
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782223307646.mp4",
-    "tipo": "reel"
-  },
-  {
-    "data": "2026-06-23T11:33:17.590Z",
-    "titulo": "Banco Central admite inflação acima da meta, mas diz que 'melhores práticas' recomendam não reagir a choques de oferta",
-    "categoria": "G1",
-    "fonte": "G1 Economia",
-    "link": "https://g1.globo.com/economia/noticia/2026/06/23/banco-central-admite-inflacao-acima-da-meta-mas-diz-que-melhores-praticas-recomendam-nao-reagir-a-choques-de-oferta.ghtml",
-    "postId": "17956566837159029",
-    "storyId": null,
-    "reelId": "17956566837159029",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782214287527.mp4",
     "tipo": "reel"
   }
 ]

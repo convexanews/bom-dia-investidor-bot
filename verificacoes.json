@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-23T00:32:34.931Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (carrossel): \"FII do BTG fecha duas locações, reduz vacância para cerca de 20% e projeta alta de 28% na receita\".",
+    "postId": "18369198055227635",
+    "storyId": "18108850208090063",
+    "reelId": null,
+    "tipo": "carrossel"
+  },
+  {
+    "data": "2026-07-23T00:31:05.995Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 27): \"FII do BTG fecha duas locações, reduz vacância para cerca de 20% e projeta alta de 28% na receita\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-23T00:01:33.938Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
@@ -1123,15 +1137,5 @@
     "storyId": "17889497490604721",
     "reelId": null,
     "tipo": "card"
-  },
-  {
-    "data": "2026-07-20T13:56:25.721Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 58): \"Nem guerra atrapalha e Ibovespa avança com otimismo no exterior; 5 coisas para saber antes de investir hoje (20)\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-20T04:23:03.193Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (01:23 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
