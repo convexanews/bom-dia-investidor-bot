@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-23T22:58:04.712Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (carrossel): \"Fed está pronto para elevar os juros nos EUA, avalia Janet Yellen\".",
+    "postId": "18184283596395879",
+    "storyId": "18066530552651147",
+    "reelId": null,
+    "tipo": "carrossel"
+  },
+  {
+    "data": "2026-07-23T22:56:32.505Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 45): \"Fed está pronto para elevar os juros nos EUA, avalia Janet Yellen\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-23T22:30:59.298Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
@@ -1122,15 +1136,5 @@
     "data": "2026-07-21T11:01:40.843Z",
     "resultado": "erro",
     "mensagem": "Erro na execução automática: Erro ao criar container do feed: {\"error\":{\"message\":\"User access is restricted\",\"type\":\"OAuthException\",\"code\":25,\"error_subcode\":2207050,\"is_transient\":false,\"error_user_title\":\"User is restricted\",\"error_user_msg\":\"The Instagram account is restricted.\",\"fbtrace_id\":\"APh_mDcVt3_2cGZtDCQ1WcX\"}}"
-  },
-  {
-    "data": "2026-07-21T11:01:10.305Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 58): \"Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta terça\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-21T10:31:27.993Z",
-    "resultado": "erro",
-    "mensagem": "Erro na execução automática: Erro ao criar container do feed: {\"error\":{\"message\":\"User access is restricted\",\"type\":\"OAuthException\",\"code\":25,\"error_subcode\":2207050,\"is_transient\":false,\"error_user_title\":\"User is restricted\",\"error_user_msg\":\"The Instagram account is restricted.\",\"fbtrace_id\":\"Af0Cw_zVzTrWeGpxgfzPcwk\"}}"
   }
 ]
