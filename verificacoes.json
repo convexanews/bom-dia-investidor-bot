@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-23T11:03:51.032Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta quinta\".",
+    "postId": "17903295951310035",
+    "storyId": null,
+    "reelId": "17903295951310035",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-07-23T11:02:27.224Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 68): \"Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta quinta\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-23T11:01:19.881Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 1 min."
@@ -1093,27 +1107,5 @@
     "data": "2026-07-20T22:01:07.687Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 50 min."
-  },
-  {
-    "data": "2026-07-20T21:54:39.797Z",
-    "resultado": "carrossel_fechamento",
-    "mensagem": "Carrossel de fechamento publicado. Ibovespa: 173.371 -0,26%",
-    "postId": "17960430012159011",
-    "ibov": {
-      "valor": "173.371",
-      "variacao": "-0,26%"
-    },
-    "topAltas": [
-      "HAPV3 +1,49%",
-      "SANB11 +1,35%",
-      "ABEV3 +1,02%",
-      "ITUB4 +0,81%",
-      "RADL3 +0,75%"
-    ]
-  },
-  {
-    "data": "2026-07-20T21:30:58.687Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 80 min."
   }
 ]
