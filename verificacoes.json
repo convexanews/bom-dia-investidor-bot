@@ -1,5 +1,15 @@
 [
   {
+    "data": "2026-07-23T00:01:08.643Z",
+    "resultado": "reel_postado",
+    "mensagem": "Resumo em vídeo do dia publicado com 1 notícia(s).",
+    "reelId": "18184380040402104",
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1784764789611.mp4",
+    "noticias": [
+      "JBS (JBSS32) pode reagir no 2T26, mas XP ainda vê alerta na carne"
+    ]
+  },
+  {
     "data": "2026-07-22T23:31:02.145Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 31 min."
@@ -1123,10 +1133,5 @@
     "data": "2026-07-20T04:01:02.648Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (01:01 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-20T03:31:21.690Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (00:31 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
