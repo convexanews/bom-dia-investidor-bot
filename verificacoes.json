@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-23T13:01:54.692Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
+  },
+  {
     "data": "2026-07-23T12:44:42.352Z",
     "resultado": "story_glossario",
     "mensagem": "Story do glossário publicado: \"IPCA\"",
@@ -1099,14 +1104,5 @@
     "data": "2026-07-20T23:30:58.285Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
-  },
-  {
-    "data": "2026-07-20T23:02:28.996Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (carrossel): \"EUA impõem novas tarifas de 50% sobre alguns produtos canadenses\".",
-    "postId": "18108424591823064",
-    "storyId": "18170252410440612",
-    "reelId": null,
-    "tipo": "carrossel"
   }
 ]
