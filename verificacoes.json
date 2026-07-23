@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-23T15:32:54.461Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Mercado amplia apostas em alta de juros nos EUA após escalada da tensão no Oriente Médio e disparada do petróleo\".",
+    "postId": "18050928998563972",
+    "storyId": null,
+    "reelId": "18050928998563972",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-07-23T15:31:18.428Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 76): \"Mercado amplia apostas em alta de juros nos EUA após escalada da tensão no Oriente Médio e disparada do petróleo\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-23T15:02:15.521Z",
     "resultado": "reel_postado",
     "mensagem": "Resumo em vídeo do dia publicado com 4 notícia(s).",
@@ -1098,15 +1112,5 @@
     "data": "2026-07-21T02:53:32.063Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (23:53 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-21T02:31:23.462Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (23:31 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-21T02:01:05.607Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (23:01 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
