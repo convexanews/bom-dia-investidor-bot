@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-23T02:01:23.690Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (23:01 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-07-23T01:58:54.807Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (22:58 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1128,10 +1133,5 @@
       "Petróleo sobe e futuros de NY abrem estáveis com escalada do conflito entre Irã e EUA",
       "Nem guerra atrapalha e Ibovespa avança com otimismo no exterior; 5 coisas para saber antes de investir hoje (20)"
     ]
-  },
-  {
-    "data": "2026-07-20T15:01:14.245Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 57 min."
   }
 ]
