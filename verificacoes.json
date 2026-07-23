@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-23T18:02:46.927Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (carrossel): \"Bolsas da Europa têm forte queda com disparada do petróleo e decisão do BCE\".",
+    "postId": "17920512999410762",
+    "storyId": "18030416678822699",
+    "reelId": null,
+    "tipo": "carrossel"
+  },
+  {
+    "data": "2026-07-23T18:01:10.843Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 43): \"Bolsas da Europa têm forte queda com disparada do petróleo e decisão do BCE\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-23T17:31:00.775Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
@@ -1102,15 +1116,5 @@
     "data": "2026-07-21T06:01:30.694Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (03:01 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-21T05:54:10.329Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (02:54 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-21T05:31:20.703Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (02:31 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]

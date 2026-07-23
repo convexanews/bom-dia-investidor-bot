@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-23T18:02:46.925Z",
+    "titulo": "Bolsas da Europa têm forte queda com disparada do petróleo e decisão do BCE",
+    "categoria": "Mercados",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/europa-23-7-26-lils/",
+    "postId": "17920512999410762",
+    "storyId": "18030416678822699",
+    "reelId": null,
+    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784829687828-slide1.png",
+    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784829687828-story.png",
+    "videoUrl": null,
+    "tipo": "carrossel",
+    "peso": 43
+  },
+  {
     "data": "2026-07-23T15:32:54.460Z",
     "titulo": "Mercado amplia apostas em alta de juros nos EUA após escalada da tensão no Oriente Médio e disparada do petróleo",
     "categoria": "Economia",
@@ -2946,20 +2961,6 @@
     "imagemFeed": null,
     "imagemStory": null,
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782291680799.mp4",
-    "tipo": "reel"
-  },
-  {
-    "data": "2026-06-23T23:04:09.452Z",
-    "titulo": "Banco Central divulga calendário das reuniões do Copom para 2027",
-    "categoria": "Economia",
-    "fonte": "InfoMoney",
-    "link": "https://www.infomoney.com.br/economia/banco-central-divulga-calendario-das-reunioes-do-copom-para-2027/",
-    "postId": "18046453895627660",
-    "storyId": null,
-    "reelId": "18046453895627660",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782255705110.mp4",
     "tipo": "reel"
   }
 ]
