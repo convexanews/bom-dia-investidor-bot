@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-23T20:32:50.768Z",
+    "titulo": "Wall Street tem forte queda com petróleo a US$ 100; Tesla (TSLA) despenca 14%",
+    "categoria": "Mercados",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/wall-street-23-7-26-lils-2/",
+    "postId": "17936420679088375",
+    "storyId": null,
+    "reelId": "17936420679088375",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1784838680387.mp4",
+    "tipo": "reel",
+    "peso": 106
+  },
+  {
     "data": "2026-07-23T18:02:46.925Z",
     "titulo": "Bolsas da Europa têm forte queda com disparada do petróleo e decisão do BCE",
     "categoria": "Mercados",
@@ -2947,20 +2962,6 @@
     "imagemFeed": null,
     "imagemStory": null,
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782300741215.mp4",
-    "tipo": "reel"
-  },
-  {
-    "data": "2026-06-24T09:03:09.091Z",
-    "titulo": "Nasdaq Futuro sobe após tombo das ações de tecnologia e à espera do balanço da Micron",
-    "categoria": "Mercados",
-    "fonte": "InfoMoney",
-    "link": "https://www.infomoney.com.br/mercados/nasdaq-futuro-sobe-apos-tombo-das-acoes-de-tecnologia-e-a-espera-do-balanco-da-micron/",
-    "postId": "18125425216614542",
-    "storyId": null,
-    "reelId": "18125425216614542",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782291680799.mp4",
     "tipo": "reel"
   }
 ]

@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-23T20:32:50.769Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Wall Street tem forte queda com petróleo a US$ 100; Tesla (TSLA) despenca 14%\".",
+    "postId": "17936420679088375",
+    "storyId": null,
+    "reelId": "17936420679088375",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-07-23T20:31:00.317Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 106): \"Wall Street tem forte queda com petróleo a US$ 100; Tesla (TSLA) despenca 14%\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-23T20:01:06.322Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
@@ -1106,15 +1120,5 @@
     "data": "2026-07-21T09:01:01.628Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 49): \"Em meio ao tarifaço dos EUA, Alckmin diz que exportações à Europa cresceram R$ 10 bilhões em 2 meses\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-21T08:33:39.896Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (05:33 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-21T08:30:56.052Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (05:30 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
