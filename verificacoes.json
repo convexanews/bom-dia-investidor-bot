@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-23T10:01:36.464Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 61 min."
+  },
+  {
     "data": "2026-07-23T09:31:10.964Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 91 min."
@@ -1114,10 +1119,5 @@
     "storyId": null,
     "reelId": "18333516763282614",
     "tipo": "reel"
-  },
-  {
-    "data": "2026-07-20T20:49:25.260Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 65): \"Wall Street cai após falas de Trump sobre Irã; semicondutores perdem força\". Realizando postagem..."
   }
 ]
