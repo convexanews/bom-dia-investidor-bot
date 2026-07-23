@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-23T07:01:14.204Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (04:01 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-07-23T06:31:01.960Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (03:31 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1114,10 +1119,5 @@
     "data": "2026-07-20T18:31:22.785Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 43): \"Ouro fecha perto da estabilidade com juros dos Treasuries e dólar\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-20T18:01:13.281Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
   }
 ]
