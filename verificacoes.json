@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-23T15:50:10.515Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 103 min."
+  },
+  {
     "data": "2026-07-23T15:32:54.461Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"Mercado amplia apostas em alta de juros nos EUA após escalada da tensão no Oriente Médio e disparada do petróleo\".",
@@ -1107,10 +1112,5 @@
     "data": "2026-07-21T03:00:54.736Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (00:00 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-21T02:53:32.063Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (23:53 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
