@@ -1,5 +1,22 @@
 [
   {
+    "data": "2026-07-23T21:53:50.221Z",
+    "resultado": "carrossel_fechamento",
+    "mensagem": "Carrossel de fechamento publicado. Ibovespa: 176.724 +1,96%",
+    "postId": "17872671324625484",
+    "ibov": {
+      "valor": "176.724",
+      "variacao": "+1,96%"
+    },
+    "topAltas": [
+      "PETR3 +1,67%",
+      "PRIO3 +1,29%",
+      "PETR4 +0,87%",
+      "VALE3 +0,77%",
+      "RENT3 +0,00%"
+    ]
+  },
+  {
     "data": "2026-07-23T21:31:11.045Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 62 min."
@@ -1115,10 +1132,5 @@
     "data": "2026-07-21T10:01:25.415Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 100): \"Produção da Vale, pesquisa eleitoral, guerra no Irã e mais destaques desta terça\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-21T09:32:07.667Z",
-    "resultado": "erro",
-    "mensagem": "Erro na execução automática: Erro ao criar container do reel: {\"error\":{\"message\":\"User access is restricted\",\"type\":\"OAuthException\",\"code\":25,\"error_subcode\":2207050,\"is_transient\":false,\"error_user_title\":\"User is restricted\",\"error_user_msg\":\"The Instagram account is restricted.\",\"fbtrace_id\":\"AAwoqY_8TTaWx_VhAqi4D5S\"}}"
   }
 ]
