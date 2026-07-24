@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-24T09:02:24.618Z",
+    "titulo": "Estados Unidos isentam 471 produtos de nova tarifa de 12,5%; veja lista com os principais itens",
+    "categoria": "Economia",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/estados-unidos-isentam-471-produtos-de-nova-tarifa-de-125-veja-lista-com-os-principais-itens-fets/",
+    "postId": "18109399639994804",
+    "storyId": "18100659929462569",
+    "reelId": null,
+    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784883703387-feed.png",
+    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784883703387-story.png",
+    "videoUrl": null,
+    "tipo": "card",
+    "peso": 44
+  },
+  {
     "data": "2026-07-23T22:58:04.710Z",
     "titulo": "Fed está pronto para elevar os juros nos EUA, avalia Janet Yellen",
     "categoria": "Economia",
@@ -2949,20 +2964,6 @@
     "imagemFeed": null,
     "imagemStory": null,
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782318685140.mp4",
-    "tipo": "reel"
-  },
-  {
-    "data": "2026-06-24T14:03:26.516Z",
-    "titulo": "Ibovespa Hoje Ao Vivo: Bolsa cai com petroleiras e VALE3; bancos sobem",
-    "categoria": "Mercados",
-    "fonte": "InfoMoney",
-    "link": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-24062026/",
-    "postId": "18127284718714685",
-    "storyId": null,
-    "reelId": "18127284718714685",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782309706623.mp4",
     "tipo": "reel"
   }
 ]

@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-24T09:02:24.620Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (card): \"Estados Unidos isentam 471 produtos de nova tarifa de 12,5%; veja lista com os principais itens\".",
+    "postId": "18109399639994804",
+    "storyId": "18100659929462569",
+    "reelId": null,
+    "tipo": "card"
+  },
+  {
+    "data": "2026-07-24T09:01:30.861Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 44): \"Estados Unidos isentam 471 produtos de nova tarifa de 12,5%; veja lista com os principais itens\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-24T08:31:06.034Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (05:31 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1125,15 +1139,5 @@
     "storyId": "18095385530340255",
     "reelId": null,
     "tipo": "carrossel"
-  },
-  {
-    "data": "2026-07-21T16:31:04.042Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 51): \"Ibovespa Hoje Ao Vivo: Bolsa cai e perde os 173 mil pontos\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-21T16:03:36.772Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 21 min."
   }
 ]
