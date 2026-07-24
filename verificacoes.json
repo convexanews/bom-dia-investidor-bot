@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-24T08:02:00.201Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (05:02 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-07-24T07:30:57.474Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (04:30 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1130,16 +1135,5 @@
     "data": "2026-07-21T15:06:43.567Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 78 min."
-  },
-  {
-    "data": "2026-07-21T15:02:54.918Z",
-    "resultado": "reel_postado",
-    "mensagem": "Resumo em vídeo do dia publicado com 2 notícia(s).",
-    "reelId": "18130307593651554",
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1784646114866.mp4",
-    "noticias": [
-      "Ouro fecha perto da estabilidade com juros dos Treasuries e dólar",
-      "EUA impõem novas tarifas de 50% sobre alguns produtos canadenses"
-    ]
   }
 ]
