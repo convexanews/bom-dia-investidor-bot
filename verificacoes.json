@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-24T01:54:04.586Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (22:54 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-07-24T01:31:01.183Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (22:31 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1140,10 +1145,5 @@
     "data": "2026-07-21T12:32:34.746Z",
     "resultado": "erro",
     "mensagem": "Erro na execução automática: Erro ao criar container do feed: {\"error\":{\"message\":\"User access is restricted\",\"type\":\"OAuthException\",\"code\":25,\"error_subcode\":2207050,\"is_transient\":false,\"error_user_title\":\"User is restricted\",\"error_user_msg\":\"The Instagram account is restricted.\",\"fbtrace_id\":\"AU2Njgs9JJ3nieDlIpkqgKY\"}}"
-  },
-  {
-    "data": "2026-07-21T12:32:04.440Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 58): \"Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta terça\". Realizando postagem..."
   }
 ]
