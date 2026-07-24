@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-24T05:00:57.476Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (02:00 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-07-24T04:31:42.649Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (01:31 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1140,10 +1145,5 @@
     "data": "2026-07-21T14:01:51.125Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 75): \"Wall Street avança com apoio de semicondutores; tarifas e conflito no Oriente Médio seguem no radar\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-21T13:31:50.072Z",
-    "resultado": "erro",
-    "mensagem": "Erro na execução automática: Erro ao criar container do feed: {\"error\":{\"message\":\"User access is restricted\",\"type\":\"OAuthException\",\"code\":25,\"error_subcode\":2207050,\"is_transient\":false,\"error_user_title\":\"User is restricted\",\"error_user_msg\":\"The Instagram account is restricted.\",\"fbtrace_id\":\"AR3SsRyBRyG6hctQFag1TLG\"}}"
   }
 ]
