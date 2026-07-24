@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-24T11:32:22.849Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (carrossel): \"Fundo imobiliário eleva projeção de dividendos para o 3T26; IFIX cai pelo 4º dia seguido\".",
+    "postId": "17973247020096016",
+    "storyId": "17898532437519845",
+    "reelId": null,
+    "tipo": "carrossel"
+  },
+  {
+    "data": "2026-07-24T11:30:59.287Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 27): \"Fundo imobiliário eleva projeção de dividendos para o 3T26; IFIX cai pelo 4º dia seguido\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-24T11:02:21.500Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 1 min."
@@ -1125,15 +1139,5 @@
     "storyId": null,
     "reelId": "18122447902686188",
     "tipo": "reel"
-  },
-  {
-    "data": "2026-07-21T19:01:12.830Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 64): \"Bitcoin (BTC) em disparada? Até onde a criptomoeda pode chegar, segundo especialistas\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-21T18:30:55.669Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
   }
 ]
