@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-24T19:02:43.303Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Galípolo vê expectativas de inflação desancoradas e defende manutenção de juros restritivos\".",
+    "postId": "18075836603694850",
+    "storyId": null,
+    "reelId": "18075836603694850",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-07-24T19:01:07.453Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 71): \"Galípolo vê expectativas de inflação desancoradas e defende manutenção de juros restritivos\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-24T18:31:02.949Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 7 min."
@@ -1115,15 +1129,5 @@
     "data": "2026-07-22T02:01:04.452Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (23:01 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-22T01:51:31.360Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (22:51 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-22T01:31:05.774Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (22:31 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
