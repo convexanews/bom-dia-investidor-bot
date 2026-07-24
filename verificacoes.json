@@ -1,5 +1,22 @@
 [
   {
+    "data": "2026-07-24T21:52:54.417Z",
+    "resultado": "carrossel_fechamento",
+    "mensagem": "Carrossel de fechamento publicado. Ibovespa: 174.042 -1,97%",
+    "postId": "18118537117884208",
+    "ibov": {
+      "valor": "174.042",
+      "variacao": "-1,97%"
+    },
+    "topAltas": [
+      "TOTS3 +1,55%",
+      "CSNA3 +1,13%",
+      "GGBR4 +0,83%",
+      "WEGE3 +0,70%",
+      "USIM5 -0,12%"
+    ]
+  },
+  {
     "data": "2026-07-24T21:32:55.842Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"Ibovespa cai 1,52% com Petrobras (PETR4), Vale (VALE3) e bancos em baixa\".",
@@ -1128,10 +1145,5 @@
     "data": "2026-07-22T05:30:55.309Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (02:30 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-22T05:12:36.692Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (02:12 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
