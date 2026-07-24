@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-24T21:32:55.842Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Ibovespa cai 1,52% com Petrobras (PETR4), Vale (VALE3) e bancos em baixa\".",
+    "postId": "18116084479902377",
+    "storyId": null,
+    "reelId": "18116084479902377",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-07-24T21:31:12.661Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 62): \"Ibovespa cai 1,52% com Petrobras (PETR4), Vale (VALE3) e bancos em baixa\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-24T21:01:12.548Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
@@ -1119,15 +1133,5 @@
     "data": "2026-07-22T05:12:36.692Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (02:12 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-22T05:01:01.181Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (02:01 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-22T04:30:54.617Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (01:30 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]

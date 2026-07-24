@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-24T21:32:55.841Z",
+    "titulo": "Ibovespa cai 1,52% com Petrobras (PETR4), Vale (VALE3) e bancos em baixa",
+    "categoria": "Mercado Financeiro",
+    "fonte": "Suno",
+    "link": "https://www.suno.com.br/noticias/ibovespa-hoje-24-julho-2026-petr4-vale3-mt/",
+    "postId": "18116084479902377",
+    "storyId": null,
+    "reelId": "18116084479902377",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1784928684924.mp4",
+    "tipo": "reel",
+    "peso": 62
+  },
+  {
     "data": "2026-07-24T19:02:43.302Z",
     "titulo": "Galípolo vê expectativas de inflação desancoradas e defende manutenção de juros restritivos",
     "categoria": "Economia",
@@ -2954,20 +2969,6 @@
     "imagemFeed": null,
     "imagemStory": null,
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782387090490.mp4",
-    "tipo": "reel"
-  },
-  {
-    "data": "2026-06-25T09:03:33.973Z",
-    "titulo": "Por que as ações da Elmera estão disparando hoje?",
-    "categoria": "MERCADO",
-    "fonte": "Investing.com",
-    "link": "https://br.investing.com/news/stock-market-news/por-que-as-acoes-da-elmera-estao-disparando-hoje-93CH-1983362",
-    "postId": "18093235616032945",
-    "storyId": null,
-    "reelId": "18093235616032945",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782378085772.mp4",
     "tipo": "reel"
   }
 ]
