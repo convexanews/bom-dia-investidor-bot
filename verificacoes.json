@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-24T21:58:25.825Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 95 min."
+  },
+  {
     "data": "2026-07-24T21:52:54.417Z",
     "resultado": "carrossel_fechamento",
     "mensagem": "Carrossel de fechamento publicado. Ibovespa: 174.042 -1,97%",
@@ -1140,10 +1145,5 @@
     "data": "2026-07-22T06:00:54.691Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (03:00 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-22T05:30:55.309Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (02:30 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
