@@ -1,5 +1,11 @@
 [
   {
+    "data": "2026-07-24T12:24:16.370Z",
+    "resultado": "story_glossario",
+    "mensagem": "Story do glossário publicado: \"CDI\"",
+    "postId": "18138469465569637"
+  },
+  {
     "data": "2026-07-24T12:15:18.315Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 78 min."
@@ -1130,10 +1136,5 @@
     "data": "2026-07-21T20:01:14.125Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 62 min."
-  },
-  {
-    "data": "2026-07-21T19:31:00.881Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
   }
 ]
