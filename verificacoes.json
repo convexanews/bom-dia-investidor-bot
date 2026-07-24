@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-24T17:01:33.851Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 96 min."
+  },
+  {
     "data": "2026-07-24T16:37:20.013Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (carrossel): \"Galípolo: Copom avalia “plano de voo” que pode levar inflação para mais perto da meta\".",
@@ -1127,14 +1132,5 @@
       "Bolsas da NY sobem com impulso de semicondutores, mas com balanços e guerra no radar",
       "Fiagros atingem marca de 600 mil investidores; SNAG11 se destaca entre mais negociados"
     ]
-  },
-  {
-    "data": "2026-07-21T23:51:08.408Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (card): \"Fiagros atingem marca de 600 mil investidores; SNAG11 se destaca entre mais negociados\".",
-    "postId": "18608191930010984",
-    "storyId": "18454205053136458",
-    "reelId": null,
-    "tipo": "card"
   }
 ]
