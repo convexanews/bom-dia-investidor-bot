@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-24T17:30:55.003Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 67 min."
+  },
+  {
     "data": "2026-07-24T17:01:33.851Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 96 min."
@@ -1120,17 +1125,5 @@
     "data": "2026-07-22T00:01:01.722Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 111 min."
-  },
-  {
-    "data": "2026-07-21T23:55:30.533Z",
-    "resultado": "reel_postado",
-    "mensagem": "Resumo em vídeo do dia publicado com 3 notícia(s).",
-    "reelId": "18108102905001651",
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1784678060953.mp4",
-    "noticias": [
-      "Ibovespa Hoje Ao Vivo: Bolsa cai e perde os 173 mil pontos",
-      "Bolsas da NY sobem com impulso de semicondutores, mas com balanços e guerra no radar",
-      "Fiagros atingem marca de 600 mil investidores; SNAG11 se destaca entre mais negociados"
-    ]
   }
 ]
