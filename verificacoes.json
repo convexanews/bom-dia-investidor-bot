@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-24T09:31:53.009Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 91 min."
+  },
+  {
     "data": "2026-07-24T09:02:24.620Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (card): \"Estados Unidos isentam 471 produtos de nova tarifa de 12,5%; veja lista com os principais itens\".",
@@ -1130,14 +1135,5 @@
     "data": "2026-07-21T17:01:50.822Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 91 min."
-  },
-  {
-    "data": "2026-07-21T16:32:25.432Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (carrossel): \"Ibovespa Hoje Ao Vivo: Bolsa cai e perde os 173 mil pontos\".",
-    "postId": "17932604337359845",
-    "storyId": "18095385530340255",
-    "reelId": null,
-    "tipo": "carrossel"
   }
 ]
