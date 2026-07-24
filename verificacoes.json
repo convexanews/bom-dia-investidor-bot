@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-24T06:01:10.604Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (03:01 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-07-24T05:31:49.382Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (02:31 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1140,10 +1145,5 @@
     "storyId": null,
     "reelId": "18091295177567567",
     "tipo": "reel"
-  },
-  {
-    "data": "2026-07-21T14:21:42.782Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 75): \"Wall Street avança com apoio de semicondutores; tarifas e conflito no Oriente Médio seguem no radar\". Realizando postagem..."
   }
 ]
