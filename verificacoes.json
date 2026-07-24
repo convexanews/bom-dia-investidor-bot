@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-24T14:31:35.276Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
+  },
+  {
     "data": "2026-07-24T14:02:45.846Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"Ibovespa Hoje Ao Vivo: Bolsa cai com nova tarifa dos EUA sobre o Brasil\".",
@@ -1131,14 +1136,5 @@
       "PETR4 +1,24%",
       "PRIO3 +0,85%"
     ]
-  },
-  {
-    "data": "2026-07-21T21:32:21.980Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (carrossel): \"Bolsas da NY sobem com impulso de semicondutores, mas com balanços e guerra no radar\".",
-    "postId": "18142786480552310",
-    "storyId": "18210248428350656",
-    "reelId": null,
-    "tipo": "carrossel"
   }
 ]
