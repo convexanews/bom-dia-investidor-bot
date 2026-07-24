@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-24T16:37:20.012Z",
+    "titulo": "Galípolo: Copom avalia “plano de voo” que pode levar inflação para mais perto da meta",
+    "categoria": "Economia",
+    "fonte": "InfoMoney",
+    "link": "https://www.infomoney.com.br/economia/galipolo-copom-avalia-plano-de-voo-que-pode-levar-inflacao-para-mais-perto-da-meta/",
+    "postId": "18030879320827251",
+    "storyId": "17953524159197724",
+    "reelId": null,
+    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784910967913-slide1.png",
+    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784910967913-story.png",
+    "videoUrl": null,
+    "tipo": "carrossel",
+    "peso": 49
+  },
+  {
     "data": "2026-07-24T14:02:45.845Z",
     "titulo": "Ibovespa Hoje Ao Vivo: Bolsa cai com nova tarifa dos EUA sobre o Brasil",
     "categoria": "Mercados",
@@ -2953,19 +2968,5 @@
     "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1782345694261-slide2.png",
     "videoUrl": null,
     "tipo": "carrossel"
-  },
-  {
-    "data": "2026-06-24T21:34:25.100Z",
-    "titulo": "Ibovespa cai com tombo de Petrobras (PETR4) e Vale (VALE3), mas segura os 170 mil pontos",
-    "categoria": "Mercado Financeiro",
-    "fonte": "Suno",
-    "link": "https://www.suno.com.br/noticias/ibovespa-hoje-24-junho-2026-petrobras-vale-mt/",
-    "postId": "18031423076821522",
-    "storyId": null,
-    "reelId": "18031423076821522",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782336741923.mp4",
-    "tipo": "reel"
   }
 ]
