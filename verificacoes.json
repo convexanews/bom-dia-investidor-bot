@@ -1,5 +1,17 @@
 [
   {
+    "data": "2026-07-25T15:02:09.400Z",
+    "resultado": "reel_postado",
+    "mensagem": "Resumo em vídeo do dia publicado com 3 notícia(s).",
+    "reelId": "18108041396020562",
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1784991669532.mp4",
+    "noticias": [
+      "Galípolo: Copom avalia “plano de voo” que pode levar inflação para mais perto da meta",
+      "SNID11 fecha em forte alta de 1,4% após pagamento de dividendos",
+      "Crédito estruturado ganha espaço e FIDCs devem se popularizar, dizem gestores"
+    ]
+  },
+  {
     "data": "2026-07-25T15:00:56.539Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 20 min."
@@ -1139,10 +1151,5 @@
     "data": "2026-07-22T18:31:09.708Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 32 min."
-  },
-  {
-    "data": "2026-07-22T18:03:31.950Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 59 min."
   }
 ]
