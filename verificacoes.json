@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-25T14:30:52.822Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 50 min."
+  },
+  {
     "data": "2026-07-25T14:01:04.257Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 80 min."
@@ -1142,10 +1147,5 @@
     "storyId": "18045659978609326",
     "reelId": null,
     "tipo": "carrossel"
-  },
-  {
-    "data": "2026-07-22T17:01:01.141Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 26): \"JBS (JBSS32) pode reagir no 2T26, mas XP ainda vê alerta na carne\". Realizando postagem..."
   }
 ]
