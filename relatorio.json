@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-25T20:02:28.856Z",
+    "titulo": "Lula usa convenção de Haddad para mandar recado: “não meta dedo nas nossas eleições”",
+    "categoria": "Política",
+    "fonte": "InfoMoney",
+    "link": "https://www.infomoney.com.br/politica/lula-usa-convencao-de-haddad-para-mandar-recado-nao-meta-dedo-nas-nossas-eleicoes/",
+    "postId": "17976975591076541",
+    "storyId": "18159767611477524",
+    "reelId": null,
+    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1785009678863-slide1.png",
+    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1785009678863-story.png",
+    "videoUrl": null,
+    "tipo": "carrossel",
+    "peso": 19
+  },
+  {
     "data": "2026-07-25T17:59:50.218Z",
     "titulo": "Canadense é presa na Bélgica sob acusação de espionagem em instalação da Otan",
     "categoria": "Mundo",
@@ -2961,19 +2976,5 @@
     "imagemStory": null,
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782464478583.mp4",
     "tipo": "reel"
-  },
-  {
-    "data": "2026-06-25T23:54:45.017Z",
-    "titulo": "ALZR11 gera R$ 14 milhões em caixa e preserva reserva para dividendos",
-    "categoria": "FIIs",
-    "fonte": "Suno",
-    "link": "https://www.suno.com.br/noticias/alzr11-gera-r-14-milhoes-em-caixa-e-preserva-reserva-para-dividendos/",
-    "postId": "17944361601038151",
-    "storyId": null,
-    "reelId": null,
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1782431646215-slide1.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1782431646215-slide2.png",
-    "videoUrl": null,
-    "tipo": "carrossel"
   }
 ]

@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-25T20:02:28.858Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (carrossel): \"Lula usa convenção de Haddad para mandar recado: “não meta dedo nas nossas eleições”\".",
+    "postId": "17976975591076541",
+    "storyId": "18159767611477524",
+    "reelId": null,
+    "tipo": "carrossel"
+  },
+  {
+    "data": "2026-07-25T20:01:06.749Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 19): \"Lula usa convenção de Haddad para mandar recado: “não meta dedo nas nossas eleições”\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-25T19:31:48.480Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 29 min."
@@ -1129,15 +1143,5 @@
     "noticias": [
       "JBS (JBSS32) pode reagir no 2T26, mas XP ainda vê alerta na carne"
     ]
-  },
-  {
-    "data": "2026-07-22T23:31:02.145Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 31 min."
-  },
-  {
-    "data": "2026-07-22T23:04:20.320Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 58 min."
   }
 ]
