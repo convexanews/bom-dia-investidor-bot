@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-25T22:31:52.615Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (card): \"Por que o “Trump Trade” está agora em frangalhos\".",
+    "postId": "18097521545218957",
+    "storyId": "18099828095593748",
+    "reelId": null,
+    "tipo": "card"
+  },
+  {
+    "data": "2026-07-25T22:30:53.836Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 22): \"Por que o “Trump Trade” está agora em frangalhos\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-25T22:00:58.885Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
@@ -1124,15 +1138,5 @@
     "data": "2026-07-23T02:30:52.164Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (23:30 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-23T02:01:23.690Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (23:01 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-23T01:58:54.807Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (22:58 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]

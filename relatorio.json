@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-25T22:31:52.613Z",
+    "titulo": "Por que o “Trump Trade” está agora em frangalhos",
+    "categoria": "Mercados",
+    "fonte": "InfoMoney",
+    "link": "https://www.infomoney.com.br/mercados/por-que-o-trump-trade-esta-agora-em-frangalhos/",
+    "postId": "18097521545218957",
+    "storyId": "18099828095593748",
+    "reelId": null,
+    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1785018665381-feed.png",
+    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1785018665381-story.png",
+    "videoUrl": null,
+    "tipo": "card",
+    "peso": 22
+  },
+  {
     "data": "2026-07-25T20:02:28.856Z",
     "titulo": "Lula usa convenção de Haddad para mandar recado: “não meta dedo nas nossas eleições”",
     "categoria": "Política",
@@ -2961,20 +2976,6 @@
     "imagemFeed": null,
     "imagemStory": null,
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782473120437.mp4",
-    "tipo": "reel"
-  },
-  {
-    "data": "2026-06-26T09:02:45.983Z",
-    "titulo": "Ações de chips dos EUA recuam após Apple elevar preços e acender alerta sobre IA",
-    "categoria": "MERCADO",
-    "fonte": "Investing.com",
-    "link": "https://br.investing.com/news/stock-market-news/acoes-de-chips-dos-eua-recuam-apos-apple-elevar-precos-e-acender-alerta-sobre-ia-1984683",
-    "postId": "18141272587535877",
-    "storyId": null,
-    "reelId": "18141272587535877",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782464478583.mp4",
     "tipo": "reel"
   }
 ]
