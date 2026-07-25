@@ -1,5 +1,17 @@
 [
   {
+    "data": "2026-07-25T00:02:30.072Z",
+    "resultado": "reel_postado",
+    "mensagem": "Resumo em vídeo do dia publicado com 3 notícia(s).",
+    "reelId": "18334706968254070",
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1784937674916.mp4",
+    "noticias": [
+      "Estados Unidos isentam 471 produtos de nova tarifa de 12,5%; veja lista com os principais itens",
+      "Fundo imobiliário eleva projeção de dividendos para o 3T26; IFIX cai pelo 4º dia seguido",
+      "Galípolo: Copom avalia “plano de voo” que pode levar inflação para mais perto da meta"
+    ]
+  },
+  {
     "data": "2026-07-24T23:31:09.823Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
@@ -1140,10 +1152,5 @@
     "data": "2026-07-22T08:30:59.525Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (05:30 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-22T08:10:56.324Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (05:10 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
