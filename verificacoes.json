@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-25T21:30:51.091Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 32 min."
+  },
+  {
     "data": "2026-07-25T21:01:11.562Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 62 min."
@@ -1129,14 +1134,5 @@
     "data": "2026-07-23T01:01:19.010Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (22:01 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-23T00:32:34.931Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (carrossel): \"FII do BTG fecha duas locações, reduz vacância para cerca de 20% e projeta alta de 28% na receita\".",
-    "postId": "18369198055227635",
-    "storyId": "18108850208090063",
-    "reelId": null,
-    "tipo": "carrossel"
   }
 ]
