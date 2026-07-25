@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-25T15:32:16.228Z",
+    "titulo": "Irã anuncia acordos com Índia, Indonésia e China na cúpula de Saúde do BRICS",
+    "categoria": "Mundo",
+    "fonte": "InfoMoney",
+    "link": "https://www.infomoney.com.br/mundo/ira-anuncia-acordos-com-india-indonesia-e-china-na-cupula-de-saude-do-brics/",
+    "postId": "18171753211438528",
+    "storyId": "18463863190112971",
+    "reelId": null,
+    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784993473340-slide1.png",
+    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784993473340-story.png",
+    "videoUrl": null,
+    "tipo": "carrossel",
+    "peso": 23
+  },
+  {
     "data": "2026-07-25T13:20:06.026Z",
     "titulo": "“Você só descobre quem está nadando pelado quando a maré baixa”: o significado da frase de Warren Buffett no mundo dos investimentos",
     "categoria": "Economia",
@@ -2958,20 +2973,6 @@
     "imagemFeed": null,
     "imagemStory": null,
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782423107804.mp4",
-    "tipo": "reel"
-  },
-  {
-    "data": "2026-06-25T19:04:29.759Z",
-    "titulo": "Ouro fecha em alta com leve recuperação após índice de preços PCE abaixo do esperado",
-    "categoria": "Mercados",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/ouro-fecha-em-alta-com-leve-recuperacao-apos-indice-de-precos-pce-abaixo-do-esperado/",
-    "postId": "18130039681721708",
-    "storyId": null,
-    "reelId": "18130039681721708",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782414103681.mp4",
     "tipo": "reel"
   }
 ]

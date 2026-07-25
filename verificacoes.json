@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-25T15:32:16.230Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (carrossel): \"Irã anuncia acordos com Índia, Indonésia e China na cúpula de Saúde do BRICS\".",
+    "postId": "18171753211438528",
+    "storyId": "18463863190112971",
+    "reelId": null,
+    "tipo": "carrossel"
+  },
+  {
+    "data": "2026-07-25T15:31:02.549Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 23): \"Irã anuncia acordos com Índia, Indonésia e China na cúpula de Saúde do BRICS\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-25T15:02:09.400Z",
     "resultado": "reel_postado",
     "mensagem": "Resumo em vídeo do dia publicado com 3 notícia(s).",
@@ -1141,15 +1155,5 @@
     "data": "2026-07-22T19:31:02.925Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 74): \"Por que Ibovespa sobe mais de 2% e dólar cai em dia em que tarifaço passou a valer?\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-22T19:01:04.532Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
-  },
-  {
-    "data": "2026-07-22T18:31:09.708Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 32 min."
   }
 ]
