@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-25T17:59:50.220Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (card): \"Canadense é presa na Bélgica sob acusação de espionagem em instalação da Otan\".",
+    "postId": "18383948572163052",
+    "storyId": "18091385870160723",
+    "reelId": null,
+    "tipo": "card"
+  },
+  {
+    "data": "2026-07-25T17:58:54.307Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 24): \"Canadense é presa na Bélgica sob acusação de espionagem em instalação da Otan\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-25T17:31:02.693Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
@@ -1129,27 +1143,5 @@
     "data": "2026-07-22T21:59:08.223Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 77): \"Ibovespa dispara 2,44% com Vale (VALE3) e WEG (WEGE3), apesar do tarifaço\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-22T21:53:56.032Z",
-    "resultado": "carrossel_fechamento",
-    "mensagem": "Carrossel de fechamento publicado. Ibovespa: 177.548 +2,41%",
-    "postId": "18098037083595101",
-    "ibov": {
-      "valor": "177.548",
-      "variacao": "+2,41%"
-    },
-    "topAltas": [
-      "WEGE3 +10,05%",
-      "CSNA3 +6,32%",
-      "VALE3 +3,96%",
-      "CSAN3 +3,70%",
-      "BPAC11 +2,98%"
-    ]
-  },
-  {
-    "data": "2026-07-22T21:31:02.025Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
   }
 ]

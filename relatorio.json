@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-25T17:59:50.218Z",
+    "titulo": "Canadense é presa na Bélgica sob acusação de espionagem em instalação da Otan",
+    "categoria": "Mundo",
+    "fonte": "InfoMoney",
+    "link": "https://www.infomoney.com.br/mundo/canadense-e-presa-na-belgica-sob-acusacao-de-espionagem-em-instalacao-da-otan/",
+    "postId": "18383948572163052",
+    "storyId": "18091385870160723",
+    "reelId": null,
+    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1785002348170-feed.png",
+    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1785002348170-story.png",
+    "videoUrl": null,
+    "tipo": "card",
+    "peso": 24
+  },
+  {
     "data": "2026-07-25T15:32:16.228Z",
     "titulo": "Irã anuncia acordos com Índia, Indonésia e China na cúpula de Saúde do BRICS",
     "categoria": "Mundo",
@@ -2960,19 +2975,5 @@
     "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1782431646215-slide2.png",
     "videoUrl": null,
     "tipo": "carrossel"
-  },
-  {
-    "data": "2026-06-25T21:34:05.936Z",
-    "titulo": "Bradsaúde (SAUB3) pagará R$ 230 milhões em juros sobre capital próprio",
-    "categoria": "Empresas",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/bradsaude-saub3-pagara-r-230-milhoes-em-juros-sobre-capital-proprio/",
-    "postId": "18012243503912060",
-    "storyId": null,
-    "reelId": "18012243503912060",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782423107804.mp4",
-    "tipo": "reel"
   }
 ]
