@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-25T23:59:14.610Z",
+    "resultado": "reel_postado",
+    "mensagem": "Resumo em vídeo do dia publicado com 6 notícia(s).",
+    "reelId": "18110321105075358",
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1785023888472.mp4",
+    "noticias": [
+      "SNID11 fecha em forte alta de 1,4% após pagamento de dividendos",
+      "Crédito estruturado ganha espaço e FIDCs devem se popularizar, dizem gestores",
+      "Irã anuncia acordos com Índia, Indonésia e China na cúpula de Saúde do BRICS",
+      "Canadense é presa na Bélgica sob acusação de espionagem em instalação da Otan",
+      "Lula usa convenção de Haddad para mandar recado: “não meta dedo nas nossas eleições”",
+      "Por que o “Trump Trade” está agora em frangalhos"
+    ]
+  },
+  {
     "data": "2026-07-25T23:53:34.916Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 39 min."
@@ -1133,10 +1148,5 @@
     "data": "2026-07-23T05:01:06.423Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (02:01 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-23T04:31:25.484Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (01:31 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
