@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-25T00:03:14.764Z",
+    "titulo": "SNID11 fecha em forte alta de 1,4% após pagamento de dividendos",
+    "categoria": "FIIs",
+    "fonte": "Suno",
+    "link": "https://www.suno.com.br/noticias/snid11-fecha-em-forte-alta-de-14-apos-pagamento-de-dividendos/",
+    "postId": "18450132373184302",
+    "storyId": "18119102467819905",
+    "reelId": null,
+    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784937699595-slide1.png",
+    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784937699595-story.png",
+    "videoUrl": null,
+    "tipo": "carrossel",
+    "peso": 41
+  },
+  {
     "data": "2026-07-24T21:32:55.841Z",
     "titulo": "Ibovespa cai 1,52% com Petrobras (PETR4), Vale (VALE3) e bancos em baixa",
     "categoria": "Mercado Financeiro",
@@ -2955,20 +2970,6 @@
     "imagemFeed": null,
     "imagemStory": null,
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782396106756.mp4",
-    "tipo": "reel"
-  },
-  {
-    "data": "2026-06-25T11:33:37.028Z",
-    "titulo": "Com estímulos à economia em um ano eleitoral, BC eleva para 2% estimativa de alta do PIB em 2026",
-    "categoria": "G1",
-    "fonte": "G1 Economia",
-    "link": "https://g1.globo.com/economia/noticia/2026/06/25/banco-central-eleva-para-2percent-estimativa-de-alta-do-pib-em-2026.ghtml",
-    "postId": "18108626257968605",
-    "storyId": null,
-    "reelId": "18108626257968605",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782387090490.mp4",
     "tipo": "reel"
   }
 ]

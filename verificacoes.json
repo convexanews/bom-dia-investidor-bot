@@ -1,15 +1,17 @@
 [
   {
-    "data": "2026-07-25T00:02:30.072Z",
-    "resultado": "reel_postado",
-    "mensagem": "Resumo em vídeo do dia publicado com 3 notícia(s).",
-    "reelId": "18334706968254070",
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1784937674916.mp4",
-    "noticias": [
-      "Estados Unidos isentam 471 produtos de nova tarifa de 12,5%; veja lista com os principais itens",
-      "Fundo imobiliário eleva projeção de dividendos para o 3T26; IFIX cai pelo 4º dia seguido",
-      "Galípolo: Copom avalia “plano de voo” que pode levar inflação para mais perto da meta"
-    ]
+    "data": "2026-07-25T00:03:14.765Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (carrossel): \"SNID11 fecha em forte alta de 1,4% após pagamento de dividendos\".",
+    "postId": "18450132373184302",
+    "storyId": "18119102467819905",
+    "reelId": null,
+    "tipo": "carrossel"
+  },
+  {
+    "data": "2026-07-25T00:01:27.837Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 41): \"SNID11 fecha em forte alta de 1,4% após pagamento de dividendos\". Realizando postagem..."
   },
   {
     "data": "2026-07-24T23:31:09.823Z",
@@ -1147,10 +1149,5 @@
     "data": "2026-07-22T09:01:03.799Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 52): \"Dow Jones Futuro opera em baixa com Wall Street de olho em Alphabet e Tesla\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-22T08:30:59.525Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (05:30 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
