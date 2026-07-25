@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-25T20:41:55.277Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 81 min."
+  },
+  {
     "data": "2026-07-25T20:30:59.582Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
@@ -1133,10 +1138,5 @@
     "data": "2026-07-23T00:31:05.995Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 27): \"FII do BTG fecha duas locações, reduz vacância para cerca de 20% e projeta alta de 28% na receita\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-23T00:01:33.938Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
   }
 ]
