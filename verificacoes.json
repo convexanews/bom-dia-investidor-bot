@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-25T11:57:44.388Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 65 min."
+  },
+  {
     "data": "2026-07-25T11:30:58.611Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
@@ -1144,14 +1149,5 @@
     "data": "2026-07-22T14:58:25.505Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 95 min."
-  },
-  {
-    "data": "2026-07-22T14:32:27.640Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"Wall Street abre sem direção única com avanço do petróleo e resultados da Alphabet\".",
-    "postId": "18064657556706176",
-    "storyId": null,
-    "reelId": "18064657556706176",
-    "tipo": "reel"
   }
 ]
