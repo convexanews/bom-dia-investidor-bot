@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-25T11:02:02.850Z",
+    "titulo": "Crédito estruturado ganha espaço e FIDCs devem se popularizar, dizem gestores",
+    "categoria": "Onde Investir",
+    "fonte": "InfoMoney",
+    "link": "https://www.infomoney.com.br/onde-investir/credito-estruturado-ganha-espaco-e-fidcs-devem-se-popularizar-dizem-gestores/",
+    "postId": "18205565578360977",
+    "storyId": "18114498302487997",
+    "reelId": null,
+    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784977278304-feed.png",
+    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784977278304-story.png",
+    "videoUrl": null,
+    "tipo": "card",
+    "peso": 15
+  },
+  {
     "data": "2026-07-25T00:03:14.764Z",
     "titulo": "SNID11 fecha em forte alta de 1,4% após pagamento de dividendos",
     "categoria": "FIIs",
@@ -2956,20 +2971,6 @@
     "imagemFeed": null,
     "imagemStory": null,
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782405090991.mp4",
-    "tipo": "reel"
-  },
-  {
-    "data": "2026-06-25T14:03:39.964Z",
-    "titulo": "Ações globais de chips disparam à medida que resultados da Micron reacendem alta da IA",
-    "categoria": "Empresas",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/acoes-globais-de-chips-disparam-a-medida-que-resultados-da-micron-reacendem-alta-da-ia-jvka/",
-    "postId": "18091252409058371",
-    "storyId": null,
-    "reelId": "18091252409058371",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782396106756.mp4",
     "tipo": "reel"
   }
 ]
