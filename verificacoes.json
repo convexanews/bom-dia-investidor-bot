@@ -1,5 +1,11 @@
 [
   {
+    "data": "2026-07-25T12:06:28.992Z",
+    "resultado": "story_glossario",
+    "mensagem": "Story do glossário publicado: \"FII (Fundo Imobiliário)\"",
+    "postId": "18116982769909253"
+  },
+  {
     "data": "2026-07-25T12:01:15.526Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 61 min."
@@ -1144,10 +1150,5 @@
       "Bolsas da NY sobem com impulso de semicondutores, mas com balanços e guerra no radar",
       "Fiagros atingem marca de 600 mil investidores; SNAG11 se destaca entre mais negociados"
     ]
-  },
-  {
-    "data": "2026-07-22T15:01:25.226Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
   }
 ]
