@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-25T18:00:55.782Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 119 min."
+  },
+  {
     "data": "2026-07-25T17:59:50.220Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (card): \"Canadense é presa na Bélgica sob acusação de espionagem em instalação da Otan\".",
@@ -1138,10 +1143,5 @@
     "storyId": null,
     "reelId": "18089367713120531",
     "tipo": "reel"
-  },
-  {
-    "data": "2026-07-22T21:59:08.223Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 77): \"Ibovespa dispara 2,44% com Vale (VALE3) e WEG (WEGE3), apesar do tarifaço\". Realizando postagem..."
   }
 ]
