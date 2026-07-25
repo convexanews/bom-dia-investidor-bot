@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-25T11:30:58.611Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
+  },
+  {
     "data": "2026-07-25T11:02:02.852Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (card): \"Crédito estruturado ganha espaço e FIDCs devem se popularizar, dizem gestores\".",
@@ -1148,10 +1153,5 @@
     "storyId": null,
     "reelId": "18064657556706176",
     "tipo": "reel"
-  },
-  {
-    "data": "2026-07-22T14:30:58.633Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 67): \"Wall Street abre sem direção única com avanço do petróleo e resultados da Alphabet\". Realizando postagem..."
   }
 ]
