@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-25T18:30:56.762Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 89 min."
+  },
+  {
     "data": "2026-07-25T18:00:55.782Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 119 min."
@@ -1134,14 +1139,5 @@
     "data": "2026-07-22T22:02:24.296Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 120 min."
-  },
-  {
-    "data": "2026-07-22T22:01:28.599Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"Ibovespa dispara 2,44% com Vale (VALE3) e WEG (WEGE3), apesar do tarifaço\".",
-    "postId": "18089367713120531",
-    "storyId": null,
-    "reelId": "18089367713120531",
-    "tipo": "reel"
   }
 ]
