@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-25T13:20:06.027Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"“Você só descobre quem está nadando pelado quando a maré baixa”: o significado da frase de Warren Buffett no mundo dos investimentos\".",
+    "postId": "18371311393227094",
+    "storyId": null,
+    "reelId": "18371311393227094",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-07-25T13:18:25.075Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 38): \"“Você só descobre quem está nadando pelado quando a maré baixa”: o significado da frase de Warren Buffett no mundo dos investimentos\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-25T13:00:54.957Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
@@ -1133,15 +1147,5 @@
     "data": "2026-07-22T16:20:04.821Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 13 min."
-  },
-  {
-    "data": "2026-07-22T16:01:16.920Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 32 min."
-  },
-  {
-    "data": "2026-07-22T15:31:02.506Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 62 min."
   }
 ]
