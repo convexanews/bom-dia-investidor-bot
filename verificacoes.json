@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-26T09:02:27.374Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (carrossel): \"EUA, Japão e Filipinas realizam exercícios militares no Mar do Sul da China\".",
+    "postId": "18346172296219365",
+    "storyId": "18159745570482686",
+    "reelId": null,
+    "tipo": "carrossel"
+  },
+  {
+    "data": "2026-07-26T09:01:09.911Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 9): \"EUA, Japão e Filipinas realizam exercícios militares no Mar do Sul da China\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-26T08:30:52.751Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (05:30 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1129,16 +1143,5 @@
     "data": "2026-07-23T13:27:26.569Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 51): \"Pedidos semanais de auxílio-desemprego nos EUA têm forte queda na última semana\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-23T13:01:54.692Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
-  },
-  {
-    "data": "2026-07-23T12:44:42.352Z",
-    "resultado": "story_glossario",
-    "mensagem": "Story do glossário publicado: \"IPCA\"",
-    "postId": "18120370060843420"
   }
 ]

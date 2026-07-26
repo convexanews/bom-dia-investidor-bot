@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-26T09:02:27.372Z",
+    "titulo": "EUA, Japão e Filipinas realizam exercícios militares no Mar do Sul da China",
+    "categoria": "MERCADO",
+    "fonte": "Investing.com",
+    "link": "https://br.investing.com/news/economy-news/eua-japao-e-filipinas-realizam-exercicios-militares-no-mar-do-sul-da-china-2013768",
+    "postId": "18346172296219365",
+    "storyId": "18159745570482686",
+    "reelId": null,
+    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1785056479743-slide1.png",
+    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1785056479743-story.png",
+    "videoUrl": null,
+    "tipo": "carrossel",
+    "peso": 9
+  },
+  {
     "data": "2026-07-25T22:31:52.613Z",
     "titulo": "Por que o “Trump Trade” está agora em frangalhos",
     "categoria": "Mercados",
@@ -2962,20 +2977,6 @@
     "imagemFeed": null,
     "imagemStory": null,
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782480664695.mp4",
-    "tipo": "reel"
-  },
-  {
-    "data": "2026-06-26T11:27:46.253Z",
-    "titulo": "Banco Central decreta liquidação extrajudicial da Sefer Investimentos",
-    "categoria": "G1",
-    "fonte": "G1 Economia",
-    "link": "https://g1.globo.com/economia/noticia/2026/06/26/banco-central-decreta-liquidacao-extrajudicial-da-sefer-investimentos.ghtml",
-    "postId": "17880992451457341",
-    "storyId": null,
-    "reelId": "17880992451457341",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782473120437.mp4",
     "tipo": "reel"
   }
 ]
