@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-26T17:00:53.468Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
+  },
+  {
     "data": "2026-07-26T16:32:28.914Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (carrossel): \"Bradesco (BBDC3;BBDC4), IRB (IRBR3) e mais duas empresas pagam dividendos nesta semana; veja o calendário\".",
@@ -1147,10 +1152,5 @@
       "VALE3 +0,77%",
       "RENT3 +0,00%"
     ]
-  },
-  {
-    "data": "2026-07-23T21:31:11.045Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 62 min."
   }
 ]
