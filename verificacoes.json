@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-26T18:31:15.707Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
+  },
+  {
     "data": "2026-07-26T18:01:30.924Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 31 min."
@@ -1135,10 +1140,5 @@
     "data": "2026-07-23T22:56:32.505Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 45): \"Fed está pronto para elevar os juros nos EUA, avalia Janet Yellen\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-23T22:30:59.298Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
   }
 ]
