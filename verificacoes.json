@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-26T21:02:20.878Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (carrossel): \"Baker Hughes declara dividendo trimestral de US$ 0,23 por ação\".",
+    "postId": "18013163747923358",
+    "storyId": "18129101227724296",
+    "reelId": null,
+    "tipo": "carrossel"
+  },
+  {
+    "data": "2026-07-26T21:01:10.803Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 6): \"Baker Hughes declara dividendo trimestral de US$ 0,23 por ação\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-26T20:31:16.106Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 29 min."
@@ -1121,15 +1135,5 @@
     "data": "2026-07-24T01:31:01.183Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (22:31 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-24T01:01:00.465Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (22:01 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-24T00:30:54.411Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 28 min."
   }
 ]

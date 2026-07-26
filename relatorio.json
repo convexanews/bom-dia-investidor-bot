@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-26T21:02:20.876Z",
+    "titulo": "Baker Hughes declara dividendo trimestral de US$ 0,23 por ação",
+    "categoria": "MERCADO",
+    "fonte": "Investing.com",
+    "link": "https://br.investing.com/news/company-news/baker-hughes-declara-dividendo-trimestral-de-us-023-por-acao-93CH-2013873",
+    "postId": "18013163747923358",
+    "storyId": "18129101227724296",
+    "reelId": null,
+    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1785099675116-slide1.png",
+    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1785099675116-story.png",
+    "videoUrl": null,
+    "tipo": "carrossel",
+    "peso": 6
+  },
+  {
     "data": "2026-07-26T19:00:03.511Z",
     "titulo": "“OnlyMarms”: marmotas estão no OnlyFans para arrecadar fundos para pesquisa",
     "categoria": "Global",
@@ -2968,19 +2983,5 @@
     "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1782552678077-story.png",
     "videoUrl": null,
     "tipo": "card"
-  },
-  {
-    "data": "2026-06-26T22:32:00.903Z",
-    "titulo": "AAZQ11 aumenta exposição ao CRA da BRF e realiza novos aportes",
-    "categoria": "Fiagro",
-    "fonte": "Suno",
-    "link": "https://www.suno.com.br/noticias/aazq11-aumenta-exposicao-ao-cra-da-brf-e-realiza-novos-aportes/",
-    "postId": "18040204529801192",
-    "storyId": null,
-    "reelId": null,
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1782513076249-slide1.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1782513076249-slide2.png",
-    "videoUrl": null,
-    "tipo": "carrossel"
   }
 ]
