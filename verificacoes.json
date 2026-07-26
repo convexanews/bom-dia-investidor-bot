@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-26T08:11:37.988Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (05:11 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-07-26T08:00:57.923Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (05:00 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1135,10 +1140,5 @@
     "data": "2026-07-23T12:31:16.603Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 33 min."
-  },
-  {
-    "data": "2026-07-23T12:00:56.503Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 63 min."
   }
 ]
