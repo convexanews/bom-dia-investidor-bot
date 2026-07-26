@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-26T05:00:55.639Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (02:00 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-07-26T04:31:00.447Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (01:31 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1139,14 +1144,5 @@
     "data": "2026-07-23T09:31:10.964Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 91 min."
-  },
-  {
-    "data": "2026-07-23T09:01:57.890Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (card): \"Mercado em tempo real: Ibovespa segue decisão de juros do BCE e dados globais\".",
-    "postId": "18128204236647630",
-    "storyId": "18110565022944437",
-    "reelId": null,
-    "tipo": "card"
   }
 ]
