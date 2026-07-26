@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-26T11:56:34.905Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 96 min."
+  },
+  {
     "data": "2026-07-26T11:31:52.696Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (card): \"EUA suspendem ataques aéreos ao Irã, mas tensão permanece em meio a negociações\".",
@@ -1130,10 +1135,5 @@
     "storyId": null,
     "reelId": "18050928998563972",
     "tipo": "reel"
-  },
-  {
-    "data": "2026-07-23T15:31:18.428Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 76): \"Mercado amplia apostas em alta de juros nos EUA após escalada da tensão no Oriente Médio e disparada do petróleo\". Realizando postagem..."
   }
 ]
