@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-26T23:59:08.671Z",
+    "resultado": "reel_postado",
+    "mensagem": "Resumo em vídeo do dia publicado com 6 notícia(s).",
+    "reelId": "17973574968196950",
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1785110282554.mp4",
+    "noticias": [
+      "EUA, Japão e Filipinas realizam exercícios militares no Mar do Sul da China",
+      "EUA suspendem ataques aéreos ao Irã, mas tensão permanece em meio a negociações",
+      "Bradesco (BBDC3;BBDC4), IRB (IRBR3) e mais duas empresas pagam dividendos nesta semana; veja o calendário",
+      "“OnlyMarms”: marmotas estão no OnlyFans para arrecadar fundos para pesquisa",
+      "Baker Hughes declara dividendo trimestral de US$ 0,23 por ação",
+      "Ibovespa e dólar hoje: Oriente Médio, petróleo e Focus em foco pré-FOMC"
+    ]
+  },
+  {
     "data": "2026-07-26T23:54:04.873Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 98 min."
@@ -1134,10 +1149,5 @@
     "data": "2026-07-24T05:31:49.382Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (02:31 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-24T05:14:33.688Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (02:14 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
