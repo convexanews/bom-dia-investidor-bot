@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-26T12:00:56.804Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 91 min."
+  },
+  {
     "data": "2026-07-26T11:56:34.905Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 96 min."
@@ -1126,14 +1131,5 @@
     "data": "2026-07-23T15:50:10.515Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 103 min."
-  },
-  {
-    "data": "2026-07-23T15:32:54.461Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"Mercado amplia apostas em alta de juros nos EUA após escalada da tensão no Oriente Médio e disparada do petróleo\".",
-    "postId": "18050928998563972",
-    "storyId": null,
-    "reelId": "18050928998563972",
-    "tipo": "reel"
   }
 ]
