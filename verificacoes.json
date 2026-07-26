@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-26T20:10:46.253Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 50 min."
+  },
+  {
     "data": "2026-07-26T20:01:17.904Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 59 min."
@@ -1126,19 +1131,5 @@
     "data": "2026-07-24T00:01:22.006Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 57 min."
-  },
-  {
-    "data": "2026-07-23T23:58:46.090Z",
-    "resultado": "reel_postado",
-    "mensagem": "Resumo em vídeo do dia publicado com 5 notícia(s).",
-    "reelId": "18612859954041274",
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1784851062637.mp4",
-    "noticias": [
-      "FII do BTG fecha duas locações, reduz vacância para cerca de 20% e projeta alta de 28% na receita",
-      "Mercado em tempo real: Ibovespa segue decisão de juros do BCE e dados globais",
-      "Pedidos semanais de auxílio-desemprego nos EUA têm forte queda na última semana",
-      "Bolsas da Europa têm forte queda com disparada do petróleo e decisão do BCE",
-      "Fed está pronto para elevar os juros nos EUA, avalia Janet Yellen"
-    ]
   }
 ]
