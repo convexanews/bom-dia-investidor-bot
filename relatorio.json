@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-26T19:00:03.511Z",
+    "titulo": "“OnlyMarms”: marmotas estão no OnlyFans para arrecadar fundos para pesquisa",
+    "categoria": "Global",
+    "fonte": "InfoMoney",
+    "link": "https://www.infomoney.com.br/business/global/onlymarms-marmotas-estao-no-onlyfans-para-arrecadar-fundos-para-pesquisa/",
+    "postId": "18168749197443352",
+    "storyId": "18434230726132030",
+    "reelId": null,
+    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1785092357525-feed.png",
+    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1785092357525-story.png",
+    "videoUrl": null,
+    "tipo": "card",
+    "peso": 6
+  },
+  {
     "data": "2026-07-26T16:32:28.912Z",
     "titulo": "Bradesco (BBDC3;BBDC4), IRB (IRBR3) e mais duas empresas pagam dividendos nesta semana; veja o calendário",
     "categoria": "Empresas",
@@ -2967,19 +2982,5 @@
     "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1782513076249-slide2.png",
     "videoUrl": null,
     "tipo": "carrossel"
-  },
-  {
-    "data": "2026-06-26T20:20:54.249Z",
-    "titulo": "Wall Street fecha em queda; Nasdaq derrete 4% na semana com liquidação tech",
-    "categoria": "Mercados",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/wall-street-26-6-26-apsa/",
-    "postId": "18166991059439572",
-    "storyId": null,
-    "reelId": "18166991059439572",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782505146179.mp4",
-    "tipo": "reel"
   }
 ]

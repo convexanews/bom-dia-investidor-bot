@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-26T19:00:03.513Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (card): \"“OnlyMarms”: marmotas estão no OnlyFans para arrecadar fundos para pesquisa\".",
+    "postId": "18168749197443352",
+    "storyId": "18434230726132030",
+    "reelId": null,
+    "tipo": "card"
+  },
+  {
+    "data": "2026-07-26T18:59:06.817Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 6): \"“OnlyMarms”: marmotas estão no OnlyFans para arrecadar fundos para pesquisa\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-26T18:31:15.707Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
@@ -1126,19 +1140,5 @@
     "data": "2026-07-23T23:00:55.663Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 118 min."
-  },
-  {
-    "data": "2026-07-23T22:58:04.712Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (carrossel): \"Fed está pronto para elevar os juros nos EUA, avalia Janet Yellen\".",
-    "postId": "18184283596395879",
-    "storyId": "18066530552651147",
-    "reelId": null,
-    "tipo": "carrossel"
-  },
-  {
-    "data": "2026-07-23T22:56:32.505Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 45): \"Fed está pronto para elevar os juros nos EUA, avalia Janet Yellen\". Realizando postagem..."
   }
 ]
