@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-26T07:00:58.209Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (04:00 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-07-26T06:30:54.475Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (03:30 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1139,10 +1144,5 @@
     "storyId": null,
     "reelId": "17903295951310035",
     "tipo": "reel"
-  },
-  {
-    "data": "2026-07-23T11:02:27.224Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 68): \"Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta quinta\". Realizando postagem..."
   }
 ]
