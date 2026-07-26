@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-26T17:06:47.208Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 86 min."
+  },
+  {
     "data": "2026-07-26T17:00:53.468Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
@@ -1135,22 +1140,5 @@
     "data": "2026-07-23T21:58:34.483Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 35 min."
-  },
-  {
-    "data": "2026-07-23T21:53:50.221Z",
-    "resultado": "carrossel_fechamento",
-    "mensagem": "Carrossel de fechamento publicado. Ibovespa: 176.724 +1,96%",
-    "postId": "17872671324625484",
-    "ibov": {
-      "valor": "176.724",
-      "variacao": "+1,96%"
-    },
-    "topAltas": [
-      "PETR3 +1,67%",
-      "PRIO3 +1,29%",
-      "PETR4 +0,87%",
-      "VALE3 +0,77%",
-      "RENT3 +0,00%"
-    ]
   }
 ]
