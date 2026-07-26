@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-26T14:25:42.947Z",
+    "resultado": "resumo_semanal",
+    "mensagem": "Resumo semanal publicado com 7 notícias.",
+    "postId": "18053832080541107",
+    "noticias": [
+      "Wall Street tem forte queda com petróleo a US$ 100; Tesla (TSLA) despenca 14%",
+      "Ibovespa dispara 2,44% com Vale (VALE3) e WEG (WEGE3), apesar do tarifaço",
+      "Mercado amplia apostas em alta de juros nos EUA após escalada da tensão no Oriente Médio e disparada do petróleo",
+      "Wall Street avança com apoio de semicondutores; tarifas e conflito no Oriente Médio seguem no radar",
+      "Por que Ibovespa sobe mais de 2% e dólar cai em dia em que tarifaço passou a valer?",
+      "Galípolo vê expectativas de inflação desancoradas e defende manutenção de juros restritivos",
+      "Ibovespa Hoje Ao Vivo: Bolsa cai com nova tarifa dos EUA sobre o Brasil"
+    ]
+  },
+  {
     "data": "2026-07-26T14:02:37.476Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"Bitcoin (BTC) sobe, mas cautela predomina antes de decisão do Fed; veja cotações das criptomoedas neste domingo (26)\".",
@@ -1127,14 +1142,5 @@
     "data": "2026-07-23T18:32:24.093Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 91 min."
-  },
-  {
-    "data": "2026-07-23T18:02:46.927Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (carrossel): \"Bolsas da Europa têm forte queda com disparada do petróleo e decisão do BCE\".",
-    "postId": "17920512999410762",
-    "storyId": "18030416678822699",
-    "reelId": null,
-    "tipo": "carrossel"
   }
 ]
