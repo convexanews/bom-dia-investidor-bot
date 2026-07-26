@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-26T10:02:09.122Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 61 min."
+  },
+  {
     "data": "2026-07-26T09:30:59.309Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
@@ -1134,14 +1139,5 @@
     "data": "2026-07-23T13:31:00.815Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 118 min."
-  },
-  {
-    "data": "2026-07-23T13:28:56.929Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (carrossel): \"Pedidos semanais de auxílio-desemprego nos EUA têm forte queda na última semana\".",
-    "postId": "18087306182642348",
-    "storyId": "18008939630945986",
-    "reelId": null,
-    "tipo": "carrossel"
   }
 ]
