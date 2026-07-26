@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-26T16:01:22.413Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
+  },
+  {
     "data": "2026-07-26T16:00:24.983Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
@@ -1143,14 +1148,5 @@
     "data": "2026-07-23T20:52:37.929Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 101 min."
-  },
-  {
-    "data": "2026-07-23T20:32:50.769Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"Wall Street tem forte queda com petróleo a US$ 100; Tesla (TSLA) despenca 14%\".",
-    "postId": "17936420679088375",
-    "storyId": null,
-    "reelId": "17936420679088375",
-    "tipo": "reel"
   }
 ]
