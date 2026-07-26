@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-26T21:31:16.911Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
+  },
+  {
     "data": "2026-07-26T21:02:20.878Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (carrossel): \"Baker Hughes declara dividendo trimestral de US$ 0,23 por ação\".",
@@ -1130,10 +1135,5 @@
     "data": "2026-07-24T01:54:04.586Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (22:54 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-24T01:31:01.183Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (22:31 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
