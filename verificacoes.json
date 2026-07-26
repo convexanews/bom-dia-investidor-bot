@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-26T20:01:17.904Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 59 min."
+  },
+  {
     "data": "2026-07-26T19:31:10.156Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 89 min."
@@ -1135,10 +1140,5 @@
       "Bolsas da Europa têm forte queda com disparada do petróleo e decisão do BCE",
       "Fed está pronto para elevar os juros nos EUA, avalia Janet Yellen"
     ]
-  },
-  {
-    "data": "2026-07-23T23:54:39.431Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 64 min."
   }
 ]
