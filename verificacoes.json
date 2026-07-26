@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-26T19:00:56.297Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 120 min."
+  },
+  {
     "data": "2026-07-26T19:00:03.513Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (card): \"“OnlyMarms”: marmotas estão no OnlyFans para arrecadar fundos para pesquisa\".",
@@ -1135,10 +1140,5 @@
     "data": "2026-07-23T23:31:11.052Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 87 min."
-  },
-  {
-    "data": "2026-07-23T23:00:55.663Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 118 min."
   }
 ]
