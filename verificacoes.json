@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-26T23:54:04.873Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 98 min."
+  },
+  {
     "data": "2026-07-26T23:31:57.626Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (card): \"Ibovespa e dólar hoje: Oriente Médio, petróleo e Focus em foco pré-FOMC\".",
@@ -1134,10 +1139,5 @@
     "data": "2026-07-24T05:14:33.688Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (02:14 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-24T05:00:57.476Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (02:00 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
