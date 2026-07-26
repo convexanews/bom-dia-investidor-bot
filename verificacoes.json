@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-26T09:30:59.309Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
+  },
+  {
     "data": "2026-07-26T09:02:27.374Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (carrossel): \"EUA, Japão e Filipinas realizam exercícios militares no Mar do Sul da China\".",
@@ -1138,10 +1143,5 @@
     "storyId": "18008939630945986",
     "reelId": null,
     "tipo": "carrossel"
-  },
-  {
-    "data": "2026-07-23T13:27:26.569Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 51): \"Pedidos semanais de auxílio-desemprego nos EUA têm forte queda na última semana\". Realizando postagem..."
   }
 ]
