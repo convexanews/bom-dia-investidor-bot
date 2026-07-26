@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-26T04:01:01.609Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (01:01 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-07-26T03:31:06.100Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (00:31 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1143,10 +1148,5 @@
     "data": "2026-07-23T09:01:02.424Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 58): \"Mercado em tempo real: Ibovespa segue decisão de juros do BCE e dados globais\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-23T08:30:58.024Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (05:30 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
