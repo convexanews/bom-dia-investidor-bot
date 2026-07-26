@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-26T12:31:07.197Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 61 min."
+  },
+  {
     "data": "2026-07-26T12:10:10.532Z",
     "resultado": "story_glossario",
     "mensagem": "Story do glossário publicado: \"Dividendo\"",
@@ -1127,10 +1132,5 @@
     "data": "2026-07-23T16:31:00.118Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 62 min."
-  },
-  {
-    "data": "2026-07-23T16:02:53.927Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 91 min."
   }
 ]
