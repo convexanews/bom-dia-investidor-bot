@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-26T11:31:52.694Z",
+    "titulo": "EUA suspendem ataques aéreos ao Irã, mas tensão permanece em meio a negociações",
+    "categoria": "Mundo",
+    "fonte": "InfoMoney",
+    "link": "https://www.infomoney.com.br/mundo/eua-suspendem-ataques-aereos-ao-ira-mas-tensao-permanece-em-meio-a-negociacoes/",
+    "postId": "18015196517871337",
+    "storyId": "18610887088059214",
+    "reelId": null,
+    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1785065470297-feed.png",
+    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1785065470297-story.png",
+    "videoUrl": null,
+    "tipo": "card",
+    "peso": 16
+  },
+  {
     "data": "2026-07-26T09:02:27.372Z",
     "titulo": "EUA, Japão e Filipinas realizam exercícios militares no Mar do Sul da China",
     "categoria": "MERCADO",
@@ -2963,20 +2978,6 @@
     "imagemFeed": null,
     "imagemStory": null,
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782489678486.mp4",
-    "tipo": "reel"
-  },
-  {
-    "data": "2026-06-26T13:33:42.012Z",
-    "titulo": "Ibovespa Hoje Ao Vivo: Bolsa cai com exterior negativo e peso de PETR4 e VALE3",
-    "categoria": "Mercados",
-    "fonte": "InfoMoney",
-    "link": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-26062026/",
-    "postId": "18094240424369248",
-    "storyId": null,
-    "reelId": "18094240424369248",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782480664695.mp4",
     "tipo": "reel"
   }
 ]

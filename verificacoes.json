@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-26T11:31:52.696Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (card): \"EUA suspendem ataques aéreos ao Irã, mas tensão permanece em meio a negociações\".",
+    "postId": "18015196517871337",
+    "storyId": "18610887088059214",
+    "reelId": null,
+    "tipo": "card"
+  },
+  {
+    "data": "2026-07-26T11:31:00.293Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 16): \"EUA suspendem ataques aéreos ao Irã, mas tensão permanece em meio a negociações\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-26T11:01:16.021Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
@@ -1121,23 +1135,5 @@
     "data": "2026-07-23T15:31:18.428Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 76): \"Mercado amplia apostas em alta de juros nos EUA após escalada da tensão no Oriente Médio e disparada do petróleo\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-23T15:02:15.521Z",
-    "resultado": "reel_postado",
-    "mensagem": "Resumo em vídeo do dia publicado com 4 notícia(s).",
-    "reelId": "18109726336995046",
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1784818874797.mp4",
-    "noticias": [
-      "JBS (JBSS32) pode reagir no 2T26, mas XP ainda vê alerta na carne",
-      "FII do BTG fecha duas locações, reduz vacância para cerca de 20% e projeta alta de 28% na receita",
-      "Mercado em tempo real: Ibovespa segue decisão de juros do BCE e dados globais",
-      "Pedidos semanais de auxílio-desemprego nos EUA têm forte queda na última semana"
-    ]
-  },
-  {
-    "data": "2026-07-23T15:00:59.706Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 28 min."
   }
 ]
