@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-26T23:31:57.625Z",
+    "titulo": "Ibovespa e dólar hoje: Oriente Médio, petróleo e Focus em foco pré-FOMC",
+    "categoria": "MERCADO",
+    "fonte": "Investing.com",
+    "link": "https://br.investing.com/news/stock-market-news/ibovespa-e-dolar-hoje-oriente-medio-petroleo-e-focus-em-foco-prefomc-2013367",
+    "postId": "18050131250792548",
+    "storyId": "18409669546153786",
+    "reelId": null,
+    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1785108678257-feed.png",
+    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1785108678257-story.png",
+    "videoUrl": null,
+    "tipo": "card",
+    "peso": 26
+  },
+  {
     "data": "2026-07-26T21:02:20.876Z",
     "titulo": "Baker Hughes declara dividendo trimestral de US$ 0,23 por ação",
     "categoria": "MERCADO",
@@ -2969,19 +2984,5 @@
     "imagemStory": null,
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782561686285.mp4",
     "tipo": "reel"
-  },
-  {
-    "data": "2026-06-27T09:32:02.231Z",
-    "titulo": "Bitcoin se mantém acima de US$ 60.000 enquanto modelo de financiamento da Strategy enfrenta escrutínio",
-    "categoria": "MERCADO",
-    "fonte": "Investing.com",
-    "link": "https://br.investing.com/news/cryptocurrency-news/bitcoin-se-mantem-acima-de-us-60000-enquanto-modelo-de-financiamento-da-strategy-enfrenta-escrutinio-1985664",
-    "postId": "18006774074926482",
-    "storyId": "17873312592527683",
-    "reelId": null,
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1782552678077-feed.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1782552678077-story.png",
-    "videoUrl": null,
-    "tipo": "card"
   }
 ]

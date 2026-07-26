@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-26T23:31:57.626Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (card): \"Ibovespa e dólar hoje: Oriente Médio, petróleo e Focus em foco pré-FOMC\".",
+    "postId": "18050131250792548",
+    "storyId": "18409669546153786",
+    "reelId": null,
+    "tipo": "card"
+  },
+  {
+    "data": "2026-07-26T23:31:13.399Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 26): \"Ibovespa e dólar hoje: Oriente Médio, petróleo e Focus em foco pré-FOMC\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-26T23:01:24.250Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 1 min."
@@ -1125,15 +1139,5 @@
     "data": "2026-07-24T05:00:57.476Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (02:00 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-24T04:31:42.649Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (01:31 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-24T04:01:10.168Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (01:01 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
