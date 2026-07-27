@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-27T06:19:43.503Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (03:19 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-07-27T06:00:54.649Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (03:00 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1140,10 +1145,5 @@
     "data": "2026-07-24T11:30:59.287Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 27): \"Fundo imobiliário eleva projeção de dividendos para o 3T26; IFIX cai pelo 4º dia seguido\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-24T11:02:21.500Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 1 min."
   }
 ]
