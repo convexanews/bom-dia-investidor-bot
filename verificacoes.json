@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-27T17:01:39.677Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 62 min."
+  },
+  {
     "data": "2026-07-27T16:32:27.353Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 91 min."
@@ -1136,14 +1141,5 @@
       "WEGE3 +0,70%",
       "USIM5 -0,12%"
     ]
-  },
-  {
-    "data": "2026-07-24T21:32:55.842Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"Ibovespa cai 1,52% com Petrobras (PETR4), Vale (VALE3) e bancos em baixa\".",
-    "postId": "18116084479902377",
-    "storyId": null,
-    "reelId": "18116084479902377",
-    "tipo": "reel"
   }
 ]
