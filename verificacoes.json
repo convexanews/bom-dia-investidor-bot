@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-27T12:00:54.682Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 93 min."
+  },
+  {
     "data": "2026-07-27T11:32:59.869Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"Fabricante de chips dispara 466% após IPO e se torna a empresa mais valiosa da bolsa da China\".",
@@ -1131,10 +1136,5 @@
     "data": "2026-07-24T16:00:59.821Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
-  },
-  {
-    "data": "2026-07-24T15:31:50.692Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 31 min."
   }
 ]
