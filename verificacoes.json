@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-27T09:02:19.523Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Dow Jones Futuro sobe e petróleo despenca com trégua no Irã; Fed e big techs no radar\".",
+    "postId": "18375681046225294",
+    "storyId": null,
+    "reelId": "18375681046225294",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-07-27T09:00:58.164Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 80): \"Dow Jones Futuro sobe e petróleo despenca com trégua no Irã; Fed e big techs no radar\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-27T08:31:01.205Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (05:31 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1130,15 +1144,5 @@
     "data": "2026-07-24T13:30:53.132Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
-  },
-  {
-    "data": "2026-07-24T13:00:58.928Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 32 min."
-  },
-  {
-    "data": "2026-07-24T12:30:57.130Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 62 min."
   }
 ]
