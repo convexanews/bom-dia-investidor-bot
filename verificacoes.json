@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-27T10:00:58.843Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 62 min."
+  },
+  {
     "data": "2026-07-27T09:31:03.089Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
@@ -1139,10 +1144,5 @@
     "storyId": null,
     "reelId": "18601549957043005",
     "tipo": "reel"
-  },
-  {
-    "data": "2026-07-24T14:01:16.802Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 68): \"Ibovespa Hoje Ao Vivo: Bolsa cai com nova tarifa dos EUA sobre o Brasil\". Realizando postagem..."
   }
 ]
