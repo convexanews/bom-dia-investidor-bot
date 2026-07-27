@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-27T23:01:53.790Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (carrossel): \"Telefônica Brasil (VIVT3) tem lucro de R$ 1,6 bilhão no 2º tri\".",
+    "postId": "18122093617795478",
+    "storyId": "17959531746169850",
+    "reelId": null,
+    "tipo": "carrossel"
+  },
+  {
+    "data": "2026-07-27T23:00:25.277Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 28): \"Telefônica Brasil (VIVT3) tem lucro de R$ 1,6 bilhão no 2º tri\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-27T22:31:02.544Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
@@ -1135,15 +1149,5 @@
     "data": "2026-07-25T04:30:56.899Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (01:30 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-25T04:00:57.052Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (01:00 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-25T03:58:12.603Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (00:58 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
