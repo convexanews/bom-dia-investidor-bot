@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-27T18:20:16.109Z",
+    "titulo": "Por que JBS (JBSS32) e MBRF (MBRF3) disparam nesta segunda (27)?",
+    "categoria": "Empresas",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/por-que-jbs-jbss32-e-mbrf-mbrf3-disparam-nesta-segunda-27-pads/",
+    "postId": "18102327206010836",
+    "storyId": "17954512065192732",
+    "reelId": null,
+    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1785176345044-slide1.png",
+    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1785176345044-story.png",
+    "videoUrl": null,
+    "tipo": "carrossel",
+    "peso": 50
+  },
+  {
     "data": "2026-07-27T16:02:52.009Z",
     "titulo": "Tesouro IPCA+ ainda é a melhor aposta da renda fixa? Especialista explica porque título continua pagando tão bem",
     "categoria": "Economia",
@@ -2974,19 +2989,5 @@
     "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1782601565414-slide2.png",
     "videoUrl": null,
     "tipo": "carrossel"
-  },
-  {
-    "data": "2026-06-27T21:03:43.024Z",
-    "titulo": "Post pedindo para salvar rede de lanchonetes Wendy's viraliza e faz ações da empresa dispararem nos EUA",
-    "categoria": "G1",
-    "fonte": "G1 Economia",
-    "link": "https://g1.globo.com/economia/noticia/2026/06/27/post-pedindo-para-salvar-rede-de-lanchonetes-wendys-viraliza-e-faz-acoes-da-empresa-dispararem-nos-eua.ghtml",
-    "postId": "17898810771466838",
-    "storyId": null,
-    "reelId": "17898810771466838",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782594103728.mp4",
-    "tipo": "reel"
   }
 ]
