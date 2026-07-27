@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-27T18:31:40.586Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 109 min."
+  },
+  {
     "data": "2026-07-27T18:20:16.111Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (carrossel): \"Por que JBS (JBSS32) e MBRF (MBRF3) disparam nesta segunda (27)?\".",
@@ -1128,10 +1133,5 @@
     "data": "2026-07-24T23:00:54.685Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 33 min."
-  },
-  {
-    "data": "2026-07-24T22:59:55.067Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 34 min."
   }
 ]
