@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-27T13:32:10.510Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 1 min."
+  },
+  {
     "data": "2026-07-27T13:01:49.332Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 32 min."
@@ -1127,14 +1132,5 @@
     "data": "2026-07-24T17:01:33.851Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 96 min."
-  },
-  {
-    "data": "2026-07-24T16:37:20.013Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (carrossel): \"Galípolo: Copom avalia “plano de voo” que pode levar inflação para mais perto da meta\".",
-    "postId": "18030879320827251",
-    "storyId": "17953524159197724",
-    "reelId": null,
-    "tipo": "carrossel"
   }
 ]
