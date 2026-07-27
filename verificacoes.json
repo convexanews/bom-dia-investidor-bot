@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-27T03:00:57.040Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (00:00 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-07-27T02:31:08.204Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (23:31 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1144,10 +1149,5 @@
     "data": "2026-07-24T09:01:30.861Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 44): \"Estados Unidos isentam 471 produtos de nova tarifa de 12,5%; veja lista com os principais itens\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-24T08:31:06.034Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (05:31 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
