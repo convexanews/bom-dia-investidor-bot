@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-27T20:15:22.006Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 5 min."
+  },
+  {
     "data": "2026-07-27T20:00:55.256Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 20 min."
@@ -1124,14 +1129,5 @@
     "data": "2026-07-25T00:06:15.966Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 117 min."
-  },
-  {
-    "data": "2026-07-25T00:03:14.765Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (carrossel): \"SNID11 fecha em forte alta de 1,4% após pagamento de dividendos\".",
-    "postId": "18450132373184302",
-    "storyId": "18119102467819905",
-    "reelId": null,
-    "tipo": "carrossel"
   }
 ]
