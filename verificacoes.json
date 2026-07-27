@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-27T21:01:11.908Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 91 min."
+  },
+  {
     "data": "2026-07-27T20:32:08.005Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (card): \"Wall Street tem tom misto com trégua entre EUA-Irã e liquidação das ações de chips\".",
@@ -1128,10 +1133,5 @@
     "data": "2026-07-25T01:31:27.543Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (22:31 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-25T01:01:19.871Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (22:01 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
