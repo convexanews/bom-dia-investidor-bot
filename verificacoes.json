@@ -1,5 +1,18 @@
 [
   {
+    "data": "2026-07-27T15:02:07.304Z",
+    "resultado": "reel_postado",
+    "mensagem": "Resumo em vídeo do dia publicado com 4 notícia(s).",
+    "reelId": "17884034733458884",
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1785164465707.mp4",
+    "noticias": [
+      "Bradesco (BBDC3;BBDC4), IRB (IRBR3) e mais duas empresas pagam dividendos nesta semana; veja o calendário",
+      "“OnlyMarms”: marmotas estão no OnlyFans para arrecadar fundos para pesquisa",
+      "Baker Hughes declara dividendo trimestral de US$ 0,23 por ação",
+      "Ibovespa e dólar hoje: Oriente Médio, petróleo e Focus em foco pré-FOMC"
+    ]
+  },
+  {
     "data": "2026-07-27T15:00:56.663Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 35 min."
@@ -1128,14 +1141,5 @@
     "data": "2026-07-24T20:07:55.589Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 55 min."
-  },
-  {
-    "data": "2026-07-24T19:02:43.303Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"Galípolo vê expectativas de inflação desancoradas e defende manutenção de juros restritivos\".",
-    "postId": "18075836603694850",
-    "storyId": null,
-    "reelId": "18075836603694850",
-    "tipo": "reel"
   }
 ]
