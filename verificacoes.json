@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-27T04:00:53.872Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (01:00 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-07-27T03:30:56.563Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (00:30 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1140,14 +1145,5 @@
     "data": "2026-07-24T09:31:53.009Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 91 min."
-  },
-  {
-    "data": "2026-07-24T09:02:24.620Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (card): \"Estados Unidos isentam 471 produtos de nova tarifa de 12,5%; veja lista com os principais itens\".",
-    "postId": "18109399639994804",
-    "storyId": "18100659929462569",
-    "reelId": null,
-    "tipo": "card"
   }
 ]
