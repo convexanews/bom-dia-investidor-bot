@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-27T14:31:00.007Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 65 min."
+  },
+  {
     "data": "2026-07-27T14:00:58.711Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 95 min."
@@ -1132,10 +1137,5 @@
     "data": "2026-07-24T19:01:07.453Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 71): \"Galípolo vê expectativas de inflação desancoradas e defende manutenção de juros restritivos\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-24T18:31:02.949Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 7 min."
   }
 ]
