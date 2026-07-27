@@ -1,5 +1,11 @@
 [
   {
+    "data": "2026-07-27T13:42:47.707Z",
+    "resultado": "story_glossario",
+    "mensagem": "Story do glossário publicado: \"Ibovespa\"",
+    "postId": "18107787929113301"
+  },
+  {
     "data": "2026-07-27T13:35:13.376Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"Ibovespa avança com alívio da guerra no Oriente Médio; 5 coisas para saber antes de investir hoje (27)\".",
@@ -1131,10 +1137,5 @@
     "data": "2026-07-24T18:12:37.439Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 25 min."
-  },
-  {
-    "data": "2026-07-24T18:01:34.347Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 36 min."
   }
 ]
