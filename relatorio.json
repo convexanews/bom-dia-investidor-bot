@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-27T13:35:13.375Z",
+    "titulo": "Ibovespa avança com alívio da guerra no Oriente Médio; 5 coisas para saber antes de investir hoje (27)",
+    "categoria": "Mercados",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/ibovespa-5-coisas-27-7-26-apsa/",
+    "postId": "18126208615678696",
+    "storyId": null,
+    "reelId": "18126208615678696",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1785159236944.mp4",
+    "tipo": "reel",
+    "peso": 61
+  },
+  {
     "data": "2026-07-27T11:32:59.866Z",
     "titulo": "Fabricante de chips dispara 466% após IPO e se torna a empresa mais valiosa da bolsa da China",
     "categoria": "Empresas",
@@ -2972,19 +2987,5 @@
     "imagemStory": null,
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782585979599.mp4",
     "tipo": "reel"
-  },
-  {
-    "data": "2026-06-27T16:32:16.736Z",
-    "titulo": "Lucros do setor industrial na China seguem resilientes em maio",
-    "categoria": "MERCADO",
-    "fonte": "Investing.com",
-    "link": "https://br.investing.com/news/economic-indicators/lucros-do-setor-industrial-na-china-seguem-resilientes-em-maio-1985733",
-    "postId": "17939723655256290",
-    "storyId": null,
-    "reelId": null,
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1782577899520-slide1.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1782577899520-slide2.png",
-    "videoUrl": null,
-    "tipo": "carrossel"
   }
 ]
