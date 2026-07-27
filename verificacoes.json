@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-27T16:02:52.010Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Tesouro IPCA+ ainda é a melhor aposta da renda fixa? Especialista explica porque título continua pagando tão bem\".",
+    "postId": "18171234673442245",
+    "storyId": null,
+    "reelId": "18171234673442245",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-07-27T16:01:09.617Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 71): \"Tesouro IPCA+ ainda é a melhor aposta da renda fixa? Especialista explica porque título continua pagando tão bem\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-27T15:42:19.881Z",
     "resultado": "erro_carrossel_educativo",
     "mensagem": "Erro ao publicar carrossel educativo: Command failed: git push"
@@ -1131,15 +1145,5 @@
     "data": "2026-07-24T21:01:12.548Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
-  },
-  {
-    "data": "2026-07-24T20:30:51.826Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 32 min."
-  },
-  {
-    "data": "2026-07-24T20:12:34.531Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 51 min."
   }
 ]
