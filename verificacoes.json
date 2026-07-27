@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-27T11:32:59.869Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Fabricante de chips dispara 466% após IPO e se torna a empresa mais valiosa da bolsa da China\".",
+    "postId": "18091823795435777",
+    "storyId": null,
+    "reelId": "18091823795435777",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-07-27T11:31:02.866Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 79): \"Fabricante de chips dispara 466% após IPO e se torna a empresa mais valiosa da bolsa da China\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-27T11:01:01.586Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
@@ -1122,23 +1136,5 @@
     "data": "2026-07-24T15:31:50.692Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 31 min."
-  },
-  {
-    "data": "2026-07-24T15:02:31.165Z",
-    "resultado": "reel_postado",
-    "mensagem": "Resumo em vídeo do dia publicado com 4 notícia(s).",
-    "reelId": "18097802293995187",
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1784905291146.mp4",
-    "noticias": [
-      "Bolsas da Europa têm forte queda com disparada do petróleo e decisão do BCE",
-      "Fed está pronto para elevar os juros nos EUA, avalia Janet Yellen",
-      "Estados Unidos isentam 471 produtos de nova tarifa de 12,5%; veja lista com os principais itens",
-      "Fundo imobiliário eleva projeção de dividendos para o 3T26; IFIX cai pelo 4º dia seguido"
-    ]
-  },
-  {
-    "data": "2026-07-24T15:01:18.533Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 62 min."
   }
 ]

@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-27T11:32:59.866Z",
+    "titulo": "Fabricante de chips dispara 466% após IPO e se torna a empresa mais valiosa da bolsa da China",
+    "categoria": "Empresas",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/fabricante-de-chips-dispara-466-apos-ipo-e-se-torna-a-empresa-mais-valiosa-da-bolsa-da-china-igdl/",
+    "postId": "18091823795435777",
+    "storyId": null,
+    "reelId": "18091823795435777",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1785151867148.mp4",
+    "tipo": "reel",
+    "peso": 79
+  },
+  {
     "data": "2026-07-27T09:02:19.521Z",
     "titulo": "Dow Jones Futuro sobe e petróleo despenca com trégua no Irã; Fed e big techs no radar",
     "categoria": "Mercados",
@@ -2971,19 +2986,5 @@
     "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1782577899520-slide2.png",
     "videoUrl": null,
     "tipo": "carrossel"
-  },
-  {
-    "data": "2026-06-27T14:16:45.312Z",
-    "titulo": "Fundo imobiliário em liquidação e Tesouro IPCA+ 10%: Veja o que mais chamou atenção na semana",
-    "categoria": "Economia",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/fundo-imobiliario-em-liquidacao-e-tesouro-ipca-10-veja-o-que-mais-chamou-atencao-na-semana-igdl/",
-    "postId": "18210325207340754",
-    "storyId": null,
-    "reelId": "18210325207340754",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782569692711.mp4",
-    "tipo": "reel"
   }
 ]
