@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-27T08:31:01.205Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (05:31 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-07-27T08:00:59.004Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (05:00 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1135,11 +1140,5 @@
     "data": "2026-07-24T12:30:57.130Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 62 min."
-  },
-  {
-    "data": "2026-07-24T12:24:16.370Z",
-    "resultado": "story_glossario",
-    "mensagem": "Story do glossário publicado: \"CDI\"",
-    "postId": "18138469465569637"
   }
 ]
