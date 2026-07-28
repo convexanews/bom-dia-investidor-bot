@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-28T10:01:06.226Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 61 min."
+  },
+  {
     "data": "2026-07-28T09:31:58.951Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 91 min."
@@ -1145,11 +1150,5 @@
     "data": "2026-07-25T14:56:06.328Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 24 min."
-  },
-  {
-    "data": "2026-07-25T14:41:38.747Z",
-    "resultado": "comparativo_precos",
-    "mensagem": "Comparativo de preços publicado. Ibovespa +30,1%, Dólar -8,0%, Bitcoin -45,5%.",
-    "postId": "18111770710759226"
   }
 ]
