@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-28T09:02:05.584Z",
+    "titulo": "Ações da Michelin recuam com alerta sobre custos ligados à guerra no Irã",
+    "categoria": "MERCADO",
+    "fonte": "Investing.com",
+    "link": "https://br.investing.com/news/earnings/acoes-da-michelin-recuam-com-alerta-sobre-custos-ligados-a-guerra-no-ira-2015566",
+    "postId": "18206154397359918",
+    "storyId": "18123927286787800",
+    "reelId": null,
+    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1785229279183-feed.png",
+    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1785229279183-story.png",
+    "videoUrl": null,
+    "tipo": "card",
+    "peso": 33
+  },
+  {
     "data": "2026-07-27T23:01:53.788Z",
     "titulo": "Telefônica Brasil (VIVT3) tem lucro de R$ 1,6 bilhão no 2º tri",
     "categoria": "Empresas",
@@ -2976,20 +2991,6 @@
     "imagemFeed": null,
     "imagemStory": null,
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782654832684.mp4",
-    "tipo": "reel"
-  },
-  {
-    "data": "2026-06-28T11:50:39.118Z",
-    "titulo": "Trump confirma ataques dos EUA contra alvos do Irã e alerta para ‘violação’ do cessar-fogo",
-    "categoria": "Internacional",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/trump-confirma-ataques-dos-eua-contra-alvos-do-ira-e-alerta-para-violacao-do-cessar-fogo-jcav/",
-    "postId": "18098041868213639",
-    "storyId": null,
-    "reelId": "18098041868213639",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782647341966.mp4",
     "tipo": "reel"
   }
 ]
