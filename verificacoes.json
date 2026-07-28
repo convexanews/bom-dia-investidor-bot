@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-28T17:03:01.615Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Inflação surpreende e reforça aposta em corte da Selic; veja o que esperar do Copom, segundo a Lifetime\".",
+    "postId": "18132845452590665",
+    "storyId": null,
+    "reelId": "18132845452590665",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-07-28T17:01:13.958Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 70): \"Inflação surpreende e reforça aposta em corte da Selic; veja o que esperar do Copom, segundo a Lifetime\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-28T16:30:56.229Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 1 min."
@@ -1138,19 +1152,5 @@
     "data": "2026-07-25T20:41:55.277Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 81 min."
-  },
-  {
-    "data": "2026-07-25T20:30:59.582Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
-  },
-  {
-    "data": "2026-07-25T20:02:28.858Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (carrossel): \"Lula usa convenção de Haddad para mandar recado: “não meta dedo nas nossas eleições”\".",
-    "postId": "17976975591076541",
-    "storyId": "18159767611477524",
-    "reelId": null,
-    "tipo": "carrossel"
   }
 ]

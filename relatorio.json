@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-28T17:03:01.613Z",
+    "titulo": "Inflação surpreende e reforça aposta em corte da Selic; veja o que esperar do Copom, segundo a Lifetime",
+    "categoria": "Mercados",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/inflacao-surpreende-e-reforca-aposta-em-corte-na-selic-veja-o-que-esperar-do-copom-segundo-a-lifetime-ceci/",
+    "postId": "18132845452590665",
+    "storyId": null,
+    "reelId": "18132845452590665",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1785258099358.mp4",
+    "tipo": "reel",
+    "peso": 70
+  },
+  {
     "data": "2026-07-28T14:31:35.875Z",
     "titulo": "Wall Street opera sem direção única com ‘sell-off’ de semicondutores e à espera de Fed",
     "categoria": "Mercados",
@@ -2980,19 +2995,5 @@
     "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1782678686680-slide2.png",
     "videoUrl": null,
     "tipo": "carrossel"
-  },
-  {
-    "data": "2026-06-28T18:10:07.285Z",
-    "titulo": "Calor recorde causa transtornos na Europa; França registra 1.000 mortes",
-    "categoria": "Mundo",
-    "fonte": "InfoMoney",
-    "link": "https://www.infomoney.com.br/mundo/calor-recorde-causa-transtornos-na-europa-franca-registra-1-000-mortes/",
-    "postId": "18124872088730406",
-    "storyId": null,
-    "reelId": "18124872088730406",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782670098354.mp4",
-    "tipo": "reel"
   }
 ]
