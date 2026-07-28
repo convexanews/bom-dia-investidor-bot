@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-28T09:31:01.180Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
+  },
+  {
     "data": "2026-07-28T09:02:05.586Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (card): \"Ações da Michelin recuam com alerta sobre custos ligados à guerra no Irã\".",
@@ -1146,10 +1151,5 @@
     "data": "2026-07-25T14:30:52.822Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 50 min."
-  },
-  {
-    "data": "2026-07-25T14:01:04.257Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 80 min."
   }
 ]
