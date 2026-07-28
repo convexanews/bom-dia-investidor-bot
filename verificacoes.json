@@ -1,5 +1,22 @@
 [
   {
+    "data": "2026-07-28T21:54:04.389Z",
+    "resultado": "carrossel_fechamento",
+    "mensagem": "Carrossel de fechamento publicado. Ibovespa: 176.565 +1,45%",
+    "postId": "17885972895607877",
+    "ibov": {
+      "valor": "176.565",
+      "variacao": "+1,45%"
+    },
+    "topAltas": [
+      "HAPV3 +4,02%",
+      "RAIZ4 +3,85%",
+      "SUZB3 +2,94%",
+      "GGBR4 +2,70%",
+      "RDOR3 +2,14%"
+    ]
+  },
+  {
     "data": "2026-07-28T21:01:22.534Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 12 min."
@@ -1137,20 +1154,5 @@
     "data": "2026-07-26T00:01:21.777Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 31 min."
-  },
-  {
-    "data": "2026-07-25T23:59:14.610Z",
-    "resultado": "reel_postado",
-    "mensagem": "Resumo em vídeo do dia publicado com 6 notícia(s).",
-    "reelId": "18110321105075358",
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1785023888472.mp4",
-    "noticias": [
-      "SNID11 fecha em forte alta de 1,4% após pagamento de dividendos",
-      "Crédito estruturado ganha espaço e FIDCs devem se popularizar, dizem gestores",
-      "Irã anuncia acordos com Índia, Indonésia e China na cúpula de Saúde do BRICS",
-      "Canadense é presa na Bélgica sob acusação de espionagem em instalação da Otan",
-      "Lula usa convenção de Haddad para mandar recado: “não meta dedo nas nossas eleições”",
-      "Por que o “Trump Trade” está agora em frangalhos"
-    ]
   }
 ]
