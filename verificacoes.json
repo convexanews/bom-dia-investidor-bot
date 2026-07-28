@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-28T22:16:18.791Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Ibovespa sobe com IPCA-15 mais fraco; Petrobras (PETR4) dribla queda do petróleo\".",
+    "postId": "18021417785856317",
+    "storyId": null,
+    "reelId": "18021417785856317",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-07-28T22:14:29.574Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 69): \"Ibovespa sobe com IPCA-15 mais fraco; Petrobras (PETR4) dribla queda do petróleo\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-28T21:54:04.389Z",
     "resultado": "carrossel_fechamento",
     "mensagem": "Carrossel de fechamento publicado. Ibovespa: 176.565 +1,45%",
@@ -1144,15 +1158,5 @@
     "data": "2026-07-26T01:01:14.410Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (22:01 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-26T00:31:17.650Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 1 min."
-  },
-  {
-    "data": "2026-07-26T00:01:21.777Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 31 min."
   }
 ]
