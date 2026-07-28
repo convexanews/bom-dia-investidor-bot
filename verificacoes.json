@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-28T06:00:58.802Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (03:00 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-07-28T05:31:09.491Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (02:31 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1147,14 +1152,5 @@
     "data": "2026-07-25T11:30:58.611Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
-  },
-  {
-    "data": "2026-07-25T11:02:02.852Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (card): \"Crédito estruturado ganha espaço e FIDCs devem se popularizar, dizem gestores\".",
-    "postId": "18205565578360977",
-    "storyId": "18114498302487997",
-    "reelId": null,
-    "tipo": "card"
   }
 ]
