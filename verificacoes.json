@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-28T19:31:11.763Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 102 min."
+  },
+  {
     "data": "2026-07-28T19:12:41.092Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"IPCA-15 muda o jogo: Economistas voltam a prever corte da Selic e reduzem projeção para inflação\".",
@@ -1147,14 +1152,5 @@
     "data": "2026-07-25T22:45:15.977Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 107 min."
-  },
-  {
-    "data": "2026-07-25T22:31:52.615Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (card): \"Por que o “Trump Trade” está agora em frangalhos\".",
-    "postId": "18097521545218957",
-    "storyId": "18099828095593748",
-    "reelId": null,
-    "tipo": "card"
   }
 ]
