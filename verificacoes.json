@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-28T11:51:11.028Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 102 min."
+  },
+  {
     "data": "2026-07-28T11:32:21.485Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta terça\".",
@@ -1138,14 +1143,5 @@
     "data": "2026-07-25T15:59:11.918Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 94 min."
-  },
-  {
-    "data": "2026-07-25T15:32:16.230Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (carrossel): \"Irã anuncia acordos com Índia, Indonésia e China na cúpula de Saúde do BRICS\".",
-    "postId": "18171753211438528",
-    "storyId": "18463863190112971",
-    "reelId": null,
-    "tipo": "carrossel"
   }
 ]
