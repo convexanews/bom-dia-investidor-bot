@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-28T18:15:01.170Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 49 min."
+  },
+  {
     "data": "2026-07-28T17:03:01.615Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"Inflação surpreende e reforça aposta em corte da Selic; veja o que esperar do Copom, segundo a Lifetime\".",
@@ -1147,10 +1152,5 @@
     "data": "2026-07-25T21:01:11.562Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 62 min."
-  },
-  {
-    "data": "2026-07-25T20:41:55.277Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 81 min."
   }
 ]
