@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-28T11:32:21.485Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta terça\".",
+    "postId": "18606673015055987",
+    "storyId": null,
+    "reelId": "18606673015055987",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-07-28T11:31:00.569Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 55): \"Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta terça\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-28T11:01:15.689Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 1 min."
@@ -1133,22 +1147,5 @@
     "storyId": "18463863190112971",
     "reelId": null,
     "tipo": "carrossel"
-  },
-  {
-    "data": "2026-07-25T15:31:02.549Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 23): \"Irã anuncia acordos com Índia, Indonésia e China na cúpula de Saúde do BRICS\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-25T15:02:09.400Z",
-    "resultado": "reel_postado",
-    "mensagem": "Resumo em vídeo do dia publicado com 3 notícia(s).",
-    "reelId": "18108041396020562",
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1784991669532.mp4",
-    "noticias": [
-      "Galípolo: Copom avalia “plano de voo” que pode levar inflação para mais perto da meta",
-      "SNID11 fecha em forte alta de 1,4% após pagamento de dividendos",
-      "Crédito estruturado ganha espaço e FIDCs devem se popularizar, dizem gestores"
-    ]
   }
 ]
