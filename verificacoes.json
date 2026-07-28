@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-28T19:12:41.092Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"IPCA-15 muda o jogo: Economistas voltam a prever corte da Selic e reduzem projeção para inflação\".",
+    "postId": "18077053205695006",
+    "storyId": null,
+    "reelId": "18077053205695006",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-07-28T19:11:02.036Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 85): \"IPCA-15 muda o jogo: Economistas voltam a prever corte da Selic e reduzem projeção para inflação\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-28T19:01:06.055Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
@@ -1142,15 +1156,5 @@
     "storyId": "18099828095593748",
     "reelId": null,
     "tipo": "card"
-  },
-  {
-    "data": "2026-07-25T22:30:53.836Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 22): \"Por que o “Trump Trade” está agora em frangalhos\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-25T22:00:58.885Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
   }
 ]
