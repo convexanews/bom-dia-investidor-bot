@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-28T14:31:35.877Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Wall Street opera sem direção única com ‘sell-off’ de semicondutores e à espera de Fed\".",
+    "postId": "17918432937203461",
+    "storyId": null,
+    "reelId": "17918432937203461",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-07-28T14:28:55.785Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 85): \"Wall Street opera sem direção única com ‘sell-off’ de semicondutores e à espera de Fed\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-28T13:31:01.091Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
@@ -1134,15 +1148,5 @@
     "storyId": "18091385870160723",
     "reelId": null,
     "tipo": "card"
-  },
-  {
-    "data": "2026-07-25T17:58:54.307Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 24): \"Canadense é presa na Bélgica sob acusação de espionagem em instalação da Otan\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-25T17:31:02.693Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
   }
 ]
