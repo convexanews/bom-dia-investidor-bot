@@ -52,7 +52,11 @@ async function metricasDoPost(id) {
 
 async function main() {
   if (!token || !accountId) throw new Error('Defina IG_TOKEN e IG_ACCOUNT_ID.');
-  const posts = lerJson(relatorioPath, []).filter(p => p.postId).slice(0, 60);
+  // Métricas recentes são as mais acionáveis e evitam centenas de chamadas diárias à API.
+  const trintaDias = 30 * 24 * 60 * 60 * 1000;
+  const posts = lerJson(relatorioPath, [])
+    .filter(p => p.postId && p.data && Date.now() - new Date(p.data).getTime() <= trintaDias)
+    .slice(0, 25);
   const anteriores = new Map(lerJson(metricasPath, []).map(m => [m.postId, m]));
   const atualizadas = [];
 
