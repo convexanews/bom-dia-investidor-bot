@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-29T09:30:58.808Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
+  },
+  {
     "data": "2026-07-29T09:02:03.810Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (card): \"Dólar pode ficar mais forte amanhã? O que esperar do mercado após o FOMC\".",
@@ -1157,11 +1162,5 @@
     "data": "2026-07-26T12:31:07.197Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 61 min."
-  },
-  {
-    "data": "2026-07-26T12:10:10.532Z",
-    "resultado": "story_glossario",
-    "mensagem": "Story do glossário publicado: \"Dividendo\"",
-    "postId": "18128137891633490"
   }
 ]
