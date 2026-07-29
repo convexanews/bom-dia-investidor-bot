@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-29T01:00:54.282Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (22:00 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-07-29T00:32:48.679Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (carrossel): \"SK Hynix registra lucro operacional recorde no 2º tri com demanda por memória de IA\".",
@@ -1162,10 +1167,5 @@
     "data": "2026-07-26T05:30:08.583Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (02:30 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-26T05:00:55.639Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (02:00 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
