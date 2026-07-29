@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-29T13:33:28.312Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Ao contrário do mercado, Citi não vê corte de juros pelo Copom na próxima reunião; entenda os motivos\".",
+    "postId": "17927163045145592",
+    "storyId": null,
+    "reelId": "17927163045145592",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-07-29T13:31:01.723Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 78): \"Ao contrário do mercado, Citi não vê corte de juros pelo Copom na próxima reunião; entenda os motivos\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-29T13:05:38.274Z",
     "resultado": "story_glossario",
     "mensagem": "Story do glossário publicado: \"Liquidez\"",
@@ -1133,25 +1147,5 @@
     "data": "2026-07-26T16:00:24.983Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
-  },
-  {
-    "data": "2026-07-26T15:30:53.691Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 32 min."
-  },
-  {
-    "data": "2026-07-26T15:02:13.040Z",
-    "resultado": "reel_postado",
-    "mensagem": "Resumo em vídeo do dia publicado com 6 notícia(s).",
-    "reelId": "18102393659178785",
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1785078068236.mp4",
-    "noticias": [
-      "Irã anuncia acordos com Índia, Indonésia e China na cúpula de Saúde do BRICS",
-      "Canadense é presa na Bélgica sob acusação de espionagem em instalação da Otan",
-      "Lula usa convenção de Haddad para mandar recado: “não meta dedo nas nossas eleições”",
-      "Por que o “Trump Trade” está agora em frangalhos",
-      "EUA, Japão e Filipinas realizam exercícios militares no Mar do Sul da China",
-      "EUA suspendem ataques aéreos ao Irã, mas tensão permanece em meio a negociações"
-    ]
   }
 ]
