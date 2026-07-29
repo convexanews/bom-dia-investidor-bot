@@ -1,10 +1,11 @@
 const test = require('node:test');
 const assert = require('node:assert/strict');
 
-test('a regra global usa intervalo de duas horas e limite de quatro posts por dia', () => {
+test('a regra global usa intervalo de duas horas e limite de oito posts por dia', () => {
   // O comportamento com arquivo é exercido nos workflows; este teste protege o contrato público do módulo.
   const controle = require('../controle_publicacao.cjs');
   assert.equal(typeof controle.podePublicarFeed, 'function');
   assert.equal(typeof controle.registrarPublicacao, 'function');
   assert.equal(controle.DUAS_HORAS, 2 * 60 * 60 * 1000);
+  assert.equal(controle.LIMITE_DIARIO_PADRAO, 8);
 });

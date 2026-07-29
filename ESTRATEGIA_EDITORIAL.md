@@ -17,7 +17,7 @@ Entretenimento, esportes, celebridades, loterias e curiosidades não entram na p
 
 ## Cadência
 
-- Até quatro posts automáticos de feed por dia.
+- Até oito posts automáticos de feed por dia, entre 8h e 22h.
 - Pelo menos duas horas entre posts automáticos.
 - Alertas de recorde obedecem à mesma regra.
 - O resumo visual é semanal; não deve repetir o feed várias vezes por dia.
