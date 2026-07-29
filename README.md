@@ -1,19 +1,28 @@
 # Bom Dia Investidor — Bot Automático
 
 Repositório **privado** que roda no GitHub Actions (sem precisar do PC ligado) e publica
-automaticamente no Instagram @bomdia_investidor, uma vez por hora, **somente se houver
-notícia nova** do mercado financeiro (InfoMoney / Money Times).
+automaticamente no Instagram @bomdia_investidor, com seleção editorial, formatos variados
+e limite de frequência para preservar qualidade e alcance.
 
 ## Como funciona
 
 1. A cada hora (`.github/workflows/auto-post.yml`), o Actions roda `auto-post.cjs`
-2. Busca notícias relevantes via `coletor_noticias.cjs`
+2. Busca e aprova notícias relevantes via `coletor_noticias.cjs` e `politica_editorial.cjs`
 3. Se a notícia ainda não foi postada (`noticias-postadas.json`), gera o card (feed 4:5 e
    story 9:16) com `gerar_card_noticia.cjs`
 4. Publica as imagens no repositório público `convexanews/convexanews.github.io` (pasta
    `bdi-cards/`), para ter uma URL pública que o Instagram consiga acessar
 5. Publica no Instagram (Feed + Stories) via Graph API
 6. Registra o resultado em `relatorio.json` (histórico de postagens automáticas)
+
+## Qualidade e crescimento
+
+- No máximo três posts automáticos de feed por dia, com intervalo mínimo de quatro horas.
+- Conteúdo fora dos pilares editoriais (macro, bolsa, renda fixa, FIIs, cripto e exterior)
+  é descartado antes da publicação.
+- As legendas incluem contexto, um CTA e aviso de conteúdo informativo.
+- `coletar_metricas.cjs` registra alcance, salvamentos, compartilhamentos e indicadores
+  disponíveis da API para comparar formatos e temas.
 
 ## Secrets necessários (Settings → Secrets and variables → Actions)
 

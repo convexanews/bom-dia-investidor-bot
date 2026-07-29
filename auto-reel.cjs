@@ -79,6 +79,7 @@ async function main() {
   const agora = Date.now();
   const doDia = relatorio
     .filter(p => (agora - new Date(p.data).getTime()) < UM_DIA_MS && p.imagemStory)
+    .slice(0, 3)
     .reverse(); // ordem cronologica (mais antiga primeiro)
 
   if (doDia.length === 0) {

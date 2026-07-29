@@ -2,7 +2,7 @@ name: Bom Dia Investidor - Reel Diario
 
 on:
   schedule:
-    - cron: '0 23 * * *'
+    - cron: '0 23 * * 0'
   workflow_dispatch: {}
 
 permissions:
@@ -26,7 +26,7 @@ jobs:
         run: sudo apt-get update && sudo apt-get install -y ffmpeg
 
       - name: Instalar dependencias
-        run: npm install
+        run: npm ci
 
       - name: Gerar e publicar o reel-resumo do dia
         env:

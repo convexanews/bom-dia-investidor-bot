@@ -112,7 +112,7 @@ async function publicarCarrossel(imageUrls, legenda) {
   return pubData.id;
 }
 
-const HASHTAGS = '#investimentos #bolsadevalores #ibovespa #mercadofinanceiro #dolar #acoes #b3 #educacaofinanceira #financas #investidor #trading #fechamentob3 #maioresaltas #mercado #economiabrasileira';
+const HASHTAGS = '#fechamentomercado #ibovespa #dolar #b3 #mercadofinanceiro';
 
 const CTAS = [
   '💬 Qual ação te surpreendeu hoje? Comente!',
@@ -198,7 +198,7 @@ async function main() {
 
   const cta = CTAS[Math.floor(ts / 1000) % CTAS.length];
   const titulos = altas.map((a, i) => `${i + 1}. ${a.ticker} (${a.variacao})`).join('\n');
-  const legenda = `📊 Fechamento do mercado — ${data}\n\nIbovespa: ${ibov.valor} ${ibov.variacao}\nDólar: ${dolar.valor} ${dolar.variacao}\nBitcoin: ${btc.valor} ${btc.variacao}\n\n🔥 Maiores altas da B3:\n${titulos}\n\n${cta}\n\n📈 Mais notícias em: https://bomdiainvestidor.com.br/\n\n${HASHTAGS}`;
+  const legenda = `📊 Fechamento do mercado — ${data}\n\nIbovespa: ${ibov.valor} ${ibov.variacao}\nDólar: ${dolar.valor} ${dolar.variacao}\nBitcoin: ${btc.valor} ${btc.variacao}\n\n🔥 Maiores altas da B3:\n${titulos}\n\n${cta}\n\nConteúdo informativo; não é recomendação de investimento.\n\n${HASHTAGS}`;
 
   console.log('Publicando carrossel no Instagram...');
   const postId = await publicarCarrossel([urlFechamento, urlAltas], legenda);

@@ -2,6 +2,7 @@
 // o que é relevante para o "Bom Dia Investidor" (mercado, economia, ações, etc.)
 // Uso: node coletor_noticias.cjs   -> imprime JSON com as notícias filtradas
 const cheerio = require('cheerio');
+const { classificarEditorial } = require('./politica_editorial.cjs');
 
 const FONTES = [
   { nome: 'InfoMoney',       url: 'https://www.infomoney.com.br/feed/' },
@@ -186,7 +187,7 @@ async function buscarFonte(fonte) {
       const publicadoEm = pubDate ? new Date(pubDate).getTime() : 0;
       const peso = calcularPesoImpacto(titulo, descricao, categorias);
 
-      itens.push({
+      const noticia = {
         titulo,
         link,
         descricao,
@@ -196,7 +197,11 @@ async function buscarFonte(fonte) {
         pubDate,
         publicadoEm,
         peso,
-      });
+      };
+      const editorial = classificarEditorial(noticia);
+      if (!editorial.aprovada) return;
+      noticia.pilares = editorial.pilares;
+      itens.push(noticia);
     });
 
     return itens;
