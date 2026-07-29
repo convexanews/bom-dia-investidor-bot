@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-29T12:01:11.997Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 77 min."
+  },
+  {
     "data": "2026-07-29T11:31:29.898Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 107 min."
@@ -1147,20 +1152,5 @@
     "data": "2026-07-26T14:30:52.173Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
-  },
-  {
-    "data": "2026-07-26T14:25:42.947Z",
-    "resultado": "resumo_semanal",
-    "mensagem": "Resumo semanal publicado com 7 notícias.",
-    "postId": "18053832080541107",
-    "noticias": [
-      "Wall Street tem forte queda com petróleo a US$ 100; Tesla (TSLA) despenca 14%",
-      "Ibovespa dispara 2,44% com Vale (VALE3) e WEG (WEGE3), apesar do tarifaço",
-      "Mercado amplia apostas em alta de juros nos EUA após escalada da tensão no Oriente Médio e disparada do petróleo",
-      "Wall Street avança com apoio de semicondutores; tarifas e conflito no Oriente Médio seguem no radar",
-      "Por que Ibovespa sobe mais de 2% e dólar cai em dia em que tarifaço passou a valer?",
-      "Galípolo vê expectativas de inflação desancoradas e defende manutenção de juros restritivos",
-      "Ibovespa Hoje Ao Vivo: Bolsa cai com nova tarifa dos EUA sobre o Brasil"
-    ]
   }
 ]
