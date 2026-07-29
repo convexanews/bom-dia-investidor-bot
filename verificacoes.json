@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-29T15:01:14.245Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 33 min."
+  },
+  {
     "data": "2026-07-29T14:31:23.158Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 63 min."
@@ -1138,14 +1143,5 @@
     "data": "2026-07-26T17:00:53.468Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
-  },
-  {
-    "data": "2026-07-26T16:32:28.914Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (carrossel): \"Bradesco (BBDC3;BBDC4), IRB (IRBR3) e mais duas empresas pagam dividendos nesta semana; veja o calendário\".",
-    "postId": "18093203867636155",
-    "storyId": "18114923522509968",
-    "reelId": null,
-    "tipo": "carrossel"
   }
 ]
