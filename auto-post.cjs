@@ -4,13 +4,13 @@
 //   IG_TOKEN, IG_ACCOUNT_ID
 const fs = require('fs');
 const path = require('path');
-const { execSync } = require('child_process');
+const { execSync, execFileSync } = require('child_process');
 const { buscarNoticias, titulosSimilares } = require('./coletor_noticias.cjs');
 const { gerarCard } = require('./gerar_card_noticia.cjs');
 const { gerarSlide, dividirResumo } = require('./gerar_slide_carrossel.cjs');
 const { gerarVideoTikTok, montarLegendaTikTok } = require('./gerar_tiktok.cjs');
 
-const PESO_MINIMO_REEL = 30;
+const PESO_MINIMO_REEL = 60;
 const TIKTOK_POSTADAS_FILE = path.join(__dirname, 'tiktok-postadas.json');
 
 const IG_API_BASE = 'https://graph.instagram.com/v23.0';
@@ -74,9 +74,8 @@ async function baixarImagemBase64(url) {
 //    realmente entrega pra quem se interessa pelo tema
 // 3. Nicho/comunidade — menor volume, mais chance de ranquear no topo
 const HASHTAGS_GIGANTES = [
-  '#dinheiro #investimentos #empreendedorismo #sucesso #rendaextra',
-  '#financas #negocios #riqueza #prosperidade #metas',
-  '#educacaofinanceira #mentalidade #foco #liberdadefinanceira #brasil',
+  '#investimentos #educacaofinanceira #investidorbrasileiro',
+  '#mercadofinanceiro #economiabrasileira #mercadohoje',
 ];
 
 const HASHTAGS_POR_ASSUNTO = {
@@ -85,7 +84,7 @@ const HASHTAGS_POR_ASSUNTO = {
   bitcoin:  '#bitcoin #criptomoedas #btc #cripto #blockchain',
   fii:      '#fiis #fundosimobiliarios #dividendos #rendapassiva #vivaderenda',
   dividendo:'#dividendos #rendapassiva #vivaderenda #buyandhold #carteiradeinvestimentos',
-  positivo: '#bolsadevalores #ibovespa #acoes #b3 #daytrade',
+  positivo: '#bolsadevalores #ibovespa #acoes #b3 #investidorbrasileiro',
   negativo: '#bolsadevalores #ibovespa #crise #protecaopatrimonial #gestaoderisco',
   padrao:   '#mercadofinanceiro #bolsadevalores #ibovespa #acoes #b3',
 };
@@ -101,20 +100,19 @@ const HASHTAGS_NICHO = [
 function escolherHashtags(tipoSentimento = 'padrao') {
   const diaDoAno = Math.floor(Date.now() / 86400000);
   const assunto = (HASHTAGS_POR_ASSUNTO[tipoSentimento] || HASHTAGS_POR_ASSUNTO.padrao).split(' ').slice(0, 3);
-  const gigante = HASHTAGS_GIGANTES[diaDoAno % HASHTAGS_GIGANTES.length].split(' ')[diaDoAno % 5];
-  const nicho = HASHTAGS_NICHO[diaDoAno % HASHTAGS_NICHO.length].split(' ')[diaDoAno % 5];
+  const gigantes = HASHTAGS_GIGANTES[diaDoAno % HASHTAGS_GIGANTES.length].split(' ');
+  const nichos = HASHTAGS_NICHO[diaDoAno % HASHTAGS_NICHO.length].split(' ');
+  const gigante = gigantes[diaDoAno % gigantes.length];
+  const nicho = nichos[diaDoAno % nichos.length];
   return [...assunto, gigante, nicho].join(' ');
 }
 
 // Compartilhamento via DM é o sinal mais forte do algoritmo (Adam Mosseri),
 // seguido de salvamentos — os CTAs priorizam essas duas ações.
 const CTAS = [
-  '📤 Envia essa notícia pra aquele amigo que investe!',
-  '📌 Salva esse post pra consultar depois!',
-  '📤 Compartilha com quem precisa saber disso hoje!',
-  '📌 Salva aqui pra não esquecer dessa informação!',
-  '💬 Concorda? Comenta o que você acha!',
-  '📤 Manda pro grupo de investimentos!',
+  '📌 Salve para revisar este cenário depois.',
+  '📤 Envie para quem acompanha esse mercado.',
+  '💬 Isso muda sua leitura do cenário? Conte nos comentários.',
 ];
 
 const SENTIMENTOS = [
@@ -140,14 +138,14 @@ const PERGUNTAS = {
 };
 
 const CONTEXTOS = {
-  positivo: '📈 O que isso significa para você: momento de revisar sua carteira e avaliar se vale aumentar posição.',
-  negativo: '📉 O que isso significa para você: hora de checar stop loss, diversificação e proteções da carteira.',
+  positivo: '📈 O que acompanhar: veja se o movimento se sustenta nos próximos dados e resultados.',
+  negativo: '📉 O que acompanhar: observe os próximos dados antes de tomar decisões sobre a carteira.',
   selic:    '💰 O que isso significa para você: rendimento do Tesouro Selic e CDBs pode ser impactado.',
   dolar:    '💵 O que isso significa para você: quem tem ativos dolarizados ou viagem planejada precisa ficar atento.',
   bitcoin:  '₿ O que isso significa para você: criptomoedas seguem voláteis — ajuste a exposição ao seu perfil de risco.',
   fii:      '🏢 O que isso significa para você: fundos imobiliários podem reagir a essa notícia.',
   dividendo:'💸 O que isso significa para você: investidores de renda podem ser diretamente impactados.',
-  padrao:   '💡 O que isso significa para você: fique atento aos impactos no mercado e na sua carteira.',
+  padrao:   '💡 O que acompanhar: observe os próximos dados e seus possíveis impactos no mercado.',
 };
 
 function detectarSentimento(titulo, resumo = '') {
@@ -175,8 +173,8 @@ function detectarSentimento(titulo, resumo = '') {
 function montarLegenda(cfg) {
   const cta = CTAS[Math.floor(Date.now() / 1000) % CTAS.length];
   const contexto = CONTEXTOS[cfg.sentimento?.tipo || 'padrao'] || CONTEXTOS.padrao;
-  const base = `${cfg.manchete}\n\n${cfg.resumo || ''}\n\n${contexto}\n\nFonte: ${cfg.fonte || ''}`;
-  return `${base}\n\n${cta}\n\n📊 Fique por dentro de mais notícias do mercado financeiro: https://bomdiainvestidor.com.br/\n\n${escolherHashtags(cfg.sentimento?.tipo)}`;
+  const resumo = (cfg.resumo || '').replace(/\s+/g, ' ').trim().slice(0, 360);
+  return `📌 ${cfg.manchete}\n\nO que aconteceu:\n${resumo}\n\n${contexto}\n\nFonte: ${cfg.fonte || 'não informada'}.\n\n${cta}\n\nConteúdo informativo; não é recomendação de investimento.\n\n${escolherHashtags(cfg.sentimento?.tipo)}`;
 }
 
 function estaNoHorarioPico() {
@@ -274,6 +272,10 @@ function git(cmd, cwd) {
   execSync(cmd, { cwd, stdio: 'inherit', env });
 }
 
+function commitSeguro(mensagem, cwd) {
+  execFileSync('git', ['commit', '-m', mensagem], { cwd, stdio: 'inherit' });
+}
+
 function registrarVerificacao(resultado, mensagem, extra = {}) {
   const verificacoes = carregarJson(VERIFICACOES_FILE, []);
   verificacoes.unshift({ data: new Date().toISOString(), resultado, mensagem, ...extra });
@@ -295,8 +297,8 @@ async function main() {
     return;
   }
 
-  // Intervalo mínimo de 2h entre posts (evita spam, melhora alcance)
-  const INTERVALO_MIN_MS = 2 * 60 * 60 * 1000;
+  // Intervalo mínimo de 4h entre posts (evita spam, melhora alcance)
+  const INTERVALO_MIN_MS = 4 * 60 * 60 * 1000;
   const ultimoPost = relatorio.find(p => p.origem !== 'manual');
   if (ultimoPost) {
     const tempoDesdeUltimo = Date.now() - new Date(ultimoPost.data).getTime();
@@ -308,8 +310,8 @@ async function main() {
     }
   }
 
-  // Máximo 8 posts por dia (06h-22h = 16h / 2h = 8 posts)
-  const MAX_POSTS_DIA = 8;
+  // Máximo de três posts automáticos por dia: qualidade e distribuição antes de volume.
+  const MAX_POSTS_DIA = 3;
   const inicioDia = new Date(new Date().toLocaleString('en-US', { timeZone: 'America/Sao_Paulo' }));
   inicioDia.setHours(0, 0, 0, 0);
   const postasHoje = relatorio.filter(p =>
@@ -467,7 +469,7 @@ async function main() {
     git('git config user.email "bot@bomdiainvestidor.com.br"', PAGES_DIR);
     git('git config user.name "Bom Dia Investidor Bot"', PAGES_DIR);
     git(`git add bdi-tiktok/${nomeVideo} bdi-tiktok/${legendaFile}`, PAGES_DIR);
-    git(`git commit -m "Reel narrado: ${cfg.manchete.slice(0, 50)}"`, PAGES_DIR);
+    commitSeguro(`Reel narrado: ${cfg.manchete.slice(0, 50)}`, PAGES_DIR);
     git('git push', PAGES_DIR);
 
     videoUrl = `https://raw.githubusercontent.com/${PAGES_REPO}/main/bdi-tiktok/${nomeVideo}`;
@@ -529,7 +531,7 @@ async function main() {
     git('git config user.email "bot@bomdiainvestidor.com.br"', PAGES_DIR);
     git('git config user.name "Bom Dia Investidor Bot"', PAGES_DIR);
     git(`git add ${nomes.map(n => `bdi-cards/${n}`).join(' ')} bdi-cards/${nomeStory}`, PAGES_DIR);
-    git(`git commit -m "Carrossel: ${cfg.manchete.slice(0, 60)}"`, PAGES_DIR);
+    commitSeguro(`Carrossel: ${cfg.manchete.slice(0, 60)}`, PAGES_DIR);
     git('git push', PAGES_DIR);
 
     await new Promise(r => setTimeout(r, 15000));
@@ -578,7 +580,7 @@ async function main() {
     git('git config user.email "bot@bomdiainvestidor.com.br"', PAGES_DIR);
     git('git config user.name "Bom Dia Investidor Bot"', PAGES_DIR);
     git(`git add bdi-cards/${nomeFeed} bdi-cards/${nomeStory}`, PAGES_DIR);
-    git(`git commit -m "Card automatico: ${cfg.manchete.slice(0, 60)}"`, PAGES_DIR);
+    commitSeguro(`Card automatico: ${cfg.manchete.slice(0, 60)}`, PAGES_DIR);
     git('git push', PAGES_DIR);
 
     imageUrl = `${PAGES_RAW_BASE}/${nomeFeed}`;
@@ -613,6 +615,7 @@ async function main() {
     videoUrl,
     tipo: formato,
     peso: nova.peso || 0,
+    pilares: nova.pilares || [],
   });
   salvarJson(RELATORIO_FILE, relatorio.slice(0, 200));
 

@@ -5,6 +5,7 @@ const fs = require('fs');
 const path = require('path');
 const { execSync } = require('child_process');
 const { gerarReel } = require('./gerar_reel.cjs');
+const { podePublicarFeed, registrarPublicacao } = require('./controle_publicacao.cjs');
 
 const IG_API_BASE = 'https://graph.instagram.com/v23.0';
 const IG_TOKEN = process.env.IG_TOKEN;
@@ -65,7 +66,7 @@ async function publicarReel(videoUrl, legenda) {
 
 function montarLegendaReel(noticias) {
   const titulos = noticias.map(n => `• ${n.titulo}`).join('\n');
-  return `📰 Resumo das notícias de hoje:\n\n${titulos}\n\n📊 Fique por dentro de mais notícias do mercado financeiro: https://bomdiainvestidor.com.br/`;
+  return `📰 Resumo editorial do período:\n\n${titulos}\n\n📌 Salve para consultar os destaques.\n\nConteúdo informativo; não é recomendação de investimento.\n\n#mercadofinanceiro #resumodomercado #investimentos #bomdiainvestidor`;
 }
 
 async function main() {
@@ -75,10 +76,17 @@ async function main() {
   const pagesToken = process.env.PAGES_TOKEN;
   if (!pagesToken) throw new Error('Defina PAGES_TOKEN (PAT com acesso de escrita ao repo do GitHub Pages).');
 
+  const permissao = podePublicarFeed();
+  if (!permissao.permitido) {
+    registrarVerificacao('reel_suprimido', `Reel-resumo não publicado: ${permissao.motivo}.`);
+    return;
+  }
+
   const relatorio = carregarJson(RELATORIO_FILE, []);
   const agora = Date.now();
   const doDia = relatorio
     .filter(p => (agora - new Date(p.data).getTime()) < UM_DIA_MS && p.imagemStory)
+    .slice(0, 3)
     .reverse(); // ordem cronologica (mais antiga primeiro)
 
   if (doDia.length === 0) {
@@ -113,6 +121,7 @@ async function main() {
   const legenda = montarLegendaReel(doDia);
   const reelId = await publicarReel(videoUrl, legenda);
   console.log('Reel publicado! ID:', reelId);
+  registrarPublicacao({ titulo: 'Resumo editorial do período', categoria: 'Mercados', fonte: 'Editorial', postId: reelId, reelId, tipo: 'reel_resumo', peso: 80, origem: 'reel_resumo', videoUrl });
 
   registrarVerificacao('reel_postado', `Resumo em vídeo do dia publicado com ${doDia.length} notícia(s).`, {
     reelId,

@@ -5,6 +5,7 @@ const fs = require('fs');
 const path = require('path');
 const { execSync } = require('child_process');
 const puppeteer = require('puppeteer');
+const { podePublicarFeed, registrarPublicacao } = require('./controle_publicacao.cjs');
 
 const IG_API_BASE = 'https://graph.instagram.com/v23.0';
 const IG_TOKEN = process.env.IG_TOKEN;
@@ -125,13 +126,19 @@ async function gerarImagem(dados, data, saida) {
 }
 
 function montarLegenda(dados) {
-  return `📅 Quanto custava há 1 ano?\n\n📈 Ibovespa: ${dados.ibov.antigo} → ${dados.ibov.hoje} (${dados.ibov.variacao})\n💵 Dólar: ${dados.dolar.antigo} → ${dados.dolar.hoje} (${dados.dolar.variacao})\n₿ Bitcoin: ${dados.btc.antigo} → ${dados.btc.hoje} (${dados.btc.variacao})\n\nO que isso te diz sobre o seu dinheiro parado? 🤔\n\n📊 Fique por dentro: https://bomdiainvestidor.com.br/\n\n#mercadofinanceiro #investimentos #ibovespa #dolar #bitcoin`;
+  return `📅 Como os principais ativos mudaram em um ano?\n\n📈 Ibovespa: ${dados.ibov.antigo} → ${dados.ibov.hoje} (${dados.ibov.variacao})\n💵 Dólar: ${dados.dolar.antigo} → ${dados.dolar.hoje} (${dados.dolar.variacao})\n₿ Bitcoin: ${dados.btc.antigo} → ${dados.btc.hoje} (${dados.btc.variacao})\n\n📌 Salve para comparar os ciclos do mercado.\n\nConteúdo informativo; rentabilidade passada não garante resultados futuros.\n\n#mercadofinanceiro #ibovespa #dolar #bitcoin #bomdiainvestidor`;
 }
 
 async function main() {
   if (!IG_TOKEN || !IG_ACCOUNT_ID) throw new Error('Defina IG_TOKEN e IG_ACCOUNT_ID.');
   const pagesToken = process.env.PAGES_TOKEN;
   if (!pagesToken) throw new Error('Defina PAGES_TOKEN.');
+
+  const permissao = podePublicarFeed();
+  if (!permissao.permitido) {
+    registrarVerificacao('comparativo_suprimido', `Comparativo não publicado: ${permissao.motivo}.`);
+    return;
+  }
 
   console.log('Buscando cotações de hoje e de 1 ano atrás...');
   const [ibov, dolar, btc] = await Promise.all(ATIVOS.map(buscarComparativo));
@@ -162,6 +169,7 @@ async function main() {
   console.log('Publicando comparativo no Instagram...');
   const postId = await publicarFeed(url, montarLegenda(dados));
   console.log('Comparativo publicado! ID:', postId);
+  registrarPublicacao({ titulo: 'Comparativo de preços em um ano', categoria: 'Mercados', fonte: 'Cotações de mercado', postId, tipo: 'comparativo', peso: 80, origem: 'comparativo', imagemFeed: url });
 
   registrarVerificacao('comparativo_precos', `Comparativo de preços publicado. Ibovespa ${ibov.variacao}, Dólar ${dolar.variacao}, Bitcoin ${btc.variacao}.`, { postId });
 

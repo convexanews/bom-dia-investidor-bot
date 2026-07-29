@@ -9,7 +9,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: bdi-fechamento
+  group: bdi-publicacao-instagram
   cancel-in-progress: false
 
 jobs:
@@ -23,7 +23,7 @@ jobs:
           node-version: 20
 
       - name: Instalar dependencias
-        run: npm install
+        run: npm ci
 
       - name: Gerar e publicar carrossel de fechamento
         env:
@@ -37,7 +37,7 @@ jobs:
         run: |
           git config user.email "bot@bomdiainvestidor.com.br"
           git config user.name "Bom Dia Investidor Bot"
-          git add verificacoes.json
+          git add verificacoes.json relatorio.json
           git diff --cached --quiet || git commit -m "Atualiza registro do carrossel de fechamento"
           for i in 1 2 3; do
             git pull --rebase -X theirs origin main && git push && exit 0

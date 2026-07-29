@@ -5,6 +5,7 @@ const fs = require('fs');
 const path = require('path');
 const { execSync } = require('child_process');
 const puppeteer = require('puppeteer');
+const { podePublicarFeed, registrarPublicacao } = require('./controle_publicacao.cjs');
 
 const IG_API_BASE = 'https://graph.instagram.com/v23.0';
 const IG_TOKEN = process.env.IG_TOKEN;
@@ -39,7 +40,7 @@ const TEMAS = [
       { num: '1', titulo: 'O que é a SELIC?', desc: 'É a taxa básica de juros da economia brasileira, definida pelo Banco Central a cada 45 dias.', dica: '<strong>Dica:</strong> Quando a SELIC sobe, renda fixa rende mais. Quando cai, a bolsa tende a subir.' },
       { num: '2', titulo: 'Quem define a SELIC?', desc: 'O COPOM (Comitê de Política Monetária) do Banco Central se reúne 8x por ano para decidir a taxa.', dica: '<strong>Calendário COPOM:</strong> acompanhe as reuniões — elas movimentam todo o mercado!' },
       { num: '3', titulo: 'Por que ela importa?', desc: 'A SELIC influencia preços, emprego, crédito e o rendimento de todos os seus investimentos.', dica: '<strong>Regra:</strong> SELIC alta = inflação controlada + crédito caro. SELIC baixa = consumo aquecido.' },
-      { num: '4', titulo: 'SELIC e seus investimentos', desc: 'Tesouro Selic, CDB, LCI e LCA são impactados diretamente. Fundos DI também seguem a taxa.', dica: '<strong>Estratégia:</strong> Em ciclo de alta da SELIC, prefira renda fixa pós-fixada (Tesouro Selic, CDI).' },
+      { num: '4', titulo: 'SELIC e seus investimentos', desc: 'Tesouro Selic, CDB, LCI e LCA podem ser impactados diretamente. Fundos DI também acompanham a taxa.', dica: '<strong>Estratégia:</strong> Compare prazo, liquidez, risco e objetivos antes de escolher entre alternativas pós e prefixadas.' },
       { num: '5', titulo: 'Resumo da SELIC', desc: 'É o termômetro da economia: afeta crédito, consumo, inflação e seus rendimentos mensalmente.', dica: '<strong>Ação prática:</strong> Acompanhe as reuniões do COPOM e ajuste sua carteira conforme o ciclo.' },
     ],
     legenda_extra: 'Entenda a taxa mais importante do Brasil e como ela impacta seus investimentos diariamente.',
@@ -53,9 +54,9 @@ const TEMAS = [
     slides: [
       { num: '1', titulo: 'O que são FIIs?', desc: 'Fundos de Investimento Imobiliário permitem investir em imóveis (shoppings, galpões, lajes) por R$10 a cota.', dica: '<strong>Vantagem:</strong> Isenção de IR sobre os dividendos para pessoa física — um dos maiores benefícios da renda variável.' },
       { num: '2', titulo: 'Tipos de FIIs', desc: 'Tijolo (imóveis físicos), Papel (CRIs e LCIs) e Fundo de Fundos (FOFs). Cada tipo tem risco e retorno diferentes.', dica: '<strong>Iniciante:</strong> Comece pelos FIIs de tijolo — shoppings e galpões logísticos tendem a ser mais estáveis.' },
-      { num: '3', titulo: 'Como ganhar com FIIs?', desc: 'Dividendos mensais (renda passiva) + valorização das cotas ao longo do tempo. A maioria paga todo mês!', dica: '<strong>Referência:</strong> Dividend yield anual acima de 8% em FIIs de qualidade é considerado atrativo.' },
+      { num: '3', titulo: 'Como ganhar com FIIs?', desc: 'Os resultados podem vir de rendimentos e da valorização ou desvalorização das cotas. A frequência de pagamentos varia por fundo.', dica: '<strong>Referência:</strong> Compare rendimentos, riscos, vacância, concentração e a qualidade da gestão — yield isolado não basta.' },
       { num: '4', titulo: 'Riscos dos FIIs', desc: 'Vacância dos imóveis, inadimplência dos inquilinos, queda do setor imobiliário e alta da SELIC (concorre com renda fixa).', dica: '<strong>Proteção:</strong> Diversifique entre tipos e setores — não coloque tudo em um único FII.' },
-      { num: '5', titulo: 'Como começar com FIIs?', desc: 'Abra conta em uma corretora, pesquise o IFIX (índice de FIIs), analise dividend yield, vacância e gestão.', dica: '<strong>Ação prática:</strong> Comece com R$100 no HGLG11, KNRI11 ou XPML11 — clássicos e diversificados.' },
+      { num: '5', titulo: 'Como começar com FIIs?', desc: 'Abra conta em uma corretora, pesquise o IFIX e analise rendimento, vacância, concentração, liquidez e gestão.', dica: '<strong>Ação prática:</strong> Estude diferentes fundos e verifique se eles combinam com seus objetivos e tolerância a risco.' },
     ],
     legenda_extra: 'Aprenda a investir em imóveis com pouco dinheiro e receba renda passiva mensalmente.',
     hashtags: '#fundosImobiliarios #FII #rendaPassiva #dividendos #b3 #educacaoFinanceira',
@@ -83,9 +84,9 @@ const TEMAS = [
     slides: [
       { num: '1', titulo: 'O que são dividendos?', desc: 'São a distribuição dos lucros de uma empresa para seus acionistas. Quem tem ações recebe em dinheiro na conta.', dica: '<strong>Regra geral:</strong> Empresas maduras e lucrativas distribuem mais. Foque em consistência, não no maior yield.' },
       { num: '2', titulo: 'Como calcular o Dividend Yield?', desc: 'DY = (dividendos pagos no ano ÷ preço da ação) × 100. Um DY de 6% significa R$6 por R$100 investidos.', dica: '<strong>Atenção:</strong> DY muito alto pode ser sinal de queda no preço da ação — analise o contexto!' },
-      { num: '3', titulo: 'As maiores pagadoras do Brasil', desc: 'TAEE11, VIVT3, BBAS3, CMIG4 e ITUB4 são referência em histórico consistente de pagamentos.', dica: '<strong>Critério:</strong> Prefira empresas com 5+ anos de dividendos crescentes e payout saudável (<70%).' },
-      { num: '4', titulo: 'Reinvestindo dividendos', desc: 'Reinvestir os dividendos recebidos acelera o efeito dos juros compostos e multiplica sua renda no longo prazo.', dica: '<strong>Poder dos juros compostos:</strong> Reinvestir por 10 anos pode dobrar seu patrimônio frente a quem saca os dividendos.' },
-      { num: '5', titulo: 'Quanto preciso para viver de dividendos?', desc: 'Com DY médio de 6% ao ano, você precisa de ~R$2 milhões para ter R$10.000/mês em dividendos.', dica: '<strong>Caminho:</strong> Comece pequeno, reinvista tudo por anos e deixe o tempo trabalhar a seu favor.' },
+      { num: '3', titulo: 'Como avaliar pagadoras', desc: 'Histórico de lucros, geração de caixa, endividamento e política de distribuição ajudam a avaliar empresas pagadoras.', dica: '<strong>Critério:</strong> Analise a sustentabilidade dos pagamentos e evite decidir apenas pelo dividend yield.' },
+      { num: '4', titulo: 'Reinvestindo dividendos', desc: 'Reinvestir dividendos pode potencializar juros compostos, mas os resultados dependem de preço, impostos e desempenho futuro.', dica: '<strong>Planejamento:</strong> Compare o reinvestimento com seus objetivos, liquidez necessária e horizonte de tempo.' },
+      { num: '5', titulo: 'Planejando renda futura', desc: 'A renda necessária depende de gastos, inflação, impostos e dos ativos escolhidos. Não existe um valor único para todos.', dica: '<strong>Caminho:</strong> Faça simulações conservadoras e revise o plano conforme sua situação financeira mudar.' },
     ],
     legenda_extra: 'Aprenda como construir uma carteira que paga renda passiva todo mês com dividendos.',
     hashtags: '#dividendos #rendaPassiva #dividendYield #acoes #educacaoFinanceira #investimentos',
@@ -94,9 +95,9 @@ const TEMAS = [
     badge: 'TESOURO',
     icone: '🏛️',
     titulo: 'Tesouro Direto',
-    subtitulo: 'O investimento mais seguro do Brasil',
+    subtitulo: 'Entenda títulos públicos e seus riscos',
     slides: [
-      { num: '1', titulo: 'O que é o Tesouro Direto?', desc: 'Programa do governo federal para vender títulos públicos diretamente aos brasileiros pela internet.', dica: '<strong>Segurança:</strong> É garantido pelo Tesouro Nacional — o ativo mais seguro disponível no Brasil.' },
+      { num: '1', titulo: 'O que é o Tesouro Direto?', desc: 'Programa do governo federal para vender títulos públicos diretamente aos brasileiros pela internet.', dica: '<strong>Segurança:</strong> Títulos públicos têm risco de crédito soberano e podem oscilar de preço antes do vencimento.' },
       { num: '2', titulo: 'Tipos de títulos', desc: 'Tesouro Selic (pós-fixado), Tesouro Prefixado (taxa travada) e Tesouro IPCA+ (protege da inflação + juro real).', dica: '<strong>Escolha certa:</strong> Curto prazo → Tesouro Selic. Longo prazo → IPCA+. Taxa travada → Prefixado.' },
       { num: '3', titulo: 'Como investir?', desc: 'Acesse pelo site do Tesouro Direto ou app da sua corretora. A partir de R$30 você já consegue comprar um título.', dica: '<strong>Dica:</strong> Muitas corretoras (XP, Rico, Nubank) têm taxa zero no Tesouro Direto.' },
       { num: '4', titulo: 'Riscos do Tesouro', desc: 'Se vender antes do vencimento, pode perder dinheiro (marcação a mercado). O ideal é levar até o vencimento.', dica: '<strong>Regra de ouro:</strong> Só invista no Tesouro dinheiro que você realmente não vai precisar antes do vencimento.' },
@@ -128,9 +129,9 @@ const TEMAS = [
     slides: [
       { num: '1', titulo: 'O que é o Bitcoin?', desc: 'A primeira criptomoeda do mundo, criada em 2009. Funciona sem banco central, em rede descentralizada.', dica: '<strong>Fato:</strong> O Bitcoin tem oferta máxima de 21 milhões de unidades — a escassez é programada no código.' },
       { num: '2', titulo: 'Como o preço é formado?', desc: 'Oferta e demanda, adoção institucional, regulação e sentimento do mercado. É altamente volátil!', dica: '<strong>Histórico:</strong> O Bitcoin já caiu -80% e depois subiu +1.000%. Volatilidade é a regra, não exceção.' },
-      { num: '3', titulo: 'Como investir em Bitcoin?', desc: 'Exchanges (Binance, Mercado Bitcoin), ETFs de Bitcoin (HASH11, BITH11) ou fundos de cripto em corretoras.', dica: '<strong>Iniciante:</strong> ETFs de cripto no Brasil (HASH11) são mais seguros — sem precisar de carteira digital.' },
-      { num: '4', titulo: 'Qual o risco?', desc: 'Alta volatilidade, risco regulatório, hacks em exchanges e possibilidade de perda total. Nunca invista o que não pode perder.', dica: '<strong>Regra de ouro:</strong> A maioria dos especialistas recomenda no máximo 5-10% da carteira em cripto.' },
-      { num: '5', titulo: 'Bitcoin na carteira', desc: 'Funciona como reserva de valor (digital gold) e ativo de alta volatilidade. Ideal para diversificação global.', dica: '<strong>Estratégia DCA:</strong> Compre uma quantia fixa todo mês. Reduz o impacto da volatilidade no longo prazo.' },
+      { num: '3', titulo: 'Formas de exposição', desc: 'Há compra direta em exchanges, ETFs e fundos. Cada caminho tem custos, custódia, liquidez e riscos diferentes.', dica: '<strong>Antes de escolher:</strong> Verifique regulação, taxas, segurança e como a custódia funciona.' },
+      { num: '4', titulo: 'Qual o risco?', desc: 'Há alta volatilidade, risco regulatório, falhas de custódia e possibilidade de perdas relevantes.', dica: '<strong>Regra:</strong> Avalie se esse risco cabe no seu perfil e nunca comprometa recursos essenciais.' },
+      { num: '5', titulo: 'Bitcoin na carteira', desc: 'É um ativo de alta volatilidade e sua função em uma carteira depende dos objetivos e do perfil de cada pessoa.', dica: '<strong>Planejamento:</strong> Estude o ativo, defina limites de risco e acompanhe custos e tributação.' },
     ],
     legenda_extra: 'Guia completo para entender Bitcoin antes de investir: riscos, estratégias e como começar.',
     hashtags: '#bitcoin #cripto #criptomoedas #HASH11 #educacaoFinanceira #investimentos',
@@ -254,12 +255,18 @@ async function publicarCarrossel(imageUrls, legenda) {
   return pubData.id;
 }
 
-const HASHTAGS = '#educacaoFinanceira #investimentos #mercadoFinanceiro #bolsadevalores #b3 #financaspessoais #independenciaFinanceira #investidor #dicasFinanceiras #aprenda';
+const HASHTAG_MARCA = '#bomdiainvestidor';
 
 async function main() {
   if (!IG_TOKEN || !IG_ACCOUNT_ID) throw new Error('Defina IG_TOKEN e IG_ACCOUNT_ID.');
   const pagesToken = process.env.PAGES_TOKEN;
   if (!pagesToken) throw new Error('Defina PAGES_TOKEN.');
+
+  const permissao = podePublicarFeed();
+  if (!permissao.permitido) {
+    registrarVerificacao('carrossel_educativo_suprimido', `Carrossel educativo não publicado: ${permissao.motivo}.`);
+    return;
+  }
 
   const tema = TEMAS[semanaDoAno() % TEMAS.length];
   console.log(`Tema desta semana: ${tema.titulo} (${tema.badge})`);
@@ -291,11 +298,14 @@ async function main() {
   const urls = nomes.map(n => `${PAGES_RAW_BASE}/${n}`);
 
   const data = dataHojeBRT();
-  const legenda = `📚 Educação Financeira — ${tema.titulo}\n\n${tema.legenda_extra}\n\n👆 Deslize para ver os ${tema.slides.length} slides!\n\n💬 Comente: Você já investe nisso? 👇\n\n📊 Mais conteúdo: https://bomdiainvestidor.com.br/\n\n${HASHTAGS} #${tema.badge.toLowerCase().replace(/[^a-z0-9]/g, '')}`;
+  const hashtags = [...new Set(`${tema.hashtags} ${HASHTAG_MARCA}`.split(/\s+/))].slice(0, 5).join(' ');
+  const legenda = `📚 Educação Financeira — ${tema.titulo}\n\n${tema.legenda_extra}\n\n👆 Deslize para ver os ${tema.slides.length} slides.\n\n📌 Salve para consultar quando precisar.\n\nConteúdo educacional e informativo; não é recomendação de investimento.\n\n${hashtags}`;
 
   console.log('Publicando carrossel educativo no Instagram...');
   const postId = await publicarCarrossel(urls, legenda);
   console.log('Carrossel educativo publicado! ID:', postId);
+
+  registrarPublicacao({ titulo: tema.titulo, categoria: 'Educação financeira', fonte: 'Editorial', postId, tipo: 'carrossel_educativo', peso: 90, origem: 'editorial' });
 
   registrarVerificacao('carrossel_educativo', `Carrossel educativo publicado: ${tema.titulo}`, { postId, tema: tema.badge });
 

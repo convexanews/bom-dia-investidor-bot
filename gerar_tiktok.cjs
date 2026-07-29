@@ -3,7 +3,7 @@
 const fs = require('fs');
 const os = require('os');
 const path = require('path');
-const { execSync } = require('child_process');
+const { execSync, execFileSync } = require('child_process');
 const puppeteer = require('puppeteer');
 
 function escapeHtml(str) {
@@ -17,17 +17,11 @@ function escapeHtml(str) {
 // Voz: pt-BR-ThalitaMultilingualNeural (a mais humana disponível);
 // fallback FranciscaNeural se a multilingual falhar.
 async function gerarTTS(texto, saida) {
-  const textoEscapado = texto.replace(/"/g, '\\"');
+  const textoLimpo = String(texto || '').replace(/\s+/g, ' ').trim().slice(0, 900);
   try {
-    execSync(
-      `python -m edge_tts --voice "pt-BR-ThalitaMultilingualNeural" --rate="-4%" --text "${textoEscapado}" --write-media "${saida}"`,
-      { stdio: 'inherit', timeout: 60000 }
-    );
+    execFileSync('python', ['-m', 'edge_tts', '--voice', 'pt-BR-ThalitaMultilingualNeural', '--rate=-4%', '--text', textoLimpo, '--write-media', saida], { stdio: 'inherit', timeout: 60000 });
   } catch {
-    execSync(
-      `python -m edge_tts --voice "pt-BR-FranciscaNeural" --rate="-4%" --text "${textoEscapado}" --write-media "${saida}"`,
-      { stdio: 'inherit', timeout: 60000 }
-    );
+    execFileSync('python', ['-m', 'edge_tts', '--voice', 'pt-BR-FranciscaNeural', '--rate=-4%', '--text', textoLimpo, '--write-media', saida], { stdio: 'inherit', timeout: 60000 });
   }
   return saida;
 }
@@ -179,8 +173,14 @@ function montarBlocosLegenda(cfg) {
 }
 
 function montarLegendaTikTok(cfg) {
-  const hashtags = '#mercadofinanceiro #investimentos #bolsa #ibovespa #acoes #economia #dolar #investidor #financas #tiktokfinance #bomdiainvestidor';
-  return `🔴 ${cfg.manchete}\n\n📊 ${cfg.resumo || ''}\n\nFonte: ${cfg.fonte || ''}\n\n${hashtags}`;
+  const texto = `${cfg.manchete || ''} ${cfg.resumo || ''}`.toLowerCase();
+  const tema = /selic|copom|juros|renda fixa|tesouro/.test(texto) ? '#selic #rendafixa #copom'
+    : /bitcoin|cripto|ethereum/.test(texto) ? '#bitcoin #cripto #mercadocripto'
+      : /fii|fundo imobili/.test(texto) ? '#fiis #fundosimobiliarios #ifix'
+        : /dolar|cambio/.test(texto) ? '#dolar #cambio #economia'
+          : '#ibovespa #acoes #mercadofinanceiro';
+  const resumo = String(cfg.resumo || '').replace(/\s+/g, ' ').trim().slice(0, 260);
+  return `📌 ${cfg.manchete}\n\nO que aconteceu: ${resumo}\n\nFonte: ${cfg.fonte || 'não informada'}. Conteúdo informativo; não é recomendação de investimento.\n\n${tema} #investimentos #bomdiainvestidor`;
 }
 
 module.exports = { gerarVideoTikTok, gerarFrame, gerarTTS, montarLegendaTikTok, montarTextoNarracao, montarBlocosLegenda };

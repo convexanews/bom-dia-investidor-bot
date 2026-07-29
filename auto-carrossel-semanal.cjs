@@ -7,6 +7,7 @@ const path = require('path');
 const { execSync } = require('child_process');
 const { gerarCard } = require('./gerar_card_noticia.cjs');
 const { calcularPesoImpacto, titulosSimilares } = require('./coletor_noticias.cjs');
+const { podePublicarFeed, registrarPublicacao } = require('./controle_publicacao.cjs');
 
 const IG_API_BASE = 'https://graph.instagram.com/v23.0';
 const IG_TOKEN = process.env.IG_TOKEN;
@@ -74,13 +75,19 @@ async function criarItemCarrossel(imgUrl) {
 
 function montarLegenda(selecionadas) {
   const itens = selecionadas.map((n, i) => `${i + 1}. ${n.titulo}`).join('\n\n');
-  return `📅 Resumo da semana: o que você pode ter perdido\n\n${itens}\n\n📊 Fique por dentro todos os dias: https://bomdiainvestidor.com.br/\n\n#mercadofinanceiro #resumosemanal #investimentos #bolsadevalores #economia`;
+  return `📅 Resumo da semana: o que movimentou o mercado\n\n${itens}\n\n📌 Salve para começar a próxima semana com contexto.\n\nConteúdo informativo; não é recomendação de investimento.\n\n#resumosemanal #mercadofinanceiro #investimentos #economia #bomdiainvestidor`;
 }
 
 async function main() {
   if (!IG_TOKEN || !IG_ACCOUNT_ID) throw new Error('Defina IG_TOKEN e IG_ACCOUNT_ID.');
   const pagesToken = process.env.PAGES_TOKEN;
   if (!pagesToken) throw new Error('Defina PAGES_TOKEN.');
+
+  const permissao = podePublicarFeed();
+  if (!permissao.permitido) {
+    registrarVerificacao('resumo_semanal_suprimido', `Resumo semanal não publicado: ${permissao.motivo}.`);
+    return;
+  }
 
   const relatorio = carregarJson(RELATORIO_FILE, []);
   const selecionadas = selecionarTopSemana(relatorio);
@@ -141,6 +148,7 @@ async function main() {
   if (!pubData.id) throw new Error('Erro ao publicar carrossel semanal: ' + JSON.stringify(pubData));
 
   console.log('Resumo semanal publicado! ID:', pubData.id);
+  registrarPublicacao({ titulo: 'Resumo semanal do mercado', categoria: 'Mercados', fonte: 'Editorial', postId: pubData.id, tipo: 'carrossel_semanal', peso: 90, origem: 'resumo_semanal' });
   registrarVerificacao('resumo_semanal', `Resumo semanal publicado com ${selecionadas.length} notícias.`, {
     postId: pubData.id,
     noticias: selecionadas.map(n => n.titulo),

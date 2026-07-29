@@ -5,7 +5,7 @@
 const fs = require('fs');
 const os = require('os');
 const path = require('path');
-const { execSync } = require('child_process');
+const { execSync, execFileSync } = require('child_process');
 
 function criarAskpass() {
   const askpass = path.join(os.tmpdir(), 'bdi-askpass.sh');
@@ -19,6 +19,9 @@ function git(cmd, cwd) {
     env.GIT_ASKPASS = criarAskpass();
     env.BDI_GIT_TOKEN = process.env.PAGES_TOKEN;
   }
+  // Manchetes vêm de RSS externo. Para commits, nunca deixe esse texto passar pelo shell.
+  const commit = cmd.match(/^git commit -m "([\s\S]*)"$/);
+  if (commit) return execFileSync('git', ['commit', '-m', commit[1]], { cwd, stdio: 'inherit', env });
   execSync(cmd, { cwd, stdio: 'inherit', env });
 }
 

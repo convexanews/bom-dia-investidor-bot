@@ -12,6 +12,7 @@ const IG_TOKEN = process.env.IG_TOKEN;
 const IG_ACCOUNT_ID = process.env.IG_ACCOUNT_ID;
 
 const VERIFICACOES_FILE = path.join(__dirname, 'verificacoes.json');
+const RELATORIO_FILE = path.join(__dirname, 'relatorio.json');
 const ESTADO_FILE = path.join(__dirname, 'alerta-recorde-estado.json');
 const PAGES_DIR = path.join(__dirname, 'pages-repo');
 const PAGES_REPO = 'convexanews/convexanews.github.io';
@@ -34,6 +35,19 @@ function registrarVerificacao(resultado, mensagem, extra = {}) {
   const v = carregarJson(VERIFICACOES_FILE, []);
   v.unshift({ data: new Date().toISOString(), resultado, mensagem, ...extra });
   salvarJson(VERIFICACOES_FILE, v.slice(0, 200));
+}
+
+function podePublicarAlerta() {
+  const relatorio = carregarJson(RELATORIO_FILE, []);
+  const agora = Date.now();
+  const quatroHoras = 4 * 60 * 60 * 1000;
+  const inicioDia = new Date(new Date().toLocaleString('en-US', { timeZone: 'America/Sao_Paulo' }));
+  inicioDia.setHours(0, 0, 0, 0);
+  const publicadosHoje = relatorio.filter(p => p.origem !== 'manual' && new Date(p.data) >= inicioDia).length;
+  const ultimo = relatorio.find(p => p.origem !== 'manual');
+  if (publicadosHoje >= 3) return { permitido: false, motivo: 'limite diário de posts atingido' };
+  if (ultimo && agora - new Date(ultimo.data).getTime() < quatroHoras) return { permitido: false, motivo: 'intervalo mínimo de quatro horas' };
+  return { permitido: true };
 }
 const { git } = require('./git-seguro.cjs');
 
@@ -137,6 +151,12 @@ async function main() {
     return;
   }
 
+  const permissao = podePublicarAlerta();
+  if (!permissao.permitido) {
+    registrarVerificacao('alerta_suprimido', `Alerta de recorde não publicado: ${permissao.motivo}.`, { ativo: alertaParaPostar.ativoNome });
+    return;
+  }
+
   console.log(`Recorde detectado: ${alertaParaPostar.ativoNome} — ${alertaParaPostar.tipoAlerta}`);
 
   if (fs.existsSync(PAGES_DIR)) fs.rmSync(PAGES_DIR, { recursive: true, force: true });
@@ -157,9 +177,17 @@ async function main() {
   const url = `${PAGES_RAW_BASE}/${nomeImg}`;
   await new Promise(r => setTimeout(r, 15000));
 
-  const legenda = `🚨 ${alertaParaPostar.tipoAlerta}: ${alertaParaPostar.ativoNome}\n\n${alertaParaPostar.frase.replace(/<\/?strong>/g, '')}\n\n📊 Fique por dentro: https://bomdiainvestidor.com.br/\n\n#mercadofinanceiro #investimentos #${alertaParaPostar.chave}`;
+  const legenda = `🚨 ${alertaParaPostar.tipoAlerta}: ${alertaParaPostar.ativoNome}\n\n${alertaParaPostar.frase.replace(/<\/?strong>/g, '')}\n\n📌 Acompanhe os próximos dados antes de tomar decisões.\n\nConteúdo informativo; não é recomendação de investimento.\n\n#mercadofinanceiro #investimentos #${alertaParaPostar.chave} #bomdiainvestidor`;
   const postId = await publicarFeed(url, legenda);
   console.log('Alerta de recorde publicado! ID:', postId);
+
+  const relatorio = carregarJson(RELATORIO_FILE, []);
+  relatorio.unshift({
+    data: new Date().toISOString(), titulo: `${alertaParaPostar.tipoAlerta}: ${alertaParaPostar.ativoNome}`,
+    categoria: 'Alerta de mercado', fonte: 'Cotação de mercado', postId, tipo: 'alerta',
+    peso: 100, origem: 'alerta_recorde', imagemFeed: url,
+  });
+  salvarJson(RELATORIO_FILE, relatorio.slice(0, 200));
 
   registrarVerificacao('alerta_recorde', `Alerta de recorde publicado: ${alertaParaPostar.ativoNome} (${alertaParaPostar.tipoAlerta}).`, { postId });
 

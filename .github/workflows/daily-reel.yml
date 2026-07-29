@@ -2,14 +2,14 @@ name: Bom Dia Investidor - Reel Diario
 
 on:
   schedule:
-    - cron: '0 23 * * *'
+    - cron: '0 23 * * 0'
   workflow_dispatch: {}
 
 permissions:
   contents: write
 
 concurrency:
-  group: bdi-reel
+  group: bdi-publicacao-instagram
   cancel-in-progress: false
 
 jobs:
@@ -26,7 +26,7 @@ jobs:
         run: sudo apt-get update && sudo apt-get install -y ffmpeg
 
       - name: Instalar dependencias
-        run: npm install
+        run: npm ci
 
       - name: Gerar e publicar o reel-resumo do dia
         env:
@@ -40,7 +40,7 @@ jobs:
         run: |
           git config user.email "bot@bomdiainvestidor.com.br"
           git config user.name "Bom Dia Investidor Bot"
-          git add verificacoes.json
+          git add verificacoes.json relatorio.json
           git diff --cached --quiet || git commit -m "Atualiza registro do reel diario"
           for i in 1 2 3; do
             git pull --rebase -X theirs origin main && git push && exit 0

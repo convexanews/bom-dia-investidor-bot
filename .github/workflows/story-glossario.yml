@@ -9,7 +9,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: bdi-glossario
+  group: bdi-publicacao-instagram
   cancel-in-progress: false
 
 jobs:
@@ -23,7 +23,7 @@ jobs:
           node-version: 20
 
       - name: Instalar dependencias
-        run: npm install
+        run: npm ci
 
       - name: Gerar e publicar story do glossário
         env:

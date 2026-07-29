@@ -8,6 +8,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: bdi-publicacao-instagram
+  cancel-in-progress: false
+
 jobs:
   enquete:
     runs-on: ubuntu-latest
@@ -19,7 +23,7 @@ jobs:
           node-version: 20
 
       - name: Instalar dependencias
-        run: npm install
+        run: npm ci
 
       - name: Gerar e publicar story de enquete
         env:

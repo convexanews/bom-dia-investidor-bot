@@ -1,0 +1,31 @@
+name: Bom Dia Investidor - Métricas
+
+on:
+  schedule:
+    - cron: '30 11 * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  metricas:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Coletar indicadores recentes
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          IG_ACCOUNT_ID: ${{ secrets.IG_ACCOUNT_ID }}
+        run: node coletar_metricas.cjs
+      - name: Salvar métricas
+        run: |
+          git config user.email "bot@bomdiainvestidor.com.br"
+          git config user.name "Bom Dia Investidor Bot"
+          git add metricas.json metricas-resumo.json
+          git diff --cached --quiet || git commit -m "Atualiza métricas do Instagram"
+          git pull --rebase origin main
+          git push
