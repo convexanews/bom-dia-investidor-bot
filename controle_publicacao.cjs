@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 
 const RELATORIO = path.join(__dirname, 'relatorio.json');
-const QUATRO_HORAS = 4 * 60 * 60 * 1000;
+const DUAS_HORAS = 2 * 60 * 60 * 1000;
 
 function lerRelatorio() {
   try { return JSON.parse(fs.readFileSync(RELATORIO, 'utf8')); } catch { return []; }
@@ -15,14 +15,14 @@ function inicioDiaBRT() {
   return data;
 }
 
-function podePublicarFeed({ limiteDiario = 4, intervaloMs = QUATRO_HORAS } = {}) {
+function podePublicarFeed({ limiteDiario = 4, intervaloMs = DUAS_HORAS } = {}) {
   const posts = lerRelatorio().filter(p => p.data && p.origem !== 'manual');
   const hoje = inicioDiaBRT();
   const hojeCount = posts.filter(p => new Date(p.data) >= hoje).length;
   if (hojeCount >= limiteDiario) return { permitido: false, motivo: 'limite diário global atingido' };
   const ultimo = posts[0];
   if (ultimo && Date.now() - new Date(ultimo.data).getTime() < intervaloMs) {
-    return { permitido: false, motivo: 'intervalo global mínimo de quatro horas' };
+    return { permitido: false, motivo: 'intervalo global mínimo de duas horas' };
   }
   return { permitido: true };
 }
@@ -33,4 +33,4 @@ function registrarPublicacao(dados) {
   fs.writeFileSync(RELATORIO, JSON.stringify(posts.slice(0, 200), null, 2));
 }
 
-module.exports = { podePublicarFeed, registrarPublicacao };
+module.exports = { podePublicarFeed, registrarPublicacao, DUAS_HORAS };
