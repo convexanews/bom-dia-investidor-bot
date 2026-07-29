@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-29T16:30:59.446Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 197 min."
+  },
+  {
     "data": "2026-07-29T16:01:04.118Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 107 min."
@@ -1148,10 +1153,5 @@
     "storyId": "18434230726132030",
     "reelId": null,
     "tipo": "card"
-  },
-  {
-    "data": "2026-07-26T18:59:06.817Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 6): \"“OnlyMarms”: marmotas estão no OnlyFans para arrecadar fundos para pesquisa\". Realizando postagem..."
   }
 ]
