@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-29T19:02:27.111Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 45 min."
+  },
+  {
     "data": "2026-07-29T19:00:54.071Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 47 min."
@@ -1144,10 +1149,5 @@
     "storyId": "18129101227724296",
     "reelId": null,
     "tipo": "carrossel"
-  },
-  {
-    "data": "2026-07-26T21:01:10.803Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 6): \"Baker Hughes declara dividendo trimestral de US$ 0,23 por ação\". Realizando postagem..."
   }
 ]
