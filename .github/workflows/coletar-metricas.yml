@@ -25,7 +25,7 @@ jobs:
         run: |
           git config user.email "bot@bomdiainvestidor.com.br"
           git config user.name "Bom Dia Investidor Bot"
-          git add metricas.json
+          git add metricas.json metricas-resumo.json
           git diff --cached --quiet || git commit -m "Atualiza métricas do Instagram"
           git pull --rebase origin main
           git push

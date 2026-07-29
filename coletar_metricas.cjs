@@ -7,9 +7,26 @@ const token = process.env.IG_TOKEN;
 const accountId = process.env.IG_ACCOUNT_ID;
 const relatorioPath = path.join(__dirname, 'relatorio.json');
 const metricasPath = path.join(__dirname, 'metricas.json');
+const resumoPath = path.join(__dirname, 'metricas-resumo.json');
 
 function lerJson(arquivo, padrao) {
   try { return JSON.parse(fs.readFileSync(arquivo, 'utf8')); } catch { return padrao; }
+}
+
+function resumoPorFormato(registros) {
+  const grupos = new Map();
+  for (const registro of registros) {
+    const chave = registro.tipo || 'sem_formato';
+    if (!grupos.has(chave)) grupos.set(chave, []);
+    grupos.get(chave).push(registro.insights || {});
+  }
+  return Object.fromEntries([...grupos].map(([formato, itens]) => {
+    const media = campo => {
+      const valores = itens.map(i => Number(i[campo])).filter(Number.isFinite);
+      return valores.length ? Math.round(valores.reduce((s, v) => s + v, 0) / valores.length) : null;
+    };
+    return [formato, { posts: itens.length, alcanceMedio: media('reach'), salvamentosMedios: media('saved'), compartilhamentosMedios: media('shares'), reproducoesMedias: media('plays') }];
+  }));
 }
 
 async function consultar(url) {
@@ -44,7 +61,7 @@ async function main() {
       const insights = await metricasDoPost(post.postId);
       atualizadas.push({
         postId: post.postId, dataColeta: new Date().toISOString(), dataPostagem: post.data,
-        tipo: post.tipo, peso: post.peso, fonte: post.fonte, titulo: post.titulo,
+        tipo: post.tipo, pilares: post.pilares || [], peso: post.peso, fonte: post.fonte, titulo: post.titulo,
         insights,
       });
     } catch (erro) {
@@ -53,6 +70,11 @@ async function main() {
   }
 
   fs.writeFileSync(metricasPath, JSON.stringify(atualizadas, null, 2));
+  fs.writeFileSync(resumoPath, JSON.stringify({ atualizadoEm: new Date().toISOString(), porFormato: resumoPorFormato(atualizadas) }, null, 2));
 }
 
-main().catch(erro => { console.error(erro.message); process.exit(1); });
+if (require.main === module) {
+  main().catch(erro => { console.error(erro.message); process.exit(1); });
+}
+
+module.exports = { resumoPorFormato };

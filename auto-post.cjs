@@ -615,6 +615,7 @@ async function main() {
     videoUrl,
     tipo: formato,
     peso: nova.peso || 0,
+    pilares: nova.pilares || [],
   });
   salvarJson(RELATORIO_FILE, relatorio.slice(0, 200));
 
