@@ -74,7 +74,7 @@ async function criarItemCarrossel(imgUrl) {
 
 function montarLegenda(selecionadas) {
   const itens = selecionadas.map((n, i) => `${i + 1}. ${n.titulo}`).join('\n\n');
-  return `📅 Resumo da semana: o que você pode ter perdido\n\n${itens}\n\n📊 Fique por dentro todos os dias: https://bomdiainvestidor.com.br/\n\n#mercadofinanceiro #resumosemanal #investimentos #bolsadevalores #economia`;
+  return `📅 Resumo da semana: o que movimentou o mercado\n\n${itens}\n\n📌 Salve para começar a próxima semana com contexto.\n\nConteúdo informativo; não é recomendação de investimento.\n\n#resumosemanal #mercadofinanceiro #investimentos #economia #bomdiainvestidor`;
 }
 
 async function main() {

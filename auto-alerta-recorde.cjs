@@ -177,7 +177,7 @@ async function main() {
   const url = `${PAGES_RAW_BASE}/${nomeImg}`;
   await new Promise(r => setTimeout(r, 15000));
 
-  const legenda = `🚨 ${alertaParaPostar.tipoAlerta}: ${alertaParaPostar.ativoNome}\n\n${alertaParaPostar.frase.replace(/<\/?strong>/g, '')}\n\n📊 Fique por dentro: https://bomdiainvestidor.com.br/\n\n#mercadofinanceiro #investimentos #${alertaParaPostar.chave}`;
+  const legenda = `🚨 ${alertaParaPostar.tipoAlerta}: ${alertaParaPostar.ativoNome}\n\n${alertaParaPostar.frase.replace(/<\/?strong>/g, '')}\n\n📌 Acompanhe os próximos dados antes de tomar decisões.\n\nConteúdo informativo; não é recomendação de investimento.\n\n#mercadofinanceiro #investimentos #${alertaParaPostar.chave} #bomdiainvestidor`;
   const postId = await publicarFeed(url, legenda);
   console.log('Alerta de recorde publicado! ID:', postId);
 

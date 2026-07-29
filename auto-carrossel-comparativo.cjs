@@ -125,7 +125,7 @@ async function gerarImagem(dados, data, saida) {
 }
 
 function montarLegenda(dados) {
-  return `📅 Quanto custava há 1 ano?\n\n📈 Ibovespa: ${dados.ibov.antigo} → ${dados.ibov.hoje} (${dados.ibov.variacao})\n💵 Dólar: ${dados.dolar.antigo} → ${dados.dolar.hoje} (${dados.dolar.variacao})\n₿ Bitcoin: ${dados.btc.antigo} → ${dados.btc.hoje} (${dados.btc.variacao})\n\nO que isso te diz sobre o seu dinheiro parado? 🤔\n\n📊 Fique por dentro: https://bomdiainvestidor.com.br/\n\n#mercadofinanceiro #investimentos #ibovespa #dolar #bitcoin`;
+  return `📅 Como os principais ativos mudaram em um ano?\n\n📈 Ibovespa: ${dados.ibov.antigo} → ${dados.ibov.hoje} (${dados.ibov.variacao})\n💵 Dólar: ${dados.dolar.antigo} → ${dados.dolar.hoje} (${dados.dolar.variacao})\n₿ Bitcoin: ${dados.btc.antigo} → ${dados.btc.hoje} (${dados.btc.variacao})\n\n📌 Salve para comparar os ciclos do mercado.\n\nConteúdo informativo; rentabilidade passada não garante resultados futuros.\n\n#mercadofinanceiro #ibovespa #dolar #bitcoin #bomdiainvestidor`;
 }
 
 async function main() {

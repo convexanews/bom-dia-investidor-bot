@@ -65,7 +65,7 @@ async function publicarReel(videoUrl, legenda) {
 
 function montarLegendaReel(noticias) {
   const titulos = noticias.map(n => `• ${n.titulo}`).join('\n');
-  return `📰 Resumo das notícias de hoje:\n\n${titulos}\n\n📊 Fique por dentro de mais notícias do mercado financeiro: https://bomdiainvestidor.com.br/`;
+  return `📰 Resumo editorial do período:\n\n${titulos}\n\n📌 Salve para consultar os destaques.\n\nConteúdo informativo; não é recomendação de investimento.\n\n#mercadofinanceiro #resumodomercado #investimentos #bomdiainvestidor`;
 }
 
 async function main() {
