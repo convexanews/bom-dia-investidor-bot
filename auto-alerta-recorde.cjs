@@ -40,13 +40,13 @@ function registrarVerificacao(resultado, mensagem, extra = {}) {
 function podePublicarAlerta() {
   const relatorio = carregarJson(RELATORIO_FILE, []);
   const agora = Date.now();
-  const quatroHoras = 4 * 60 * 60 * 1000;
+  const duasHoras = 2 * 60 * 60 * 1000;
   const inicioDia = new Date(new Date().toLocaleString('en-US', { timeZone: 'America/Sao_Paulo' }));
   inicioDia.setHours(0, 0, 0, 0);
   const publicadosHoje = relatorio.filter(p => p.origem !== 'manual' && new Date(p.data) >= inicioDia).length;
   const ultimo = relatorio.find(p => p.origem !== 'manual');
   if (publicadosHoje >= 3) return { permitido: false, motivo: 'limite diário de posts atingido' };
-  if (ultimo && agora - new Date(ultimo.data).getTime() < quatroHoras) return { permitido: false, motivo: 'intervalo mínimo de quatro horas' };
+  if (ultimo && agora - new Date(ultimo.data).getTime() < duasHoras) return { permitido: false, motivo: 'intervalo mínimo de duas horas' };
   return { permitido: true };
 }
 const { git } = require('./git-seguro.cjs');

@@ -297,8 +297,8 @@ async function main() {
     return;
   }
 
-  // Intervalo mínimo de 4h entre posts (evita spam, melhora alcance)
-  const INTERVALO_MIN_MS = 4 * 60 * 60 * 1000;
+  // Intervalo mínimo de 2h entre posts: mantém a conta presente sem concentrar publicações.
+  const INTERVALO_MIN_MS = 2 * 60 * 60 * 1000;
   const ultimoPost = relatorio.find(p => p.origem !== 'manual');
   if (ultimoPost) {
     const tempoDesdeUltimo = Date.now() - new Date(ultimoPost.data).getTime();
@@ -310,8 +310,8 @@ async function main() {
     }
   }
 
-  // Máximo de três posts automáticos por dia: qualidade e distribuição antes de volume.
-  const MAX_POSTS_DIA = 3;
+  // Máximo de quatro posts automáticos por dia: qualidade e distribuição antes de volume.
+  const MAX_POSTS_DIA = 4;
   const inicioDia = new Date(new Date().toLocaleString('en-US', { timeZone: 'America/Sao_Paulo' }));
   inicioDia.setHours(0, 0, 0, 0);
   const postasHoje = relatorio.filter(p =>
