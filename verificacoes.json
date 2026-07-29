@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-29T14:31:23.158Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 63 min."
+  },
+  {
     "data": "2026-07-29T14:01:07.010Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 93 min."
@@ -1142,10 +1147,5 @@
     "storyId": "18114923522509968",
     "reelId": null,
     "tipo": "carrossel"
-  },
-  {
-    "data": "2026-07-26T16:31:02.021Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 40): \"Bradesco (BBDC3;BBDC4), IRB (IRBR3) e mais duas empresas pagam dividendos nesta semana; veja o calendário\". Realizando postagem..."
   }
 ]
