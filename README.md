@@ -17,7 +17,7 @@ e limite de frequência para preservar qualidade e alcance.
 
 ## Qualidade e crescimento
 
-- No máximo quatro posts automáticos de feed por dia, com intervalo mínimo de duas horas.
+- Até oito posts automáticos de feed por dia, entre 8h e 22h, com intervalo mínimo de duas horas.
 - Conteúdo fora dos pilares editoriais (macro, bolsa, renda fixa, FIIs, cripto e exterior)
   é descartado antes da publicação.
 - As legendas incluem contexto, um CTA e aviso de conteúdo informativo.

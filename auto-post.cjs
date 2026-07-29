@@ -179,7 +179,7 @@ function montarLegenda(cfg) {
 
 function estaNoHorarioPico() {
   const hora = parseInt(new Date().toLocaleString('en-US', { timeZone: 'America/Sao_Paulo', hour: 'numeric', hour12: false }));
-  return hora >= 6 && hora < 22;
+  return hora >= 8 && hora <= 22;
 }
 
 async function aguardarContainerPronto(containerId, tentativas = 15) {
@@ -310,8 +310,8 @@ async function main() {
     }
   }
 
-  // Máximo de quatro posts automáticos por dia: qualidade e distribuição antes de volume.
-  const MAX_POSTS_DIA = 4;
+  // Até oito posts entre 8h e 22h, respeitando duas horas entre cada publicação.
+  const MAX_POSTS_DIA = 8;
   const inicioDia = new Date(new Date().toLocaleString('en-US', { timeZone: 'America/Sao_Paulo' }));
   inicioDia.setHours(0, 0, 0, 0);
   const postasHoje = relatorio.filter(p =>
