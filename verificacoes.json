@@ -1,5 +1,11 @@
 [
   {
+    "data": "2026-07-29T13:05:38.274Z",
+    "resultado": "story_glossario",
+    "mensagem": "Story do glossário publicado: \"Liquidez\"",
+    "postId": "17981646774025974"
+  },
+  {
     "data": "2026-07-29T13:01:45.815Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 16 min."
@@ -1147,10 +1153,5 @@
       "EUA, Japão e Filipinas realizam exercícios militares no Mar do Sul da China",
       "EUA suspendem ataques aéreos ao Irã, mas tensão permanece em meio a negociações"
     ]
-  },
-  {
-    "data": "2026-07-26T15:00:55.533Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 62 min."
   }
 ]
