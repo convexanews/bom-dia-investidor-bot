@@ -173,8 +173,14 @@ function montarBlocosLegenda(cfg) {
 }
 
 function montarLegendaTikTok(cfg) {
-  const hashtags = '#mercadofinanceiro #investimentos #bolsa #ibovespa #acoes #economia #dolar #investidor #financas #tiktokfinance #bomdiainvestidor';
-  return `🔴 ${cfg.manchete}\n\n📊 ${cfg.resumo || ''}\n\nFonte: ${cfg.fonte || ''}\n\n${hashtags}`;
+  const texto = `${cfg.manchete || ''} ${cfg.resumo || ''}`.toLowerCase();
+  const tema = /selic|copom|juros|renda fixa|tesouro/.test(texto) ? '#selic #rendafixa #copom'
+    : /bitcoin|cripto|ethereum/.test(texto) ? '#bitcoin #cripto #mercadocripto'
+      : /fii|fundo imobili/.test(texto) ? '#fiis #fundosimobiliarios #ifix'
+        : /dolar|cambio/.test(texto) ? '#dolar #cambio #economia'
+          : '#ibovespa #acoes #mercadofinanceiro';
+  const resumo = String(cfg.resumo || '').replace(/\s+/g, ' ').trim().slice(0, 260);
+  return `📌 ${cfg.manchete}\n\nO que aconteceu: ${resumo}\n\nFonte: ${cfg.fonte || 'não informada'}. Conteúdo informativo; não é recomendação de investimento.\n\n${tema} #investimentos #bomdiainvestidor`;
 }
 
 module.exports = { gerarVideoTikTok, gerarFrame, gerarTTS, montarLegendaTikTok, montarTextoNarracao, montarBlocosLegenda };
