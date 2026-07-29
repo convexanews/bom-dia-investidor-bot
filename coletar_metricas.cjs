@@ -20,9 +20,17 @@ async function consultar(url) {
 
 async function metricasDoPost(id) {
   const metricas = ['reach', 'saved', 'shares', 'comments', 'likes', 'plays', 'total_interactions'];
-  const url = `${API}/${id}/insights?metric=${metricas.join(',')}&access_token=${token}`;
-  const dados = await consultar(url);
-  return Object.fromEntries((dados.data || []).map(item => [item.name, item.values?.[0]?.value ?? null]));
+  const resultado = {};
+  for (const metrica of metricas) {
+    try {
+      const dados = await consultar(`${API}/${id}/insights?metric=${metrica}&access_token=${token}`);
+      const item = (dados.data || [])[0];
+      if (item) resultado[item.name] = item.values?.[0]?.value ?? null;
+    } catch {
+      // Métricas variam por formato e por versão da API. Uma indisponível não invalida as demais.
+    }
+  }
+  return resultado;
 }
 
 async function main() {

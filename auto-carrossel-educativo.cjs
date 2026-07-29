@@ -53,9 +53,9 @@ const TEMAS = [
     slides: [
       { num: '1', titulo: 'O que são FIIs?', desc: 'Fundos de Investimento Imobiliário permitem investir em imóveis (shoppings, galpões, lajes) por R$10 a cota.', dica: '<strong>Vantagem:</strong> Isenção de IR sobre os dividendos para pessoa física — um dos maiores benefícios da renda variável.' },
       { num: '2', titulo: 'Tipos de FIIs', desc: 'Tijolo (imóveis físicos), Papel (CRIs e LCIs) e Fundo de Fundos (FOFs). Cada tipo tem risco e retorno diferentes.', dica: '<strong>Iniciante:</strong> Comece pelos FIIs de tijolo — shoppings e galpões logísticos tendem a ser mais estáveis.' },
-      { num: '3', titulo: 'Como ganhar com FIIs?', desc: 'Dividendos mensais (renda passiva) + valorização das cotas ao longo do tempo. A maioria paga todo mês!', dica: '<strong>Referência:</strong> Dividend yield anual acima de 8% em FIIs de qualidade é considerado atrativo.' },
+      { num: '3', titulo: 'Como ganhar com FIIs?', desc: 'Os resultados podem vir de rendimentos e da valorização ou desvalorização das cotas. A frequência de pagamentos varia por fundo.', dica: '<strong>Referência:</strong> Compare rendimentos, riscos, vacância, concentração e a qualidade da gestão — yield isolado não basta.' },
       { num: '4', titulo: 'Riscos dos FIIs', desc: 'Vacância dos imóveis, inadimplência dos inquilinos, queda do setor imobiliário e alta da SELIC (concorre com renda fixa).', dica: '<strong>Proteção:</strong> Diversifique entre tipos e setores — não coloque tudo em um único FII.' },
-      { num: '5', titulo: 'Como começar com FIIs?', desc: 'Abra conta em uma corretora, pesquise o IFIX (índice de FIIs), analise dividend yield, vacância e gestão.', dica: '<strong>Ação prática:</strong> Comece com R$100 no HGLG11, KNRI11 ou XPML11 — clássicos e diversificados.' },
+      { num: '5', titulo: 'Como começar com FIIs?', desc: 'Abra conta em uma corretora, pesquise o IFIX e analise rendimento, vacância, concentração, liquidez e gestão.', dica: '<strong>Ação prática:</strong> Estude diferentes fundos e verifique se eles combinam com seus objetivos e tolerância a risco.' },
     ],
     legenda_extra: 'Aprenda a investir em imóveis com pouco dinheiro e receba renda passiva mensalmente.',
     hashtags: '#fundosImobiliarios #FII #rendaPassiva #dividendos #b3 #educacaoFinanceira',
@@ -94,9 +94,9 @@ const TEMAS = [
     badge: 'TESOURO',
     icone: '🏛️',
     titulo: 'Tesouro Direto',
-    subtitulo: 'O investimento mais seguro do Brasil',
+    subtitulo: 'Entenda títulos públicos e seus riscos',
     slides: [
-      { num: '1', titulo: 'O que é o Tesouro Direto?', desc: 'Programa do governo federal para vender títulos públicos diretamente aos brasileiros pela internet.', dica: '<strong>Segurança:</strong> É garantido pelo Tesouro Nacional — o ativo mais seguro disponível no Brasil.' },
+      { num: '1', titulo: 'O que é o Tesouro Direto?', desc: 'Programa do governo federal para vender títulos públicos diretamente aos brasileiros pela internet.', dica: '<strong>Segurança:</strong> Títulos públicos têm risco de crédito soberano e podem oscilar de preço antes do vencimento.' },
       { num: '2', titulo: 'Tipos de títulos', desc: 'Tesouro Selic (pós-fixado), Tesouro Prefixado (taxa travada) e Tesouro IPCA+ (protege da inflação + juro real).', dica: '<strong>Escolha certa:</strong> Curto prazo → Tesouro Selic. Longo prazo → IPCA+. Taxa travada → Prefixado.' },
       { num: '3', titulo: 'Como investir?', desc: 'Acesse pelo site do Tesouro Direto ou app da sua corretora. A partir de R$30 você já consegue comprar um título.', dica: '<strong>Dica:</strong> Muitas corretoras (XP, Rico, Nubank) têm taxa zero no Tesouro Direto.' },
       { num: '4', titulo: 'Riscos do Tesouro', desc: 'Se vender antes do vencimento, pode perder dinheiro (marcação a mercado). O ideal é levar até o vencimento.', dica: '<strong>Regra de ouro:</strong> Só invista no Tesouro dinheiro que você realmente não vai precisar antes do vencimento.' },
@@ -254,7 +254,7 @@ async function publicarCarrossel(imageUrls, legenda) {
   return pubData.id;
 }
 
-const HASHTAGS = '#educacaoFinanceira #investimentos #mercadoFinanceiro #bolsadevalores #b3 #financaspessoais #independenciaFinanceira #investidor #dicasFinanceiras #aprenda';
+const HASHTAG_MARCA = '#bomdiainvestidor';
 
 async function main() {
   if (!IG_TOKEN || !IG_ACCOUNT_ID) throw new Error('Defina IG_TOKEN e IG_ACCOUNT_ID.');
@@ -291,7 +291,8 @@ async function main() {
   const urls = nomes.map(n => `${PAGES_RAW_BASE}/${n}`);
 
   const data = dataHojeBRT();
-  const legenda = `📚 Educação Financeira — ${tema.titulo}\n\n${tema.legenda_extra}\n\n👆 Deslize para ver os ${tema.slides.length} slides!\n\n💬 Comente: Você já investe nisso? 👇\n\n📊 Mais conteúdo: https://bomdiainvestidor.com.br/\n\n${HASHTAGS} #${tema.badge.toLowerCase().replace(/[^a-z0-9]/g, '')}`;
+  const hashtags = [...new Set(`${tema.hashtags} ${HASHTAG_MARCA}`.split(/\s+/))].slice(0, 5).join(' ');
+  const legenda = `📚 Educação Financeira — ${tema.titulo}\n\n${tema.legenda_extra}\n\n👆 Deslize para ver os ${tema.slides.length} slides.\n\n📌 Salve para consultar quando precisar.\n\nConteúdo educacional e informativo; não é recomendação de investimento.\n\n${hashtags}`;
 
   console.log('Publicando carrossel educativo no Instagram...');
   const postId = await publicarCarrossel(urls, legenda);

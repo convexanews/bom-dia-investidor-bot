@@ -9,7 +9,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: bdi-reel
+  group: bdi-publicacao-instagram
   cancel-in-progress: false
 
 jobs:

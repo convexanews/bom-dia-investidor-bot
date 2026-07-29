@@ -14,7 +14,7 @@ permissions:
 # execucao demorar mais que o intervalo, a proxima comeca antes da primeira
 # commitar o dedup, e a mesma noticia pode ser postada duas vezes.
 concurrency:
-  group: bdi-auto-post
+  group: bdi-publicacao-instagram
   cancel-in-progress: false
 
 jobs:

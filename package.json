@@ -3,6 +3,9 @@
   "private": true,
   "type": "commonjs",
   "description": "Automacao do Bom Dia Investidor: coleta noticias do mercado financeiro, gera cards e publica no Instagram via GitHub Actions.",
+  "scripts": {
+    "test": "node --test test/*.test.cjs"
+  },
   "dependencies": {
     "cheerio": "^1.0.0",
     "edge-tts": "^1.0.1",
