@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-29T16:01:04.118Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 107 min."
+  },
+  {
     "data": "2026-07-29T15:47:18.364Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"Bradesco BBI elege Cogna (COGN3) como top pick e vê potencial de 82%, mas rebaixa educacional que acendeu alerta no mercado\".",
@@ -1148,10 +1153,5 @@
     "data": "2026-07-26T18:59:06.817Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 6): \"“OnlyMarms”: marmotas estão no OnlyFans para arrecadar fundos para pesquisa\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-26T18:31:15.707Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
   }
 ]
