@@ -1,5 +1,24 @@
 [
   {
+    "data": "2026-07-29T22:03:52.587Z",
+    "titulo": "Juros longos dos EUA atingem máxima em 18 anos após Fed manter juros pela 5ª vez consecutiva",
+    "categoria": "Mercados",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/juros-longos-dos-eua-atingem-maxima-em-18-anos-apos-fed-manter-juros-pela-5a-vez-consecutiva-lils/",
+    "postId": "17947605954039630",
+    "storyId": null,
+    "reelId": "17947605954039630",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1785362498405.mp4",
+    "tipo": "reel",
+    "peso": 85,
+    "pilares": [
+      "macro",
+      "bolsa"
+    ]
+  },
+  {
     "data": "2026-07-29T15:47:18.363Z",
     "titulo": "Bradesco BBI elege Cogna (COGN3) como top pick e vê potencial de 82%, mas rebaixa educacional que acendeu alerta no mercado",
     "categoria": "Mercados",
@@ -2983,20 +3002,5 @@
     "videoUrl": null,
     "tipo": "carrossel",
     "peso": 25
-  },
-  {
-    "data": "2026-06-29T21:33:33.202Z",
-    "titulo": "Bradesco eleva PIB de 2026 e vê inflação e Selic maiores neste ano e em 2027",
-    "categoria": "Economia",
-    "fonte": "InfoMoney",
-    "link": "https://www.infomoney.com.br/economia/bradesco-eleva-pib-de-2026-e-ve-inflacao-e-selic-maiores-neste-ano-e-em-2027/",
-    "postId": "18064564604711044",
-    "storyId": null,
-    "reelId": "18064564604711044",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782768689518.mp4",
-    "tipo": "reel",
-    "peso": 66
   }
 ]

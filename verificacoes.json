@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-29T22:03:52.588Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Juros longos dos EUA atingem máxima em 18 anos após Fed manter juros pela 5ª vez consecutiva\".",
+    "postId": "17947605954039630",
+    "storyId": null,
+    "reelId": "17947605954039630",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-07-29T22:01:27.337Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 85): \"Juros longos dos EUA atingem máxima em 18 anos após Fed manter juros pela 5ª vez consecutiva\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-29T21:51:55.306Z",
     "resultado": "limite_diario",
     "mensagem": "Limite de 4 posts diários atingido (5 já publicados hoje)."
@@ -1131,19 +1145,5 @@
       "Baker Hughes declara dividendo trimestral de US$ 0,23 por ação",
       "Ibovespa e dólar hoje: Oriente Médio, petróleo e Focus em foco pré-FOMC"
     ]
-  },
-  {
-    "data": "2026-07-26T23:54:04.873Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 98 min."
-  },
-  {
-    "data": "2026-07-26T23:31:57.626Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (card): \"Ibovespa e dólar hoje: Oriente Médio, petróleo e Focus em foco pré-FOMC\".",
-    "postId": "18050131250792548",
-    "storyId": "18409669546153786",
-    "reelId": null,
-    "tipo": "card"
   }
 ]
