@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-29T08:31:08.632Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (05:31 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-07-29T08:24:07.522Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (05:24 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1154,14 +1159,5 @@
     "data": "2026-07-26T11:56:34.905Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 96 min."
-  },
-  {
-    "data": "2026-07-26T11:31:52.696Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (card): \"EUA suspendem ataques aéreos ao Irã, mas tensão permanece em meio a negociações\".",
-    "postId": "18015196517871337",
-    "storyId": "18610887088059214",
-    "reelId": null,
-    "tipo": "card"
   }
 ]
