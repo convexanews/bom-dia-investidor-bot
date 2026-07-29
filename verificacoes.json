@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-29T11:17:45.607Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Bolsas da Ásia fecham mistas; coreano Kospi tomba de novo com queda da SK Hynix\".",
+    "postId": "18094256657133150",
+    "storyId": null,
+    "reelId": "18094256657133150",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-07-29T11:15:40.069Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 37): \"Bolsas da Ásia fecham mistas; coreano Kospi tomba de novo com queda da SK Hynix\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-29T11:01:09.874Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 1 min."
@@ -1152,15 +1166,5 @@
     "storyId": null,
     "reelId": "18026222702844447",
     "tipo": "reel"
-  },
-  {
-    "data": "2026-07-26T14:01:10.532Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 36): \"Bitcoin (BTC) sobe, mas cautela predomina antes de decisão do Fed; veja cotações das criptomoedas neste domingo (26)\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-26T13:31:18.391Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 1 min."
   }
 ]
