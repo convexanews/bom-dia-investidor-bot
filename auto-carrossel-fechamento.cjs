@@ -8,6 +8,7 @@ const { execSync } = require('child_process');
 const puppeteer = require('puppeteer');
 const { buscarCotacoes } = require('./coletor_cotacoes.cjs');
 const { buscarTopAltasB3 } = require('./coletor_acoes_b3.cjs');
+const { podePublicarFeed, registrarPublicacao } = require('./controle_publicacao.cjs');
 
 const IG_API_BASE = 'https://graph.instagram.com/v23.0';
 const IG_TOKEN = process.env.IG_TOKEN;
@@ -126,6 +127,12 @@ async function main() {
   const pagesToken = process.env.PAGES_TOKEN;
   if (!pagesToken) throw new Error('Defina PAGES_TOKEN.');
 
+  const permissao = podePublicarFeed();
+  if (!permissao.permitido) {
+    registrarVerificacao('carrossel_fechamento_suprimido', `Fechamento não publicado: ${permissao.motivo}.`);
+    return;
+  }
+
   console.log('Buscando cotações e top altas da B3...');
   const [cotacoes, altas] = await Promise.all([buscarCotacoes(), buscarTopAltasB3(5)]);
 
@@ -203,6 +210,8 @@ async function main() {
   console.log('Publicando carrossel no Instagram...');
   const postId = await publicarCarrossel([urlFechamento, urlAltas], legenda);
   console.log('Carrossel publicado! ID:', postId);
+
+  registrarPublicacao({ titulo: `Fechamento do mercado — ${data}`, categoria: 'Mercados', fonte: 'Cotações de mercado', postId, tipo: 'carrossel_fechamento', peso: 90, origem: 'fechamento' });
 
   registrarVerificacao('carrossel_fechamento', `Carrossel de fechamento publicado. Ibovespa: ${ibov.valor} ${ibov.variacao}`, {
     postId,

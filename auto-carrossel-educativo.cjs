@@ -5,6 +5,7 @@ const fs = require('fs');
 const path = require('path');
 const { execSync } = require('child_process');
 const puppeteer = require('puppeteer');
+const { podePublicarFeed, registrarPublicacao } = require('./controle_publicacao.cjs');
 
 const IG_API_BASE = 'https://graph.instagram.com/v23.0';
 const IG_TOKEN = process.env.IG_TOKEN;
@@ -261,6 +262,12 @@ async function main() {
   const pagesToken = process.env.PAGES_TOKEN;
   if (!pagesToken) throw new Error('Defina PAGES_TOKEN.');
 
+  const permissao = podePublicarFeed();
+  if (!permissao.permitido) {
+    registrarVerificacao('carrossel_educativo_suprimido', `Carrossel educativo não publicado: ${permissao.motivo}.`);
+    return;
+  }
+
   const tema = TEMAS[semanaDoAno() % TEMAS.length];
   console.log(`Tema desta semana: ${tema.titulo} (${tema.badge})`);
 
@@ -297,6 +304,8 @@ async function main() {
   console.log('Publicando carrossel educativo no Instagram...');
   const postId = await publicarCarrossel(urls, legenda);
   console.log('Carrossel educativo publicado! ID:', postId);
+
+  registrarPublicacao({ titulo: tema.titulo, categoria: 'Educação financeira', fonte: 'Editorial', postId, tipo: 'carrossel_educativo', peso: 90, origem: 'editorial' });
 
   registrarVerificacao('carrossel_educativo', `Carrossel educativo publicado: ${tema.titulo}`, { postId, tema: tema.badge });
 
