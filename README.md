@@ -23,6 +23,7 @@ e limite de frequência para preservar qualidade e alcance.
 - As legendas incluem contexto, um CTA e aviso de conteúdo informativo.
 - `coletar_metricas.cjs` registra alcance, salvamentos, compartilhamentos e indicadores
   disponíveis da API para comparar formatos e temas.
+- A política de pauta, cadência e interpretação de métricas está em `ESTRATEGIA_EDITORIAL.md`.
 
 ## Secrets necessários (Settings → Secrets and variables → Actions)
 
