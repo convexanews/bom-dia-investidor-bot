@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-29T15:47:18.364Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Bradesco BBI elege Cogna (COGN3) como top pick e vê potencial de 82%, mas rebaixa educacional que acendeu alerta no mercado\".",
+    "postId": "17934057156347177",
+    "storyId": null,
+    "reelId": "17934057156347177",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-07-29T15:45:42.799Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 68): \"Bradesco BBI elege Cogna (COGN3) como top pick e vê potencial de 82%, mas rebaixa educacional que acendeu alerta no mercado\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-29T15:31:21.802Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
@@ -1139,15 +1153,5 @@
     "data": "2026-07-26T18:31:15.707Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
-  },
-  {
-    "data": "2026-07-26T18:01:30.924Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 31 min."
-  },
-  {
-    "data": "2026-07-26T17:31:02.230Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 62 min."
   }
 ]

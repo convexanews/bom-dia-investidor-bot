@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-29T15:47:18.363Z",
+    "titulo": "Bradesco BBI elege Cogna (COGN3) como top pick e vê potencial de 82%, mas rebaixa educacional que acendeu alerta no mercado",
+    "categoria": "Mercados",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/bradesco-bbi-elege-cogna-cogn3-como-top-pick-e-ve-potencial-de-82-mas-rebaixa-educacional-que-acendeu-alerta-no-mercado/",
+    "postId": "17934057156347177",
+    "storyId": null,
+    "reelId": "17934057156347177",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1785339953185.mp4",
+    "tipo": "reel",
+    "peso": 68
+  },
+  {
     "data": "2026-07-29T13:33:28.310Z",
     "titulo": "Ao contrário do mercado, Citi não vê corte de juros pelo Copom na próxima reunião; entenda os motivos",
     "categoria": "Economia",
@@ -2983,20 +2998,5 @@
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782768689518.mp4",
     "tipo": "reel",
     "peso": 66
-  },
-  {
-    "data": "2026-06-29T19:03:37.219Z",
-    "titulo": "B3 inicia negociação de contratos de eventos de IPCA e PIB",
-    "categoria": "Economia",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/b3-inicia-negociacao-de-contratos-de-eventos-de-ipca-e-pib/",
-    "postId": "18086926040421847",
-    "storyId": null,
-    "reelId": "18086926040421847",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782759712728.mp4",
-    "tipo": "reel",
-    "peso": 58
   }
 ]
