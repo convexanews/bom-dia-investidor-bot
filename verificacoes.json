@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-29T09:02:03.810Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (card): \"Dólar pode ficar mais forte amanhã? O que esperar do mercado após o FOMC\".",
+    "postId": "17903512905469290",
+    "storyId": "17905712673462630",
+    "reelId": null,
+    "tipo": "card"
+  },
+  {
+    "data": "2026-07-29T09:01:11.277Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 52): \"Dólar pode ficar mais forte amanhã? O que esperar do mercado após o FOMC\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-29T08:31:08.632Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (05:31 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1149,15 +1163,5 @@
     "resultado": "story_glossario",
     "mensagem": "Story do glossário publicado: \"Dividendo\"",
     "postId": "18128137891633490"
-  },
-  {
-    "data": "2026-07-26T12:00:56.804Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 91 min."
-  },
-  {
-    "data": "2026-07-26T11:56:34.905Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 96 min."
   }
 ]

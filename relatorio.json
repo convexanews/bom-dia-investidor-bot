@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-29T09:02:03.808Z",
+    "titulo": "Dólar pode ficar mais forte amanhã? O que esperar do mercado após o FOMC",
+    "categoria": "Mercados",
+    "fonte": "InfoMoney",
+    "link": "https://www.infomoney.com.br/mercados/dolar-pode-ficar-mais-forte-amanha-o-que-esperar-do-mercado-apos-o-fomc/",
+    "postId": "17903512905469290",
+    "storyId": "17905712673462630",
+    "reelId": null,
+    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1785315680031-feed.png",
+    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1785315680031-story.png",
+    "videoUrl": null,
+    "tipo": "card",
+    "peso": 52
+  },
+  {
     "data": "2026-07-29T00:32:48.678Z",
     "titulo": "SK Hynix registra lucro operacional recorde no 2º tri com demanda por memória de IA",
     "categoria": "MERCADO",
@@ -2983,20 +2998,5 @@
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782741691598.mp4",
     "tipo": "reel",
     "peso": 53
-  },
-  {
-    "data": "2026-06-29T11:33:26.321Z",
-    "titulo": "Petrobras (PETR4) recebe R$ 170 milhões na 2ª parcela do programa de subvenção do diesel",
-    "categoria": "Empresas",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/petrobras-petr4-recebe-r-170-milhoes-na-2a-parcela-do-programa-de-subvencao-do-diesel-lmrs/",
-    "postId": "18098646569594510",
-    "storyId": null,
-    "reelId": "18098646569594510",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782732694973.mp4",
-    "tipo": "reel",
-    "peso": 38
   }
 ]
