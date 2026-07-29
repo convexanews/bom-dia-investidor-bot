@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-07-29T00:32:48.678Z",
+    "titulo": "SK Hynix registra lucro operacional recorde no 2º tri com demanda por memória de IA",
+    "categoria": "MERCADO",
+    "fonte": "Investing.com",
+    "link": "https://br.investing.com/news/earnings/sk-hynix-registra-lucro-operacional-recorde-no-2o-tri-com-demanda-por-memoria-de-ia-2017139",
+    "postId": "17868428265586356",
+    "storyId": "18053069720790674",
+    "reelId": null,
+    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1785285091192-slide1.png",
+    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1785285091192-story.png",
+    "videoUrl": null,
+    "tipo": "carrossel",
+    "peso": 28
+  },
+  {
     "data": "2026-07-28T22:16:18.790Z",
     "titulo": "Ibovespa sobe com IPCA-15 mais fraco; Petrobras (PETR4) dribla queda do petróleo",
     "categoria": "Mercado Financeiro",
@@ -2983,19 +2998,5 @@
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782732694973.mp4",
     "tipo": "reel",
     "peso": 38
-  },
-  {
-    "data": "2026-06-29T09:03:45.484Z",
-    "titulo": "Gastos de turistas estrangeiros no Brasil soma R$ 25 bilhões em cinco meses",
-    "categoria": "Economia",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/gastos-de-turistas-estrangeiros-no-brasil-soma-r-25-bilhoes-em-cinco-meses-fets/",
-    "postId": "18078000638460345",
-    "storyId": null,
-    "reelId": "18078000638460345",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782723714155.mp4",
-    "tipo": "reel"
   }
 ]

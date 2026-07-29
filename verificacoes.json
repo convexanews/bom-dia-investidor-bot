@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-29T00:32:48.679Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (carrossel): \"SK Hynix registra lucro operacional recorde no 2º tri com demanda por memória de IA\".",
+    "postId": "17868428265586356",
+    "storyId": "18053069720790674",
+    "reelId": null,
+    "tipo": "carrossel"
+  },
+  {
+    "data": "2026-07-29T00:31:20.505Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 28): \"SK Hynix registra lucro operacional recorde no 2º tri com demanda por memória de IA\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-29T00:02:01.424Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 15 min."
@@ -1153,15 +1167,5 @@
     "data": "2026-07-26T05:00:55.639Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (02:00 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-26T04:31:00.447Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (01:31 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-26T04:01:01.609Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (01:01 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
