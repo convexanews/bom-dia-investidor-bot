@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-29T13:49:04.178Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 105 min."
+  },
+  {
     "data": "2026-07-29T13:33:28.312Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"Ao contrário do mercado, Citi não vê corte de juros pelo Copom na próxima reunião; entenda os motivos\".",
@@ -1142,10 +1147,5 @@
     "data": "2026-07-26T16:01:22.413Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
-  },
-  {
-    "data": "2026-07-26T16:00:24.983Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
   }
 ]
