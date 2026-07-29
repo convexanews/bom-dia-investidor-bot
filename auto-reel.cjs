@@ -5,6 +5,7 @@ const fs = require('fs');
 const path = require('path');
 const { execSync } = require('child_process');
 const { gerarReel } = require('./gerar_reel.cjs');
+const { podePublicarFeed, registrarPublicacao } = require('./controle_publicacao.cjs');
 
 const IG_API_BASE = 'https://graph.instagram.com/v23.0';
 const IG_TOKEN = process.env.IG_TOKEN;
@@ -75,6 +76,12 @@ async function main() {
   const pagesToken = process.env.PAGES_TOKEN;
   if (!pagesToken) throw new Error('Defina PAGES_TOKEN (PAT com acesso de escrita ao repo do GitHub Pages).');
 
+  const permissao = podePublicarFeed();
+  if (!permissao.permitido) {
+    registrarVerificacao('reel_suprimido', `Reel-resumo não publicado: ${permissao.motivo}.`);
+    return;
+  }
+
   const relatorio = carregarJson(RELATORIO_FILE, []);
   const agora = Date.now();
   const doDia = relatorio
@@ -114,6 +121,7 @@ async function main() {
   const legenda = montarLegendaReel(doDia);
   const reelId = await publicarReel(videoUrl, legenda);
   console.log('Reel publicado! ID:', reelId);
+  registrarPublicacao({ titulo: 'Resumo editorial do período', categoria: 'Mercados', fonte: 'Editorial', postId: reelId, reelId, tipo: 'reel_resumo', peso: 80, origem: 'reel_resumo', videoUrl });
 
   registrarVerificacao('reel_postado', `Resumo em vídeo do dia publicado com ${doDia.length} notícia(s).`, {
     reelId,

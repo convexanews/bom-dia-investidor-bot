@@ -7,6 +7,7 @@ const path = require('path');
 const { execSync } = require('child_process');
 const { gerarCard } = require('./gerar_card_noticia.cjs');
 const { calcularPesoImpacto, titulosSimilares } = require('./coletor_noticias.cjs');
+const { podePublicarFeed, registrarPublicacao } = require('./controle_publicacao.cjs');
 
 const IG_API_BASE = 'https://graph.instagram.com/v23.0';
 const IG_TOKEN = process.env.IG_TOKEN;
@@ -82,6 +83,12 @@ async function main() {
   const pagesToken = process.env.PAGES_TOKEN;
   if (!pagesToken) throw new Error('Defina PAGES_TOKEN.');
 
+  const permissao = podePublicarFeed();
+  if (!permissao.permitido) {
+    registrarVerificacao('resumo_semanal_suprimido', `Resumo semanal não publicado: ${permissao.motivo}.`);
+    return;
+  }
+
   const relatorio = carregarJson(RELATORIO_FILE, []);
   const selecionadas = selecionarTopSemana(relatorio);
 
@@ -141,6 +148,7 @@ async function main() {
   if (!pubData.id) throw new Error('Erro ao publicar carrossel semanal: ' + JSON.stringify(pubData));
 
   console.log('Resumo semanal publicado! ID:', pubData.id);
+  registrarPublicacao({ titulo: 'Resumo semanal do mercado', categoria: 'Mercados', fonte: 'Editorial', postId: pubData.id, tipo: 'carrossel_semanal', peso: 90, origem: 'resumo_semanal' });
   registrarVerificacao('resumo_semanal', `Resumo semanal publicado com ${selecionadas.length} notícias.`, {
     postId: pubData.id,
     noticias: selecionadas.map(n => n.titulo),

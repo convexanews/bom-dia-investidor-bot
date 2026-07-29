@@ -5,6 +5,7 @@ const fs = require('fs');
 const path = require('path');
 const { execSync } = require('child_process');
 const puppeteer = require('puppeteer');
+const { podePublicarFeed, registrarPublicacao } = require('./controle_publicacao.cjs');
 
 const IG_API_BASE = 'https://graph.instagram.com/v23.0';
 const IG_TOKEN = process.env.IG_TOKEN;
@@ -133,6 +134,12 @@ async function main() {
   const pagesToken = process.env.PAGES_TOKEN;
   if (!pagesToken) throw new Error('Defina PAGES_TOKEN.');
 
+  const permissao = podePublicarFeed();
+  if (!permissao.permitido) {
+    registrarVerificacao('comparativo_suprimido', `Comparativo não publicado: ${permissao.motivo}.`);
+    return;
+  }
+
   console.log('Buscando cotações de hoje e de 1 ano atrás...');
   const [ibov, dolar, btc] = await Promise.all(ATIVOS.map(buscarComparativo));
   if (!ibov || !dolar || !btc) throw new Error('Não foi possível obter as cotações comparativas.');
@@ -162,6 +169,7 @@ async function main() {
   console.log('Publicando comparativo no Instagram...');
   const postId = await publicarFeed(url, montarLegenda(dados));
   console.log('Comparativo publicado! ID:', postId);
+  registrarPublicacao({ titulo: 'Comparativo de preços em um ano', categoria: 'Mercados', fonte: 'Cotações de mercado', postId, tipo: 'comparativo', peso: 80, origem: 'comparativo', imagemFeed: url });
 
   registrarVerificacao('comparativo_precos', `Comparativo de preços publicado. Ibovespa ${ibov.variacao}, Dólar ${dolar.variacao}, Bitcoin ${btc.variacao}.`, { postId });
 
