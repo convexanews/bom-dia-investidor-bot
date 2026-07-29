@@ -127,7 +127,7 @@ jobs:
         run: |
           git config user.email "bot@bomdiainvestidor.com.br"
           git config user.name "Bom Dia Investidor Bot"
-          git add verificacoes.json alerta-recorde-estado.json
+          git add verificacoes.json alerta-recorde-estado.json relatorio.json
           git diff --cached --quiet || git commit -m "Atualiza registro de alerta de recorde"
           for i in 1 2 3; do
             git pull --rebase -X theirs origin main && git push && exit 0
