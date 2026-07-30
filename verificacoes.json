@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-30T14:01:03.328Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
+  },
+  {
     "data": "2026-07-30T13:32:40.057Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"Ibovespa sobe com melhora do humor externo e à espera de Vale (VALE3); 5 coisas para saber antes de investir hoje (30)\".",
@@ -1122,10 +1127,5 @@
     "data": "2026-07-27T16:01:09.617Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 71): \"Tesouro IPCA+ ainda é a melhor aposta da renda fixa? Especialista explica porque título continua pagando tão bem\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-27T15:42:19.881Z",
-    "resultado": "erro_carrossel_educativo",
-    "mensagem": "Erro ao publicar carrossel educativo: Command failed: git push"
   }
 ]
