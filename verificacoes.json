@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-30T21:31:40.095Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 89 min."
+  },
+  {
     "data": "2026-07-30T21:01:07.525Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 120 min."
@@ -1110,10 +1115,5 @@
     "data": "2026-07-27T23:00:25.277Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 28): \"Telefônica Brasil (VIVT3) tem lucro de R$ 1,6 bilhão no 2º tri\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-27T22:31:02.544Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
   }
 ]
