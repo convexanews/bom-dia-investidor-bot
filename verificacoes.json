@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-30T22:07:52.069Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 53 min."
+  },
+  {
     "data": "2026-07-30T21:54:58.412Z",
     "resultado": "carrossel_fechamento_suprimido",
     "mensagem": "Fechamento não publicado: intervalo global mínimo de duas horas."
@@ -1106,14 +1111,5 @@
     "data": "2026-07-27T23:02:34.372Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 120 min."
-  },
-  {
-    "data": "2026-07-27T23:01:53.790Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (carrossel): \"Telefônica Brasil (VIVT3) tem lucro de R$ 1,6 bilhão no 2º tri\".",
-    "postId": "18122093617795478",
-    "storyId": "17959531746169850",
-    "reelId": null,
-    "tipo": "carrossel"
   }
 ]
