@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-30T01:01:15.719Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
+  },
+  {
     "data": "2026-07-30T00:32:25.131Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (carrossel): \"Controladores do Bradesco vão subscrever até R$8 bi de aumento de capital\".",
@@ -1134,10 +1139,5 @@
     "data": "2026-07-27T03:30:56.563Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (00:30 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-27T03:00:57.040Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (00:00 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
