@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-30T21:01:07.525Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 120 min."
+  },
+  {
     "data": "2026-07-30T21:00:07.703Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"Dólar cai quase 1% e fecha a R$ 5,06 com ajuste pós-Fed e possível intervenção do Japão\".",
@@ -1110,10 +1115,5 @@
     "data": "2026-07-27T22:31:02.544Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
-  },
-  {
-    "data": "2026-07-27T22:01:18.498Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 31 min."
   }
 ]
