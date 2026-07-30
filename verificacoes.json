@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-30T17:01:03.357Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 62 min."
+  },
+  {
     "data": "2026-07-30T16:31:32.338Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
@@ -1122,10 +1127,5 @@
     "storyId": "17954512065192732",
     "reelId": null,
     "tipo": "carrossel"
-  },
-  {
-    "data": "2026-07-27T18:18:58.936Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 50): \"Por que JBS (JBSS32) e MBRF (MBRF3) disparam nesta segunda (27)?\". Realizando postagem..."
   }
 ]
