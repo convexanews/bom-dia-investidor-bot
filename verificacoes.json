@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-30T12:25:26.500Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 37 min."
+  },
+  {
     "data": "2026-07-30T12:01:22.995Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 61 min."
@@ -1125,11 +1130,5 @@
     "data": "2026-07-27T14:00:58.711Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 95 min."
-  },
-  {
-    "data": "2026-07-27T13:42:47.707Z",
-    "resultado": "story_glossario",
-    "mensagem": "Story do glossário publicado: \"Ibovespa\"",
-    "postId": "18107787929113301"
   }
 ]
