@@ -1,0 +1,26 @@
+{
+  "atualizadoEm": "2026-07-30T13:00:39.273Z",
+  "porFormato": {
+    "card": {
+      "posts": 6,
+      "alcanceMedio": 12,
+      "salvamentosMedios": 0,
+      "compartilhamentosMedios": 0,
+      "reproducoesMedias": null
+    },
+    "carrossel": {
+      "posts": 6,
+      "alcanceMedio": 10,
+      "salvamentosMedios": 0,
+      "compartilhamentosMedios": 0,
+      "reproducoesMedias": null
+    },
+    "reel": {
+      "posts": 13,
+      "alcanceMedio": 33,
+      "salvamentosMedios": 0,
+      "compartilhamentosMedios": 0,
+      "reproducoesMedias": null
+    }
+  }
+}
