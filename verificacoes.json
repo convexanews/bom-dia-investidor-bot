@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-30T21:00:07.703Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Dólar cai quase 1% e fecha a R$ 5,06 com ajuste pós-Fed e possível intervenção do Japão\".",
+    "postId": "18075371699390148",
+    "storyId": null,
+    "reelId": "18075371699390148",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-07-30T20:58:08.382Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 71): \"Dólar cai quase 1% e fecha a R$ 5,06 com ajuste pós-Fed e possível intervenção do Japão\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-30T20:31:08.938Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 1 min."
@@ -1101,27 +1115,5 @@
     "data": "2026-07-27T22:01:18.498Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 31 min."
-  },
-  {
-    "data": "2026-07-27T21:58:08.154Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 34 min."
-  },
-  {
-    "data": "2026-07-27T21:55:39.955Z",
-    "resultado": "carrossel_fechamento",
-    "mensagem": "Carrossel de fechamento publicado. Ibovespa: 175.334 -0,79%",
-    "postId": "18131761174622177",
-    "ibov": {
-      "valor": "175.334",
-      "variacao": "-0,79%"
-    },
-    "topAltas": [
-      "TOTS3 +6,95%",
-      "CSNA3 +6,53%",
-      "CSAN3 +3,95%",
-      "SANB11 +3,87%",
-      "MGLU3 +3,87%"
-    ]
   }
 ]

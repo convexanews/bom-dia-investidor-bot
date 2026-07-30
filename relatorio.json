@@ -1,5 +1,24 @@
 [
   {
+    "data": "2026-07-30T21:00:07.701Z",
+    "titulo": "Dólar cai quase 1% e fecha a R$ 5,06 com ajuste pós-Fed e possível intervenção do Japão",
+    "categoria": "Mercados",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/dolar-30-7-26-lils/",
+    "postId": "18075371699390148",
+    "storyId": null,
+    "reelId": "18075371699390148",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1785445098102.mp4",
+    "tipo": "reel",
+    "peso": 71,
+    "pilares": [
+      "macro",
+      "bolsa"
+    ]
+  },
+  {
     "data": "2026-07-30T18:32:01.540Z",
     "titulo": "Anti-trade? América Latina ganha apelo como “opção” ao tema IA – e Brasil se destaca",
     "categoria": "Mercados",
@@ -3004,20 +3023,5 @@
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782855104013.mp4",
     "tipo": "reel",
     "peso": 86
-  },
-  {
-    "data": "2026-06-30T19:04:01.911Z",
-    "titulo": "Plano Safra: juros e esforço fiscal são positivos, mas gastos, promessas e redução generalizada decepcionam, avalia Cogo Inteligência",
-    "categoria": "Mercados",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/plano-safra-juros-e-esforco-fiscal-sao-positivos-mas-gastos-promessas-e-reducao-generalizada-decepcionam-avalia-cogo-inteligencia/",
-    "postId": "18408032728151380",
-    "storyId": null,
-    "reelId": "18408032728151380",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782846123688.mp4",
-    "tipo": "reel",
-    "peso": 48
   }
 ]
