@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-30T20:31:08.938Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 1 min."
+  },
+  {
     "data": "2026-07-30T20:00:58.748Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 32 min."
@@ -1118,10 +1123,5 @@
       "SANB11 +3,87%",
       "MGLU3 +3,87%"
     ]
-  },
-  {
-    "data": "2026-07-27T21:30:57.080Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 62 min."
   }
 ]
