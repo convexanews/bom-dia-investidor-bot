@@ -1,5 +1,23 @@
 [
   {
+    "data": "2026-07-30T00:32:25.130Z",
+    "titulo": "Controladores do Bradesco vão subscrever até R$8 bi de aumento de capital",
+    "categoria": "Mercados",
+    "fonte": "InfoMoney",
+    "link": "https://www.infomoney.com.br/mercados/controladores-do-bradesco-vao-subscrever-ate-r8-bi-de-aumento-de-capital/",
+    "postId": "18159830848465167",
+    "storyId": "18063783092738686",
+    "reelId": null,
+    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1785371474980-slide1.png",
+    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1785371474980-story.png",
+    "videoUrl": null,
+    "tipo": "carrossel",
+    "peso": 29,
+    "pilares": [
+      "bolsa"
+    ]
+  },
+  {
     "data": "2026-07-29T22:03:52.587Z",
     "titulo": "Juros longos dos EUA atingem máxima em 18 anos após Fed manter juros pela 5ª vez consecutiva",
     "categoria": "Mercados",
@@ -2987,20 +3005,5 @@
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782810096256.mp4",
     "tipo": "reel",
     "peso": 45
-  },
-  {
-    "data": "2026-06-30T00:32:13.796Z",
-    "titulo": "RCRB11 recebe exercício de preferência de inquilino na venda do Parque Cultural Paulista",
-    "categoria": "FIIs",
-    "fonte": "Suno",
-    "link": "https://www.suno.com.br/noticias/rcrb11-recebe-exercicio-de-preferencia-de-inquilino-na-venda-do-parque-cultural-paulista/",
-    "postId": "17896482528473011",
-    "storyId": null,
-    "reelId": null,
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1782779490318-slide1.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1782779490318-slide2.png",
-    "videoUrl": null,
-    "tipo": "carrossel",
-    "peso": 25
   }
 ]
