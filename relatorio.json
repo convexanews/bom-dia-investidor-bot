@@ -1,5 +1,23 @@
 [
   {
+    "data": "2026-07-30T18:32:01.540Z",
+    "titulo": "Anti-trade? América Latina ganha apelo como “opção” ao tema IA – e Brasil se destaca",
+    "categoria": "Mercados",
+    "fonte": "InfoMoney",
+    "link": "https://www.infomoney.com.br/mercados/anti-trade-america-latina-ganha-apelo-como-opcao-ao-tema-ia-e-brasil-se-destaca/",
+    "postId": "18170109853430879",
+    "storyId": "18374842543234165",
+    "reelId": null,
+    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1785436275101-feed.png",
+    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1785436275101-story.png",
+    "videoUrl": null,
+    "tipo": "card",
+    "peso": 29,
+    "pilares": [
+      "bolsa"
+    ]
+  },
+  {
     "data": "2026-07-30T16:02:58.704Z",
     "titulo": "Santander (SANB11): Analistas iniciam trabalho de ‘poda’ após pior resultado em 3 anos, mas JPMorgan cita 1 gatilho que poderia fazer ação disparar",
     "categoria": "Mercados",
@@ -3001,20 +3019,5 @@
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782846123688.mp4",
     "tipo": "reel",
     "peso": 48
-  },
-  {
-    "data": "2026-06-30T16:32:29.340Z",
-    "titulo": "Corretora comete gafe em e-mail, fica sem ações da SpaceX e pede desculpas",
-    "categoria": "Mercados",
-    "fonte": "InfoMoney",
-    "link": "https://www.infomoney.com.br/onde-investir/corretora-comete-gafe-em-e-mail-fica-sem-acoes-da-spacex-e-pede-desculpas/",
-    "postId": "18085847387630346",
-    "storyId": null,
-    "reelId": null,
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1782837102563-slide1.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1782837102563-slide2.png",
-    "videoUrl": null,
-    "tipo": "carrossel",
-    "peso": 29
   }
 ]
