@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-30T19:31:17.099Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 61 min."
+  },
+  {
     "data": "2026-07-30T19:12:18.267Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 80 min."
@@ -1118,14 +1123,5 @@
     "data": "2026-07-27T21:01:11.908Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 91 min."
-  },
-  {
-    "data": "2026-07-27T20:32:08.005Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (card): \"Wall Street tem tom misto com trégua entre EUA-Irã e liquidação das ações de chips\".",
-    "postId": "18088825496441528",
-    "storyId": "17889251340605732",
-    "reelId": null,
-    "tipo": "card"
   }
 ]
