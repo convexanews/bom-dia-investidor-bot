@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-30T06:31:01.942Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (03:31 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-07-30T06:00:58.875Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (03:00 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1134,10 +1139,5 @@
     "storyId": null,
     "reelId": "18375681046225294",
     "tipo": "reel"
-  },
-  {
-    "data": "2026-07-27T09:00:58.164Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 80): \"Dow Jones Futuro sobe e petróleo despenca com trégua no Irã; Fed e big techs no radar\". Realizando postagem..."
   }
 ]
