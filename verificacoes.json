@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-30T16:02:58.705Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (carrossel): \"Santander (SANB11): Analistas iniciam trabalho de ‘poda’ após pior resultado em 3 anos, mas JPMorgan cita 1 gatilho que poderia fazer ação disparar\".",
+    "postId": "18214527406338203",
+    "storyId": "18102252275624746",
+    "reelId": null,
+    "tipo": "carrossel"
+  },
+  {
+    "data": "2026-07-30T16:01:28.186Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 49): \"Santander (SANB11): Analistas iniciam trabalho de ‘poda’ após pior resultado em 3 anos, mas JPMorgan cita 1 gatilho que poderia fazer ação disparar\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-30T15:31:06.738Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
@@ -1113,15 +1127,5 @@
     "data": "2026-07-27T18:01:08.855Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
-  },
-  {
-    "data": "2026-07-27T17:30:57.599Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 32 min."
-  },
-  {
-    "data": "2026-07-27T17:01:39.677Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 62 min."
   }
 ]
