@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-30T13:32:40.057Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Ibovespa sobe com melhora do humor externo e à espera de Vale (VALE3); 5 coisas para saber antes de investir hoje (30)\".",
+    "postId": "18102778931601867",
+    "storyId": null,
+    "reelId": "18102778931601867",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-07-30T13:31:05.640Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 74): \"Ibovespa sobe com melhora do humor externo e à espera de Vale (VALE3); 5 coisas para saber antes de investir hoje (30)\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-30T13:01:14.559Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 1 min."
@@ -1113,23 +1127,5 @@
     "data": "2026-07-27T15:42:19.881Z",
     "resultado": "erro_carrossel_educativo",
     "mensagem": "Erro ao publicar carrossel educativo: Command failed: git push"
-  },
-  {
-    "data": "2026-07-27T15:30:58.458Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 5 min."
-  },
-  {
-    "data": "2026-07-27T15:02:07.304Z",
-    "resultado": "reel_postado",
-    "mensagem": "Resumo em vídeo do dia publicado com 4 notícia(s).",
-    "reelId": "17884034733458884",
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1785164465707.mp4",
-    "noticias": [
-      "Bradesco (BBDC3;BBDC4), IRB (IRBR3) e mais duas empresas pagam dividendos nesta semana; veja o calendário",
-      "“OnlyMarms”: marmotas estão no OnlyFans para arrecadar fundos para pesquisa",
-      "Baker Hughes declara dividendo trimestral de US$ 0,23 por ação",
-      "Ibovespa e dólar hoje: Oriente Médio, petróleo e Focus em foco pré-FOMC"
-    ]
   }
 ]

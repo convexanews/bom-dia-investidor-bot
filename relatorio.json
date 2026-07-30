@@ -1,5 +1,24 @@
 [
   {
+    "data": "2026-07-30T13:32:40.056Z",
+    "titulo": "Ibovespa sobe com melhora do humor externo e à espera de Vale (VALE3); 5 coisas para saber antes de investir hoje (30)",
+    "categoria": "Mercados",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/ibovespa-5-coisas-30-7-26-lils/",
+    "postId": "18102778931601867",
+    "storyId": null,
+    "reelId": "18102778931601867",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1785418274757.mp4",
+    "tipo": "reel",
+    "peso": 74,
+    "pilares": [
+      "macro",
+      "bolsa"
+    ]
+  },
+  {
     "data": "2026-07-30T11:02:13.602Z",
     "titulo": "Morgan vê alívio para ações do Brasil após Fed, mas aponta que “limbo” não acabou",
     "categoria": "Mercados",
@@ -2994,20 +3013,5 @@
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782828094528.mp4",
     "tipo": "reel",
     "peso": 95
-  },
-  {
-    "data": "2026-06-30T11:33:25.487Z",
-    "titulo": "Imposto de Renda: Receita paga maior lote de restituição da história nesta terça (30)",
-    "categoria": "Economia",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/imposto-de-renda-receita-paga-maior-lote-de-restituicao-da-historia-nesta-terca-30/",
-    "postId": "17969184701921054",
-    "storyId": null,
-    "reelId": "17969184701921054",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782819086345.mp4",
-    "tipo": "reel",
-    "peso": 43
   }
 ]
