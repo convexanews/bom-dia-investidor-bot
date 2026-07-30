@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-30T22:31:03.961Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 30 min."
+  },
+  {
     "data": "2026-07-30T22:08:34.572Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 52 min."
@@ -1106,10 +1111,5 @@
       "Wall Street tem tom misto com trégua entre EUA-Irã e liquidação das ações de chips",
       "Telefônica Brasil (VIVT3) tem lucro de R$ 1,6 bilhão no 2º tri"
     ]
-  },
-  {
-    "data": "2026-07-27T23:30:50.413Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
   }
 ]
