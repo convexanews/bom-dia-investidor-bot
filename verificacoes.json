@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-30T14:31:11.292Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 62 min."
+  },
+  {
     "data": "2026-07-30T14:01:03.328Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
@@ -1122,10 +1127,5 @@
     "storyId": null,
     "reelId": "18171234673442245",
     "tipo": "reel"
-  },
-  {
-    "data": "2026-07-27T16:01:09.617Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 71): \"Tesouro IPCA+ ainda é a melhor aposta da renda fixa? Especialista explica porque título continua pagando tão bem\". Realizando postagem..."
   }
 ]
