@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-30T11:31:01.605Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
+  },
+  {
     "data": "2026-07-30T11:02:13.603Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (card): \"Morgan vê alívio para ações do Brasil após Fed, mas aponta que “limbo” não acabou\".",
@@ -1130,10 +1135,5 @@
     "storyId": null,
     "reelId": "18126208615678696",
     "tipo": "reel"
-  },
-  {
-    "data": "2026-07-27T13:33:50.018Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 61): \"Ibovespa avança com alívio da guerra no Oriente Médio; 5 coisas para saber antes de investir hoje (27)\". Realizando postagem..."
   }
 ]
