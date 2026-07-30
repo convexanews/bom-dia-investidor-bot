@@ -1,5 +1,25 @@
 [
   {
+    "data": "2026-07-30T23:02:29.099Z",
+    "titulo": "Vale (VALE3) tem lucro 43% menor no 2T26 e revisa guidance de custos do minério",
+    "categoria": "Empresas",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/vale-vale3-tem-lucro-43-menor-no-2t26-e-revisa-guidance-de-custos-do-minerio-vtra/",
+    "postId": "18105573182128284",
+    "storyId": "18172067131440090",
+    "reelId": null,
+    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1785452485873-slide1.png",
+    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1785452485873-story.png",
+    "videoUrl": null,
+    "tipo": "carrossel",
+    "peso": 41,
+    "pilares": [
+      "macro",
+      "bolsa",
+      "exterior"
+    ]
+  },
+  {
     "data": "2026-07-30T21:00:07.701Z",
     "titulo": "Dólar cai quase 1% e fecha a R$ 5,06 com ajuste pós-Fed e possível intervenção do Japão",
     "categoria": "Mercados",
@@ -3008,20 +3028,5 @@
     "videoUrl": null,
     "tipo": "carrossel",
     "peso": 19
-  },
-  {
-    "data": "2026-06-30T21:33:36.657Z",
-    "titulo": "Ibovespa perde carona em recorde de Wall Street e recua com Petrobras (PETR4); dólar cai a R$ 5,16",
-    "categoria": "Mercados",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/ibovespa-30-6-26-apsa/",
-    "postId": "18422267926194982",
-    "storyId": null,
-    "reelId": "18422267926194982",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782855104013.mp4",
-    "tipo": "reel",
-    "peso": 86
   }
 ]

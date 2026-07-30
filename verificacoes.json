@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-30T23:02:29.100Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (carrossel): \"Vale (VALE3) tem lucro 43% menor no 2T26 e revisa guidance de custos do minério\".",
+    "postId": "18105573182128284",
+    "storyId": "18172067131440090",
+    "reelId": null,
+    "tipo": "carrossel"
+  },
+  {
+    "data": "2026-07-30T23:01:13.274Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 41): \"Vale (VALE3) tem lucro 43% menor no 2T26 e revisa guidance de custos do minério\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-30T22:31:03.961Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 30 min."
@@ -1094,22 +1108,5 @@
     "data": "2026-07-28T00:31:45.285Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 31 min."
-  },
-  {
-    "data": "2026-07-28T00:06:11.349Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 56 min."
-  },
-  {
-    "data": "2026-07-28T00:01:56.491Z",
-    "resultado": "reel_postado",
-    "mensagem": "Resumo em vídeo do dia publicado com 3 notícia(s).",
-    "reelId": "18613217062042756",
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1785196799589.mp4",
-    "noticias": [
-      "Por que JBS (JBSS32) e MBRF (MBRF3) disparam nesta segunda (27)?",
-      "Wall Street tem tom misto com trégua entre EUA-Irã e liquidação das ações de chips",
-      "Telefônica Brasil (VIVT3) tem lucro de R$ 1,6 bilhão no 2º tri"
-    ]
   }
 ]
