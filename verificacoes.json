@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-31T13:44:15.331Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 109 min."
+  },
+  {
     "data": "2026-07-31T13:32:41.750Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"Selic em 13,75%? Economia e inflação mais fracas abrem espaço para mais cortes de juros, segundo Itaú BBA\".",
@@ -1098,10 +1103,5 @@
       "Telefônica Brasil (VIVT3) tem lucro de R$ 1,6 bilhão no 2º tri",
       "Ações da Michelin recuam com alerta sobre custos ligados à guerra no Irã"
     ]
-  },
-  {
-    "data": "2026-07-28T15:01:08.704Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 91 min."
   }
 ]
