@@ -1,5 +1,24 @@
 [
   {
+    "data": "2026-07-31T13:32:41.749Z",
+    "titulo": "Selic em 13,75%? Economia e inflação mais fracas abrem espaço para mais cortes de juros, segundo Itaú BBA",
+    "categoria": "Economia",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/selic-em-1375-economia-e-inflacao-mais-fracas-abrem-espaco-para-mais-cortes-de-juros-segundo-itau-bba-jcav/",
+    "postId": "18098661851601330",
+    "storyId": null,
+    "reelId": "18098661851601330",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1785504663277.mp4",
+    "tipo": "reel",
+    "peso": 75,
+    "pilares": [
+      "macro",
+      "bolsa"
+    ]
+  },
+  {
     "data": "2026-07-31T11:02:41.983Z",
     "titulo": "Inflação na zona do euro acelera em julho e reforça argumentos para alta de juros",
     "categoria": "Economia",
@@ -3017,20 +3036,5 @@
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782905493452.mp4",
     "tipo": "reel",
     "peso": 45
-  },
-  {
-    "data": "2026-07-01T09:04:25.193Z",
-    "titulo": "Warsh, emprego nos EUA, pesquisa AtlasIntel e mais destaques desta quarta-feira",
-    "categoria": "Mercados",
-    "fonte": "InfoMoney",
-    "link": "https://www.infomoney.com.br/mercados/warsh-emprego-eua-pesquisa-eleitoral-01072026/",
-    "postId": "18206263099357069",
-    "storyId": null,
-    "reelId": "18206263099357069",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782896502608.mp4",
-    "tipo": "reel",
-    "peso": 93
   }
 ]
