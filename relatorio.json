@@ -1,5 +1,24 @@
 [
   {
+    "data": "2026-07-31T11:02:41.983Z",
+    "titulo": "Inflação na zona do euro acelera em julho e reforça argumentos para alta de juros",
+    "categoria": "Economia",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/inflacao-na-zona-do-euro-acelera-em-julho-e-reforca-argumentos-para-alta-de-juros/",
+    "postId": "18006877883953118",
+    "storyId": null,
+    "reelId": "18006877883953118",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1785495684156.mp4",
+    "tipo": "reel",
+    "peso": 69,
+    "pilares": [
+      "macro",
+      "bolsa"
+    ]
+  },
+  {
     "data": "2026-07-30T23:02:29.099Z",
     "titulo": "Vale (VALE3) tem lucro 43% menor no 2T26 e revisa guidance de custos do minério",
     "categoria": "Empresas",
@@ -3013,20 +3032,5 @@
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782896502608.mp4",
     "tipo": "reel",
     "peso": 93
-  },
-  {
-    "data": "2026-07-01T00:02:33.790Z",
-    "titulo": "Petrobras (PETR4) diz que preço do diesel vai se manter após reajuste e suspensão de desconto",
-    "categoria": "Economia",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/petrobras-petr4-diz-que-preco-do-diesel-vai-se-manter-apos-reajuste-e-suspensao-de-desconto/",
-    "postId": "18331230832253552",
-    "storyId": null,
-    "reelId": null,
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1782864109627-slide1.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1782864109627-slide2.png",
-    "videoUrl": null,
-    "tipo": "carrossel",
-    "peso": 19
   }
 ]
