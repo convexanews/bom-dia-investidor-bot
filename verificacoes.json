@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-31T22:01:23.004Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 33 min."
+  },
+  {
     "data": "2026-07-31T21:58:47.677Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 35 min."
@@ -1078,10 +1083,5 @@
     "noticias": [
       "Ações da Michelin recuam com alerta sobre custos ligados à guerra no Irã"
     ]
-  },
-  {
-    "data": "2026-07-28T23:52:56.248Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 24 min."
   }
 ]
