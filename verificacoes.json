@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-31T23:31:02.601Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
+  },
+  {
     "data": "2026-07-31T23:01:27.324Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
@@ -1069,14 +1074,5 @@
     "data": "2026-07-29T01:00:54.282Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (22:00 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-29T00:32:48.679Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (carrossel): \"SK Hynix registra lucro operacional recorde no 2º tri com demanda por memória de IA\".",
-    "postId": "17868428265586356",
-    "storyId": "18053069720790674",
-    "reelId": null,
-    "tipo": "carrossel"
   }
 ]
