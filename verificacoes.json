@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-31T22:31:07.770Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
+  },
+  {
     "data": "2026-07-31T22:01:23.004Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 33 min."
@@ -1073,15 +1078,5 @@
     "data": "2026-07-29T00:02:01.424Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 15 min."
-  },
-  {
-    "data": "2026-07-28T23:57:53.848Z",
-    "resultado": "reel_postado",
-    "mensagem": "Resumo em vídeo do dia publicado com 1 notícia(s).",
-    "reelId": "18104686411890098",
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1785282991216.mp4",
-    "noticias": [
-      "Ações da Michelin recuam com alerta sobre custos ligados à guerra no Irã"
-    ]
   }
 ]
