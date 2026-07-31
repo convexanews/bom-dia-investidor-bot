@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-31T14:01:16.229Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
+  },
+  {
     "data": "2026-07-31T13:44:15.331Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 109 min."
@@ -1090,18 +1095,5 @@
     "data": "2026-07-28T15:31:00.325Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 61 min."
-  },
-  {
-    "data": "2026-07-28T15:02:24.036Z",
-    "resultado": "reel_postado",
-    "mensagem": "Resumo em vídeo do dia publicado com 4 notícia(s).",
-    "reelId": "17870840439565632",
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/resumo-1785250880513.mp4",
-    "noticias": [
-      "Por que JBS (JBSS32) e MBRF (MBRF3) disparam nesta segunda (27)?",
-      "Wall Street tem tom misto com trégua entre EUA-Irã e liquidação das ações de chips",
-      "Telefônica Brasil (VIVT3) tem lucro de R$ 1,6 bilhão no 2º tri",
-      "Ações da Michelin recuam com alerta sobre custos ligados à guerra no Irã"
-    ]
   }
 ]
