@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-31T07:01:18.768Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (04:01 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-07-31T06:31:39.664Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (03:31 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1103,10 +1108,5 @@
     "data": "2026-07-28T09:01:11.067Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 33): \"Ações da Michelin recuam com alerta sobre custos ligados à guerra no Irã\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-28T08:31:02.860Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (05:31 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
