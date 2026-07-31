@@ -1,18 +1,18 @@
 [
   {
-    "postId": "18145048696542580",
-    "dataColeta": "2026-07-30T13:00:11.297Z",
-    "dataPostagem": "2026-07-30T11:02:13.602Z",
-    "tipo": "card",
+    "postId": "18006877883953118",
+    "dataColeta": "2026-07-31T13:11:13.944Z",
+    "dataPostagem": "2026-07-31T11:02:41.983Z",
+    "tipo": "reel",
     "pilares": [
       "macro",
       "bolsa"
     ],
-    "peso": 55,
-    "fonte": "InfoMoney",
-    "titulo": "Morgan vê alívio para ações do Brasil após Fed, mas aponta que “limbo” não acabou",
+    "peso": 69,
+    "fonte": "Money Times",
+    "titulo": "Inflação na zona do euro acelera em julho e reforça argumentos para alta de juros",
     "insights": {
-      "reach": 9,
+      "reach": 2,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -21,16 +21,79 @@
     }
   },
   {
-    "postId": "18159830848465167",
-    "dataColeta": "2026-07-30T13:00:12.481Z",
-    "dataPostagem": "2026-07-30T00:32:25.130Z",
+    "postId": "18105573182128284",
+    "dataColeta": "2026-07-31T13:11:14.997Z",
+    "dataPostagem": "2026-07-30T23:02:29.099Z",
     "tipo": "carrossel",
+    "pilares": [
+      "macro",
+      "bolsa",
+      "exterior"
+    ],
+    "peso": 41,
+    "fonte": "Money Times",
+    "titulo": "Vale (VALE3) tem lucro 43% menor no 2T26 e revisa guidance de custos do minério",
+    "insights": {
+      "reach": 5,
+      "saved": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "total_interactions": 0
+    }
+  },
+  {
+    "postId": "18075371699390148",
+    "dataColeta": "2026-07-31T13:11:15.809Z",
+    "dataPostagem": "2026-07-30T21:00:07.701Z",
+    "tipo": "reel",
+    "pilares": [
+      "macro",
+      "bolsa"
+    ],
+    "peso": 71,
+    "fonte": "Money Times",
+    "titulo": "Dólar cai quase 1% e fecha a R$ 5,06 com ajuste pós-Fed e possível intervenção do Japão",
+    "insights": {
+      "reach": 99,
+      "saved": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "total_interactions": 0
+    }
+  },
+  {
+    "postId": "18170109853430879",
+    "dataColeta": "2026-07-31T13:11:16.863Z",
+    "dataPostagem": "2026-07-30T18:32:01.540Z",
+    "tipo": "card",
     "pilares": [
       "bolsa"
     ],
     "peso": 29,
     "fonte": "InfoMoney",
-    "titulo": "Controladores do Bradesco vão subscrever até R$8 bi de aumento de capital",
+    "titulo": "Anti-trade? América Latina ganha apelo como “opção” ao tema IA – e Brasil se destaca",
+    "insights": {
+      "reach": 10,
+      "saved": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "total_interactions": 0
+    }
+  },
+  {
+    "postId": "18214527406338203",
+    "dataColeta": "2026-07-31T13:11:17.803Z",
+    "dataPostagem": "2026-07-30T16:02:58.704Z",
+    "tipo": "carrossel",
+    "pilares": [
+      "bolsa"
+    ],
+    "peso": 49,
+    "fonte": "Money Times",
+    "titulo": "Santander (SANB11): Analistas iniciam trabalho de ‘poda’ após pior resultado em 3 anos, mas JPMorgan cita 1 gatilho que poderia fazer ação disparar",
     "insights": {
       "reach": 8,
       "saved": 0,
@@ -41,8 +104,70 @@
     }
   },
   {
+    "postId": "18102778931601867",
+    "dataColeta": "2026-07-31T13:11:18.656Z",
+    "dataPostagem": "2026-07-30T13:32:40.056Z",
+    "tipo": "reel",
+    "pilares": [
+      "macro",
+      "bolsa"
+    ],
+    "peso": 74,
+    "fonte": "Money Times",
+    "titulo": "Ibovespa sobe com melhora do humor externo e à espera de Vale (VALE3); 5 coisas para saber antes de investir hoje (30)",
+    "insights": {
+      "reach": 15,
+      "saved": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "total_interactions": 0
+    }
+  },
+  {
+    "postId": "18145048696542580",
+    "dataColeta": "2026-07-31T13:11:19.811Z",
+    "dataPostagem": "2026-07-30T11:02:13.602Z",
+    "tipo": "card",
+    "pilares": [
+      "macro",
+      "bolsa"
+    ],
+    "peso": 55,
+    "fonte": "InfoMoney",
+    "titulo": "Morgan vê alívio para ações do Brasil após Fed, mas aponta que “limbo” não acabou",
+    "insights": {
+      "reach": 15,
+      "saved": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "total_interactions": 0
+    }
+  },
+  {
+    "postId": "18159830848465167",
+    "dataColeta": "2026-07-31T13:11:20.812Z",
+    "dataPostagem": "2026-07-30T00:32:25.130Z",
+    "tipo": "carrossel",
+    "pilares": [
+      "bolsa"
+    ],
+    "peso": 29,
+    "fonte": "InfoMoney",
+    "titulo": "Controladores do Bradesco vão subscrever até R$8 bi de aumento de capital",
+    "insights": {
+      "reach": 13,
+      "saved": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "total_interactions": 0
+    }
+  },
+  {
     "postId": "17947605954039630",
-    "dataColeta": "2026-07-30T13:00:13.402Z",
+    "dataColeta": "2026-07-31T13:11:22.429Z",
     "dataPostagem": "2026-07-29T22:03:52.587Z",
     "tipo": "reel",
     "pilares": [
@@ -53,7 +178,7 @@
     "fonte": "Money Times",
     "titulo": "Juros longos dos EUA atingem máxima em 18 anos após Fed manter juros pela 5ª vez consecutiva",
     "insights": {
-      "reach": 4,
+      "reach": 5,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -63,7 +188,7 @@
   },
   {
     "postId": "17934057156347177",
-    "dataColeta": "2026-07-30T13:00:14.556Z",
+    "dataColeta": "2026-07-31T13:11:23.520Z",
     "dataPostagem": "2026-07-29T15:47:18.363Z",
     "tipo": "reel",
     "pilares": [],
@@ -81,7 +206,7 @@
   },
   {
     "postId": "17927163045145592",
-    "dataColeta": "2026-07-30T13:00:15.593Z",
+    "dataColeta": "2026-07-31T13:11:24.400Z",
     "dataPostagem": "2026-07-29T13:33:28.310Z",
     "tipo": "reel",
     "pilares": [],
@@ -89,7 +214,7 @@
     "fonte": "Money Times",
     "titulo": "Ao contrário do mercado, Citi não vê corte de juros pelo Copom na próxima reunião; entenda os motivos",
     "insights": {
-      "reach": 6,
+      "reach": 7,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -99,7 +224,7 @@
   },
   {
     "postId": "18094256657133150",
-    "dataColeta": "2026-07-30T13:00:16.820Z",
+    "dataColeta": "2026-07-31T13:11:25.385Z",
     "dataPostagem": "2026-07-29T11:17:45.605Z",
     "tipo": "reel",
     "pilares": [],
@@ -117,7 +242,7 @@
   },
   {
     "postId": "17903512905469290",
-    "dataColeta": "2026-07-30T13:00:17.839Z",
+    "dataColeta": "2026-07-31T13:11:26.964Z",
     "dataPostagem": "2026-07-29T09:02:03.808Z",
     "tipo": "card",
     "pilares": [],
@@ -125,7 +250,7 @@
     "fonte": "InfoMoney",
     "titulo": "Dólar pode ficar mais forte amanhã? O que esperar do mercado após o FOMC",
     "insights": {
-      "reach": 12,
+      "reach": 14,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -135,7 +260,7 @@
   },
   {
     "postId": "17868428265586356",
-    "dataColeta": "2026-07-30T13:00:18.992Z",
+    "dataColeta": "2026-07-31T13:11:27.801Z",
     "dataPostagem": "2026-07-29T00:32:48.678Z",
     "tipo": "carrossel",
     "pilares": [],
@@ -153,7 +278,7 @@
   },
   {
     "postId": "18021417785856317",
-    "dataColeta": "2026-07-30T13:00:20.148Z",
+    "dataColeta": "2026-07-31T13:11:29.068Z",
     "dataPostagem": "2026-07-28T22:16:18.790Z",
     "tipo": "reel",
     "pilares": [],
@@ -171,7 +296,7 @@
   },
   {
     "postId": "18077053205695006",
-    "dataColeta": "2026-07-30T13:00:21.260Z",
+    "dataColeta": "2026-07-31T13:11:29.920Z",
     "dataPostagem": "2026-07-28T19:12:41.091Z",
     "tipo": "reel",
     "pilares": [],
@@ -189,13 +314,49 @@
   },
   {
     "postId": "18132845452590665",
-    "dataColeta": "2026-07-30T13:00:22.386Z",
+    "dataColeta": "2026-07-31T13:11:30.943Z",
     "dataPostagem": "2026-07-28T17:03:01.613Z",
     "tipo": "reel",
     "pilares": [],
     "peso": 70,
     "fonte": "Money Times",
     "titulo": "Inflação surpreende e reforça aposta em corte da Selic; veja o que esperar do Copom, segundo a Lifetime",
+    "insights": {
+      "reach": 27,
+      "saved": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "total_interactions": 0
+    }
+  },
+  {
+    "postId": "17918432937203461",
+    "dataColeta": "2026-07-31T13:11:32.162Z",
+    "dataPostagem": "2026-07-28T14:31:35.875Z",
+    "tipo": "reel",
+    "pilares": [],
+    "peso": 85,
+    "fonte": "Money Times",
+    "titulo": "Wall Street opera sem direção única com ‘sell-off’ de semicondutores e à espera de Fed",
+    "insights": {
+      "reach": 39,
+      "saved": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "total_interactions": 0
+    }
+  },
+  {
+    "postId": "18606673015055987",
+    "dataColeta": "2026-07-31T13:11:33.014Z",
+    "dataPostagem": "2026-07-28T11:32:21.483Z",
+    "tipo": "reel",
+    "pilares": [],
+    "peso": 55,
+    "fonte": "InfoMoney",
+    "titulo": "Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta terça",
     "insights": {
       "reach": 25,
       "saved": 0,
@@ -206,50 +367,32 @@
     }
   },
   {
-    "postId": "17918432937203461",
-    "dataColeta": "2026-07-30T13:00:23.399Z",
-    "dataPostagem": "2026-07-28T14:31:35.875Z",
-    "tipo": "reel",
-    "pilares": [],
-    "peso": 85,
-    "fonte": "Money Times",
-    "titulo": "Wall Street opera sem direção única com ‘sell-off’ de semicondutores e à espera de Fed",
-    "insights": {
-      "reach": 38,
-      "saved": 0,
-      "shares": 0,
-      "comments": 0,
-      "likes": 0,
-      "total_interactions": 0
-    }
-  },
-  {
-    "postId": "18606673015055987",
-    "dataColeta": "2026-07-30T13:00:24.592Z",
-    "dataPostagem": "2026-07-28T11:32:21.483Z",
-    "tipo": "reel",
-    "pilares": [],
-    "peso": 55,
-    "fonte": "InfoMoney",
-    "titulo": "Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta terça",
-    "insights": {
-      "reach": 24,
-      "saved": 0,
-      "shares": 0,
-      "comments": 0,
-      "likes": 0,
-      "total_interactions": 0
-    }
-  },
-  {
     "postId": "18206154397359918",
-    "dataColeta": "2026-07-30T13:00:25.772Z",
+    "dataColeta": "2026-07-31T13:11:34.465Z",
     "dataPostagem": "2026-07-28T09:02:05.584Z",
     "tipo": "card",
     "pilares": [],
     "peso": 33,
     "fonte": "Investing.com",
     "titulo": "Ações da Michelin recuam com alerta sobre custos ligados à guerra no Irã",
+    "insights": {
+      "reach": 10,
+      "saved": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "total_interactions": 0
+    }
+  },
+  {
+    "postId": "18122093617795478",
+    "dataColeta": "2026-07-31T13:11:35.594Z",
+    "dataPostagem": "2026-07-27T23:01:53.788Z",
+    "tipo": "carrossel",
+    "pilares": [],
+    "peso": 28,
+    "fonte": "Money Times",
+    "titulo": "Telefônica Brasil (VIVT3) tem lucro de R$ 1,6 bilhão no 2º tri",
     "insights": {
       "reach": 9,
       "saved": 0,
@@ -260,26 +403,8 @@
     }
   },
   {
-    "postId": "18122093617795478",
-    "dataColeta": "2026-07-30T13:00:27.015Z",
-    "dataPostagem": "2026-07-27T23:01:53.788Z",
-    "tipo": "carrossel",
-    "pilares": [],
-    "peso": 28,
-    "fonte": "Money Times",
-    "titulo": "Telefônica Brasil (VIVT3) tem lucro de R$ 1,6 bilhão no 2º tri",
-    "insights": {
-      "reach": 8,
-      "saved": 0,
-      "shares": 0,
-      "comments": 0,
-      "likes": 0,
-      "total_interactions": 0
-    }
-  },
-  {
     "postId": "18088825496441528",
-    "dataColeta": "2026-07-30T13:00:28.131Z",
+    "dataColeta": "2026-07-31T13:11:36.524Z",
     "dataPostagem": "2026-07-27T20:32:08.003Z",
     "tipo": "card",
     "pilares": [],
@@ -297,7 +422,7 @@
   },
   {
     "postId": "18102327206010836",
-    "dataColeta": "2026-07-30T13:00:29.501Z",
+    "dataColeta": "2026-07-31T13:11:37.610Z",
     "dataPostagem": "2026-07-27T18:20:16.109Z",
     "tipo": "carrossel",
     "pilares": [],
@@ -315,7 +440,7 @@
   },
   {
     "postId": "18171234673442245",
-    "dataColeta": "2026-07-30T13:00:30.700Z",
+    "dataColeta": "2026-07-31T13:11:38.699Z",
     "dataPostagem": "2026-07-27T16:02:52.009Z",
     "tipo": "reel",
     "pilares": [],
@@ -333,7 +458,7 @@
   },
   {
     "postId": "18126208615678696",
-    "dataColeta": "2026-07-30T13:00:31.993Z",
+    "dataColeta": "2026-07-31T13:11:40.096Z",
     "dataPostagem": "2026-07-27T13:35:13.375Z",
     "tipo": "reel",
     "pilares": [],
@@ -342,114 +467,6 @@
     "titulo": "Ibovespa avança com alívio da guerra no Oriente Médio; 5 coisas para saber antes de investir hoje (27)",
     "insights": {
       "reach": 32,
-      "saved": 0,
-      "shares": 0,
-      "comments": 0,
-      "likes": 0,
-      "total_interactions": 0
-    }
-  },
-  {
-    "postId": "18091823795435777",
-    "dataColeta": "2026-07-30T13:00:33.267Z",
-    "dataPostagem": "2026-07-27T11:32:59.866Z",
-    "tipo": "reel",
-    "pilares": [],
-    "peso": 79,
-    "fonte": "Money Times",
-    "titulo": "Fabricante de chips dispara 466% após IPO e se torna a empresa mais valiosa da bolsa da China",
-    "insights": {
-      "reach": 131,
-      "saved": 0,
-      "shares": 0,
-      "comments": 0,
-      "likes": 1,
-      "total_interactions": 1
-    }
-  },
-  {
-    "postId": "18375681046225294",
-    "dataColeta": "2026-07-30T13:00:34.377Z",
-    "dataPostagem": "2026-07-27T09:02:19.521Z",
-    "tipo": "reel",
-    "pilares": [],
-    "peso": 80,
-    "fonte": "InfoMoney",
-    "titulo": "Dow Jones Futuro sobe e petróleo despenca com trégua no Irã; Fed e big techs no radar",
-    "insights": {
-      "reach": 98,
-      "saved": 0,
-      "shares": 0,
-      "comments": 0,
-      "likes": 0,
-      "total_interactions": 0
-    }
-  },
-  {
-    "postId": "18050131250792548",
-    "dataColeta": "2026-07-30T13:00:35.486Z",
-    "dataPostagem": "2026-07-26T23:31:57.625Z",
-    "tipo": "card",
-    "pilares": [],
-    "peso": 26,
-    "fonte": "Investing.com",
-    "titulo": "Ibovespa e dólar hoje: Oriente Médio, petróleo e Focus em foco pré-FOMC",
-    "insights": {
-      "reach": 8,
-      "saved": 0,
-      "shares": 0,
-      "comments": 0,
-      "likes": 0,
-      "total_interactions": 0
-    }
-  },
-  {
-    "postId": "18013163747923358",
-    "dataColeta": "2026-07-30T13:00:36.900Z",
-    "dataPostagem": "2026-07-26T21:02:20.876Z",
-    "tipo": "carrossel",
-    "pilares": [],
-    "peso": 6,
-    "fonte": "Investing.com",
-    "titulo": "Baker Hughes declara dividendo trimestral de US$ 0,23 por ação",
-    "insights": {
-      "reach": 11,
-      "saved": 0,
-      "shares": 0,
-      "comments": 0,
-      "likes": 0,
-      "total_interactions": 0
-    }
-  },
-  {
-    "postId": "18168749197443352",
-    "dataColeta": "2026-07-30T13:00:38.221Z",
-    "dataPostagem": "2026-07-26T19:00:03.511Z",
-    "tipo": "card",
-    "pilares": [],
-    "peso": 6,
-    "fonte": "InfoMoney",
-    "titulo": "“OnlyMarms”: marmotas estão no OnlyFans para arrecadar fundos para pesquisa",
-    "insights": {
-      "reach": 25,
-      "saved": 0,
-      "shares": 0,
-      "comments": 0,
-      "likes": 0,
-      "total_interactions": 0
-    }
-  },
-  {
-    "postId": "18093203867636155",
-    "dataColeta": "2026-07-30T13:00:39.273Z",
-    "dataPostagem": "2026-07-26T16:32:28.912Z",
-    "tipo": "carrossel",
-    "pilares": [],
-    "peso": 40,
-    "fonte": "Money Times",
-    "titulo": "Bradesco (BBDC3;BBDC4), IRB (IRBR3) e mais duas empresas pagam dividendos nesta semana; veja o calendário",
-    "insights": {
-      "reach": 9,
       "saved": 0,
       "shares": 0,
       "comments": 0,

@@ -1,9 +1,9 @@
 {
-  "atualizadoEm": "2026-07-30T13:00:39.273Z",
+  "atualizadoEm": "2026-07-31T13:11:40.096Z",
   "porFormato": {
-    "card": {
-      "posts": 6,
-      "alcanceMedio": 12,
+    "reel": {
+      "posts": 14,
+      "alcanceMedio": 23,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null
@@ -15,9 +15,9 @@
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null
     },
-    "reel": {
-      "posts": 13,
-      "alcanceMedio": 33,
+    "card": {
+      "posts": 5,
+      "alcanceMedio": 12,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null
