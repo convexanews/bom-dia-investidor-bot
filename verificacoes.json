@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-07-31T20:33:35.931Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Wall Street fecha em alta com tecnologia, mas Nasdaq derrete 3% e tem 2º mês de perdas\".",
+    "postId": "17960016981156008",
+    "storyId": null,
+    "reelId": "17960016981156008",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-07-31T20:32:00.053Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 83): \"Wall Street fecha em alta com tecnologia, mas Nasdaq derrete 3% e tem 2º mês de perdas\". Realizando postagem..."
+  },
+  {
     "data": "2026-07-31T20:00:59.045Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
@@ -1073,27 +1087,5 @@
     "storyId": null,
     "reelId": "18021417785856317",
     "tipo": "reel"
-  },
-  {
-    "data": "2026-07-28T22:14:29.574Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 69): \"Ibovespa sobe com IPCA-15 mais fraco; Petrobras (PETR4) dribla queda do petróleo\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-28T21:54:04.389Z",
-    "resultado": "carrossel_fechamento",
-    "mensagem": "Carrossel de fechamento publicado. Ibovespa: 176.565 +1,45%",
-    "postId": "17885972895607877",
-    "ibov": {
-      "valor": "176.565",
-      "variacao": "+1,45%"
-    },
-    "topAltas": [
-      "HAPV3 +4,02%",
-      "RAIZ4 +3,85%",
-      "SUZB3 +2,94%",
-      "GGBR4 +2,70%",
-      "RDOR3 +2,14%"
-    ]
   }
 ]

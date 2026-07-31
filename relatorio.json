@@ -1,5 +1,24 @@
 [
   {
+    "data": "2026-07-31T20:33:35.929Z",
+    "titulo": "Wall Street fecha em alta com tecnologia, mas Nasdaq derrete 3% e tem 2º mês de perdas",
+    "categoria": "Mercados",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/wall-street-31-7-26-apsa/",
+    "postId": "17960016981156008",
+    "storyId": null,
+    "reelId": "17960016981156008",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1785529928317.mp4",
+    "tipo": "reel",
+    "peso": 83,
+    "pilares": [
+      "bolsa",
+      "exterior"
+    ]
+  },
+  {
     "data": "2026-07-31T18:02:31.541Z",
     "titulo": "Cenário externo é o gatilho para a “bomba” fiscal do Brasil, alerta Armor Capital",
     "categoria": "Economia",
@@ -3029,20 +3048,5 @@
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782932518992.mp4",
     "tipo": "reel",
     "peso": 75
-  },
-  {
-    "data": "2026-07-01T16:33:34.649Z",
-    "titulo": "Dólar hoje sobe quase 1% e volta a superar R$ 5,20",
-    "categoria": "Mercados",
-    "fonte": "InfoMoney",
-    "link": "https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-01072026/",
-    "postId": "18455803525112632",
-    "storyId": null,
-    "reelId": "18455803525112632",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782923519731.mp4",
-    "tipo": "reel",
-    "peso": 42
   }
 ]
