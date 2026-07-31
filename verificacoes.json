@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-31T11:31:03.951Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
+  },
+  {
     "data": "2026-07-31T11:22:52.043Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 100 min."
@@ -1099,10 +1104,5 @@
     "resultado": "story_glossario",
     "mensagem": "Story do glossário publicado: \"Tesouro Direto\"",
     "postId": "18094364900347188"
-  },
-  {
-    "data": "2026-07-28T12:31:12.005Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 62 min."
   }
 ]
