@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-31T10:01:10.638Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (07:01 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-07-31T09:31:57.990Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (06:31 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1099,10 +1104,5 @@
     "data": "2026-07-28T11:31:00.569Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 55): \"Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta terça\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-28T11:01:15.689Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 1 min."
   }
 ]
