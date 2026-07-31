@@ -1,5 +1,24 @@
 [
   {
+    "data": "2026-07-31T15:58:00.435Z",
+    "titulo": "Com mais de duas horas de “atraso”, Ibovespa abre em alta com exterior e Vale",
+    "categoria": "Mercados",
+    "fonte": "InfoMoney",
+    "link": "https://www.infomoney.com.br/mercados/abertura-futuro-ibovespa-b3-310072026-atraso-bolsa/",
+    "postId": "17879264628618112",
+    "storyId": null,
+    "reelId": "17879264628618112",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1785513390283.mp4",
+    "tipo": "reel",
+    "peso": 62,
+    "pilares": [
+      "macro",
+      "bolsa"
+    ]
+  },
+  {
     "data": "2026-07-31T13:32:41.749Z",
     "titulo": "Selic em 13,75%? Economia e inflação mais fracas abrem espaço para mais cortes de juros, segundo Itaú BBA",
     "categoria": "Economia",
@@ -3021,20 +3040,5 @@
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782914522822.mp4",
     "tipo": "reel",
     "peso": 54
-  },
-  {
-    "data": "2026-07-01T11:33:26.153Z",
-    "titulo": "Inflação da zona do euro desacelera mais do que o esperado e reduz pressão sobre o BCE",
-    "categoria": "Economia",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/inflacao-na-zona-do-euro-cai-mais-do-que-o-esperado-e-reforca-argumentos-do-bce-a-favor-de-paciencia/",
-    "postId": "18114681917501476",
-    "storyId": null,
-    "reelId": "18114681917501476",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782905493452.mp4",
-    "tipo": "reel",
-    "peso": 45
   }
 ]
