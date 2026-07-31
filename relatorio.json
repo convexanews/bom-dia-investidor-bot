@@ -1,5 +1,24 @@
 [
   {
+    "data": "2026-07-31T18:02:31.541Z",
+    "titulo": "Cenário externo é o gatilho para a “bomba” fiscal do Brasil, alerta Armor Capital",
+    "categoria": "Economia",
+    "fonte": "InfoMoney",
+    "link": "https://www.infomoney.com.br/economia/risco-fiscal-cenario-externo-armor-capital/",
+    "postId": "18060906626587878",
+    "storyId": "18156113386495953",
+    "reelId": null,
+    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1785520874664-slide1.png",
+    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1785520874664-story.png",
+    "videoUrl": null,
+    "tipo": "carrossel",
+    "peso": 56,
+    "pilares": [
+      "macro",
+      "bolsa"
+    ]
+  },
+  {
     "data": "2026-07-31T15:58:00.435Z",
     "titulo": "Com mais de duas horas de “atraso”, Ibovespa abre em alta com exterior e Vale",
     "categoria": "Mercados",
@@ -3025,20 +3044,5 @@
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782923519731.mp4",
     "tipo": "reel",
     "peso": 42
-  },
-  {
-    "data": "2026-07-01T14:04:55.528Z",
-    "titulo": "Ibovespa cai 1% com exterior e baixa do petróleo; 5 coisas para saber antes de investir hoje (1º)",
-    "categoria": "Mercados",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/ibovespa-5-coisas-1-7-26-apsa/",
-    "postId": "18116223529676323",
-    "storyId": null,
-    "reelId": "18116223529676323",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782914522822.mp4",
-    "tipo": "reel",
-    "peso": 54
   }
 ]
