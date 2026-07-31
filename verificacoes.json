@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-31T08:01:31.700Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (05:01 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-07-31T07:31:15.683Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (04:31 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1099,14 +1104,5 @@
     "data": "2026-07-28T09:31:01.180Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
-  },
-  {
-    "data": "2026-07-28T09:02:05.586Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (card): \"Ações da Michelin recuam com alerta sobre custos ligados à guerra no Irã\".",
-    "postId": "18206154397359918",
-    "storyId": "18123927286787800",
-    "reelId": null,
-    "tipo": "card"
   }
 ]
