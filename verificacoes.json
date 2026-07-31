@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-31T20:00:59.045Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
+  },
+  {
     "data": "2026-07-31T19:30:59.066Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 32 min."
@@ -1090,10 +1095,5 @@
       "GGBR4 +2,70%",
       "RDOR3 +2,14%"
     ]
-  },
-  {
-    "data": "2026-07-28T21:01:22.534Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 12 min."
   }
 ]
