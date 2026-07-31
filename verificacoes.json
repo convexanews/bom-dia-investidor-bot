@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-07-31T23:00:30.287Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
+  },
+  {
     "data": "2026-07-31T22:31:07.770Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
@@ -1073,10 +1078,5 @@
     "data": "2026-07-29T00:31:20.505Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 28): \"SK Hynix registra lucro operacional recorde no 2º tri com demanda por memória de IA\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-29T00:02:01.424Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 15 min."
   }
 ]
