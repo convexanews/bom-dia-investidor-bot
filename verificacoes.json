@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-01T14:31:07.061Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 62 min."
+  },
+  {
     "data": "2026-08-01T14:01:09.025Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
@@ -1063,10 +1068,5 @@
     "data": "2026-07-29T15:45:42.799Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 68): \"Bradesco BBI elege Cogna (COGN3) como top pick e vê potencial de 82%, mas rebaixa educacional que acendeu alerta no mercado\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-29T15:31:21.802Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
   }
 ]
