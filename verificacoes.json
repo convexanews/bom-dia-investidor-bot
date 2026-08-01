@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-08-01T13:32:16.097Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (carrossel): \"Bitcoin ronda US$ 63 mil após semana de Fed, guerra e balanços de big techs; veja cotações das criptomoedas hoje (1)\".",
+    "postId": "18104581979149223",
+    "storyId": "18607519270017662",
+    "reelId": null,
+    "tipo": "carrossel"
+  },
+  {
+    "data": "2026-08-01T13:31:00.491Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 49): \"Bitcoin ronda US$ 63 mil após semana de Fed, guerra e balanços de big techs; veja cotações das criptomoedas hoje (1)\". Realizando postagem..."
+  },
+  {
     "data": "2026-08-01T13:01:06.364Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
@@ -1060,15 +1074,5 @@
       "SK Hynix registra lucro operacional recorde no 2º tri com demanda por memória de IA",
       "Dólar pode ficar mais forte amanhã? O que esperar do mercado após o FOMC"
     ]
-  },
-  {
-    "data": "2026-07-29T15:01:14.245Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 33 min."
-  },
-  {
-    "data": "2026-07-29T14:31:23.158Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 63 min."
   }
 ]
