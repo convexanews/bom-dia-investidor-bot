@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-01T16:01:34.795Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 115 min."
+  },
+  {
     "data": "2026-08-01T15:56:21.424Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"Tesouro Direto bate recorde em junho com impulso do Tesouro IPCA+\".",
@@ -1063,10 +1068,5 @@
     "data": "2026-07-29T18:01:22.941Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 106 min."
-  },
-  {
-    "data": "2026-07-29T17:31:10.543Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 137 min."
   }
 ]
