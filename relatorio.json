@@ -1,5 +1,23 @@
 [
   {
+    "data": "2026-08-01T01:02:37.852Z",
+    "titulo": "Controladores da Natura pedem dispensa de OPA em acordo de investimento com Advent",
+    "categoria": "Business",
+    "fonte": "InfoMoney",
+    "link": "https://www.infomoney.com.br/business/controladores-da-natura-pedem-dispensa-de-opa-em-acordo-de-investimento-com-advent/",
+    "postId": "17964003468136393",
+    "storyId": "18105085105883989",
+    "reelId": null,
+    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1785546088164-slide1.png",
+    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1785546088164-story.png",
+    "videoUrl": null,
+    "tipo": "carrossel",
+    "peso": 36,
+    "pilares": [
+      "bolsa"
+    ]
+  },
+  {
     "data": "2026-07-31T20:33:35.929Z",
     "titulo": "Wall Street fecha em alta com tecnologia, mas Nasdaq derrete 3% e tem 2º mês de perdas",
     "categoria": "Mercados",
@@ -3033,20 +3051,5 @@
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782940120794.mp4",
     "tipo": "reel",
     "peso": 109
-  },
-  {
-    "data": "2026-07-01T19:03:43.387Z",
-    "titulo": "Ibovespa Hoje Ao Vivo: Bolsa tem leve queda, com PETR4; VALE3 sobe",
-    "categoria": "Mercados",
-    "fonte": "InfoMoney",
-    "link": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-01072026/",
-    "postId": "18005241521950183",
-    "storyId": null,
-    "reelId": "18005241521950183",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782932518992.mp4",
-    "tipo": "reel",
-    "peso": 75
   }
 ]
