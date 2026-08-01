@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-01T10:30:58.642Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (07:30 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-08-01T10:00:58.947Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (07:00 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1065,14 +1070,5 @@
     "data": "2026-07-29T11:31:29.898Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 107 min."
-  },
-  {
-    "data": "2026-07-29T11:17:45.607Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"Bolsas da Ásia fecham mistas; coreano Kospi tomba de novo com queda da SK Hynix\".",
-    "postId": "18094256657133150",
-    "storyId": null,
-    "reelId": "18094256657133150",
-    "tipo": "reel"
   }
 ]
