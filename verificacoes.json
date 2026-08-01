@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-01T07:24:16.138Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (04:24 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-08-01T07:01:04.678Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (04:01 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1073,10 +1078,5 @@
     "data": "2026-07-29T09:01:11.277Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 52): \"Dólar pode ficar mais forte amanhã? O que esperar do mercado após o FOMC\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-29T08:31:08.632Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (05:31 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
