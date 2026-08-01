@@ -1,7 +1,132 @@
 [
   {
+    "postId": "18097373096004665",
+    "dataColeta": "2026-08-01T12:31:34.893Z",
+    "dataPostagem": "2026-08-01T11:02:47.067Z",
+    "tipo": "reel",
+    "pilares": [
+      "macro",
+      "bolsa"
+    ],
+    "peso": 61,
+    "fonte": "Money Times",
+    "titulo": "De Banco do Brasil (BBAS3) a Suzano (SUZB3): Os papéis que estão baratos na bolsa, na visão do ‘Buffett de Londrina’",
+    "insights": {
+      "reach": 85,
+      "saved": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 1,
+      "total_interactions": 1
+    }
+  },
+  {
+    "postId": "17964003468136393",
+    "dataColeta": "2026-08-01T12:31:35.712Z",
+    "dataPostagem": "2026-08-01T01:02:37.852Z",
+    "tipo": "carrossel",
+    "pilares": [
+      "bolsa"
+    ],
+    "peso": 36,
+    "fonte": "InfoMoney",
+    "titulo": "Controladores da Natura pedem dispensa de OPA em acordo de investimento com Advent",
+    "insights": {
+      "reach": 9,
+      "saved": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "total_interactions": 0
+    }
+  },
+  {
+    "postId": "17960016981156008",
+    "dataColeta": "2026-08-01T12:31:36.476Z",
+    "dataPostagem": "2026-07-31T20:33:35.929Z",
+    "tipo": "reel",
+    "pilares": [
+      "bolsa",
+      "exterior"
+    ],
+    "peso": 83,
+    "fonte": "Money Times",
+    "titulo": "Wall Street fecha em alta com tecnologia, mas Nasdaq derrete 3% e tem 2º mês de perdas",
+    "insights": {
+      "reach": 32,
+      "saved": 1,
+      "shares": 0,
+      "comments": 0,
+      "likes": 1,
+      "total_interactions": 2
+    }
+  },
+  {
+    "postId": "18060906626587878",
+    "dataColeta": "2026-08-01T12:31:37.296Z",
+    "dataPostagem": "2026-07-31T18:02:31.541Z",
+    "tipo": "carrossel",
+    "pilares": [
+      "macro",
+      "bolsa"
+    ],
+    "peso": 56,
+    "fonte": "InfoMoney",
+    "titulo": "Cenário externo é o gatilho para a “bomba” fiscal do Brasil, alerta Armor Capital",
+    "insights": {
+      "reach": 11,
+      "saved": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "total_interactions": 0
+    }
+  },
+  {
+    "postId": "17879264628618112",
+    "dataColeta": "2026-08-01T12:31:38.098Z",
+    "dataPostagem": "2026-07-31T15:58:00.435Z",
+    "tipo": "reel",
+    "pilares": [
+      "macro",
+      "bolsa"
+    ],
+    "peso": 62,
+    "fonte": "InfoMoney",
+    "titulo": "Com mais de duas horas de “atraso”, Ibovespa abre em alta com exterior e Vale",
+    "insights": {
+      "reach": 99,
+      "saved": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 1,
+      "total_interactions": 1
+    }
+  },
+  {
+    "postId": "18098661851601330",
+    "dataColeta": "2026-08-01T12:31:38.817Z",
+    "dataPostagem": "2026-07-31T13:32:41.749Z",
+    "tipo": "reel",
+    "pilares": [
+      "macro",
+      "bolsa"
+    ],
+    "peso": 75,
+    "fonte": "Money Times",
+    "titulo": "Selic em 13,75%? Economia e inflação mais fracas abrem espaço para mais cortes de juros, segundo Itaú BBA",
+    "insights": {
+      "reach": 119,
+      "saved": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "total_interactions": 0
+    }
+  },
+  {
     "postId": "18006877883953118",
-    "dataColeta": "2026-07-31T13:11:13.944Z",
+    "dataColeta": "2026-08-01T12:31:39.507Z",
     "dataPostagem": "2026-07-31T11:02:41.983Z",
     "tipo": "reel",
     "pilares": [
@@ -12,7 +137,7 @@
     "fonte": "Money Times",
     "titulo": "Inflação na zona do euro acelera em julho e reforça argumentos para alta de juros",
     "insights": {
-      "reach": 2,
+      "reach": 28,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -22,7 +147,7 @@
   },
   {
     "postId": "18105573182128284",
-    "dataColeta": "2026-07-31T13:11:14.997Z",
+    "dataColeta": "2026-08-01T12:31:40.199Z",
     "dataPostagem": "2026-07-30T23:02:29.099Z",
     "tipo": "carrossel",
     "pilares": [
@@ -34,7 +159,7 @@
     "fonte": "Money Times",
     "titulo": "Vale (VALE3) tem lucro 43% menor no 2T26 e revisa guidance de custos do minério",
     "insights": {
-      "reach": 5,
+      "reach": 6,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -44,7 +169,7 @@
   },
   {
     "postId": "18075371699390148",
-    "dataColeta": "2026-07-31T13:11:15.809Z",
+    "dataColeta": "2026-08-01T12:31:40.974Z",
     "dataPostagem": "2026-07-30T21:00:07.701Z",
     "tipo": "reel",
     "pilares": [
@@ -55,7 +180,7 @@
     "fonte": "Money Times",
     "titulo": "Dólar cai quase 1% e fecha a R$ 5,06 com ajuste pós-Fed e possível intervenção do Japão",
     "insights": {
-      "reach": 99,
+      "reach": 103,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -65,7 +190,7 @@
   },
   {
     "postId": "18170109853430879",
-    "dataColeta": "2026-07-31T13:11:16.863Z",
+    "dataColeta": "2026-08-01T12:31:41.626Z",
     "dataPostagem": "2026-07-30T18:32:01.540Z",
     "tipo": "card",
     "pilares": [
@@ -74,6 +199,26 @@
     "peso": 29,
     "fonte": "InfoMoney",
     "titulo": "Anti-trade? América Latina ganha apelo como “opção” ao tema IA – e Brasil se destaca",
+    "insights": {
+      "reach": 14,
+      "saved": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "total_interactions": 0
+    }
+  },
+  {
+    "postId": "18214527406338203",
+    "dataColeta": "2026-08-01T12:31:42.380Z",
+    "dataPostagem": "2026-07-30T16:02:58.704Z",
+    "tipo": "carrossel",
+    "pilares": [
+      "bolsa"
+    ],
+    "peso": 49,
+    "fonte": "Money Times",
+    "titulo": "Santander (SANB11): Analistas iniciam trabalho de ‘poda’ após pior resultado em 3 anos, mas JPMorgan cita 1 gatilho que poderia fazer ação disparar",
     "insights": {
       "reach": 10,
       "saved": 0,
@@ -84,28 +229,8 @@
     }
   },
   {
-    "postId": "18214527406338203",
-    "dataColeta": "2026-07-31T13:11:17.803Z",
-    "dataPostagem": "2026-07-30T16:02:58.704Z",
-    "tipo": "carrossel",
-    "pilares": [
-      "bolsa"
-    ],
-    "peso": 49,
-    "fonte": "Money Times",
-    "titulo": "Santander (SANB11): Analistas iniciam trabalho de ‘poda’ após pior resultado em 3 anos, mas JPMorgan cita 1 gatilho que poderia fazer ação disparar",
-    "insights": {
-      "reach": 8,
-      "saved": 0,
-      "shares": 0,
-      "comments": 0,
-      "likes": 0,
-      "total_interactions": 0
-    }
-  },
-  {
     "postId": "18102778931601867",
-    "dataColeta": "2026-07-31T13:11:18.656Z",
+    "dataColeta": "2026-08-01T12:31:43.158Z",
     "dataPostagem": "2026-07-30T13:32:40.056Z",
     "tipo": "reel",
     "pilares": [
@@ -116,7 +241,7 @@
     "fonte": "Money Times",
     "titulo": "Ibovespa sobe com melhora do humor externo e à espera de Vale (VALE3); 5 coisas para saber antes de investir hoje (30)",
     "insights": {
-      "reach": 15,
+      "reach": 19,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -126,7 +251,7 @@
   },
   {
     "postId": "18145048696542580",
-    "dataColeta": "2026-07-31T13:11:19.811Z",
+    "dataColeta": "2026-08-01T12:31:44.004Z",
     "dataPostagem": "2026-07-30T11:02:13.602Z",
     "tipo": "card",
     "pilares": [
@@ -137,7 +262,7 @@
     "fonte": "InfoMoney",
     "titulo": "Morgan vê alívio para ações do Brasil após Fed, mas aponta que “limbo” não acabou",
     "insights": {
-      "reach": 15,
+      "reach": 18,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -147,7 +272,7 @@
   },
   {
     "postId": "18159830848465167",
-    "dataColeta": "2026-07-31T13:11:20.812Z",
+    "dataColeta": "2026-08-01T12:31:44.714Z",
     "dataPostagem": "2026-07-30T00:32:25.130Z",
     "tipo": "carrossel",
     "pilares": [
@@ -157,7 +282,7 @@
     "fonte": "InfoMoney",
     "titulo": "Controladores do Bradesco vão subscrever até R$8 bi de aumento de capital",
     "insights": {
-      "reach": 13,
+      "reach": 14,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -167,7 +292,7 @@
   },
   {
     "postId": "17947605954039630",
-    "dataColeta": "2026-07-31T13:11:22.429Z",
+    "dataColeta": "2026-08-01T12:31:45.436Z",
     "dataPostagem": "2026-07-29T22:03:52.587Z",
     "tipo": "reel",
     "pilares": [
@@ -188,7 +313,7 @@
   },
   {
     "postId": "17934057156347177",
-    "dataColeta": "2026-07-31T13:11:23.520Z",
+    "dataColeta": "2026-08-01T12:31:46.275Z",
     "dataPostagem": "2026-07-29T15:47:18.363Z",
     "tipo": "reel",
     "pilares": [],
@@ -206,7 +331,7 @@
   },
   {
     "postId": "17927163045145592",
-    "dataColeta": "2026-07-31T13:11:24.400Z",
+    "dataColeta": "2026-08-01T12:31:46.989Z",
     "dataPostagem": "2026-07-29T13:33:28.310Z",
     "tipo": "reel",
     "pilares": [],
@@ -224,7 +349,7 @@
   },
   {
     "postId": "18094256657133150",
-    "dataColeta": "2026-07-31T13:11:25.385Z",
+    "dataColeta": "2026-08-01T12:31:47.761Z",
     "dataPostagem": "2026-07-29T11:17:45.605Z",
     "tipo": "reel",
     "pilares": [],
@@ -232,7 +357,7 @@
     "fonte": "InfoMoney",
     "titulo": "Bolsas da Ásia fecham mistas; coreano Kospi tomba de novo com queda da SK Hynix",
     "insights": {
-      "reach": 6,
+      "reach": 7,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -242,7 +367,7 @@
   },
   {
     "postId": "17903512905469290",
-    "dataColeta": "2026-07-31T13:11:26.964Z",
+    "dataColeta": "2026-08-01T12:31:48.449Z",
     "dataPostagem": "2026-07-29T09:02:03.808Z",
     "tipo": "card",
     "pilares": [],
@@ -260,7 +385,7 @@
   },
   {
     "postId": "17868428265586356",
-    "dataColeta": "2026-07-31T13:11:27.801Z",
+    "dataColeta": "2026-08-01T12:31:49.272Z",
     "dataPostagem": "2026-07-29T00:32:48.678Z",
     "tipo": "carrossel",
     "pilares": [],
@@ -268,7 +393,7 @@
     "fonte": "Investing.com",
     "titulo": "SK Hynix registra lucro operacional recorde no 2º tri com demanda por memória de IA",
     "insights": {
-      "reach": 12,
+      "reach": 13,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -278,7 +403,7 @@
   },
   {
     "postId": "18021417785856317",
-    "dataColeta": "2026-07-31T13:11:29.068Z",
+    "dataColeta": "2026-08-01T12:31:50.088Z",
     "dataPostagem": "2026-07-28T22:16:18.790Z",
     "tipo": "reel",
     "pilares": [],
@@ -296,7 +421,7 @@
   },
   {
     "postId": "18077053205695006",
-    "dataColeta": "2026-07-31T13:11:29.920Z",
+    "dataColeta": "2026-08-01T12:31:51.159Z",
     "dataPostagem": "2026-07-28T19:12:41.091Z",
     "tipo": "reel",
     "pilares": [],
@@ -314,7 +439,7 @@
   },
   {
     "postId": "18132845452590665",
-    "dataColeta": "2026-07-31T13:11:30.943Z",
+    "dataColeta": "2026-08-01T12:31:51.849Z",
     "dataPostagem": "2026-07-28T17:03:01.613Z",
     "tipo": "reel",
     "pilares": [],
@@ -332,7 +457,7 @@
   },
   {
     "postId": "17918432937203461",
-    "dataColeta": "2026-07-31T13:11:32.162Z",
+    "dataColeta": "2026-08-01T12:31:52.699Z",
     "dataPostagem": "2026-07-28T14:31:35.875Z",
     "tipo": "reel",
     "pilares": [],
@@ -340,7 +465,7 @@
     "fonte": "Money Times",
     "titulo": "Wall Street opera sem direção única com ‘sell-off’ de semicondutores e à espera de Fed",
     "insights": {
-      "reach": 39,
+      "reach": 40,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -350,7 +475,7 @@
   },
   {
     "postId": "18606673015055987",
-    "dataColeta": "2026-07-31T13:11:33.014Z",
+    "dataColeta": "2026-08-01T12:31:53.450Z",
     "dataPostagem": "2026-07-28T11:32:21.483Z",
     "tipo": "reel",
     "pilares": [],
@@ -359,114 +484,6 @@
     "titulo": "Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta terça",
     "insights": {
       "reach": 25,
-      "saved": 0,
-      "shares": 0,
-      "comments": 0,
-      "likes": 0,
-      "total_interactions": 0
-    }
-  },
-  {
-    "postId": "18206154397359918",
-    "dataColeta": "2026-07-31T13:11:34.465Z",
-    "dataPostagem": "2026-07-28T09:02:05.584Z",
-    "tipo": "card",
-    "pilares": [],
-    "peso": 33,
-    "fonte": "Investing.com",
-    "titulo": "Ações da Michelin recuam com alerta sobre custos ligados à guerra no Irã",
-    "insights": {
-      "reach": 10,
-      "saved": 0,
-      "shares": 0,
-      "comments": 0,
-      "likes": 0,
-      "total_interactions": 0
-    }
-  },
-  {
-    "postId": "18122093617795478",
-    "dataColeta": "2026-07-31T13:11:35.594Z",
-    "dataPostagem": "2026-07-27T23:01:53.788Z",
-    "tipo": "carrossel",
-    "pilares": [],
-    "peso": 28,
-    "fonte": "Money Times",
-    "titulo": "Telefônica Brasil (VIVT3) tem lucro de R$ 1,6 bilhão no 2º tri",
-    "insights": {
-      "reach": 9,
-      "saved": 0,
-      "shares": 0,
-      "comments": 0,
-      "likes": 0,
-      "total_interactions": 0
-    }
-  },
-  {
-    "postId": "18088825496441528",
-    "dataColeta": "2026-07-31T13:11:36.524Z",
-    "dataPostagem": "2026-07-27T20:32:08.003Z",
-    "tipo": "card",
-    "pilares": [],
-    "peso": 58,
-    "fonte": "Money Times",
-    "titulo": "Wall Street tem tom misto com trégua entre EUA-Irã e liquidação das ações de chips",
-    "insights": {
-      "reach": 11,
-      "saved": 0,
-      "shares": 0,
-      "comments": 0,
-      "likes": 0,
-      "total_interactions": 0
-    }
-  },
-  {
-    "postId": "18102327206010836",
-    "dataColeta": "2026-07-31T13:11:37.610Z",
-    "dataPostagem": "2026-07-27T18:20:16.109Z",
-    "tipo": "carrossel",
-    "pilares": [],
-    "peso": 50,
-    "fonte": "Money Times",
-    "titulo": "Por que JBS (JBSS32) e MBRF (MBRF3) disparam nesta segunda (27)?",
-    "insights": {
-      "reach": 11,
-      "saved": 0,
-      "shares": 0,
-      "comments": 0,
-      "likes": 0,
-      "total_interactions": 0
-    }
-  },
-  {
-    "postId": "18171234673442245",
-    "dataColeta": "2026-07-31T13:11:38.699Z",
-    "dataPostagem": "2026-07-27T16:02:52.009Z",
-    "tipo": "reel",
-    "pilares": [],
-    "peso": 71,
-    "fonte": "Money Times",
-    "titulo": "Tesouro IPCA+ ainda é a melhor aposta da renda fixa? Especialista explica porque título continua pagando tão bem",
-    "insights": {
-      "reach": 36,
-      "saved": 0,
-      "shares": 1,
-      "comments": 0,
-      "likes": 0,
-      "total_interactions": 1
-    }
-  },
-  {
-    "postId": "18126208615678696",
-    "dataColeta": "2026-07-31T13:11:40.096Z",
-    "dataPostagem": "2026-07-27T13:35:13.375Z",
-    "tipo": "reel",
-    "pilares": [],
-    "peso": 61,
-    "fonte": "Money Times",
-    "titulo": "Ibovespa avança com alívio da guerra no Oriente Médio; 5 coisas para saber antes de investir hoje (27)",
-    "insights": {
-      "reach": 32,
       "saved": 0,
       "shares": 0,
       "comments": 0,
