@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-01T23:01:16.048Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
+  },
+  {
     "data": "2026-08-01T22:45:52.829Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
@@ -1063,14 +1068,5 @@
     "data": "2026-07-30T01:01:15.719Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
-  },
-  {
-    "data": "2026-07-30T00:32:25.131Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (carrossel): \"Controladores do Bradesco vão subscrever até R$8 bi de aumento de capital\".",
-    "postId": "18159830848465167",
-    "storyId": "18063783092738686",
-    "reelId": null,
-    "tipo": "carrossel"
   }
 ]
