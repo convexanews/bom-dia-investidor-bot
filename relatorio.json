@@ -1,5 +1,25 @@
 [
   {
+    "data": "2026-08-01T15:56:21.423Z",
+    "titulo": "Tesouro Direto bate recorde em junho com impulso do Tesouro IPCA+",
+    "categoria": "Renda Fixa",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/tesouro-direto-bate-recorde-em-junho-com-impulso-do-tesouro-ipca-jcav/",
+    "postId": "17975108970116759",
+    "storyId": null,
+    "reelId": "17975108970116759",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1785599681926.mp4",
+    "tipo": "reel",
+    "peso": 76,
+    "pilares": [
+      "macro",
+      "bolsa",
+      "renda_fixa"
+    ]
+  },
+  {
     "data": "2026-08-01T13:32:16.095Z",
     "titulo": "Bitcoin ronda US$ 63 mil após semana de Fed, guerra e balanços de big techs; veja cotações das criptomoedas hoje (1)",
     "categoria": "Criptomoedas",
@@ -3046,20 +3066,5 @@
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782990570413.mp4",
     "tipo": "reel",
     "peso": 70
-  },
-  {
-    "data": "2026-07-02T09:03:23.927Z",
-    "titulo": "Payroll nos EUA, taxa de desemprego na Europa, falas de Durigan e mais destaques hoje",
-    "categoria": "Mercados",
-    "fonte": "InfoMoney",
-    "link": "https://www.infomoney.com.br/mercados/payroll-desemprego-durigan-destaques-02072026/",
-    "postId": "18106044008045100",
-    "storyId": null,
-    "reelId": "18106044008045100",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782982914848.mp4",
-    "tipo": "reel",
-    "peso": 102
   }
 ]

@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-08-01T15:56:21.424Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Tesouro Direto bate recorde em junho com impulso do Tesouro IPCA+\".",
+    "postId": "17975108970116759",
+    "storyId": null,
+    "reelId": "17975108970116759",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-08-01T15:54:32.853Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 76): \"Tesouro Direto bate recorde em junho com impulso do Tesouro IPCA+\". Realizando postagem..."
+  },
+  {
     "data": "2026-08-01T15:31:09.349Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
@@ -1054,15 +1068,5 @@
     "data": "2026-07-29T17:31:10.543Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 137 min."
-  },
-  {
-    "data": "2026-07-29T17:06:13.360Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 162 min."
-  },
-  {
-    "data": "2026-07-29T17:01:00.215Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 167 min."
   }
 ]
