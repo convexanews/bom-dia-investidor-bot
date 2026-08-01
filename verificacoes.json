@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-01T12:30:59.750Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 32 min."
+  },
+  {
     "data": "2026-08-01T12:06:23.208Z",
     "resultado": "story_glossario",
     "mensagem": "Story do glossário publicado: \"Renda Fixa\"",
@@ -1065,14 +1070,5 @@
     "data": "2026-07-29T13:49:04.178Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 105 min."
-  },
-  {
-    "data": "2026-07-29T13:33:28.312Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"Ao contrário do mercado, Citi não vê corte de juros pelo Copom na próxima reunião; entenda os motivos\".",
-    "postId": "17927163045145592",
-    "storyId": null,
-    "reelId": "17927163045145592",
-    "tipo": "reel"
   }
 ]
