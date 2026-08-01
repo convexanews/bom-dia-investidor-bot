@@ -1,5 +1,24 @@
 [
   {
+    "data": "2026-08-01T20:08:40.116Z",
+    "titulo": "Reforma Tributária: quem tem MEI ou pequeno negócio ganha mais tempo pra se adaptar",
+    "categoria": "Minhas Finanças",
+    "fonte": "InfoMoney",
+    "link": "https://www.infomoney.com.br/minhas-financas/reforma-tributaria-quem-tem-mei-ou-pequeno-negocio-ganha-mais-tempo-pra-se-adaptar/",
+    "postId": "17894846322592994",
+    "storyId": "18064389554723047",
+    "reelId": null,
+    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1785614874358-feed.png",
+    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1785614874358-story.png",
+    "videoUrl": null,
+    "tipo": "card",
+    "peso": 20,
+    "pilares": [
+      "macro",
+      "fiis"
+    ]
+  },
+  {
     "data": "2026-08-01T18:02:34.267Z",
     "titulo": "Incêndios devastam Grécia, França e Espanha em meio a ventos fortes e calor recorde",
     "categoria": "Mundo",
@@ -3054,20 +3073,5 @@
     "videoUrl": null,
     "tipo": "card",
     "peso": 44
-  },
-  {
-    "data": "2026-07-02T13:20:41.554Z",
-    "titulo": "Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta quinta",
-    "categoria": "Mercados",
-    "fonte": "InfoMoney",
-    "link": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-02072026/",
-    "postId": "17886870102418545",
-    "storyId": "18006770207936549",
-    "reelId": null,
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1782998371964-slide1.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1782998371964-story.png",
-    "videoUrl": null,
-    "tipo": "carrossel",
-    "peso": 58
   }
 ]

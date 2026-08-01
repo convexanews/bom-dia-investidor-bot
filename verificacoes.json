@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-08-01T20:08:40.117Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (card): \"Reforma Tributária: quem tem MEI ou pequeno negócio ganha mais tempo pra se adaptar\".",
+    "postId": "17894846322592994",
+    "storyId": "18064389554723047",
+    "reelId": null,
+    "tipo": "card"
+  },
+  {
+    "data": "2026-08-01T20:07:45.735Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 20): \"Reforma Tributária: quem tem MEI ou pequeno negócio ganha mais tempo pra se adaptar\". Realizando postagem..."
+  },
+  {
     "data": "2026-08-01T20:02:03.838Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 1 min."
@@ -1058,19 +1072,5 @@
     "data": "2026-07-29T22:31:48.060Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 93 min."
-  },
-  {
-    "data": "2026-07-29T22:03:52.588Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"Juros longos dos EUA atingem máxima em 18 anos após Fed manter juros pela 5ª vez consecutiva\".",
-    "postId": "17947605954039630",
-    "storyId": null,
-    "reelId": "17947605954039630",
-    "tipo": "reel"
-  },
-  {
-    "data": "2026-07-29T22:01:27.337Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 85): \"Juros longos dos EUA atingem máxima em 18 anos após Fed manter juros pela 5ª vez consecutiva\". Realizando postagem..."
   }
 ]
