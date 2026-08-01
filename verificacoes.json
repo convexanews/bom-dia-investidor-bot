@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-01T12:01:07.209Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 62 min."
+  },
+  {
     "data": "2026-08-01T11:31:12.648Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
@@ -1068,11 +1073,5 @@
     "data": "2026-07-29T13:31:01.723Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 78): \"Ao contrário do mercado, Citi não vê corte de juros pelo Copom na próxima reunião; entenda os motivos\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-29T13:05:38.274Z",
-    "resultado": "story_glossario",
-    "mensagem": "Story do glossário publicado: \"Liquidez\"",
-    "postId": "17981646774025974"
   }
 ]
