@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-01T22:31:16.819Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
+  },
+  {
     "data": "2026-08-01T22:01:11.622Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 8 min."
@@ -1067,10 +1072,5 @@
     "data": "2026-07-30T00:31:03.371Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 29): \"Controladores do Bradesco vão subscrever até R$8 bi de aumento de capital\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-30T00:01:31.704Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
   }
 ]
