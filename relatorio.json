@@ -1,5 +1,23 @@
 [
   {
+    "data": "2026-08-01T18:02:34.267Z",
+    "titulo": "Incêndios devastam Grécia, França e Espanha em meio a ventos fortes e calor recorde",
+    "categoria": "Mundo",
+    "fonte": "InfoMoney",
+    "link": "https://www.infomoney.com.br/mundo/incendios-devastam-grecia-franca-e-espanha-em-meio-a-ventos-fortes-e-calor-recorde/",
+    "postId": "17891443647657320",
+    "storyId": "18109619705072844",
+    "reelId": null,
+    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1785607274713-slide1.png",
+    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1785607274713-story.png",
+    "videoUrl": null,
+    "tipo": "carrossel",
+    "peso": 31,
+    "pilares": [
+      "bolsa"
+    ]
+  },
+  {
     "data": "2026-08-01T15:56:21.423Z",
     "titulo": "Tesouro Direto bate recorde em junho com impulso do Tesouro IPCA+",
     "categoria": "Renda Fixa",
@@ -3051,20 +3069,5 @@
     "videoUrl": null,
     "tipo": "carrossel",
     "peso": 58
-  },
-  {
-    "data": "2026-07-02T11:11:09.271Z",
-    "titulo": "Mercado cauteloso à espera do payroll; Ibovespa em dólar cai hoje (2)",
-    "categoria": "Mercados",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/mercado-cauteloso-a-espera-do-payroll-ibovespa-em-dolar-cai-hoje-2/",
-    "postId": "18103231409276633",
-    "storyId": null,
-    "reelId": "18103231409276633",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782990570413.mp4",
-    "tipo": "reel",
-    "peso": 70
   }
 ]
