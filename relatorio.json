@@ -1,5 +1,24 @@
 [
   {
+    "data": "2026-08-01T11:02:47.067Z",
+    "titulo": "De Banco do Brasil (BBAS3) a Suzano (SUZB3): Os papéis que estão baratos na bolsa, na visão do ‘Buffett de Londrina’",
+    "categoria": "Mercados",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/de-banco-do-brasil-bbas3-a-suzano-suzb3-os-papeis-baratos-de-buffett-de-londrina-vontade-zero-de-ficar-com-caixa-rnda/",
+    "postId": "18097373096004665",
+    "storyId": null,
+    "reelId": "18097373096004665",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1785582084514.mp4",
+    "tipo": "reel",
+    "peso": 61,
+    "pilares": [
+      "macro",
+      "bolsa"
+    ]
+  },
+  {
     "data": "2026-08-01T01:02:37.852Z",
     "titulo": "Controladores da Natura pedem dispensa de OPA em acordo de investimento com Advent",
     "categoria": "Business",
@@ -3036,20 +3055,5 @@
     "videoUrl": null,
     "tipo": "carrossel",
     "peso": 21
-  },
-  {
-    "data": "2026-07-01T21:10:18.667Z",
-    "titulo": "Após Dow Jones bater recorde, Wall Street recua de olho em Warsh e à espera do payroll",
-    "categoria": "Mercados",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/wall-street-1-7-26-apsa/",
-    "postId": "18231778831313279",
-    "storyId": null,
-    "reelId": "18231778831313279",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782940120794.mp4",
-    "tipo": "reel",
-    "peso": 109
   }
 ]

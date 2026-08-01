@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-08-01T11:02:47.068Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"De Banco do Brasil (BBAS3) a Suzano (SUZB3): Os papéis que estão baratos na bolsa, na visão do ‘Buffett de Londrina’\".",
+    "postId": "18097373096004665",
+    "storyId": null,
+    "reelId": "18097373096004665",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-08-01T11:01:15.110Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 61): \"De Banco do Brasil (BBAS3) a Suzano (SUZB3): Os papéis que estão baratos na bolsa, na visão do ‘Buffett de Londrina’\". Realizando postagem..."
+  },
+  {
     "data": "2026-08-01T10:30:58.642Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (07:30 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1060,15 +1074,5 @@
     "data": "2026-07-29T12:31:35.669Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 47 min."
-  },
-  {
-    "data": "2026-07-29T12:01:11.997Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 77 min."
-  },
-  {
-    "data": "2026-07-29T11:31:29.898Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 107 min."
   }
 ]
