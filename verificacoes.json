@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-02T23:00:55.424Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 108 min."
+  },
+  {
     "data": "2026-08-02T22:47:58.773Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (carrossel): \"Trump afirma que EUA e Irã reiniciam negociações nesta segunda-feira, diz emissora\".",
@@ -1059,10 +1064,5 @@
     "data": "2026-07-31T02:01:10.985Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (23:01 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-07-31T02:00:05.453Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (23:00 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
