@@ -1,23 +1,23 @@
 {
-  "atualizadoEm": "2026-08-01T12:31:53.451Z",
+  "atualizadoEm": "2026-08-02T12:33:24.329Z",
   "porFormato": {
-    "reel": {
-      "posts": 16,
-      "alcanceMedio": 39,
+    "card": {
+      "posts": 4,
+      "alcanceMedio": 15,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null
     },
     "carrossel": {
-      "posts": 6,
-      "alcanceMedio": 11,
+      "posts": 8,
+      "alcanceMedio": 13,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null
     },
-    "card": {
-      "posts": 3,
-      "alcanceMedio": 15,
+    "reel": {
+      "posts": 13,
+      "alcanceMedio": 56,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null
