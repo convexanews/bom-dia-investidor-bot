@@ -1,5 +1,23 @@
 [
   {
+    "data": "2026-08-02T17:56:46.291Z",
+    "titulo": "Petrobras eleva querosene de aviação em 1,9%  nas refinarias",
+    "categoria": "Economia",
+    "fonte": "InfoMoney",
+    "link": "https://www.infomoney.com.br/mercados/petrobras-eleva-querosene-de-aviacao-em-19-nas-refinarias/",
+    "postId": "18002647214976509",
+    "storyId": "17941650264065162",
+    "reelId": null,
+    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1785693331174-slide1.png",
+    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1785693331174-story.png",
+    "videoUrl": null,
+    "tipo": "carrossel",
+    "peso": 32,
+    "pilares": [
+      "bolsa"
+    ]
+  },
+  {
     "data": "2026-08-02T15:32:19.121Z",
     "titulo": "Copom e payroll rouba atenção dos mercados; confira a agenda semana",
     "categoria": "Economia",
@@ -3066,20 +3084,5 @@
     "videoUrl": null,
     "tipo": "card",
     "peso": 50
-  },
-  {
-    "data": "2026-07-02T20:03:07.299Z",
-    "titulo": "Papel ou tijolo? Santander muda estratégia e revela os melhores FIIs para julho",
-    "categoria": "Economia",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/papel-ou-tijolo-santander-muda-estrategia-e-revela-os-melhores-fiis-para-julho-igdl/",
-    "postId": "17921313840390300",
-    "storyId": "17897726160529565",
-    "reelId": null,
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783022506138-slide1.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783022506138-story.png",
-    "videoUrl": null,
-    "tipo": "carrossel",
-    "peso": 24
   }
 ]

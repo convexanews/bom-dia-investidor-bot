@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-08-02T17:56:46.292Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (carrossel): \"Petrobras eleva querosene de aviação em 1,9%  nas refinarias\".",
+    "postId": "18002647214976509",
+    "storyId": "17941650264065162",
+    "reelId": null,
+    "tipo": "carrossel"
+  },
+  {
+    "data": "2026-08-02T17:55:22.318Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 32): \"Petrobras eleva querosene de aviação em 1,9%  nas refinarias\". Realizando postagem..."
+  },
+  {
     "data": "2026-08-02T17:31:03.230Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
@@ -1050,15 +1064,5 @@
     "data": "2026-07-30T20:58:08.382Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 71): \"Dólar cai quase 1% e fecha a R$ 5,06 com ajuste pós-Fed e possível intervenção do Japão\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-30T20:31:08.938Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 1 min."
-  },
-  {
-    "data": "2026-07-30T20:00:58.748Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 32 min."
   }
 ]
