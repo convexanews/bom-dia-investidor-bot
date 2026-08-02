@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-02T15:54:27.603Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 98 min."
+  },
+  {
     "data": "2026-08-02T15:32:19.123Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (card): \"Copom e payroll rouba atenção dos mercados; confira a agenda semana\".",
@@ -1059,10 +1064,5 @@
     "data": "2026-07-30T18:31:06.035Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 29): \"Anti-trade? América Latina ganha apelo como “opção” ao tema IA – e Brasil se destaca\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-30T18:01:11.835Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
   }
 ]
