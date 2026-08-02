@@ -1,5 +1,24 @@
 [
   {
+    "data": "2026-08-02T13:02:41.161Z",
+    "titulo": "Alvo de disputa, definição de stablecoins pode afetar competência, autorização e IOF",
+    "categoria": "Economia",
+    "fonte": "InfoMoney",
+    "link": "https://www.infomoney.com.br/economia/alvo-de-disputa-definicao-de-stablecoins-pode-afetar-competencia-autorizacao-e-iof/",
+    "postId": "18107952683157066",
+    "storyId": "18066570731741917",
+    "reelId": null,
+    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1785675693387-slide1.png",
+    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1785675693387-story.png",
+    "videoUrl": null,
+    "tipo": "carrossel",
+    "peso": 22,
+    "pilares": [
+      "bolsa",
+      "fiis"
+    ]
+  },
+  {
     "data": "2026-08-01T20:08:40.116Z",
     "titulo": "Reforma Tributária: quem tem MEI ou pequeno negócio ganha mais tempo pra se adaptar",
     "categoria": "Minhas Finanças",
@@ -3058,20 +3077,5 @@
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783014753731.mp4",
     "tipo": "reel",
     "peso": 61
-  },
-  {
-    "data": "2026-07-02T15:32:51.029Z",
-    "titulo": "Ibovespa fecha mês no ‘zero a zero’, mas essas 3 ações do mesmo setor dispararam mais de 10% no período: qual o segredo?",
-    "categoria": "Mercados",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/ibovespa-fecha-mes-no-zero-a-zero-mas-essas-3-acoes-do-mesmo-setor-dispararam-no-periodo-lbrdaz252/",
-    "postId": "18089247185395190",
-    "storyId": "18604536280042408",
-    "reelId": null,
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783006326486-feed.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783006326486-story.png",
-    "videoUrl": null,
-    "tipo": "card",
-    "peso": 44
   }
 ]

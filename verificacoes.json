@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-08-02T13:02:41.163Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (carrossel): \"Alvo de disputa, definição de stablecoins pode afetar competência, autorização e IOF\".",
+    "postId": "18107952683157066",
+    "storyId": "18066570731741917",
+    "reelId": null,
+    "tipo": "carrossel"
+  },
+  {
+    "data": "2026-08-02T13:01:25.295Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 22): \"Alvo de disputa, definição de stablecoins pode afetar competência, autorização e IOF\". Realizando postagem..."
+  },
+  {
     "data": "2026-08-02T12:30:59.457Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
@@ -1050,15 +1064,5 @@
     "data": "2026-07-30T15:01:04.309Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 32 min."
-  },
-  {
-    "data": "2026-07-30T14:31:11.292Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 62 min."
-  },
-  {
-    "data": "2026-07-30T14:01:03.328Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
   }
 ]
