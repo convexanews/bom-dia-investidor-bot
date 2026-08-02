@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-02T12:30:59.457Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
+  },
+  {
     "data": "2026-08-02T12:08:51.341Z",
     "resultado": "story_glossario",
     "mensagem": "Story do glossário publicado: \"Renda Variável\"",
@@ -1055,14 +1060,5 @@
     "data": "2026-07-30T14:01:03.328Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
-  },
-  {
-    "data": "2026-07-30T13:32:40.057Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"Ibovespa sobe com melhora do humor externo e à espera de Vale (VALE3); 5 coisas para saber antes de investir hoje (30)\".",
-    "postId": "18102778931601867",
-    "storyId": null,
-    "reelId": "18102778931601867",
-    "tipo": "reel"
   }
 ]
