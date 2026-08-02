@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-02T14:30:50.754Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 32 min."
+  },
+  {
     "data": "2026-08-02T14:23:46.303Z",
     "resultado": "resumo_semanal_suprimido",
     "mensagem": "Resumo semanal não publicado: intervalo global mínimo de duas horas."
@@ -1055,14 +1060,5 @@
     "data": "2026-07-30T16:31:32.338Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
-  },
-  {
-    "data": "2026-07-30T16:02:58.705Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (carrossel): \"Santander (SANB11): Analistas iniciam trabalho de ‘poda’ após pior resultado em 3 anos, mas JPMorgan cita 1 gatilho que poderia fazer ação disparar\".",
-    "postId": "18214527406338203",
-    "storyId": "18102252275624746",
-    "reelId": null,
-    "tipo": "carrossel"
   }
 ]
