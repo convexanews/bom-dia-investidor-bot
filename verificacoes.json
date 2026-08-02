@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-02T19:00:58.008Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 56 min."
+  },
+  {
     "data": "2026-08-02T18:57:29.938Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 60 min."
@@ -1055,10 +1060,5 @@
     "data": "2026-07-30T21:54:58.412Z",
     "resultado": "carrossel_fechamento_suprimido",
     "mensagem": "Fechamento não publicado: intervalo global mínimo de duas horas."
-  },
-  {
-    "data": "2026-07-30T21:31:40.095Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 89 min."
   }
 ]
