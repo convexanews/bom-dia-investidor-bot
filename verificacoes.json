@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-02T11:30:54.665Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
+  },
+  {
     "data": "2026-08-02T11:01:23.051Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
@@ -1059,10 +1064,5 @@
     "resultado": "story_glossario",
     "mensagem": "Story do glossário publicado: \"Volatilidade\"",
     "postId": "17974218549082958"
-  },
-  {
-    "data": "2026-07-30T12:31:08.785Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 32 min."
   }
 ]
