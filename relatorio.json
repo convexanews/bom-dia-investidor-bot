@@ -1,5 +1,24 @@
 [
   {
+    "data": "2026-08-02T15:32:19.121Z",
+    "titulo": "Copom e payroll rouba atenção dos mercados; confira a agenda semana",
+    "categoria": "Economia",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/copom-e-payroll-rouba-atencao-dos-mercados-confira-a-agenda-semana-jcav/",
+    "postId": "18401982574081785",
+    "storyId": "18304237909303285",
+    "reelId": null,
+    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1785684692879-feed.png",
+    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1785684692879-story.png",
+    "videoUrl": null,
+    "tipo": "card",
+    "peso": 51,
+    "pilares": [
+      "macro",
+      "exterior"
+    ]
+  },
+  {
     "data": "2026-08-02T13:02:41.161Z",
     "titulo": "Alvo de disputa, definição de stablecoins pode afetar competência, autorização e IOF",
     "categoria": "Economia",
@@ -3062,20 +3081,5 @@
     "videoUrl": null,
     "tipo": "carrossel",
     "peso": 24
-  },
-  {
-    "data": "2026-07-02T17:54:00.898Z",
-    "titulo": "BlackRock diz que é hora da renda fixa e vê Brasil como uma das estrelas",
-    "categoria": "Onde Investir",
-    "fonte": "InfoMoney",
-    "link": "https://www.infomoney.com.br/onde-investir/blackrock-diz-que-e-hora-da-renda-fixa-e-ve-brasil-como-uma-das-estrelas/",
-    "postId": "18071560199363685",
-    "storyId": null,
-    "reelId": "18071560199363685",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783014753731.mp4",
-    "tipo": "reel",
-    "peso": 61
   }
 ]
