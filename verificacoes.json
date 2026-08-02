@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-02T16:31:12.012Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 62 min."
+  },
+  {
     "data": "2026-08-02T16:01:07.517Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
@@ -1055,14 +1060,5 @@
     "data": "2026-07-30T19:01:18.873Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 91 min."
-  },
-  {
-    "data": "2026-07-30T18:32:01.541Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (card): \"Anti-trade? América Latina ganha apelo como “opção” ao tema IA – e Brasil se destaca\".",
-    "postId": "18170109853430879",
-    "storyId": "18374842543234165",
-    "reelId": null,
-    "tipo": "card"
   }
 ]
