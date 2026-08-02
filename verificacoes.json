@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-02T20:30:55.901Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 93 min."
+  },
+  {
     "data": "2026-08-02T20:08:45.717Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 115 min."
@@ -1059,10 +1064,5 @@
     "storyId": "18172067131440090",
     "reelId": null,
     "tipo": "carrossel"
-  },
-  {
-    "data": "2026-07-30T23:01:13.274Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 41): \"Vale (VALE3) tem lucro 43% menor no 2T26 e revisa guidance de custos do minério\". Realizando postagem..."
   }
 ]
