@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-02T14:01:05.845Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 62 min."
+  },
+  {
     "data": "2026-08-02T13:30:57.832Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
@@ -1059,10 +1064,5 @@
     "data": "2026-07-30T16:01:28.186Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 49): \"Santander (SANB11): Analistas iniciam trabalho de ‘poda’ após pior resultado em 3 anos, mas JPMorgan cita 1 gatilho que poderia fazer ação disparar\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-30T15:31:06.738Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
   }
 ]
