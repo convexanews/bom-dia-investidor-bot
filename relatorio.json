@@ -1,5 +1,23 @@
 [
   {
+    "data": "2026-08-02T20:03:02.197Z",
+    "titulo": "Calendário econômico semanal: Copom no Brasil e trabalho nos EUA são destaques",
+    "categoria": "Mercados",
+    "fonte": "InfoMoney",
+    "link": "https://www.infomoney.com.br/mercados/calendario-economico-semanal-copom-no-brasil-e-trabalho-nos-eua-sao-destaques/",
+    "postId": "18096122159618718",
+    "storyId": "18476585593106601",
+    "reelId": null,
+    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1785700935348-feed.png",
+    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1785700935348-story.png",
+    "videoUrl": null,
+    "tipo": "card",
+    "peso": 29,
+    "pilares": [
+      "macro"
+    ]
+  },
+  {
     "data": "2026-08-02T17:56:46.291Z",
     "titulo": "Petrobras eleva querosene de aviação em 1,9%  nas refinarias",
     "categoria": "Economia",
@@ -3069,20 +3087,5 @@
     "videoUrl": null,
     "tipo": "carrossel",
     "peso": 15
-  },
-  {
-    "data": "2026-07-02T22:12:29.984Z",
-    "titulo": "Produção da Prio (PRIO3) bate recorde no ano",
-    "categoria": "Empresas",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/producao-da-prio-prio3-bate-recorde-no-ano/",
-    "postId": "18013836839716053",
-    "storyId": "18136185775524233",
-    "reelId": null,
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783030298453-feed.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783030298453-story.png",
-    "videoUrl": null,
-    "tipo": "card",
-    "peso": 50
   }
 ]
