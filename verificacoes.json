@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-02T10:01:12.303Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (07:01 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-08-02T09:31:01.105Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (06:31 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1059,14 +1064,5 @@
     "data": "2026-07-30T11:31:01.605Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
-  },
-  {
-    "data": "2026-07-30T11:02:13.603Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (card): \"Morgan vê alívio para ações do Brasil após Fed, mas aponta que “limbo” não acabou\".",
-    "postId": "18145048696542580",
-    "storyId": "17926078650370346",
-    "reelId": null,
-    "tipo": "card"
   }
 ]
