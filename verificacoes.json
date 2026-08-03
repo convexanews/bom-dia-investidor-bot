@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-03T22:31:55.860Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 62 min."
+  },
+  {
     "data": "2026-08-03T22:02:38.760Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 91 min."
@@ -1056,14 +1061,5 @@
     "data": "2026-08-01T01:31:15.636Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
-  },
-  {
-    "data": "2026-08-01T01:02:37.853Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (carrossel): \"Controladores da Natura pedem dispensa de OPA em acordo de investimento com Advent\".",
-    "postId": "17964003468136393",
-    "storyId": "18105085105883989",
-    "reelId": null,
-    "tipo": "carrossel"
   }
 ]
