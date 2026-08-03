@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-03T15:30:54.620Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 32 min."
+  },
+  {
     "data": "2026-08-03T15:01:01.483Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 62 min."
@@ -1056,10 +1061,5 @@
     "data": "2026-07-31T18:01:06.447Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 56): \"Cenário externo é o gatilho para a “bomba” fiscal do Brasil, alerta Armor Capital\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-31T17:31:05.396Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 27 min."
   }
 ]
