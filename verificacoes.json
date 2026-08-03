@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-03T17:01:10.828Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
+  },
+  {
     "data": "2026-08-03T16:32:40.457Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (carrossel): \"Por que Brava (BRAV3), Prio (PRIO3) e outras petroleiras lideram as perdas do Ibovespa hoje (3)\".",
@@ -1056,10 +1061,5 @@
     "data": "2026-07-31T20:00:59.045Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
-  },
-  {
-    "data": "2026-07-31T19:30:59.066Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 32 min."
   }
 ]
