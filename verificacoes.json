@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-03T22:00:55.064Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 93 min."
+  },
+  {
     "data": "2026-08-03T21:55:30.576Z",
     "resultado": "carrossel_fechamento_suprimido",
     "mensagem": "Fechamento não publicado: intervalo global mínimo de duas horas."
@@ -1060,10 +1065,5 @@
     "data": "2026-08-01T01:01:17.899Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 36): \"Controladores da Natura pedem dispensa de OPA em acordo de investimento com Advent\". Realizando postagem..."
-  },
-  {
-    "data": "2026-08-01T00:31:22.453Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
   }
 ]
