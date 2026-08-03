@@ -1,5 +1,15 @@
 [
   {
+    "data": "2026-08-03T13:31:56.700Z",
+    "resultado": "erro",
+    "mensagem": "Erro na execução automática: Container com erro: {\"status_code\":\"ERROR\",\"id\":\"18129669643665621\"}"
+  },
+  {
+    "data": "2026-08-03T13:31:06.588Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 61): \"Ibovespa avança com otimismo de acordo entre EUA e Irã; 5 coisas para saber antes de investir hoje (3)\". Realizando postagem..."
+  },
+  {
     "data": "2026-08-03T13:01:09.858Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
@@ -1050,15 +1060,5 @@
     "storyId": null,
     "reelId": "17879264628618112",
     "tipo": "reel"
-  },
-  {
-    "data": "2026-07-31T15:56:22.910Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 62): \"Com mais de duas horas de “atraso”, Ibovespa abre em alta com exterior e Vale\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-31T15:31:31.118Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
   }
 ]
