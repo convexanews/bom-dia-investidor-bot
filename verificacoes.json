@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-08-03T19:02:51.897Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Copom deve cortar juro a 14%, pausar até 2027 e depois retomar calibração, diz XP\".",
+    "postId": "17877623787653309",
+    "storyId": null,
+    "reelId": "17877623787653309",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-08-03T19:01:20.850Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 62): \"Copom deve cortar juro a 14%, pausar até 2027 e depois retomar calibração, diz XP\". Realizando postagem..."
+  },
+  {
     "data": "2026-08-03T18:31:06.384Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
@@ -1047,15 +1061,5 @@
     "data": "2026-07-31T21:53:53.142Z",
     "resultado": "carrossel_fechamento_suprimido",
     "mensagem": "Fechamento não publicado: intervalo global mínimo de duas horas."
-  },
-  {
-    "data": "2026-07-31T21:32:01.389Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 62 min."
-  },
-  {
-    "data": "2026-07-31T21:01:19.164Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 93 min."
   }
 ]
