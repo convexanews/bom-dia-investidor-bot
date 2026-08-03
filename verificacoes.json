@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-03T17:47:07.632Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 46 min."
+  },
+  {
     "data": "2026-08-03T17:30:55.176Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 62 min."
@@ -1056,10 +1061,5 @@
     "storyId": null,
     "reelId": "17960016981156008",
     "tipo": "reel"
-  },
-  {
-    "data": "2026-07-31T20:32:00.053Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 83): \"Wall Street fecha em alta com tecnologia, mas Nasdaq derrete 3% e tem 2º mês de perdas\". Realizando postagem..."
   }
 ]
