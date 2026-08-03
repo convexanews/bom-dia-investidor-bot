@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-03T15:42:03.086Z",
+    "resultado": "carrossel_educativo_suprimido",
+    "mensagem": "Carrossel educativo não publicado: intervalo global mínimo de duas horas."
+  },
+  {
     "data": "2026-08-03T15:39:27.105Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 23 min."
@@ -1052,14 +1057,5 @@
     "data": "2026-07-31T18:36:05.613Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 87 min."
-  },
-  {
-    "data": "2026-07-31T18:02:31.542Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (carrossel): \"Cenário externo é o gatilho para a “bomba” fiscal do Brasil, alerta Armor Capital\".",
-    "postId": "18060906626587878",
-    "storyId": "18156113386495953",
-    "reelId": null,
-    "tipo": "carrossel"
   }
 ]
