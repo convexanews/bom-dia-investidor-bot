@@ -1,5 +1,11 @@
 [
   {
+    "data": "2026-08-03T13:45:09.144Z",
+    "resultado": "story_glossario",
+    "mensagem": "Story do glossário publicado: \"B3\"",
+    "postId": "18004373078957134"
+  },
+  {
     "data": "2026-08-03T13:31:56.700Z",
     "resultado": "erro",
     "mensagem": "Erro na execução automática: Container com erro: {\"status_code\":\"ERROR\",\"id\":\"18129669643665621\"}"
@@ -1051,14 +1057,5 @@
     "data": "2026-07-31T16:01:06.869Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 117 min."
-  },
-  {
-    "data": "2026-07-31T15:58:00.436Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"Com mais de duas horas de “atraso”, Ibovespa abre em alta com exterior e Vale\".",
-    "postId": "17879264628618112",
-    "storyId": null,
-    "reelId": "17879264628618112",
-    "tipo": "reel"
   }
 ]
