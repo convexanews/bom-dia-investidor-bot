@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-03T11:31:01.625Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
+  },
+  {
     "data": "2026-08-03T11:02:49.216Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"Da Bolsa ao Bitcoin: 5 gráficos que podem definir os mercados na semana\".",
@@ -1055,14 +1060,5 @@
     "data": "2026-07-31T13:44:15.331Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 109 min."
-  },
-  {
-    "data": "2026-07-31T13:32:41.750Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"Selic em 13,75%? Economia e inflação mais fracas abrem espaço para mais cortes de juros, segundo Itaú BBA\".",
-    "postId": "18098661851601330",
-    "storyId": null,
-    "reelId": "18098661851601330",
-    "tipo": "reel"
   }
 ]
