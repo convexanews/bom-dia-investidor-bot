@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-08-03T11:02:49.216Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Da Bolsa ao Bitcoin: 5 gráficos que podem definir os mercados na semana\".",
+    "postId": "17900049921513953",
+    "storyId": null,
+    "reelId": "17900049921513953",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-08-03T11:01:28.324Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 62): \"Da Bolsa ao Bitcoin: 5 gráficos que podem definir os mercados na semana\". Realizando postagem..."
+  },
+  {
     "data": "2026-08-03T10:30:53.972Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (07:30 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1050,15 +1064,5 @@
     "storyId": null,
     "reelId": "18098661851601330",
     "tipo": "reel"
-  },
-  {
-    "data": "2026-07-31T13:30:56.171Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 75): \"Selic em 13,75%? Economia e inflação mais fracas abrem espaço para mais cortes de juros, segundo Itaú BBA\". Realizando postagem..."
-  },
-  {
-    "data": "2026-07-31T13:02:14.243Z",
-    "resultado": "erro_story_glossario",
-    "mensagem": "Erro ao publicar story do glossário: Erro ao publicar story: {\"error\":{\"message\":\"Media ID is not available\",\"type\":\"OAuthException\",\"code\":9007,\"error_subcode\":2207027,\"is_transient\":false,\"error_user_title\":\"Cannot Publish\",\"error_user_msg\":\"The media is not ready for publishing, please wait for a moment\",\"fbtrace_id\":\"AcYuuh7QSvMLhQvJRz7IHSs\"}}"
   }
 ]

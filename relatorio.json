@@ -1,5 +1,26 @@
 [
   {
+    "data": "2026-08-03T11:02:49.214Z",
+    "titulo": "Da Bolsa ao Bitcoin: 5 gráficos que podem definir os mercados na semana",
+    "categoria": "Mercados",
+    "fonte": "InfoMoney",
+    "link": "https://www.infomoney.com.br/mercados/da-bolsa-ao-bitcoin-5-graficos-que-podem-definir-os-mercados-na-semana/",
+    "postId": "17900049921513953",
+    "storyId": null,
+    "reelId": "17900049921513953",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1785754893359.mp4",
+    "tipo": "reel",
+    "peso": 62,
+    "pilares": [
+      "macro",
+      "bolsa",
+      "cripto",
+      "exterior"
+    ]
+  },
+  {
     "data": "2026-08-02T22:47:58.772Z",
     "titulo": "Trump afirma que EUA e Irã reiniciam negociações nesta segunda-feira, diz emissora",
     "categoria": "Mundo",
@@ -3075,20 +3096,5 @@
     "videoUrl": null,
     "tipo": "carrossel",
     "peso": 32
-  },
-  {
-    "data": "2026-07-03T09:04:00.977Z",
-    "titulo": "Feriado nos EUA, indústria no Brasil, PMIs e mais destaques desta sexta",
-    "categoria": "Mercados",
-    "fonte": "InfoMoney",
-    "link": "https://www.infomoney.com.br/mercados/feriado-eua-industria-brasil-pmis-03072026/",
-    "postId": "17969038674114655",
-    "storyId": null,
-    "reelId": "17969038674114655",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783069327956.mp4",
-    "tipo": "reel",
-    "peso": 93
   }
 ]
