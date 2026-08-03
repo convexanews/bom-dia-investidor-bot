@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-03T19:21:02.128Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 102 min."
+  },
+  {
     "data": "2026-08-03T19:02:51.897Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"Copom deve cortar juro a 14%, pausar até 2027 e depois retomar calibração, diz XP\".",
@@ -1056,10 +1061,5 @@
     "data": "2026-07-31T21:58:47.677Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 35 min."
-  },
-  {
-    "data": "2026-07-31T21:53:53.142Z",
-    "resultado": "carrossel_fechamento_suprimido",
-    "mensagem": "Fechamento não publicado: intervalo global mínimo de duas horas."
   }
 ]
