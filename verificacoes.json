@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-08-03T21:33:07.292Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Por que Ibovespa começou agosto “no zero”, enquanto Dow Jones bateu novo recorde?\".",
+    "postId": "18101914549930721",
+    "storyId": null,
+    "reelId": "18101914549930721",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-08-03T21:31:42.233Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 73): \"Por que Ibovespa começou agosto “no zero”, enquanto Dow Jones bateu novo recorde?\". Realizando postagem..."
+  },
+  {
     "data": "2026-08-03T21:01:03.783Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
@@ -1049,16 +1063,6 @@
   },
   {
     "data": "2026-08-01T00:04:32.821Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
-  },
-  {
-    "data": "2026-08-01T00:01:15.672Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
-  },
-  {
-    "data": "2026-07-31T23:31:02.601Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
   }
