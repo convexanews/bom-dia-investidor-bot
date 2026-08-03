@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-03T14:31:09.065Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
+  },
+  {
     "data": "2026-08-03T14:02:20.631Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"Ibovespa avança com otimismo de acordo entre EUA e Irã; 5 coisas para saber antes de investir hoje (3)\".",
@@ -1056,10 +1061,5 @@
     "data": "2026-07-31T17:22:35.088Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 36 min."
-  },
-  {
-    "data": "2026-07-31T17:01:10.445Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 57 min."
   }
 ]
