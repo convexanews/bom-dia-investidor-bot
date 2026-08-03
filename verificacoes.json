@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-03T18:01:05.121Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 32 min."
+  },
+  {
     "data": "2026-08-03T17:47:07.632Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 46 min."
@@ -1052,14 +1057,5 @@
     "data": "2026-07-31T20:55:56.559Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 98 min."
-  },
-  {
-    "data": "2026-07-31T20:33:35.931Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"Wall Street fecha em alta com tecnologia, mas Nasdaq derrete 3% e tem 2º mês de perdas\".",
-    "postId": "17960016981156008",
-    "storyId": null,
-    "reelId": "17960016981156008",
-    "tipo": "reel"
   }
 ]
