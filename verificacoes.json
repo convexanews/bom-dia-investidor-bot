@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-03T16:01:20.071Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
+  },
+  {
     "data": "2026-08-03T15:42:03.086Z",
     "resultado": "carrossel_educativo_suprimido",
     "mensagem": "Carrossel educativo não publicado: intervalo global mínimo de duas horas."
@@ -1052,10 +1057,5 @@
     "data": "2026-07-31T19:01:41.374Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 61 min."
-  },
-  {
-    "data": "2026-07-31T18:36:05.613Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 87 min."
   }
 ]
