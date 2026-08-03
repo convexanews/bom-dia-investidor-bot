@@ -1,5 +1,24 @@
 [
   {
+    "data": "2026-08-03T14:02:20.629Z",
+    "titulo": "Ibovespa avança com otimismo de acordo entre EUA e Irã; 5 coisas para saber antes de investir hoje (3)",
+    "categoria": "Mercados",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/ibovespa-5-coisas-3-8-26-apsa/",
+    "postId": "17985107910013679",
+    "storyId": null,
+    "reelId": "17985107910013679",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1785765663310.mp4",
+    "tipo": "reel",
+    "peso": 61,
+    "pilares": [
+      "macro",
+      "bolsa"
+    ]
+  },
+  {
     "data": "2026-08-03T11:02:49.214Z",
     "titulo": "Da Bolsa ao Bitcoin: 5 gráficos que podem definir os mercados na semana",
     "categoria": "Mercados",
@@ -3081,20 +3100,5 @@
     "videoUrl": null,
     "tipo": "card",
     "peso": 58
-  },
-  {
-    "data": "2026-07-03T11:33:06.553Z",
-    "titulo": "Fundo imobiliário compra fatia de shopping em Curitiba por R$ 45,2 milhões; IFIX avança",
-    "categoria": "Economia",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/fundo-imobiliario-compra-fatia-de-shopping-em-curitiba-por-r-452-milhoes-ifix-avanca-igdl/",
-    "postId": "18093193394040012",
-    "storyId": "17871272013547419",
-    "reelId": null,
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783078298896-slide1.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783078298896-story.png",
-    "videoUrl": null,
-    "tipo": "carrossel",
-    "peso": 32
   }
 ]

@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-08-03T14:02:20.631Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Ibovespa avança com otimismo de acordo entre EUA e Irã; 5 coisas para saber antes de investir hoje (3)\".",
+    "postId": "17985107910013679",
+    "storyId": null,
+    "reelId": "17985107910013679",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-08-03T14:00:59.168Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 61): \"Ibovespa avança com otimismo de acordo entre EUA e Irã; 5 coisas para saber antes de investir hoje (3)\". Realizando postagem..."
+  },
+  {
     "data": "2026-08-03T13:45:09.144Z",
     "resultado": "story_glossario",
     "mensagem": "Story do glossário publicado: \"B3\"",
@@ -1047,15 +1061,5 @@
     "data": "2026-07-31T17:01:10.445Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 57 min."
-  },
-  {
-    "data": "2026-07-31T16:31:24.512Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 87 min."
-  },
-  {
-    "data": "2026-07-31T16:01:06.869Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 117 min."
   }
 ]
