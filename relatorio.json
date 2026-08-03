@@ -1,5 +1,23 @@
 [
   {
+    "data": "2026-08-03T16:32:40.456Z",
+    "titulo": "Por que Brava (BRAV3), Prio (PRIO3) e outras petroleiras lideram as perdas do Ibovespa hoje (3)",
+    "categoria": "Mercados",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/por-que-brava-brav3-prio-prio3-e-outras-petroleiras-lideram-as-perdas-do-ibovespa-hoje-3/",
+    "postId": "18100284223961173",
+    "storyId": "18221802796334810",
+    "reelId": null,
+    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1785774690048-slide1.png",
+    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1785774690048-story.png",
+    "videoUrl": null,
+    "tipo": "carrossel",
+    "peso": 45,
+    "pilares": [
+      "bolsa"
+    ]
+  },
+  {
     "data": "2026-08-03T14:02:20.629Z",
     "titulo": "Ibovespa avança com otimismo de acordo entre EUA e Irã; 5 coisas para saber antes de investir hoje (3)",
     "categoria": "Mercados",
@@ -3085,20 +3103,5 @@
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783096120072.mp4",
     "tipo": "reel",
     "peso": 61
-  },
-  {
-    "data": "2026-07-03T14:02:32.509Z",
-    "titulo": "A grande alteração foi no pré-fixado’: juros altos recolocam pós-fixados no centro das atenções, avalia analista da Empiricus",
-    "categoria": "Renda Fixa",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/a-grande-alteracao-foi-no-pre-fixado-juros-altos-recolocam-pos-fixados-no-centro-das-atencoes-avalia-analista-da-empiricus-jcav/",
-    "postId": "18571597378064706",
-    "storyId": "18097490543339025",
-    "reelId": null,
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783087304888-feed.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783087304888-story.png",
-    "videoUrl": null,
-    "tipo": "card",
-    "peso": 58
   }
 ]
