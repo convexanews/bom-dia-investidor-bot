@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-04T10:01:35.384Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (07:01 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-08-04T09:35:43.084Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (06:35 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1056,10 +1061,5 @@
     "resultado": "story_glossario",
     "mensagem": "Story do glossário publicado: \"Renda Fixa\"",
     "postId": "18107925347043496"
-  },
-  {
-    "data": "2026-08-01T12:01:07.209Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 62 min."
   }
 ]
