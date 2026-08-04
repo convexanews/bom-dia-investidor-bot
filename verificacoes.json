@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-08-04T18:25:20.438Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (carrossel): \"Mercado pode estar superestimando altas de juros do Fed, diz ASA; ‘efeito Warsh’ perde força\".",
+    "postId": "18171396772449633",
+    "storyId": "18116077622484708",
+    "reelId": null,
+    "tipo": "carrossel"
+  },
+  {
+    "data": "2026-08-04T18:23:58.799Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 58): \"Mercado pode estar superestimando altas de juros do Fed, diz ASA; ‘efeito Warsh’ perde força\". Realizando postagem..."
+  },
+  {
     "data": "2026-08-04T18:01:09.087Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
@@ -1052,15 +1066,5 @@
     "data": "2026-08-01T20:02:03.838Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 1 min."
-  },
-  {
-    "data": "2026-08-01T19:31:38.895Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 31 min."
-  },
-  {
-    "data": "2026-08-01T19:00:56.420Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 62 min."
   }
 ]

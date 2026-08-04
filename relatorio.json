@@ -1,5 +1,24 @@
 [
   {
+    "data": "2026-08-04T18:25:20.437Z",
+    "titulo": "Mercado pode estar superestimando altas de juros do Fed, diz ASA; ‘efeito Warsh’ perde força",
+    "categoria": "Economia",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/mercado-pode-estar-superestimando-altas-de-juros-do-fed-diz-asa-efeito-warsh-perde-forca-jcav/",
+    "postId": "18171396772449633",
+    "storyId": "18116077622484708",
+    "reelId": null,
+    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1785867848564-slide1.png",
+    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1785867848564-story.png",
+    "videoUrl": null,
+    "tipo": "carrossel",
+    "peso": 58,
+    "pilares": [
+      "macro",
+      "bolsa"
+    ]
+  },
+  {
     "data": "2026-08-04T16:03:34.084Z",
     "titulo": "Menos otimismo? Investidores institucionais reduzem expectativa para o Ibovespa em 2026, segundo pesquisa do Itaú BBA",
     "categoria": "Mercados",
@@ -3112,20 +3131,5 @@
     "videoUrl": null,
     "tipo": "card",
     "peso": 21
-  },
-  {
-    "data": "2026-07-04T16:03:16.018Z",
-    "titulo": "Dividendos de 11%: Veja os fundos imobiliários recomendados pelo Itaú BBA para julho",
-    "categoria": "Economia",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/dividendos-de-11-veja-os-fundos-imobiliarios-recomendados-pelo-itau-bba-para-julho-igdl/",
-    "postId": "17896365327474094",
-    "storyId": "17934760071089670",
-    "reelId": null,
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783180910904-slide1.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783180910904-story.png",
-    "videoUrl": null,
-    "tipo": "carrossel",
-    "peso": 38
   }
 ]
