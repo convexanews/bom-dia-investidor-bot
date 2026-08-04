@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-04T08:31:07.446Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (05:31 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-08-04T08:01:04.176Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (05:01 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1060,10 +1065,5 @@
     "storyId": null,
     "reelId": "18097373096004665",
     "tipo": "reel"
-  },
-  {
-    "data": "2026-08-01T11:01:15.110Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 61): \"De Banco do Brasil (BBAS3) a Suzano (SUZB3): Os papéis que estão baratos na bolsa, na visão do ‘Buffett de Londrina’\". Realizando postagem..."
   }
 ]
