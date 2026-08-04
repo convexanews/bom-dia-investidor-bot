@@ -1,5 +1,11 @@
 [
   {
+    "data": "2026-08-04T13:34:34.926Z",
+    "resultado": "alerta_suprimido",
+    "mensagem": "Alerta de recorde não publicado: intervalo mínimo de duas horas.",
+    "ativo": "Ibovespa"
+  },
+  {
     "data": "2026-08-04T13:34:32.785Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"Ibovespa Hoje Ao Vivo: Bolsa dispara 1% com exterior e retoma os 180 mil pontos\".",
@@ -1060,10 +1066,5 @@
     "data": "2026-08-01T15:54:32.853Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 76): \"Tesouro Direto bate recorde em junho com impulso do Tesouro IPCA+\". Realizando postagem..."
-  },
-  {
-    "data": "2026-08-01T15:31:09.349Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
   }
 ]
