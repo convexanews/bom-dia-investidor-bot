@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-08-04T13:34:32.785Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Ibovespa Hoje Ao Vivo: Bolsa dispara 1% com exterior e retoma os 180 mil pontos\".",
+    "postId": "17909291391452168",
+    "storyId": null,
+    "reelId": "17909291391452168",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-08-04T13:32:16.817Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 73): \"Ibovespa Hoje Ao Vivo: Bolsa dispara 1% com exterior e retoma os 180 mil pontos\". Realizando postagem..."
+  },
+  {
     "data": "2026-08-04T13:06:22.975Z",
     "resultado": "story_glossario",
     "mensagem": "Story do glossário publicado: \"IPO\"",
@@ -1051,15 +1065,5 @@
     "data": "2026-08-01T15:31:09.349Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
-  },
-  {
-    "data": "2026-08-01T15:01:29.438Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 31 min."
-  },
-  {
-    "data": "2026-08-01T14:37:57.903Z",
-    "resultado": "comparativo_suprimido",
-    "mensagem": "Comparativo não publicado: intervalo global mínimo de duas horas."
   }
 ]

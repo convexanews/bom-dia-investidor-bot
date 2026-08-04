@@ -1,5 +1,24 @@
 [
   {
+    "data": "2026-08-04T13:34:32.784Z",
+    "titulo": "Ibovespa Hoje Ao Vivo: Bolsa dispara 1% com exterior e retoma os 180 mil pontos",
+    "categoria": "Mercados",
+    "fonte": "InfoMoney",
+    "link": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-04082026/",
+    "postId": "17909291391452168",
+    "storyId": null,
+    "reelId": "17909291391452168",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1785850343456.mp4",
+    "tipo": "reel",
+    "peso": 73,
+    "pilares": [
+      "macro",
+      "bolsa"
+    ]
+  },
+  {
     "data": "2026-08-04T11:03:12.807Z",
     "titulo": "BC se prepara para cortar Selic: veja os dados que pesam na decisão",
     "categoria": "Economia",
@@ -3104,20 +3123,5 @@
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783171919590.mp4",
     "tipo": "reel",
     "peso": 38
-  },
-  {
-    "data": "2026-07-04T11:02:36.710Z",
-    "titulo": "Projeções para o Ibov e “guerra” das canetas emagrecedoras; veja destaques da semana",
-    "categoria": "Onde Investir",
-    "fonte": "InfoMoney",
-    "link": "https://www.infomoney.com.br/onde-investir/projecoes-para-o-ibov-e-guerra-das-canetas-emagrecedoras-veja-destaques-da-semana/",
-    "postId": "18105785396089771",
-    "storyId": "18226745983318306",
-    "reelId": null,
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783162906743-feed.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783162906743-story.png",
-    "videoUrl": null,
-    "tipo": "card",
-    "peso": 36
   }
 ]
