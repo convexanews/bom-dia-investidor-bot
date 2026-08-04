@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-08-04T01:02:33.117Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (carrossel): \"VIUR11 adia venda de imóvel e firma acordo por aluguéis em atraso\".",
+    "postId": "18133204132612309",
+    "storyId": "18012106514928326",
+    "reelId": null,
+    "tipo": "carrossel"
+  },
+  {
+    "data": "2026-08-04T01:01:07.081Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 25): \"VIUR11 adia venda de imóvel e firma acordo por aluguéis em atraso\". Realizando postagem..."
+  },
+  {
     "data": "2026-08-04T00:31:21.148Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
@@ -1051,15 +1065,5 @@
     "data": "2026-08-01T04:31:05.616Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (01:31 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-08-01T04:17:22.579Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (01:17 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-08-01T04:01:22.615Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (01:01 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]

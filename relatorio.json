@@ -1,5 +1,24 @@
 [
   {
+    "data": "2026-08-04T01:02:33.116Z",
+    "titulo": "VIUR11 adia venda de imóvel e firma acordo por aluguéis em atraso",
+    "categoria": "FIIs",
+    "fonte": "Suno",
+    "link": "https://www.suno.com.br/noticias/viur11-adia-venda-de-imovel-e-firma-acordo-por-alugueis-em-atraso/",
+    "postId": "18133204132612309",
+    "storyId": "18012106514928326",
+    "reelId": null,
+    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1785805272616-slide1.png",
+    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1785805272616-story.png",
+    "videoUrl": null,
+    "tipo": "carrossel",
+    "peso": 25,
+    "pilares": [
+      "bolsa",
+      "fiis"
+    ]
+  },
+  {
     "data": "2026-08-03T21:33:07.291Z",
     "titulo": "Por que Ibovespa começou agosto “no zero”, enquanto Dow Jones bateu novo recorde?",
     "categoria": "Mercados",
@@ -3096,20 +3115,5 @@
     "videoUrl": null,
     "tipo": "carrossel",
     "peso": 25
-  },
-  {
-    "data": "2026-07-03T21:02:41.139Z",
-    "titulo": "Dólar fecha a R$ 5,16, com queda de 0,76%, em pregão de liquidez reduzida",
-    "categoria": "Mercados",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/dolar-fecha-a-r-516-com-queda-de-076-em-pregao-de-liquidez-reduzida/",
-    "postId": "17972847171068797",
-    "storyId": "18600489817016609",
-    "reelId": null,
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783112514143-feed.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783112514143-story.png",
-    "videoUrl": null,
-    "tipo": "card",
-    "peso": 57
   }
 ]
