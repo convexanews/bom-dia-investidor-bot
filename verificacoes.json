@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-04T12:01:50.365Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 62 min."
+  },
+  {
     "data": "2026-08-04T11:57:49.850Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 66 min."
@@ -1055,14 +1060,5 @@
     "data": "2026-08-01T14:01:09.025Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
-  },
-  {
-    "data": "2026-08-01T13:32:16.097Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (carrossel): \"Bitcoin ronda US$ 63 mil após semana de Fed, guerra e balanços de big techs; veja cotações das criptomoedas hoje (1)\".",
-    "postId": "18104581979149223",
-    "storyId": "18607519270017662",
-    "reelId": null,
-    "tipo": "carrossel"
   }
 ]
