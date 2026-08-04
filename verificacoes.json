@@ -1,5 +1,11 @@
 [
   {
+    "data": "2026-08-04T13:06:22.975Z",
+    "resultado": "story_glossario",
+    "mensagem": "Story do glossário publicado: \"IPO\"",
+    "postId": "18137883535599986"
+  },
+  {
     "data": "2026-08-04T13:01:11.887Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
@@ -1055,10 +1061,5 @@
     "data": "2026-08-01T14:37:57.903Z",
     "resultado": "comparativo_suprimido",
     "mensagem": "Comparativo não publicado: intervalo global mínimo de duas horas."
-  },
-  {
-    "data": "2026-08-01T14:36:10.651Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 57 min."
   }
 ]
