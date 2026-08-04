@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-04T21:01:13.334Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
+  },
+  {
     "data": "2026-08-04T20:32:55.302Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"Wall Street salta com expectativa de acordo de Ormuz; S&P 500 e Dow Jones batem recordes\".",
@@ -1061,10 +1066,5 @@
     "data": "2026-08-01T22:31:16.819Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
-  },
-  {
-    "data": "2026-08-01T22:01:11.622Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 8 min."
   }
 ]
