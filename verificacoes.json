@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-04T16:31:05.565Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 93 min."
+  },
+  {
     "data": "2026-08-04T16:03:34.085Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"Menos otimismo? Investidores institucionais reduzem expectativa para o Ibovespa em 2026, segundo pesquisa do Itaú BBA\".",
@@ -1061,10 +1066,5 @@
     "data": "2026-08-01T18:01:06.293Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 31): \"Incêndios devastam Grécia, França e Espanha em meio a ventos fortes e calor recorde\". Realizando postagem..."
-  },
-  {
-    "data": "2026-08-01T17:54:58.173Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
   }
 ]
