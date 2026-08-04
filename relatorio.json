@@ -1,5 +1,24 @@
 [
   {
+    "data": "2026-08-04T16:03:34.084Z",
+    "titulo": "Menos otimismo? Investidores institucionais reduzem expectativa para o Ibovespa em 2026, segundo pesquisa do Itaú BBA",
+    "categoria": "Mercados",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/menos-otimismo-investidores-institucionais-reduzem-expectativa-para-o-ibovespa-em-2026-segundo-pesquisa-do-itau-bba-apsa/",
+    "postId": "17976525627082793",
+    "storyId": null,
+    "reelId": "17976525627082793",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1785859319762.mp4",
+    "tipo": "reel",
+    "peso": 61,
+    "pilares": [
+      "macro",
+      "bolsa"
+    ]
+  },
+  {
     "data": "2026-08-04T13:34:32.784Z",
     "titulo": "Ibovespa Hoje Ao Vivo: Bolsa dispara 1% com exterior e retoma os 180 mil pontos",
     "categoria": "Mercados",
@@ -3107,21 +3126,6 @@
     "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783180910904-story.png",
     "videoUrl": null,
     "tipo": "carrossel",
-    "peso": 38
-  },
-  {
-    "data": "2026-07-04T13:33:35.325Z",
-    "titulo": "Dividendos de julho, Fred Trajano sereno e FIIs: o que bombou no Money Times nesta semana",
-    "categoria": "Economia",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/dividendos-de-julho-fred-trajano-sereno-e-fiis-o-que-bombou-no-money-times-nesta-semana/",
-    "postId": "18011161958733366",
-    "storyId": null,
-    "reelId": "18011161958733366",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783171919590.mp4",
-    "tipo": "reel",
     "peso": 38
   }
 ]
