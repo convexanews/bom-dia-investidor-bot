@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-04T17:01:06.249Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 63 min."
+  },
+  {
     "data": "2026-08-04T16:47:04.212Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 77 min."
@@ -1057,14 +1062,5 @@
     "data": "2026-08-01T18:31:09.321Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
-  },
-  {
-    "data": "2026-08-01T18:02:34.268Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (carrossel): \"Incêndios devastam Grécia, França e Espanha em meio a ventos fortes e calor recorde\".",
-    "postId": "17891443647657320",
-    "storyId": "18109619705072844",
-    "reelId": null,
-    "tipo": "carrossel"
   }
 ]
