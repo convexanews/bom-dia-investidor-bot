@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-08-04T23:02:47.390Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (carrossel): \"C&A (CEAB3) lucra R$ 130,1 milhões no 2T26, alta de 4,3% no ano\".",
+    "postId": "18112881934978817",
+    "storyId": "18101951671900584",
+    "reelId": null,
+    "tipo": "carrossel"
+  },
+  {
+    "data": "2026-08-04T23:01:25.754Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 59): \"C&A (CEAB3) lucra R$ 130,1 milhões no 2T26, alta de 4,3% no ano\". Realizando postagem..."
+  },
+  {
     "data": "2026-08-04T22:30:55.487Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
@@ -1054,16 +1068,6 @@
   },
   {
     "data": "2026-08-02T01:01:04.979Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
-  },
-  {
-    "data": "2026-08-02T00:32:05.998Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
-  },
-  {
-    "data": "2026-08-02T00:01:14.498Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
   }

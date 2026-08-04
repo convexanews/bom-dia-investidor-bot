@@ -1,5 +1,23 @@
 [
   {
+    "data": "2026-08-04T23:02:47.389Z",
+    "titulo": "C&A (CEAB3) lucra R$ 130,1 milhões no 2T26, alta de 4,3% no ano",
+    "categoria": "Empresas",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/ca-ceab3-lucra-r-1301-milhoes-no-2t26-alta-de-43-no-ano-vtra/",
+    "postId": "18112881934978817",
+    "storyId": "18101951671900584",
+    "reelId": null,
+    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1785884495608-slide1.png",
+    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1785884495608-story.png",
+    "videoUrl": null,
+    "tipo": "carrossel",
+    "peso": 59,
+    "pilares": [
+      "bolsa"
+    ]
+  },
+  {
     "data": "2026-08-04T20:32:55.301Z",
     "titulo": "Wall Street salta com expectativa de acordo de Ormuz; S&P 500 e Dow Jones batem recordes",
     "categoria": "Mercados",
@@ -3120,20 +3138,5 @@
     "videoUrl": null,
     "tipo": "card",
     "peso": 22
-  },
-  {
-    "data": "2026-07-04T20:33:02.266Z",
-    "titulo": "Goldman Sachs vê fraqueza ampla do dólar como improvável no curto prazo",
-    "categoria": "MERCADO",
-    "fonte": "Investing.com",
-    "link": "https://br.investing.com/news/economy-news/goldman-sachs-ve-dolar-forte-por-mais-tempo-sem-reversao-a-vista-1992185",
-    "postId": "18124811494657966",
-    "storyId": "18477300145099360",
-    "reelId": null,
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783197106816-slide1.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783197106816-story.png",
-    "videoUrl": null,
-    "tipo": "carrossel",
-    "peso": 13
   }
 ]
