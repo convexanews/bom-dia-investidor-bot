@@ -1,5 +1,24 @@
 [
   {
+    "data": "2026-08-04T11:03:12.807Z",
+    "titulo": "BC se prepara para cortar Selic: veja os dados que pesam na decisão",
+    "categoria": "Economia",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/bc-se-prepara-para-cortar-selic-veja-os-dados-que-pesam-na-decisao-jcav/",
+    "postId": "17995844535003941",
+    "storyId": null,
+    "reelId": "17995844535003941",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1785841315438.mp4",
+    "tipo": "reel",
+    "peso": 71,
+    "pilares": [
+      "macro",
+      "bolsa"
+    ]
+  },
+  {
     "data": "2026-08-04T01:02:33.116Z",
     "titulo": "VIUR11 adia venda de imóvel e firma acordo por aluguéis em atraso",
     "categoria": "FIIs",
@@ -3100,20 +3119,5 @@
     "videoUrl": null,
     "tipo": "card",
     "peso": 36
-  },
-  {
-    "data": "2026-07-03T23:33:22.065Z",
-    "titulo": "Genial troca BTLG11 por GGRC11 em carteira recomendada de FIIs para julho",
-    "categoria": "FIIs",
-    "fonte": "Suno",
-    "link": "https://www.suno.com.br/noticias/genial-troca-btlg11-por-ggrc11-em-carteira-recomendada-de-fiis-para-julho/",
-    "postId": "17993534091002325",
-    "storyId": "17895990441511994",
-    "reelId": null,
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783121522225-slide1.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783121522225-story.png",
-    "videoUrl": null,
-    "tipo": "carrossel",
-    "peso": 25
   }
 ]
