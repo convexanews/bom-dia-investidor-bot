@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-08-04T20:32:55.302Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Wall Street salta com expectativa de acordo de Ormuz; S&P 500 e Dow Jones batem recordes\".",
+    "postId": "18116838667901509",
+    "storyId": null,
+    "reelId": "18116838667901509",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-08-04T20:31:18.608Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 90): \"Wall Street salta com expectativa de acordo de Ormuz; S&P 500 e Dow Jones batem recordes\". Realizando postagem..."
+  },
+  {
     "data": "2026-08-04T20:19:40.721Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 6 min."
@@ -1052,15 +1066,5 @@
     "data": "2026-08-01T22:01:11.622Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 8 min."
-  },
-  {
-    "data": "2026-08-01T21:45:45.875Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 23 min."
-  },
-  {
-    "data": "2026-08-01T21:31:04.031Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 38 min."
   }
 ]

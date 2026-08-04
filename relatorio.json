@@ -1,5 +1,24 @@
 [
   {
+    "data": "2026-08-04T20:32:55.301Z",
+    "titulo": "Wall Street salta com expectativa de acordo de Ormuz; S&P 500 e Dow Jones batem recordes",
+    "categoria": "Mercados",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/wall-street-4-8-26-lils/",
+    "postId": "18116838667901509",
+    "storyId": null,
+    "reelId": "18116838667901509",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1785875487102.mp4",
+    "tipo": "reel",
+    "peso": 90,
+    "pilares": [
+      "bolsa",
+      "exterior"
+    ]
+  },
+  {
     "data": "2026-08-04T18:25:20.437Z",
     "titulo": "Mercado pode estar superestimando altas de juros do Fed, diz ASA; ‘efeito Warsh’ perde força",
     "categoria": "Economia",
@@ -3116,20 +3135,5 @@
     "videoUrl": null,
     "tipo": "carrossel",
     "peso": 13
-  },
-  {
-    "data": "2026-07-04T18:06:10.461Z",
-    "titulo": "Presidente da Turquia afirma que Israel não pode arruinar acordo entre EUA e Irã",
-    "categoria": "Mundo",
-    "fonte": "InfoMoney",
-    "link": "https://www.infomoney.com.br/mundo/presidente-da-turquia-afirma-que-israel-nao-pode-arruinar-acordo-entre-eua-e-ira/",
-    "postId": "17961998982131662",
-    "storyId": "18150370363446177",
-    "reelId": null,
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783188323513-feed.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783188323513-story.png",
-    "videoUrl": null,
-    "tipo": "card",
-    "peso": 21
   }
 ]
