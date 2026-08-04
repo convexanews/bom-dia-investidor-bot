@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-04T19:31:07.704Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 55 min."
+  },
+  {
     "data": "2026-08-04T19:01:21.098Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 84 min."
@@ -1057,14 +1062,5 @@
     "data": "2026-08-01T20:31:00.534Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 98 min."
-  },
-  {
-    "data": "2026-08-01T20:08:40.117Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (card): \"Reforma Tributária: quem tem MEI ou pequeno negócio ganha mais tempo pra se adaptar\".",
-    "postId": "17894846322592994",
-    "storyId": "18064389554723047",
-    "reelId": null,
-    "tipo": "card"
   }
 ]
