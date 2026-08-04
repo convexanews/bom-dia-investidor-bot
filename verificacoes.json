@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-04T18:31:03.837Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 115 min."
+  },
+  {
     "data": "2026-08-04T18:25:20.438Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (carrossel): \"Mercado pode estar superestimando altas de juros do Fed, diz ASA; ‘efeito Warsh’ perde força\".",
@@ -1061,10 +1066,5 @@
     "data": "2026-08-01T20:07:45.735Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 20): \"Reforma Tributária: quem tem MEI ou pequeno negócio ganha mais tempo pra se adaptar\". Realizando postagem..."
-  },
-  {
-    "data": "2026-08-01T20:02:03.838Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 1 min."
   }
 ]
