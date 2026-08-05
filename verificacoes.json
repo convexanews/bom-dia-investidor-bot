@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-05T14:30:54.234Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 63 min."
+  },
+  {
     "data": "2026-08-05T14:01:13.052Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 93 min."
@@ -1069,14 +1074,5 @@
     "data": "2026-08-02T15:54:27.603Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 98 min."
-  },
-  {
-    "data": "2026-08-02T15:32:19.123Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (card): \"Copom e payroll rouba atenção dos mercados; confira a agenda semana\".",
-    "postId": "18401982574081785",
-    "storyId": "18304237909303285",
-    "reelId": null,
-    "tipo": "card"
   }
 ]
