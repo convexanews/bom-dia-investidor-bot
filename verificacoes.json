@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-05T19:30:54.709Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 63 min."
+  },
+  {
     "data": "2026-08-05T19:17:17.749Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 77 min."
@@ -1069,14 +1074,5 @@
     "data": "2026-08-02T20:08:45.717Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 115 min."
-  },
-  {
-    "data": "2026-08-02T20:03:02.198Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (card): \"Calendário econômico semanal: Copom no Brasil e trabalho nos EUA são destaques\".",
-    "postId": "18096122159618718",
-    "storyId": "18476585593106601",
-    "reelId": null,
-    "tipo": "card"
   }
 ]
