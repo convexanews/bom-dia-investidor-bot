@@ -1,16 +1,17 @@
 [
   {
-    "postId": "17995844535003941",
-    "dataColeta": "2026-08-04T13:13:23.057Z",
-    "dataPostagem": "2026-08-04T11:03:12.807Z",
+    "postId": "17958870759189977",
+    "dataColeta": "2026-08-05T13:08:22.636Z",
+    "dataPostagem": "2026-08-05T11:03:19.220Z",
     "tipo": "reel",
     "pilares": [
       "macro",
-      "bolsa"
+      "bolsa",
+      "exterior"
     ],
-    "peso": 71,
+    "peso": 81,
     "fonte": "Money Times",
-    "titulo": "BC se prepara para cortar Selic: veja os dados que pesam na decisão",
+    "titulo": "Mercado à espera da decisão do Copom; Ibovespa em dólar sobe hoje (5)",
     "insights": {
       "reach": 8,
       "saved": 0,
@@ -21,8 +22,154 @@
     }
   },
   {
+    "postId": "17966043903130307",
+    "dataColeta": "2026-08-05T13:08:23.758Z",
+    "dataPostagem": "2026-08-05T01:31:48.224Z",
+    "tipo": "card",
+    "pilares": [
+      "bolsa",
+      "exterior"
+    ],
+    "peso": 23,
+    "fonte": "Investing.com",
+    "titulo": "Attovia Therapeutics precifica IPO a US$ 17,00 por ação na Nasdaq",
+    "insights": {
+      "reach": 7,
+      "saved": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "total_interactions": 0
+    }
+  },
+  {
+    "postId": "18112881934978817",
+    "dataColeta": "2026-08-05T13:08:24.750Z",
+    "dataPostagem": "2026-08-04T23:02:47.389Z",
+    "tipo": "carrossel",
+    "pilares": [
+      "bolsa"
+    ],
+    "peso": 59,
+    "fonte": "Money Times",
+    "titulo": "C&A (CEAB3) lucra R$ 130,1 milhões no 2T26, alta de 4,3% no ano",
+    "insights": {
+      "reach": 10,
+      "saved": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "total_interactions": 0
+    }
+  },
+  {
+    "postId": "18116838667901509",
+    "dataColeta": "2026-08-05T13:08:25.836Z",
+    "dataPostagem": "2026-08-04T20:32:55.301Z",
+    "tipo": "reel",
+    "pilares": [
+      "bolsa",
+      "exterior"
+    ],
+    "peso": 90,
+    "fonte": "Money Times",
+    "titulo": "Wall Street salta com expectativa de acordo de Ormuz; S&P 500 e Dow Jones batem recordes",
+    "insights": {
+      "reach": 25,
+      "saved": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "total_interactions": 0
+    }
+  },
+  {
+    "postId": "18171396772449633",
+    "dataColeta": "2026-08-05T13:08:26.841Z",
+    "dataPostagem": "2026-08-04T18:25:20.437Z",
+    "tipo": "carrossel",
+    "pilares": [
+      "macro",
+      "bolsa"
+    ],
+    "peso": 58,
+    "fonte": "Money Times",
+    "titulo": "Mercado pode estar superestimando altas de juros do Fed, diz ASA; ‘efeito Warsh’ perde força",
+    "insights": {
+      "reach": 12,
+      "saved": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 1,
+      "total_interactions": 1
+    }
+  },
+  {
+    "postId": "17976525627082793",
+    "dataColeta": "2026-08-05T13:08:27.777Z",
+    "dataPostagem": "2026-08-04T16:03:34.084Z",
+    "tipo": "reel",
+    "pilares": [
+      "macro",
+      "bolsa"
+    ],
+    "peso": 61,
+    "fonte": "Money Times",
+    "titulo": "Menos otimismo? Investidores institucionais reduzem expectativa para o Ibovespa em 2026, segundo pesquisa do Itaú BBA",
+    "insights": {
+      "reach": 23,
+      "saved": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "total_interactions": 0
+    }
+  },
+  {
+    "postId": "17909291391452168",
+    "dataColeta": "2026-08-05T13:08:28.763Z",
+    "dataPostagem": "2026-08-04T13:34:32.784Z",
+    "tipo": "reel",
+    "pilares": [
+      "macro",
+      "bolsa"
+    ],
+    "peso": 73,
+    "fonte": "InfoMoney",
+    "titulo": "Ibovespa Hoje Ao Vivo: Bolsa dispara 1% com exterior e retoma os 180 mil pontos",
+    "insights": {
+      "reach": 27,
+      "saved": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 1,
+      "total_interactions": 1
+    }
+  },
+  {
+    "postId": "17995844535003941",
+    "dataColeta": "2026-08-05T13:08:29.852Z",
+    "dataPostagem": "2026-08-04T11:03:12.807Z",
+    "tipo": "reel",
+    "pilares": [
+      "macro",
+      "bolsa"
+    ],
+    "peso": 71,
+    "fonte": "Money Times",
+    "titulo": "BC se prepara para cortar Selic: veja os dados que pesam na decisão",
+    "insights": {
+      "reach": 104,
+      "saved": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 1,
+      "total_interactions": 1
+    }
+  },
+  {
     "postId": "18133204132612309",
-    "dataColeta": "2026-08-04T13:13:23.906Z",
+    "dataColeta": "2026-08-05T13:08:30.876Z",
     "dataPostagem": "2026-08-04T01:02:33.116Z",
     "tipo": "carrossel",
     "pilares": [
@@ -33,7 +180,7 @@
     "fonte": "Suno",
     "titulo": "VIUR11 adia venda de imóvel e firma acordo por aluguéis em atraso",
     "insights": {
-      "reach": 8,
+      "reach": 11,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -43,7 +190,7 @@
   },
   {
     "postId": "18101914549930721",
-    "dataColeta": "2026-08-04T13:13:24.918Z",
+    "dataColeta": "2026-08-05T13:08:31.810Z",
     "dataPostagem": "2026-08-03T21:33:07.291Z",
     "tipo": "reel",
     "pilares": [
@@ -54,7 +201,7 @@
     "fonte": "InfoMoney",
     "titulo": "Por que Ibovespa começou agosto “no zero”, enquanto Dow Jones bateu novo recorde?",
     "insights": {
-      "reach": 73,
+      "reach": 105,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -64,7 +211,7 @@
   },
   {
     "postId": "17877623787653309",
-    "dataColeta": "2026-08-04T13:13:25.674Z",
+    "dataColeta": "2026-08-05T13:08:32.797Z",
     "dataPostagem": "2026-08-03T19:02:51.896Z",
     "tipo": "reel",
     "pilares": [
@@ -75,7 +222,7 @@
     "fonte": "InfoMoney",
     "titulo": "Copom deve cortar juro a 14%, pausar até 2027 e depois retomar calibração, diz XP",
     "insights": {
-      "reach": 33,
+      "reach": 39,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -85,7 +232,7 @@
   },
   {
     "postId": "18100284223961173",
-    "dataColeta": "2026-08-04T13:13:26.555Z",
+    "dataColeta": "2026-08-05T13:08:33.770Z",
     "dataPostagem": "2026-08-03T16:32:40.456Z",
     "tipo": "carrossel",
     "pilares": [
@@ -95,7 +242,7 @@
     "fonte": "Money Times",
     "titulo": "Por que Brava (BRAV3), Prio (PRIO3) e outras petroleiras lideram as perdas do Ibovespa hoje (3)",
     "insights": {
-      "reach": 9,
+      "reach": 13,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -105,7 +252,7 @@
   },
   {
     "postId": "17985107910013679",
-    "dataColeta": "2026-08-04T13:13:27.283Z",
+    "dataColeta": "2026-08-05T13:08:34.668Z",
     "dataPostagem": "2026-08-03T14:02:20.629Z",
     "tipo": "reel",
     "pilares": [
@@ -126,7 +273,7 @@
   },
   {
     "postId": "17900049921513953",
-    "dataColeta": "2026-08-04T13:13:28.073Z",
+    "dataColeta": "2026-08-05T13:08:35.633Z",
     "dataPostagem": "2026-08-03T11:02:49.214Z",
     "tipo": "reel",
     "pilares": [
@@ -139,7 +286,7 @@
     "fonte": "InfoMoney",
     "titulo": "Da Bolsa ao Bitcoin: 5 gráficos que podem definir os mercados na semana",
     "insights": {
-      "reach": 44,
+      "reach": 45,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -149,7 +296,7 @@
   },
   {
     "postId": "18055451495547092",
-    "dataColeta": "2026-08-04T13:13:29.018Z",
+    "dataColeta": "2026-08-05T13:08:36.707Z",
     "dataPostagem": "2026-08-02T22:47:58.772Z",
     "tipo": "carrossel",
     "pilares": [
@@ -159,7 +306,7 @@
     "fonte": "InfoMoney",
     "titulo": "Trump afirma que EUA e Irã reiniciam negociações nesta segunda-feira, diz emissora",
     "insights": {
-      "reach": 20,
+      "reach": 22,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -169,7 +316,7 @@
   },
   {
     "postId": "18096122159618718",
-    "dataColeta": "2026-08-04T13:13:30.047Z",
+    "dataColeta": "2026-08-05T13:08:37.844Z",
     "dataPostagem": "2026-08-02T20:03:02.197Z",
     "tipo": "card",
     "pilares": [
@@ -179,7 +326,7 @@
     "fonte": "InfoMoney",
     "titulo": "Calendário econômico semanal: Copom no Brasil e trabalho nos EUA são destaques",
     "insights": {
-      "reach": 11,
+      "reach": 12,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -189,7 +336,7 @@
   },
   {
     "postId": "18002647214976509",
-    "dataColeta": "2026-08-04T13:13:30.946Z",
+    "dataColeta": "2026-08-05T13:08:38.939Z",
     "dataPostagem": "2026-08-02T17:56:46.291Z",
     "tipo": "carrossel",
     "pilares": [
@@ -199,7 +346,7 @@
     "fonte": "InfoMoney",
     "titulo": "Petrobras eleva querosene de aviação em 1,9%  nas refinarias",
     "insights": {
-      "reach": 15,
+      "reach": 18,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -209,7 +356,7 @@
   },
   {
     "postId": "18401982574081785",
-    "dataColeta": "2026-08-04T13:13:32.225Z",
+    "dataColeta": "2026-08-05T13:08:39.882Z",
     "dataPostagem": "2026-08-02T15:32:19.121Z",
     "tipo": "card",
     "pilares": [
@@ -220,7 +367,7 @@
     "fonte": "Money Times",
     "titulo": "Copom e payroll rouba atenção dos mercados; confira a agenda semana",
     "insights": {
-      "reach": 17,
+      "reach": 21,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -230,7 +377,7 @@
   },
   {
     "postId": "18107952683157066",
-    "dataColeta": "2026-08-04T13:13:33.189Z",
+    "dataColeta": "2026-08-05T13:08:40.917Z",
     "dataPostagem": "2026-08-02T13:02:41.161Z",
     "tipo": "carrossel",
     "pilares": [
@@ -241,7 +388,7 @@
     "fonte": "InfoMoney",
     "titulo": "Alvo de disputa, definição de stablecoins pode afetar competência, autorização e IOF",
     "insights": {
-      "reach": 8,
+      "reach": 9,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -251,7 +398,7 @@
   },
   {
     "postId": "17894846322592994",
-    "dataColeta": "2026-08-04T13:13:34.029Z",
+    "dataColeta": "2026-08-05T13:08:41.776Z",
     "dataPostagem": "2026-08-01T20:08:40.116Z",
     "tipo": "card",
     "pilares": [
@@ -262,7 +409,7 @@
     "fonte": "InfoMoney",
     "titulo": "Reforma Tributária: quem tem MEI ou pequeno negócio ganha mais tempo pra se adaptar",
     "insights": {
-      "reach": 15,
+      "reach": 16,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -272,7 +419,7 @@
   },
   {
     "postId": "17891443647657320",
-    "dataColeta": "2026-08-04T13:13:34.741Z",
+    "dataColeta": "2026-08-05T13:08:42.779Z",
     "dataPostagem": "2026-08-01T18:02:34.267Z",
     "tipo": "carrossel",
     "pilares": [
@@ -292,7 +439,7 @@
   },
   {
     "postId": "17975108970116759",
-    "dataColeta": "2026-08-04T13:13:35.518Z",
+    "dataColeta": "2026-08-05T13:08:43.609Z",
     "dataPostagem": "2026-08-01T15:56:21.423Z",
     "tipo": "reel",
     "pilares": [
@@ -304,7 +451,7 @@
     "fonte": "Money Times",
     "titulo": "Tesouro Direto bate recorde em junho com impulso do Tesouro IPCA+",
     "insights": {
-      "reach": 107,
+      "reach": 109,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -314,7 +461,7 @@
   },
   {
     "postId": "18104581979149223",
-    "dataColeta": "2026-08-04T13:13:36.362Z",
+    "dataColeta": "2026-08-05T13:08:44.673Z",
     "dataPostagem": "2026-08-01T13:32:16.095Z",
     "tipo": "carrossel",
     "pilares": [
@@ -327,7 +474,7 @@
     "fonte": "Money Times",
     "titulo": "Bitcoin ronda US$ 63 mil após semana de Fed, guerra e balanços de big techs; veja cotações das criptomoedas hoje (1)",
     "insights": {
-      "reach": 15,
+      "reach": 16,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -337,7 +484,7 @@
   },
   {
     "postId": "18097373096004665",
-    "dataColeta": "2026-08-04T13:13:37.211Z",
+    "dataColeta": "2026-08-05T13:08:45.681Z",
     "dataPostagem": "2026-08-01T11:02:47.067Z",
     "tipo": "reel",
     "pilares": [
@@ -348,7 +495,7 @@
     "fonte": "Money Times",
     "titulo": "De Banco do Brasil (BBAS3) a Suzano (SUZB3): Os papéis que estão baratos na bolsa, na visão do ‘Buffett de Londrina’",
     "insights": {
-      "reach": 171,
+      "reach": 174,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -358,7 +505,7 @@
   },
   {
     "postId": "17964003468136393",
-    "dataColeta": "2026-08-04T13:13:37.926Z",
+    "dataColeta": "2026-08-05T13:08:46.708Z",
     "dataPostagem": "2026-08-01T01:02:37.852Z",
     "tipo": "carrossel",
     "pilares": [
@@ -368,155 +515,7 @@
     "fonte": "InfoMoney",
     "titulo": "Controladores da Natura pedem dispensa de OPA em acordo de investimento com Advent",
     "insights": {
-      "reach": 12,
-      "saved": 0,
-      "shares": 0,
-      "comments": 0,
-      "likes": 0,
-      "total_interactions": 0
-    }
-  },
-  {
-    "postId": "17960016981156008",
-    "dataColeta": "2026-08-04T13:13:38.709Z",
-    "dataPostagem": "2026-07-31T20:33:35.929Z",
-    "tipo": "reel",
-    "pilares": [
-      "bolsa",
-      "exterior"
-    ],
-    "peso": 83,
-    "fonte": "Money Times",
-    "titulo": "Wall Street fecha em alta com tecnologia, mas Nasdaq derrete 3% e tem 2º mês de perdas",
-    "insights": {
-      "reach": 53,
-      "saved": 0,
-      "shares": 0,
-      "comments": 0,
-      "likes": 2,
-      "total_interactions": 2
-    }
-  },
-  {
-    "postId": "18060906626587878",
-    "dataColeta": "2026-08-04T13:13:39.486Z",
-    "dataPostagem": "2026-07-31T18:02:31.541Z",
-    "tipo": "carrossel",
-    "pilares": [
-      "macro",
-      "bolsa"
-    ],
-    "peso": 56,
-    "fonte": "InfoMoney",
-    "titulo": "Cenário externo é o gatilho para a “bomba” fiscal do Brasil, alerta Armor Capital",
-    "insights": {
-      "reach": 20,
-      "saved": 0,
-      "shares": 0,
-      "comments": 0,
-      "likes": 0,
-      "total_interactions": 0
-    }
-  },
-  {
-    "postId": "17879264628618112",
-    "dataColeta": "2026-08-04T13:13:40.345Z",
-    "dataPostagem": "2026-07-31T15:58:00.435Z",
-    "tipo": "reel",
-    "pilares": [
-      "macro",
-      "bolsa"
-    ],
-    "peso": 62,
-    "fonte": "InfoMoney",
-    "titulo": "Com mais de duas horas de “atraso”, Ibovespa abre em alta com exterior e Vale",
-    "insights": {
-      "reach": 106,
-      "saved": 0,
-      "shares": 0,
-      "comments": 0,
-      "likes": 1,
-      "total_interactions": 1
-    }
-  },
-  {
-    "postId": "18098661851601330",
-    "dataColeta": "2026-08-04T13:13:41.146Z",
-    "dataPostagem": "2026-07-31T13:32:41.749Z",
-    "tipo": "reel",
-    "pilares": [
-      "macro",
-      "bolsa"
-    ],
-    "peso": 75,
-    "fonte": "Money Times",
-    "titulo": "Selic em 13,75%? Economia e inflação mais fracas abrem espaço para mais cortes de juros, segundo Itaú BBA",
-    "insights": {
-      "reach": 125,
-      "saved": 0,
-      "shares": 0,
-      "comments": 0,
-      "likes": 0,
-      "total_interactions": 0
-    }
-  },
-  {
-    "postId": "18006877883953118",
-    "dataColeta": "2026-08-04T13:13:41.990Z",
-    "dataPostagem": "2026-07-31T11:02:41.983Z",
-    "tipo": "reel",
-    "pilares": [
-      "macro",
-      "bolsa"
-    ],
-    "peso": 69,
-    "fonte": "Money Times",
-    "titulo": "Inflação na zona do euro acelera em julho e reforça argumentos para alta de juros",
-    "insights": {
-      "reach": 29,
-      "saved": 0,
-      "shares": 0,
-      "comments": 0,
-      "likes": 0,
-      "total_interactions": 0
-    }
-  },
-  {
-    "postId": "18105573182128284",
-    "dataColeta": "2026-08-04T13:13:42.924Z",
-    "dataPostagem": "2026-07-30T23:02:29.099Z",
-    "tipo": "carrossel",
-    "pilares": [
-      "macro",
-      "bolsa",
-      "exterior"
-    ],
-    "peso": 41,
-    "fonte": "Money Times",
-    "titulo": "Vale (VALE3) tem lucro 43% menor no 2T26 e revisa guidance de custos do minério",
-    "insights": {
-      "reach": 8,
-      "saved": 0,
-      "shares": 0,
-      "comments": 0,
-      "likes": 0,
-      "total_interactions": 0
-    }
-  },
-  {
-    "postId": "18075371699390148",
-    "dataColeta": "2026-08-04T13:13:44.026Z",
-    "dataPostagem": "2026-07-30T21:00:07.701Z",
-    "tipo": "reel",
-    "pilares": [
-      "macro",
-      "bolsa"
-    ],
-    "peso": 71,
-    "fonte": "Money Times",
-    "titulo": "Dólar cai quase 1% e fecha a R$ 5,06 com ajuste pós-Fed e possível intervenção do Japão",
-    "insights": {
-      "reach": 104,
+      "reach": 13,
       "saved": 0,
       "shares": 0,
       "comments": 0,
