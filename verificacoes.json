@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-08-05T18:33:34.377Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Lula fala em ‘trabalhar para reduzir a taxa de juros’ e diz que Estado foi ‘aprisionado pela Faria Lima’\".",
+    "postId": "17960906799183441",
+    "storyId": null,
+    "reelId": "17960906799183441",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-08-05T18:31:17.827Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 65): \"Lula fala em ‘trabalhar para reduzir a taxa de juros’ e diz que Estado foi ‘aprisionado pela Faria Lima’\". Realizando postagem..."
+  },
+  {
     "data": "2026-08-05T18:00:59.301Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
@@ -1064,15 +1078,5 @@
     "data": "2026-08-02T19:30:59.791Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 26 min."
-  },
-  {
-    "data": "2026-08-02T19:00:58.008Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 56 min."
-  },
-  {
-    "data": "2026-08-02T18:57:29.938Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 60 min."
   }
 ]
