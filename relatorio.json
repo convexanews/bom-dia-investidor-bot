@@ -1,5 +1,25 @@
 [
   {
+    "data": "2026-08-05T11:03:19.220Z",
+    "titulo": "Mercado à espera da decisão do Copom; Ibovespa em dólar sobe hoje (5)",
+    "categoria": "Mercados",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/mercado-a-espera-da-decisao-do-copom-ibovespa-em-dolar-sobe-hoje-5/",
+    "postId": "17958870759189977",
+    "storyId": null,
+    "reelId": "17958870759189977",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1785927721107.mp4",
+    "tipo": "reel",
+    "peso": 81,
+    "pilares": [
+      "macro",
+      "bolsa",
+      "exterior"
+    ]
+  },
+  {
     "data": "2026-08-05T01:31:48.224Z",
     "titulo": "Attovia Therapeutics precifica IPO a US$ 17,00 por ação na Nasdaq",
     "categoria": "MERCADO",
@@ -3127,20 +3147,5 @@
     "videoUrl": null,
     "tipo": "card",
     "peso": 35
-  },
-  {
-    "data": "2026-07-05T09:32:55.385Z",
-    "titulo": "Opep+ deve aprovar novo aumento na produção de petróleo para agosto",
-    "categoria": "MERCADO",
-    "fonte": "Investing.com",
-    "link": "https://br.investing.com/news/economy-news/opep-deve-aprovar-novo-aumento-na-producao-de-petroleo-para-agosto-1992273",
-    "postId": "18009198473926426",
-    "storyId": "17982133029046327",
-    "reelId": null,
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783243907759-slide1.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783243907759-story.png",
-    "videoUrl": null,
-    "tipo": "carrossel",
-    "peso": 3
   }
 ]
