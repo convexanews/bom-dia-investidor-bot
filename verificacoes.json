@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-05T22:13:12.394Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 48 min."
+  },
+  {
     "data": "2026-08-05T22:02:32.358Z",
     "resultado": "carrossel_fechamento_suprimido",
     "mensagem": "Fechamento não publicado: intervalo global mínimo de duas horas."
@@ -1069,14 +1074,5 @@
     "data": "2026-08-02T23:00:55.424Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 108 min."
-  },
-  {
-    "data": "2026-08-02T22:47:58.773Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (carrossel): \"Trump afirma que EUA e Irã reiniciam negociações nesta segunda-feira, diz emissora\".",
-    "postId": "18055451495547092",
-    "storyId": null,
-    "reelId": null,
-    "tipo": "carrossel"
   }
 ]
