@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-05T10:31:17.966Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (07:31 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-08-05T10:27:22.156Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (07:27 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1068,11 +1073,5 @@
     "data": "2026-08-02T12:30:59.457Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
-  },
-  {
-    "data": "2026-08-02T12:08:51.341Z",
-    "resultado": "story_glossario",
-    "mensagem": "Story do glossário publicado: \"Renda Variável\"",
-    "postId": "17958874241983568"
   }
 ]
