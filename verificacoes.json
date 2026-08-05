@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-05T11:31:46.615Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
+  },
+  {
     "data": "2026-08-05T11:03:19.221Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"Mercado à espera da decisão do Copom; Ibovespa em dólar sobe hoje (5)\".",
@@ -1068,14 +1073,5 @@
     "data": "2026-08-02T13:03:59.258Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 119 min."
-  },
-  {
-    "data": "2026-08-02T13:02:41.163Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (carrossel): \"Alvo de disputa, definição de stablecoins pode afetar competência, autorização e IOF\".",
-    "postId": "18107952683157066",
-    "storyId": "18066570731741917",
-    "reelId": null,
-    "tipo": "carrossel"
   }
 ]
