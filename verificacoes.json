@@ -1,5 +1,11 @@
 [
   {
+    "data": "2026-08-05T13:00:01.921Z",
+    "resultado": "story_glossario",
+    "mensagem": "Story do glossário publicado: \"ETF\"",
+    "postId": "18082280567269179"
+  },
+  {
     "data": "2026-08-05T12:48:53.813Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 15 min."
@@ -1068,10 +1074,5 @@
     "data": "2026-08-02T14:30:50.754Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 32 min."
-  },
-  {
-    "data": "2026-08-02T14:23:46.303Z",
-    "resultado": "resumo_semanal_suprimido",
-    "mensagem": "Resumo semanal não publicado: intervalo global mínimo de duas horas."
   }
 ]
