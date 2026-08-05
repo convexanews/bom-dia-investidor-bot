@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-05T23:31:00.046Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 93 min."
+  },
+  {
     "data": "2026-08-05T23:03:04.024Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"Copom corta Selic, mas evita se comprometer com novos cortes; o que vem a seguir?\".",
@@ -1073,10 +1078,5 @@
     "data": "2026-08-03T00:01:10.424Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 47 min."
-  },
-  {
-    "data": "2026-08-02T23:52:07.324Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 56 min."
   }
 ]
