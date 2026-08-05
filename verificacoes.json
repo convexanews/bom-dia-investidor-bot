@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-05T19:00:59.016Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 93 min."
+  },
+  {
     "data": "2026-08-05T18:33:34.377Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"Lula fala em ‘trabalhar para reduzir a taxa de juros’ e diz que Estado foi ‘aprisionado pela Faria Lima’\".",
@@ -1073,10 +1078,5 @@
     "data": "2026-08-02T20:02:06.114Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 29): \"Calendário econômico semanal: Copom no Brasil e trabalho nos EUA são destaques\". Realizando postagem..."
-  },
-  {
-    "data": "2026-08-02T19:30:59.791Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 26 min."
   }
 ]
