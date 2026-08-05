@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-05T12:48:53.813Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 15 min."
+  },
+  {
     "data": "2026-08-05T12:31:46.262Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 32 min."
@@ -1068,10 +1073,5 @@
     "data": "2026-08-02T14:23:46.303Z",
     "resultado": "resumo_semanal_suprimido",
     "mensagem": "Resumo semanal não publicado: intervalo global mínimo de duas horas."
-  },
-  {
-    "data": "2026-08-02T14:01:05.845Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 62 min."
   }
 ]
