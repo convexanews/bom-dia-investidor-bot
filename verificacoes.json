@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-05T17:01:11.071Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 62 min."
+  },
+  {
     "data": "2026-08-05T16:30:54.686Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
@@ -1073,10 +1078,5 @@
     "storyId": "17941650264065162",
     "reelId": null,
     "tipo": "carrossel"
-  },
-  {
-    "data": "2026-08-02T17:55:22.318Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 32): \"Petrobras eleva querosene de aviação em 1,9%  nas refinarias\". Realizando postagem..."
   }
 ]
