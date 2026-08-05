@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-08-05T23:03:04.024Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Copom corta Selic, mas evita se comprometer com novos cortes; o que vem a seguir?\".",
+    "postId": "18087420347406792",
+    "storyId": null,
+    "reelId": "18087420347406792",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-08-05T23:01:36.143Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 71): \"Copom corta Selic, mas evita se comprometer com novos cortes; o que vem a seguir?\". Realizando postagem..."
+  },
+  {
     "data": "2026-08-05T22:31:03.735Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 30 min."
@@ -1064,15 +1078,5 @@
     "data": "2026-08-02T23:52:07.324Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 56 min."
-  },
-  {
-    "data": "2026-08-02T23:50:56.000Z",
-    "resultado": "reel_suprimido",
-    "mensagem": "Reel-resumo não publicado: intervalo global mínimo de duas horas."
-  },
-  {
-    "data": "2026-08-02T23:30:53.480Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 78 min."
   }
 ]
