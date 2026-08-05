@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-05T17:22:19.199Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 41 min."
+  },
+  {
     "data": "2026-08-05T17:01:11.071Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 62 min."
@@ -1069,14 +1074,5 @@
     "data": "2026-08-02T18:01:21.289Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 116 min."
-  },
-  {
-    "data": "2026-08-02T17:56:46.292Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (carrossel): \"Petrobras eleva querosene de aviação em 1,9%  nas refinarias\".",
-    "postId": "18002647214976509",
-    "storyId": "17941650264065162",
-    "reelId": null,
-    "tipo": "carrossel"
   }
 ]
