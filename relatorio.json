@@ -1,5 +1,24 @@
 [
   {
+    "data": "2026-08-05T01:31:48.224Z",
+    "titulo": "Attovia Therapeutics precifica IPO a US$ 17,00 por ação na Nasdaq",
+    "categoria": "MERCADO",
+    "fonte": "Investing.com",
+    "link": "https://br.investing.com/news/stock-market-news/attovia-therapeutics-precifica-ipo-a-us-1700-por-acao-na-nasdaq-432SI-2026533",
+    "postId": "17966043903130307",
+    "storyId": "18211819420349742",
+    "reelId": null,
+    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1785893464855-feed.png",
+    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1785893464855-story.png",
+    "videoUrl": null,
+    "tipo": "card",
+    "peso": 23,
+    "pilares": [
+      "bolsa",
+      "exterior"
+    ]
+  },
+  {
     "data": "2026-08-04T23:02:47.389Z",
     "titulo": "C&A (CEAB3) lucra R$ 130,1 milhões no 2T26, alta de 4,3% no ano",
     "categoria": "Empresas",
@@ -3123,20 +3142,5 @@
     "videoUrl": null,
     "tipo": "carrossel",
     "peso": 3
-  },
-  {
-    "data": "2026-07-04T23:32:31.326Z",
-    "titulo": "Putin e Trump conversam sobre guerra na Ucrânia e cúpula da Otan em telefonema",
-    "categoria": "Mundo",
-    "fonte": "InfoMoney",
-    "link": "https://www.infomoney.com.br/mundo/putin-e-trump-conversam-sobre-guerra-na-ucrania-e-cupula-da-otan-em-telefonema/",
-    "postId": "17914984146408693",
-    "storyId": "18193750726332192",
-    "reelId": null,
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783207906055-feed.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783207906055-story.png",
-    "videoUrl": null,
-    "tipo": "card",
-    "peso": 22
   }
 ]

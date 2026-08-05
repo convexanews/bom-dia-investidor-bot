@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-08-05T01:31:48.225Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (card): \"Attovia Therapeutics precifica IPO a US$ 17,00 por ação na Nasdaq\".",
+    "postId": "17966043903130307",
+    "storyId": "18211819420349742",
+    "reelId": null,
+    "tipo": "card"
+  },
+  {
+    "data": "2026-08-05T01:30:54.193Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 23): \"Attovia Therapeutics precifica IPO a US$ 17,00 por ação na Nasdaq\". Realizando postagem..."
+  },
+  {
     "data": "2026-08-05T01:00:57.143Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
@@ -1060,15 +1074,5 @@
     "data": "2026-08-02T04:01:08.240Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (01:01 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-08-02T03:31:09.711Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (00:31 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-08-02T03:01:08.179Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (00:01 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
