@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-05T16:30:54.686Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
+  },
+  {
     "data": "2026-08-05T16:02:27.623Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"Selic pode chegar a 12,5%, mas ‘porém’ segue no radar, diz economista-chefe da Franklin Templeton Brasil\".",
@@ -1073,10 +1078,5 @@
     "data": "2026-08-02T17:55:22.318Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 32): \"Petrobras eleva querosene de aviação em 1,9%  nas refinarias\". Realizando postagem..."
-  },
-  {
-    "data": "2026-08-02T17:31:03.230Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
   }
 ]
