@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-05T22:01:37.243Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 60 min."
+  },
+  {
     "data": "2026-08-05T21:31:25.930Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 90 min."
@@ -1073,10 +1078,5 @@
     "data": "2026-08-02T22:46:46.016Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 22): \"Trump afirma que EUA e Irã reiniciam negociações nesta segunda-feira, diz emissora\". Realizando postagem..."
-  },
-  {
-    "data": "2026-08-02T22:31:06.821Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
   }
 ]
