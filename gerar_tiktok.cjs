@@ -5,6 +5,7 @@ const os = require('os');
 const path = require('path');
 const { execSync, execFileSync } = require('child_process');
 const puppeteer = require('puppeteer');
+const { montarRoteiroReel, quebrarLegendas } = require('./formato_editorial.cjs');
 
 function escapeHtml(str) {
   return String(str || '')
@@ -42,8 +43,8 @@ async function gerarFrame(cfg, saida) {
   template = template
     .replace('{{LOGO_B64}}', getLogoB64())
     .replace('{{CATEGORIA}}', escapeHtml((cfg.categoria || 'MERCADO').toUpperCase()))
-    .replace('{{MANCHETE}}', escapeHtml(cfg.manchete || ''))
-    .replace('{{RESUMO}}', escapeHtml(cfg.resumo || ''))
+    .replace('{{MANCHETE}}', escapeHtml(cfg.mancheteVisual || cfg.manchete || ''))
+    .replace('{{RESUMO}}', escapeHtml((cfg.resumo || '').slice(0, 180)))
     .replace('{{FONTE}}', escapeHtml(cfg.fonte || ''))
     .replace('{{IMAGEM_URL}}', cfg.imagem || '');
 
@@ -138,38 +139,11 @@ async function gerarVideoTikTok(cfg, saida) {
 }
 
 function montarTextoNarracao(cfg) {
-  const partes = [];
-
-  if (cfg.manchete) {
-    partes.push(cfg.manchete.replace(/\s+/g, ' ').trim() + '.');
-  }
-
-  if (cfg.resumo) {
-    let resumo = cfg.resumo.replace(/\s+/g, ' ').trim();
-    if (resumo.length > 250) resumo = resumo.slice(0, 247) + '...';
-    partes.push(resumo);
-  }
-
-  partes.push('Siga o Bom Dia Investidor pra não perder nenhuma novidade.');
-
-  return partes.join(' ');
+  return montarRoteiroReel(cfg).join(' ');
 }
 
 function montarBlocosLegenda(cfg) {
-  // A manchete NÃO entra na legenda — ela já está escrita no card do vídeo,
-  // e duplicar o texto por cima ficava poluído. Legenda só acompanha o resumo.
-  const blocos = [];
-  // Bloco vazio no início: cobre o tempo em que a narração lê a manchete,
-  // mantendo a legenda aproximadamente sincronizada com o resumo.
-  if (cfg.manchete) blocos.push('');
-  if (cfg.resumo) {
-    let resumo = cfg.resumo.replace(/\s+/g, ' ').trim();
-    if (resumo.length > 200) resumo = resumo.slice(0, 197) + '...';
-    const frases = resumo.match(/[^.!?]+[.!?]+/g) || [resumo];
-    blocos.push(...frases.map(f => f.trim()).filter(f => f.length > 5));
-  }
-  blocos.push('Siga @bomdia_investidor');
-  return blocos;
+  return quebrarLegendas(montarRoteiroReel(cfg), 54);
 }
 
 function montarLegendaTikTok(cfg) {

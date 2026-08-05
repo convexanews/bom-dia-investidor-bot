@@ -7,8 +7,9 @@ const path = require('path');
 const { execSync, execFileSync } = require('child_process');
 const { buscarNoticias, titulosSimilares } = require('./coletor_noticias.cjs');
 const { gerarCard } = require('./gerar_card_noticia.cjs');
-const { gerarSlide, dividirResumo } = require('./gerar_slide_carrossel.cjs');
+const { gerarSlide } = require('./gerar_slide_carrossel.cjs');
 const { gerarVideoTikTok, montarLegendaTikTok } = require('./gerar_tiktok.cjs');
+const { criarCapaRetencao, dividirResumoCurto } = require('./formato_editorial.cjs');
 
 const PESO_MINIMO_REEL = 60;
 const TIKTOK_POSTADAS_FILE = path.join(__dirname, 'tiktok-postadas.json');
@@ -297,8 +298,8 @@ async function main() {
     return;
   }
 
-  // Intervalo mínimo de 2h entre posts: mantém a conta presente sem concentrar publicações.
-  const INTERVALO_MIN_MS = 2 * 60 * 60 * 1000;
+  // Intervalo mínimo de 3h entre posts: dá tempo para cada publicação distribuir.
+  const INTERVALO_MIN_MS = 3 * 60 * 60 * 1000;
   const ultimoPost = relatorio.find(p => p.origem !== 'manual');
   if (ultimoPost) {
     const tempoDesdeUltimo = Date.now() - new Date(ultimoPost.data).getTime();
@@ -310,8 +311,8 @@ async function main() {
     }
   }
 
-  // Até oito posts entre 8h e 22h, respeitando duas horas entre cada publicação.
-  const MAX_POSTS_DIA = 8;
+  // Até quatro posts entre 8h e 22h, respeitando três horas entre cada publicação.
+  const MAX_POSTS_DIA = 4;
   const inicioDia = new Date(new Date().toLocaleString('en-US', { timeZone: 'America/Sao_Paulo' }));
   inicioDia.setHours(0, 0, 0, 0);
   const postasHoje = relatorio.filter(p =>
@@ -396,6 +397,10 @@ async function main() {
     acentoCor: sentimento.cor,
     acentoTexto: sentimento.texto,
   };
+  const capa = criarCapaRetencao(cfg.manchete, cfg.categoria);
+  cfg.mancheteVisual = capa.gancho;
+  cfg.acaoCapa = 'Arraste para entender →';
+  cfg.apoioCapa = capa.apoio;
   if (!cfg.imagem) {
     cfg.imagem = await buscarImagemArtigo(cfg.link);
   }
@@ -436,10 +441,11 @@ async function main() {
   const idxUltimo = FORMATOS.indexOf(ultimoTipo);
   const proximoFormato = FORMATOS[(idxUltimo + 1) % FORMATOS.length];
 
-  // peso >= 60: notícia realmente bombástica, sempre reel narrado
-  // peso >= 30: pode ser reel, mas só se for a vez dele no revezamento
+  // Peso muito alto pode antecipar um Reel, mas nunca em sequência.
+  // Os demais formatos seguem o revezamento para não transformar o perfil
+  // em uma sequência de vídeos com a mesma estrutura visual.
   // peso < 30: segue o revezamento pulando o reel (carrossel ou card)
-  const ehAltoImpacto = (nova.peso || 0) >= 60;
+  const ehAltoImpacto = (nova.peso || 0) >= 90 && ultimoTipo !== 'reel';
   const podeSerReel = (nova.peso || 0) >= PESO_MINIMO_REEL;
   const formato = ehAltoImpacto
     ? 'reel'
@@ -498,20 +504,20 @@ async function main() {
     // retêm mais tempo de visualização e são re-servidos pelo algoritmo
     // pra quem não deslizou até o fim.
     const slidesCfg = [];
-    const blocosResumo = dividirResumo(cfg.resumo, 2);
+    const blocosResumo = dividirResumoCurto(cfg.resumo, 3, 155);
     blocosResumo.forEach(b => slidesCfg.push({ kicker: 'O que aconteceu', texto: b }));
 
     const contextoBruto = CONTEXTOS[cfg.sentimento?.tipo || 'padrao'] || CONTEXTOS.padrao;
     const contextoTexto = contextoBruto.replace(/^.*?O que isso significa para você: /, '');
-    slidesCfg.push({ kicker: 'E pra você?', texto: contextoTexto.charAt(0).toUpperCase() + contextoTexto.slice(1) });
-    slidesCfg.push({ kicker: 'Participa', texto: cfg.pergunta || 'O que você acha disso? Comenta! 👇', rodapeDireita: 'comenta aqui 👇' });
+    slidesCfg.push({ kicker: 'Por que importa?', texto: contextoTexto.charAt(0).toUpperCase() + contextoTexto.slice(1) });
+    slidesCfg.push({ kicker: 'O que observar agora?', texto: cfg.apoioCapa, rodapeDireita: 'continue →' });
 
     const totalSlides = 1 + slidesCfg.length + 1; // capa + internos + final
     const nomes = [];
 
     // Capa: card de notícia com a foto
     const nomeCapa = `noticia-${ts}-slide1.png`;
-    await gerarCard(cfg, path.join(cardsDir, nomeCapa));
+    await gerarCard({ ...cfg, manchete: cfg.mancheteVisual, pergunta: cfg.acaoCapa }, path.join(cardsDir, nomeCapa));
     nomes.push(nomeCapa);
 
     for (let i = 0; i < slidesCfg.length; i++) {

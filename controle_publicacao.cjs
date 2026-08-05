@@ -3,8 +3,8 @@ const fs = require('fs');
 const path = require('path');
 
 const RELATORIO = path.join(__dirname, 'relatorio.json');
-const DUAS_HORAS = 2 * 60 * 60 * 1000;
-const LIMITE_DIARIO_PADRAO = 8;
+const DUAS_HORAS = 3 * 60 * 60 * 1000;
+const LIMITE_DIARIO_PADRAO = 4;
 
 function lerRelatorio() {
   try { return JSON.parse(fs.readFileSync(RELATORIO, 'utf8')); } catch { return []; }
