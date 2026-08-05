@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-05T13:01:10.548Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
+  },
+  {
     "data": "2026-08-05T13:00:01.921Z",
     "resultado": "story_glossario",
     "mensagem": "Story do glossário publicado: \"ETF\"",
@@ -1069,10 +1074,5 @@
     "data": "2026-08-02T14:55:36.676Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 8 min."
-  },
-  {
-    "data": "2026-08-02T14:30:50.754Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 32 min."
   }
 ]
