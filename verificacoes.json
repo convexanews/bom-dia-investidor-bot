@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-05T21:01:42.868Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 120 min."
+  },
+  {
     "data": "2026-08-05T21:00:47.401Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"Wall Street tem novo fechamento recorde do Dow Jones, mas tech pesa\".",
@@ -1073,10 +1078,5 @@
     "data": "2026-08-02T22:01:05.513Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
-  },
-  {
-    "data": "2026-08-02T21:46:10.110Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 17 min."
   }
 ]
