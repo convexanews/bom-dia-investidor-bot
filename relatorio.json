@@ -1,5 +1,24 @@
 [
   {
+    "data": "2026-08-05T13:33:20.131Z",
+    "titulo": "Corte da Selic é consenso; mercado procura no comunicado sinais sobre setembro.",
+    "categoria": "Economia",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/corte-da-selic-e-consenso-mercado-procura-no-comunicado-sinais-sobre-setembro/",
+    "postId": "18123187732754394",
+    "storyId": null,
+    "reelId": "18123187732754394",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1785936675088.mp4",
+    "tipo": "reel",
+    "peso": 71,
+    "pilares": [
+      "macro",
+      "bolsa"
+    ]
+  },
+  {
     "data": "2026-08-05T11:03:19.220Z",
     "titulo": "Mercado à espera da decisão do Copom; Ibovespa em dólar sobe hoje (5)",
     "categoria": "Mercados",
@@ -3132,20 +3151,5 @@
     "videoUrl": null,
     "tipo": "carrossel",
     "peso": 16
-  },
-  {
-    "data": "2026-07-05T11:38:50.040Z",
-    "titulo": "Três riscos que podem definir seus investimentos em 2026 no Brasil",
-    "categoria": "Economia",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/tres-riscos-que-podem-definir-seus-investimentos-em-2026-no-brasil-lbrdcp168/",
-    "postId": "17982438473855955",
-    "storyId": "18181987495400449",
-    "reelId": null,
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783251478972-feed.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783251478972-story.png",
-    "videoUrl": null,
-    "tipo": "card",
-    "peso": 35
   }
 ]

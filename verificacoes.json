@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-08-05T13:33:20.133Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Corte da Selic é consenso; mercado procura no comunicado sinais sobre setembro.\".",
+    "postId": "18123187732754394",
+    "storyId": null,
+    "reelId": "18123187732754394",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-08-05T13:31:06.386Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 71): \"Corte da Selic é consenso; mercado procura no comunicado sinais sobre setembro.\". Realizando postagem..."
+  },
+  {
     "data": "2026-08-05T13:01:10.548Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
@@ -1064,15 +1078,5 @@
     "data": "2026-08-02T15:31:22.293Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 51): \"Copom e payroll rouba atenção dos mercados; confira a agenda semana\". Realizando postagem..."
-  },
-  {
-    "data": "2026-08-02T15:01:06.488Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
-  },
-  {
-    "data": "2026-08-02T14:55:36.676Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 8 min."
   }
 ]
