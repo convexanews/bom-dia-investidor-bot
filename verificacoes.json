@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-05T14:01:13.052Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 93 min."
+  },
+  {
     "data": "2026-08-05T13:33:20.133Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"Corte da Selic é consenso; mercado procura no comunicado sinais sobre setembro.\".",
@@ -1073,10 +1078,5 @@
     "storyId": "18304237909303285",
     "reelId": null,
     "tipo": "card"
-  },
-  {
-    "data": "2026-08-02T15:31:22.293Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 51): \"Copom e payroll rouba atenção dos mercados; confira a agenda semana\". Realizando postagem..."
   }
 ]
