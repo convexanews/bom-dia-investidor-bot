@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-08-06T11:02:52.371Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Selic cai para 14%, mas é a Petrobras (PETR4) que mexe com o mercado; Ibovespa em dólar sobe hoje (6)\".",
+    "postId": "18089327834200632",
+    "storyId": null,
+    "reelId": "18089327834200632",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-08-06T11:01:20.222Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 97): \"Selic cai para 14%, mas é a Petrobras (PETR4) que mexe com o mercado; Ibovespa em dólar sobe hoje (6)\". Realizando postagem..."
+  },
+  {
     "data": "2026-08-06T10:31:32.638Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (07:31 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1064,15 +1078,5 @@
     "data": "2026-08-03T12:51:45.451Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 12 min."
-  },
-  {
-    "data": "2026-08-03T12:30:58.619Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 32 min."
-  },
-  {
-    "data": "2026-08-03T12:01:04.872Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 62 min."
   }
 ]

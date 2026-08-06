@@ -1,5 +1,25 @@
 [
   {
+    "data": "2026-08-06T11:02:52.370Z",
+    "titulo": "Selic cai para 14%, mas é a Petrobras (PETR4) que mexe com o mercado; Ibovespa em dólar sobe hoje (6)",
+    "categoria": "Mercados",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/selic-cai-para-14-mas-e-a-petrobras-petr4-que-mexe-com-os-mercados-ibovespa-em-dolar-sobe-hoje-6/",
+    "postId": "18089327834200632",
+    "storyId": null,
+    "reelId": "18089327834200632",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1786014087212.mp4",
+    "tipo": "reel",
+    "peso": 97,
+    "pilares": [
+      "macro",
+      "bolsa",
+      "exterior"
+    ]
+  },
+  {
     "data": "2026-08-05T23:03:04.023Z",
     "titulo": "Copom corta Selic, mas evita se comprometer com novos cortes; o que vem a seguir?",
     "categoria": "Economia",
@@ -3152,20 +3172,5 @@
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783328531568.mp4",
     "tipo": "reel",
     "peso": 80
-  },
-  {
-    "data": "2026-07-06T00:03:15.371Z",
-    "titulo": "Dólar fecha estável na semana,  mas gráfico alerta para \"muralha\" de baixa",
-    "categoria": "MERCADO",
-    "fonte": "Investing.com",
-    "link": "https://br.investing.com/news/forex-news/dolar-fecha-estavel-na-semana--mas-grafico-alerta-para-muralha-de-baixa-1992004",
-    "postId": "17923344225382966",
-    "storyId": null,
-    "reelId": "17923344225382966",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783296129123.mp4",
-    "tipo": "reel",
-    "peso": 33
   }
 ]
