@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-06T13:01:52.219Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 3h entre posts. Faltam 62 min."
+  },
+  {
     "data": "2026-08-06T13:00:40.891Z",
     "resultado": "story_glossario",
     "mensagem": "Story do glossário publicado: \"Spread Bancário\"",
@@ -1073,11 +1078,5 @@
     "data": "2026-08-03T14:00:59.168Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 61): \"Ibovespa avança com otimismo de acordo entre EUA e Irã; 5 coisas para saber antes de investir hoje (3)\". Realizando postagem..."
-  },
-  {
-    "data": "2026-08-03T13:45:09.144Z",
-    "resultado": "story_glossario",
-    "mensagem": "Story do glossário publicado: \"B3\"",
-    "postId": "18004373078957134"
   }
 ]
