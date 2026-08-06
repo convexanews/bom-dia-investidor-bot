@@ -1,5 +1,24 @@
 [
   {
+    "data": "2026-08-06T18:17:45.806Z",
+    "titulo": "Após corte de juros, analista da Empiricus faz aposta para futuro da Selic",
+    "categoria": "Mercados",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/futuro-da-selic-depende-da-politica-fiscal-diz-analista-da-empiricus-apos-corte-de-juros-jvka/",
+    "postId": "18052937546792576",
+    "storyId": "18109512743278442",
+    "reelId": null,
+    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1786040216119-feed.png",
+    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1786040216119-story.png",
+    "videoUrl": null,
+    "tipo": "card",
+    "peso": 78,
+    "pilares": [
+      "macro",
+      "bolsa"
+    ]
+  },
+  {
     "data": "2026-08-06T14:32:54.238Z",
     "titulo": "Wall Street abre em alta, mas tech e Oriente Médio ficam no radar",
     "categoria": "Mercados",
@@ -3162,20 +3181,5 @@
     "videoUrl": null,
     "tipo": "carrossel",
     "peso": 58
-  },
-  {
-    "data": "2026-07-06T12:33:27.876Z",
-    "titulo": "Após meses de altas, mercado corta projeção da inflação para 2026; confira o Focus desta segunda-feira (6)",
-    "categoria": "Economia",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/inflacao-recua-pela-primeira-vez-em-16-semanas-confira-o-focus-desta-segunda-feira-6/",
-    "postId": "18071728937383673",
-    "storyId": null,
-    "reelId": "18071728937383673",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783341095692.mp4",
-    "tipo": "reel",
-    "peso": 89
   }
 ]

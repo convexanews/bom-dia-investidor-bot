@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-08-06T18:17:45.807Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (card): \"Após corte de juros, analista da Empiricus faz aposta para futuro da Selic\".",
+    "postId": "18052937546792576",
+    "storyId": "18109512743278442",
+    "reelId": null,
+    "tipo": "card"
+  },
+  {
+    "data": "2026-08-06T18:16:48.961Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 78): \"Após corte de juros, analista da Empiricus faz aposta para futuro da Selic\". Realizando postagem..."
+  },
+  {
     "data": "2026-08-06T15:31:24.025Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 3h entre posts. Faltam 122 min."
@@ -1068,15 +1082,5 @@
     "storyId": "18221802796334810",
     "reelId": null,
     "tipo": "carrossel"
-  },
-  {
-    "data": "2026-08-03T16:31:24.760Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 45): \"Por que Brava (BRAV3), Prio (PRIO3) e outras petroleiras lideram as perdas do Ibovespa hoje (3)\". Realizando postagem..."
-  },
-  {
-    "data": "2026-08-03T16:01:20.071Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
   }
 ]
