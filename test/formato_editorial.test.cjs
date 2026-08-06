@@ -1,6 +1,6 @@
 const test = require('node:test');
 const assert = require('node:assert/strict');
-const { criarCapaRetencao, dividirResumoCurto, montarRoteiroReel, quebrarLegendas, montarRoteiroCarrossel } = require('../formato_editorial.cjs');
+const { criarCapaRetencao, dividirResumoCurto, montarRoteiroReel, montarCenasReel, quebrarLegendas, montarRoteiroCarrossel } = require('../formato_editorial.cjs');
 
 test('capa mantém o fato e reduz uma manchete longa', () => {
   const capa = criarCapaRetencao('Vale (VALE3) tem lucro 43% menor no 2T26 e revisa guidance de custos do minério', 'Empresas');
@@ -30,4 +30,16 @@ test('carrossel narrativo cria oito etapas internas para totalizar dez imagens',
   assert.equal(roteiro.length, 8);
   assert.ok(roteiro.every(slide => slide.kicker && slide.texto && slide.destaque));
   assert.ok(roteiro.every(slide => slide.tema === 'positivo'));
+});
+
+test('reel narrativo organiza o roteiro em quatro cenas de vídeo', () => {
+  const cenas = montarCenasReel({
+    manchete: 'Copom mantém juros e mercado acompanha comunicado',
+    resumo: 'O Comitê divulgou a decisão após a reunião desta quarta-feira.',
+    categoria: 'Economia',
+    sentimento: { tipo: 'negativo' },
+  });
+  assert.equal(cenas.length, 4);
+  assert.equal(cenas[0].tema, 'negativo');
+  assert.ok(cenas.every(cena => cena.titulo && cena.texto && cena.chamada));
 });

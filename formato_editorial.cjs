@@ -45,6 +45,24 @@ function montarRoteiroReel({ manchete, mancheteVisual, resumo, categoria }) {
   return [capa, ...contexto, 'Siga o Bom Dia Investidor para acompanhar os próximos dados.'].filter(Boolean);
 }
 
+// Quatro cenas garantem ritmo: promessa, fato, contexto e ação.
+function montarCenasReel(cfg) {
+  const roteiro = montarRoteiroReel(cfg);
+  const capa = roteiro[0] || criarCapaRetencao(cfg.manchete, cfg.categoria).gancho;
+  const fato = roteiro[1] || limitarTexto(cfg.resumo || cfg.manchete, 145);
+  const contexto = roteiro.length > 3
+    ? roteiro.slice(2, -1).join(' ')
+    : 'Acompanhe os próximos dados e a reação do mercado antes de tirar conclusões.';
+  const cta = roteiro[roteiro.length - 1] || 'Siga o Bom Dia Investidor para acompanhar os próximos dados.';
+  const tema = cfg.sentimento?.tipo === 'positivo' ? 'positivo' : cfg.sentimento?.tipo === 'negativo' ? 'negativo' : 'neutro';
+  return [
+    { etapa: 'O que mudou', titulo: capa, texto: 'Entenda o fato e o que o mercado observa agora.', chamada: 'VEJA O CONTEXTO', tema },
+    { etapa: 'O fato', titulo: 'O que aconteceu', texto: fato, chamada: 'O DADO PRINCIPAL', tema },
+    { etapa: 'O contexto', titulo: 'Por que isso importa?', texto: contexto, chamada: 'OLHE O CENÁRIO', tema },
+    { etapa: 'O que fazer', titulo: 'Antes de decidir', texto: cta, chamada: 'SALVE PARA REVER', tema },
+  ];
+}
+
 function quebrarLegendas(blocos, limite = 54) {
   return blocos.flatMap(bloco => {
     const partes = [];
@@ -93,4 +111,4 @@ function montarRoteiroCarrossel({ manchete, resumo, categoria, sentimento, apoio
   ];
 }
 
-module.exports = { criarCapaRetencao, dividirResumoCurto, montarRoteiroReel, quebrarLegendas, limitarTexto, montarRoteiroCarrossel };
+module.exports = { criarCapaRetencao, dividirResumoCurto, montarRoteiroReel, montarCenasReel, quebrarLegendas, limitarTexto, montarRoteiroCarrossel };

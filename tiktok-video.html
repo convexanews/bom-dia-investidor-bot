@@ -15,6 +15,12 @@
   }
 
   .video-frame { width: 1080px; height: 1920px; position: relative; overflow: hidden; background: #fff; }
+  .video-frame.cena-1 .foto { transform: scale(1.08); }
+  .video-frame.cena-2 .foto { transform: scale(1.16); transform-origin: 35% 35%; }
+  .video-frame.cena-3 .foto { transform: scale(1.11); transform-origin: 70% 45%; filter: saturate(0.82) contrast(1.12); }
+  .video-frame.cena-4 .foto { transform: scale(1.05); filter: saturate(1.18); }
+  .video-frame.negativo .tag, .video-frame.negativo .live-dot { background: #e53935; }
+  .video-frame.positivo .tag, .video-frame.positivo .live-dot { background: #65ae12; }
 
   /* Foto da notícia no topo, colorida e nítida (sem véu azulado) */
   .foto { position: absolute; top: 0; left: 0; width: 100%; height: 1060px; object-fit: cover; filter: saturate(1.05); }
@@ -67,6 +73,7 @@
     letter-spacing: 2px; text-transform: uppercase;
     padding: 12px 30px; border-radius: 12px;
   }
+  .etapa { font-size: 22px; font-weight: 900; color: #64748b; letter-spacing: 2px; text-transform: uppercase; }
   .headline {
     font-size: 62px; font-weight: 900; color: #0f172a;
     line-height: 1.18; letter-spacing: -1px;
@@ -76,6 +83,8 @@
     font-size: 30px; font-weight: 500; color: #475569; line-height: 1.5;
     display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;
   }
+  .chamada { align-self: flex-start; margin-top: 8px; color: #fff; background: #0f172a; padding: 16px 22px; font-size: 22px; font-weight: 900; letter-spacing: 1.5px; }
+  .scene-counter { position: absolute; right: 60px; bottom: 48px; z-index: 6; color: #64748b; font-size: 22px; font-weight: 800; }
   .fonte-row { display: flex; flex-direction: column; gap: 4px; }
   .fonte-label { font-size: 18px; font-weight: 700; color: #94a3b8; letter-spacing: 2px; text-transform: uppercase; }
   .fonte-nome { font-size: 26px; font-weight: 800; color: #0f172a; }
@@ -89,7 +98,7 @@
 </style>
 </head>
 <body>
-<div class="video-frame">
+<div class="video-frame {{TEMA}} cena-{{CENA_NUMERO}}">
   <div class="fallback-bg"></div>
   <div class="fallback-icon">📈</div>
   <img class="foto" src="{{IMAGEM_URL}}" onerror="this.style.display='none'">
@@ -108,8 +117,10 @@
 
   <div class="panel">
     <div class="tag">{{CATEGORIA}}</div>
-    <div class="headline">{{MANCHETE}}</div>
-    <div class="resumo">{{RESUMO}}</div>
+    <div class="etapa">{{ETAPA}}</div>
+    <div class="headline">{{CENA_TITULO}}</div>
+    <div class="resumo">{{CENA_TEXTO}}</div>
+    <div class="chamada">{{CHAMADA}}</div>
     <div class="fonte-row">
       <span class="fonte-label">Fonte</span>
       <span class="fonte-nome">{{FONTE}}</span>
@@ -120,6 +131,7 @@
     <span>bomdiainvestidor.com.br</span>
     <span class="handle">@bomdia_investidor</span>
   </div>
+  <div class="scene-counter">{{CENA_NUMERO}} / {{TOTAL_CENAS}}</div>
 </div>
 </body>
 </html>
