@@ -180,7 +180,7 @@ function montarLegenda(cfg) {
 
 function estaNoHorarioPico() {
   const hora = parseInt(new Date().toLocaleString('en-US', { timeZone: 'America/Sao_Paulo', hour: 'numeric', hour12: false }));
-  return hora >= 8 && hora <= 22;
+  return hora >= 6 && hora <= 22;
 }
 
 async function aguardarContainerPronto(containerId, tentativas = 15) {
@@ -305,13 +305,13 @@ async function main() {
     const tempoDesdeUltimo = Date.now() - new Date(ultimoPost.data).getTime();
     if (tempoDesdeUltimo < INTERVALO_MIN_MS) {
       const minRestantes = Math.ceil((INTERVALO_MIN_MS - tempoDesdeUltimo) / 60000);
-      console.log(`Último post há ${Math.floor(tempoDesdeUltimo / 60000)} min. Próximo em ${minRestantes} min (intervalo de 2h).`);
-      registrarVerificacao('aguardando_intervalo', `Aguardando intervalo de 2h entre posts. Faltam ${minRestantes} min.`);
+      console.log(`Último post há ${Math.floor(tempoDesdeUltimo / 60000)} min. Próximo em ${minRestantes} min (intervalo de 3h).`);
+      registrarVerificacao('aguardando_intervalo', `Aguardando intervalo de 3h entre posts. Faltam ${minRestantes} min.`);
       return;
     }
   }
 
-  // Até quatro posts entre 8h e 22h, respeitando três horas entre cada publicação.
+  // Até quatro posts entre 6h e 22h, respeitando três horas entre cada publicação.
   const MAX_POSTS_DIA = 4;
   const inicioDia = new Date(new Date().toLocaleString('en-US', { timeZone: 'America/Sao_Paulo' }));
   inicioDia.setHours(0, 0, 0, 0);

@@ -2,7 +2,8 @@ name: Bom Dia Investidor - Auto Post
 
 on:
   schedule:
-    - cron: '0 * * * *'
+    # 06h a 22h no horário de Brasília (UTC-3).
+    - cron: '0 0-1,9-23 * * *'
   repository_dispatch:
     types: [auto-post]
   workflow_dispatch: {}
