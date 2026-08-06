@@ -1,5 +1,24 @@
 [
   {
+    "data": "2026-08-06T22:33:06.187Z",
+    "titulo": "Ibovespa cai 1,23% após Copom e tensão no exterior; Petrobras (PETR4) limita perdas",
+    "categoria": "Mercado Financeiro",
+    "fonte": "Suno",
+    "link": "https://www.suno.com.br/noticias/ibovespa-hoje-06-agosto-2026-copom-petr4-mt/",
+    "postId": "18137291668580867",
+    "storyId": "18225104059324742",
+    "reelId": null,
+    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1786055477014-slide1.png",
+    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1786055477014-story.png",
+    "videoUrl": null,
+    "tipo": "carrossel",
+    "peso": 53,
+    "pilares": [
+      "macro",
+      "bolsa"
+    ]
+  },
+  {
     "data": "2026-08-06T18:17:45.806Z",
     "titulo": "Após corte de juros, analista da Empiricus faz aposta para futuro da Selic",
     "categoria": "Mercados",
@@ -3166,20 +3185,5 @@
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783359124806.mp4",
     "tipo": "reel",
     "peso": 73
-  },
-  {
-    "data": "2026-07-06T15:03:18.846Z",
-    "titulo": "Ibovespa Hoje Ao Vivo: Bolsa cai com bancos, PETR4, VALE3 e varejistas",
-    "categoria": "Mercados",
-    "fonte": "InfoMoney",
-    "link": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-06072026/",
-    "postId": "17956231995151305",
-    "storyId": "18087876035112996",
-    "reelId": null,
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783350115203-slide1.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783350115203-story.png",
-    "videoUrl": null,
-    "tipo": "carrossel",
-    "peso": 58
   }
 ]

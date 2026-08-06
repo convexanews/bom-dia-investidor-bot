@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-08-06T22:33:06.188Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (carrossel): \"Ibovespa cai 1,23% após Copom e tensão no exterior; Petrobras (PETR4) limita perdas\".",
+    "postId": "18137291668580867",
+    "storyId": "18225104059324742",
+    "reelId": null,
+    "tipo": "carrossel"
+  },
+  {
+    "data": "2026-08-06T22:31:10.102Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 53): \"Ibovespa cai 1,23% após Copom e tensão no exterior; Petrobras (PETR4) limita perdas\". Realizando postagem..."
+  },
+  {
     "data": "2026-08-06T18:17:45.807Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (card): \"Após corte de juros, analista da Empiricus faz aposta para futuro da Selic\".",
@@ -1068,19 +1082,5 @@
     "data": "2026-08-03T17:30:55.176Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 62 min."
-  },
-  {
-    "data": "2026-08-03T17:01:10.828Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
-  },
-  {
-    "data": "2026-08-03T16:32:40.457Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (carrossel): \"Por que Brava (BRAV3), Prio (PRIO3) e outras petroleiras lideram as perdas do Ibovespa hoje (3)\".",
-    "postId": "18100284223961173",
-    "storyId": "18221802796334810",
-    "reelId": null,
-    "tipo": "carrossel"
   }
 ]
