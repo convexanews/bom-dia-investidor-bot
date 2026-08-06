@@ -5,6 +5,7 @@ const os = require('os');
 const path = require('path');
 const { execSync, execFileSync } = require('child_process');
 const puppeteer = require('puppeteer');
+const { montarRoteiroReel, montarCenasReel, quebrarLegendas } = require('./formato_editorial.cjs');
 
 function escapeHtml(str) {
   return String(str || '')
@@ -35,15 +36,20 @@ function getLogoB64() {
   return logoB64Cache;
 }
 
-// Gera o frame estático (PNG 1080x1920) usando o template HTML
-async function gerarFrame(cfg, saida) {
+// Gera uma das cenas visuais (PNG 1080x1920) usando o template HTML.
+async function gerarFrame(cfg, cena, numeroCena, totalCenas, saida) {
   let template = fs.readFileSync(path.join(__dirname, 'tiktok-video.html'), 'utf8');
 
   template = template
     .replace('{{LOGO_B64}}', getLogoB64())
     .replace('{{CATEGORIA}}', escapeHtml((cfg.categoria || 'MERCADO').toUpperCase()))
-    .replace('{{MANCHETE}}', escapeHtml(cfg.manchete || ''))
-    .replace('{{RESUMO}}', escapeHtml(cfg.resumo || ''))
+    .replace('{{ETAPA}}', escapeHtml(cena.etapa || 'MERCADO'))
+    .replace('{{CENA_TITULO}}', escapeHtml(cena.titulo || cfg.mancheteVisual || cfg.manchete || ''))
+    .replace('{{CENA_TEXTO}}', escapeHtml((cena.texto || '').slice(0, 190)))
+    .replace('{{CHAMADA}}', escapeHtml(cena.chamada || 'ACOMPANHE'))
+    .replace(/\{\{TEMA\}\}/g, ['positivo', 'negativo'].includes(cena.tema) ? cena.tema : 'neutro')
+    .replace(/\{\{CENA_NUMERO\}\}/g, String(numeroCena))
+    .replace(/\{\{TOTAL_CENAS\}\}/g, String(totalCenas))
     .replace('{{FONTE}}', escapeHtml(cfg.fonte || ''))
     .replace('{{IMAGEM_URL}}', cfg.imagem || '');
 
@@ -83,17 +89,32 @@ function gerarSRT(blocos, duracaoTotal, srtPath) {
   return srtPath;
 }
 
-// Monta o vídeo final: imagem estática + narração TTS + legendas + leve zoom (ken burns)
+function criarListaDeCenas(frames, duracaoPorCena, listaPath) {
+  let conteudo = '';
+  for (const frame of frames) {
+    conteudo += `file '${frame.replace(/\\/g, '/')}'\nduration ${duracaoPorCena}\n`;
+  }
+  conteudo += `file '${frames[frames.length - 1].replace(/\\/g, '/')}'\n`;
+  fs.writeFileSync(listaPath, conteudo, 'utf8');
+}
+
+// Monta o vídeo final com quatro cenas, narração TTS e legendas sincronizadas.
 async function gerarVideoTikTok(cfg, saida) {
   const tmpDir = fs.mkdtempSync(path.join(os.tmpdir(), 'bdi-tiktok-'));
-  const framePath = path.join(tmpDir, 'frame.png');
   const audioPath = path.join(tmpDir, 'narration.mp3');
   const srtPath = path.join(tmpDir, 'legendas.srt');
+  const listaPath = path.join(tmpDir, 'cenas.txt');
+  const cenas = montarCenasReel(cfg);
+  const framePaths = [];
 
-  console.log('  Gerando frame visual...');
-  await gerarFrame(cfg, framePath);
+  console.log(`  Gerando ${cenas.length} cenas visuais...`);
+  for (let i = 0; i < cenas.length; i++) {
+    const framePath = path.join(tmpDir, `cena-${i + 1}.png`);
+    await gerarFrame(cfg, cenas[i], i + 1, cenas.length, framePath);
+    framePaths.push(framePath);
+  }
 
-  const textoNarracao = montarTextoNarracao(cfg);
+  const textoNarracao = cenas.map(cena => `${cena.titulo}. ${cena.texto}`).join(' ');
   console.log('  Gerando narração TTS...');
   await gerarTTS(textoNarracao, audioPath);
 
@@ -110,23 +131,23 @@ async function gerarVideoTikTok(cfg, saida) {
   }
 
   // Gera legendas SRT sincronizadas
-  const blocos = montarBlocosLegenda(cfg);
+  const blocos = cenas.map(cena => cena.texto);
   gerarSRT(blocos, duracaoAudio - 1, srtPath);
   console.log(`  Legendas: ${blocos.length} blocos`);
 
   if (!fs.existsSync(path.dirname(saida))) fs.mkdirSync(path.dirname(saida), { recursive: true });
 
-  // Ken Burns zoom + legendas queimadas (subtitles filter)
-  // Estilo minimalista: fonte branca leve com outline fino, sem caixa de fundo
-  const srtEscaped = srtPath.replace(/\\/g, '/').replace(/:/g, '\\:');
-  // Frame branco embaixo: legenda em texto escuro com contorno branco fino
-  // (cores ASS em formato BGR: #0f172a -> &H002A170F)
-  const subtitleStyle = "FontName=Arial,FontSize=11,PrimaryColour=&H002A170F,OutlineColour=&H00FFFFFF,BorderStyle=1,Outline=1.5,Shadow=0,MarginV=22,Alignment=2,Bold=0";
+  const duracaoPorCena = Math.max(2, (duracaoAudio - 1) / cenas.length);
+  criarListaDeCenas(framePaths, duracaoPorCena, listaPath);
 
-  console.log(`  Montando vídeo (${duracaoAudio}s) com legendas...`);
+  // Cortes entre cenas + legendas queimadas: o vídeo não depende mais de uma imagem parada.
+  const srtEscaped = srtPath.replace(/\\/g, '/').replace(/:/g, '\\:');
+  const subtitleStyle = "FontName=Arial,FontSize=11,PrimaryColour=&H00FFFFFF,OutlineColour=&H00101010,BorderStyle=1,Outline=2,Shadow=1,MarginV=42,Alignment=2,Bold=1";
+
+  console.log(`  Montando vídeo (${duracaoAudio}s) com ${cenas.length} cenas e legendas...`);
   execSync(
-    `ffmpeg -y -loop 1 -i "${framePath}" -i "${audioPath}" ` +
-    `-vf "zoompan=z='min(zoom+0.0003,1.08)':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=${duracaoAudio * 30}:s=1080x1920:fps=30,subtitles='${srtEscaped}':force_style='${subtitleStyle}',format=yuv420p" ` +
+    `ffmpeg -y -f concat -safe 0 -i "${listaPath}" -i "${audioPath}" ` +
+    `-vf "fps=30,subtitles='${srtEscaped}':force_style='${subtitleStyle}',format=yuv420p" ` +
     `-c:v libx264 -tune stillimage -c:a aac -b:a 192k -pix_fmt yuv420p -movflags +faststart ` +
     `-shortest "${saida}"`,
     { stdio: 'inherit', timeout: 180000 }
@@ -138,38 +159,11 @@ async function gerarVideoTikTok(cfg, saida) {
 }
 
 function montarTextoNarracao(cfg) {
-  const partes = [];
-
-  if (cfg.manchete) {
-    partes.push(cfg.manchete.replace(/\s+/g, ' ').trim() + '.');
-  }
-
-  if (cfg.resumo) {
-    let resumo = cfg.resumo.replace(/\s+/g, ' ').trim();
-    if (resumo.length > 250) resumo = resumo.slice(0, 247) + '...';
-    partes.push(resumo);
-  }
-
-  partes.push('Siga o Bom Dia Investidor pra não perder nenhuma novidade.');
-
-  return partes.join(' ');
+  return montarRoteiroReel(cfg).join(' ');
 }
 
 function montarBlocosLegenda(cfg) {
-  // A manchete NÃO entra na legenda — ela já está escrita no card do vídeo,
-  // e duplicar o texto por cima ficava poluído. Legenda só acompanha o resumo.
-  const blocos = [];
-  // Bloco vazio no início: cobre o tempo em que a narração lê a manchete,
-  // mantendo a legenda aproximadamente sincronizada com o resumo.
-  if (cfg.manchete) blocos.push('');
-  if (cfg.resumo) {
-    let resumo = cfg.resumo.replace(/\s+/g, ' ').trim();
-    if (resumo.length > 200) resumo = resumo.slice(0, 197) + '...';
-    const frases = resumo.match(/[^.!?]+[.!?]+/g) || [resumo];
-    blocos.push(...frases.map(f => f.trim()).filter(f => f.length > 5));
-  }
-  blocos.push('Siga @bomdia_investidor');
-  return blocos;
+  return quebrarLegendas(montarRoteiroReel(cfg), 54);
 }
 
 function montarLegendaTikTok(cfg) {

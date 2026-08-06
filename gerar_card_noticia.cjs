@@ -21,7 +21,7 @@ async function gerarCard(cfg, saida) {
 
   template = template
     .replace(/\{\{CATEGORIA\}\}/g, escapeHtml((cfg.categoria || 'MERCADO').toUpperCase()))
-    .replace(/\{\{MANCHETE\}\}/g, escapeHtml(cfg.manchete || ''))
+    .replace(/\{\{MANCHETE\}\}/g, escapeHtml(cfg.mancheteVisual || cfg.manchete || ''))
     .replace(/\{\{IMAGEM_URL\}\}/g, cfg.imagem || '')
     .replace(/\{\{FONTE\}\}/g, escapeHtml(cfg.fonte || ''))
     .replace(/\{\{PERGUNTA\}\}/g, escapeHtml(cfg.pergunta || ''))

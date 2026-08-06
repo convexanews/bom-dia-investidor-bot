@@ -17,8 +17,8 @@ Entretenimento, esportes, celebridades, loterias e curiosidades não entram na p
 
 ## Cadência
 
-- Até oito posts automáticos de feed por dia, entre 8h e 22h.
-- Pelo menos duas horas entre posts automáticos.
+- Até quatro posts automáticos de feed por dia, entre 8h e 22h.
+- Pelo menos três horas entre posts automáticos.
 - Alertas de recorde obedecem à mesma regra.
 - O resumo visual é semanal; não deve repetir o feed várias vezes por dia.
 - Todos os fluxos de publicação usam uma única fila para evitar concorrência.
@@ -30,6 +30,13 @@ Entretenimento, esportes, celebridades, loterias e curiosidades não entram na p
 3. Um CTA alinhado ao objetivo: salvar, compartilhar ou comentar.
 4. Aviso: conteúdo informativo, não recomendação de investimento.
 5. Até cinco hashtags específicas do tema.
+
+## Formato de retenção
+
+- A capa do carrossel usa um fato curto, verificável e fiel à manchete; a explicação vem nos slides seguintes.
+- Um slide apresenta apenas uma ideia, com texto curto e leitura rápida.
+- A sequência é: gancho, fato, contexto, por que importa, o que observar e CTA.
+- Reels têm roteiro curto, legendas em blocos e uma abertura direta; não devem apenas repetir uma manchete longa.
 
 ## Critério de decisão por métricas
 

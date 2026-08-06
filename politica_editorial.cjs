@@ -29,7 +29,9 @@ function classificarEditorial(noticia) {
   if (!pilares.length) return { aprovada: false, motivo: 'sem pilar editorial', pilares: [] };
 
   const impacto = Number(noticia.peso || 0);
-  if (impacto < 20) return { aprovada: false, motivo: 'impacto editorial insuficiente', pilares };
+  // A publicação automática precisa de impacto claro; menções genéricas a mercado
+  // não bastam para ocupar o feed.
+  if (impacto < 30) return { aprovada: false, motivo: 'impacto editorial insuficiente', pilares };
   return { aprovada: true, motivo: null, pilares };
 }
 
