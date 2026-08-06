@@ -20,7 +20,7 @@ function getLogoB64() {
   return logoB64;
 }
 
-// cfg: { final: true } OU { kicker, texto, contador, rodapeDireita }
+// cfg: { final: true } OU { kicker, texto, destaque, tema, contador, rodapeDireita }
 async function gerarSlide(cfg, saida) {
   const arquivo = cfg.final ? 'card-carrossel-final.html' : 'card-carrossel-slide.html';
   let template = fs.readFileSync(path.join(__dirname, arquivo), 'utf8');
@@ -29,6 +29,8 @@ async function gerarSlide(cfg, saida) {
     .replace(/\{\{LOGO_B64\}\}/g, getLogoB64())
     .replace(/\{\{KICKER\}\}/g, escapeHtml(cfg.kicker || ''))
     .replace(/\{\{TEXTO\}\}/g, escapeHtml(cfg.texto || ''))
+    .replace(/\{\{DESTAQUE\}\}/g, escapeHtml(cfg.destaque || ''))
+    .replace(/\{\{TEMA\}\}/g, ['positivo', 'negativo'].includes(cfg.tema) ? cfg.tema : 'neutro')
     .replace(/\{\{CONTADOR\}\}/g, escapeHtml(cfg.contador || ''))
     .replace(/\{\{RODAPE_DIREITA\}\}/g, escapeHtml(cfg.rodapeDireita || 'arraste →'));
 

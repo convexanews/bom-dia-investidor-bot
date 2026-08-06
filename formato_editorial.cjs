@@ -58,4 +58,39 @@ function quebrarLegendas(blocos, limite = 54) {
   });
 }
 
-module.exports = { criarCapaRetencao, dividirResumoCurto, montarRoteiroReel, quebrarLegendas, limitarTexto };
+function contextoPorCategoria(categoria) {
+  const textos = {
+    economia: 'Juros, inflação e os próximos dados econômicos entram no radar.',
+    mercados: 'A reação do mercado pode alterar a leitura do cenário.',
+    empresas: 'Resultados, projeções e comunicados da empresa merecem atenção.',
+    bolsa: 'Volume, preço e os próximos pregões ajudam a confirmar o movimento.',
+    renda_fixa: 'Taxas e expectativas para juros podem influenciar os títulos.',
+  };
+  return textos[limparTexto(categoria).toLowerCase()] || 'Os próximos dados ajudam a colocar a notícia em perspectiva.';
+}
+
+// Capa + oito etapas + CTA final: sempre dez imagens, sem inventar fatos.
+function montarRoteiroCarrossel({ manchete, resumo, categoria, sentimento, apoioCapa }) {
+  const fatos = dividirResumoCurto(resumo, 3, 125);
+  const fatoPrincipal = fatos[0] || limitarTexto(manchete, 125);
+  const fatoComplementar = fatos.slice(1).join(' ') || 'Acompanhe a fonte e os próximos desdobramentos da notícia.';
+  const contexto = contextoPorCategoria(categoria);
+  const impacto = {
+    positivo: 'Movimentos positivos precisam de confirmação nos próximos dados.',
+    negativo: 'Movimentos negativos pedem atenção, sem decisões por impulso.',
+  }[sentimento] || 'Uma notícia isolada não substitui a análise do cenário completo.';
+  const tema = sentimento === 'positivo' ? 'positivo' : sentimento === 'negativo' ? 'negativo' : 'neutro';
+
+  return [
+    { kicker: 'O fato em uma frase', texto: fatoPrincipal, destaque: 'O ponto central', tema },
+    { kicker: 'O que aconteceu', texto: fatoComplementar, destaque: 'O contexto', tema },
+    { kicker: 'Por que entrou no radar', texto: apoioCapa || contexto, destaque: 'Por que importa', tema },
+    { kicker: 'Quem deve observar', texto: contexto, destaque: 'Para o investidor', tema },
+    { kicker: 'O que isso pode mudar', texto: impacto, destaque: 'Sem impulso', tema },
+    { kicker: 'O que observar agora', texto: 'Dados, comunicados oficiais e a reação do mercado nos próximos dias.', destaque: 'Próximos sinais', tema },
+    { kicker: 'Antes de decidir', texto: 'Compare a informação com a fonte original e com a sua estratégia de investimento.', destaque: 'Olhe o todo', tema },
+    { kicker: 'Resumo final', texto: limitarTexto(manchete, 150), destaque: 'Acompanhe', tema },
+  ];
+}
+
+module.exports = { criarCapaRetencao, dividirResumoCurto, montarRoteiroReel, quebrarLegendas, limitarTexto, montarRoteiroCarrossel };

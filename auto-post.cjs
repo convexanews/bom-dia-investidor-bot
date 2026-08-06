@@ -9,7 +9,7 @@ const { buscarNoticias, titulosSimilares } = require('./coletor_noticias.cjs');
 const { gerarCard } = require('./gerar_card_noticia.cjs');
 const { gerarSlide } = require('./gerar_slide_carrossel.cjs');
 const { gerarVideoTikTok, montarLegendaTikTok } = require('./gerar_tiktok.cjs');
-const { criarCapaRetencao, dividirResumoCurto } = require('./formato_editorial.cjs');
+const { criarCapaRetencao, montarRoteiroCarrossel } = require('./formato_editorial.cjs');
 
 const PESO_MINIMO_REEL = 60;
 const TIKTOK_POSTADAS_FILE = path.join(__dirname, 'tiktok-postadas.json');
@@ -498,19 +498,16 @@ async function main() {
     salvarJson(TIKTOK_POSTADAS_FILE, tiktokPostadas.slice(0, 200));
 
   } else if (formato === 'carrossel') {
-    // === CARROSSEL RICO (5-6 slides) ===
-    // Capa (foto + manchete) > resumo em 1-2 slides > "e pra você?" >
-    // pergunta de engajamento > CTA "siga". Carrosséis com mais slides
-    // retêm mais tempo de visualização e são re-servidos pelo algoritmo
-    // pra quem não deslizou até o fim.
-    const slidesCfg = [];
-    const blocosResumo = dividirResumoCurto(cfg.resumo, 3, 155);
-    blocosResumo.forEach(b => slidesCfg.push({ kicker: 'O que aconteceu', texto: b }));
-
-    const contextoBruto = CONTEXTOS[cfg.sentimento?.tipo || 'padrao'] || CONTEXTOS.padrao;
-    const contextoTexto = contextoBruto.replace(/^.*?O que isso significa para você: /, '');
-    slidesCfg.push({ kicker: 'Por que importa?', texto: contextoTexto.charAt(0).toUpperCase() + contextoTexto.slice(1) });
-    slidesCfg.push({ kicker: 'O que observar agora?', texto: cfg.apoioCapa, rodapeDireita: 'continue →' });
+    // === CARROSSEL NARRATIVO (10 slides) ===
+    // Capa > fatos > contexto > impacto > cautela > resumo > CTA.
+    // Cada imagem responde uma pergunta e abre a seguinte, sem inventar dados.
+    const slidesCfg = montarRoteiroCarrossel({
+      manchete: cfg.manchete,
+      resumo: cfg.resumo,
+      categoria: cfg.categoria,
+      sentimento: cfg.sentimento?.tipo,
+      apoioCapa: cfg.apoioCapa,
+    });
 
     const totalSlides = 1 + slidesCfg.length + 1; // capa + internos + final
     const nomes = [];
