@@ -12,6 +12,7 @@ const { gerarVideoTikTok, montarLegendaTikTok } = require('./gerar_tiktok.cjs');
 const { criarCapaRetencao, montarRoteiroCarrossel } = require('./formato_editorial.cjs');
 
 const PESO_MINIMO_REEL = 60;
+const PESO_MINIMO_PUBLICACAO = 30;
 const TIKTOK_POSTADAS_FILE = path.join(__dirname, 'tiktok-postadas.json');
 
 const IG_API_BASE = 'https://graph.instagram.com/v23.0';
@@ -351,7 +352,7 @@ async function main() {
     });
   }
 
-  // Filtra apenas notícias das últimas 1h e não postadas, já ordenadas por peso (impacto)
+  // Publica apenas notícia nova com impacto editorial forte, já ordenada por peso.
   const UMA_HORA_MS = 60 * 60 * 1000;
   const agora = Date.now();
   const candidatas = noticias.filter(n =>
@@ -359,6 +360,7 @@ async function main() {
     !postadas.has(n.link) &&
     !tituloJaPostado(n.titulo) &&
     n.publicadoEm > 0 &&
+    (n.peso || 0) >= PESO_MINIMO_PUBLICACAO &&
     (agora - n.publicadoEm) <= UMA_HORA_MS
   );
 

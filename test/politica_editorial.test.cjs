@@ -24,3 +24,11 @@ test('recusa notícia financeira de impacto baixo', () => {
   assert.equal(resultado.aprovada, false);
   assert.equal(resultado.motivo, 'impacto editorial insuficiente');
 });
+
+test('recusa notícia com pilar financeiro mas impacto abaixo do mínimo de publicação', () => {
+  const resultado = classificarEditorial({
+    titulo: 'Mercado acompanha atualização de empresa', descricao: '', categorias: ['Empresas'], peso: 29,
+  });
+  assert.equal(resultado.aprovada, false);
+  assert.equal(resultado.motivo, 'impacto editorial insuficiente');
+});
