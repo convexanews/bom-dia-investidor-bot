@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-06T10:30:40.078Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (07:30 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-08-06T10:01:08.871Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (07:01 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1069,14 +1074,5 @@
     "data": "2026-08-03T11:31:01.625Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
-  },
-  {
-    "data": "2026-08-03T11:02:49.216Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"Da Bolsa ao Bitcoin: 5 gráficos que podem definir os mercados na semana\".",
-    "postId": "17900049921513953",
-    "storyId": null,
-    "reelId": "17900049921513953",
-    "tipo": "reel"
   }
 ]
