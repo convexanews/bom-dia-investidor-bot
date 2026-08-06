@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-06T23:26:53.608Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 3h entre posts. Faltam 127 min."
+  },
+  {
     "data": "2026-08-06T22:33:06.188Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (carrossel): \"Ibovespa cai 1,23% após Copom e tensão no exterior; Petrobras (PETR4) limita perdas\".",
@@ -1077,10 +1082,5 @@
     "data": "2026-08-03T17:47:07.632Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 46 min."
-  },
-  {
-    "data": "2026-08-03T17:30:55.176Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 62 min."
   }
 ]
