@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-06T11:31:05.130Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
+  },
+  {
     "data": "2026-08-06T11:02:52.371Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"Selic cai para 14%, mas é a Petrobras (PETR4) que mexe com o mercado; Ibovespa em dólar sobe hoje (6)\".",
@@ -1073,10 +1078,5 @@
     "data": "2026-08-03T13:01:09.858Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
-  },
-  {
-    "data": "2026-08-03T12:51:45.451Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 12 min."
   }
 ]
