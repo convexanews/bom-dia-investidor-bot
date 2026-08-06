@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-06T15:01:07.913Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 3h entre posts. Faltam 152 min."
+  },
+  {
     "data": "2026-08-06T14:32:54.239Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (carrossel): \"Wall Street abre em alta, mas tech e Oriente Médio ficam no radar\".",
@@ -1073,10 +1078,5 @@
     "data": "2026-08-03T15:39:27.105Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 23 min."
-  },
-  {
-    "data": "2026-08-03T15:30:54.620Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 32 min."
   }
 ]
