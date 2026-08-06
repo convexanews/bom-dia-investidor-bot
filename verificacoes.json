@@ -1,5 +1,11 @@
 [
   {
+    "data": "2026-08-06T13:00:40.891Z",
+    "resultado": "story_glossario",
+    "mensagem": "Story do glossário publicado: \"Spread Bancário\"",
+    "postId": "18065939978492118"
+  },
+  {
     "data": "2026-08-06T12:30:58.207Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 3h entre posts. Faltam 92 min."
@@ -1073,10 +1079,5 @@
     "resultado": "story_glossario",
     "mensagem": "Story do glossário publicado: \"B3\"",
     "postId": "18004373078957134"
-  },
-  {
-    "data": "2026-08-03T13:31:56.700Z",
-    "resultado": "erro",
-    "mensagem": "Erro na execução automática: Container com erro: {\"status_code\":\"ERROR\",\"id\":\"18129669643665621\"}"
   }
 ]
