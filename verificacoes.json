@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-07T08:31:02.455Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (05:31 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-08-07T08:01:22.399Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (05:01 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1069,10 +1074,5 @@
     "data": "2026-08-04T01:01:07.081Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 25): \"VIUR11 adia venda de imóvel e firma acordo por aluguéis em atraso\". Realizando postagem..."
-  },
-  {
-    "data": "2026-08-04T00:31:21.148Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
   }
 ]
