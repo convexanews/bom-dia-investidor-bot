@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-07T17:52:43.955Z",
+    "resultado": "limite_diario",
+    "mensagem": "Limite de 1 posts diários atingido (1 já publicados hoje)."
+  },
+  {
     "data": "2026-08-07T17:31:28.713Z",
     "resultado": "limite_diario",
     "mensagem": "Limite de 1 posts diários atingido (1 já publicados hoje)."
@@ -1060,14 +1065,5 @@
     "resultado": "alerta_suprimido",
     "mensagem": "Alerta de recorde não publicado: intervalo mínimo de duas horas.",
     "ativo": "Ibovespa"
-  },
-  {
-    "data": "2026-08-04T13:34:32.785Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"Ibovespa Hoje Ao Vivo: Bolsa dispara 1% com exterior e retoma os 180 mil pontos\".",
-    "postId": "17909291391452168",
-    "storyId": null,
-    "reelId": "17909291391452168",
-    "tipo": "reel"
   }
 ]
