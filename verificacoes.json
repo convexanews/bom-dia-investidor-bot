@@ -1,5 +1,15 @@
 [
   {
+    "data": "2026-08-07T11:01:55.008Z",
+    "resultado": "erro",
+    "mensagem": "Erro na execução automática: Erro ao criar container do feed: {\"error\":{\"message\":\"Error validating access token: Session has expired on Thursday, 06-Aug-26 18:47:13 PDT. The current time is Friday, 07-Aug-26 04:01:54 PDT.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":0,\"fbtrace_id\":\"AAvcPRu6s3pNgkPKhJogrlW\"}}"
+  },
+  {
+    "data": "2026-08-07T11:01:22.760Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 64): \"Mercado repercute dividendo bilionário da Petrobras; Ibovespa em dólar cai hoje (7)\". Realizando postagem..."
+  },
+  {
     "data": "2026-08-07T10:31:31.828Z",
     "resultado": "erro",
     "mensagem": "Erro na execução automática: Erro ao criar container do feed: {\"error\":{\"message\":\"Error validating access token: Session has expired on Thursday, 06-Aug-26 18:47:13 PDT. The current time is Friday, 07-Aug-26 03:31:31 PDT.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":0,\"fbtrace_id\":\"AA4M4yDDK6UbUYdXLN-BFv5\"}}"
@@ -1060,15 +1070,5 @@
     "data": "2026-08-04T06:29:02.597Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (03:29 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-08-04T06:01:04.270Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (03:01 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-08-04T05:31:14.903Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (02:31 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
