@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-07T00:07:46.088Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 3h entre posts. Faltam 86 min."
+  },
+  {
     "data": "2026-08-07T00:01:06.790Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 3h entre posts. Faltam 92 min."
@@ -1077,10 +1082,5 @@
     "data": "2026-08-03T19:01:20.850Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 62): \"Copom deve cortar juro a 14%, pausar até 2027 e depois retomar calibração, diz XP\". Realizando postagem..."
-  },
-  {
-    "data": "2026-08-03T18:31:06.384Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
   }
 ]
