@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-07T22:42:33.908Z",
+    "resultado": "limite_diario",
+    "mensagem": "Limite de 1 posts diários atingido (1 já publicados hoje)."
+  },
+  {
     "data": "2026-08-07T22:31:22.823Z",
     "resultado": "limite_diario",
     "mensagem": "Limite de 1 posts diários atingido (1 já publicados hoje)."
@@ -1055,10 +1060,5 @@
     "storyId": "18116077622484708",
     "reelId": null,
     "tipo": "carrossel"
-  },
-  {
-    "data": "2026-08-04T18:23:58.799Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 58): \"Mercado pode estar superestimando altas de juros do Fed, diz ASA; ‘efeito Warsh’ perde força\". Realizando postagem..."
   }
 ]
