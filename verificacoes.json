@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-07T20:01:00.442Z",
+    "resultado": "limite_diario",
+    "mensagem": "Limite de 1 posts diários atingido (1 já publicados hoje)."
+  },
+  {
     "data": "2026-08-07T19:30:59.855Z",
     "resultado": "limite_diario",
     "mensagem": "Limite de 1 posts diários atingido (1 já publicados hoje)."
@@ -1059,10 +1064,5 @@
     "data": "2026-08-04T16:01:51.307Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 61): \"Menos otimismo? Investidores institucionais reduzem expectativa para o Ibovespa em 2026, segundo pesquisa do Itaú BBA\". Realizando postagem..."
-  },
-  {
-    "data": "2026-08-04T15:31:03.597Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 4 min."
   }
 ]
