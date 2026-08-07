@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-07T17:31:28.713Z",
+    "resultado": "limite_diario",
+    "mensagem": "Limite de 1 posts diários atingido (1 já publicados hoje)."
+  },
+  {
     "data": "2026-08-07T17:01:15.778Z",
     "resultado": "limite_diario",
     "mensagem": "Limite de 1 posts diários atingido (1 já publicados hoje)."
@@ -1064,10 +1069,5 @@
     "storyId": null,
     "reelId": "17909291391452168",
     "tipo": "reel"
-  },
-  {
-    "data": "2026-08-04T13:32:16.817Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 73): \"Ibovespa Hoje Ao Vivo: Bolsa dispara 1% com exterior e retoma os 180 mil pontos\". Realizando postagem..."
   }
 ]
