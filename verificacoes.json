@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-07T13:15:50.860Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 3h entre posts. Faltam 168 min."
+  },
+  {
     "data": "2026-08-07T13:03:14.746Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (card): \"Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta sexta\".",
@@ -1069,10 +1074,5 @@
     "data": "2026-08-04T10:31:01.663Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (07:31 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-08-04T10:01:35.384Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (07:01 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
