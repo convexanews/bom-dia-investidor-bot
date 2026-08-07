@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-08-07T13:03:14.746Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (card): \"Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta sexta\".",
+    "postId": "18099908960250121",
+    "storyId": "18072402713438585",
+    "reelId": null,
+    "tipo": "card"
+  },
+  {
+    "data": "2026-08-07T13:02:22.120Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 55): \"Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta sexta\". Realizando postagem..."
+  },
+  {
     "data": "2026-08-07T12:31:43.791Z",
     "resultado": "erro",
     "mensagem": "Erro na execução automática: Erro ao criar container do feed: {\"error\":{\"message\":\"Error validating access token: Session has expired on Thursday, 06-Aug-26 18:47:13 PDT. The current time is Friday, 07-Aug-26 05:31:43 PDT.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":0,\"fbtrace_id\":\"AOTZvEtN6-JdAVOrTNO_mfX\"}}"
@@ -1060,15 +1074,5 @@
     "data": "2026-08-04T10:01:35.384Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (07:01 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-08-04T09:35:43.084Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (06:35 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-08-04T09:31:01.946Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (06:31 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
