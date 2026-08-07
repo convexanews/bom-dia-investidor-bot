@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-07T00:59:11.798Z",
+    "resultado": "carrossel_fechamento_suprimido",
+    "mensagem": "Fechamento não publicado: limite diário global atingido."
+  },
+  {
     "data": "2026-08-07T00:30:55.615Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 3h entre posts. Faltam 63 min."
@@ -1073,14 +1078,5 @@
     "data": "2026-08-03T19:21:02.128Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 102 min."
-  },
-  {
-    "data": "2026-08-03T19:02:51.897Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"Copom deve cortar juro a 14%, pausar até 2027 e depois retomar calibração, diz XP\".",
-    "postId": "17877623787653309",
-    "storyId": null,
-    "reelId": "17877623787653309",
-    "tipo": "reel"
   }
 ]
