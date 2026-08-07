@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-07T03:53:59.670Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (00:53 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-08-07T03:31:02.678Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (00:31 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1073,10 +1078,5 @@
     "storyId": null,
     "reelId": "18101914549930721",
     "tipo": "reel"
-  },
-  {
-    "data": "2026-08-03T21:31:42.233Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 73): \"Por que Ibovespa começou agosto “no zero”, enquanto Dow Jones bateu novo recorde?\". Realizando postagem..."
   }
 ]
