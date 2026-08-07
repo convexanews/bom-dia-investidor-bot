@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-07T14:01:31.128Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 3h entre posts. Faltam 122 min."
+  },
+  {
     "data": "2026-08-07T13:31:14.356Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 3h entre posts. Faltam 153 min."
@@ -1069,10 +1074,5 @@
     "storyId": null,
     "reelId": "17995844535003941",
     "tipo": "reel"
-  },
-  {
-    "data": "2026-08-04T11:01:49.856Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 71): \"BC se prepara para cortar Selic: veja os dados que pesam na decisão\". Realizando postagem..."
   }
 ]
