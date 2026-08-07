@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-07T23:01:16.243Z",
+    "resultado": "limite_diario",
+    "mensagem": "Limite de 1 posts diários atingido (1 já publicados hoje)."
+  },
+  {
     "data": "2026-08-07T22:42:33.908Z",
     "resultado": "limite_diario",
     "mensagem": "Limite de 1 posts diários atingido (1 já publicados hoje)."
@@ -1051,14 +1056,5 @@
     "data": "2026-08-04T18:31:03.837Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 115 min."
-  },
-  {
-    "data": "2026-08-04T18:25:20.438Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (carrossel): \"Mercado pode estar superestimando altas de juros do Fed, diz ASA; ‘efeito Warsh’ perde força\".",
-    "postId": "18171396772449633",
-    "storyId": "18116077622484708",
-    "reelId": null,
-    "tipo": "carrossel"
   }
 ]
