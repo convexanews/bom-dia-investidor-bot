@@ -1,8 +1,6 @@
 name: Bom Dia Investidor - Reel Diario
 
 on:
-  schedule:
-    - cron: '0 23 * * 0'
   workflow_dispatch: {}
 
 permissions:

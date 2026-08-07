@@ -87,7 +87,7 @@ function contextoPorCategoria(categoria) {
   return textos[limparTexto(categoria).toLowerCase()] || 'Os próximos dados ajudam a colocar a notícia em perspectiva.';
 }
 
-// Capa + oito etapas + CTA final: sempre dez imagens, sem inventar fatos.
+// Capa + quatro etapas + CTA final: seis imagens, sem slides de preenchimento.
 function montarRoteiroCarrossel({ manchete, resumo, categoria, sentimento, apoioCapa }) {
   const fatos = dividirResumoCurto(resumo, 3, 125);
   const fatoPrincipal = fatos[0] || limitarTexto(manchete, 125);
@@ -102,12 +102,8 @@ function montarRoteiroCarrossel({ manchete, resumo, categoria, sentimento, apoio
   return [
     { kicker: 'O fato em uma frase', texto: fatoPrincipal, destaque: 'O ponto central', tema },
     { kicker: 'O que aconteceu', texto: fatoComplementar, destaque: 'O contexto', tema },
-    { kicker: 'Por que entrou no radar', texto: apoioCapa || contexto, destaque: 'Por que importa', tema },
-    { kicker: 'Quem deve observar', texto: contexto, destaque: 'Para o investidor', tema },
-    { kicker: 'O que isso pode mudar', texto: impacto, destaque: 'Sem impulso', tema },
-    { kicker: 'O que observar agora', texto: 'Dados, comunicados oficiais e a reação do mercado nos próximos dias.', destaque: 'Próximos sinais', tema },
-    { kicker: 'Antes de decidir', texto: 'Compare a informação com a fonte original e com a sua estratégia de investimento.', destaque: 'Olhe o todo', tema },
-    { kicker: 'Resumo final', texto: limitarTexto(manchete, 150), destaque: 'Acompanhe', tema },
+    { kicker: 'Por que importa', texto: apoioCapa || contexto, destaque: 'Para o investidor', tema },
+    { kicker: 'O que observar agora', texto: impacto, destaque: 'Sem impulso', tema },
   ];
 }
 
