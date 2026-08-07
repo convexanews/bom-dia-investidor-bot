@@ -1,5 +1,15 @@
 [
   {
+    "data": "2026-08-07T09:02:07.559Z",
+    "resultado": "erro",
+    "mensagem": "Erro na execução automática: Erro ao criar container do feed: {\"error\":{\"message\":\"Error validating access token: Session has expired on Thursday, 06-Aug-26 18:47:13 PDT. The current time is Friday, 07-Aug-26 02:02:07 PDT.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":0,\"fbtrace_id\":\"AxlEI2DxUxl2xF1awEKM588\"}}"
+  },
+  {
+    "data": "2026-08-07T09:01:36.345Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 70): \"IA virou preocupação do Fed: investimento dispara e alerta de bolha acende\". Realizando postagem..."
+  },
+  {
     "data": "2026-08-07T08:31:02.455Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (05:31 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1060,19 +1070,5 @@
     "data": "2026-08-04T01:31:13.800Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
-  },
-  {
-    "data": "2026-08-04T01:02:33.117Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (carrossel): \"VIUR11 adia venda de imóvel e firma acordo por aluguéis em atraso\".",
-    "postId": "18133204132612309",
-    "storyId": "18012106514928326",
-    "reelId": null,
-    "tipo": "carrossel"
-  },
-  {
-    "data": "2026-08-04T01:01:07.081Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 25): \"VIUR11 adia venda de imóvel e firma acordo por aluguéis em atraso\". Realizando postagem..."
   }
 ]
