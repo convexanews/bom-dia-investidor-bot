@@ -38,15 +38,19 @@ async function consultar(url) {
 async function metricasDoPost(id) {
   const metricas = ['reach', 'saved', 'shares', 'comments', 'likes', 'plays', 'total_interactions'];
   const resultado = {};
+  const falhas = [];
   for (const metrica of metricas) {
     try {
       const dados = await consultar(`${API}/${id}/insights?metric=${metrica}&access_token=${token}`);
       const item = (dados.data || [])[0];
       if (item) resultado[item.name] = item.values?.[0]?.value ?? null;
-    } catch {
-      // Métricas variam por formato e por versão da API. Uma indisponível não invalida as demais.
+    } catch (erro) {
+      // Métricas variam por formato e por versão da API. Uma indisponível não invalida as demais,
+      // mas precisa ficar registrada para não confundir ausência de dado com desempenho zero.
+      falhas.push({ metrica, erro: erro.message });
     }
   }
+  if (falhas.length) resultado.falhas = falhas;
   return resultado;
 }
 

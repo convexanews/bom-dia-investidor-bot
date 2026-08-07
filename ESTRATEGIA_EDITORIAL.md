@@ -17,8 +17,8 @@ Entretenimento, esportes, celebridades, loterias e curiosidades não entram na p
 
 ## Cadência
 
-- Até quatro posts automáticos de feed por dia, entre 8h e 22h.
-- Pelo menos três horas entre posts automáticos.
+- Um Reel automático por dia, entre 8h e 22h, apenas para pauta de alto impacto editorial.
+- Carrosséis e cards de feed não são automáticos; dependem de revisão editorial.
 - Alertas de recorde obedecem à mesma regra.
 - O resumo visual é semanal; não deve repetir o feed várias vezes por dia.
 - Todos os fluxos de publicação usam uma única fila para evitar concorrência.
@@ -33,9 +33,10 @@ Entretenimento, esportes, celebridades, loterias e curiosidades não entram na p
 
 ## Formato de retenção
 
-- A capa do carrossel usa um fato curto, verificável e fiel à manchete; a explicação vem nos slides seguintes.
-- Um slide apresenta apenas uma ideia, com texto curto e leitura rápida.
-- A sequência é: gancho, fato, contexto, por que importa, o que observar e CTA.
+- Carrosséis têm 5–6 slides, não 10: gancho, fato, contexto, impacto, limite e CTA.
+- A capa usa um fato curto, verificável e fiel à manchete; a explicação vem nos slides seguintes.
+- Um slide apresenta apenas uma ideia, no máximo 35–45 palavras, sem frase cortada.
+- Tema da legenda, impacto para o investidor e hashtags devem corresponder à pauta.
 - Reels têm roteiro curto, legendas em blocos e uma abertura direta; não devem apenas repetir uma manchete longa.
 
 ## Critério de decisão por métricas

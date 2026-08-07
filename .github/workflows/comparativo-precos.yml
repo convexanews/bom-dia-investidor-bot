@@ -1,8 +1,6 @@
 name: Bom Dia Investidor - Comparativo de Preços
 
 on:
-  schedule:
-    - cron: '0 13 * * 6'  # Todo sábado às 10h BRT (13h UTC)
   workflow_dispatch: {}
 
 permissions:

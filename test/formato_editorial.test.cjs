@@ -20,14 +20,14 @@ test('roteiro e legendas mantêm leitura rápida', () => {
   assert.ok(quebrarLegendas(roteiro, 45).every(legenda => legenda.length <= 45));
 });
 
-test('carrossel narrativo cria oito etapas internas para totalizar dez imagens', () => {
+test('carrossel narrativo cria quatro etapas internas para totalizar seis imagens', () => {
   const roteiro = montarRoteiroCarrossel({
     manchete: 'Empresa divulga resultado e revisa projeções para o ano',
     resumo: 'A companhia divulgou o resultado trimestral. O mercado acompanha os próximos dados e a reação das ações.',
     categoria: 'Empresas',
     sentimento: 'positivo',
   });
-  assert.equal(roteiro.length, 8);
+  assert.equal(roteiro.length, 4);
   assert.ok(roteiro.every(slide => slide.kicker && slide.texto && slide.destaque));
   assert.ok(roteiro.every(slide => slide.tema === 'positivo'));
 });

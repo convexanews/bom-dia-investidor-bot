@@ -1,8 +1,6 @@
 name: Bom Dia Investidor - Carrossel Fechamento
 
 on:
-  schedule:
-    - cron: '0 21 * * 1-5'
   workflow_dispatch: {}
 
 permissions:

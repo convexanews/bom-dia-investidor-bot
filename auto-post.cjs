@@ -10,9 +10,10 @@ const { gerarCard } = require('./gerar_card_noticia.cjs');
 const { gerarSlide } = require('./gerar_slide_carrossel.cjs');
 const { gerarVideoTikTok, montarLegendaTikTok } = require('./gerar_tiktok.cjs');
 const { criarCapaRetencao, montarRoteiroCarrossel } = require('./formato_editorial.cjs');
+const { validarPautaAutomatica } = require('./qualidade_editorial.cjs');
 
 const PESO_MINIMO_REEL = 60;
-const PESO_MINIMO_PUBLICACAO = 30;
+const PESO_MINIMO_PUBLICACAO = PESO_MINIMO_REEL;
 const TIKTOK_POSTADAS_FILE = path.join(__dirname, 'tiktok-postadas.json');
 
 const IG_API_BASE = 'https://graph.instagram.com/v23.0';
@@ -147,12 +148,15 @@ const CONTEXTOS = {
   bitcoin:  '₿ O que isso significa para você: criptomoedas seguem voláteis — ajuste a exposição ao seu perfil de risco.',
   fii:      '🏢 O que isso significa para você: fundos imobiliários podem reagir a essa notícia.',
   dividendo:'💸 O que isso significa para você: investidores de renda podem ser diretamente impactados.',
+  exterior: '🌎 O que isso significa para você: bolsas globais e juros externos podem influenciar o humor do mercado local.',
   padrao:   '💡 O que acompanhar: observe os próximos dados e seus possíveis impactos no mercado.',
 };
 
 function detectarSentimento(titulo, resumo = '') {
   const texto = (titulo + ' ' + resumo).toLowerCase();
 
+  if (/wall street|nasdaq|dow jones|s&p|fed|treasur|oriente m[eé]dio/.test(texto))
+    return { tipo: 'exterior', gradiente: 'linear-gradient(135deg, #1565C0, #283593)', cor: '#1565C0', texto: '#fff' };
   if (/selic|copom|juros|taxa básica|renda fixa|tesouro/.test(texto))
     return { tipo: 'selic', gradiente: 'linear-gradient(135deg, #7C4DFF, #651FFF)', cor: '#7C4DFF', texto: '#fff' };
   if (/dólar|câmbio|real|moeda|euro|libra/.test(texto))
@@ -182,6 +186,33 @@ function montarLegenda(cfg) {
 function estaNoHorarioPico() {
   const hora = parseInt(new Date().toLocaleString('en-US', { timeZone: 'America/Sao_Paulo', hour: 'numeric', hour12: false }));
   return hora >= 6 && hora <= 22;
+}
+
+// Evita uma sequência de falhas de publicação quando o segredo expira.
+// A validação é leve e, com token inválido, o workflow encerra sem tentar gerar
+// mídia ou chamar o endpoint de publicação.
+async function tokenInstagramValido() {
+  try {
+    const resp = await fetch(`${IG_API_BASE}/${IG_ACCOUNT_ID}?fields=id&access_token=${IG_TOKEN}`);
+    const data = await resp.json();
+    if (resp.ok && data.id) return true;
+    const erro = data?.error || {};
+    if (erro.code === 190) {
+      const verificacoes = carregarJson(VERIFICACOES_FILE, []);
+      const jaAlertado = verificacoes.some(v =>
+        v.resultado === 'token_invalido' &&
+        Date.now() - new Date(v.data).getTime() < 12 * 60 * 60 * 1000
+      );
+      if (!jaAlertado) {
+        registrarVerificacao('token_invalido', 'Publicação pausada: IG_TOKEN inválido ou expirado. Atualize o segredo no GitHub Actions.', { codigo: erro.code });
+      }
+      return false;
+    }
+    throw new Error(`Não foi possível validar o token: ${JSON.stringify(data)}`);
+  } catch (erro) {
+    registrarVerificacao('falha_validacao_token', `Publicação pausada por falha na validação do token: ${erro.message}`);
+    return false;
+  }
 }
 
 async function aguardarContainerPronto(containerId, tentativas = 15) {
@@ -292,6 +323,8 @@ async function main() {
   const postadas = new Set(carregarJson(POSTADAS_FILE, []));
   const relatorio = carregarJson(RELATORIO_FILE, []);
 
+  if (!await tokenInstagramValido()) return;
+
   if (!estaNoHorarioPico()) {
     const hora = new Date().toLocaleString('pt-BR', { timeZone: 'America/Sao_Paulo', hour: '2-digit', minute: '2-digit' });
     console.log(`Fora do horário de postagem (${hora} BRT). Postagens acontecem entre 06h e 22h.`);
@@ -312,8 +345,8 @@ async function main() {
     }
   }
 
-  // Até quatro posts entre 6h e 22h, respeitando três horas entre cada publicação.
-  const MAX_POSTS_DIA = 4;
+  // Uma publicação por dia evita fadiga e dá tempo para a distribuição do Reel.
+  const MAX_POSTS_DIA = 1;
   const inicioDia = new Date(new Date().toLocaleString('en-US', { timeZone: 'America/Sao_Paulo' }));
   inicioDia.setHours(0, 0, 0, 0);
   const postasHoje = relatorio.filter(p =>
@@ -399,6 +432,15 @@ async function main() {
     acentoCor: sentimento.cor,
     acentoTexto: sentimento.texto,
   };
+  const qualidade = validarPautaAutomatica({
+    manchete: cfg.manchete,
+    resumo: cfg.resumo,
+    tema: sentimento.tipo,
+  });
+  if (!qualidade.aprovada) {
+    registrarVerificacao('pauta_reprovada', `Pauta não publicada: ${qualidade.motivo}.`, { titulo: cfg.manchete, tema: sentimento.tipo });
+    return;
+  }
   const capa = criarCapaRetencao(cfg.manchete, cfg.categoria);
   cfg.mancheteVisual = capa.gancho;
   cfg.acaoCapa = 'Arraste para entender →';
@@ -430,32 +472,10 @@ async function main() {
   let imageUrl = null;
   let storyImageUrl = null;
 
-  // Alternância REAL de formatos: reel > carrossel > card > reel > ...
-  // O algoritmo do Instagram trata cada formato de um jeito: reels dão mais
-  // alcance (~2,3x), carrosséis têm o maior engajamento e ganham "segunda
-  // chance" na entrega (re-servidos pra quem não deslizou), e a variedade de
-  // formatos por si só melhora a distribuição do perfil.
-  // Antes o limite de "alto impacto" (peso 30) era tão baixo que quase toda
-  // notícia virava reel e o revezamento nunca acontecia.
-  const FORMATOS = ['reel', 'carrossel', 'card'];
-  const tiposRecentes = relatorio.slice(0, 5).map(r => r.tipo || 'card');
-  const ultimoTipo = tiposRecentes[0] || 'card';
-  const idxUltimo = FORMATOS.indexOf(ultimoTipo);
-  const proximoFormato = FORMATOS[(idxUltimo + 1) % FORMATOS.length];
-
-  // Peso muito alto pode antecipar um Reel, mas nunca em sequência.
-  // Os demais formatos seguem o revezamento para não transformar o perfil
-  // em uma sequência de vídeos com a mesma estrutura visual.
-  // peso < 30: segue o revezamento pulando o reel (carrossel ou card)
-  const ehAltoImpacto = (nova.peso || 0) >= 90 && ultimoTipo !== 'reel';
-  const podeSerReel = (nova.peso || 0) >= PESO_MINIMO_REEL;
-  const formato = ehAltoImpacto
-    ? 'reel'
-    : proximoFormato === 'reel' && !podeSerReel
-      ? 'carrossel'
-      : proximoFormato;
-
-  console.log(`Formato escolhido: ${formato} (peso ${nova.peso}, último: ${ultimoTipo})`);
+  // Carrosséis e cards automáticos foram desativados: os dados reais de
+  // alcance favorecem Reels e o feed não deve receber conteúdo genérico.
+  const formato = 'reel';
+  console.log(`Formato escolhido: Reel (pauta aprovada, peso ${nova.peso})`);
 
   if (formato === 'reel') {
     // === REEL NARRADO ===
