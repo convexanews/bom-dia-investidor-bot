@@ -1,5 +1,15 @@
 [
   {
+    "data": "2026-08-07T12:31:43.791Z",
+    "resultado": "erro",
+    "mensagem": "Erro na execução automática: Erro ao criar container do feed: {\"error\":{\"message\":\"Error validating access token: Session has expired on Thursday, 06-Aug-26 18:47:13 PDT. The current time is Friday, 07-Aug-26 05:31:43 PDT.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":0,\"fbtrace_id\":\"AOTZvEtN6-JdAVOrTNO_mfX\"}}"
+  },
+  {
+    "data": "2026-08-07T12:31:12.451Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 58): \"Ibovespa futuro sobe aos 176 mil pontos de olho no payroll e na Petrobras (PETR4); dólar cai a R$ 5,09\". Realizando postagem..."
+  },
+  {
     "data": "2026-08-07T12:02:11.850Z",
     "resultado": "erro",
     "mensagem": "Erro na execução automática: Erro ao criar container do feed: {\"error\":{\"message\":\"Error validating access token: Session has expired on Thursday, 06-Aug-26 18:47:13 PDT. The current time is Friday, 07-Aug-26 05:02:11 PDT.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":0,\"fbtrace_id\":\"AvpIbNTNUvLhqFpf6bvXcPS\"}}"
@@ -1060,15 +1070,5 @@
     "data": "2026-08-04T09:31:01.946Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (06:31 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-08-04T09:01:33.623Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (06:01 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-08-04T08:31:07.446Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (05:31 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
