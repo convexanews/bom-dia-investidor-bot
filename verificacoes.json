@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-07T01:01:36.351Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 3h entre posts. Faltam 32 min."
+  },
+  {
     "data": "2026-08-07T00:59:11.798Z",
     "resultado": "carrossel_fechamento_suprimido",
     "mensagem": "Fechamento não publicado: limite diário global atingido."
@@ -1073,10 +1078,5 @@
     "data": "2026-08-03T19:31:00.812Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
-  },
-  {
-    "data": "2026-08-03T19:21:02.128Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 102 min."
   }
 ]
