@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-08T09:01:31.484Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
+  },
+  {
     "data": "2026-08-08T08:30:58.225Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (05:30 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1039,14 +1044,5 @@
     "data": "2026-08-05T01:55:50.138Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 96 min."
-  },
-  {
-    "data": "2026-08-05T01:31:48.225Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (card): \"Attovia Therapeutics precifica IPO a US$ 17,00 por ação na Nasdaq\".",
-    "postId": "17966043903130307",
-    "storyId": "18211819420349742",
-    "reelId": null,
-    "tipo": "card"
   }
 ]
