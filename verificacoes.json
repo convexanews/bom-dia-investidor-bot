@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-08-08T13:02:49.857Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Julho estanca fuga de estrangeiros do Brasil; o que pode jogar ‘água no chope’, segundo especialistas\".",
+    "postId": "17946675600258612",
+    "storyId": null,
+    "reelId": "17946675600258612",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-08-08T13:00:59.633Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 62): \"Julho estanca fuga de estrangeiros do Brasil; o que pode jogar ‘água no chope’, segundo especialistas\". Realizando postagem..."
+  },
+  {
     "data": "2026-08-08T12:59:46.339Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
@@ -1035,15 +1049,5 @@
     "data": "2026-08-05T07:31:03.334Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (04:31 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-08-05T07:00:59.228Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (04:00 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-08-05T06:31:06.755Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (03:31 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]

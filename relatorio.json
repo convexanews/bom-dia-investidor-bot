@@ -1,5 +1,24 @@
 [
   {
+    "data": "2026-08-08T13:02:49.856Z",
+    "titulo": "Julho estanca fuga de estrangeiros do Brasil; o que pode jogar ‘água no chope’, segundo especialistas",
+    "categoria": "Mercados",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/julho-estanca-fuga-de-estrangeiros-do-brasil-o-que-pode-jogar-agua-no-chope-segundo-especialistas-igdl/",
+    "postId": "17946675600258612",
+    "storyId": null,
+    "reelId": "17946675600258612",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1786194066253.mp4",
+    "tipo": "reel",
+    "peso": 62,
+    "pilares": [
+      "macro",
+      "bolsa"
+    ]
+  },
+  {
     "data": "2026-08-07T13:03:14.745Z",
     "titulo": "Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta sexta",
     "categoria": "Mercados",
@@ -3174,20 +3193,5 @@
     "videoUrl": null,
     "tipo": "card",
     "peso": 31
-  },
-  {
-    "data": "2026-07-06T20:02:58.508Z",
-    "titulo": "15 ações para buscar retornos acima do Ibovespa em julho, segundo a Ativa",
-    "categoria": "Mercados",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/15-acoes-para-buscar-retornos-acima-do-ibovespa-em-julho-segundo-a-ativa-jcav/",
-    "postId": "18101577182331401",
-    "storyId": "18082848302213365",
-    "reelId": null,
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783368098169-slide1.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783368098169-story.png",
-    "videoUrl": null,
-    "tipo": "carrossel",
-    "peso": 55
   }
 ]
