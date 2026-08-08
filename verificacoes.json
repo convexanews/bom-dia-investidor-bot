@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-08T18:45:55.623Z",
+    "resultado": "limite_diario",
+    "mensagem": "Limite de 1 posts diários atingido (1 já publicados hoje)."
+  },
+  {
     "data": "2026-08-08T18:31:05.771Z",
     "resultado": "limite_diario",
     "mensagem": "Limite de 1 posts diários atingido (1 já publicados hoje)."
@@ -1039,10 +1044,5 @@
     "data": "2026-08-05T13:31:06.386Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 71): \"Corte da Selic é consenso; mercado procura no comunicado sinais sobre setembro.\". Realizando postagem..."
-  },
-  {
-    "data": "2026-08-05T13:01:10.548Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
   }
 ]
