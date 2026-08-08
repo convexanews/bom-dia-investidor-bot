@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-08T19:30:54.731Z",
+    "resultado": "limite_diario",
+    "mensagem": "Limite de 1 posts diários atingido (1 já publicados hoje)."
+  },
+  {
     "data": "2026-08-08T19:01:06.725Z",
     "resultado": "limite_diario",
     "mensagem": "Limite de 1 posts diários atingido (1 já publicados hoje)."
@@ -1035,14 +1040,5 @@
     "data": "2026-08-05T14:01:13.052Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 93 min."
-  },
-  {
-    "data": "2026-08-05T13:33:20.133Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"Corte da Selic é consenso; mercado procura no comunicado sinais sobre setembro.\".",
-    "postId": "18123187732754394",
-    "storyId": null,
-    "reelId": "18123187732754394",
-    "tipo": "reel"
   }
 ]
