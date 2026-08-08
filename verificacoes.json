@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-08T05:31:00.565Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (02:31 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-08-08T05:01:15.115Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (02:01 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1043,14 +1048,5 @@
     "data": "2026-08-04T23:31:03.423Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
-  },
-  {
-    "data": "2026-08-04T23:02:47.390Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (carrossel): \"C&A (CEAB3) lucra R$ 130,1 milhões no 2T26, alta de 4,3% no ano\".",
-    "postId": "18112881934978817",
-    "storyId": "18101951671900584",
-    "reelId": null,
-    "tipo": "carrossel"
   }
 ]
