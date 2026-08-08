@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-08T23:30:50.315Z",
+    "resultado": "limite_diario",
+    "mensagem": "Limite de 1 posts diários atingido (1 já publicados hoje)."
+  },
+  {
     "data": "2026-08-08T23:00:55.374Z",
     "resultado": "limite_diario",
     "mensagem": "Limite de 1 posts diários atingido (1 já publicados hoje)."
@@ -1031,10 +1036,5 @@
     "data": "2026-08-05T18:31:17.827Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 65): \"Lula fala em ‘trabalhar para reduzir a taxa de juros’ e diz que Estado foi ‘aprisionado pela Faria Lima’\". Realizando postagem..."
-  },
-  {
-    "data": "2026-08-05T18:00:59.301Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
   }
 ]
