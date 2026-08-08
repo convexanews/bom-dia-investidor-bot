@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-08T01:59:07.211Z",
+    "resultado": "limite_diario",
+    "mensagem": "Limite de 1 posts diários atingido (1 já publicados hoje)."
+  },
+  {
     "data": "2026-08-08T01:31:16.584Z",
     "resultado": "limite_diario",
     "mensagem": "Limite de 1 posts diários atingido (1 já publicados hoje)."
@@ -1047,14 +1052,5 @@
     "data": "2026-08-04T21:01:13.334Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
-  },
-  {
-    "data": "2026-08-04T20:32:55.302Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"Wall Street salta com expectativa de acordo de Ormuz; S&P 500 e Dow Jones batem recordes\".",
-    "postId": "18116838667901509",
-    "storyId": null,
-    "reelId": "18116838667901509",
-    "tipo": "reel"
   }
 ]
