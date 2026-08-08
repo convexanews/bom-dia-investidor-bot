@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-08T16:40:20.068Z",
+    "resultado": "limite_diario",
+    "mensagem": "Limite de 1 posts diários atingido (1 já publicados hoje)."
+  },
+  {
     "data": "2026-08-08T16:31:07.430Z",
     "resultado": "limite_diario",
     "mensagem": "Limite de 1 posts diários atingido (1 já publicados hoje)."
@@ -1040,14 +1045,5 @@
     "data": "2026-08-05T11:31:46.615Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
-  },
-  {
-    "data": "2026-08-05T11:03:19.221Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"Mercado à espera da decisão do Copom; Ibovespa em dólar sobe hoje (5)\".",
-    "postId": "17958870759189977",
-    "storyId": null,
-    "reelId": "17958870759189977",
-    "tipo": "reel"
   }
 ]
