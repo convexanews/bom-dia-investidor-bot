@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-09T00:31:20.023Z",
+    "resultado": "limite_diario",
+    "mensagem": "Limite de 1 posts diários atingido (1 já publicados hoje)."
+  },
+  {
     "data": "2026-08-09T00:01:41.436Z",
     "resultado": "limite_diario",
     "mensagem": "Limite de 1 posts diários atingido (1 já publicados hoje)."
@@ -1027,10 +1032,5 @@
     "data": "2026-08-05T19:17:17.749Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 77 min."
-  },
-  {
-    "data": "2026-08-05T19:00:59.016Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 93 min."
   }
 ]
