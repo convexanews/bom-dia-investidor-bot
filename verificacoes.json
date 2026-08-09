@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-09T20:01:21.711Z",
+    "resultado": "limite_diario",
+    "mensagem": "Limite de 1 posts diários atingido (1 já publicados hoje)."
+  },
+  {
     "data": "2026-08-09T19:38:35.982Z",
     "resultado": "limite_diario",
     "mensagem": "Limite de 1 posts diários atingido (1 já publicados hoje)."
@@ -1019,10 +1024,5 @@
     "storyId": "18101634467599508",
     "reelId": null,
     "tipo": "carrossel"
-  },
-  {
-    "data": "2026-08-06T14:30:58.523Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 68): \"Wall Street abre em alta, mas tech e Oriente Médio ficam no radar\". Realizando postagem..."
   }
 ]
