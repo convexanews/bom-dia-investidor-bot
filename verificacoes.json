@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-09T02:07:08.782Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (23:07 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-08-09T02:01:10.766Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (23:01 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1027,10 +1032,5 @@
     "data": "2026-08-05T20:59:10.040Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 80): \"Wall Street tem novo fechamento recorde do Dow Jones, mas tech pesa\". Realizando postagem..."
-  },
-  {
-    "data": "2026-08-05T20:31:05.105Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 3 min."
   }
 ]
