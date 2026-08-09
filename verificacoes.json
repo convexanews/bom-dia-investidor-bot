@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-09T00:01:41.436Z",
+    "resultado": "limite_diario",
+    "mensagem": "Limite de 1 posts diários atingido (1 já publicados hoje)."
+  },
+  {
     "data": "2026-08-08T23:34:50.181Z",
     "resultado": "limite_diario",
     "mensagem": "Limite de 1 posts diários atingido (1 já publicados hoje)."
@@ -1027,14 +1032,5 @@
     "data": "2026-08-05T19:00:59.016Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 93 min."
-  },
-  {
-    "data": "2026-08-05T18:33:34.377Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"Lula fala em ‘trabalhar para reduzir a taxa de juros’ e diz que Estado foi ‘aprisionado pela Faria Lima’\".",
-    "postId": "17960906799183441",
-    "storyId": null,
-    "reelId": "17960906799183441",
-    "tipo": "reel"
   }
 ]
