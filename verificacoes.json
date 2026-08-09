@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-09T06:31:14.362Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (03:31 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-08-09T06:00:58.174Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (03:00 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1023,10 +1028,5 @@
     "storyId": null,
     "reelId": "18087420347406792",
     "tipo": "reel"
-  },
-  {
-    "data": "2026-08-05T23:01:36.143Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 71): \"Copom corta Selic, mas evita se comprometer com novos cortes; o que vem a seguir?\". Realizando postagem..."
   }
 ]
