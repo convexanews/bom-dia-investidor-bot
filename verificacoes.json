@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-09T03:01:02.264Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (00:01 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-08-09T02:31:21.254Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (23:31 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1023,14 +1028,5 @@
     "data": "2026-08-05T21:01:42.868Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 120 min."
-  },
-  {
-    "data": "2026-08-05T21:00:47.401Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"Wall Street tem novo fechamento recorde do Dow Jones, mas tech pesa\".",
-    "postId": "18380641240233642",
-    "storyId": null,
-    "reelId": "18380641240233642",
-    "tipo": "reel"
   }
 ]
