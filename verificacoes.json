@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-09T12:01:09.378Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
+  },
+  {
     "data": "2026-08-09T11:36:45.319Z",
     "resultado": "story_glossario",
     "mensagem": "Story do glossário publicado: \"Come-cotas\"",
@@ -1020,10 +1025,5 @@
     "data": "2026-08-06T05:01:05.456Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (02:01 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-08-06T04:58:34.383Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (01:58 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
