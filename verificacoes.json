@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-09T22:01:14.425Z",
+    "resultado": "limite_diario",
+    "mensagem": "Limite de 1 posts diários atingido (1 já publicados hoje)."
+  },
+  {
     "data": "2026-08-09T21:38:28.348Z",
     "resultado": "limite_diario",
     "mensagem": "Limite de 1 posts diários atingido (1 já publicados hoje)."
@@ -1011,14 +1016,5 @@
     "data": "2026-08-06T22:31:10.102Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 53): \"Ibovespa cai 1,23% após Copom e tensão no exterior; Petrobras (PETR4) limita perdas\". Realizando postagem..."
-  },
-  {
-    "data": "2026-08-06T18:17:45.807Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (card): \"Após corte de juros, analista da Empiricus faz aposta para futuro da Selic\".",
-    "postId": "18052937546792576",
-    "storyId": "18109512743278442",
-    "reelId": null,
-    "tipo": "card"
   }
 ]
