@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-09T22:37:06.816Z",
+    "resultado": "limite_diario",
+    "mensagem": "Limite de 1 posts diários atingido (1 já publicados hoje)."
+  },
+  {
     "data": "2026-08-09T22:30:57.214Z",
     "resultado": "limite_diario",
     "mensagem": "Limite de 1 posts diários atingido (1 já publicados hoje)."
@@ -1007,14 +1012,5 @@
     "data": "2026-08-06T23:26:53.608Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 3h entre posts. Faltam 127 min."
-  },
-  {
-    "data": "2026-08-06T22:33:06.188Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (carrossel): \"Ibovespa cai 1,23% após Copom e tensão no exterior; Petrobras (PETR4) limita perdas\".",
-    "postId": "18137291668580867",
-    "storyId": "18225104059324742",
-    "reelId": null,
-    "tipo": "carrossel"
   }
 ]
