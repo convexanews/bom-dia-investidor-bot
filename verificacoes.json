@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-09T17:01:00.367Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 3h entre posts. Faltam 62 min."
+  },
+  {
     "data": "2026-08-09T16:42:32.037Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 3h entre posts. Faltam 81 min."
@@ -1024,10 +1029,5 @@
     "storyId": null,
     "reelId": "18089327834200632",
     "tipo": "reel"
-  },
-  {
-    "data": "2026-08-06T11:01:20.222Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 97): \"Selic cai para 14%, mas é a Petrobras (PETR4) que mexe com o mercado; Ibovespa em dólar sobe hoje (6)\". Realizando postagem..."
   }
 ]
