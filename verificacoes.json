@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-09T21:31:19.317Z",
+    "resultado": "limite_diario",
+    "mensagem": "Limite de 1 posts diários atingido (1 já publicados hoje)."
+  },
+  {
     "data": "2026-08-09T21:00:54.577Z",
     "resultado": "limite_diario",
     "mensagem": "Limite de 1 posts diários atingido (1 já publicados hoje)."
@@ -1015,10 +1020,5 @@
     "data": "2026-08-06T18:16:48.961Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 78): \"Após corte de juros, analista da Empiricus faz aposta para futuro da Selic\". Realizando postagem..."
-  },
-  {
-    "data": "2026-08-06T15:31:24.025Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 3h entre posts. Faltam 122 min."
   }
 ]
