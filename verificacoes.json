@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-10T00:31:10.524Z",
+    "resultado": "limite_diario",
+    "mensagem": "Limite de 1 posts diários atingido (1 já publicados hoje)."
+  },
+  {
     "data": "2026-08-10T00:01:07.503Z",
     "resultado": "limite_diario",
     "mensagem": "Limite de 1 posts diários atingido (1 já publicados hoje)."
@@ -1007,10 +1012,5 @@
     "data": "2026-08-07T00:59:11.798Z",
     "resultado": "carrossel_fechamento_suprimido",
     "mensagem": "Fechamento não publicado: limite diário global atingido."
-  },
-  {
-    "data": "2026-08-07T00:30:55.615Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 3h entre posts. Faltam 63 min."
   }
 ]
