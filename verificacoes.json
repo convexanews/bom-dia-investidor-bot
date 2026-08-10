@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-10T14:31:41.509Z",
+    "resultado": "limite_diario",
+    "mensagem": "Limite de 1 posts diários atingido (1 já publicados hoje)."
+  },
+  {
     "data": "2026-08-10T14:00:59.424Z",
     "resultado": "limite_diario",
     "mensagem": "Limite de 1 posts diários atingido (1 já publicados hoje)."
@@ -1012,10 +1017,5 @@
     "data": "2026-08-07T12:01:39.263Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 55): \"Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta sexta\". Realizando postagem..."
-  },
-  {
-    "data": "2026-08-07T11:52:28.767Z",
-    "resultado": "erro_story_glossario",
-    "mensagem": "Erro ao publicar story do glossário: Erro ao criar container de stories: {\"error\":{\"message\":\"Error validating access token: Session has expired on Thursday, 06-Aug-26 18:47:13 PDT. The current time is Friday, 07-Aug-26 04:52:28 PDT.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":0,\"fbtrace_id\":\"ArCVB-aX3PEI_zQe7J-wGMI\"}}"
   }
 ]
