@@ -1,8 +1,10 @@
 [
   {
-    "data": "2026-08-10T15:46:30.526Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
+    "data": "2026-08-10T15:47:41.802Z",
+    "resultado": "story_noticia_postado",
+    "mensagem": "Story publicado (peso 52): \"Ibovespa Hoje Ao Vivo: Bolsa cai e se afasta dos 172 mil pontos\".",
+    "postId": "17873901741628988",
+    "peso": 52
   },
   {
     "data": "2026-08-10T15:31:32.922Z",
