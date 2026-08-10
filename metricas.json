@@ -1,7 +1,62 @@
 [
   {
+    "postId": "18042864992810072",
+    "dataColeta": "2026-08-10T12:05:55.753Z",
+    "dataPostagem": "2026-08-10T09:33:00.055Z",
+    "tipo": "reel",
+    "pilares": [
+      "macro",
+      "bolsa",
+      "exterior"
+    ],
+    "peso": 83,
+    "fonte": "InfoMoney",
+    "titulo": "Focus, balanço da Embraer, negociações sobre Ormuz e mais destaques desta segunda",
+    "insights": {
+      "reach": 6,
+      "saved": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 1,
+      "total_interactions": 1,
+      "falhas": [
+        {
+          "metrica": "plays",
+          "erro": "Instagram respondeu 400"
+        }
+      ]
+    }
+  },
+  {
+    "postId": "18020922923698362",
+    "dataColeta": "2026-08-10T12:05:57.386Z",
+    "dataPostagem": "2026-08-09T15:02:45.228Z",
+    "tipo": "reel",
+    "pilares": [
+      "macro",
+      "bolsa"
+    ],
+    "peso": 62,
+    "fonte": "Money Times",
+    "titulo": "Inflação, ata do Copom e CPI dos EUA estão no radar dos mercados nesta semana; confira agenda",
+    "insights": {
+      "reach": 41,
+      "saved": 1,
+      "shares": 0,
+      "comments": 0,
+      "likes": 1,
+      "total_interactions": 2,
+      "falhas": [
+        {
+          "metrica": "plays",
+          "erro": "Instagram respondeu 400"
+        }
+      ]
+    }
+  },
+  {
     "postId": "17946675600258612",
-    "dataColeta": "2026-08-09T11:52:32.959Z",
+    "dataColeta": "2026-08-10T12:05:58.246Z",
     "dataPostagem": "2026-08-08T13:02:49.856Z",
     "tipo": "reel",
     "pilares": [
@@ -12,7 +67,7 @@
     "fonte": "Money Times",
     "titulo": "Julho estanca fuga de estrangeiros do Brasil; o que pode jogar ‘água no chope’, segundo especialistas",
     "insights": {
-      "reach": 104,
+      "reach": 108,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -28,7 +83,7 @@
   },
   {
     "postId": "18099908960250121",
-    "dataColeta": "2026-08-09T11:52:34.827Z",
+    "dataColeta": "2026-08-10T12:05:58.999Z",
     "dataPostagem": "2026-08-07T13:03:14.745Z",
     "tipo": "card",
     "pilares": [
@@ -39,7 +94,7 @@
     "fonte": "InfoMoney",
     "titulo": "Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta sexta",
     "insights": {
-      "reach": 19,
+      "reach": 21,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -55,7 +110,7 @@
   },
   {
     "postId": "18137291668580867",
-    "dataColeta": "2026-08-09T11:52:36.095Z",
+    "dataColeta": "2026-08-10T12:05:59.626Z",
     "dataPostagem": "2026-08-06T22:33:06.187Z",
     "tipo": "carrossel",
     "pilares": [
@@ -66,7 +121,7 @@
     "fonte": "Suno",
     "titulo": "Ibovespa cai 1,23% após Copom e tensão no exterior; Petrobras (PETR4) limita perdas",
     "insights": {
-      "reach": 19,
+      "reach": 21,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -82,7 +137,7 @@
   },
   {
     "postId": "18052937546792576",
-    "dataColeta": "2026-08-09T11:52:37.629Z",
+    "dataColeta": "2026-08-10T12:06:00.496Z",
     "dataPostagem": "2026-08-06T18:17:45.806Z",
     "tipo": "card",
     "pilares": [
@@ -93,7 +148,7 @@
     "fonte": "Money Times",
     "titulo": "Após corte de juros, analista da Empiricus faz aposta para futuro da Selic",
     "insights": {
-      "reach": 20,
+      "reach": 23,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -109,7 +164,7 @@
   },
   {
     "postId": "18238577470313469",
-    "dataColeta": "2026-08-09T11:52:38.988Z",
+    "dataColeta": "2026-08-10T12:06:01.153Z",
     "dataPostagem": "2026-08-06T14:32:54.238Z",
     "tipo": "carrossel",
     "pilares": [
@@ -121,7 +176,7 @@
     "fonte": "Money Times",
     "titulo": "Wall Street abre em alta, mas tech e Oriente Médio ficam no radar",
     "insights": {
-      "reach": 18,
+      "reach": 22,
       "saved": 2,
       "shares": 0,
       "comments": 0,
@@ -137,7 +192,7 @@
   },
   {
     "postId": "18089327834200632",
-    "dataColeta": "2026-08-09T11:52:40.343Z",
+    "dataColeta": "2026-08-10T12:06:01.749Z",
     "dataPostagem": "2026-08-06T11:02:52.370Z",
     "tipo": "reel",
     "pilares": [
@@ -149,7 +204,7 @@
     "fonte": "Money Times",
     "titulo": "Selic cai para 14%, mas é a Petrobras (PETR4) que mexe com o mercado; Ibovespa em dólar sobe hoje (6)",
     "insights": {
-      "reach": 112,
+      "reach": 115,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -165,7 +220,7 @@
   },
   {
     "postId": "18087420347406792",
-    "dataColeta": "2026-08-09T11:52:41.815Z",
+    "dataColeta": "2026-08-10T12:06:02.805Z",
     "dataPostagem": "2026-08-05T23:03:04.023Z",
     "tipo": "reel",
     "pilares": [
@@ -176,7 +231,7 @@
     "fonte": "Money Times",
     "titulo": "Copom corta Selic, mas evita se comprometer com novos cortes; o que vem a seguir?",
     "insights": {
-      "reach": 41,
+      "reach": 42,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -192,7 +247,7 @@
   },
   {
     "postId": "18380641240233642",
-    "dataColeta": "2026-08-09T11:52:43.497Z",
+    "dataColeta": "2026-08-10T12:06:03.826Z",
     "dataPostagem": "2026-08-05T21:00:47.400Z",
     "tipo": "reel",
     "pilares": [
@@ -219,7 +274,7 @@
   },
   {
     "postId": "17960906799183441",
-    "dataColeta": "2026-08-09T11:52:44.641Z",
+    "dataColeta": "2026-08-10T12:06:05.181Z",
     "dataPostagem": "2026-08-05T18:33:34.375Z",
     "tipo": "reel",
     "pilares": [
@@ -230,7 +285,7 @@
     "fonte": "Money Times",
     "titulo": "Lula fala em ‘trabalhar para reduzir a taxa de juros’ e diz que Estado foi ‘aprisionado pela Faria Lima’",
     "insights": {
-      "reach": 137,
+      "reach": 138,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -246,7 +301,7 @@
   },
   {
     "postId": "17939387505342111",
-    "dataColeta": "2026-08-09T11:52:45.806Z",
+    "dataColeta": "2026-08-10T12:06:05.872Z",
     "dataPostagem": "2026-08-05T16:02:27.621Z",
     "tipo": "reel",
     "pilares": [
@@ -273,7 +328,7 @@
   },
   {
     "postId": "18123187732754394",
-    "dataColeta": "2026-08-09T11:52:47.784Z",
+    "dataColeta": "2026-08-10T12:06:06.557Z",
     "dataPostagem": "2026-08-05T13:33:20.131Z",
     "tipo": "reel",
     "pilares": [
@@ -284,7 +339,7 @@
     "fonte": "Money Times",
     "titulo": "Corte da Selic é consenso; mercado procura no comunicado sinais sobre setembro.",
     "insights": {
-      "reach": 62,
+      "reach": 63,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -300,7 +355,7 @@
   },
   {
     "postId": "17958870759189977",
-    "dataColeta": "2026-08-09T11:52:48.971Z",
+    "dataColeta": "2026-08-10T12:06:07.756Z",
     "dataPostagem": "2026-08-05T11:03:19.220Z",
     "tipo": "reel",
     "pilares": [
@@ -328,7 +383,7 @@
   },
   {
     "postId": "17966043903130307",
-    "dataColeta": "2026-08-09T11:52:50.914Z",
+    "dataColeta": "2026-08-10T12:06:08.660Z",
     "dataPostagem": "2026-08-05T01:31:48.224Z",
     "tipo": "card",
     "pilares": [
@@ -339,7 +394,7 @@
     "fonte": "Investing.com",
     "titulo": "Attovia Therapeutics precifica IPO a US$ 17,00 por ação na Nasdaq",
     "insights": {
-      "reach": 12,
+      "reach": 13,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -355,7 +410,7 @@
   },
   {
     "postId": "18112881934978817",
-    "dataColeta": "2026-08-09T11:52:52.496Z",
+    "dataColeta": "2026-08-10T12:06:09.353Z",
     "dataPostagem": "2026-08-04T23:02:47.389Z",
     "tipo": "carrossel",
     "pilares": [
@@ -381,7 +436,7 @@
   },
   {
     "postId": "18116838667901509",
-    "dataColeta": "2026-08-09T11:52:54.367Z",
+    "dataColeta": "2026-08-10T12:06:10.162Z",
     "dataPostagem": "2026-08-04T20:32:55.301Z",
     "tipo": "reel",
     "pilares": [
@@ -392,7 +447,7 @@
     "fonte": "Money Times",
     "titulo": "Wall Street salta com expectativa de acordo de Ormuz; S&P 500 e Dow Jones batem recordes",
     "insights": {
-      "reach": 37,
+      "reach": 38,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -408,7 +463,7 @@
   },
   {
     "postId": "18171396772449633",
-    "dataColeta": "2026-08-09T11:52:55.972Z",
+    "dataColeta": "2026-08-10T12:06:10.956Z",
     "dataPostagem": "2026-08-04T18:25:20.437Z",
     "tipo": "carrossel",
     "pilares": [
@@ -435,7 +490,7 @@
   },
   {
     "postId": "17976525627082793",
-    "dataColeta": "2026-08-09T11:52:57.186Z",
+    "dataColeta": "2026-08-10T12:06:11.784Z",
     "dataPostagem": "2026-08-04T16:03:34.084Z",
     "tipo": "reel",
     "pilares": [
@@ -446,7 +501,7 @@
     "fonte": "Money Times",
     "titulo": "Menos otimismo? Investidores institucionais reduzem expectativa para o Ibovespa em 2026, segundo pesquisa do Itaú BBA",
     "insights": {
-      "reach": 31,
+      "reach": 32,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -462,7 +517,7 @@
   },
   {
     "postId": "17909291391452168",
-    "dataColeta": "2026-08-09T11:52:58.415Z",
+    "dataColeta": "2026-08-10T12:06:12.506Z",
     "dataPostagem": "2026-08-04T13:34:32.784Z",
     "tipo": "reel",
     "pilares": [
@@ -489,7 +544,7 @@
   },
   {
     "postId": "17995844535003941",
-    "dataColeta": "2026-08-09T11:52:59.968Z",
+    "dataColeta": "2026-08-10T12:06:13.382Z",
     "dataPostagem": "2026-08-04T11:03:12.807Z",
     "tipo": "reel",
     "pilares": [
@@ -516,7 +571,7 @@
   },
   {
     "postId": "18133204132612309",
-    "dataColeta": "2026-08-09T11:53:01.093Z",
+    "dataColeta": "2026-08-10T12:06:14.131Z",
     "dataPostagem": "2026-08-04T01:02:33.116Z",
     "tipo": "carrossel",
     "pilares": [
@@ -543,7 +598,7 @@
   },
   {
     "postId": "18101914549930721",
-    "dataColeta": "2026-08-09T11:53:02.078Z",
+    "dataColeta": "2026-08-10T12:06:14.852Z",
     "dataPostagem": "2026-08-03T21:33:07.291Z",
     "tipo": "reel",
     "pilares": [
@@ -554,7 +609,7 @@
     "fonte": "InfoMoney",
     "titulo": "Por que Ibovespa começou agosto “no zero”, enquanto Dow Jones bateu novo recorde?",
     "insights": {
-      "reach": 109,
+      "reach": 110,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -570,7 +625,7 @@
   },
   {
     "postId": "17877623787653309",
-    "dataColeta": "2026-08-09T11:53:03.106Z",
+    "dataColeta": "2026-08-10T12:06:15.703Z",
     "dataPostagem": "2026-08-03T19:02:51.896Z",
     "tipo": "reel",
     "pilares": [
@@ -581,7 +636,7 @@
     "fonte": "InfoMoney",
     "titulo": "Copom deve cortar juro a 14%, pausar até 2027 e depois retomar calibração, diz XP",
     "insights": {
-      "reach": 43,
+      "reach": 44,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -597,7 +652,7 @@
   },
   {
     "postId": "18100284223961173",
-    "dataColeta": "2026-08-09T11:53:04.232Z",
+    "dataColeta": "2026-08-10T12:06:16.414Z",
     "dataPostagem": "2026-08-03T16:32:40.456Z",
     "tipo": "carrossel",
     "pilares": [
@@ -608,62 +663,6 @@
     "titulo": "Por que Brava (BRAV3), Prio (PRIO3) e outras petroleiras lideram as perdas do Ibovespa hoje (3)",
     "insights": {
       "reach": 19,
-      "saved": 0,
-      "shares": 0,
-      "comments": 0,
-      "likes": 0,
-      "total_interactions": 0,
-      "falhas": [
-        {
-          "metrica": "plays",
-          "erro": "Instagram respondeu 400"
-        }
-      ]
-    }
-  },
-  {
-    "postId": "17985107910013679",
-    "dataColeta": "2026-08-09T11:53:05.138Z",
-    "dataPostagem": "2026-08-03T14:02:20.629Z",
-    "tipo": "reel",
-    "pilares": [
-      "macro",
-      "bolsa"
-    ],
-    "peso": 61,
-    "fonte": "Money Times",
-    "titulo": "Ibovespa avança com otimismo de acordo entre EUA e Irã; 5 coisas para saber antes de investir hoje (3)",
-    "insights": {
-      "reach": 24,
-      "saved": 0,
-      "shares": 0,
-      "comments": 0,
-      "likes": 0,
-      "total_interactions": 0,
-      "falhas": [
-        {
-          "metrica": "plays",
-          "erro": "Instagram respondeu 400"
-        }
-      ]
-    }
-  },
-  {
-    "postId": "17900049921513953",
-    "dataColeta": "2026-08-09T11:53:06.095Z",
-    "dataPostagem": "2026-08-03T11:02:49.214Z",
-    "tipo": "reel",
-    "pilares": [
-      "macro",
-      "bolsa",
-      "cripto",
-      "exterior"
-    ],
-    "peso": 62,
-    "fonte": "InfoMoney",
-    "titulo": "Da Bolsa ao Bitcoin: 5 gráficos que podem definir os mercados na semana",
-    "insights": {
-      "reach": 51,
       "saved": 0,
       "shares": 0,
       "comments": 0,
