@@ -9,7 +9,8 @@ const { buscarNoticias, titulosSimilares } = require('./coletor_noticias.cjs');
 const { gerarCard } = require('./gerar_card_noticia.cjs');
 const { gerarSlide } = require('./gerar_slide_carrossel.cjs');
 const { gerarVideoTikTok, montarLegendaTikTok } = require('./gerar_tiktok.cjs');
-const { criarCapaRetencao, montarRoteiroCarrossel } = require('./formato_editorial.cjs');
+const { criarCapaRetencao } = require('./formato_editorial.cjs');
+const { avaliarCarrossel, montarNarrativaImpacto } = require('./qualidade_carrossel.cjs');
 const { validarPautaAutomatica } = require('./qualidade_editorial.cjs');
 
 // Feed: só notícia de grande impacto, para não competir com Stories.
@@ -526,13 +527,25 @@ async function main() {
     // === CARROSSEL NARRATIVO (10 slides) ===
     // Capa > fatos > contexto > impacto > cautela > resumo > CTA.
     // Cada imagem responde uma pergunta e abre a seguinte, sem inventar dados.
-    const slidesCfg = montarRoteiroCarrossel({
+    const slidesCfg = montarNarrativaImpacto({
       manchete: cfg.manchete,
       resumo: cfg.resumo,
       categoria: cfg.categoria,
       sentimento: cfg.sentimento?.tipo,
       apoioCapa: cfg.apoioCapa,
     });
+    const qualidade = avaliarCarrossel({
+      manchete: cfg.manchete,
+      resumo: cfg.resumo,
+      fonte: cfg.fonte,
+      peso: nova.peso,
+      slides: slidesCfg,
+      impacto: cfg.apoioCapa,
+    });
+    if (!qualidade.aprovada) {
+      registrarVerificacao('carrossel_reprovado_qualidade', `Carrossel bloqueado (nota ${qualidade.nota}): ${qualidade.bloqueios.join('; ')}`, { nota: qualidade.nota, bloqueios: qualidade.bloqueios });
+      return;
+    }
 
     const totalSlides = 1 + slidesCfg.length + 1; // capa + internos + final
     const nomes = [];
