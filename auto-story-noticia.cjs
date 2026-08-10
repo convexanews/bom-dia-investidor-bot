@@ -1,4 +1,4 @@
-// Publica um Story diário com notícia relevante de menor impacto.
+// Publica Stories de notícias recentes de menor impacto a cada ciclo editorial.
 // O feed fica reservado a Reels de maior impacto editorial.
 const fs = require('fs');
 const path = require('path');
@@ -16,6 +16,7 @@ const VERIFICACOES_FILE = path.join(__dirname, 'verificacoes.json');
 
 const PESO_MINIMO_STORY = 30;
 const PESO_MAXIMO_STORY = 59;
+const JANELA_NOTICIA_STORY_MS = 2 * 60 * 60 * 1000;
 
 function carregarJson(arquivo, padrao) {
   try { return JSON.parse(fs.readFileSync(arquivo, 'utf8')); } catch { return padrao; }
@@ -30,20 +31,14 @@ function registrarVerificacao(resultado, mensagem, extra = {}) {
 }
 
 function selecionarNoticiaStory(noticias, linksPostados, agora = Date.now()) {
-  const umaHora = 60 * 60 * 1000;
   return noticias.find(n =>
     n.link &&
     !linksPostados.has(n.link) &&
     n.publicadoEm > 0 &&
-    agora - n.publicadoEm <= umaHora &&
+    agora - n.publicadoEm <= JANELA_NOTICIA_STORY_MS &&
     n.peso >= PESO_MINIMO_STORY &&
     n.peso <= PESO_MAXIMO_STORY
   ) || null;
-}
-
-function jaPublicouStoryHoje(registros, agora = new Date()) {
-  const hojeBrt = agora.toLocaleDateString('en-CA', { timeZone: 'America/Sao_Paulo' });
-  return registros.some(r => new Date(r.data).toLocaleDateString('en-CA', { timeZone: 'America/Sao_Paulo' }) === hojeBrt);
 }
 
 async function validarToken() {
@@ -79,11 +74,6 @@ async function main() {
   const { gerarCard } = require('./gerar_card_noticia.cjs');
 
   const registros = carregarJson(STORIES_FILE, []);
-  if (jaPublicouStoryHoje(registros)) {
-    registrarVerificacao('story_noticia_suprimido', 'Story de notícia já publicado hoje.');
-    return;
-  }
-
   const noticia = selecionarNoticiaStory(await buscarNoticias(), new Set(registros.map(r => r.link)));
   if (!noticia) {
     registrarVerificacao('sem_noticia_story', 'Nenhuma notícia recente de menor impacto foi encontrada.');
@@ -127,4 +117,4 @@ if (require.main === module) {
   });
 }
 
-module.exports = { selecionarNoticiaStory, jaPublicouStoryHoje, PESO_MINIMO_STORY, PESO_MAXIMO_STORY };
+module.exports = { selecionarNoticiaStory, PESO_MINIMO_STORY, PESO_MAXIMO_STORY, JANELA_NOTICIA_STORY_MS };

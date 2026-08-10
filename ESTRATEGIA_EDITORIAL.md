@@ -17,8 +17,8 @@ Entretenimento, esportes, celebridades, loterias e curiosidades não entram na p
 
 ## Cadência
 
-- Um Reel automático por dia, entre 8h e 22h, apenas para pauta de alto impacto editorial (peso 80 ou mais).
-- Um Story automático por dia, às 12h, para notícia recente de menor impacto (peso 30–59).
+- A cada 1h30, entre 6h e 21h, o feed verifica pautas de alto impacto editorial (peso 80 ou mais).
+- A cada 1h30, entre 6h e 21h, os Stories verificam notícias recentes de menor impacto (peso 30–59).
 - Glossários automáticos não são publicados em Stories.
 - Carrosséis e cards de feed não são automáticos; dependem de revisão editorial.
 - Alertas de recorde obedecem à mesma regra.

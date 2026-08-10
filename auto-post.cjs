@@ -333,21 +333,23 @@ async function main() {
     return;
   }
 
-  // Intervalo mínimo de 3h entre posts: dá tempo para cada publicação distribuir.
-  const INTERVALO_MIN_MS = 3 * 60 * 60 * 1000;
+  // Cada ciclo editorial ocorre a cada 1h30. Mantemos esse intervalo como
+  // proteção adicional caso o workflow seja disparado manualmente.
+  const INTERVALO_MIN_MS = 90 * 60 * 1000;
   const ultimoPost = relatorio.find(p => p.origem !== 'manual');
   if (ultimoPost) {
     const tempoDesdeUltimo = Date.now() - new Date(ultimoPost.data).getTime();
     if (tempoDesdeUltimo < INTERVALO_MIN_MS) {
       const minRestantes = Math.ceil((INTERVALO_MIN_MS - tempoDesdeUltimo) / 60000);
       console.log(`Último post há ${Math.floor(tempoDesdeUltimo / 60000)} min. Próximo em ${minRestantes} min (intervalo de 3h).`);
-      registrarVerificacao('aguardando_intervalo', `Aguardando intervalo de 3h entre posts. Faltam ${minRestantes} min.`);
+      registrarVerificacao('aguardando_intervalo', `Aguardando intervalo de 1h30 entre posts. Faltam ${minRestantes} min.`);
       return;
     }
   }
 
-  // Uma publicação por dia evita fadiga e dá tempo para a distribuição do Reel.
-  const MAX_POSTS_DIA = 1;
+  // Feed recebe somente notícias de alto impacto, no máximo uma a cada 1h30.
+  // O teto evita uma enxurrada caso diversas fontes publiquem a mesma pauta.
+  const MAX_POSTS_DIA = 10;
   const inicioDia = new Date(new Date().toLocaleString('en-US', { timeZone: 'America/Sao_Paulo' }));
   inicioDia.setHours(0, 0, 0, 0);
   const postasHoje = relatorio.filter(p =>
