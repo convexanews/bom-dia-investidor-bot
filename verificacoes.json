@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-10T17:31:12.985Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
+  },
+  {
     "data": "2026-08-10T17:30:18.949Z",
     "resultado": "story_noticia_postado",
     "mensagem": "Story publicado (peso 46): \"Embraer (EMBR3) lucra R$ 1,1 bilhão e ação dispara 7%; ‘Compraria para meu filho para daqui a 10 anos’, diz sócio da GT Capital\".",
@@ -1012,10 +1017,5 @@
     "data": "2026-08-07T14:31:14.658Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 3h entre posts. Faltam 93 min."
-  },
-  {
-    "data": "2026-08-07T14:01:31.128Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 3h entre posts. Faltam 122 min."
   }
 ]
