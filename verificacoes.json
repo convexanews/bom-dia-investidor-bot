@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-10T23:31:12.851Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
+  },
+  {
     "data": "2026-08-10T23:09:33.631Z",
     "resultado": "story_noticia_postado",
     "mensagem": "Story publicado (peso 53): \"Nasdaq e S&P 500 fecham em baixa com Ormuz sem acordo e queda da Intel\".",
@@ -1018,11 +1023,6 @@
   },
   {
     "data": "2026-08-07T21:31:10.851Z",
-    "resultado": "limite_diario",
-    "mensagem": "Limite de 1 posts diários atingido (1 já publicados hoje)."
-  },
-  {
-    "data": "2026-08-07T21:01:41.985Z",
     "resultado": "limite_diario",
     "mensagem": "Limite de 1 posts diários atingido (1 já publicados hoje)."
   }
