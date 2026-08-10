@@ -1,5 +1,12 @@
 [
   {
+    "data": "2026-08-10T20:10:44.052Z",
+    "resultado": "story_noticia_postado",
+    "mensagem": "Story publicado (peso 55): \"Dólar interrompe sequência de perdas e sobe a R$ 5,11 à espera de IPCA e ata do Copom\".",
+    "postId": "18076061543371434",
+    "peso": 55
+  },
+  {
     "data": "2026-08-10T20:08:47.288Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
@@ -1012,11 +1019,6 @@
   },
   {
     "data": "2026-08-07T17:52:43.955Z",
-    "resultado": "limite_diario",
-    "mensagem": "Limite de 1 posts diários atingido (1 já publicados hoje)."
-  },
-  {
-    "data": "2026-08-07T17:31:28.713Z",
     "resultado": "limite_diario",
     "mensagem": "Limite de 1 posts diários atingido (1 já publicados hoje)."
   }
