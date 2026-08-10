@@ -12,7 +12,8 @@ const { gerarVideoTikTok, montarLegendaTikTok } = require('./gerar_tiktok.cjs');
 const { criarCapaRetencao, montarRoteiroCarrossel } = require('./formato_editorial.cjs');
 const { validarPautaAutomatica } = require('./qualidade_editorial.cjs');
 
-const PESO_MINIMO_REEL = 60;
+// Feed: só notícia de grande impacto, para não competir com Stories.
+const PESO_MINIMO_REEL = 80;
 const PESO_MINIMO_PUBLICACAO = PESO_MINIMO_REEL;
 const TIKTOK_POSTADAS_FILE = path.join(__dirname, 'tiktok-postadas.json');
 

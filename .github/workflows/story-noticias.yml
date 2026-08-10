@@ -1,8 +1,8 @@
-name: Bom Dia Investidor - Story Glossário
+name: Bom Dia Investidor - Story de Notícias
 
 on:
   schedule:
-    - cron: '0 11 * * *'  # Todo dia às 8h BRT (11h UTC)
+    - cron: '0 15 * * *' # 12h em Brasília: notícia relevante, sem disputar o feed.
   workflow_dispatch: {}
 
 permissions:
@@ -13,35 +13,31 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  glossario:
+  story-noticia:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-
-      - name: Instalar dependencias
+      - name: Instalar dependências
         run: npm ci
-
-      - name: Gerar e publicar story do glossário
+      - name: Gerar e publicar Story de notícia
         env:
           IG_TOKEN: ${{ secrets.IG_TOKEN }}
           IG_ACCOUNT_ID: ${{ secrets.IG_ACCOUNT_ID }}
           PAGES_TOKEN: ${{ secrets.PAGES_TOKEN }}
-        run: node auto-story-glossario.cjs
-
+        run: node auto-story-noticia.cjs
       - name: Salvar registro
         if: always()
         run: |
           git config user.email "bot@bomdiainvestidor.com.br"
           git config user.name "Bom Dia Investidor Bot"
-          git add verificacoes.json
-          git diff --cached --quiet || git commit -m "Atualiza registro do story de glossario"
+          git add stories-postadas.json verificacoes.json
+          git diff --cached --quiet || git commit -m "Atualiza registro de Story de notícia"
           for i in 1 2 3; do
             git pull --rebase -X theirs origin main && git push && exit 0
             git rebase --abort 2>/dev/null || true
             sleep 5
           done
-          echo "Falha ao salvar estado apos 3 tentativas" && exit 1
+          echo "Falha ao salvar estado após 3 tentativas" && exit 1
