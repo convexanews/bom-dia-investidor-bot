@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-10T09:00:59.604Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
+  },
+  {
     "data": "2026-08-10T08:31:10.855Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (05:31 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1007,10 +1012,5 @@
     "data": "2026-08-07T09:01:36.345Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 70): \"IA virou preocupação do Fed: investimento dispara e alerta de bolha acende\". Realizando postagem..."
-  },
-  {
-    "data": "2026-08-07T08:31:02.455Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (05:31 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
