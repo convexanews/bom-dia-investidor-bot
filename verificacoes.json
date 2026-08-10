@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-10T21:31:55.776Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
+  },
+  {
     "data": "2026-08-10T21:31:01.395Z",
     "resultado": "story_noticia_postado",
     "mensagem": "Story publicado (peso 52): \"Ibovespa cai pela 5ª vez seguida com tensão no Oriente Médio; Petrobras (PETR4) limita perdas\".",
@@ -1016,11 +1021,6 @@
   },
   {
     "data": "2026-08-07T19:04:44.573Z",
-    "resultado": "limite_diario",
-    "mensagem": "Limite de 1 posts diários atingido (1 já publicados hoje)."
-  },
-  {
-    "data": "2026-08-07T19:01:11.769Z",
     "resultado": "limite_diario",
     "mensagem": "Limite de 1 posts diários atingido (1 já publicados hoje)."
   }
