@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-10T16:31:39.255Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
+  },
+  {
     "data": "2026-08-10T16:01:29.704Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
@@ -1014,10 +1019,5 @@
     "storyId": "18072402713438585",
     "reelId": null,
     "tipo": "card"
-  },
-  {
-    "data": "2026-08-07T13:02:22.120Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 55): \"Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta sexta\". Realizando postagem..."
   }
 ]
