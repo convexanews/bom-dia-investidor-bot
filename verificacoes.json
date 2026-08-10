@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-10T10:30:53.795Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 3h entre posts. Faltam 123 min."
+  },
+  {
     "data": "2026-08-10T10:22:43.511Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 3h entre posts. Faltam 131 min."
@@ -1011,10 +1016,5 @@
     "data": "2026-08-07T10:02:21.183Z",
     "resultado": "erro",
     "mensagem": "Erro na execução automática: Erro ao criar container do reel: {\"error\":{\"message\":\"Error validating access token: Session has expired on Thursday, 06-Aug-26 18:47:13 PDT. The current time is Friday, 07-Aug-26 03:02:21 PDT.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":0,\"fbtrace_id\":\"AMGq-dSsBHUKpZ8Xw59_63Z\"}}"
-  },
-  {
-    "data": "2026-08-07T10:01:17.574Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 90): \"Emprego nos EUA, IGP-DI no Brasil, Petrobras e mais destaques desta sexta-feira\". Realizando postagem..."
   }
 ]
