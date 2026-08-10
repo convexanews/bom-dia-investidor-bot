@@ -1,5 +1,25 @@
 [
   {
+    "data": "2026-08-10T09:33:00.055Z",
+    "titulo": "Focus, balanço da Embraer, negociações sobre Ormuz e mais destaques desta segunda",
+    "categoria": "Mercados",
+    "fonte": "InfoMoney",
+    "link": "https://www.infomoney.com.br/mercados/focus-embraer-ormuz-destaques-segunda-10082026/",
+    "postId": "18042864992810072",
+    "storyId": null,
+    "reelId": "18042864992810072",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1786354284956.mp4",
+    "tipo": "reel",
+    "peso": 83,
+    "pilares": [
+      "macro",
+      "bolsa",
+      "exterior"
+    ]
+  },
+  {
     "data": "2026-08-09T15:02:45.228Z",
     "titulo": "Inflação, ata do Copom e CPI dos EUA estão no radar dos mercados nesta semana; confira agenda",
     "categoria": "Economia",
@@ -3182,20 +3202,5 @@
     "videoUrl": null,
     "tipo": "carrossel",
     "peso": 55
-  },
-  {
-    "data": "2026-07-07T09:02:59.537Z",
-    "titulo": "Futuros de NY operam mistos após Samsung frustrar mercado apesar de lucro recorde",
-    "categoria": "Mercados",
-    "fonte": "InfoMoney",
-    "link": "https://www.infomoney.com.br/mercados/futuros-de-ny-operam-mistos-apos-samsung-frustrar-mercado-apesar-de-lucro-recorde/",
-    "postId": "18212606479339586",
-    "storyId": null,
-    "reelId": "18212606479339586",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783414898736.mp4",
-    "tipo": "reel",
-    "peso": 60
   }
 ]

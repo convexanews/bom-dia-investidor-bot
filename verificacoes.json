@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-08-10T09:33:00.056Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Focus, balanço da Embraer, negociações sobre Ormuz e mais destaques desta segunda\".",
+    "postId": "18042864992810072",
+    "storyId": null,
+    "reelId": "18042864992810072",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-08-10T09:31:17.964Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 83): \"Focus, balanço da Embraer, negociações sobre Ormuz e mais destaques desta segunda\". Realizando postagem..."
+  },
+  {
     "data": "2026-08-10T09:00:59.604Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
@@ -1002,15 +1016,5 @@
     "data": "2026-08-07T09:30:52.754Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 90): \"Emprego nos EUA, IGP-DI no Brasil, Petrobras e mais destaques desta sexta-feira\". Realizando postagem..."
-  },
-  {
-    "data": "2026-08-07T09:02:07.559Z",
-    "resultado": "erro",
-    "mensagem": "Erro na execução automática: Erro ao criar container do feed: {\"error\":{\"message\":\"Error validating access token: Session has expired on Thursday, 06-Aug-26 18:47:13 PDT. The current time is Friday, 07-Aug-26 02:02:07 PDT.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":0,\"fbtrace_id\":\"AxlEI2DxUxl2xF1awEKM588\"}}"
-  },
-  {
-    "data": "2026-08-07T09:01:36.345Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 70): \"IA virou preocupação do Fed: investimento dispara e alerta de bolha acende\". Realizando postagem..."
   }
 ]
