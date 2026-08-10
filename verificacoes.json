@@ -1,8 +1,10 @@
 [
   {
-    "data": "2026-08-10T18:38:18.197Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
+    "data": "2026-08-10T18:39:21.820Z",
+    "resultado": "story_noticia_postado",
+    "mensagem": "Story publicado (peso 54): \"Ouro tem leve recuperação e fecha em alta com apostas sobre juros nos EUA\".",
+    "postId": "18365895343208481",
+    "peso": 54
   },
   {
     "data": "2026-08-10T18:31:19.761Z",
