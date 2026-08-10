@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-10T17:01:08.975Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
+  },
+  {
     "data": "2026-08-10T16:31:39.255Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
@@ -1010,14 +1015,5 @@
     "data": "2026-08-07T13:15:50.860Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 3h entre posts. Faltam 168 min."
-  },
-  {
-    "data": "2026-08-07T13:03:14.746Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (card): \"Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta sexta\".",
-    "postId": "18099908960250121",
-    "storyId": "18072402713438585",
-    "reelId": null,
-    "tipo": "card"
   }
 ]
