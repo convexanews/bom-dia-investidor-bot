@@ -4,6 +4,7 @@ const fs = require('fs');
 const path = require('path');
 const { criarCapaRetencao } = require('./formato_editorial.cjs');
 const { git } = require('./git-seguro.cjs');
+const { buscarImagemArtigo, baixarImagemBase64 } = require('./imagem_noticia.cjs');
 
 const IG_API_BASE = 'https://graph.instagram.com/v23.0';
 const IG_TOKEN = process.env.IG_TOKEN;
@@ -81,12 +82,18 @@ async function main() {
   }
 
   const capa = criarCapaRetencao(noticia.titulo, (noticia.categorias || [])[0]);
+  const imagemOriginal = noticia.imagem || await buscarImagemArtigo(noticia.link);
+  const imagem = await baixarImagemBase64(imagemOriginal);
+  if (!imagem) {
+    registrarVerificacao('story_sem_imagem', `Story publicado sem imagem editorial: "${noticia.titulo}".`, { link: noticia.link });
+  }
   const cfg = {
     formato: 'story',
     categoria: (noticia.categorias || [])[0] || 'MERCADO',
     manchete: noticia.titulo,
     mancheteVisual: capa.gancho,
     fonte: noticia.fonte,
+    imagem,
     pergunta: 'Veja o que acompanhar no mercado hoje.',
   };
   const nome = `story-noticia-${Date.now()}.png`;

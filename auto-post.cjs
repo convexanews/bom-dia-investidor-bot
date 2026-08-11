@@ -12,6 +12,7 @@ const { gerarVideoTikTok, montarLegendaTikTok } = require('./gerar_tiktok.cjs');
 const { criarCapaRetencao } = require('./formato_editorial.cjs');
 const { avaliarCarrossel, montarNarrativaImpacto } = require('./qualidade_carrossel.cjs');
 const { validarPautaAutomatica } = require('./qualidade_editorial.cjs');
+const { buscarImagemArtigo, baixarImagemBase64 } = require('./imagem_noticia.cjs');
 
 // Feed: só notícia de grande impacto, para não competir com Stories.
 const PESO_MINIMO_REEL = 80;
@@ -38,39 +39,6 @@ function carregarJson(arquivo, padrao) {
 
 function salvarJson(arquivo, dados) {
   fs.writeFileSync(arquivo, JSON.stringify(dados, null, 2), 'utf8');
-}
-
-async function buscarImagemArtigo(link) {
-  if (!link) return null;
-  try {
-    const resp = await fetch(link, { headers: { 'User-Agent': 'Mozilla/5.0' } });
-    const html = await resp.text();
-    const match = html.match(/<meta[^>]+property=["']og:image["'][^>]+content=["']([^"']+)["']/i)
-      || html.match(/<meta[^>]+content=["']([^"']+)["'][^>]+property=["']og:image["']/i);
-    return match ? match[1] : null;
-  } catch (e) {
-    console.log('Erro ao buscar imagem do artigo:', e.message);
-    return null;
-  }
-}
-
-// Baixa a imagem e embute como base64 — evita bloqueio de hotlink/referer quando
-// o Puppeteer tenta carregar a URL remota direto no <img src>.
-async function baixarImagemBase64(url) {
-  if (!url) return null;
-  try {
-    const resp = await fetch(url, {
-      headers: { 'User-Agent': 'Mozilla/5.0', Referer: new URL(url).origin },
-    });
-    if (!resp.ok) return null;
-    const contentType = (resp.headers.get('content-type') || 'image/jpeg').split(';')[0];
-    if (!contentType.startsWith('image/')) return null;
-    const buf = Buffer.from(await resp.arrayBuffer());
-    return `data:${contentType};base64,${buf.toString('base64')}`;
-  } catch (e) {
-    console.log('Erro ao baixar imagem:', e.message);
-    return null;
-  }
 }
 
 // Estratégia de hashtags em 3 camadas (misturar volumes melhora alcance):
