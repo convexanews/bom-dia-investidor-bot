@@ -1,8 +1,10 @@
 [
   {
-    "data": "2026-08-11T15:46:00.418Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
+    "data": "2026-08-11T15:47:09.247Z",
+    "resultado": "story_noticia_postado",
+    "mensagem": "Story publicado (peso 56): \"Entre recordes e dúvidas: por que as ações da Movida (MOVI3) caem após o balanço\".",
+    "postId": "18202890637368353",
+    "peso": 56
   },
   {
     "data": "2026-08-11T15:31:20.669Z",
