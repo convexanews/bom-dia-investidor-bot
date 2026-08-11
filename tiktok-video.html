@@ -15,10 +15,19 @@
   }
 
   .video-frame { width: 1080px; height: 1920px; position: relative; overflow: hidden; background: #fff; }
+  /* Cada etapa tem composição própria. O movimento final é aplicado pelo ffmpeg. */
   .video-frame.cena-1 .foto { transform: scale(1.08); }
-  .video-frame.cena-2 .foto { transform: scale(1.16); transform-origin: 35% 35%; }
-  .video-frame.cena-3 .foto { transform: scale(1.11); transform-origin: 70% 45%; filter: saturate(0.82) contrast(1.12); }
-  .video-frame.cena-4 .foto { transform: scale(1.05); filter: saturate(1.18); }
+  .video-frame.cena-2 .foto { height: 760px; transform: scale(1.12); transform-origin: 35% 35%; filter: saturate(0.75) contrast(1.15); }
+  .video-frame.cena-2 .panel { top: 650px; background: #0f172a; color: #fff; padding-top: 90px; }
+  .video-frame.cena-2 .headline, .video-frame.cena-2 .resumo, .video-frame.cena-2 .fonte-nome { color: #fff; }
+  .video-frame.cena-2 .etapa, .video-frame.cena-2 .fonte-label { color: #93c5fd; }
+  .video-frame.cena-3 .foto { height: 1920px; opacity: 0.22; transform: scale(1.18); filter: grayscale(1) contrast(1.35); }
+  .video-frame.cena-3 .overlay { height: 1920px; background: linear-gradient(135deg, #061827 0%, rgba(6,24,39,.90) 100%); }
+  .video-frame.cena-3 .panel { top: 470px; color: #fff; }
+  .video-frame.cena-3 .headline, .video-frame.cena-3 .resumo, .video-frame.cena-3 .fonte-nome { color: #fff; }
+  .video-frame.cena-3 .etapa, .video-frame.cena-3 .fonte-label { color: #7dd3fc; }
+  .video-frame.cena-4 .foto { height: 880px; transform: scale(1.10); filter: saturate(1.18) contrast(1.08); }
+  .video-frame.cena-4 .panel { top: 820px; background: #fff; padding-top: 64px; }
   .video-frame.negativo .tag, .video-frame.negativo .live-dot { background: #e53935; }
   .video-frame.positivo .tag, .video-frame.positivo .live-dot { background: #65ae12; }
 

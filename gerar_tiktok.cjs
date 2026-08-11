@@ -4,7 +4,6 @@ const fs = require('fs');
 const os = require('os');
 const path = require('path');
 const { execSync, execFileSync } = require('child_process');
-const puppeteer = require('puppeteer');
 const { montarRoteiroReel, montarCenasReel, quebrarLegendas } = require('./formato_editorial.cjs');
 
 function escapeHtml(str) {
@@ -38,6 +37,9 @@ function getLogoB64() {
 
 // Gera uma das cenas visuais (PNG 1080x1920) usando o template HTML.
 async function gerarFrame(cfg, cena, numeroCena, totalCenas, saida) {
+  // Carregado somente na renderização: mantém as regras de narrativa testáveis
+  // mesmo em ambientes locais que não instalaram as dependências de imagem.
+  const puppeteer = require('puppeteer');
   let template = fs.readFileSync(path.join(__dirname, 'tiktok-video.html'), 'utf8');
 
   template = template
@@ -89,13 +91,29 @@ function gerarSRT(blocos, duracaoTotal, srtPath) {
   return srtPath;
 }
 
-function criarListaDeCenas(frames, duracaoPorCena, listaPath) {
-  let conteudo = '';
-  for (const frame of frames) {
-    conteudo += `file '${frame.replace(/\\/g, '/')}'\nduration ${duracaoPorCena}\n`;
+// Anima cada frame estático com zoom/pan e une as cenas com transições.
+// Isso evita o efeito de “imagem fixa com legenda” e cria ritmo visual mesmo
+// quando a matéria oferece apenas uma foto de agência.
+function montarFiltroVideoAnimado(totalCenas, duracaoPorCena, srtPath) {
+  const fade = 0.35;
+  const partes = [];
+  for (let i = 0; i < totalCenas; i++) {
+    const direcao = i % 2 === 0 ? 1 : -1;
+    partes.push(
+      `[${i}:v]scale=1280:2276,zoompan=z='min(zoom+0.00075,1.12)':x='iw/2-(iw/zoom/2)+${direcao}*sin(on/18)*18':y='ih/2-(ih/zoom/2)':d=1:s=1080x1920:fps=30,trim=duration=${duracaoPorCena.toFixed(3)},setpts=PTS-STARTPTS[v${i}]`
+    );
   }
-  conteudo += `file '${frames[frames.length - 1].replace(/\\/g, '/')}'\n`;
-  fs.writeFileSync(listaPath, conteudo, 'utf8');
+  let anterior = '[v0]';
+  for (let i = 1; i < totalCenas; i++) {
+    const proximo = i === totalCenas - 1 ? '[base]' : `[mix${i}]`;
+    const offset = ((duracaoPorCena - fade) * i).toFixed(3);
+    partes.push(`${anterior}[v${i}]xfade=transition=fade:duration=${fade}:offset=${offset}${proximo}`);
+    anterior = proximo;
+  }
+  const srtEscaped = srtPath.replace(/\\/g, '/').replace(/:/g, '\\:');
+  const estilo = "FontName=Arial,FontSize=11,PrimaryColour=&H00FFFFFF,OutlineColour=&H00101010,BorderStyle=1,Outline=2,Shadow=1,MarginV=42,Alignment=2,Bold=1";
+  partes.push(`[base]subtitles='${srtEscaped}':force_style='${estilo}',format=yuv420p[vout]`);
+  return partes.join(';');
 }
 
 // Monta o vídeo final com quatro cenas, narração TTS e legendas sincronizadas.
@@ -103,7 +121,6 @@ async function gerarVideoTikTok(cfg, saida) {
   const tmpDir = fs.mkdtempSync(path.join(os.tmpdir(), 'bdi-tiktok-'));
   const audioPath = path.join(tmpDir, 'narration.mp3');
   const srtPath = path.join(tmpDir, 'legendas.srt');
-  const listaPath = path.join(tmpDir, 'cenas.txt');
   const cenas = montarCenasReel(cfg);
   const framePaths = [];
 
@@ -137,17 +154,13 @@ async function gerarVideoTikTok(cfg, saida) {
 
   if (!fs.existsSync(path.dirname(saida))) fs.mkdirSync(path.dirname(saida), { recursive: true });
 
-  const duracaoPorCena = Math.max(2, (duracaoAudio - 1) / cenas.length);
-  criarListaDeCenas(framePaths, duracaoPorCena, listaPath);
+  const duracaoPorCena = Math.max(3.5, (duracaoAudio + ((cenas.length - 1) * 0.35)) / cenas.length);
+  const entradasVisuais = framePaths.map(frame => `-loop 1 -t ${duracaoPorCena.toFixed(3)} -i "${frame}"`).join(' ');
+  const filtro = montarFiltroVideoAnimado(cenas.length, duracaoPorCena, srtPath);
 
-  // Cortes entre cenas + legendas queimadas: o vídeo não depende mais de uma imagem parada.
-  const srtEscaped = srtPath.replace(/\\/g, '/').replace(/:/g, '\\:');
-  const subtitleStyle = "FontName=Arial,FontSize=11,PrimaryColour=&H00FFFFFF,OutlineColour=&H00101010,BorderStyle=1,Outline=2,Shadow=1,MarginV=42,Alignment=2,Bold=1";
-
-  console.log(`  Montando vídeo (${duracaoAudio}s) com ${cenas.length} cenas e legendas...`);
+  console.log(`  Montando vídeo animado (${duracaoAudio}s) com ${cenas.length} cenas, transições e legendas...`);
   execSync(
-    `ffmpeg -y -f concat -safe 0 -i "${listaPath}" -i "${audioPath}" ` +
-    `-vf "fps=30,subtitles='${srtEscaped}':force_style='${subtitleStyle}',format=yuv420p" ` +
+    `ffmpeg -y ${entradasVisuais} -i "${audioPath}" -filter_complex "${filtro}" -map "[vout]" -map ${cenas.length}:a ` +
     `-c:v libx264 -tune stillimage -c:a aac -b:a 192k -pix_fmt yuv420p -movflags +faststart ` +
     `-shortest "${saida}"`,
     { stdio: 'inherit', timeout: 180000 }
@@ -177,7 +190,7 @@ function montarLegendaTikTok(cfg) {
   return `📌 ${cfg.manchete}\n\nO que aconteceu: ${resumo}\n\nFonte: ${cfg.fonte || 'não informada'}. Conteúdo informativo; não é recomendação de investimento.\n\n${tema} #investimentos #bomdiainvestidor`;
 }
 
-module.exports = { gerarVideoTikTok, gerarFrame, gerarTTS, montarLegendaTikTok, montarTextoNarracao, montarBlocosLegenda };
+module.exports = { gerarVideoTikTok, gerarFrame, gerarTTS, montarLegendaTikTok, montarTextoNarracao, montarBlocosLegenda, montarFiltroVideoAnimado };
 
 if (require.main === module) {
   const cfg = JSON.parse(process.argv[2] || '{}');
