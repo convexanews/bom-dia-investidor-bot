@@ -1,8 +1,10 @@
 [
   {
-    "data": "2026-08-11T00:41:27.214Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
+    "data": "2026-08-11T00:42:33.762Z",
+    "resultado": "story_noticia_postado",
+    "mensagem": "Story publicado (peso 50): \"Itaúsa (ITSA4) lucra R$ 4,3 bilhões, alta de 7%, no 2T26\".",
+    "postId": "18114068398941137",
+    "peso": 50
   },
   {
     "data": "2026-08-11T00:31:00.155Z",
