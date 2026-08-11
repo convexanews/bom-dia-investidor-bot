@@ -1,8 +1,10 @@
 [
   {
-    "data": "2026-08-11T18:41:55.417Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
+    "data": "2026-08-11T18:43:01.022Z",
+    "resultado": "story_noticia_postado",
+    "mensagem": "Story publicado (peso 51): \"Data centers são bons para produtividade, mas podem disparar inflação, diz Fed\".",
+    "postId": "17878982292514134",
+    "peso": 51
   },
   {
     "data": "2026-08-11T18:31:08.061Z",
