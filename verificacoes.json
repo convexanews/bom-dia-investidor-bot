@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-11T19:01:14.517Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
+  },
+  {
     "data": "2026-08-11T18:43:01.022Z",
     "resultado": "story_noticia_postado",
     "mensagem": "Story publicado (peso 51): \"Data centers são bons para produtividade, mas podem disparar inflação, diz Fed\".",
@@ -1037,11 +1042,6 @@
   },
   {
     "data": "2026-08-08T17:00:56.111Z",
-    "resultado": "limite_diario",
-    "mensagem": "Limite de 1 posts diários atingido (1 já publicados hoje)."
-  },
-  {
-    "data": "2026-08-08T16:40:20.068Z",
     "resultado": "limite_diario",
     "mensagem": "Limite de 1 posts diários atingido (1 já publicados hoje)."
   }
