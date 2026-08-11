@@ -2,7 +2,7 @@
 
 ## Quando usar
 
-Carrossel de notícia só entra no feed quando a pauta tiver impacto alto (peso 80+), fonte identificável e consequência real para o investidor. Conteúdo educativo pode ser produzido manualmente, mas não deve ocupar o lugar de uma notícia relevante.
+Carrossel de notícia entra no feed quando a pauta tiver relevância editorial (peso 70–84), fonte identificável e consequência real para o investidor. Pautas excepcionais (peso 85+) viram Reel. Conteúdo educativo pode ser produzido manualmente, mas não deve ocupar o lugar de uma notícia relevante.
 
 ## Narrativa de seis imagens
 

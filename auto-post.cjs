@@ -13,10 +13,10 @@ const { criarCapaRetencao } = require('./formato_editorial.cjs');
 const { avaliarCarrossel, montarNarrativaImpacto } = require('./qualidade_carrossel.cjs');
 const { validarPautaAutomatica } = require('./qualidade_editorial.cjs');
 const { buscarImagemArtigo, baixarImagemBase64 } = require('./imagem_noticia.cjs');
+const { PESO_MINIMO_FEED, selecionarFormatoFeed } = require('./formato_publicacao.cjs');
 
 // Feed: só notícia de grande impacto, para não competir com Stories.
-const PESO_MINIMO_REEL = 80;
-const PESO_MINIMO_PUBLICACAO = PESO_MINIMO_REEL;
+const PESO_MINIMO_PUBLICACAO = PESO_MINIMO_FEED;
 const TIKTOK_POSTADAS_FILE = path.join(__dirname, 'tiktok-postadas.json');
 
 const IG_API_BASE = 'https://graph.instagram.com/v23.0';
@@ -444,10 +444,8 @@ async function main() {
   let imageUrl = null;
   let storyImageUrl = null;
 
-  // Carrosséis e cards automáticos foram desativados: os dados reais de
-  // alcance favorecem Reels e o feed não deve receber conteúdo genérico.
-  const formato = 'reel';
-  console.log(`Formato escolhido: Reel (pauta aprovada, peso ${nova.peso})`);
+  const formato = selecionarFormatoFeed(nova.peso);
+  console.log(`Formato escolhido: ${formato} (pauta aprovada, peso ${nova.peso})`);
 
   if (formato === 'reel') {
     // === REEL NARRADO ===
@@ -533,13 +531,9 @@ async function main() {
     await gerarSlide({ final: true }, path.join(cardsDir, nomeFinal));
     nomes.push(nomeFinal);
 
-    // Story continua saindo junto (superfície extra de alcance)
-    const nomeStory = `noticia-${ts}-story.png`;
-    await gerarCard({ ...cfg, formato: 'story' }, path.join(cardsDir, nomeStory));
-
     git('git config user.email "bot@bomdiainvestidor.com.br"', PAGES_DIR);
     git('git config user.name "Bom Dia Investidor Bot"', PAGES_DIR);
-    git(`git add ${nomes.map(n => `bdi-cards/${n}`).join(' ')} bdi-cards/${nomeStory}`, PAGES_DIR);
+    git(`git add ${nomes.map(n => `bdi-cards/${n}`).join(' ')}`, PAGES_DIR);
     commitSeguro(`Carrossel: ${cfg.manchete.slice(0, 60)}`, PAGES_DIR);
     git('git push', PAGES_DIR);
 
@@ -569,15 +563,7 @@ async function main() {
 
     postId = pubData.id;
     imageUrl = `${PAGES_RAW_BASE}/${nomes[0]}`;
-    storyImageUrl = `${PAGES_RAW_BASE}/${nomeStory}`;
     console.log(`Carrossel de ${totalSlides} slides publicado no Instagram! ID:`, postId);
-
-    try {
-      storyId = await publicarStory(storyImageUrl);
-      console.log('Publicado no story! ID:', storyId);
-    } catch (e) {
-      console.log('Erro ao publicar o story (carrossel ja foi publicado):', e.message);
-    }
 
   } else {
     // === CARD ESTÁTICO ===

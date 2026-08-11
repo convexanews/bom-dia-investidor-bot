@@ -16,7 +16,7 @@ const STORIES_FILE = path.join(__dirname, 'stories-postadas.json');
 const VERIFICACOES_FILE = path.join(__dirname, 'verificacoes.json');
 
 const PESO_MINIMO_STORY = 30;
-const PESO_MAXIMO_STORY = 59;
+const PESO_MAXIMO_STORY = 69;
 const JANELA_NOTICIA_STORY_MS = 2 * 60 * 60 * 1000;
 
 function carregarJson(arquivo, padrao) {

@@ -16,14 +16,14 @@ function avaliarCarrossel({ manchete, resumo, fonte, peso = 0, slides = [], impa
   const contexto = String(resumo || '').trim();
   const textoCompleto = normalizar(`${titulo} ${contexto}`);
   const bloqueios = [];
-  if (peso < 80) bloqueios.push('impacto editorial abaixo do mínimo para carrossel de notícia');
+  if (peso < 70) bloqueios.push('impacto editorial abaixo do mínimo para carrossel de notícia');
   if (titulo.length < 28 || titulo.length > 115) bloqueios.push('gancho fora do tamanho de leitura rápida');
   if (contexto.length < 110) bloqueios.push('contexto insuficiente para sustentar a narrativa');
   if (!String(fonte || '').trim()) bloqueios.push('fonte não informada');
   if (FRASES_PROIBIDAS.some(frase => textoCompleto.includes(frase))) bloqueios.push('linguagem promocional ou promessa financeira');
 
   const pontos = {
-    impacto: peso >= 90 ? 25 : peso >= 80 ? 20 : 0,
+    impacto: peso >= 90 ? 25 : peso >= 70 ? 20 : 0,
     prova: (temDadoConcreto(`${titulo} ${contexto}`) ? 15 : 5) + (fonte ? 10 : 0),
     gancho: titulo.length >= 28 && titulo.length <= 90 ? 15 : 5,
     narrativa: slides.length >= 4 && slides.length <= 6 ? 20 : 5,
