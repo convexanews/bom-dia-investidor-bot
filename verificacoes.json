@@ -1,8 +1,10 @@
 [
   {
-    "data": "2026-08-11T12:33:59.775Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 29 min."
+    "data": "2026-08-11T12:34:59.825Z",
+    "resultado": "story_noticia_postado",
+    "mensagem": "Story publicado (peso 54): \"Shein se aproxima de estreia histórica na bolsa; veja quando será o IPO e quanto a empresa pode valer\".",
+    "postId": "18080415878404051",
+    "peso": 54
   },
   {
     "data": "2026-08-11T12:31:21.689Z",
