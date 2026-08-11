@@ -1,5 +1,25 @@
 [
   {
+    "data": "2026-08-11T11:32:52.418Z",
+    "titulo": "Ata do Copom acende alerta: BC eleva preocupação com desancoragem das expectativas de inflação",
+    "categoria": "Economia",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/ata-do-copom-acende-alerta-bc-eleva-preocupacao-com-desancoragem-das-expectativas-de-inflacao/",
+    "postId": "17943051630292360",
+    "storyId": null,
+    "reelId": "17943051630292360",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1786447864975.mp4",
+    "tipo": "reel",
+    "peso": 98,
+    "pilares": [
+      "macro",
+      "bolsa",
+      "exterior"
+    ]
+  },
+  {
     "data": "2026-08-11T09:33:29.789Z",
     "titulo": "Ata do Copom, IPCA, balanços e mais destaques desta terça-feira",
     "categoria": "Mercados",
@@ -3192,20 +3212,5 @@
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783440093440.mp4",
     "tipo": "reel",
     "peso": 61
-  },
-  {
-    "data": "2026-07-07T13:32:57.856Z",
-    "titulo": "Tempo Real: Ibovespa avança com alta de Petrobras (PETR4); dólar sobe",
-    "categoria": "Mercados",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/tempo-real-ibovespa-opera-proximo-a-estabilidade-dolar-sobe/",
-    "postId": "18117664528843225",
-    "storyId": null,
-    "reelId": "18117664528843225",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783431086575.mp4",
-    "tipo": "reel",
-    "peso": 71
   }
 ]
