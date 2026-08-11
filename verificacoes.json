@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-11T13:31:09.403Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
+  },
+  {
     "data": "2026-08-11T13:01:18.498Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 2 min."
@@ -1036,10 +1041,5 @@
     "resultado": "story_glossario",
     "mensagem": "Story do glossário publicado: \"Taxa de Administração\"",
     "postId": "18109718666040773"
-  },
-  {
-    "data": "2026-08-08T11:31:58.907Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
   }
 ]
