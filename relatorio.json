@@ -1,5 +1,25 @@
 [
   {
+    "data": "2026-08-11T21:03:00.354Z",
+    "titulo": "Ibovespa tomba 2,5% e atinge menor nível desde janeiro com piora da percepção de risco local; dólar sobe",
+    "categoria": "Mercados",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/ibovespa-11-8-26-lils/",
+    "postId": "18119833246923540",
+    "storyId": null,
+    "reelId": "18119833246923540",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1786482074817.mp4",
+    "tipo": "reel",
+    "peso": 89,
+    "pilares": [
+      "macro",
+      "bolsa",
+      "exterior"
+    ]
+  },
+  {
     "data": "2026-08-11T11:32:52.418Z",
     "titulo": "Ata do Copom acende alerta: BC eleva preocupação com desancoragem das expectativas de inflação",
     "categoria": "Economia",
@@ -3197,20 +3217,5 @@
     "videoUrl": null,
     "tipo": "carrossel",
     "peso": 37
-  },
-  {
-    "data": "2026-07-07T16:03:05.781Z",
-    "titulo": "Nem bancos, nem elétricas: rainha dos dividendos é a favorita de 14 analistas para julho",
-    "categoria": "Mercados",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/nem-bancos-nem-eletricas-rainha-dos-dividendos-e-a-favorita-de-14-analistas-para-julho-pads/",
-    "postId": "18111202994491499",
-    "storyId": null,
-    "reelId": "18111202994491499",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783440093440.mp4",
-    "tipo": "reel",
-    "peso": 61
   }
 ]
