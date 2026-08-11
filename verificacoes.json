@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-11T18:01:03.620Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
+  },
+  {
     "data": "2026-08-11T17:32:19.312Z",
     "resultado": "story_noticia_postado",
     "mensagem": "Story publicado (peso 48): \"O que está por trás do tombo de 2% do Ibovespa?\".",
@@ -1037,10 +1042,5 @@
     "data": "2026-08-08T16:01:05.474Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 3h entre posts. Faltam 2 min."
-  },
-  {
-    "data": "2026-08-08T15:35:51.875Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 3h entre posts. Faltam 27 min."
   }
 ]
