@@ -1,5 +1,17 @@
 [
   {
+    "data": "2026-08-12T23:01:15.124Z",
+    "resultado": "carrossel_reprovado_qualidade",
+    "mensagem": "Carrossel bloqueado (nota 70): ",
+    "nota": 70,
+    "bloqueios": []
+  },
+  {
+    "data": "2026-08-12T23:01:09.444Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 80): \"Cerebras divulga prejuízo e ações da fabricante de chips para IA tombam no after hours em NY\". Realizando postagem..."
+  },
+  {
     "data": "2026-08-12T22:31:38.828Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
@@ -1081,16 +1093,6 @@
   },
   {
     "data": "2026-08-10T00:31:10.524Z",
-    "resultado": "limite_diario",
-    "mensagem": "Limite de 1 posts diários atingido (1 já publicados hoje)."
-  },
-  {
-    "data": "2026-08-10T00:01:07.503Z",
-    "resultado": "limite_diario",
-    "mensagem": "Limite de 1 posts diários atingido (1 já publicados hoje)."
-  },
-  {
-    "data": "2026-08-09T23:36:30.595Z",
     "resultado": "limite_diario",
     "mensagem": "Limite de 1 posts diários atingido (1 já publicados hoje)."
   }
