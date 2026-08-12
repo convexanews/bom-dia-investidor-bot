@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-12T13:01:03.243Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
+  },
+  {
     "data": "2026-08-12T12:37:47.436Z",
     "resultado": "story_noticia_postado",
     "mensagem": "Story publicado (peso 58): \"Dólar abre em queda, com inflação dos EUA e Oriente Médio no foco\".",
@@ -1072,11 +1077,6 @@
   },
   {
     "data": "2026-08-09T13:31:07.827Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
-  },
-  {
-    "data": "2026-08-09T13:02:20.491Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
   }
