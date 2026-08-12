@@ -1,8 +1,10 @@
 [
   {
-    "data": "2026-08-12T00:46:28.332Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
+    "data": "2026-08-12T00:47:30.290Z",
+    "resultado": "story_noticia_postado",
+    "mensagem": "Story publicado (peso 32): \"MT planta segunda maior área de milho da história; SNFZ11 mantém propriedades no Estado\".",
+    "postId": "18079366730406088",
+    "peso": 32
   },
   {
     "data": "2026-08-12T00:30:56.559Z",
