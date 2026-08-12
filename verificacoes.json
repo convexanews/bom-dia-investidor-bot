@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-08-12T20:32:12.586Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (carrossel): \"Wall Street fecha em tom misto com inflação em linha com o esperado e ações de IA\".",
+    "postId": "18092239103437738",
+    "storyId": null,
+    "reelId": null,
+    "tipo": "carrossel"
+  },
+  {
+    "data": "2026-08-12T20:31:01.800Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 71): \"Wall Street fecha em tom misto com inflação em linha com o esperado e ações de IA\". Realizando postagem..."
+  },
+  {
     "data": "2026-08-12T20:11:43.732Z",
     "resultado": "story_noticia_postado",
     "mensagem": "Story publicado (peso 55): \"Por que setor financeiro perdeu R$ 112 bi, um Banco do Brasil (BBAS3), em dias na Bolsa?\".",
@@ -1075,16 +1089,6 @@
   },
   {
     "data": "2026-08-09T21:38:28.348Z",
-    "resultado": "limite_diario",
-    "mensagem": "Limite de 1 posts diários atingido (1 já publicados hoje)."
-  },
-  {
-    "data": "2026-08-09T21:31:19.317Z",
-    "resultado": "limite_diario",
-    "mensagem": "Limite de 1 posts diários atingido (1 já publicados hoje)."
-  },
-  {
-    "data": "2026-08-09T21:00:54.577Z",
     "resultado": "limite_diario",
     "mensagem": "Limite de 1 posts diários atingido (1 já publicados hoje)."
   }

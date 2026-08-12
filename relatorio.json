@@ -1,5 +1,25 @@
 [
   {
+    "data": "2026-08-12T20:32:12.584Z",
+    "titulo": "Wall Street fecha em tom misto com inflação em linha com o esperado e ações de IA",
+    "categoria": "Mercados",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/wall-street-12-8-26-lils/",
+    "postId": "18092239103437738",
+    "storyId": null,
+    "reelId": null,
+    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1786566666912-slide1.png",
+    "imagemStory": null,
+    "videoUrl": null,
+    "tipo": "carrossel",
+    "peso": 71,
+    "pilares": [
+      "macro",
+      "bolsa",
+      "exterior"
+    ]
+  },
+  {
     "data": "2026-08-12T17:03:10.048Z",
     "titulo": "Recessão à frente? Os alertas de CEO de controladora do Itaú (ITUB4) para a economia; ‘ambiente pouco propício’",
     "categoria": "Empresas",
@@ -3211,20 +3231,5 @@
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783501295171.mp4",
     "tipo": "reel",
     "peso": 70
-  },
-  {
-    "data": "2026-07-07T23:33:01.749Z",
-    "titulo": "FII GAME11 lucra R$ 3,16 mi, supera benchmark e reforça reservas de dividendos",
-    "categoria": "FIIs",
-    "fonte": "Suno",
-    "link": "https://www.suno.com.br/noticias/fii-game11-lucra-r-316-mi-supera-benchmark-e-reforca-reservas-de-dividendos/",
-    "postId": "18545592775074734",
-    "storyId": "18094468436197055",
-    "reelId": null,
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783467101776-slide1.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783467101776-story.png",
-    "videoUrl": null,
-    "tipo": "carrossel",
-    "peso": 38
   }
 ]
