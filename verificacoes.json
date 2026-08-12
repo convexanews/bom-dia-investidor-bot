@@ -1,5 +1,12 @@
 [
   {
+    "data": "2026-08-12T20:11:43.732Z",
+    "resultado": "story_noticia_postado",
+    "mensagem": "Story publicado (peso 55): \"Por que setor financeiro perdeu R$ 112 bi, um Banco do Brasil (BBAS3), em dias na Bolsa?\".",
+    "postId": "18126665815705417",
+    "peso": 55
+  },
+  {
     "data": "2026-08-12T20:10:38.188Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
@@ -1078,11 +1085,6 @@
   },
   {
     "data": "2026-08-09T21:00:54.577Z",
-    "resultado": "limite_diario",
-    "mensagem": "Limite de 1 posts diários atingido (1 já publicados hoje)."
-  },
-  {
-    "data": "2026-08-09T20:39:07.371Z",
     "resultado": "limite_diario",
     "mensagem": "Limite de 1 posts diários atingido (1 já publicados hoje)."
   }
