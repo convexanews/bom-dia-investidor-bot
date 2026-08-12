@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-12T18:01:16.472Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 32 min."
+  },
+  {
     "data": "2026-08-12T17:33:02.448Z",
     "resultado": "story_noticia_postado",
     "mensagem": "Story publicado (peso 35): \"Bradesco lança plataforma de custódia para ativos digitais e criptomoedas com Foxbit como cliente\".",
@@ -1076,11 +1081,6 @@
   },
   {
     "data": "2026-08-09T18:50:12.585Z",
-    "resultado": "limite_diario",
-    "mensagem": "Limite de 1 posts diários atingido (1 já publicados hoje)."
-  },
-  {
-    "data": "2026-08-09T18:30:55.700Z",
     "resultado": "limite_diario",
     "mensagem": "Limite de 1 posts diários atingido (1 já publicados hoje)."
   }
