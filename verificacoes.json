@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-08-12T10:01:16.181Z",
+    "resultado": "carrossel_reprovado_qualidade",
+    "mensagem": "Carrossel bloqueado (nota 90): contexto insuficiente para sustentar a narrativa",
+    "nota": 90,
+    "bloqueios": [
+      "contexto insuficiente para sustentar a narrativa"
+    ]
+  },
+  {
+    "data": "2026-08-12T10:01:11.202Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 83): \"Inflação nos EUA, serviços no Brasil, balanço do Banco do Brasil e mais destaques\". Realizando postagem..."
+  },
+  {
     "data": "2026-08-12T09:52:23.121Z",
     "resultado": "carrossel_reprovado_qualidade",
     "mensagem": "Carrossel bloqueado (nota 90): contexto insuficiente para sustentar a narrativa",
@@ -1056,16 +1070,6 @@
   },
   {
     "data": "2026-08-09T10:31:11.322Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
-  },
-  {
-    "data": "2026-08-09T10:01:05.955Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
-  },
-  {
-    "data": "2026-08-09T09:45:31.573Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
   }
