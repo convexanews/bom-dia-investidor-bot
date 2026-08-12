@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-12T17:29:16.620Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 64 min."
+  },
+  {
     "data": "2026-08-12T17:03:10.049Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"Recessão à frente? Os alertas de CEO de controladora do Itaú (ITUB4) para a economia; ‘ambiente pouco propício’\".",
@@ -1076,10 +1081,5 @@
     "data": "2026-08-09T17:36:25.935Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 3h entre posts. Faltam 27 min."
-  },
-  {
-    "data": "2026-08-09T17:31:01.287Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 3h entre posts. Faltam 32 min."
   }
 ]
