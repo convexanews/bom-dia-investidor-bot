@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-08-12T09:52:23.121Z",
+    "resultado": "carrossel_reprovado_qualidade",
+    "mensagem": "Carrossel bloqueado (nota 90): contexto insuficiente para sustentar a narrativa",
+    "nota": 90,
+    "bloqueios": [
+      "contexto insuficiente para sustentar a narrativa"
+    ]
+  },
+  {
+    "data": "2026-08-12T09:52:18.079Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 83): \"Inflação nos EUA, serviços no Brasil, balanço do Banco do Brasil e mais destaques\". Realizando postagem..."
+  },
+  {
     "data": "2026-08-12T09:51:17.201Z",
     "resultado": "story_noticia_postado",
     "mensagem": "Story publicado (peso 40): \"Taesa (TAEE11) tem queda de 28,5% no lucro do 2º trimestre; empresa anuncia R$ 207 milhões em proventos\".",
@@ -1052,16 +1066,6 @@
   },
   {
     "data": "2026-08-09T09:45:31.573Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
-  },
-  {
-    "data": "2026-08-09T09:31:04.527Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
-  },
-  {
-    "data": "2026-08-09T09:01:29.145Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
   }
