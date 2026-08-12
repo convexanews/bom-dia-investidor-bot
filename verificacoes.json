@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-12T21:01:07.535Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 62 min."
+  },
+  {
     "data": "2026-08-12T20:32:12.586Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (carrossel): \"Wall Street fecha em tom misto com inflação em linha com o esperado e ações de IA\".",
@@ -1084,11 +1089,6 @@
   },
   {
     "data": "2026-08-09T22:01:14.425Z",
-    "resultado": "limite_diario",
-    "mensagem": "Limite de 1 posts diários atingido (1 já publicados hoje)."
-  },
-  {
-    "data": "2026-08-09T21:38:28.348Z",
     "resultado": "limite_diario",
     "mensagem": "Limite de 1 posts diários atingido (1 já publicados hoje)."
   }
