@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-12T21:33:03.718Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 30 min."
+  },
+  {
     "data": "2026-08-12T21:32:17.441Z",
     "resultado": "story_noticia_postado",
     "mensagem": "Story publicado (peso 58): \"No mercado de juros, DIs intermediários e longos sobem com risco fiscal-eleitoral\".",
@@ -1086,11 +1091,6 @@
   },
   {
     "data": "2026-08-09T23:00:59.307Z",
-    "resultado": "limite_diario",
-    "mensagem": "Limite de 1 posts diários atingido (1 já publicados hoje)."
-  },
-  {
-    "data": "2026-08-09T22:37:06.816Z",
     "resultado": "limite_diario",
     "mensagem": "Limite de 1 posts diários atingido (1 já publicados hoje)."
   }
