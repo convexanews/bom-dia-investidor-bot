@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-08-12T10:33:02.281Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (carrossel): \"CPI dos EUA e balanço do BB dominam as atenções do mercado; Ibovespa em dólar sobe hoje (12)\".",
+    "postId": "18016231085916957",
+    "storyId": null,
+    "reelId": null,
+    "tipo": "carrossel"
+  },
+  {
+    "data": "2026-08-12T10:31:42.381Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 74): \"CPI dos EUA e balanço do BB dominam as atenções do mercado; Ibovespa em dólar sobe hoje (12)\". Realizando postagem..."
+  },
+  {
     "data": "2026-08-12T10:01:16.181Z",
     "resultado": "carrossel_reprovado_qualidade",
     "mensagem": "Carrossel bloqueado (nota 90): contexto insuficiente para sustentar a narrativa",
@@ -1060,16 +1074,6 @@
   },
   {
     "data": "2026-08-09T11:01:02.251Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
-  },
-  {
-    "data": "2026-08-09T10:40:34.271Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
-  },
-  {
-    "data": "2026-08-09T10:31:11.322Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
   }

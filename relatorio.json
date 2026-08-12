@@ -1,5 +1,25 @@
 [
   {
+    "data": "2026-08-12T10:33:02.280Z",
+    "titulo": "CPI dos EUA e balanço do BB dominam as atenções do mercado; Ibovespa em dólar sobe hoje (12)",
+    "categoria": "Mercados",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/cpi-dos-eua-e-balanco-do-bb-dominam-as-atencoes-do-mercado-ibovespa-em-dolar-sobe-hoje-12/",
+    "postId": "18016231085916957",
+    "storyId": null,
+    "reelId": null,
+    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1786530708215-slide1.png",
+    "imagemStory": null,
+    "videoUrl": null,
+    "tipo": "carrossel",
+    "peso": 74,
+    "pilares": [
+      "macro",
+      "bolsa",
+      "exterior"
+    ]
+  },
+  {
     "data": "2026-08-11T21:03:00.354Z",
     "titulo": "Ibovespa tomba 2,5% e atinge menor nível desde janeiro com piora da percepção de risco local; dólar sobe",
     "categoria": "Mercados",
@@ -3202,20 +3222,5 @@
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783458096728.mp4",
     "tipo": "reel",
     "peso": 96
-  },
-  {
-    "data": "2026-07-07T18:32:38.378Z",
-    "titulo": "Futuros do algodão disparam e atingem limite diário com alta de 3 centavos",
-    "categoria": "MERCADO",
-    "fonte": "Investing.com",
-    "link": "https://br.investing.com/news/commodities-news/futuros-do-algodao-disparam-e-atingem-limite-diario-com-alta-de-3-centavos-93CH-1994853",
-    "postId": "17922433875163325",
-    "storyId": "18088573343386098",
-    "reelId": null,
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783449095981-slide1.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783449095981-story.png",
-    "videoUrl": null,
-    "tipo": "carrossel",
-    "peso": 37
   }
 ]
