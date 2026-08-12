@@ -1,8 +1,8 @@
 [
   {
-    "data": "2026-08-12T15:46:21.538Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
+    "data": "2026-08-12T15:47:13.938Z",
+    "resultado": "erro_story_noticia",
+    "mensagem": "Erro ao publicar Story: {\"error\":{\"message\":\"The requested resource does not exist\",\"type\":\"OAuthException\",\"code\":24,\"error_subcode\":2207006,\"is_transient\":false,\"error_user_title\":\"Media Not Found\",\"error_user_msg\":\"The media with 18,131,517,844,665,621 cannot be found.\",\"fbtrace_id\":\"Aim1osRVYFfBakY6pfFuyup\"}}"
   },
   {
     "data": "2026-08-12T15:31:10.044Z",
