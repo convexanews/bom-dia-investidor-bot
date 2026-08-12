@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-12T19:01:00.353Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
+  },
+  {
     "data": "2026-08-12T18:43:42.468Z",
     "resultado": "story_noticia_postado",
     "mensagem": "Story publicado (peso 32): \"Governo avalia compensar bancos por operações de split payment\".",
@@ -1078,11 +1083,6 @@
   },
   {
     "data": "2026-08-09T19:38:35.982Z",
-    "resultado": "limite_diario",
-    "mensagem": "Limite de 1 posts diários atingido (1 já publicados hoje)."
-  },
-  {
-    "data": "2026-08-09T19:31:01.159Z",
     "resultado": "limite_diario",
     "mensagem": "Limite de 1 posts diários atingido (1 já publicados hoje)."
   }
