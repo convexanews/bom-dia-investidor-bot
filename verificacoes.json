@@ -1,5 +1,12 @@
 [
   {
+    "data": "2026-08-12T14:39:14.567Z",
+    "resultado": "story_noticia_postado",
+    "mensagem": "Story publicado (peso 68): \"Wall Street tenta firmar alta com inflação ‘sem surpresas’\".",
+    "postId": "17980663995062622",
+    "peso": 68
+  },
+  {
     "data": "2026-08-12T14:36:15.020Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
@@ -1074,10 +1081,5 @@
     "storyId": null,
     "reelId": "18020922923698362",
     "tipo": "reel"
-  },
-  {
-    "data": "2026-08-09T15:01:04.863Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 62): \"Inflação, ata do Copom e CPI dos EUA estão no radar dos mercados nesta semana; confira agenda\". Realizando postagem..."
   }
 ]
