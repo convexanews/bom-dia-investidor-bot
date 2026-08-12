@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-12T11:01:11.876Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 62 min."
+  },
+  {
     "data": "2026-08-12T10:33:02.281Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (carrossel): \"CPI dos EUA e balanço do BB dominam as atenções do mercado; Ibovespa em dólar sobe hoje (12)\".",
@@ -1069,11 +1074,6 @@
   },
   {
     "data": "2026-08-09T11:31:09.734Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
-  },
-  {
-    "data": "2026-08-09T11:01:02.251Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
   }
