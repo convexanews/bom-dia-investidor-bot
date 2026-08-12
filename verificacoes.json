@@ -1,5 +1,17 @@
 [
   {
+    "data": "2026-08-12T23:31:02.097Z",
+    "resultado": "carrossel_reprovado_qualidade",
+    "mensagem": "Carrossel bloqueado (nota 70): ",
+    "nota": 70,
+    "bloqueios": []
+  },
+  {
+    "data": "2026-08-12T23:30:57.252Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 80): \"Cerebras divulga prejuízo e ações da fabricante de chips para IA tombam no after hours em NY\". Realizando postagem..."
+  },
+  {
     "data": "2026-08-12T23:19:23.049Z",
     "resultado": "erro_story_noticia",
     "mensagem": "Erro ao publicar Story: {\"error\":{\"message\":\"The requested resource does not exist\",\"type\":\"OAuthException\",\"code\":24,\"error_subcode\":2207006,\"is_transient\":false,\"error_user_title\":\"Media Not Found\",\"error_user_msg\":\"The media with 18,131,585,614,665,621 cannot be found.\",\"fbtrace_id\":\"Aal-Zn3bKdImoulqGssvZ-U\"}}"
@@ -1087,15 +1099,5 @@
     "data": "2026-08-10T02:30:58.520Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (23:30 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-08-10T02:11:18.558Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (23:11 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-08-10T02:01:06.105Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (23:01 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
