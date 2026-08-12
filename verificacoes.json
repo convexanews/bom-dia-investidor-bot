@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-12T15:01:59.009Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
+  },
+  {
     "data": "2026-08-12T14:39:14.567Z",
     "resultado": "story_noticia_postado",
     "mensagem": "Story publicado (peso 68): \"Wall Street tenta firmar alta com inflação ‘sem surpresas’\".",
@@ -1072,14 +1077,5 @@
     "data": "2026-08-09T15:31:01.718Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 3h entre posts. Faltam 152 min."
-  },
-  {
-    "data": "2026-08-09T15:02:45.229Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"Inflação, ata do Copom e CPI dos EUA estão no radar dos mercados nesta semana; confira agenda\".",
-    "postId": "18020922923698362",
-    "storyId": null,
-    "reelId": "18020922923698362",
-    "tipo": "reel"
   }
 ]
