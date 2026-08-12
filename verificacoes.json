@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-12T03:01:01.037Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (00:01 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-08-12T02:31:12.978Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (23:31 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1053,10 +1058,5 @@
     "data": "2026-08-09T02:01:10.766Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (23:01 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-08-09T01:31:06.516Z",
-    "resultado": "limite_diario",
-    "mensagem": "Limite de 1 posts diários atingido (1 já publicados hoje)."
   }
 ]
