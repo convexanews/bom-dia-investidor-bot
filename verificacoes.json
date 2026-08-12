@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-12T11:30:54.832Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 33 min."
+  },
+  {
     "data": "2026-08-12T11:25:13.240Z",
     "resultado": "story_noticia_postado",
     "mensagem": "Story publicado (peso 68): \"Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta quarta\".",
@@ -1072,11 +1077,5 @@
     "data": "2026-08-09T12:01:09.378Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
-  },
-  {
-    "data": "2026-08-09T11:36:45.319Z",
-    "resultado": "story_glossario",
-    "mensagem": "Story do glossário publicado: \"Come-cotas\"",
-    "postId": "18115227707486849"
   }
 ]
