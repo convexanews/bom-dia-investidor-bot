@@ -1,8 +1,10 @@
 [
   {
-    "data": "2026-08-12T18:42:47.733Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
+    "data": "2026-08-12T18:43:42.468Z",
+    "resultado": "story_noticia_postado",
+    "mensagem": "Story publicado (peso 32): \"Governo avalia compensar bancos por operações de split payment\".",
+    "postId": "18124690852748793",
+    "peso": 32
   },
   {
     "data": "2026-08-12T18:30:56.271Z",
