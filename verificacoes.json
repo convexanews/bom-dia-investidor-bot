@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-08-13T09:52:04.624Z",
+    "resultado": "carrossel_reprovado_qualidade",
+    "mensagem": "Carrossel bloqueado (nota 90): contexto insuficiente para sustentar a narrativa",
+    "nota": 90,
+    "bloqueios": [
+      "contexto insuficiente para sustentar a narrativa"
+    ]
+  },
+  {
+    "data": "2026-08-13T09:52:00.825Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 83): \"Inflação ao produtor nos EUA, varejo no Brasil e mais destaques desta quinta-feira\". Realizando postagem..."
+  },
+  {
     "data": "2026-08-13T09:31:37.986Z",
     "resultado": "carrossel_reprovado_qualidade",
     "mensagem": "Carrossel bloqueado (nota 90): contexto insuficiente para sustentar a narrativa",
@@ -1094,15 +1108,5 @@
     "data": "2026-08-10T13:21:09.185Z",
     "resultado": "limite_diario",
     "mensagem": "Limite de 1 posts diários atingido (1 já publicados hoje)."
-  },
-  {
-    "data": "2026-08-10T13:01:00.476Z",
-    "resultado": "limite_diario",
-    "mensagem": "Limite de 1 posts diários atingido (1 já publicados hoje)."
-  },
-  {
-    "data": "2026-08-10T12:31:25.243Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 3h entre posts. Faltam 2 min."
   }
 ]
