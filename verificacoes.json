@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-13T16:31:33.221Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
+  },
+  {
     "data": "2026-08-13T16:01:12.022Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
@@ -1111,10 +1116,5 @@
     "mensagem": "Story publicado (peso 55): \"Dólar interrompe sequência de perdas e sobe a R$ 5,11 à espera de IPCA e ata do Copom\".",
     "postId": "18076061543371434",
     "peso": 55
-  },
-  {
-    "data": "2026-08-10T20:08:47.288Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
   }
 ]
