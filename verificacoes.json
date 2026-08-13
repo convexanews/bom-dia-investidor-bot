@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-13T07:02:20.320Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (04:02 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-08-13T06:31:01.402Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (03:31 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1092,14 +1097,5 @@
     "data": "2026-08-10T10:00:59.018Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 3h entre posts. Faltam 153 min."
-  },
-  {
-    "data": "2026-08-10T09:33:00.056Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"Focus, balanço da Embraer, negociações sobre Ormuz e mais destaques desta segunda\".",
-    "postId": "18042864992810072",
-    "storyId": null,
-    "reelId": "18042864992810072",
-    "tipo": "reel"
   }
 ]
