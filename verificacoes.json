@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-08-13T09:01:21.745Z",
+    "resultado": "carrossel_reprovado_qualidade",
+    "mensagem": "Carrossel bloqueado (nota 90): contexto insuficiente para sustentar a narrativa",
+    "nota": 90,
+    "bloqueios": [
+      "contexto insuficiente para sustentar a narrativa"
+    ]
+  },
+  {
+    "data": "2026-08-13T09:01:18.127Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 83): \"Inflação ao produtor nos EUA, varejo no Brasil e mais destaques desta quinta-feira\". Realizando postagem..."
+  },
+  {
     "data": "2026-08-13T08:31:49.931Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (05:31 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1087,15 +1101,5 @@
     "resultado": "story_glossario",
     "mensagem": "Story do glossário publicado: \"FGC\"",
     "postId": "18075406481398526"
-  },
-  {
-    "data": "2026-08-10T11:31:12.950Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 3h entre posts. Faltam 62 min."
-  },
-  {
-    "data": "2026-08-10T11:01:06.720Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 3h entre posts. Faltam 92 min."
   }
 ]
