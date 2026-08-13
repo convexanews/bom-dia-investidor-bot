@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-13T17:31:07.212Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
+  },
+  {
     "data": "2026-08-13T17:28:49.938Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
@@ -1109,10 +1114,5 @@
     "mensagem": "Story publicado (peso 52): \"Ibovespa cai pela 5ª vez seguida com tensão no Oriente Médio; Petrobras (PETR4) limita perdas\".",
     "postId": "18104273870164464",
     "peso": 52
-  },
-  {
-    "data": "2026-08-10T21:01:05.640Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
   }
 ]
