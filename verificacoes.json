@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-13T15:01:46.653Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 32 min."
+  },
+  {
     "data": "2026-08-13T14:39:09.763Z",
     "resultado": "erro_story_noticia",
     "mensagem": "Command failed: git push"
@@ -1109,12 +1114,5 @@
     "data": "2026-08-10T19:01:05.825Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
-  },
-  {
-    "data": "2026-08-10T18:39:21.820Z",
-    "resultado": "story_noticia_postado",
-    "mensagem": "Story publicado (peso 54): \"Ouro tem leve recuperação e fecha em alta com apostas sobre juros nos EUA\".",
-    "postId": "18365895343208481",
-    "peso": 54
   }
 ]
