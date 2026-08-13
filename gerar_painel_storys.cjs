@@ -3,12 +3,12 @@
 // o usuário abre o painel, baixa a imagem e posta direto no Instagram Stories.
 const fs = require('fs');
 const path = require('path');
-const puppeteer = require('puppeteer');
 const TEMPLATES = require('./storys-templates.cjs');
+const { renderizarTemplate } = require('./renderizar_template.cjs');
 
 const OUT_DIR = path.join(__dirname, 'painel', 'storys-imgs');
 
-async function gerarImagem(browser, enquete, data, saida) {
+async function gerarImagem(enquete, data, saida) {
   let html = fs.readFileSync(path.join(__dirname, 'card-story-enquete.html'), 'utf8');
   const subs = {
     '{{ICONE}}': enquete.icone,
@@ -21,30 +21,17 @@ async function gerarImagem(browser, enquete, data, saida) {
   };
   for (const [k, v] of Object.entries(subs)) html = html.replaceAll(k, v);
 
-  const tmpHtml = path.join(__dirname, `_tmp_painel_${enquete.slug}.html`);
-  fs.writeFileSync(tmpHtml, html, 'utf8');
-
-  const page = await browser.newPage();
-  await page.setViewport({ width: 1080, height: 1920 });
-  await page.goto('file:///' + tmpHtml.replace(/\\/g, '/'), { waitUntil: 'networkidle0', timeout: 30000 }).catch(() => {});
-  await new Promise(r => setTimeout(r, 500));
-  await page.screenshot({ path: saida, clip: { x: 0, y: 0, width: 1080, height: 1920 } });
-  await page.close();
-  fs.unlinkSync(tmpHtml);
+  return renderizarTemplate({ html, saida, largura: 1080, altura: 1920, nome: `painel_${enquete.slug}` });
 }
 
 async function main() {
   if (!fs.existsSync(OUT_DIR)) fs.mkdirSync(OUT_DIR, { recursive: true });
   const data = ''; // banco evergreen — sem data fixa, vale o ano todo
-  const browser = await puppeteer.launch({ args: ['--no-sandbox', '--disable-setuid-sandbox'] });
-
   for (const tpl of TEMPLATES) {
     const saida = path.join(OUT_DIR, `${tpl.slug}.png`);
     console.log('Gerando:', tpl.slug);
-    await gerarImagem(browser, tpl, data, saida);
+    await gerarImagem(tpl, data, saida);
   }
-
-  await browser.close();
 
   // Injeta a lista direto no index.html (entre os marcadores) — funciona
   // mesmo abrindo o painel via duplo-clique (file://), sem precisar de fetch.

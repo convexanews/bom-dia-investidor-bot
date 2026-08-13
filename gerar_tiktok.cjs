@@ -4,6 +4,7 @@ const fs = require('fs');
 const os = require('os');
 const path = require('path');
 const { execSync, execFileSync } = require('child_process');
+const { renderizarTemplate } = require('./renderizar_template.cjs');
 const { montarRoteiroReel, montarCenasReel, quebrarLegendas } = require('./formato_editorial.cjs');
 
 function escapeHtml(str) {
@@ -39,7 +40,6 @@ function getLogoB64() {
 async function gerarFrame(cfg, cena, numeroCena, totalCenas, saida) {
   // Carregado somente na renderização: mantém as regras de narrativa testáveis
   // mesmo em ambientes locais que não instalaram as dependências de imagem.
-  const puppeteer = require('puppeteer');
   let template = fs.readFileSync(path.join(__dirname, 'tiktok-video.html'), 'utf8');
 
   template = template
@@ -55,21 +55,7 @@ async function gerarFrame(cfg, cena, numeroCena, totalCenas, saida) {
     .replace('{{FONTE}}', escapeHtml(cfg.fonte || ''))
     .replace('{{IMAGEM_URL}}', cfg.imagem || '');
 
-  const tmpHtml = path.join(__dirname, '_tmp_tiktok_frame.html');
-  fs.writeFileSync(tmpHtml, template, 'utf8');
-
-  if (!fs.existsSync(path.dirname(saida))) fs.mkdirSync(path.dirname(saida), { recursive: true });
-
-  const browser = await puppeteer.launch({ args: ['--no-sandbox', '--disable-setuid-sandbox'] });
-  const page = await browser.newPage();
-  await page.setViewport({ width: 1080, height: 1920 });
-  await page.goto('file:///' + tmpHtml.replace(/\\/g, '/'), { waitUntil: 'networkidle0', timeout: 30000 }).catch(() => {});
-  await new Promise(r => setTimeout(r, 1000));
-  await page.screenshot({ path: saida, clip: { x: 0, y: 0, width: 1080, height: 1920 } });
-  await browser.close();
-  fs.unlinkSync(tmpHtml);
-
-  return saida;
+  return renderizarTemplate({ html: template, saida, largura: 1080, altura: 1920, nome: `tiktok_frame_${numeroCena}` });
 }
 
 function gerarSRT(blocos, duracaoTotal, srtPath) {

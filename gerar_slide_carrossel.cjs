@@ -1,8 +1,8 @@
 // Gera slides internos do carrossel de notícia (1080x1350, visual branco/dourado).
 // Slide comum: kicker + texto grande. Slide final: CTA "Siga @bomdia_investidor".
-const puppeteer = require('puppeteer');
 const path = require('path');
 const fs = require('fs');
+const { renderizarTemplate } = require('./renderizar_template.cjs');
 
 function escapeHtml(str) {
   return String(str || '')
@@ -34,21 +34,7 @@ async function gerarSlide(cfg, saida) {
     .replace(/\{\{CONTADOR\}\}/g, escapeHtml(cfg.contador || ''))
     .replace(/\{\{RODAPE_DIREITA\}\}/g, escapeHtml(cfg.rodapeDireita || 'arraste →'));
 
-  const tmpHtml = path.join(__dirname, `_tmp_slide_carrossel_${Date.now()}.html`);
-  fs.writeFileSync(tmpHtml, template, 'utf8');
-
-  try { if (!fs.existsSync(path.dirname(saida))) fs.mkdirSync(path.dirname(saida), { recursive: true }); } catch {}
-
-  const browser = await puppeteer.launch({ args: ['--no-sandbox', '--disable-setuid-sandbox'] });
-  const page = await browser.newPage();
-  await page.setViewport({ width: 1080, height: 1350 });
-  await page.goto('file:///' + tmpHtml.replace(/\\/g, '/'), { waitUntil: 'networkidle0', timeout: 30000 }).catch(() => {});
-  await new Promise(r => setTimeout(r, 800));
-  await page.screenshot({ path: saida, clip: { x: 0, y: 0, width: 1080, height: 1350 } });
-  await browser.close();
-  fs.unlinkSync(tmpHtml);
-
-  return saida;
+  return renderizarTemplate({ html: template, saida, largura: 1080, altura: 1350, nome: 'slide_carrossel' });
 }
 
 // Divide o resumo em blocos de até ~230 caracteres respeitando frases

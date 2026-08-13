@@ -5,7 +5,7 @@
 const fs = require('fs');
 const path = require('path');
 const { execSync } = require('child_process');
-const puppeteer = require('puppeteer');
+const { renderizarTemplate } = require('./renderizar_template.cjs');
 const { buscarCotacoes } = require('./coletor_cotacoes.cjs');
 const { buscarTopAltasB3 } = require('./coletor_acoes_b3.cjs');
 const { podePublicarFeed, registrarPublicacao } = require('./controle_publicacao.cjs');
@@ -54,17 +54,7 @@ async function gerarCardPng(templateFile, substituicoes, saida, altura = 1350) {
   for (const [chave, valor] of Object.entries(substituicoes)) {
     html = html.replaceAll(chave, valor);
   }
-  const tmpHtml = path.join(__dirname, `_tmp_${templateFile}`);
-  fs.writeFileSync(tmpHtml, html, 'utf8');
-
-  const browser = await puppeteer.launch({ args: ['--no-sandbox', '--disable-setuid-sandbox'] });
-  const page = await browser.newPage();
-  await page.setViewport({ width: 1080, height: altura });
-  await page.goto('file:///' + tmpHtml.replace(/\\/g, '/'), { waitUntil: 'networkidle0', timeout: 30000 }).catch(() => {});
-  await new Promise(r => setTimeout(r, 1200));
-  await page.screenshot({ path: saida, clip: { x: 0, y: 0, width: 1080, height: altura } });
-  await browser.close();
-  fs.unlinkSync(tmpHtml);
+  return renderizarTemplate({ html, saida, largura: 1080, altura, nome: path.basename(templateFile, '.html') });
 }
 
 async function aguardarContainerPronto(id, tentativas = 30) {

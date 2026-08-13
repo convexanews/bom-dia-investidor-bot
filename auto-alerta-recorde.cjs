@@ -5,7 +5,7 @@
 const fs = require('fs');
 const path = require('path');
 const { execSync } = require('child_process');
-const puppeteer = require('puppeteer');
+const { renderizarTemplate } = require('./renderizar_template.cjs');
 
 const IG_API_BASE = 'https://graph.instagram.com/v23.0';
 const IG_TOKEN = process.env.IG_TOKEN;
@@ -45,7 +45,7 @@ function podePublicarAlerta() {
   inicioDia.setHours(0, 0, 0, 0);
   const publicadosHoje = relatorio.filter(p => p.origem !== 'manual' && new Date(p.data) >= inicioDia).length;
   const ultimo = relatorio.find(p => p.origem !== 'manual');
-  if (publicadosHoje >= 8) return { permitido: false, motivo: 'limite diário de posts atingido' };
+  if (publicadosHoje >= 2) return { permitido: false, motivo: 'limite diário de posts atingido' };
   if (ultimo && agora - new Date(ultimo.data).getTime() < duasHoras) return { permitido: false, motivo: 'intervalo mínimo de duas horas' };
   return { permitido: true };
 }
@@ -94,16 +94,7 @@ async function gerarImagem(cfg, saida) {
   };
   for (const [k, v] of Object.entries(subs)) html = html.split(k).join(v);
 
-  const tmpHtml = path.join(__dirname, `_tmp_alerta_${cfg.chave}.html`);
-  fs.writeFileSync(tmpHtml, html, 'utf8');
-  const browser = await puppeteer.launch({ args: ['--no-sandbox', '--disable-setuid-sandbox'] });
-  const page = await browser.newPage();
-  await page.setViewport({ width: 1080, height: 1350 });
-  await page.goto('file:///' + tmpHtml.replace(/\\/g, '/'), { waitUntil: 'networkidle0', timeout: 30000 }).catch(() => {});
-  await new Promise(r => setTimeout(r, 800));
-  await page.screenshot({ path: saida, clip: { x: 0, y: 0, width: 1080, height: 1350 } });
-  await browser.close();
-  fs.unlinkSync(tmpHtml);
+  return renderizarTemplate({ html, saida, largura: 1080, altura: 1350, nome: `alerta_${cfg.chave}` });
 }
 
 async function main() {

@@ -4,7 +4,7 @@
 const fs = require('fs');
 const path = require('path');
 const { execSync } = require('child_process');
-const puppeteer = require('puppeteer');
+const { renderizarTemplate } = require('./renderizar_template.cjs');
 const { podePublicarFeed, registrarPublicacao } = require('./controle_publicacao.cjs');
 
 const IG_API_BASE = 'https://graph.instagram.com/v23.0';
@@ -113,16 +113,7 @@ async function gerarImagem(dados, data, saida) {
   };
   for (const [k, v] of Object.entries(subs)) html = html.split(k).join(v);
 
-  const tmpHtml = path.join(__dirname, '_tmp_comparativo.html');
-  fs.writeFileSync(tmpHtml, html, 'utf8');
-  const browser = await puppeteer.launch({ args: ['--no-sandbox', '--disable-setuid-sandbox'] });
-  const page = await browser.newPage();
-  await page.setViewport({ width: 1080, height: 1350 });
-  await page.goto('file:///' + tmpHtml.replace(/\\/g, '/'), { waitUntil: 'networkidle0', timeout: 30000 }).catch(() => {});
-  await new Promise(r => setTimeout(r, 1000));
-  await page.screenshot({ path: saida, clip: { x: 0, y: 0, width: 1080, height: 1350 } });
-  await browser.close();
-  fs.unlinkSync(tmpHtml);
+  return renderizarTemplate({ html, saida, largura: 1080, altura: 1350, nome: 'comparativo' });
 }
 
 function montarLegenda(dados) {
