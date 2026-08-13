@@ -1,5 +1,15 @@
 [
   {
+    "data": "2026-08-13T21:31:02.035Z",
+    "resultado": "erro",
+    "mensagem": "Erro na execução automática: Render inválido: PNG vazio ou corrompido (/home/runner/work/bom-dia-investidor-bot/bom-dia-investidor-bot/pages-repo/bdi-cards/noticia-1786656660937-slide1.png)."
+  },
+  {
+    "data": "2026-08-13T21:30:56.720Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 82): \"Ibovespa perde carona em recorde de Wall Street e cai com Banco do Brasil (BBAS3); dólar sobe\". Realizando postagem..."
+  },
+  {
     "data": "2026-08-13T21:01:21.680Z",
     "resultado": "erro",
     "mensagem": "Erro na execução automática: Render inválido: PNG vazio ou corrompido (/tmp/bdi-tiktok-3ON0Nv/cena-1.png)."
@@ -1098,15 +1108,5 @@
     "data": "2026-08-11T04:01:05.977Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (01:01 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-08-11T03:31:08.694Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (00:31 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-08-11T03:01:16.055Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (00:01 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
