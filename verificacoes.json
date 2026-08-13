@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-13T10:01:53.813Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
+  },
+  {
     "data": "2026-08-13T09:53:06.595Z",
     "resultado": "story_noticia_postado",
     "mensagem": "Story publicado (peso 45): \"Brasil tem fluxo cambial positivo de US$ 652 milhões em agosto até dia 7, diz BC\".",
@@ -1099,11 +1104,6 @@
   },
   {
     "data": "2026-08-10T13:21:09.185Z",
-    "resultado": "limite_diario",
-    "mensagem": "Limite de 1 posts diários atingido (1 já publicados hoje)."
-  },
-  {
-    "data": "2026-08-10T13:01:00.476Z",
     "resultado": "limite_diario",
     "mensagem": "Limite de 1 posts diários atingido (1 já publicados hoje)."
   }
