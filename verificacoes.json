@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-08-13T14:03:18.130Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Wall Street avança após inflação melhor do que o esperado adiar apostas de alta nos juros pelo Fed\".",
+    "postId": "17965194723150941",
+    "storyId": null,
+    "reelId": "17965194723150941",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-08-13T14:01:02.414Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 94): \"Wall Street avança após inflação melhor do que o esperado adiar apostas de alta nos juros pelo Fed\". Realizando postagem..."
+  },
+  {
     "data": "2026-08-13T13:31:01.710Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
@@ -1100,18 +1114,6 @@
   },
   {
     "data": "2026-08-10T17:31:12.985Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
-  },
-  {
-    "data": "2026-08-10T17:30:18.949Z",
-    "resultado": "story_noticia_postado",
-    "mensagem": "Story publicado (peso 46): \"Embraer (EMBR3) lucra R$ 1,1 bilhão e ação dispara 7%; ‘Compraria para meu filho para daqui a 10 anos’, diz sócio da GT Capital\".",
-    "postId": "18100501381971025",
-    "peso": 46
-  },
-  {
-    "data": "2026-08-10T17:25:21.250Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
   }
