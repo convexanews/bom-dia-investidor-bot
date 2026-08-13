@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-13T06:01:23.259Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (03:01 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-08-13T05:30:54.508Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (02:30 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1096,10 +1101,5 @@
     "data": "2026-08-10T09:31:17.964Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 83): \"Focus, balanço da Embraer, negociações sobre Ormuz e mais destaques desta segunda\". Realizando postagem..."
-  },
-  {
-    "data": "2026-08-10T09:00:59.604Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
   }
 ]
