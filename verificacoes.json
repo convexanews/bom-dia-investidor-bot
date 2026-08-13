@@ -1,5 +1,15 @@
 [
   {
+    "data": "2026-08-13T19:31:23.943Z",
+    "resultado": "erro",
+    "mensagem": "Erro na execução automática: Render inválido: PNG vazio ou corrompido (/tmp/bdi-tiktok-2L1U7B/cena-1.png)."
+  },
+  {
+    "data": "2026-08-13T19:31:17.478Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 103): \"Em recorde: S&P 500 renova máxima intradia histórica com reprecificação dos juros nos EUA\". Realizando postagem..."
+  },
+  {
     "data": "2026-08-13T19:01:06.737Z",
     "resultado": "erro",
     "mensagem": "Erro na execução automática: Render inválido: PNG vazio ou corrompido (/tmp/bdi-tiktok-3YKbcU/cena-1.png)."
@@ -1098,16 +1108,6 @@
   },
   {
     "data": "2026-08-11T00:31:00.155Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
-  },
-  {
-    "data": "2026-08-11T00:01:26.571Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
-  },
-  {
-    "data": "2026-08-10T23:31:12.851Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
   }
