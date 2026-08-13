@@ -1,5 +1,15 @@
 [
   {
+    "data": "2026-08-13T19:01:06.737Z",
+    "resultado": "erro",
+    "mensagem": "Erro na execução automática: Render inválido: PNG vazio ou corrompido (/tmp/bdi-tiktok-3YKbcU/cena-1.png)."
+  },
+  {
+    "data": "2026-08-13T19:01:01.400Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 103): \"Em recorde: S&P 500 renova máxima intradia histórica com reprecificação dos juros nos EUA\". Realizando postagem..."
+  },
+  {
     "data": "2026-08-13T18:43:34.015Z",
     "resultado": "erro",
     "mensagem": "Erro na execução automática: Render inválido: PNG vazio ou corrompido (/tmp/bdi-tiktok-WVTgle/cena-1.png)."
@@ -1098,18 +1108,6 @@
   },
   {
     "data": "2026-08-10T23:31:12.851Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
-  },
-  {
-    "data": "2026-08-10T23:09:33.631Z",
-    "resultado": "story_noticia_postado",
-    "mensagem": "Story publicado (peso 53): \"Nasdaq e S&P 500 fecham em baixa com Ormuz sem acordo e queda da Intel\".",
-    "postId": "18124485682704921",
-    "peso": 53
-  },
-  {
-    "data": "2026-08-10T23:07:00.303Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
   }
