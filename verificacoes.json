@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-13T10:31:18.330Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
+  },
+  {
     "data": "2026-08-13T10:01:53.813Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
@@ -1099,11 +1104,6 @@
   },
   {
     "data": "2026-08-10T13:30:59.834Z",
-    "resultado": "limite_diario",
-    "mensagem": "Limite de 1 posts diários atingido (1 já publicados hoje)."
-  },
-  {
-    "data": "2026-08-10T13:21:09.185Z",
     "resultado": "limite_diario",
     "mensagem": "Limite de 1 posts diários atingido (1 já publicados hoje)."
   }
