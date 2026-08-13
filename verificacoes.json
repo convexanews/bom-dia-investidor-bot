@@ -1,5 +1,11 @@
 [
   {
+    "data": "2026-08-13T12:01:29.134Z",
+    "resultado": "pauta_reprovada",
+    "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
+    "titulo": "Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta quinta"
+  },
+  {
     "data": "2026-08-13T11:30:58.513Z",
     "resultado": "pauta_reprovada",
     "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
@@ -1106,10 +1112,5 @@
     "mensagem": "Story publicado (peso 52): \"Ibovespa Hoje Ao Vivo: Bolsa cai e se afasta dos 172 mil pontos\".",
     "postId": "17873901741628988",
     "peso": 52
-  },
-  {
-    "data": "2026-08-10T15:31:32.922Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
   }
 ]
