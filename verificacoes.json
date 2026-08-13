@@ -1,8 +1,10 @@
 [
   {
-    "data": "2026-08-13T12:37:54.819Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
+    "data": "2026-08-13T12:39:01.038Z",
+    "resultado": "story_noticia_postado",
+    "mensagem": "Story publicado (peso 65): \"Ibovespa cai com foco sobre inflação ao produtor nos EUA, Galípolo e balanços\".",
+    "postId": "17989663056034677",
+    "peso": 65
   },
   {
     "data": "2026-08-13T12:31:12.228Z",
