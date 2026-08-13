@@ -14,6 +14,7 @@ const { avaliarCarrossel, montarNarrativaImpacto } = require('./qualidade_carros
 const { validarPautaAutomatica } = require('./qualidade_editorial.cjs');
 const { buscarImagemArtigo, baixarImagemBase64 } = require('./imagem_noticia.cjs');
 const { PESO_MINIMO_FEED, selecionarFormatoFeed } = require('./formato_publicacao.cjs');
+const { validarNoticiaParaPublicacao } = require('./qualidade_publicacao.cjs');
 
 // Feed: só notícia de grande impacto, para não competir com Stories.
 const PESO_MINIMO_PUBLICACAO = PESO_MINIMO_FEED;
@@ -384,6 +385,13 @@ async function main() {
   if (!nova) {
     console.log('Nenhuma noticia nova na última 1h. Nada a postar.');
     registrarVerificacao('sem_noticia', 'Nenhuma notícia nova na última hora. Nada foi postado.');
+    return;
+  }
+
+  const qualidadeConteudo = validarNoticiaParaPublicacao(nova);
+  if (!qualidadeConteudo.aprovada) {
+    console.log(`Pulando notícia: ${qualidadeConteudo.motivo}.`);
+    registrarVerificacao('pauta_reprovada', `Notícia não publicada: ${qualidadeConteudo.motivo}.`, { titulo: nova.titulo });
     return;
   }
 
