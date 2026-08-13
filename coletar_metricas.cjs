@@ -13,20 +13,41 @@ function lerJson(arquivo, padrao) {
   try { return JSON.parse(fs.readFileSync(arquivo, 'utf8')); } catch { return padrao; }
 }
 
+function resumoDeInsights(itens) {
+    const registros = itens.map(item => item.insights || item);
+    const media = campo => {
+      const valores = registros.map(i => Number(i[campo])).filter(Number.isFinite);
+      return valores.length ? Math.round(valores.reduce((s, v) => s + v, 0) / valores.length) : null;
+    };
+    const alcance = media('reach');
+    const interacoes = media('total_interactions');
+    return {
+      posts: registros.length, alcanceMedio: alcance, salvamentosMedios: media('saved'),
+      compartilhamentosMedios: media('shares'), reproducoesMedias: media('plays'),
+      taxaInteracaoMedia: alcance && interacoes != null ? Number(((interacoes / alcance) * 100).toFixed(2)) : null,
+    };
+}
+
 function resumoPorFormato(registros) {
   const grupos = new Map();
   for (const registro of registros) {
     const chave = registro.tipo || 'sem_formato';
     if (!grupos.has(chave)) grupos.set(chave, []);
-    grupos.get(chave).push(registro.insights || {});
+    grupos.get(chave).push(registro);
   }
-  return Object.fromEntries([...grupos].map(([formato, itens]) => {
-    const media = campo => {
-      const valores = itens.map(i => Number(i[campo])).filter(Number.isFinite);
-      return valores.length ? Math.round(valores.reduce((s, v) => s + v, 0) / valores.length) : null;
-    };
-    return [formato, { posts: itens.length, alcanceMedio: media('reach'), salvamentosMedios: media('saved'), compartilhamentosMedios: media('shares'), reproducoesMedias: media('plays') }];
-  }));
+  return Object.fromEntries([...grupos].map(([formato, itens]) => [formato, resumoDeInsights(itens)]));
+}
+
+function resumoPorCampo(registros, campo) {
+  const grupos = new Map();
+  for (const registro of registros) {
+    const valores = Array.isArray(registro[campo]) ? registro[campo] : [registro[campo] || 'não informado'];
+    for (const valor of valores) {
+      if (!grupos.has(valor)) grupos.set(valor, []);
+      grupos.get(valor).push(registro);
+    }
+  }
+  return Object.fromEntries([...grupos].map(([chave, itens]) => [chave, resumoDeInsights(itens)]));
 }
 
 async function consultar(url) {
@@ -70,6 +91,7 @@ async function main() {
       atualizadas.push({
         postId: post.postId, dataColeta: new Date().toISOString(), dataPostagem: post.data,
         tipo: post.tipo, pilares: post.pilares || [], peso: post.peso, fonte: post.fonte, titulo: post.titulo,
+        horarioBRT: post.horarioBRT || null, cta: post.cta || null, decisaoFormato: post.decisaoFormato || null,
         insights,
       });
     } catch (erro) {
@@ -78,11 +100,17 @@ async function main() {
   }
 
   fs.writeFileSync(metricasPath, JSON.stringify(atualizadas, null, 2));
-  fs.writeFileSync(resumoPath, JSON.stringify({ atualizadoEm: new Date().toISOString(), porFormato: resumoPorFormato(atualizadas) }, null, 2));
+  fs.writeFileSync(resumoPath, JSON.stringify({
+    atualizadoEm: new Date().toISOString(),
+    porFormato: resumoPorFormato(atualizadas),
+    porPilar: resumoPorCampo(atualizadas, 'pilares'),
+    porHorarioBRT: resumoPorCampo(atualizadas, 'horarioBRT'),
+    porCTA: resumoPorCampo(atualizadas, 'cta'),
+  }, null, 2));
 }
 
 if (require.main === module) {
   main().catch(erro => { console.error(erro.message); process.exit(1); });
 }
 
-module.exports = { resumoPorFormato };
+module.exports = { resumoPorFormato, resumoPorCampo };

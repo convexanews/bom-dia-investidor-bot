@@ -15,6 +15,7 @@ const { validarPautaAutomatica } = require('./qualidade_editorial.cjs');
 const { buscarImagemArtigo, baixarImagemBase64 } = require('./imagem_noticia.cjs');
 const { PESO_MINIMO_FEED, selecionarFormatoFeed } = require('./formato_publicacao.cjs');
 const { validarNoticiaParaPublicacao } = require('./qualidade_publicacao.cjs');
+const { podePublicarFeed } = require('./controle_publicacao.cjs');
 
 // Feed: só notícia de grande impacto, para não competir com Stories.
 const PESO_MINIMO_PUBLICACAO = PESO_MINIMO_FEED;
@@ -149,6 +150,7 @@ function detectarSentimento(titulo, resumo = '') {
 
 function montarLegenda(cfg) {
   const cta = CTAS[Math.floor(Date.now() / 1000) % CTAS.length];
+  cfg.cta = cta;
   const contexto = CONTEXTOS[cfg.sentimento?.tipo || 'padrao'] || CONTEXTOS.padrao;
   const resumo = (cfg.resumo || '').replace(/\s+/g, ' ').trim().slice(0, 360);
   return `📌 ${cfg.manchete}\n\nO que aconteceu:\n${resumo}\n\n${contexto}\n\nFonte: ${cfg.fonte || 'não informada'}.\n\n${cta}\n\nConteúdo informativo; não é recomendação de investimento.\n\n${escolherHashtags(cfg.sentimento?.tipo)}`;
@@ -332,6 +334,13 @@ async function main() {
   }
 
   const noticias = await buscarNoticias();
+
+  const permissao = podePublicarFeed();
+  if (!permissao.permitido) {
+    console.log(`Feed suprimido: ${permissao.motivo}.`);
+    registrarVerificacao('feed_suprimido', `Feed não publicado: ${permissao.motivo}.`);
+    return;
+  }
 
   // Títulos já postados nos últimos 3 dias (para evitar duplicatas por assunto,
   // não só por link). Limitado a 3 dias porque manchetes recorrentes ("Dólar
@@ -619,6 +628,9 @@ async function main() {
     tipo: formato,
     peso: nova.peso || 0,
     pilares: nova.pilares || [],
+    horarioBRT: new Intl.DateTimeFormat('en-CA', { timeZone: 'America/Sao_Paulo', hour: '2-digit', hourCycle: 'h23' }).format(new Date()),
+    cta: cfg.cta || null,
+    decisaoFormato: `peso ${nova.peso || 0}: ${formato}`,
   });
   salvarJson(RELATORIO_FILE, relatorio.slice(0, 200));
 

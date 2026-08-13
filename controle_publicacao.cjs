@@ -1,14 +1,20 @@
 // Regras compartilhadas para que formatos diferentes não concorram pelo mesmo alcance.
 const fs = require('fs');
 const path = require('path');
+const { avaliarDesempenhoRecente } = require('./qualidade_desempenho.cjs');
 
 const RELATORIO = path.join(__dirname, 'relatorio.json');
+const METRICAS = path.join(__dirname, 'metricas.json');
 const DUAS_HORAS = 2 * 60 * 60 * 1000;
 // Perfil em crescimento: prioriza consistência e qualidade, não volume.
 const LIMITE_DIARIO_PADRAO = 2;
 
 function lerRelatorio() {
   try { return JSON.parse(fs.readFileSync(RELATORIO, 'utf8')); } catch { return []; }
+}
+
+function lerMetricas() {
+  try { return JSON.parse(fs.readFileSync(METRICAS, 'utf8')); } catch { return []; }
 }
 
 function inicioDiaBRT(agora = new Date()) {
@@ -38,6 +44,8 @@ function podePublicarFeed({ limiteDiario = LIMITE_DIARIO_PADRAO, intervaloMs = D
   if (ultimo && agora.getTime() - new Date(ultimo.data).getTime() < intervaloMs) {
     return { permitido: false, motivo: 'intervalo global mínimo de duas horas' };
   }
+  const desempenho = avaliarDesempenhoRecente(lerMetricas());
+  if (!desempenho.aprovado) return { permitido: false, motivo: desempenho.motivo };
   return { permitido: true };
 }
 

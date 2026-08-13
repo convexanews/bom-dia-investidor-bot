@@ -2,9 +2,8 @@ name: Bom Dia Investidor - Story de Notícias
 
 on:
   schedule:
-    # A cada 1h30, das 06h às 21h em Brasília (UTC-3).
-    - cron: '0 0,9,12,15,18,21 * * *'
-    - cron: '30 10,13,16,19,22 * * *'
+    # Três janelas editoriais por dia (08h, 13h e 18h BRT), evitando fadiga.
+    - cron: '0 11,16,21 * * *'
   workflow_dispatch: {}
 
 permissions:
