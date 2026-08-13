@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-13T00:02:00.001Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
+  },
+  {
     "data": "2026-08-12T23:31:02.097Z",
     "resultado": "carrossel_reprovado_qualidade",
     "mensagem": "Carrossel bloqueado (nota 70): ",
@@ -1094,10 +1099,5 @@
     "data": "2026-08-10T03:01:06.756Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (00:01 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-08-10T02:30:58.520Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (23:30 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
