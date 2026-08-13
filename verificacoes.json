@@ -1,8 +1,10 @@
 [
   {
-    "data": "2026-08-13T00:48:41.899Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
+    "data": "2026-08-13T00:49:46.651Z",
+    "resultado": "story_noticia_postado",
+    "mensagem": "Story publicado (peso 37): \"Prejuízo da Americanas (AMER3) quase triplica no 2T26 para R$ 274 milhões\".",
+    "postId": "18366743695240856",
+    "peso": 37
   },
   {
     "data": "2026-08-13T00:31:15.061Z",
