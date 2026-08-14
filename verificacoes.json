@@ -1,5 +1,15 @@
 [
   {
+    "data": "2026-08-14T15:31:16.819Z",
+    "resultado": "erro",
+    "mensagem": "Erro na execução automática: Render inválido: PNG vazio ou corrompido (/home/runner/work/bom-dia-investidor-bot/bom-dia-investidor-bot/pages-repo/bdi-cards/noticia-1786721475792-slide1.png)."
+  },
+  {
+    "data": "2026-08-14T15:31:11.411Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 75): \"Selic mais baixa: Citi revisa projeção para 2026 e aposta em novas quedas de juros no próximo ano; confira\". Realizando postagem..."
+  },
+  {
     "data": "2026-08-14T15:17:55.975Z",
     "resultado": "erro",
     "mensagem": "Erro na execução automática: Render inválido: PNG vazio ou corrompido (/home/runner/work/bom-dia-investidor-bot/bom-dia-investidor-bot/pages-repo/bdi-cards/noticia-1786720674811-slide1.png)."
@@ -1076,17 +1086,5 @@
     "storyId": null,
     "reelId": "18119833246923540",
     "tipo": "reel"
-  },
-  {
-    "data": "2026-08-11T21:01:08.326Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 89): \"Ibovespa tomba 2,5% e atinge menor nível desde janeiro com piora da percepção de risco local; dólar sobe\". Realizando postagem..."
-  },
-  {
-    "data": "2026-08-11T20:31:25.969Z",
-    "resultado": "pauta_reprovada",
-    "mensagem": "Pauta não publicada: resumo sem contexto suficiente.",
-    "titulo": "Ibovespa derrete mais de 2%, ao pior nível desde janeiro; dólar dispara a R$ 5,16",
-    "tema": "dolar"
   }
 ]
