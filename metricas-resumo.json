@@ -1,26 +1,83 @@
 {
-  "atualizadoEm": "2026-08-13T12:05:47.555Z",
+  "atualizadoEm": "2026-08-14T12:04:45.495Z",
   "porFormato": {
-    "carrossel": {
-      "posts": 6,
-      "alcanceMedio": 17,
-      "salvamentosMedios": 0,
-      "compartilhamentosMedios": 0,
-      "reproducoesMedias": null
-    },
     "reel": {
       "posts": 16,
-      "alcanceMedio": 72,
+      "alcanceMedio": 78,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
-      "reproducoesMedias": null
+      "reproducoesMedias": null,
+      "taxaInteracaoMedia": 1.28
+    },
+    "carrossel": {
+      "posts": 6,
+      "alcanceMedio": 18,
+      "salvamentosMedios": 0,
+      "compartilhamentosMedios": 0,
+      "reproducoesMedias": null,
+      "taxaInteracaoMedia": 5.56
     },
     "card": {
       "posts": 3,
       "alcanceMedio": 19,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
-      "reproducoesMedias": null
+      "reproducoesMedias": null,
+      "taxaInteracaoMedia": 0
+    }
+  },
+  "porPilar": {
+    "macro": {
+      "posts": 21,
+      "alcanceMedio": 62,
+      "salvamentosMedios": 0,
+      "compartilhamentosMedios": 0,
+      "reproducoesMedias": null,
+      "taxaInteracaoMedia": 1.61
+    },
+    "bolsa": {
+      "posts": 24,
+      "alcanceMedio": 53,
+      "salvamentosMedios": 0,
+      "compartilhamentosMedios": 0,
+      "reproducoesMedias": null,
+      "taxaInteracaoMedia": 1.89
+    },
+    "exterior": {
+      "posts": 13,
+      "alcanceMedio": 52,
+      "salvamentosMedios": 0,
+      "compartilhamentosMedios": 0,
+      "reproducoesMedias": null,
+      "taxaInteracaoMedia": 1.92
+    },
+    "fiis": {
+      "posts": 1,
+      "alcanceMedio": 138,
+      "salvamentosMedios": 0,
+      "compartilhamentosMedios": 0,
+      "reproducoesMedias": null,
+      "taxaInteracaoMedia": 0
+    }
+  },
+  "porHorarioBRT": {
+    "não informado": {
+      "posts": 25,
+      "alcanceMedio": 56,
+      "salvamentosMedios": 0,
+      "compartilhamentosMedios": 0,
+      "reproducoesMedias": null,
+      "taxaInteracaoMedia": 1.79
+    }
+  },
+  "porCTA": {
+    "não informado": {
+      "posts": 25,
+      "alcanceMedio": 56,
+      "salvamentosMedios": 0,
+      "compartilhamentosMedios": 0,
+      "reproducoesMedias": null,
+      "taxaInteracaoMedia": 1.79
     }
   }
 }
