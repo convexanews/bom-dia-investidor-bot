@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-14T22:50:13.691Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
+  },
+  {
     "data": "2026-08-14T22:31:37.926Z",
     "resultado": "erro",
     "mensagem": "Erro na execução automática: Render inválido: PNG vazio ou corrompido (/home/runner/work/bom-dia-investidor-bot/bom-dia-investidor-bot/pages-repo/bdi-cards/noticia-1786746695186-slide1.png)."
@@ -1071,10 +1076,5 @@
     "data": "2026-08-12T09:30:59.958Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 83): \"Inflação nos EUA, serviços no Brasil, balanço do Banco do Brasil e mais destaques\". Realizando postagem..."
-  },
-  {
-    "data": "2026-08-12T09:01:11.444Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
   }
 ]
