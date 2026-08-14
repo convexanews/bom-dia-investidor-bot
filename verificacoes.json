@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-14T23:31:01.497Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
+  },
+  {
     "data": "2026-08-14T23:01:15.041Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
@@ -1067,14 +1072,5 @@
     "mensagem": "Story publicado (peso 40): \"Taesa (TAEE11) tem queda de 28,5% no lucro do 2º trimestre; empresa anuncia R$ 207 milhões em proventos\".",
     "postId": "18035278583831298",
     "peso": 40
-  },
-  {
-    "data": "2026-08-12T09:31:04.834Z",
-    "resultado": "carrossel_reprovado_qualidade",
-    "mensagem": "Carrossel bloqueado (nota 90): contexto insuficiente para sustentar a narrativa",
-    "nota": 90,
-    "bloqueios": [
-      "contexto insuficiente para sustentar a narrativa"
-    ]
   }
 ]
