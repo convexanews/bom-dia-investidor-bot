@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-14T11:35:54.479Z",
+    "resultado": "erro_story_noticia",
+    "mensagem": "Render inválido: PNG vazio ou corrompido (/home/runner/work/bom-dia-investidor-bot/bom-dia-investidor-bot/pages-repo/bdi-cards/story-noticia-1786707349532.png)."
+  },
+  {
     "data": "2026-08-14T11:31:23.259Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
@@ -1089,10 +1094,5 @@
     "mensagem": "Story publicado (peso 48): \"O que está por trás do tombo de 2% do Ibovespa?\".",
     "postId": "18133937932548883",
     "peso": 48
-  },
-  {
-    "data": "2026-08-11T17:28:12.990Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
   }
 ]
