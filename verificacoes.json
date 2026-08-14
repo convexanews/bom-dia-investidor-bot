@@ -1,5 +1,15 @@
 [
   {
+    "data": "2026-08-14T18:31:00.074Z",
+    "resultado": "erro",
+    "mensagem": "Erro na execução automática: Render inválido: PNG vazio ou corrompido (/home/runner/work/bom-dia-investidor-bot/bom-dia-investidor-bot/pages-repo/bdi-cards/noticia-1786732259003-slide1.png)."
+  },
+  {
+    "data": "2026-08-14T18:30:55.319Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 73): \"Dólar encosta em R$ 5,25 na quinta alta seguida; juros futuros disparam com ‘estresse’ doméstico\". Realizando postagem..."
+  },
+  {
     "data": "2026-08-14T18:16:55.921Z",
     "resultado": "erro",
     "mensagem": "Erro na execução automática: Render inválido: PNG vazio ou corrompido (/home/runner/work/bom-dia-investidor-bot/bom-dia-investidor-bot/pages-repo/bdi-cards/noticia-1786731413903-slide1.png)."
@@ -1066,17 +1076,5 @@
     "data": "2026-08-12T01:31:10.065Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
-  },
-  {
-    "data": "2026-08-12T01:01:15.492Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
-  },
-  {
-    "data": "2026-08-12T00:47:30.290Z",
-    "resultado": "story_noticia_postado",
-    "mensagem": "Story publicado (peso 32): \"MT planta segunda maior área de milho da história; SNFZ11 mantém propriedades no Estado\".",
-    "postId": "18079366730406088",
-    "peso": 32
   }
 ]
