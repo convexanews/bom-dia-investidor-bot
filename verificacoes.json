@@ -1,5 +1,15 @@
 [
   {
+    "data": "2026-08-14T18:16:01.979Z",
+    "resultado": "erro",
+    "mensagem": "Erro na execução automática: Render inválido: PNG vazio ou corrompido (/home/runner/work/bom-dia-investidor-bot/bom-dia-investidor-bot/pages-repo/bdi-cards/noticia-1786731360601-slide1.png)."
+  },
+  {
+    "data": "2026-08-14T18:15:56.430Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 73): \"Dólar encosta em R$ 5,25 na quinta alta seguida; juros futuros disparam com ‘estresse’ doméstico\". Realizando postagem..."
+  },
+  {
     "data": "2026-08-14T17:28:57.165Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
@@ -1068,17 +1078,5 @@
     "data": "2026-08-12T00:01:23.331Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
-  },
-  {
-    "data": "2026-08-11T23:31:09.444Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
-  },
-  {
-    "data": "2026-08-11T23:21:35.942Z",
-    "resultado": "story_noticia_postado",
-    "mensagem": "Story publicado (peso 54): \"Ibovespa despenca 2,50% e volta ao menor nível desde janeiro com saída de estrangeiros\".",
-    "postId": "18111703754076506",
-    "peso": 54
   }
 ]
