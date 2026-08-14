@@ -1,5 +1,15 @@
 [
   {
+    "data": "2026-08-14T15:40:11.235Z",
+    "resultado": "erro",
+    "mensagem": "Erro na execução automática: Render inválido: PNG vazio ou corrompido (/home/runner/work/bom-dia-investidor-bot/bom-dia-investidor-bot/pages-repo/bdi-cards/noticia-1786722007711-slide1.png)."
+  },
+  {
+    "data": "2026-08-14T15:40:02.534Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 75): \"Selic mais baixa: Citi revisa projeção para 2026 e aposta em novas quedas de juros no próximo ano; confira\". Realizando postagem..."
+  },
+  {
     "data": "2026-08-14T15:31:16.819Z",
     "resultado": "erro",
     "mensagem": "Erro na execução automática: Render inválido: PNG vazio ou corrompido (/home/runner/work/bom-dia-investidor-bot/bom-dia-investidor-bot/pages-repo/bdi-cards/noticia-1786721475792-slide1.png)."
@@ -1072,19 +1082,5 @@
     "mensagem": "Story publicado (peso 61): \"Nvidia (NVDA) pode surpreender de novo? Safra vê receita acima do consenso e IA ainda com fôlego\".",
     "postId": "17948336808036563",
     "peso": 61
-  },
-  {
-    "data": "2026-08-11T21:31:11.956Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 62 min."
-  },
-  {
-    "data": "2026-08-11T21:03:00.355Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"Ibovespa tomba 2,5% e atinge menor nível desde janeiro com piora da percepção de risco local; dólar sobe\".",
-    "postId": "18119833246923540",
-    "storyId": null,
-    "reelId": "18119833246923540",
-    "tipo": "reel"
   }
 ]
