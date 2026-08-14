@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-14T06:00:59.551Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (03:00 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-08-14T05:30:50.883Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (02:30 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1091,10 +1096,5 @@
     "mensagem": "Story publicado (peso 54): \"Shein se aproxima de estreia histórica na bolsa; veja quando será o IPO e quanto a empresa pode valer\".",
     "postId": "18080415878404051",
     "peso": 54
-  },
-  {
-    "data": "2026-08-11T12:31:21.689Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 32 min."
   }
 ]
