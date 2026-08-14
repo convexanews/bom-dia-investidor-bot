@@ -1,5 +1,11 @@
 [
   {
+    "data": "2026-08-14T10:01:16.128Z",
+    "resultado": "pauta_reprovada",
+    "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
+    "titulo": "Varejo nos EUA, PIB na Europa, desemprego no Brasil e mais destaques nesta sexta"
+  },
+  {
     "data": "2026-08-14T09:48:46.688Z",
     "resultado": "pauta_reprovada",
     "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
@@ -1090,12 +1096,5 @@
     "data": "2026-08-11T15:01:11.772Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
-  },
-  {
-    "data": "2026-08-11T14:46:05.360Z",
-    "resultado": "story_noticia_postado",
-    "mensagem": "Story publicado (peso 58): \"Wall Street opera sem direção única com alívio nos preços do petróleo\".",
-    "postId": "18099172595348769",
-    "peso": 58
   }
 ]
