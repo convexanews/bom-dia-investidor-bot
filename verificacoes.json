@@ -1,5 +1,11 @@
 [
   {
+    "data": "2026-08-14T09:31:14.157Z",
+    "resultado": "pauta_reprovada",
+    "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
+    "titulo": "Varejo nos EUA, PIB na Europa, desemprego no Brasil e mais destaques nesta sexta"
+  },
+  {
     "data": "2026-08-14T09:03:52.008Z",
     "resultado": "pauta_reprovada",
     "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
@@ -1090,10 +1096,5 @@
     "data": "2026-08-11T14:37:18.568Z",
     "resultado": "erro",
     "mensagem": "Erro na execução automática: Timeout esperando o container ficar pronto: 18131297098665621"
-  },
-  {
-    "data": "2026-08-11T14:31:48.639Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 81): \"IPCA abre espaço para cortes, mas Ata mostra que Copom ainda tem um obstáculo no caminho; entenda\". Realizando postagem..."
   }
 ]
