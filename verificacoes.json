@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-15T08:01:10.524Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (05:01 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-08-15T07:31:01.633Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (04:31 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1023,14 +1028,5 @@
     "data": "2026-08-13T09:31:33.059Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 83): \"Inflação ao produtor nos EUA, varejo no Brasil e mais destaques desta quinta-feira\". Realizando postagem..."
-  },
-  {
-    "data": "2026-08-13T09:01:21.745Z",
-    "resultado": "carrossel_reprovado_qualidade",
-    "mensagem": "Carrossel bloqueado (nota 90): contexto insuficiente para sustentar a narrativa",
-    "nota": 90,
-    "bloqueios": [
-      "contexto insuficiente para sustentar a narrativa"
-    ]
   }
 ]
