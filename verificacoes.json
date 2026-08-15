@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-15T21:31:03.859Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
+  },
+  {
     "data": "2026-08-15T21:19:45.559Z",
     "resultado": "sem_noticia_story",
     "mensagem": "Nenhuma notícia recente de menor impacto foi encontrada."
@@ -1005,10 +1010,5 @@
     "data": "2026-08-13T20:31:00.119Z",
     "resultado": "erro",
     "mensagem": "Erro na execução automática: Render inválido: PNG vazio ou corrompido (/tmp/bdi-tiktok-jY57Vj/cena-1.png)."
-  },
-  {
-    "data": "2026-08-13T20:30:54.779Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 93): \"Wall Street sobe com inflação ‘branda’ e alívio do petróleo; S&P 500 renova recorde\". Realizando postagem..."
   }
 ]
