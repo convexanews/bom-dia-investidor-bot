@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-15T15:31:06.576Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
+  },
+  {
     "data": "2026-08-15T15:08:16.547Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
@@ -1005,10 +1010,5 @@
     "mensagem": "Story publicado (peso 68): \"Ibovespa Hoje Ao Vivo: Bolsa cai com pressão de BBAS3, HAPV3 e VALE3\".",
     "postId": "18012273443939044",
     "peso": 68
-  },
-  {
-    "data": "2026-08-13T15:30:59.865Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 3 min."
   }
 ]
