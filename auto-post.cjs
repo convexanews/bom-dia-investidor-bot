@@ -19,7 +19,7 @@ const { podePublicarFeed } = require('./controle_publicacao.cjs');
 const {
   carregarJson, salvarJson, registrarVerificacao, fetchComRetry,
   validarTokenInstagram, aguardarContainerPronto, gerarAltText,
-  publicarFeed, publicarReel, publicarStory, criarItemCarrossel,
+  publicarFeed, publicarReel, publicarStory, publicarCarrossel, criarItemCarrossel,
   buscarCaptionsRecentes, clonePages, commitEPush, limparPages,
   pagesDir, PAGES_RAW_BASE, VERIFICACOES_FILE, RELATORIO_FILE,
 } = require('./utils.cjs');
