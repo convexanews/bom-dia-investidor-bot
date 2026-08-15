@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-15T01:30:57.375Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 72 min."
+  },
+  {
     "data": "2026-08-15T01:12:19.456Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (carrossel): \"Tesouro Direto fecha semana sob estresse, com taxas dos Prefixados e IPCA+ em alta\".",
@@ -1027,10 +1032,5 @@
     "data": "2026-08-13T03:31:03.316Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (00:31 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-08-13T03:01:32.389Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (00:01 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
