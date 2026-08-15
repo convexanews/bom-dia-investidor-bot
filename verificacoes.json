@@ -1,5 +1,15 @@
 [
   {
+    "data": "2026-08-15T00:58:55.907Z",
+    "resultado": "erro",
+    "mensagem": "Erro na execução automática: Render inválido: slide_carrossel ainda contém placeholders não preenchidos."
+  },
+  {
+    "data": "2026-08-15T00:58:42.377Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 81): \"Tesouro Direto fecha semana sob estresse, com taxas dos Prefixados e IPCA+ em alta\". Realizando postagem..."
+  },
+  {
     "data": "2026-08-15T00:58:08.667Z",
     "resultado": "erro",
     "mensagem": "Erro na execução automática: Render inválido: slide_carrossel ainda contém placeholders não preenchidos."
@@ -1026,15 +1036,5 @@
     "mensagem": "Carrossel bloqueado (nota 70): ",
     "nota": 70,
     "bloqueios": []
-  },
-  {
-    "data": "2026-08-12T23:01:09.444Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 80): \"Cerebras divulga prejuízo e ações da fabricante de chips para IA tombam no after hours em NY\". Realizando postagem..."
-  },
-  {
-    "data": "2026-08-12T22:31:38.828Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
   }
 ]
