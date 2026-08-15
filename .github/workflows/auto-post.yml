@@ -7,7 +7,16 @@ on:
     - cron: '30 10,13,16,19,22 * * *'
   repository_dispatch:
     types: [auto-post]
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      window_hours:
+        description: 'Janela de notícias em horas (padrão 1, use 24 para recuperar dias sem post)'
+        required: false
+        default: '1'
+      batch_count:
+        description: 'Quantos posts publicar neste disparo (padrão 1, max 4)'
+        required: false
+        default: '1'
 
 permissions:
   contents: write
@@ -46,7 +55,19 @@ jobs:
           IG_TOKEN: ${{ secrets.IG_TOKEN }}
           IG_ACCOUNT_ID: ${{ secrets.IG_ACCOUNT_ID }}
           PAGES_TOKEN: ${{ secrets.PAGES_TOKEN }}
-        run: node auto-post.cjs
+          FORCE_WINDOW_HOURS: ${{ github.event.inputs.window_hours || '1' }}
+        run: |
+          BATCH=${{ github.event.inputs.batch_count || '1' }}
+          for i in $(seq 1 $BATCH); do
+            echo "=== Post $i de $BATCH ==="
+            node auto-post.cjs
+            # Salva estado entre posts para que o dedup funcione
+            git config user.email "bot@bomdiainvestidor.com.br"
+            git config user.name "Bom Dia Investidor Bot"
+            git add noticias-postadas.json relatorio.json verificacoes.json tiktok-postadas.json 2>/dev/null || true
+            git diff --cached --quiet || git commit -m "Post $i de $BATCH"
+            [ "$i" -lt "$BATCH" ] && sleep 30
+          done
 
       - name: Salvar relatorio e historico de postagens
         if: always()

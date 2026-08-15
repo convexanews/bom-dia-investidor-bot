@@ -252,7 +252,9 @@ async function main() {
   }
 
   // Publica apenas notícia nova com impacto editorial forte, já ordenada por peso.
-  const UMA_HORA_MS = 60 * 60 * 1000;
+  // FORCE_WINDOW_HOURS: permite ampliar a janela via env (ex: 24) para recuperar dias sem post.
+  const JANELA_HORAS = parseInt(process.env.FORCE_WINDOW_HOURS, 10) || 1;
+  const JANELA_MS = JANELA_HORAS * 60 * 60 * 1000;
   const agora = Date.now();
   const candidatas = noticias.filter(n =>
     n.link &&
@@ -260,7 +262,7 @@ async function main() {
     !tituloJaPostado(n.titulo) &&
     n.publicadoEm > 0 &&
     (n.peso || 0) >= PESO_MINIMO_PUBLICACAO &&
-    (agora - n.publicadoEm) <= UMA_HORA_MS
+    (agora - n.publicadoEm) <= JANELA_MS
   );
 
   // Camada final de dedup: consulta o PRÓPRIO Instagram e descarta qualquer
