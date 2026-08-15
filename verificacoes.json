@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-15T13:01:30.453Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
+  },
+  {
     "data": "2026-08-15T12:31:04.337Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
@@ -1009,10 +1014,5 @@
     "data": "2026-08-13T14:01:02.414Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 94): \"Wall Street avança após inflação melhor do que o esperado adiar apostas de alta nos juros pelo Fed\". Realizando postagem..."
-  },
-  {
-    "data": "2026-08-13T13:31:01.710Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
   }
 ]
