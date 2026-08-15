@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-15T00:27:05.608Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
+  },
+  {
     "data": "2026-08-15T00:26:05.567Z",
     "resultado": "erro",
     "mensagem": "Erro na execução automática: Render inválido: PNG vazio ou corrompido (/tmp/bdi-tiktok-xnayKd/cena-1.png)."
@@ -1045,11 +1050,6 @@
   },
   {
     "data": "2026-08-12T15:31:10.044Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
-  },
-  {
-    "data": "2026-08-12T15:01:59.009Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
   }
