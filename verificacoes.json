@@ -1,5 +1,15 @@
 [
   {
+    "data": "2026-08-15T00:57:22.513Z",
+    "resultado": "erro",
+    "mensagem": "Erro na execução automática: Render inválido: slide_carrossel ainda contém placeholders não preenchidos."
+  },
+  {
+    "data": "2026-08-15T00:57:08.632Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 81): \"Tesouro Direto fecha semana sob estresse, com taxas dos Prefixados e IPCA+ em alta\". Realizando postagem..."
+  },
+  {
     "data": "2026-08-15T00:53:00.635Z",
     "resultado": "erro",
     "mensagem": "Erro na execução automática: Render inválido: PNG vazio ou corrompido (/home/runner/work/bom-dia-investidor-bot/bom-dia-investidor-bot/pages-repo/bdi-cards/noticia-1786755178460-feed.png)."
@@ -1026,17 +1036,5 @@
     "data": "2026-08-12T21:33:03.718Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 30 min."
-  },
-  {
-    "data": "2026-08-12T21:32:17.441Z",
-    "resultado": "story_noticia_postado",
-    "mensagem": "Story publicado (peso 58): \"No mercado de juros, DIs intermediários e longos sobem com risco fiscal-eleitoral\".",
-    "postId": "18032653274832968",
-    "peso": 58
-  },
-  {
-    "data": "2026-08-12T21:31:06.048Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 32 min."
   }
 ]
