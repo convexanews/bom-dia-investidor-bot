@@ -1,5 +1,15 @@
 [
   {
+    "data": "2026-08-15T00:44:41.155Z",
+    "resultado": "erro",
+    "mensagem": "Erro na execução automática: Render inválido: PNG vazio ou corrompido (/home/runner/work/bom-dia-investidor-bot/bom-dia-investidor-bot/pages-repo/bdi-cards/noticia-1786754680089-slide1.png)."
+  },
+  {
+    "data": "2026-08-15T00:44:35.699Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 81): \"Tesouro Direto fecha semana sob estresse, com taxas dos Prefixados e IPCA+ em alta\". Realizando postagem..."
+  },
+  {
     "data": "2026-08-15T00:44:03.150Z",
     "resultado": "erro",
     "mensagem": "Erro na execução automática: Render inválido: PNG vazio ou corrompido (/home/runner/work/bom-dia-investidor-bot/bom-dia-investidor-bot/pages-repo/bdi-cards/noticia-1786754642080-slide1.png)."
@@ -1032,17 +1042,5 @@
     "data": "2026-08-12T20:31:01.800Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 71): \"Wall Street fecha em tom misto com inflação em linha com o esperado e ações de IA\". Realizando postagem..."
-  },
-  {
-    "data": "2026-08-12T20:11:43.732Z",
-    "resultado": "story_noticia_postado",
-    "mensagem": "Story publicado (peso 55): \"Por que setor financeiro perdeu R$ 112 bi, um Banco do Brasil (BBAS3), em dias na Bolsa?\".",
-    "postId": "18126665815705417",
-    "peso": 55
-  },
-  {
-    "data": "2026-08-12T20:10:38.188Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
   }
 ]
