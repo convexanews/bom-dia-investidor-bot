@@ -1,5 +1,15 @@
 [
   {
+    "data": "2026-08-15T00:43:24.867Z",
+    "resultado": "erro",
+    "mensagem": "Erro na execução automática: Render inválido: PNG vazio ou corrompido (/home/runner/work/bom-dia-investidor-bot/bom-dia-investidor-bot/pages-repo/bdi-cards/noticia-1786754603762-slide1.png)."
+  },
+  {
+    "data": "2026-08-15T00:43:19.682Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 81): \"Tesouro Direto fecha semana sob estresse, com taxas dos Prefixados e IPCA+ em alta\". Realizando postagem..."
+  },
+  {
     "data": "2026-08-15T00:42:47.303Z",
     "resultado": "erro",
     "mensagem": "Erro na execução automática: Render inválido: PNG vazio ou corrompido (/home/runner/work/bom-dia-investidor-bot/bom-dia-investidor-bot/pages-repo/bdi-cards/noticia-1786754566114-slide1.png)."
@@ -1034,17 +1044,5 @@
     "data": "2026-08-12T19:30:55.996Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
-  },
-  {
-    "data": "2026-08-12T19:01:00.353Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
-  },
-  {
-    "data": "2026-08-12T18:43:42.468Z",
-    "resultado": "story_noticia_postado",
-    "mensagem": "Story publicado (peso 32): \"Governo avalia compensar bancos por operações de split payment\".",
-    "postId": "18124690852748793",
-    "peso": 32
   }
 ]
