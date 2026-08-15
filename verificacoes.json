@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-15T11:31:10.122Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
+  },
+  {
     "data": "2026-08-15T11:19:26.329Z",
     "resultado": "story_noticia_postado",
     "mensagem": "Story publicado (peso 35): \"Inflação, fluxo estrangeiro na bolsa e balanços do 2T26; veja destaques da semana\".",
@@ -1010,12 +1015,6 @@
   },
   {
     "data": "2026-08-13T12:31:12.228Z",
-    "resultado": "pauta_reprovada",
-    "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
-    "titulo": "Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta quinta"
-  },
-  {
-    "data": "2026-08-13T12:01:29.134Z",
     "resultado": "pauta_reprovada",
     "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
     "titulo": "Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta quinta"
