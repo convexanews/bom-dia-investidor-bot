@@ -8,13 +8,10 @@ const { execSync } = require('child_process');
 const { gerarCard } = require('./gerar_card_noticia.cjs');
 const { calcularPesoImpacto, titulosSimilares } = require('./coletor_noticias.cjs');
 const { podePublicarFeed, registrarPublicacao } = require('./controle_publicacao.cjs');
+const { carregarJson, salvarJson, registrarVerificacao, criarItemCarrossel, aguardarContainerPronto, RELATORIO_FILE, IG_API_BASE } = require('./utils.cjs');
 
-const IG_API_BASE = 'https://graph.instagram.com/v23.0';
 const IG_TOKEN = process.env.IG_TOKEN;
 const IG_ACCOUNT_ID = process.env.IG_ACCOUNT_ID;
-
-const RELATORIO_FILE = path.join(__dirname, 'relatorio.json');
-const VERIFICACOES_FILE = path.join(__dirname, 'verificacoes.json');
 const PAGES_DIR = path.join(__dirname, 'pages-repo');
 const PAGES_REPO = 'convexanews/convexanews.github.io';
 const PAGES_RAW_BASE = `https://raw.githubusercontent.com/${PAGES_REPO}/main/bdi-cards`;
@@ -22,32 +19,7 @@ const PAGES_RAW_BASE = `https://raw.githubusercontent.com/${PAGES_REPO}/main/bdi
 const SETE_DIAS_MS = 7 * 24 * 60 * 60 * 1000;
 const QTD_SLIDES = 7;
 
-function carregarJson(arquivo, padrao) {
-  try { return JSON.parse(fs.readFileSync(arquivo, 'utf8')); } catch { return padrao; }
-}
-
-function salvarJson(arquivo, dados) {
-  fs.writeFileSync(arquivo, JSON.stringify(dados, null, 2), 'utf8');
-}
-
-function registrarVerificacao(resultado, mensagem, extra = {}) {
-  const v = carregarJson(VERIFICACOES_FILE, []);
-  v.unshift({ data: new Date().toISOString(), resultado, mensagem, ...extra });
-  salvarJson(VERIFICACOES_FILE, v.slice(0, 200));
-}
-
 const { git } = require('./git-seguro.cjs');
-
-async function aguardarContainerPronto(id, tentativas = 30) {
-  for (let i = 0; i < tentativas; i++) {
-    const resp = await fetch(`${IG_API_BASE}/${id}?fields=status_code&access_token=${IG_TOKEN}`);
-    const data = await resp.json();
-    if (data.status_code === 'FINISHED') return;
-    if (data.status_code === 'ERROR') throw new Error('Container com erro: ' + JSON.stringify(data));
-    await new Promise(r => setTimeout(r, 4000));
-  }
-  throw new Error('Timeout aguardando container: ' + id);
-}
 
 function selecionarTopSemana(relatorio) {
   const agora = Date.now();
@@ -64,13 +36,6 @@ function selecionarTopSemana(relatorio) {
     if (selecionadas.length >= QTD_SLIDES) break;
   }
   return selecionadas;
-}
-
-async function criarItemCarrossel(imgUrl) {
-  const r = await fetch(`${IG_API_BASE}/${IG_ACCOUNT_ID}/media?image_url=${encodeURIComponent(imgUrl)}&is_carousel_item=true&access_token=${IG_TOKEN}`, { method: 'POST' });
-  const d = await r.json();
-  if (!d.id) throw new Error('Erro ao criar item do carrossel: ' + JSON.stringify(d));
-  return d.id;
 }
 
 function montarLegenda(selecionadas) {

@@ -1,6 +1,6 @@
 // Verifica noticias novas do mercado financeiro, gera os cards (feed + stories)
 // e publica automaticamente no Instagram "Bom Dia Investidor".
-// Roda via GitHub Actions (cron de 1h). Variaveis de ambiente necessarias:
+// Roda via GitHub Actions (cron de 1h30). Variaveis de ambiente necessarias:
 //   IG_TOKEN, IG_ACCOUNT_ID
 const fs = require('fs');
 const path = require('path');
@@ -16,32 +16,36 @@ const { buscarImagemArtigo, baixarImagemBase64 } = require('./imagem_noticia.cjs
 const { PESO_MINIMO_FEED, selecionarFormatoFeed } = require('./formato_publicacao.cjs');
 const { validarNoticiaParaPublicacao } = require('./qualidade_publicacao.cjs');
 const { podePublicarFeed } = require('./controle_publicacao.cjs');
+const {
+  carregarJson, salvarJson, registrarVerificacao, fetchComRetry,
+  validarTokenInstagram, aguardarContainerPronto, gerarAltText,
+  publicarFeed, publicarReel, publicarStory, criarItemCarrossel,
+  buscarCaptionsRecentes, clonePages, commitEPush, limparPages,
+  pagesDir, PAGES_RAW_BASE, VERIFICACOES_FILE, RELATORIO_FILE,
+} = require('./utils.cjs');
 
 // Feed: só notícia de grande impacto, para não competir com Stories.
 const PESO_MINIMO_PUBLICACAO = PESO_MINIMO_FEED;
 const TIKTOK_POSTADAS_FILE = path.join(__dirname, 'tiktok-postadas.json');
 
-const IG_API_BASE = 'https://graph.instagram.com/v23.0';
 const IG_TOKEN = process.env.IG_TOKEN;
 const IG_ACCOUNT_ID = process.env.IG_ACCOUNT_ID;
 
 const POSTADAS_FILE = path.join(__dirname, 'noticias-postadas.json');
-const RELATORIO_FILE = path.join(__dirname, 'relatorio.json');
-const VERIFICACOES_FILE = path.join(__dirname, 'verificacoes.json');
-const PAGES_DIR = path.join(__dirname, 'pages-repo');
-const PAGES_REPO = 'convexanews/convexanews.github.io';
-const PAGES_RAW_BASE = `https://raw.githubusercontent.com/${PAGES_REPO}/main/bdi-cards`;
 
-function carregarJson(arquivo, padrao) {
-  try {
-    if (fs.existsSync(arquivo)) return JSON.parse(fs.readFileSync(arquivo, 'utf8'));
-  } catch {}
-  return padrao;
-}
-
-function salvarJson(arquivo, dados) {
-  fs.writeFileSync(arquivo, JSON.stringify(dados, null, 2), 'utf8');
-}
+// CTAs contextuais por sentimento — o algoritmo do Instagram prioriza
+// compartilhamentos via DM (Adam Mosseri), seguido de salvamentos.
+const CTAS_POR_SENTIMENTO = {
+  positivo: '📤 Envie para quem está investindo e precisa ver isso.',
+  negativo: '📌 Salve para acompanhar os próximos dados.',
+  selic:    '📌 Salve para revisar quando o COPOM decidir.',
+  dolar:    '📤 Envie para quem tem ativos dolarizados.',
+  bitcoin:  '📤 Envie para quem tem cripto na carteira.',
+  fii:      '📌 Salve para comparar com seus FIIs.',
+  dividendo:'📤 Envie para quem vive de dividendos.',
+  exterior: '📤 Envie para quem acompanha o mercado global.',
+  padrao:   '💬 Isso muda sua leitura do cenário? Conte nos comentários.',
+};
 
 // Estratégia de hashtags em 3 camadas (misturar volumes melhora alcance):
 // 1. Gigantes (milhões de posts) — visibilidade ampla, rotacionam por dia
@@ -82,8 +86,7 @@ function escolherHashtags(tipoSentimento = 'padrao') {
   return [...assunto, gigante, nicho].join(' ');
 }
 
-// Compartilhamento via DM é o sinal mais forte do algoritmo (Adam Mosseri),
-// seguido de salvamentos — os CTAs priorizam essas duas ações.
+// CTAs genéricos (fallback quando o sentimento não tem CTA dedicado)
 const CTAS = [
   '📌 Salve para revisar este cenário depois.',
   '📤 Envie para quem acompanha esse mercado.',
@@ -149,11 +152,16 @@ function detectarSentimento(titulo, resumo = '') {
 }
 
 function montarLegenda(cfg) {
-  const cta = CTAS[Math.floor(Date.now() / 1000) % CTAS.length];
+  const tipo = cfg.sentimento?.tipo || 'padrao';
+  // CTA contextual: combina com o sentimento da notícia em vez de rotacionar mecanicamente
+  const cta = CTAS_POR_SENTIMENTO[tipo] || CTAS[Math.floor(Date.now() / 1000) % CTAS.length];
   cfg.cta = cta;
-  const contexto = CONTEXTOS[cfg.sentimento?.tipo || 'padrao'] || CONTEXTOS.padrao;
+  const contexto = CONTEXTOS[tipo] || CONTEXTOS.padrao;
   const resumo = (cfg.resumo || '').replace(/\s+/g, ' ').trim().slice(0, 360);
-  return `📌 ${cfg.manchete}\n\nO que aconteceu:\n${resumo}\n\n${contexto}\n\nFonte: ${cfg.fonte || 'não informada'}.\n\n${cta}\n\nConteúdo informativo; não é recomendação de investimento.\n\n${escolherHashtags(cfg.sentimento?.tipo)}`;
+  // Hook nas 2 primeiras linhas — são as únicas visíveis antes do "mais…"
+  // no feed do Instagram. Abrir com o dado impactante, não com emoji genérico.
+  const pergunta = PERGUNTAS[tipo] || PERGUNTAS.padrao;
+  return `${cfg.manchete}\n${pergunta}\n\n${resumo}\n\n${contexto}\n\nFonte: ${cfg.fonte || 'não informada'}.\n\n${cta}\n\nConteúdo informativo; não é recomendação de investimento.\n\n${escolherHashtags(tipo)}`;
 }
 
 function estaNoHorarioPico() {
@@ -161,132 +169,8 @@ function estaNoHorarioPico() {
   return hora >= 6 && hora <= 22;
 }
 
-// Evita uma sequência de falhas de publicação quando o segredo expira.
-// A validação é leve e, com token inválido, o workflow encerra sem tentar gerar
-// mídia ou chamar o endpoint de publicação.
-async function tokenInstagramValido() {
-  try {
-    const resp = await fetch(`${IG_API_BASE}/${IG_ACCOUNT_ID}?fields=id&access_token=${IG_TOKEN}`);
-    const data = await resp.json();
-    if (resp.ok && data.id) return true;
-    const erro = data?.error || {};
-    if (erro.code === 190) {
-      const verificacoes = carregarJson(VERIFICACOES_FILE, []);
-      const jaAlertado = verificacoes.some(v =>
-        v.resultado === 'token_invalido' &&
-        Date.now() - new Date(v.data).getTime() < 12 * 60 * 60 * 1000
-      );
-      if (!jaAlertado) {
-        registrarVerificacao('token_invalido', 'Publicação pausada: IG_TOKEN inválido ou expirado. Atualize o segredo no GitHub Actions.', { codigo: erro.code });
-      }
-      return false;
-    }
-    throw new Error(`Não foi possível validar o token: ${JSON.stringify(data)}`);
-  } catch (erro) {
-    registrarVerificacao('falha_validacao_token', `Publicação pausada por falha na validação do token: ${erro.message}`);
-    return false;
-  }
-}
-
-async function aguardarContainerPronto(containerId, tentativas = 15) {
-  for (let i = 0; i < tentativas; i++) {
-    const resp = await fetch(`${IG_API_BASE}/${containerId}?fields=status_code&access_token=${IG_TOKEN}`);
-    const data = await resp.json();
-    if (data.status_code === 'FINISHED') return true;
-    if (data.status_code === 'ERROR') throw new Error('Container com erro: ' + JSON.stringify(data));
-    await new Promise(r => setTimeout(r, 4000));
-  }
-  throw new Error('Timeout esperando o container ficar pronto: ' + containerId);
-}
-
-async function publicarFeed(imageUrl, legenda) {
-  const createUrl = `${IG_API_BASE}/${IG_ACCOUNT_ID}/media?image_url=${encodeURIComponent(imageUrl)}&caption=${encodeURIComponent(legenda)}&access_token=${IG_TOKEN}`;
-  const createResp = await fetch(createUrl, { method: 'POST' });
-  const createData = await createResp.json();
-  if (!createData.id) throw new Error('Erro ao criar container do feed: ' + JSON.stringify(createData));
-
-  await aguardarContainerPronto(createData.id);
-  const publishUrl = `${IG_API_BASE}/${IG_ACCOUNT_ID}/media_publish?creation_id=${createData.id}&access_token=${IG_TOKEN}`;
-  const publishResp = await fetch(publishUrl, { method: 'POST' });
-  const publishData = await publishResp.json();
-  if (!publishData.id) throw new Error('Erro ao publicar no feed: ' + JSON.stringify(publishData));
-  return publishData.id;
-}
-
-async function publicarReel(videoUrl, legenda) {
-  const createUrl = `${IG_API_BASE}/${IG_ACCOUNT_ID}/media?media_type=REELS&video_url=${encodeURIComponent(videoUrl)}&caption=${encodeURIComponent(legenda)}&access_token=${IG_TOKEN}`;
-  const createResp = await fetch(createUrl, { method: 'POST' });
-  const createData = await createResp.json();
-  if (!createData.id) throw new Error('Erro ao criar container do reel: ' + JSON.stringify(createData));
-
-  await aguardarContainerPronto(createData.id, 60);
-  const publishUrl = `${IG_API_BASE}/${IG_ACCOUNT_ID}/media_publish?creation_id=${createData.id}&access_token=${IG_TOKEN}`;
-  const publishResp = await fetch(publishUrl, { method: 'POST' });
-  const publishData = await publishResp.json();
-  if (!publishData.id) throw new Error('Erro ao publicar reel: ' + JSON.stringify(publishData));
-  return publishData.id;
-}
-
-// Consulta os últimos posts publicados no Instagram — é a fonte da verdade
-// DEFINITIVA contra duplicatas: mesmo que o registro local se perca (falha de
-// push, conflito de git, execução paralela), o que já está no perfil nunca é
-// postado de novo. A primeira linha da legenda é sempre a manchete.
-async function buscarCaptionsRecentes() {
-  try {
-    const resp = await fetch(`${IG_API_BASE}/${IG_ACCOUNT_ID}/media?fields=caption,timestamp&limit=25&access_token=${IG_TOKEN}`);
-    const data = await resp.json();
-    const DOIS_DIAS_MS = 48 * 60 * 60 * 1000;
-    return (data.data || [])
-      .filter(m => m.caption && (Date.now() - new Date(m.timestamp).getTime()) < DOIS_DIAS_MS)
-      .map(m => m.caption.split('\n')[0].trim())
-      .filter(Boolean);
-  } catch (e) {
-    console.log('Aviso: não foi possível consultar posts recentes do Instagram:', e.message);
-    return [];
-  }
-}
-
-async function publicarStory(imageUrl) {
-  const createUrl = `${IG_API_BASE}/${IG_ACCOUNT_ID}/media?image_url=${encodeURIComponent(imageUrl)}&media_type=STORIES&access_token=${IG_TOKEN}`;
-  const createResp = await fetch(createUrl, { method: 'POST' });
-  const createData = await createResp.json();
-  if (!createData.id) throw new Error('Erro ao criar container de stories: ' + JSON.stringify(createData));
-
-  await aguardarContainerPronto(createData.id);
-  const publishUrl = `${IG_API_BASE}/${IG_ACCOUNT_ID}/media_publish?creation_id=${createData.id}&access_token=${IG_TOKEN}`;
-  const publishResp = await fetch(publishUrl, { method: 'POST' });
-  const publishData = await publishResp.json();
-  if (!publishData.id) throw new Error('Erro ao publicar story: ' + JSON.stringify(publishData));
-  return publishData.id;
-}
-
-// O token NUNCA vai na linha de comando (vazaria em mensagem de erro e na
-// lista de processos). O GIT_ASKPASS entrega a senha via env quando o git
-// pede credencial — vale pro clone e pros pushes seguintes no PAGES_DIR.
-function criarAskpass() {
-  const askpass = path.join(require('os').tmpdir(), 'bdi-askpass.sh');
-  fs.writeFileSync(askpass, '#!/bin/sh\necho "$BDI_GIT_TOKEN"\n', { mode: 0o755 });
-  return askpass;
-}
-
-function git(cmd, cwd) {
-  const env = { ...process.env, GIT_TERMINAL_PROMPT: '0' };
-  if (process.env.PAGES_TOKEN) {
-    env.GIT_ASKPASS = criarAskpass();
-    env.BDI_GIT_TOKEN = process.env.PAGES_TOKEN;
-  }
-  execSync(cmd, { cwd, stdio: 'inherit', env });
-}
-
-function commitSeguro(mensagem, cwd) {
-  execFileSync('git', ['commit', '-m', mensagem], { cwd, stdio: 'inherit' });
-}
-
-function registrarVerificacao(resultado, mensagem, extra = {}) {
-  const verificacoes = carregarJson(VERIFICACOES_FILE, []);
-  verificacoes.unshift({ data: new Date().toISOString(), resultado, mensagem, ...extra });
-  salvarJson(VERIFICACOES_FILE, verificacoes.slice(0, 200));
-}
+// Funções de publicação, retry, validação de token, alt text e git
+// agora vêm centralizadas do utils.cjs — ver imports acima.
 
 async function main() {
   if (!IG_TOKEN || !IG_ACCOUNT_ID) {
@@ -296,7 +180,7 @@ async function main() {
   const postadas = new Set(carregarJson(POSTADAS_FILE, []));
   const relatorio = carregarJson(RELATORIO_FILE, []);
 
-  if (!await tokenInstagramValido()) return;
+  if (!await validarTokenInstagram()) return;
 
   if (!estaNoHorarioPico()) {
     const hora = new Date().toLocaleString('pt-BR', { timeZone: 'America/Sao_Paulo', hour: '2-digit', minute: '2-digit' });
@@ -313,7 +197,7 @@ async function main() {
     const tempoDesdeUltimo = Date.now() - new Date(ultimoPost.data).getTime();
     if (tempoDesdeUltimo < INTERVALO_MIN_MS) {
       const minRestantes = Math.ceil((INTERVALO_MIN_MS - tempoDesdeUltimo) / 60000);
-      console.log(`Último post há ${Math.floor(tempoDesdeUltimo / 60000)} min. Próximo em ${minRestantes} min (intervalo de 3h).`);
+      console.log(`Último post há ${Math.floor(tempoDesdeUltimo / 60000)} min. Próximo em ${minRestantes} min (intervalo de 1h30).`);
       registrarVerificacao('aguardando_intervalo', `Aguardando intervalo de 1h30 entre posts. Faltam ${minRestantes} min.`);
       return;
     }
@@ -446,11 +330,7 @@ async function main() {
   // Clona o repo do GitHub Pages para publicar as imagens dos cards
   const pagesToken = process.env.PAGES_TOKEN;
   if (!pagesToken) throw new Error('Defina PAGES_TOKEN (PAT com acesso de escrita ao repo do GitHub Pages).');
-  if (fs.existsSync(PAGES_DIR)) fs.rmSync(PAGES_DIR, { recursive: true, force: true });
-  git(`git clone --depth 1 https://x-access-token@github.com/${PAGES_REPO}.git "${PAGES_DIR}"`, __dirname);
-
-  const cardsDir = path.join(PAGES_DIR, 'bdi-cards');
-  if (!fs.existsSync(cardsDir)) fs.mkdirSync(cardsDir, { recursive: true });
+  const { dir: PAGES_DIR, cardsDir } = clonePages();
 
   const ts = Date.now();
   const legenda = montarLegenda(cfg);
@@ -481,12 +361,9 @@ async function main() {
     const legendaFile = `reel-${ts}-legenda.txt`;
     fs.writeFileSync(path.join(tiktokDir, legendaFile), legendaTikTok, 'utf8');
 
-    git('git config user.email "bot@bomdiainvestidor.com.br"', PAGES_DIR);
-    git('git config user.name "Bom Dia Investidor Bot"', PAGES_DIR);
-    git(`git add bdi-tiktok/${nomeVideo} bdi-tiktok/${legendaFile}`, PAGES_DIR);
-    commitSeguro(`Reel narrado: ${cfg.manchete.slice(0, 50)}`, PAGES_DIR);
-    git('git push', PAGES_DIR);
+    commitEPush(`Reel narrado: ${cfg.manchete.slice(0, 50)}`, [`bdi-tiktok/${nomeVideo}`, `bdi-tiktok/${legendaFile}`]);
 
+    const { PAGES_REPO } = require('./utils.cjs');
     videoUrl = `https://raw.githubusercontent.com/${PAGES_REPO}/main/bdi-tiktok/${nomeVideo}`;
     await new Promise(r => setTimeout(r, 20000));
 
@@ -548,37 +425,15 @@ async function main() {
     await gerarSlide({ final: true }, path.join(cardsDir, nomeFinal));
     nomes.push(nomeFinal);
 
-    git('git config user.email "bot@bomdiainvestidor.com.br"', PAGES_DIR);
-    git('git config user.name "Bom Dia Investidor Bot"', PAGES_DIR);
-    git(`git add ${nomes.map(n => `bdi-cards/${n}`).join(' ')}`, PAGES_DIR);
-    commitSeguro(`Carrossel: ${cfg.manchete.slice(0, 60)}`, PAGES_DIR);
-    git('git push', PAGES_DIR);
+    commitEPush(`Carrossel: ${cfg.manchete.slice(0, 60)}`, nomes.map(n => `bdi-cards/${n}`));
 
     await new Promise(r => setTimeout(r, 15000));
 
-    // Cria containers de cada slide
-    const criarItem = async (imgUrl) => {
-      const r = await fetch(`${IG_API_BASE}/${IG_ACCOUNT_ID}/media?image_url=${encodeURIComponent(imgUrl)}&is_carousel_item=true&access_token=${IG_TOKEN}`, { method: 'POST' });
-      const d = await r.json();
-      if (!d.id) throw new Error('Erro ao criar item do carrossel: ' + JSON.stringify(d));
-      return d.id;
-    };
-    const itens = [];
-    for (const nome of nomes) {
-      itens.push(await criarItem(`${PAGES_RAW_BASE}/${nome}`));
-    }
-
-    // Cria container do carrossel
-    const carouselResp = await fetch(`${IG_API_BASE}/${IG_ACCOUNT_ID}/media?media_type=CAROUSEL&children=${itens.join(',')}&caption=${encodeURIComponent(legenda)}&access_token=${IG_TOKEN}`, { method: 'POST' });
-    const carouselData = await carouselResp.json();
-    if (!carouselData.id) throw new Error('Erro ao criar carrossel: ' + JSON.stringify(carouselData));
-
-    await aguardarContainerPronto(carouselData.id);
-    const pubResp = await fetch(`${IG_API_BASE}/${IG_ACCOUNT_ID}/media_publish?creation_id=${carouselData.id}&access_token=${IG_TOKEN}`, { method: 'POST' });
-    const pubData = await pubResp.json();
-    if (!pubData.id) throw new Error('Erro ao publicar carrossel: ' + JSON.stringify(pubData));
-
-    postId = pubData.id;
+    // Publica carrossel com alt text para SEO e acessibilidade
+    const urls = nomes.map(n => `${PAGES_RAW_BASE}/${n}`);
+    const altText = gerarAltText({ tipo: 'carrossel', manchete: cfg.manchete, fonte: cfg.fonte });
+    const altTexts = nomes.map(() => altText);
+    postId = await publicarCarrossel(urls, legenda, { altTexts });
     imageUrl = `${PAGES_RAW_BASE}/${nomes[0]}`;
     console.log(`Carrossel de ${totalSlides} slides publicado no Instagram! ID:`, postId);
 
@@ -589,17 +444,14 @@ async function main() {
     await gerarCard(cfg, path.join(cardsDir, nomeFeed));
     await gerarCard({ ...cfg, formato: 'story' }, path.join(cardsDir, nomeStory));
 
-    git('git config user.email "bot@bomdiainvestidor.com.br"', PAGES_DIR);
-    git('git config user.name "Bom Dia Investidor Bot"', PAGES_DIR);
-    git(`git add bdi-cards/${nomeFeed} bdi-cards/${nomeStory}`, PAGES_DIR);
-    commitSeguro(`Card automatico: ${cfg.manchete.slice(0, 60)}`, PAGES_DIR);
-    git('git push', PAGES_DIR);
+    commitEPush(`Card automatico: ${cfg.manchete.slice(0, 60)}`, [`bdi-cards/${nomeFeed}`, `bdi-cards/${nomeStory}`]);
 
     imageUrl = `${PAGES_RAW_BASE}/${nomeFeed}`;
     storyImageUrl = `${PAGES_RAW_BASE}/${nomeStory}`;
     await new Promise(r => setTimeout(r, 15000));
 
-    postId = await publicarFeed(imageUrl, legenda);
+    const altText = gerarAltText({ tipo: 'notícia', manchete: cfg.manchete, fonte: cfg.fonte });
+    postId = await publicarFeed(imageUrl, legenda, { altText });
     console.log('Publicado no feed! ID:', postId);
 
     try {
@@ -636,7 +488,7 @@ async function main() {
 
   registrarVerificacao('postado', `Postagem realizada com sucesso (${formato}): "${cfg.manchete}".`, { postId, storyId, reelId, tipo: formato });
 
-  fs.rmSync(PAGES_DIR, { recursive: true, force: true });
+  limparPages();
 }
 
 main().catch(e => {

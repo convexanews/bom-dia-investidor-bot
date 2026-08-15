@@ -9,12 +9,10 @@ const { renderizarTemplate } = require('./renderizar_template.cjs');
 const { buscarCotacoes } = require('./coletor_cotacoes.cjs');
 const { buscarTopAltasB3 } = require('./coletor_acoes_b3.cjs');
 const { podePublicarFeed, registrarPublicacao } = require('./controle_publicacao.cjs');
+const { carregarJson, salvarJson, registrarVerificacao, publicarCarrossel } = require('./utils.cjs');
 
-const IG_API_BASE = 'https://graph.instagram.com/v23.0';
 const IG_TOKEN = process.env.IG_TOKEN;
 const IG_ACCOUNT_ID = process.env.IG_ACCOUNT_ID;
-
-const VERIFICACOES_FILE = path.join(__dirname, 'verificacoes.json');
 const PAGES_DIR = path.join(__dirname, 'pages-repo');
 const PAGES_REPO = 'convexanews/convexanews.github.io';
 const PAGES_RAW_BASE = `https://raw.githubusercontent.com/${PAGES_REPO}/main/bdi-cards`;
@@ -33,20 +31,6 @@ function corVariacao(num) {
     : { cor: '#dc2626', bg: '#fef2f2' };
 }
 
-function carregarJson(arquivo, padrao) {
-  try { return JSON.parse(fs.readFileSync(arquivo, 'utf8')); } catch { return padrao; }
-}
-
-function salvarJson(arquivo, dados) {
-  fs.writeFileSync(arquivo, JSON.stringify(dados, null, 2), 'utf8');
-}
-
-function registrarVerificacao(resultado, mensagem, extra = {}) {
-  const v = carregarJson(VERIFICACOES_FILE, []);
-  v.unshift({ data: new Date().toISOString(), resultado, mensagem, ...extra });
-  salvarJson(VERIFICACOES_FILE, v.slice(0, 200));
-}
-
 const { git } = require('./git-seguro.cjs');
 
 async function gerarCardPng(templateFile, substituicoes, saida, altura = 1350) {
@@ -55,52 +39,6 @@ async function gerarCardPng(templateFile, substituicoes, saida, altura = 1350) {
     html = html.replaceAll(chave, valor);
   }
   return renderizarTemplate({ html, saida, largura: 1080, altura, nome: path.basename(templateFile, '.html') });
-}
-
-async function aguardarContainerPronto(id, tentativas = 30) {
-  for (let i = 0; i < tentativas; i++) {
-    const resp = await fetch(`${IG_API_BASE}/${id}?fields=status_code&access_token=${IG_TOKEN}`);
-    const data = await resp.json();
-    if (data.status_code === 'FINISHED') return;
-    if (data.status_code === 'ERROR') throw new Error('Container com erro: ' + JSON.stringify(data));
-    await new Promise(r => setTimeout(r, 5000));
-  }
-  throw new Error('Timeout aguardando container: ' + id);
-}
-
-async function criarItemCarrossel(imageUrl) {
-  const resp = await fetch(
-    `${IG_API_BASE}/${IG_ACCOUNT_ID}/media?image_url=${encodeURIComponent(imageUrl)}&is_carousel_item=true&access_token=${IG_TOKEN}`,
-    { method: 'POST' }
-  );
-  const data = await resp.json();
-  if (!data.id) throw new Error('Erro ao criar item do carrossel: ' + JSON.stringify(data));
-  await aguardarContainerPronto(data.id);
-  return data.id;
-}
-
-async function publicarCarrossel(imageUrls, legenda) {
-  const childIds = [];
-  for (const url of imageUrls) {
-    childIds.push(await criarItemCarrossel(url));
-  }
-
-  const resp = await fetch(
-    `${IG_API_BASE}/${IG_ACCOUNT_ID}/media?media_type=CAROUSEL&children=${childIds.join(',')}&caption=${encodeURIComponent(legenda)}&access_token=${IG_TOKEN}`,
-    { method: 'POST' }
-  );
-  const data = await resp.json();
-  if (!data.id) throw new Error('Erro ao criar container do carrossel: ' + JSON.stringify(data));
-
-  await aguardarContainerPronto(data.id);
-
-  const pub = await fetch(
-    `${IG_API_BASE}/${IG_ACCOUNT_ID}/media_publish?creation_id=${data.id}&access_token=${IG_TOKEN}`,
-    { method: 'POST' }
-  );
-  const pubData = await pub.json();
-  if (!pubData.id) throw new Error('Erro ao publicar carrossel: ' + JSON.stringify(pubData));
-  return pubData.id;
 }
 
 const HASHTAGS = '#fechamentomercado #ibovespa #dolar #b3 #mercadofinanceiro';
@@ -151,9 +89,14 @@ async function main() {
   const altasFill = (altas.length >= 5 ? altas : [...altas, ...Array(5).fill({ ticker:'—', nome:'—', preco:'—', variacao:'—', variacaoNum:0 })]).slice(0, 5);
   const altasCores = altasFill.map(a => corVariacao(a.variacaoNum || 0));
 
+  // Timestamp BRT para o card
+  const agora = new Date(new Date().toLocaleString('en-US', { timeZone: 'America/Sao_Paulo' }));
+  const timestampBrt = `${String(agora.getDate()).padStart(2,'0')}/${['jan','fev','mar','abr','mai','jun','jul','ago','set','out','nov','dez'][agora.getMonth()]} às ${String(agora.getHours()).padStart(2,'0')}h BRT`;
+
   console.log('Gerando card de fechamento...');
   await gerarCardPng('card-fechamento.html', {
     '{{DATA_EXTENSO}}': data,
+    '{{TIMESTAMP_BRT}}': timestampBrt,
     '{{IBOV_VALOR}}':  ibov.valor  || '—',
     '{{IBOV_VAR}}':   ibov.variacao  || '—',
     '{{IBOV_COR}}':   ibovCor.cor,

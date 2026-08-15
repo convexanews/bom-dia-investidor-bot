@@ -5,12 +5,10 @@ const fs = require('fs');
 const path = require('path');
 const { execSync } = require('child_process');
 const { renderizarTemplate } = require('./renderizar_template.cjs');
+const { carregarJson, salvarJson, registrarVerificacao, publicarStory } = require('./utils.cjs');
 
-const IG_API_BASE = 'https://graph.instagram.com/v23.0';
 const IG_TOKEN = process.env.IG_TOKEN;
 const IG_ACCOUNT_ID = process.env.IG_ACCOUNT_ID;
-
-const VERIFICACOES_FILE = path.join(__dirname, 'verificacoes.json');
 const PAGES_DIR = path.join(__dirname, 'pages-repo');
 const PAGES_REPO = 'convexanews/convexanews.github.io';
 const PAGES_RAW_BASE = `https://raw.githubusercontent.com/${PAGES_REPO}/main/bdi-cards`;
@@ -45,20 +43,6 @@ const ENQUETES = Object.fromEntries(
   Object.entries(ROTACAO_SEMANAL).map(([dia, slug]) => [dia, TEMPLATES.find(t => t.slug === slug)])
 );
 
-function carregarJson(arquivo, padrao) {
-  try { return JSON.parse(fs.readFileSync(arquivo, 'utf8')); } catch { return padrao; }
-}
-
-function salvarJson(arquivo, dados) {
-  fs.writeFileSync(arquivo, JSON.stringify(dados, null, 2), 'utf8');
-}
-
-function registrarVerificacao(resultado, mensagem, extra = {}) {
-  const v = carregarJson(VERIFICACOES_FILE, []);
-  v.unshift({ data: new Date().toISOString(), resultado, mensagem, ...extra });
-  salvarJson(VERIFICACOES_FILE, v.slice(0, 200));
-}
-
 const { git } = require('./git-seguro.cjs');
 
 async function gerarStoryEnquete(enquete, data, saida) {
@@ -75,36 +59,6 @@ async function gerarStoryEnquete(enquete, data, saida) {
   for (const [k, v] of Object.entries(subs)) html = html.replaceAll(k, v);
 
   return renderizarTemplate({ html, saida, largura: 1080, altura: 1920, nome: 'story_enquete' });
-}
-
-async function aguardarContainerPronto(id, tentativas = 20) {
-  for (let i = 0; i < tentativas; i++) {
-    const resp = await fetch(`${IG_API_BASE}/${id}?fields=status_code&access_token=${IG_TOKEN}`);
-    const data = await resp.json();
-    if (data.status_code === 'FINISHED') return;
-    if (data.status_code === 'ERROR') throw new Error('Container com erro: ' + JSON.stringify(data));
-    await new Promise(r => setTimeout(r, 4000));
-  }
-  throw new Error('Timeout aguardando container: ' + id);
-}
-
-async function publicarStory(imageUrl) {
-  const resp = await fetch(
-    `${IG_API_BASE}/${IG_ACCOUNT_ID}/media?image_url=${encodeURIComponent(imageUrl)}&media_type=STORIES&access_token=${IG_TOKEN}`,
-    { method: 'POST' }
-  );
-  const data = await resp.json();
-  if (!data.id) throw new Error('Erro ao criar story: ' + JSON.stringify(data));
-
-  await aguardarContainerPronto(data.id);
-
-  const pub = await fetch(
-    `${IG_API_BASE}/${IG_ACCOUNT_ID}/media_publish?creation_id=${data.id}&access_token=${IG_TOKEN}`,
-    { method: 'POST' }
-  );
-  const pubData = await pub.json();
-  if (!pubData.id) throw new Error('Erro ao publicar story: ' + JSON.stringify(pubData));
-  return pubData.id;
 }
 
 async function main() {

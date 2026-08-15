@@ -5,31 +5,16 @@ const path = require('path');
 const { criarCapaRetencao } = require('./formato_editorial.cjs');
 const { git } = require('./git-seguro.cjs');
 const { buscarImagemArtigo, baixarImagemBase64 } = require('./imagem_noticia.cjs');
+const { carregarJson, salvarJson, registrarVerificacao, publicarStory, PAGES_REPO, PAGES_RAW_BASE, IG_API_BASE } = require('./utils.cjs');
 
-const IG_API_BASE = 'https://graph.instagram.com/v23.0';
 const IG_TOKEN = process.env.IG_TOKEN;
 const IG_ACCOUNT_ID = process.env.IG_ACCOUNT_ID;
-const PAGES_REPO = 'convexanews/convexanews.github.io';
-const PAGES_RAW_BASE = `https://raw.githubusercontent.com/${PAGES_REPO}/main/bdi-cards`;
 const PAGES_DIR = path.join(__dirname, 'pages-repo');
 const STORIES_FILE = path.join(__dirname, 'stories-postadas.json');
-const VERIFICACOES_FILE = path.join(__dirname, 'verificacoes.json');
 
 const PESO_MINIMO_STORY = 30;
 const PESO_MAXIMO_STORY = 69;
 const JANELA_NOTICIA_STORY_MS = 2 * 60 * 60 * 1000;
-
-function carregarJson(arquivo, padrao) {
-  try { return JSON.parse(fs.readFileSync(arquivo, 'utf8')); } catch { return padrao; }
-}
-function salvarJson(arquivo, dados) {
-  fs.writeFileSync(arquivo, JSON.stringify(dados, null, 2), 'utf8');
-}
-function registrarVerificacao(resultado, mensagem, extra = {}) {
-  const verificacoes = carregarJson(VERIFICACOES_FILE, []);
-  verificacoes.unshift({ data: new Date().toISOString(), resultado, mensagem, ...extra });
-  salvarJson(VERIFICACOES_FILE, verificacoes.slice(0, 200));
-}
 
 function selecionarNoticiaStory(noticias, linksPostados, agora = Date.now()) {
   return noticias.find(n =>
@@ -49,23 +34,6 @@ async function validarToken() {
   const erro = dados?.error || {};
   registrarVerificacao('token_invalido_story', `Story pausado: token inválido (${erro.code || 'sem código'}).`);
   return false;
-}
-
-async function publicarStory(imageUrl) {
-  const criar = await fetch(`${IG_API_BASE}/${IG_ACCOUNT_ID}/media?image_url=${encodeURIComponent(imageUrl)}&media_type=STORIES&access_token=${IG_TOKEN}`, { method: 'POST' });
-  const container = await criar.json();
-  if (!container.id) throw new Error(`Erro ao criar Story: ${JSON.stringify(container)}`);
-  for (let tentativa = 0; tentativa < 20; tentativa++) {
-    const status = await fetch(`${IG_API_BASE}/${container.id}?fields=status_code&access_token=${IG_TOKEN}`);
-    const dados = await status.json();
-    if (dados.status_code === 'FINISHED') break;
-    if (dados.status_code === 'ERROR') throw new Error(`Story com erro: ${JSON.stringify(dados)}`);
-    await new Promise(resolve => setTimeout(resolve, 4000));
-  }
-  const publicar = await fetch(`${IG_API_BASE}/${IG_ACCOUNT_ID}/media_publish?creation_id=${container.id}&access_token=${IG_TOKEN}`, { method: 'POST' });
-  const dados = await publicar.json();
-  if (!dados.id) throw new Error(`Erro ao publicar Story: ${JSON.stringify(dados)}`);
-  return dados.id;
 }
 
 async function main() {

@@ -5,9 +5,9 @@ const { avaliarDesempenhoRecente } = require('./qualidade_desempenho.cjs');
 
 const RELATORIO = path.join(__dirname, 'relatorio.json');
 const METRICAS = path.join(__dirname, 'metricas.json');
-const DUAS_HORAS = 2 * 60 * 60 * 1000;
-// Perfil em crescimento: prioriza consistência e qualidade, não volume.
-const LIMITE_DIARIO_PADRAO = 2;
+const DUAS_HORAS = 90 * 60 * 1000; // 1h30 — nome mantido por compatibilidade
+// Com intervalo de 1h30 e janela 06h–22h, cabem até 4 posts de feed/dia.
+const LIMITE_DIARIO_PADRAO = 4;
 
 function lerRelatorio() {
   try { return JSON.parse(fs.readFileSync(RELATORIO, 'utf8')); } catch { return []; }

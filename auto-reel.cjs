@@ -6,13 +6,10 @@ const path = require('path');
 const { execSync } = require('child_process');
 const { gerarReel } = require('./gerar_reel.cjs');
 const { podePublicarFeed, registrarPublicacao } = require('./controle_publicacao.cjs');
+const { carregarJson, salvarJson, registrarVerificacao, publicarReel, RELATORIO_FILE } = require('./utils.cjs');
 
-const IG_API_BASE = 'https://graph.instagram.com/v23.0';
 const IG_TOKEN = process.env.IG_TOKEN;
 const IG_ACCOUNT_ID = process.env.IG_ACCOUNT_ID;
-
-const RELATORIO_FILE = path.join(__dirname, 'relatorio.json');
-const VERIFICACOES_FILE = path.join(__dirname, 'verificacoes.json');
 const PAGES_DIR = path.join(__dirname, 'pages-repo');
 const PAGES_REPO = 'convexanews/convexanews.github.io';
 const PAGES_RAW_BASE = `https://raw.githubusercontent.com/${PAGES_REPO}/main/bdi-cards`;
@@ -20,49 +17,7 @@ const PAGES_RAW_BASE = `https://raw.githubusercontent.com/${PAGES_REPO}/main/bdi
 const UM_DIA_MS = 24 * 60 * 60 * 1000;
 const SEGUNDOS_POR_IMAGEM = 3;
 
-function carregarJson(arquivo, padrao) {
-  try {
-    if (fs.existsSync(arquivo)) return JSON.parse(fs.readFileSync(arquivo, 'utf8'));
-  } catch {}
-  return padrao;
-}
-
-function salvarJson(arquivo, dados) {
-  fs.writeFileSync(arquivo, JSON.stringify(dados, null, 2), 'utf8');
-}
-
-function registrarVerificacao(resultado, mensagem, extra = {}) {
-  const verificacoes = carregarJson(VERIFICACOES_FILE, []);
-  verificacoes.unshift({ data: new Date().toISOString(), resultado, mensagem, ...extra });
-  salvarJson(VERIFICACOES_FILE, verificacoes.slice(0, 200));
-}
-
 const { git } = require('./git-seguro.cjs');
-
-async function aguardarContainerPronto(containerId, tentativas = 60) {
-  for (let i = 0; i < tentativas; i++) {
-    const resp = await fetch(`${IG_API_BASE}/${containerId}?fields=status_code&access_token=${IG_TOKEN}`);
-    const data = await resp.json();
-    if (data.status_code === 'FINISHED') return true;
-    if (data.status_code === 'ERROR') throw new Error('Container com erro: ' + JSON.stringify(data));
-    await new Promise(r => setTimeout(r, 5000));
-  }
-  throw new Error('Timeout esperando o container do reel ficar pronto: ' + containerId);
-}
-
-async function publicarReel(videoUrl, legenda) {
-  const createUrl = `${IG_API_BASE}/${IG_ACCOUNT_ID}/media?media_type=REELS&video_url=${encodeURIComponent(videoUrl)}&caption=${encodeURIComponent(legenda)}&access_token=${IG_TOKEN}`;
-  const createResp = await fetch(createUrl, { method: 'POST' });
-  const createData = await createResp.json();
-  if (!createData.id) throw new Error('Erro ao criar container do reel: ' + JSON.stringify(createData));
-
-  await aguardarContainerPronto(createData.id);
-  const publishUrl = `${IG_API_BASE}/${IG_ACCOUNT_ID}/media_publish?creation_id=${createData.id}&access_token=${IG_TOKEN}`;
-  const publishResp = await fetch(publishUrl, { method: 'POST' });
-  const publishData = await publishResp.json();
-  if (!publishData.id) throw new Error('Erro ao publicar reel: ' + JSON.stringify(publishData));
-  return publishData.id;
-}
 
 function montarLegendaReel(noticias) {
   const titulos = noticias.map(n => `• ${n.titulo}`).join('\n');

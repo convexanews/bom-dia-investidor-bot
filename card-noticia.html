@@ -9,8 +9,9 @@
   .card { width: 1080px; height: 1350px; position: relative; overflow: hidden; background: #fff; }
 
   .foto { position: absolute; top: 0; left: 0; width: 100%; height: 740px; object-fit: cover; filter: saturate(1.05); }
-  .fallback-bg { position: absolute; top: 0; left: 0; width: 100%; height: 740px; background: #f3f4f6; }
-  .fallback-icon { position: absolute; top: 0; left: 0; width: 100%; height: 740px; display: flex; align-items: center; justify-content: center; font-size: 280px; opacity: 0.08; pointer-events: none; color: #0f172a; }
+  /* Background temático por sentimento — quando não há foto editorial */
+  .fallback-bg { position: absolute; top: 0; left: 0; width: 100%; height: 740px; background: {{FALLBACK_BG}}; }
+  .fallback-icon { position: absolute; top: 0; left: 0; width: 100%; height: 740px; display: flex; align-items: center; justify-content: center; font-size: 280px; opacity: 0.12; pointer-events: none; color: {{FALLBACK_ICON_COR}}; }
 
   .overlay {
     position: absolute; top: 0; left: 0; width: 100%; height: 740px;
@@ -58,9 +59,8 @@
     border-radius: 6px; letter-spacing: 2px; text-transform: uppercase;
   }
   .headline {
-    font-size: 62px; font-weight: 900; color: #0f172a;
+    font-size: {{MANCHETE_FONT_SIZE}}px; font-weight: 900; color: #0f172a;
     line-height: 1.10; letter-spacing: -1px;
-    /* A pauta é validada antes da geração; nunca esconda o fim da manchete. */
     overflow-wrap: anywhere;
   }
   .divider { height: 1px; background: #eef1f6; }
