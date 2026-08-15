@@ -255,6 +255,7 @@ async function main() {
   // FORCE_WINDOW_HOURS: permite ampliar a janela via env (ex: 24) para recuperar dias sem post.
   const JANELA_HORAS = parseInt(process.env.FORCE_WINDOW_HOURS, 10) || 1;
   const JANELA_MS = JANELA_HORAS * 60 * 60 * 1000;
+  console.log(`Janela de busca: ${JANELA_HORAS}h. Notícias disponíveis: ${noticias.length}. Peso mínimo: ${PESO_MINIMO_PUBLICACAO}.`);
   const agora = Date.now();
   const candidatas = noticias.filter(n =>
     n.link &&
@@ -264,6 +265,8 @@ async function main() {
     (n.peso || 0) >= PESO_MINIMO_PUBLICACAO &&
     (agora - n.publicadoEm) <= JANELA_MS
   );
+  console.log(`Candidatas após filtros (peso+janela+dedup): ${candidatas.length}.`);
+  if (candidatas.length) console.log(`Top candidata: "${candidatas[0].titulo.slice(0,60)}" (peso ${candidatas[0].peso}).`);
 
   // Camada final de dedup: consulta o PRÓPRIO Instagram e descarta qualquer
   // candidata cujo título já apareça na legenda de um post das últimas 48h.
