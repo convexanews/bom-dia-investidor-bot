@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-15T13:52:17.489Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
+  },
+  {
     "data": "2026-08-15T13:31:05.262Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
@@ -1005,14 +1010,5 @@
     "data": "2026-08-13T14:31:11.395Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 63 min."
-  },
-  {
-    "data": "2026-08-13T14:03:18.130Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"Wall Street avança após inflação melhor do que o esperado adiar apostas de alta nos juros pelo Fed\".",
-    "postId": "17965194723150941",
-    "storyId": null,
-    "reelId": "17965194723150941",
-    "tipo": "reel"
   }
 ]
