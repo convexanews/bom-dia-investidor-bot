@@ -26,7 +26,11 @@ async function renderizarTemplate({ html, saida, largura, altura, nome = 'card' 
   try {
     // Carregamento tardio mantém as regras puras testáveis sem dependências de navegador.
     const puppeteer = require('puppeteer');
-    browser = await puppeteer.launch({ args: ['--no-sandbox', '--disable-setuid-sandbox'] });
+    browser = await puppeteer.launch({ args: [
+      '--no-sandbox', '--disable-setuid-sandbox',
+      '--disable-gpu', '--disable-software-rasterizer',
+      '--font-render-hinting=none',
+    ] });
     const page = await browser.newPage();
     const erros = [];
     page.on('pageerror', erro => erros.push(erro.message));
