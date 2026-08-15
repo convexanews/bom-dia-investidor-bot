@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-15T10:48:40.440Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
+  },
+  {
     "data": "2026-08-15T10:31:14.274Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
@@ -1015,11 +1020,5 @@
     "mensagem": "Story publicado (peso 36): \"Ibovespa e dólar hoje: saída de estrangeiros pressiona bolsa e eleva câmbio\".",
     "postId": "18111152744054775",
     "peso": 36
-  },
-  {
-    "data": "2026-08-13T11:23:51.920Z",
-    "resultado": "story_sem_imagem",
-    "mensagem": "Story publicado sem imagem editorial: \"Ibovespa e dólar hoje: saída de estrangeiros pressiona bolsa e eleva câmbio\".",
-    "link": "https://br.investing.com/news/stock-market-news/ibovespa-e-dolar-hoje-saida-de-estrangeiros-pressiona-bolsa-e-eleva-cambio-2037131"
   }
 ]
