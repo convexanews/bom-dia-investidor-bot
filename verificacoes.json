@@ -1,5 +1,15 @@
 [
   {
+    "data": "2026-08-15T00:19:16.936Z",
+    "resultado": "erro",
+    "mensagem": "Erro na execução automática: Render inválido: PNG vazio ou corrompido (/home/runner/work/bom-dia-investidor-bot/bom-dia-investidor-bot/pages-repo/bdi-cards/noticia-1786753155898-feed.png)."
+  },
+  {
+    "data": "2026-08-15T00:19:11.873Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 81): \"Tesouro Direto fecha semana sob estresse, com taxas dos Prefixados e IPCA+ em alta\". Realizando postagem..."
+  },
+  {
     "data": "2026-08-15T00:18:39.338Z",
     "resultado": "erro",
     "mensagem": "Erro na execução automática: Render inválido: PNG vazio ou corrompido (/home/runner/work/bom-dia-investidor-bot/bom-dia-investidor-bot/pages-repo/bdi-cards/noticia-1786753118169-feed.png)."
@@ -1048,19 +1058,5 @@
     "data": "2026-08-12T11:22:14.361Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 41 min."
-  },
-  {
-    "data": "2026-08-12T11:01:11.876Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 62 min."
-  },
-  {
-    "data": "2026-08-12T10:33:02.281Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (carrossel): \"CPI dos EUA e balanço do BB dominam as atenções do mercado; Ibovespa em dólar sobe hoje (12)\".",
-    "postId": "18016231085916957",
-    "storyId": null,
-    "reelId": null,
-    "tipo": "carrossel"
   }
 ]
