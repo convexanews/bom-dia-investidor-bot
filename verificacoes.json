@@ -1,5 +1,15 @@
 [
   {
+    "data": "2026-08-15T01:05:50.183Z",
+    "resultado": "erro",
+    "mensagem": "Erro na execução automática: publicarCarrossel is not defined"
+  },
+  {
+    "data": "2026-08-15T01:05:17.726Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 81): \"Tesouro Direto fecha semana sob estresse, com taxas dos Prefixados e IPCA+ em alta\". Realizando postagem..."
+  },
+  {
     "data": "2026-08-15T01:04:45.350Z",
     "resultado": "erro",
     "mensagem": "Erro na execução automática: publicarCarrossel is not defined"
@@ -1020,17 +1030,5 @@
     "data": "2026-08-13T00:31:15.061Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
-  },
-  {
-    "data": "2026-08-13T00:02:00.001Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
-  },
-  {
-    "data": "2026-08-12T23:31:02.097Z",
-    "resultado": "carrossel_reprovado_qualidade",
-    "mensagem": "Carrossel bloqueado (nota 70): ",
-    "nota": 70,
-    "bloqueios": []
   }
 ]
