@@ -35,10 +35,12 @@ async function renderizarTemplate({ html, saida, largura, altura, nome = 'card' 
     const erros = [];
     page.on('pageerror', erro => erros.push(erro.message));
     await page.setViewport({ width: largura, height: altura, deviceScaleFactor: 1 });
-    await page.goto(pathToFileURL(temporario).href, { waitUntil: 'domcontentloaded', timeout: 30_000 });
+    await page.goto(pathToFileURL(temporario).href, { waitUntil: 'networkidle0', timeout: 30_000 });
     await page.evaluate(async () => {
       if (document.fonts?.ready) await document.fonts.ready;
     });
+    // Aguarda breve para garantir repaint completo
+    await new Promise(r => setTimeout(r, 500));
 
     const layout = await page.evaluate(({ largura, altura }) => ({
       texto: document.body?.innerText?.trim() || '',
@@ -54,6 +56,7 @@ async function renderizarTemplate({ html, saida, largura, altura, nome = 'card' 
     if (erros.length) throw new Error(`Erro de página em ${nome}: ${erros.join(' | ')}`);
 
     const png = await page.screenshot({ type: 'png', clip: { x: 0, y: 0, width: largura, height: altura } });
+    console.log(`[render] ${nome}: PNG ${png.length} bytes, layout ${layout.largura}x${layout.altura}, texto "${layout.texto.slice(0, 80)}..."`);
     validarPng(png, saida);
     fs.writeFileSync(saida, png);
   } finally {
