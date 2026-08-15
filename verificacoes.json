@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-15T18:31:17.518Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
+  },
+  {
     "data": "2026-08-15T18:09:31.752Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
@@ -1005,10 +1010,5 @@
     "data": "2026-08-13T18:43:26.661Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 103): \"Em recorde: S&P 500 renova máxima intradia histórica com reprecificação dos juros nos EUA\". Realizando postagem..."
-  },
-  {
-    "data": "2026-08-13T18:31:29.214Z",
-    "resultado": "erro",
-    "mensagem": "Erro na execução automática: Render inválido: PNG vazio ou corrompido (/tmp/bdi-tiktok-5TOtee/cena-1.png)."
   }
 ]
