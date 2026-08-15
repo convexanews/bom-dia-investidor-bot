@@ -1,5 +1,15 @@
 [
   {
+    "data": "2026-08-15T00:37:28.967Z",
+    "resultado": "erro",
+    "mensagem": "Erro na execução automática: Render inválido: PNG vazio ou corrompido (/home/runner/work/bom-dia-investidor-bot/bom-dia-investidor-bot/pages-repo/bdi-cards/noticia-1786754248018-slide1.png)."
+  },
+  {
+    "data": "2026-08-15T00:37:24.123Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 81): \"Tesouro Direto fecha semana sob estresse, com taxas dos Prefixados e IPCA+ em alta\". Realizando postagem..."
+  },
+  {
     "data": "2026-08-15T00:36:51.077Z",
     "resultado": "erro",
     "mensagem": "Erro na execução automática: Render inválido: PNG vazio ou corrompido (/home/runner/work/bom-dia-investidor-bot/bom-dia-investidor-bot/pages-repo/bdi-cards/noticia-1786754210097-slide1.png)."
@@ -1038,19 +1048,5 @@
     "data": "2026-08-12T17:31:32.802Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 62 min."
-  },
-  {
-    "data": "2026-08-12T17:29:16.620Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 64 min."
-  },
-  {
-    "data": "2026-08-12T17:03:10.049Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"Recessão à frente? Os alertas de CEO de controladora do Itaú (ITUB4) para a economia; ‘ambiente pouco propício’\".",
-    "postId": "18410454094157439",
-    "storyId": null,
-    "reelId": "18410454094157439",
-    "tipo": "reel"
   }
 ]
