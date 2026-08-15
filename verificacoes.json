@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-15T09:01:08.399Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
+  },
+  {
     "data": "2026-08-15T08:31:01.499Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (05:31 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1019,14 +1024,5 @@
     "mensagem": "Story publicado (peso 45): \"Brasil tem fluxo cambial positivo de US$ 652 milhões em agosto até dia 7, diz BC\".",
     "postId": "18111502064319919",
     "peso": 45
-  },
-  {
-    "data": "2026-08-13T09:31:37.986Z",
-    "resultado": "carrossel_reprovado_qualidade",
-    "mensagem": "Carrossel bloqueado (nota 90): contexto insuficiente para sustentar a narrativa",
-    "nota": 90,
-    "bloqueios": [
-      "contexto insuficiente para sustentar a narrativa"
-    ]
   }
 ]
