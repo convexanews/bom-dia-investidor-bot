@@ -1,5 +1,15 @@
 [
   {
+    "data": "2026-08-15T00:24:12.376Z",
+    "resultado": "erro",
+    "mensagem": "Erro na execução automática: Render inválido: PNG vazio ou corrompido (/tmp/bdi-tiktok-5RECHH/cena-1.png)."
+  },
+  {
+    "data": "2026-08-15T00:24:06.959Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 81): \"Tesouro Direto fecha semana sob estresse, com taxas dos Prefixados e IPCA+ em alta\". Realizando postagem..."
+  },
+  {
     "data": "2026-08-15T00:20:32.879Z",
     "resultado": "erro",
     "mensagem": "Erro na execução automática: Render inválido: PNG vazio ou corrompido (/home/runner/work/bom-dia-investidor-bot/bom-dia-investidor-bot/pages-repo/bdi-cards/noticia-1786753231852-feed.png)."
@@ -1042,18 +1052,6 @@
   },
   {
     "data": "2026-08-12T13:01:03.243Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
-  },
-  {
-    "data": "2026-08-12T12:37:47.436Z",
-    "resultado": "story_noticia_postado",
-    "mensagem": "Story publicado (peso 58): \"Dólar abre em queda, com inflação dos EUA e Oriente Médio no foco\".",
-    "postId": "18138406639533829",
-    "peso": 58
-  },
-  {
-    "data": "2026-08-12T12:31:07.643Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
   }
