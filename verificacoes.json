@@ -1,5 +1,15 @@
 [
   {
+    "data": "2026-08-15T00:58:08.667Z",
+    "resultado": "erro",
+    "mensagem": "Erro na execução automática: Render inválido: slide_carrossel ainda contém placeholders não preenchidos."
+  },
+  {
+    "data": "2026-08-15T00:57:54.996Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 81): \"Tesouro Direto fecha semana sob estresse, com taxas dos Prefixados e IPCA+ em alta\". Realizando postagem..."
+  },
+  {
     "data": "2026-08-15T00:57:22.513Z",
     "resultado": "erro",
     "mensagem": "Erro na execução automática: Render inválido: slide_carrossel ainda contém placeholders não preenchidos."
@@ -1026,15 +1036,5 @@
     "data": "2026-08-12T22:31:38.828Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
-  },
-  {
-    "data": "2026-08-12T22:01:41.969Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 1 min."
-  },
-  {
-    "data": "2026-08-12T21:33:03.718Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 30 min."
   }
 ]
