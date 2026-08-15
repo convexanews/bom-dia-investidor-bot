@@ -1,5 +1,15 @@
 [
   {
+    "data": "2026-08-15T00:26:05.567Z",
+    "resultado": "erro",
+    "mensagem": "Erro na execução automática: Render inválido: PNG vazio ou corrompido (/tmp/bdi-tiktok-xnayKd/cena-1.png)."
+  },
+  {
+    "data": "2026-08-15T00:26:00.060Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 81): \"Tesouro Direto fecha semana sob estresse, com taxas dos Prefixados e IPCA+ em alta\". Realizando postagem..."
+  },
+  {
     "data": "2026-08-15T00:25:27.959Z",
     "resultado": "erro",
     "mensagem": "Erro na execução automática: Render inválido: PNG vazio ou corrompido (/tmp/bdi-tiktok-L4jLo0/cena-1.png)."
@@ -1040,18 +1050,6 @@
   },
   {
     "data": "2026-08-12T15:01:59.009Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
-  },
-  {
-    "data": "2026-08-12T14:39:14.567Z",
-    "resultado": "story_noticia_postado",
-    "mensagem": "Story publicado (peso 68): \"Wall Street tenta firmar alta com inflação ‘sem surpresas’\".",
-    "postId": "17980663995062622",
-    "peso": 68
-  },
-  {
-    "data": "2026-08-12T14:36:15.020Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
   }
