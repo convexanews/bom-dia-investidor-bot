@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-15T00:10:31.941Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
+  },
+  {
     "data": "2026-08-15T00:01:12.297Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
@@ -1065,10 +1070,5 @@
     "bloqueios": [
       "contexto insuficiente para sustentar a narrativa"
     ]
-  },
-  {
-    "data": "2026-08-12T09:52:18.079Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 83): \"Inflação nos EUA, serviços no Brasil, balanço do Banco do Brasil e mais destaques\". Realizando postagem..."
   }
 ]
