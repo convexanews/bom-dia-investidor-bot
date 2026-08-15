@@ -5,9 +5,10 @@ const path = require('path');
 const { pathToFileURL } = require('url');
 
 function validarPng(buffer, saida) {
+  const buf = Buffer.isBuffer(buffer) ? buffer : Buffer.from(buffer);
   const assinatura = '89504e470d0a1a0a';
-  if (!Buffer.isBuffer(buffer) || buffer.length < 10_000 || buffer.subarray(0, 8).toString('hex') !== assinatura) {
-    throw new Error(`Render inválido: PNG vazio ou corrompido (${saida}).`);
+  if (buf.length < 10_000 || buf.subarray(0, 8).toString('hex') !== assinatura) {
+    throw new Error(`Render inválido: PNG vazio ou corrompido (${saida}). Tamanho: ${buf.length}`);
   }
 }
 
@@ -55,7 +56,8 @@ async function renderizarTemplate({ html, saida, largura, altura, nome = 'card' 
     if (layout.pendencias) throw new Error(`Render incompleto: ${nome} possui imagens ainda carregando.`);
     if (erros.length) throw new Error(`Erro de página em ${nome}: ${erros.join(' | ')}`);
 
-    const png = await page.screenshot({ type: 'png', clip: { x: 0, y: 0, width: largura, height: altura } });
+    const pngRaw = await page.screenshot({ type: 'png', clip: { x: 0, y: 0, width: largura, height: altura } });
+    const png = Buffer.isBuffer(pngRaw) ? pngRaw : Buffer.from(pngRaw);
     console.log(`[render] ${nome}: PNG ${png.length} bytes, layout ${layout.largura}x${layout.altura}, texto "${layout.texto.slice(0, 80)}..."`);
     validarPng(png, saida);
     fs.writeFileSync(saida, png);
