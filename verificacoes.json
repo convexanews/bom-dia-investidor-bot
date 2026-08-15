@@ -1,5 +1,15 @@
 [
   {
+    "data": "2026-08-15T00:19:54.828Z",
+    "resultado": "erro",
+    "mensagem": "Erro na execução automática: Render inválido: PNG vazio ou corrompido (/home/runner/work/bom-dia-investidor-bot/bom-dia-investidor-bot/pages-repo/bdi-cards/noticia-1786753193821-feed.png)."
+  },
+  {
+    "data": "2026-08-15T00:19:49.472Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 81): \"Tesouro Direto fecha semana sob estresse, com taxas dos Prefixados e IPCA+ em alta\". Realizando postagem..."
+  },
+  {
     "data": "2026-08-15T00:19:16.936Z",
     "resultado": "erro",
     "mensagem": "Erro na execução automática: Render inválido: PNG vazio ou corrompido (/home/runner/work/bom-dia-investidor-bot/bom-dia-investidor-bot/pages-repo/bdi-cards/noticia-1786753155898-feed.png)."
@@ -1046,17 +1056,5 @@
     "data": "2026-08-12T11:30:54.832Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 33 min."
-  },
-  {
-    "data": "2026-08-12T11:25:13.240Z",
-    "resultado": "story_noticia_postado",
-    "mensagem": "Story publicado (peso 68): \"Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta quarta\".",
-    "postId": "18350521756301626",
-    "peso": 68
-  },
-  {
-    "data": "2026-08-12T11:22:14.361Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 41 min."
   }
 ]
