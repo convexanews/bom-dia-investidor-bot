@@ -32,7 +32,9 @@ async function gerarSlide(cfg, saida) {
     .replace(/\{\{DESTAQUE\}\}/g, escapeHtml(cfg.destaque || ''))
     .replace(/\{\{TEMA\}\}/g, ['positivo', 'negativo'].includes(cfg.tema) ? cfg.tema : 'neutro')
     .replace(/\{\{CONTADOR\}\}/g, escapeHtml(cfg.contador || ''))
-    .replace(/\{\{RODAPE_DIREITA\}\}/g, escapeHtml(cfg.rodapeDireita || 'arraste →'));
+    .replace(/\{\{RODAPE_DIREITA\}\}/g, escapeHtml(cfg.rodapeDireita || 'arraste →'))
+    .replace(/\{\{RESUMO_TITULO\}\}/g, escapeHtml(cfg.resumoTitulo || 'Gostou do conteúdo?'))
+    .replace(/\{\{RESUMO_TEXTO\}\}/g, escapeHtml(cfg.resumoTexto || ''));
 
   return renderizarTemplate({ html: template, saida, largura: 1080, altura: 1350, nome: 'slide_carrossel' });
 }
