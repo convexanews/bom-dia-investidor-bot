@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-15T00:01:12.297Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
+  },
+  {
     "data": "2026-08-14T23:31:01.497Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
@@ -1065,12 +1070,5 @@
     "data": "2026-08-12T09:52:18.079Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 83): \"Inflação nos EUA, serviços no Brasil, balanço do Banco do Brasil e mais destaques\". Realizando postagem..."
-  },
-  {
-    "data": "2026-08-12T09:51:17.201Z",
-    "resultado": "story_noticia_postado",
-    "mensagem": "Story publicado (peso 40): \"Taesa (TAEE11) tem queda de 28,5% no lucro do 2º trimestre; empresa anuncia R$ 207 milhões em proventos\".",
-    "postId": "18035278583831298",
-    "peso": 40
   }
 ]
