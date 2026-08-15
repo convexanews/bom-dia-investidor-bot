@@ -1,5 +1,29 @@
 [
   {
+    "data": "2026-08-15T01:12:19.454Z",
+    "titulo": "Tesouro Direto fecha semana sob estresse, com taxas dos Prefixados e IPCA+ em alta",
+    "categoria": "Renda Fixa",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/tesouro-direto-fecha-semana-sob-estresse-com-taxas-dos-prefixados-e-ipca-em-alta-jcav/",
+    "postId": "18138124603606268",
+    "storyId": null,
+    "reelId": null,
+    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1786756264227-slide1.png",
+    "imagemStory": null,
+    "videoUrl": null,
+    "tipo": "carrossel",
+    "peso": 81,
+    "pilares": [
+      "macro",
+      "bolsa",
+      "renda_fixa",
+      "exterior"
+    ],
+    "horarioBRT": "22",
+    "cta": "📌 Salve para revisar quando o COPOM decidir.",
+    "decisaoFormato": "peso 81: carrossel"
+  },
+  {
     "data": "2026-08-13T14:03:18.128Z",
     "titulo": "Wall Street avança após inflação melhor do que o esperado adiar apostas de alta nos juros pelo Fed",
     "categoria": "Mercados",
@@ -3221,20 +3245,5 @@
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783517672272.mp4",
     "tipo": "reel",
     "peso": 65
-  },
-  {
-    "data": "2026-07-08T11:25:57.594Z",
-    "titulo": "Bolsas da Europa recuam com alta do petróleo; Trump diz que acordo com Irã “acabou”",
-    "categoria": "Mercados",
-    "fonte": "InfoMoney",
-    "link": "https://www.infomoney.com.br/mercados/bolsas-da-europa-recuam-com-alta-do-petroleo-trump-diz-que-acordo-com-ira-acabou/",
-    "postId": "17993416967809502",
-    "storyId": "17896850109480022",
-    "reelId": null,
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783509875889-slide1.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783509875889-story.png",
-    "videoUrl": null,
-    "tipo": "carrossel",
-    "peso": 44
   }
 ]
