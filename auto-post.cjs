@@ -343,7 +343,8 @@ async function main() {
   let imageUrl = null;
   let storyImageUrl = null;
 
-  const formato = selecionarFormatoFeed(nova.peso);
+  // FORCE_FORMAT: força um formato específico via env (feed, carrossel, reel)
+  const formato = process.env.FORCE_FORMAT || selecionarFormatoFeed(nova.peso);
   console.log(`Formato escolhido: ${formato} (pauta aprovada, peso ${nova.peso})`);
 
   if (formato === 'reel') {
