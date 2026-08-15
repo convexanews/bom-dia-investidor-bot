@@ -44,7 +44,7 @@ async function gerarCard(cfg, saida) {
   const arquivoTemplate = isStory ? 'card-noticia-story.html' : 'card-noticia.html';
   const altura = isStory ? 1920 : 1350;
 
-  const sentimento = cfg.sentimento || 'default';
+  const sentimento = (typeof cfg.sentimento === 'object' ? cfg.sentimento?.tipo : cfg.sentimento) || 'default';
   const mancheteTexto = cfg.mancheteVisual || cfg.manchete || '';
   const fallbackBg = FALLBACK_GRADIENTES[sentimento] || FALLBACK_GRADIENTES.default;
   const fallbackIconCor = FALLBACK_ICON_CORES[sentimento] || FALLBACK_ICON_CORES.default;
