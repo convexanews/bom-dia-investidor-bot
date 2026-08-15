@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-15T22:47:18.230Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
+  },
+  {
     "data": "2026-08-15T22:31:04.950Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
@@ -1005,10 +1010,5 @@
     "data": "2026-08-13T21:30:56.720Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 82): \"Ibovespa perde carona em recorde de Wall Street e cai com Banco do Brasil (BBAS3); dólar sobe\". Realizando postagem..."
-  },
-  {
-    "data": "2026-08-13T21:01:21.680Z",
-    "resultado": "erro",
-    "mensagem": "Erro na execução automática: Render inválido: PNG vazio ou corrompido (/tmp/bdi-tiktok-3ON0Nv/cena-1.png)."
   }
 ]
