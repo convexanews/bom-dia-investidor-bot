@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-15T09:13:18.253Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
+  },
+  {
     "data": "2026-08-15T09:01:08.399Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
@@ -1017,12 +1022,5 @@
     "data": "2026-08-13T10:01:53.813Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
-  },
-  {
-    "data": "2026-08-13T09:53:06.595Z",
-    "resultado": "story_noticia_postado",
-    "mensagem": "Story publicado (peso 45): \"Brasil tem fluxo cambial positivo de US$ 652 milhões em agosto até dia 7, diz BC\".",
-    "postId": "18111502064319919",
-    "peso": 45
   }
 ]
