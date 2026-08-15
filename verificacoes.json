@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-15T11:01:27.163Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
+  },
+  {
     "data": "2026-08-15T10:48:40.440Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
@@ -1013,12 +1018,5 @@
     "resultado": "pauta_reprovada",
     "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
     "titulo": "Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta quinta"
-  },
-  {
-    "data": "2026-08-13T11:24:23.538Z",
-    "resultado": "story_noticia_postado",
-    "mensagem": "Story publicado (peso 36): \"Ibovespa e dólar hoje: saída de estrangeiros pressiona bolsa e eleva câmbio\".",
-    "postId": "18111152744054775",
-    "peso": 36
   }
 ]
