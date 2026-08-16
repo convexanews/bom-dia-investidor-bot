@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-16T23:01:00.020Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
     "data": "2026-08-16T22:46:35.188Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
@@ -1005,10 +1010,5 @@
     "data": "2026-08-14T18:30:55.319Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 73): \"Dólar encosta em R$ 5,25 na quinta alta seguida; juros futuros disparam com ‘estresse’ doméstico\". Realizando postagem..."
-  },
-  {
-    "data": "2026-08-14T18:16:55.921Z",
-    "resultado": "erro",
-    "mensagem": "Erro na execução automática: Render inválido: PNG vazio ou corrompido (/home/runner/work/bom-dia-investidor-bot/bom-dia-investidor-bot/pages-repo/bdi-cards/noticia-1786731413903-slide1.png)."
   }
 ]
