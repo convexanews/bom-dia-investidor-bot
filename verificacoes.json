@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-16T18:09:53.870Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
+  },
+  {
     "data": "2026-08-16T18:01:09.077Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
@@ -1005,10 +1010,5 @@
     "data": "2026-08-14T15:31:11.411Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 75): \"Selic mais baixa: Citi revisa projeção para 2026 e aposta em novas quedas de juros no próximo ano; confira\". Realizando postagem..."
-  },
-  {
-    "data": "2026-08-14T15:17:55.975Z",
-    "resultado": "erro",
-    "mensagem": "Erro na execução automática: Render inválido: PNG vazio ou corrompido (/home/runner/work/bom-dia-investidor-bot/bom-dia-investidor-bot/pages-repo/bdi-cards/noticia-1786720674811-slide1.png)."
   }
 ]
