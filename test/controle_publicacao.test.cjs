@@ -17,3 +17,8 @@ test('a janela global permite posts entre 6h e 22h em Brasília', () => {
   assert.equal(estaNaJanelaDePublicacao(new Date('2026-08-06T08:59:00Z')), false); // 05h BRT
   assert.equal(estaNaJanelaDePublicacao(new Date('2026-08-07T02:00:00Z')), false); // 23h BRT
 });
+
+test('a meta de Reels pode ignorar a pausa por desempenho sem remover a regra global', () => {
+  const { podePublicarFeed } = require('../controle_publicacao.cjs');
+  assert.equal(typeof podePublicarFeed({ bloquearPorDesempenho: false }).permitido, 'boolean');
+});

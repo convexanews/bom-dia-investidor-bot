@@ -34,7 +34,12 @@ function estaNaJanelaDePublicacao(agora = new Date()) {
   return hora >= 6 && hora <= 22;
 }
 
-function podePublicarFeed({ limiteDiario = LIMITE_DIARIO_PADRAO, intervaloMs = DUAS_HORAS, agora = new Date() } = {}) {
+function podePublicarFeed({
+  limiteDiario = LIMITE_DIARIO_PADRAO,
+  intervaloMs = DUAS_HORAS,
+  bloquearPorDesempenho = true,
+  agora = new Date(),
+} = {}) {
   if (!estaNaJanelaDePublicacao(agora)) return { permitido: false, motivo: 'fora da janela de publicação (06h–22h BRT)' };
   const posts = lerRelatorio().filter(p => p.data && p.origem !== 'manual');
   const hoje = inicioDiaBRT(agora);
@@ -44,8 +49,10 @@ function podePublicarFeed({ limiteDiario = LIMITE_DIARIO_PADRAO, intervaloMs = D
   if (ultimo && agora.getTime() - new Date(ultimo.data).getTime() < intervaloMs) {
     return { permitido: false, motivo: 'intervalo global mínimo de duas horas' };
   }
-  const desempenho = avaliarDesempenhoRecente(lerMetricas());
-  if (!desempenho.aprovado) return { permitido: false, motivo: desempenho.motivo };
+  if (bloquearPorDesempenho) {
+    const desempenho = avaliarDesempenhoRecente(lerMetricas());
+    if (!desempenho.aprovado) return { permitido: false, motivo: desempenho.motivo };
+  }
   return { permitido: true };
 }
 

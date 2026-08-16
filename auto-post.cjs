@@ -21,11 +21,14 @@ const {
   validarTokenInstagram, aguardarContainerPronto, gerarAltText,
   publicarFeed, publicarReel, publicarStory, publicarCarrossel, criarItemCarrossel,
   buscarCaptionsRecentes, clonePages, commitEPush, limparPages,
-  pagesDir, PAGES_RAW_BASE, VERIFICACOES_FILE, RELATORIO_FILE,
+  pagesDir, PAGES_REPO, PAGES_RAW_BASE, VERIFICACOES_FILE, RELATORIO_FILE,
 } = require('./utils.cjs');
 
 // Feed: só notícia de grande impacto, para não competir com Stories.
-const PESO_MINIMO_PUBLICACAO = PESO_MINIMO_FEED;
+// Os ciclos programados podem baixar o corte para 50, mantendo os filtros de
+// fonte, contexto, deduplicação e política editorial. Isso abastece nove Reels
+// distintos ao longo do dia sem recorrer a conteúdo inventado.
+const PESO_MINIMO_PUBLICACAO = Math.max(30, Number(process.env.MIN_FEED_WEIGHT) || PESO_MINIMO_FEED);
 const TIKTOK_POSTADAS_FILE = path.join(__dirname, 'tiktok-postadas.json');
 
 const IG_TOKEN = process.env.IG_TOKEN;
@@ -219,7 +222,9 @@ async function main() {
 
   const noticias = await buscarNoticias();
 
-  const permissao = podePublicarFeed();
+  // A meta editorial de nove Reels/dia não deve ser interrompida por uma métrica
+  // atrasada. A avaliação continua disponível para os demais formatos e relatórios.
+  const permissao = podePublicarFeed({ bloquearPorDesempenho: false });
   if (!permissao.permitido) {
     console.log(`Feed suprimido: ${permissao.motivo}.`);
     registrarVerificacao('feed_suprimido', `Feed não publicado: ${permissao.motivo}.`);

@@ -17,7 +17,7 @@ Entretenimento, esportes, celebridades, loterias e curiosidades não entram na p
 
 ## Cadência
 
-- A cada 2h, entre 6h e 22h, o feed verifica pautas relevantes (peso 70 ou mais) e prioriza Reel narrado nas execuções agendadas.
+- A cada 2h, entre 6h e 22h, o feed publica um Reel narrado de notícia distinta. As execuções agendadas selecionam pautas das últimas 24h com peso 50 ou maior, mantendo fonte, contexto, política editorial e deduplicação.
 - Os Stories verificam notícias recentes de menor impacto em seus horários próprios, sem disputar a fila de publicação.
 - Glossários automáticos não são publicados em Stories.
 - Carrosséis e cards de feed não são automáticos; dependem de revisão editorial.

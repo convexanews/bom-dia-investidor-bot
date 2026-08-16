@@ -17,7 +17,7 @@ e limite de frequência para preservar qualidade e alcance.
 
 ## Qualidade e crescimento
 
-- Até nove oportunidades automáticas de feed por dia, entre 06h e 22h BRT, com intervalo mínimo de duas horas. Os ciclos agendados priorizam Reels para notícias aprovadas; sem pauta nova e qualificada, o bot não publica.
+- Nove Reels automáticos por dia, entre 06h e 22h BRT, com intervalo mínimo de duas horas. Os ciclos agendados usam o estoque de notícias das últimas 24 horas e aceitam pautas de peso 50 ou maior, sem dispensar fonte, contexto, política editorial e deduplicação.
 - Conteúdo fora dos pilares editoriais (macro, bolsa, renda fixa, FIIs, cripto e exterior)
   é descartado antes da publicação.
 - As legendas incluem contexto, um CTA e aviso de conteúdo informativo.

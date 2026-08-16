@@ -9,9 +9,9 @@ on:
   workflow_dispatch:
     inputs:
       window_hours:
-        description: 'Janela de notícias em horas (padrão 2, use 24 para recuperar dias sem post)'
+        description: 'Janela de notícias em horas (padrão 24 para recuperar pauta do dia)'
         required: false
-        default: '2'
+        default: '24'
       batch_count:
         description: 'Quantos ciclos executar neste disparo (padrão 1; o intervalo global permite no máximo um post a cada 2h)'
         required: false
@@ -58,7 +58,10 @@ jobs:
           IG_TOKEN: ${{ secrets.IG_TOKEN }}
           IG_ACCOUNT_ID: ${{ secrets.IG_ACCOUNT_ID }}
           PAGES_TOKEN: ${{ secrets.PAGES_TOKEN }}
-          FORCE_WINDOW_HOURS: ${{ github.event.inputs.window_hours || '2' }}
+          # O cron usa o estoque de pautas das últimas 24h para manter nove Reels distintos/dia.
+          FORCE_WINDOW_HOURS: ${{ github.event_name == 'schedule' && '24' || github.event.inputs.window_hours || '24' }}
+          # Abaixa o corte apenas no cron; permanecem obrigatórios fonte, contexto e política editorial.
+          MIN_FEED_WEIGHT: ${{ github.event_name == 'schedule' && '50' || '70' }}
           # O agendamento prioriza Reels; disparos manuais podem escolher outro formato.
           FORCE_FORMAT: ${{ github.event_name == 'schedule' && 'reel' || github.event.inputs.force_format || '' }}
         run: |
