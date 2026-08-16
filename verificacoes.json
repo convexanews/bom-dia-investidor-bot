@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-16T16:51:23.271Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
+  },
+  {
     "data": "2026-08-16T16:31:30.580Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
@@ -1005,10 +1010,5 @@
     "data": "2026-08-14T15:16:39.566Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 75): \"Selic mais baixa: Citi revisa projeção para 2026 e aposta em novas quedas de juros no próximo ano; confira\". Realizando postagem..."
-  },
-  {
-    "data": "2026-08-14T14:15:52.266Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
   }
 ]
