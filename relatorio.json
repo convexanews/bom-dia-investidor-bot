@@ -1,5 +1,27 @@
 [
   {
+    "data": "2026-08-16T23:29:52.025Z",
+    "titulo": "Trilionário por 2 meses: a ‘marcha à ré’ da SpaceX que fez Elon Musk perder bilhões de dólares",
+    "categoria": "G1",
+    "fonte": "G1 Economia",
+    "link": "https://g1.globo.com/economia/noticia/2026/08/16/trilionario-por-2-meses-a-marcha-a-re-da-spacex-que-fez-elon-musk-perder-bilhoes-de-dolares.ghtml",
+    "postId": "18096294650137323",
+    "storyId": null,
+    "reelId": "18096294650137323",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1786922881860.mp4",
+    "tipo": "reel",
+    "peso": 50,
+    "pilares": [
+      "macro",
+      "exterior"
+    ],
+    "horarioBRT": "20",
+    "cta": "📤 Envie para quem acompanha o mercado global.",
+    "decisaoFormato": "peso 50: reel"
+  },
+  {
     "data": "2026-08-15T01:12:19.454Z",
     "titulo": "Tesouro Direto fecha semana sob estresse, com taxas dos Prefixados e IPCA+ em alta",
     "categoria": "Renda Fixa",
@@ -3230,20 +3252,5 @@
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783525373271.mp4",
     "tipo": "reel",
     "peso": 83
-  },
-  {
-    "data": "2026-07-08T13:36:06.460Z",
-    "titulo": "BTG muda visão para Selic e passa a projetar mais dois cortes de juros em 2026; veja o que mudou",
-    "categoria": "Economia",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/btg-muda-visao-para-selic-e-passa-a-projetar-mais-dois-cortes-de-juros-em-2026-veja-o-que-mudou-jcav/",
-    "postId": "18071671760401093",
-    "storyId": null,
-    "reelId": "18071671760401093",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783517672272.mp4",
-    "tipo": "reel",
-    "peso": 65
   }
 ]

@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-08-16T23:29:52.027Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Trilionário por 2 meses: a ‘marcha à ré’ da SpaceX que fez Elon Musk perder bilhões de dólares\".",
+    "postId": "18096294650137323",
+    "storyId": null,
+    "reelId": "18096294650137323",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-08-16T23:27:54.535Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 50): \"Trilionário por 2 meses: a ‘marcha à ré’ da SpaceX que fez Elon Musk perder bilhões de dólares\". Realizando postagem..."
+  },
+  {
     "data": "2026-08-16T23:17:50.962Z",
     "resultado": "sem_noticia_story",
     "mensagem": "Nenhuma notícia recente de menor impacto foi encontrada."
@@ -1000,15 +1014,5 @@
     "data": "2026-08-14T18:36:50.404Z",
     "resultado": "erro",
     "mensagem": "Erro na execução automática: Render inválido: PNG vazio ou corrompido (/home/runner/work/bom-dia-investidor-bot/bom-dia-investidor-bot/pages-repo/bdi-cards/noticia-1786732609352-slide1.png)."
-  },
-  {
-    "data": "2026-08-14T18:36:44.627Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 73): \"Dólar encosta em R$ 5,25 na quinta alta seguida; juros futuros disparam com ‘estresse’ doméstico\". Realizando postagem..."
-  },
-  {
-    "data": "2026-08-14T18:31:00.074Z",
-    "resultado": "erro",
-    "mensagem": "Erro na execução automática: Render inválido: PNG vazio ou corrompido (/home/runner/work/bom-dia-investidor-bot/bom-dia-investidor-bot/pages-repo/bdi-cards/noticia-1786732259003-slide1.png)."
   }
 ]
