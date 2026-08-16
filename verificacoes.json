@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-16T23:30:57.507Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 119 min."
+  },
+  {
     "data": "2026-08-16T23:29:52.027Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"Trilionário por 2 meses: a ‘marcha à ré’ da SpaceX que fez Elon Musk perder bilhões de dólares\".",
@@ -1009,10 +1014,5 @@
     "data": "2026-08-14T19:01:08.752Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
-  },
-  {
-    "data": "2026-08-14T18:36:50.404Z",
-    "resultado": "erro",
-    "mensagem": "Erro na execução automática: Render inválido: PNG vazio ou corrompido (/home/runner/work/bom-dia-investidor-bot/bom-dia-investidor-bot/pages-repo/bdi-cards/noticia-1786732609352-slide1.png)."
   }
 ]
