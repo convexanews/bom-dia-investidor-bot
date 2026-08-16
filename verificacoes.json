@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-16T13:01:18.781Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
+  },
+  {
     "data": "2026-08-16T12:31:18.106Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
@@ -1003,10 +1008,5 @@
     "data": "2026-08-14T11:01:42.688Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 71): \"Guerra comercial no radar do mercado após o Brasil aciona Lei da Reciprocidade; Ibovespa em dólar sobe hoje (14)\". Realizando postagem..."
-  },
-  {
-    "data": "2026-08-14T10:31:43.104Z",
-    "resultado": "erro",
-    "mensagem": "Erro na execução automática: Render inválido: PNG vazio ou corrompido (/home/runner/work/bom-dia-investidor-bot/bom-dia-investidor-bot/pages-repo/bdi-cards/noticia-1786703502193-slide1.png)."
   }
 ]
