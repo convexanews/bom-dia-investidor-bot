@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-16T14:31:18.721Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
+  },
+  {
     "data": "2026-08-16T14:01:14.028Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
@@ -1003,10 +1008,5 @@
     "data": "2026-08-14T11:35:54.479Z",
     "resultado": "erro_story_noticia",
     "mensagem": "Render inválido: PNG vazio ou corrompido (/home/runner/work/bom-dia-investidor-bot/bom-dia-investidor-bot/pages-repo/bdi-cards/story-noticia-1786707349532.png)."
-  },
-  {
-    "data": "2026-08-14T11:31:23.259Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
   }
 ]
