@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-16T00:27:28.445Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
+  },
+  {
     "data": "2026-08-16T00:01:07.163Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
@@ -1007,10 +1012,5 @@
     "data": "2026-08-13T22:01:12.010Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 81): \"Taxas dos DIs sobem em sessão marcada por dados de inflação nos EUA\". Realizando postagem..."
-  },
-  {
-    "data": "2026-08-13T21:34:03.174Z",
-    "resultado": "erro_story_noticia",
-    "mensagem": "Render inválido: PNG vazio ou corrompido (/home/runner/work/bom-dia-investidor-bot/bom-dia-investidor-bot/pages-repo/bdi-cards/story-noticia-1786656837315.png)."
   }
 ]
