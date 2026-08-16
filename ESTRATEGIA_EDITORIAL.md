@@ -17,8 +17,8 @@ Entretenimento, esportes, celebridades, loterias e curiosidades não entram na p
 
 ## Cadência
 
-- A cada 1h30, entre 6h e 21h, o feed verifica pautas relevantes (peso 70 ou mais): peso 70–84 em carrossel e 85+ em Reel.
-- A cada 1h30, entre 6h e 21h, os Stories verificam notícias recentes de menor impacto (peso 30–69).
+- A cada 2h, entre 6h e 22h, o feed verifica pautas relevantes (peso 70 ou mais) e prioriza Reel narrado nas execuções agendadas.
+- Os Stories verificam notícias recentes de menor impacto em seus horários próprios, sem disputar a fila de publicação.
 - Glossários automáticos não são publicados em Stories.
 - Carrosséis e cards de feed não são automáticos; dependem de revisão editorial.
 - Alertas de recorde obedecem à mesma regra.
