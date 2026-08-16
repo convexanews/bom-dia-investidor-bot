@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-16T00:01:07.163Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
+  },
+  {
     "data": "2026-08-15T23:31:17.219Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
@@ -1007,10 +1012,5 @@
     "data": "2026-08-13T21:34:03.174Z",
     "resultado": "erro_story_noticia",
     "mensagem": "Render inválido: PNG vazio ou corrompido (/home/runner/work/bom-dia-investidor-bot/bom-dia-investidor-bot/pages-repo/bdi-cards/story-noticia-1786656837315.png)."
-  },
-  {
-    "data": "2026-08-13T21:32:38.624Z",
-    "resultado": "erro",
-    "mensagem": "Erro na execução automática: Render inválido: PNG vazio ou corrompido (/home/runner/work/bom-dia-investidor-bot/bom-dia-investidor-bot/pages-repo/bdi-cards/noticia-1786656756824-slide1.png)."
   }
 ]
