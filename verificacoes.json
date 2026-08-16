@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-16T11:18:22.672Z",
+    "resultado": "sem_noticia_story",
+    "mensagem": "Nenhuma notícia recente de menor impacto foi encontrada."
+  },
+  {
     "data": "2026-08-16T11:01:25.710Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
@@ -1006,11 +1011,5 @@
     "resultado": "pauta_reprovada",
     "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
     "titulo": "Varejo nos EUA, PIB na Europa, desemprego no Brasil e mais destaques nesta sexta"
-  },
-  {
-    "data": "2026-08-14T09:03:52.008Z",
-    "resultado": "pauta_reprovada",
-    "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
-    "titulo": "S&P 500 e Nasdaq Futuro caminham para 3ª alta semanal; Dow Jones fica para trás"
   }
 ]
