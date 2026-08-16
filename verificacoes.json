@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-16T16:31:30.580Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
+  },
+  {
     "data": "2026-08-16T16:23:05.155Z",
     "resultado": "story_noticia_postado",
     "mensagem": "Story publicado (peso 42): \"Ibovespa deve ficar atrás de pares emergentes em 2026 — e risco político está por trás disso, diz consultoria\".",
@@ -1003,11 +1008,6 @@
   },
   {
     "data": "2026-08-14T14:15:52.266Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
-  },
-  {
-    "data": "2026-08-14T14:15:05.114Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
   }
