@@ -6,7 +6,7 @@ e limite de frequência para preservar qualidade e alcance.
 
 ## Como funciona
 
-1. A cada hora (`.github/workflows/auto-post.yml`), o Actions roda `auto-post.cjs`
+1. A cada duas horas, das 06h às 22h BRT (`.github/workflows/auto-post.yml`), o Actions roda `auto-post.cjs`
 2. Busca e aprova notícias relevantes via `coletor_noticias.cjs` e `politica_editorial.cjs`
 3. Se a notícia ainda não foi postada (`noticias-postadas.json`), gera o card (feed 4:5 e
    story 9:16) com `gerar_card_noticia.cjs`
@@ -17,7 +17,7 @@ e limite de frequência para preservar qualidade e alcance.
 
 ## Qualidade e crescimento
 
-- Até oito posts automáticos de feed por dia, entre 8h e 22h, com intervalo mínimo de duas horas.
+- Nove Reels automáticos por dia, entre 06h e 22h BRT, com intervalo mínimo de duas horas. Os ciclos agendados usam o estoque de notícias das últimas 24 horas e aceitam pautas de peso 50 ou maior, sem dispensar fonte, contexto, política editorial e deduplicação.
 - Conteúdo fora dos pilares editoriais (macro, bolsa, renda fixa, FIIs, cripto e exterior)
   é descartado antes da publicação.
 - As legendas incluem contexto, um CTA e aviso de conteúdo informativo.

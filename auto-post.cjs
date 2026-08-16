@@ -1,6 +1,6 @@
 // Verifica noticias novas do mercado financeiro, gera os cards (feed + stories)
 // e publica automaticamente no Instagram "Bom Dia Investidor".
-// Roda via GitHub Actions (cron de 1h30). Variaveis de ambiente necessarias:
+// Roda via GitHub Actions (cron de 2h). Variaveis de ambiente necessarias:
 //   IG_TOKEN, IG_ACCOUNT_ID
 const fs = require('fs');
 const path = require('path');
@@ -15,17 +15,20 @@ const { validarPautaAutomatica } = require('./qualidade_editorial.cjs');
 const { buscarImagemArtigo, baixarImagemBase64 } = require('./imagem_noticia.cjs');
 const { PESO_MINIMO_FEED, selecionarFormatoFeed } = require('./formato_publicacao.cjs');
 const { validarNoticiaParaPublicacao } = require('./qualidade_publicacao.cjs');
-const { podePublicarFeed } = require('./controle_publicacao.cjs');
+const { podePublicarFeed, DUAS_HORAS, LIMITE_DIARIO_PADRAO } = require('./controle_publicacao.cjs');
 const {
   carregarJson, salvarJson, registrarVerificacao, fetchComRetry,
   validarTokenInstagram, aguardarContainerPronto, gerarAltText,
   publicarFeed, publicarReel, publicarStory, publicarCarrossel, criarItemCarrossel,
   buscarCaptionsRecentes, clonePages, commitEPush, limparPages,
-  pagesDir, PAGES_RAW_BASE, VERIFICACOES_FILE, RELATORIO_FILE,
+  pagesDir, PAGES_REPO, PAGES_RAW_BASE, VERIFICACOES_FILE, RELATORIO_FILE,
 } = require('./utils.cjs');
 
 // Feed: só notícia de grande impacto, para não competir com Stories.
-const PESO_MINIMO_PUBLICACAO = PESO_MINIMO_FEED;
+// Os ciclos programados podem baixar o corte para 50, mantendo os filtros de
+// fonte, contexto, deduplicação e política editorial. Isso abastece nove Reels
+// distintos ao longo do dia sem recorrer a conteúdo inventado.
+const PESO_MINIMO_PUBLICACAO = Math.max(30, Number(process.env.MIN_FEED_WEIGHT) || PESO_MINIMO_FEED);
 const TIKTOK_POSTADAS_FILE = path.join(__dirname, 'tiktok-postadas.json');
 
 const IG_TOKEN = process.env.IG_TOKEN;
@@ -189,23 +192,23 @@ async function main() {
     return;
   }
 
-  // Cada ciclo editorial ocorre a cada 1h30. Mantemos esse intervalo como
+  // Cada ciclo editorial ocorre a cada 2h. Mantemos esse intervalo como
   // proteção adicional caso o workflow seja disparado manualmente.
-  const INTERVALO_MIN_MS = 90 * 60 * 1000;
+  const INTERVALO_MIN_MS = DUAS_HORAS;
   const ultimoPost = relatorio.find(p => p.origem !== 'manual');
   if (ultimoPost) {
     const tempoDesdeUltimo = Date.now() - new Date(ultimoPost.data).getTime();
     if (tempoDesdeUltimo < INTERVALO_MIN_MS) {
       const minRestantes = Math.ceil((INTERVALO_MIN_MS - tempoDesdeUltimo) / 60000);
-      console.log(`Último post há ${Math.floor(tempoDesdeUltimo / 60000)} min. Próximo em ${minRestantes} min (intervalo de 1h30).`);
-      registrarVerificacao('aguardando_intervalo', `Aguardando intervalo de 1h30 entre posts. Faltam ${minRestantes} min.`);
+      console.log(`Último post há ${Math.floor(tempoDesdeUltimo / 60000)} min. Próximo em ${minRestantes} min (intervalo de 2h).`);
+      registrarVerificacao('aguardando_intervalo', `Aguardando intervalo de 2h entre posts. Faltam ${minRestantes} min.`);
       return;
     }
   }
 
-  // Feed recebe somente notícias de alto impacto, no máximo uma a cada 1h30.
+  // Feed recebe somente notícias de alto impacto, no máximo uma a cada 2h.
   // O teto evita uma enxurrada caso diversas fontes publiquem a mesma pauta.
-  const MAX_POSTS_DIA = 10;
+  const MAX_POSTS_DIA = LIMITE_DIARIO_PADRAO;
   const inicioDia = new Date(new Date().toLocaleString('en-US', { timeZone: 'America/Sao_Paulo' }));
   inicioDia.setHours(0, 0, 0, 0);
   const postasHoje = relatorio.filter(p =>
@@ -219,7 +222,9 @@ async function main() {
 
   const noticias = await buscarNoticias();
 
-  const permissao = podePublicarFeed();
+  // A meta editorial de nove Reels/dia não deve ser interrompida por uma métrica
+  // atrasada. A avaliação continua disponível para os demais formatos e relatórios.
+  const permissao = podePublicarFeed({ bloquearPorDesempenho: false });
   if (!permissao.permitido) {
     console.log(`Feed suprimido: ${permissao.motivo}.`);
     registrarVerificacao('feed_suprimido', `Feed não publicado: ${permissao.motivo}.`);
@@ -273,7 +278,7 @@ async function main() {
   const captionsRecentes = await buscarCaptionsRecentes();
   console.log(`Dedup Instagram: ${captionsRecentes.length} legendas recentes consultadas.`);
 
-  // Se não houver notícia nova na última 1h, não posta (evita conteúdo desatualizado)
+  // Se não houver notícia nova na janela configurada, não posta (evita conteúdo desatualizado)
   const nova = candidatas.find(c => {
     const jaNoPerfil = captionsRecentes.some(cap => titulosSimilares(c.titulo, cap));
     if (jaNoPerfil) console.log(`Pulando (já está no perfil): ${c.titulo.slice(0, 70)}`);
@@ -281,8 +286,8 @@ async function main() {
   }) || null;
 
   if (!nova) {
-    console.log('Nenhuma noticia nova na última 1h. Nada a postar.');
-    registrarVerificacao('sem_noticia', 'Nenhuma notícia nova na última hora. Nada foi postado.');
+    console.log(`Nenhuma notícia nova nas últimas ${JANELA_HORAS}h. Nada a postar.`);
+    registrarVerificacao('sem_noticia', `Nenhuma notícia nova nas últimas ${JANELA_HORAS}h. Nada foi postado.`);
     return;
   }
 

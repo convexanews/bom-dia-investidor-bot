@@ -5,9 +5,9 @@ const { avaliarDesempenhoRecente } = require('./qualidade_desempenho.cjs');
 
 const RELATORIO = path.join(__dirname, 'relatorio.json');
 const METRICAS = path.join(__dirname, 'metricas.json');
-const DUAS_HORAS = 90 * 60 * 1000; // 1h30 — nome mantido por compatibilidade
-// Com intervalo de 1h30 e janela 06h–22h, cabem até 4 posts de feed/dia.
-const LIMITE_DIARIO_PADRAO = 4;
+const DUAS_HORAS = 2 * 60 * 60 * 1000;
+// Janelas de 2h entre 06h e 22h BRT: 06, 08, 10, 12, 14, 16, 18, 20 e 22.
+const LIMITE_DIARIO_PADRAO = 9;
 
 function lerRelatorio() {
   try { return JSON.parse(fs.readFileSync(RELATORIO, 'utf8')); } catch { return []; }
@@ -34,7 +34,12 @@ function estaNaJanelaDePublicacao(agora = new Date()) {
   return hora >= 6 && hora <= 22;
 }
 
-function podePublicarFeed({ limiteDiario = LIMITE_DIARIO_PADRAO, intervaloMs = DUAS_HORAS, agora = new Date() } = {}) {
+function podePublicarFeed({
+  limiteDiario = LIMITE_DIARIO_PADRAO,
+  intervaloMs = DUAS_HORAS,
+  bloquearPorDesempenho = true,
+  agora = new Date(),
+} = {}) {
   if (!estaNaJanelaDePublicacao(agora)) return { permitido: false, motivo: 'fora da janela de publicação (06h–22h BRT)' };
   const posts = lerRelatorio().filter(p => p.data && p.origem !== 'manual');
   const hoje = inicioDiaBRT(agora);
@@ -44,8 +49,10 @@ function podePublicarFeed({ limiteDiario = LIMITE_DIARIO_PADRAO, intervaloMs = D
   if (ultimo && agora.getTime() - new Date(ultimo.data).getTime() < intervaloMs) {
     return { permitido: false, motivo: 'intervalo global mínimo de duas horas' };
   }
-  const desempenho = avaliarDesempenhoRecente(lerMetricas());
-  if (!desempenho.aprovado) return { permitido: false, motivo: desempenho.motivo };
+  if (bloquearPorDesempenho) {
+    const desempenho = avaliarDesempenhoRecente(lerMetricas());
+    if (!desempenho.aprovado) return { permitido: false, motivo: desempenho.motivo };
+  }
   return { permitido: true };
 }
 
