@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-16T11:30:54.022Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
+  },
+  {
     "data": "2026-08-16T11:18:22.672Z",
     "resultado": "sem_noticia_story",
     "mensagem": "Nenhuma notícia recente de menor impacto foi encontrada."
@@ -1002,12 +1007,6 @@
   },
   {
     "data": "2026-08-14T09:48:46.688Z",
-    "resultado": "pauta_reprovada",
-    "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
-    "titulo": "Varejo nos EUA, PIB na Europa, desemprego no Brasil e mais destaques nesta sexta"
-  },
-  {
-    "data": "2026-08-14T09:31:14.157Z",
     "resultado": "pauta_reprovada",
     "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
     "titulo": "Varejo nos EUA, PIB na Europa, desemprego no Brasil e mais destaques nesta sexta"
