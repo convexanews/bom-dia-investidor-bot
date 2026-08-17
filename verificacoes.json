@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-17T23:31:04.100Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
     "data": "2026-08-17T23:21:12.582Z",
     "resultado": "story_noticia_postado",
     "mensagem": "Story publicado (peso 46): \"BHP registra produção recorde no ano fiscal de 2026 e ações sobem\".",
@@ -1033,10 +1038,5 @@
     "data": "2026-08-15T01:04:45.350Z",
     "resultado": "erro",
     "mensagem": "Erro na execução automática: publicarCarrossel is not defined"
-  },
-  {
-    "data": "2026-08-15T01:04:11.541Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 81): \"Tesouro Direto fecha semana sob estresse, com taxas dos Prefixados e IPCA+ em alta\". Realizando postagem..."
   }
 ]
