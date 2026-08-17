@@ -1,5 +1,11 @@
 [
   {
+    "data": "2026-08-17T11:31:04.657Z",
+    "resultado": "pauta_reprovada",
+    "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
+    "titulo": "Focus mantém inflação de 2026 em 5,02% e reduz projeção para PIB de 2027"
+  },
+  {
     "data": "2026-08-17T11:24:21.136Z",
     "resultado": "story_noticia_postado",
     "mensagem": "Story publicado (peso 64): \"Crescimento do Japão no 2º trimestre fica abaixo do esperado por queda nos gastos e investimentos\".",
@@ -1015,10 +1021,5 @@
     "data": "2026-08-15T00:24:50.137Z",
     "resultado": "erro",
     "mensagem": "Erro na execução automática: Render inválido: PNG vazio ou corrompido (/tmp/bdi-tiktok-j4ZRy1/cena-1.png)."
-  },
-  {
-    "data": "2026-08-15T00:24:44.836Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 81): \"Tesouro Direto fecha semana sob estresse, com taxas dos Prefixados e IPCA+ em alta\". Realizando postagem..."
   }
 ]
