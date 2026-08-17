@@ -1,5 +1,11 @@
 [
   {
+    "data": "2026-08-17T15:32:41.162Z",
+    "resultado": "pauta_reprovada",
+    "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
+    "titulo": "Ibovespa opera sem direção com Petrobras em alta e bancos em queda; dólar tem leve queda"
+  },
+  {
     "data": "2026-08-17T15:01:34.099Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1021,10 +1027,5 @@
     "data": "2026-08-15T00:37:24.123Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 81): \"Tesouro Direto fecha semana sob estresse, com taxas dos Prefixados e IPCA+ em alta\". Realizando postagem..."
-  },
-  {
-    "data": "2026-08-15T00:36:51.077Z",
-    "resultado": "erro",
-    "mensagem": "Erro na execução automática: Render inválido: PNG vazio ou corrompido (/home/runner/work/bom-dia-investidor-bot/bom-dia-investidor-bot/pages-repo/bdi-cards/noticia-1786754210097-slide1.png)."
   }
 ]
