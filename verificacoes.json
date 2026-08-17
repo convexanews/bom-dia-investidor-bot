@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-17T12:30:57.070Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 93 min."
+  },
+  {
     "data": "2026-08-17T12:03:00.504Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (carrossel): \"Após seis altas consecutivas, inflação para 2026 fica estável; confira o Focus desta segunda-feira (17)\".",
@@ -1021,10 +1026,5 @@
     "data": "2026-08-15T00:26:05.567Z",
     "resultado": "erro",
     "mensagem": "Erro na execução automática: Render inválido: PNG vazio ou corrompido (/tmp/bdi-tiktok-xnayKd/cena-1.png)."
-  },
-  {
-    "data": "2026-08-15T00:26:00.060Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 81): \"Tesouro Direto fecha semana sob estresse, com taxas dos Prefixados e IPCA+ em alta\". Realizando postagem..."
   }
 ]
