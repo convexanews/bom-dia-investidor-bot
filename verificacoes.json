@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-17T05:00:58.626Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (02:00 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-08-17T04:30:57.811Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (01:30 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1009,10 +1014,5 @@
     "data": "2026-08-14T22:50:13.691Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
-  },
-  {
-    "data": "2026-08-14T22:31:37.926Z",
-    "resultado": "erro",
-    "mensagem": "Erro na execução automática: Render inválido: PNG vazio ou corrompido (/home/runner/work/bom-dia-investidor-bot/bom-dia-investidor-bot/pages-repo/bdi-cards/noticia-1786746695186-slide1.png)."
   }
 ]
