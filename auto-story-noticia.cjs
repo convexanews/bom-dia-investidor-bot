@@ -1,5 +1,5 @@
 // Publica Stories de notícias recentes de menor impacto a cada ciclo editorial.
-// O feed fica reservado a Reels de maior impacto editorial.
+// O feed fica reservado aos formatos de maior impacto editorial.
 const fs = require('fs');
 const path = require('path');
 const { criarCapaRetencao } = require('./formato_editorial.cjs');

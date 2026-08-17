@@ -15,7 +15,7 @@ const { validarPautaAutomatica } = require('./qualidade_editorial.cjs');
 const { buscarImagemArtigo, baixarImagemBase64 } = require('./imagem_noticia.cjs');
 const { PESO_MINIMO_FEED, selecionarFormatoFeed } = require('./formato_publicacao.cjs');
 const { validarNoticiaParaPublicacao } = require('./qualidade_publicacao.cjs');
-const { podePublicarFeed, DUAS_HORAS, LIMITE_DIARIO_PADRAO } = require('./controle_publicacao.cjs');
+const { podePublicarFeed, NOVENTA_MINUTOS, LIMITE_DIARIO_PADRAO } = require('./controle_publicacao.cjs');
 const {
   carregarJson, salvarJson, registrarVerificacao, fetchComRetry,
   validarTokenInstagram, aguardarContainerPronto, gerarAltText,
@@ -192,21 +192,21 @@ async function main() {
     return;
   }
 
-  // Cada ciclo editorial ocorre a cada 2h. Mantemos esse intervalo como
+  // Cada ciclo editorial ocorre a cada 1h30. Mantemos esse intervalo como
   // proteção adicional caso o workflow seja disparado manualmente.
-  const INTERVALO_MIN_MS = DUAS_HORAS;
+  const INTERVALO_MIN_MS = NOVENTA_MINUTOS;
   const ultimoPost = relatorio.find(p => p.origem !== 'manual');
   if (ultimoPost) {
     const tempoDesdeUltimo = Date.now() - new Date(ultimoPost.data).getTime();
     if (tempoDesdeUltimo < INTERVALO_MIN_MS) {
       const minRestantes = Math.ceil((INTERVALO_MIN_MS - tempoDesdeUltimo) / 60000);
-      console.log(`Último post há ${Math.floor(tempoDesdeUltimo / 60000)} min. Próximo em ${minRestantes} min (intervalo de 2h).`);
-      registrarVerificacao('aguardando_intervalo', `Aguardando intervalo de 2h entre posts. Faltam ${minRestantes} min.`);
+      console.log(`Último post há ${Math.floor(tempoDesdeUltimo / 60000)} min. Próximo em ${minRestantes} min (intervalo de 1h30).`);
+      registrarVerificacao('aguardando_intervalo', `Aguardando intervalo de 1h30 entre posts. Faltam ${minRestantes} min.`);
       return;
     }
   }
 
-  // Feed recebe somente notícias de alto impacto, no máximo uma a cada 2h.
+  // Feed recebe somente notícias de alto impacto, no máximo uma a cada 1h30.
   // O teto evita uma enxurrada caso diversas fontes publiquem a mesma pauta.
   const MAX_POSTS_DIA = LIMITE_DIARIO_PADRAO;
   const inicioDia = new Date(new Date().toLocaleString('en-US', { timeZone: 'America/Sao_Paulo' }));

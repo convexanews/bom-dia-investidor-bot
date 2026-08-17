@@ -6,8 +6,8 @@ test('o módulo de controle mantém intervalo e limite configuráveis', () => {
   const controle = require('../controle_publicacao.cjs');
   assert.equal(typeof controle.podePublicarFeed, 'function');
   assert.equal(typeof controle.registrarPublicacao, 'function');
-  assert.equal(controle.DUAS_HORAS, 2 * 60 * 60 * 1000);
-  assert.equal(controle.LIMITE_DIARIO_PADRAO, 9);
+  assert.equal(controle.NOVENTA_MINUTOS, 90 * 60 * 1000);
+  assert.equal(controle.LIMITE_DIARIO_PADRAO, 11);
 });
 
 test('a janela global permite posts entre 6h e 22h em Brasília', () => {

@@ -14,15 +14,45 @@ function escapeHtml(str) {
     .replace(/>/g, '&gt;');
 }
 
-// Microsoft Edge TTS Neural — voz feminina natural pt-BR
-// Voz: pt-BR-ThalitaMultilingualNeural (a mais humana disponível);
-// fallback FranciscaNeural se a multilingual falhar.
+// TTS com vozes exclusivamente pt-BR. Evitamos vozes multilíngues para que
+// o Reel não mude a pronúncia/idioma da narração durante a publicação.
+const VOZ_TTS_PRIMARIA = 'pt-BR-FranciscaNeural';
+const VOZ_TTS_RESERVA = 'pt-BR-AntonioNeural';
+
+function validarTextoNarracaoEmPortugues(texto) {
+  const normalizado = String(texto || '').replace(/\s+/g, ' ').trim();
+  if (normalizado.length < 40) {
+    throw new Error('Narração curta demais para validação de idioma.');
+  }
+
+  // Indicadores inequivocamente espanhóis. Dois ou mais bloqueiam a publicação
+  // para evitar falsos positivos em nomes próprios ou termos de mercado.
+  const termosEspanhois = normalizado.match(/\b(?:los|las|del|unos|unas|pero|también|desde|hacia|después|mientras|aunque|según)\b/gi) || [];
+  if (termosEspanhois.length >= 2) {
+    throw new Error('Narração bloqueada: texto aparenta estar em espanhol.');
+  }
+
+  const marcadoresPtBr = normalizado.match(/\b(?:o|a|os|as|um|uma|dos|das|não|para|com|que|de|em|por|sobre|após|entre|mercado|investidores|notícia)\b/gi) || [];
+  if (marcadoresPtBr.length < 3) {
+    throw new Error('Narração bloqueada: não foi possível confirmar texto em português.');
+  }
+  return normalizado;
+}
+
+function validarArquivoTTS(saida) {
+  if (!fs.existsSync(saida) || fs.statSync(saida).size < 1024) {
+    throw new Error('Narração TTS não foi gerada corretamente.');
+  }
+}
+
 async function gerarTTS(texto, saida) {
-  const textoLimpo = String(texto || '').replace(/\s+/g, ' ').trim().slice(0, 900);
+  const textoLimpo = validarTextoNarracaoEmPortugues(texto).slice(0, 900);
   try {
-    execFileSync('python', ['-m', 'edge_tts', '--voice', 'pt-BR-ThalitaMultilingualNeural', '--rate=-4%', '--text', textoLimpo, '--write-media', saida], { stdio: 'inherit', timeout: 60000 });
+    execFileSync('python', ['-m', 'edge_tts', '--voice', VOZ_TTS_PRIMARIA, '--rate=-4%', '--text', textoLimpo, '--write-media', saida], { stdio: 'inherit', timeout: 60000 });
+    validarArquivoTTS(saida);
   } catch {
-    execFileSync('python', ['-m', 'edge_tts', '--voice', 'pt-BR-FranciscaNeural', '--rate=-4%', '--text', textoLimpo, '--write-media', saida], { stdio: 'inherit', timeout: 60000 });
+    execFileSync('python', ['-m', 'edge_tts', '--voice', VOZ_TTS_RESERVA, '--rate=-4%', '--text', textoLimpo, '--write-media', saida], { stdio: 'inherit', timeout: 60000 });
+    validarArquivoTTS(saida);
   }
   return saida;
 }
@@ -176,7 +206,7 @@ function montarLegendaTikTok(cfg) {
   return `📌 ${cfg.manchete}\n\nO que aconteceu: ${resumo}\n\nFonte: ${cfg.fonte || 'não informada'}. Conteúdo informativo; não é recomendação de investimento.\n\n${tema} #investimentos #bomdiainvestidor`;
 }
 
-module.exports = { gerarVideoTikTok, gerarFrame, gerarTTS, montarLegendaTikTok, montarTextoNarracao, montarBlocosLegenda, montarFiltroVideoAnimado };
+module.exports = { gerarVideoTikTok, gerarFrame, gerarTTS, montarLegendaTikTok, montarTextoNarracao, montarBlocosLegenda, montarFiltroVideoAnimado, validarTextoNarracaoEmPortugues, VOZ_TTS_PRIMARIA, VOZ_TTS_RESERVA };
 
 if (require.main === module) {
   const cfg = JSON.parse(process.argv[2] || '{}');

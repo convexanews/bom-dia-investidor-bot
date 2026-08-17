@@ -5,9 +5,9 @@ const { avaliarDesempenhoRecente } = require('./qualidade_desempenho.cjs');
 
 const RELATORIO = path.join(__dirname, 'relatorio.json');
 const METRICAS = path.join(__dirname, 'metricas.json');
-const DUAS_HORAS = 2 * 60 * 60 * 1000;
-// Janelas de 2h entre 06h e 22h BRT: 06, 08, 10, 12, 14, 16, 18, 20 e 22.
-const LIMITE_DIARIO_PADRAO = 9;
+const NOVENTA_MINUTOS = 90 * 60 * 1000;
+// Janelas de 1h30 entre 06h e 22h BRT: até 11 publicações por dia.
+const LIMITE_DIARIO_PADRAO = 11;
 
 function lerRelatorio() {
   try { return JSON.parse(fs.readFileSync(RELATORIO, 'utf8')); } catch { return []; }
@@ -36,7 +36,7 @@ function estaNaJanelaDePublicacao(agora = new Date()) {
 
 function podePublicarFeed({
   limiteDiario = LIMITE_DIARIO_PADRAO,
-  intervaloMs = DUAS_HORAS,
+  intervaloMs = NOVENTA_MINUTOS,
   bloquearPorDesempenho = true,
   agora = new Date(),
 } = {}) {
@@ -47,7 +47,7 @@ function podePublicarFeed({
   if (hojeCount >= limiteDiario) return { permitido: false, motivo: 'limite diário global atingido' };
   const ultimo = posts[0];
   if (ultimo && agora.getTime() - new Date(ultimo.data).getTime() < intervaloMs) {
-    return { permitido: false, motivo: 'intervalo global mínimo de duas horas' };
+    return { permitido: false, motivo: 'intervalo global mínimo de 1h30' };
   }
   if (bloquearPorDesempenho) {
     const desempenho = avaliarDesempenhoRecente(lerMetricas());
@@ -62,4 +62,4 @@ function registrarPublicacao(dados) {
   fs.writeFileSync(RELATORIO, JSON.stringify(posts.slice(0, 200), null, 2));
 }
 
-module.exports = { podePublicarFeed, registrarPublicacao, DUAS_HORAS, LIMITE_DIARIO_PADRAO, estaNaJanelaDePublicacao };
+module.exports = { podePublicarFeed, registrarPublicacao, NOVENTA_MINUTOS, LIMITE_DIARIO_PADRAO, estaNaJanelaDePublicacao };
