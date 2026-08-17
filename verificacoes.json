@@ -1,5 +1,18 @@
 [
   {
+    "data": "2026-08-17T23:21:12.582Z",
+    "resultado": "story_noticia_postado",
+    "mensagem": "Story publicado (peso 46): \"BHP registra produção recorde no ano fiscal de 2026 e ações sobem\".",
+    "postId": "17901752253518729",
+    "peso": 46
+  },
+  {
+    "data": "2026-08-17T23:20:39.489Z",
+    "resultado": "story_sem_imagem",
+    "mensagem": "Story publicado sem imagem editorial: \"BHP registra produção recorde no ano fiscal de 2026 e ações sobem\".",
+    "link": "https://br.investing.com/news/transcripts/bhp-registra-producao-recorde-no-ano-fiscal-de-2026-e-acoes-sobem-93CH-2042039"
+  },
+  {
     "data": "2026-08-17T23:01:05.394Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1025,15 +1038,5 @@
     "data": "2026-08-15T01:04:11.541Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 81): \"Tesouro Direto fecha semana sob estresse, com taxas dos Prefixados e IPCA+ em alta\". Realizando postagem..."
-  },
-  {
-    "data": "2026-08-15T01:01:10.841Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
-  },
-  {
-    "data": "2026-08-15T00:59:42.307Z",
-    "resultado": "erro",
-    "mensagem": "Erro na execução automática: Render inválido: slide_carrossel ainda contém placeholders não preenchidos."
   }
 ]
