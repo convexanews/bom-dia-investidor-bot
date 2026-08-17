@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-08-17T12:03:00.504Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (carrossel): \"Após seis altas consecutivas, inflação para 2026 fica estável; confira o Focus desta segunda-feira (17)\".",
+    "postId": "18401617738088831",
+    "storyId": null,
+    "reelId": null,
+    "tipo": "carrossel"
+  },
+  {
+    "data": "2026-08-17T12:01:53.846Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 78): \"Após seis altas consecutivas, inflação para 2026 fica estável; confira o Focus desta segunda-feira (17)\". Realizando postagem..."
+  },
+  {
     "data": "2026-08-17T11:33:41.829Z",
     "resultado": "pauta_reprovada",
     "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
@@ -1010,16 +1024,6 @@
   },
   {
     "data": "2026-08-15T00:26:00.060Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 81): \"Tesouro Direto fecha semana sob estresse, com taxas dos Prefixados e IPCA+ em alta\". Realizando postagem..."
-  },
-  {
-    "data": "2026-08-15T00:25:27.959Z",
-    "resultado": "erro",
-    "mensagem": "Erro na execução automática: Render inválido: PNG vazio ou corrompido (/tmp/bdi-tiktok-L4jLo0/cena-1.png)."
-  },
-  {
-    "data": "2026-08-15T00:25:22.224Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 81): \"Tesouro Direto fecha semana sob estresse, com taxas dos Prefixados e IPCA+ em alta\". Realizando postagem..."
   }
