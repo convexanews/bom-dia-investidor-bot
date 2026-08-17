@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-17T17:34:56.562Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 118 min."
+  },
+  {
     "data": "2026-08-17T17:32:30.061Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (carrossel): \"Fim da isenção das LCIs ameaça disparar juros e travar o mercado imobiliário, dizem bancos\".",
@@ -1028,10 +1033,5 @@
     "data": "2026-08-15T00:43:24.867Z",
     "resultado": "erro",
     "mensagem": "Erro na execução automática: Render inválido: PNG vazio ou corrompido (/home/runner/work/bom-dia-investidor-bot/bom-dia-investidor-bot/pages-repo/bdi-cards/noticia-1786754603762-slide1.png)."
-  },
-  {
-    "data": "2026-08-15T00:43:19.682Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 81): \"Tesouro Direto fecha semana sob estresse, com taxas dos Prefixados e IPCA+ em alta\". Realizando postagem..."
   }
 ]
