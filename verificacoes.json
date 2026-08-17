@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-17T03:56:27.028Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (00:56 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-08-17T03:31:02.841Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (00:31 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1009,10 +1014,5 @@
     "data": "2026-08-14T22:01:25.706Z",
     "resultado": "erro",
     "mensagem": "Erro na execução automática: Render inválido: PNG vazio ou corrompido (/home/runner/work/bom-dia-investidor-bot/bom-dia-investidor-bot/pages-repo/bdi-cards/noticia-1786744884212-slide1.png)."
-  },
-  {
-    "data": "2026-08-14T22:01:19.673Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 81): \"Tesouro Direto fecha semana sob estresse, com taxas dos Prefixados e IPCA+ em alta\". Realizando postagem..."
   }
 ]
