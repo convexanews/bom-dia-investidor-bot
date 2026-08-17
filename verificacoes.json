@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-17T16:31:01.199Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
     "data": "2026-08-17T16:25:36.769Z",
     "resultado": "story_noticia_postado",
     "mensagem": "Story publicado (peso 55): \"Ibovespa Hoje Ao Vivo: Bolsa oscila com IBC-Br, Focus, eleições e guerra no radar\".",
@@ -1024,10 +1029,5 @@
     "data": "2026-08-15T00:38:07.810Z",
     "resultado": "erro",
     "mensagem": "Erro na execução automática: Render inválido: PNG vazio ou corrompido (/home/runner/work/bom-dia-investidor-bot/bom-dia-investidor-bot/pages-repo/bdi-cards/noticia-1786754286755-slide1.png)."
-  },
-  {
-    "data": "2026-08-15T00:38:02.421Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 81): \"Tesouro Direto fecha semana sob estresse, com taxas dos Prefixados e IPCA+ em alta\". Realizando postagem..."
   }
 ]
