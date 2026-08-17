@@ -1,5 +1,28 @@
 [
   {
+    "data": "2026-08-17T09:02:04.805Z",
+    "titulo": "Nasdaq e S&P 500 futuros avançam com menor aposta em alta de juros pelo Fed",
+    "categoria": "Mercados",
+    "fonte": "InfoMoney",
+    "link": "https://www.infomoney.com.br/mercados/nasdaq-e-sp-500-futuros-avancam-com-menor-aposta-em-alta-de-juros-pelo-fed/",
+    "postId": "17929335261385079",
+    "storyId": null,
+    "reelId": null,
+    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1786957262330-slide1.png",
+    "imagemStory": null,
+    "videoUrl": null,
+    "tipo": "carrossel",
+    "peso": 78,
+    "pilares": [
+      "macro",
+      "bolsa",
+      "exterior"
+    ],
+    "horarioBRT": "06",
+    "cta": "📤 Envie para quem acompanha o mercado global.",
+    "decisaoFormato": "peso 78: carrossel"
+  },
+  {
     "data": "2026-08-16T23:29:52.025Z",
     "titulo": "Trilionário por 2 meses: a ‘marcha à ré’ da SpaceX que fez Elon Musk perder bilhões de dólares",
     "categoria": "G1",
@@ -3237,20 +3260,5 @@
     "videoUrl": null,
     "tipo": "carrossel",
     "peso": 35
-  },
-  {
-    "data": "2026-07-08T15:44:16.030Z",
-    "titulo": "Ibovespa Hoje Ao Vivo: Bolsa cai 1% com tensões geopolíticas; VALE3 despenca 4%",
-    "categoria": "Mercados",
-    "fonte": "InfoMoney",
-    "link": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-08072026/",
-    "postId": "17979021977881673",
-    "storyId": null,
-    "reelId": "17979021977881673",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783525373271.mp4",
-    "tipo": "reel",
-    "peso": 83
   }
 ]

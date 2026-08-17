@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-08-17T09:02:04.807Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (carrossel): \"Nasdaq e S&P 500 futuros avançam com menor aposta em alta de juros pelo Fed\".",
+    "postId": "17929335261385079",
+    "storyId": null,
+    "reelId": null,
+    "tipo": "carrossel"
+  },
+  {
+    "data": "2026-08-17T09:00:58.981Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 78): \"Nasdaq e S&P 500 futuros avançam com menor aposta em alta de juros pelo Fed\". Realizando postagem..."
+  },
+  {
     "data": "2026-08-17T08:31:06.859Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (05:31 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1002,16 +1016,6 @@
   },
   {
     "data": "2026-08-15T00:19:49.472Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 81): \"Tesouro Direto fecha semana sob estresse, com taxas dos Prefixados e IPCA+ em alta\". Realizando postagem..."
-  },
-  {
-    "data": "2026-08-15T00:19:16.936Z",
-    "resultado": "erro",
-    "mensagem": "Erro na execução automática: Render inválido: PNG vazio ou corrompido (/home/runner/work/bom-dia-investidor-bot/bom-dia-investidor-bot/pages-repo/bdi-cards/noticia-1786753155898-feed.png)."
-  },
-  {
-    "data": "2026-08-15T00:19:11.873Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 81): \"Tesouro Direto fecha semana sob estresse, com taxas dos Prefixados e IPCA+ em alta\". Realizando postagem..."
   }
