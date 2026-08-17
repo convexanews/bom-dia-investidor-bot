@@ -1,5 +1,28 @@
 [
   {
+    "data": "2026-08-17T17:32:30.059Z",
+    "titulo": "Fim da isenção das LCIs ameaça disparar juros e travar o mercado imobiliário, dizem bancos",
+    "categoria": "Economia",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/bancos-se-opoem-a-possivel-fim-da-isencao-de-imposto-para-letras-de-credito-imobiliario-lci-jcav/",
+    "postId": "18110225360283982",
+    "storyId": null,
+    "reelId": null,
+    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1786987883421-slide1.png",
+    "imagemStory": null,
+    "videoUrl": null,
+    "tipo": "carrossel",
+    "peso": 79,
+    "pilares": [
+      "macro",
+      "bolsa",
+      "renda_fixa"
+    ],
+    "horarioBRT": "14",
+    "cta": "📌 Salve para revisar quando o COPOM decidir.",
+    "decisaoFormato": "peso 79: carrossel"
+  },
+  {
     "data": "2026-08-17T12:03:00.502Z",
     "titulo": "Após seis altas consecutivas, inflação para 2026 fica estável; confira o Focus desta segunda-feira (17)",
     "categoria": "Economia",
@@ -3252,20 +3275,5 @@
     "videoUrl": null,
     "tipo": "carrossel",
     "peso": 35
-  },
-  {
-    "data": "2026-07-08T20:33:13.136Z",
-    "titulo": "Wall Street fecha sem direção única após escalada no Oriente Médio e após ata do Fed",
-    "categoria": "Mercados",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/wall-street-8-7-26-apsa/",
-    "postId": "17936173833329021",
-    "storyId": null,
-    "reelId": "17936173833329021",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783542698421.mp4",
-    "tipo": "reel",
-    "peso": 78
   }
 ]

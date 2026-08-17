@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-08-17T17:32:30.061Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (carrossel): \"Fim da isenção das LCIs ameaça disparar juros e travar o mercado imobiliário, dizem bancos\".",
+    "postId": "18110225360283982",
+    "storyId": null,
+    "reelId": null,
+    "tipo": "carrossel"
+  },
+  {
+    "data": "2026-08-17T17:31:17.306Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 79): \"Fim da isenção das LCIs ameaça disparar juros e travar o mercado imobiliário, dizem bancos\". Realizando postagem..."
+  },
+  {
     "data": "2026-08-17T17:01:49.491Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1017,16 +1031,6 @@
   },
   {
     "data": "2026-08-15T00:43:19.682Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 81): \"Tesouro Direto fecha semana sob estresse, com taxas dos Prefixados e IPCA+ em alta\". Realizando postagem..."
-  },
-  {
-    "data": "2026-08-15T00:42:47.303Z",
-    "resultado": "erro",
-    "mensagem": "Erro na execução automática: Render inválido: PNG vazio ou corrompido (/home/runner/work/bom-dia-investidor-bot/bom-dia-investidor-bot/pages-repo/bdi-cards/noticia-1786754566114-slide1.png)."
-  },
-  {
-    "data": "2026-08-15T00:42:41.750Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 81): \"Tesouro Direto fecha semana sob estresse, com taxas dos Prefixados e IPCA+ em alta\". Realizando postagem..."
   }
