@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-17T09:30:56.391Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
+  },
+  {
     "data": "2026-08-17T09:02:04.807Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (carrossel): \"Nasdaq e S&P 500 futuros avançam com menor aposta em alta de juros pelo Fed\".",
@@ -1013,10 +1018,5 @@
     "data": "2026-08-15T00:19:54.828Z",
     "resultado": "erro",
     "mensagem": "Erro na execução automática: Render inválido: PNG vazio ou corrompido (/home/runner/work/bom-dia-investidor-bot/bom-dia-investidor-bot/pages-repo/bdi-cards/noticia-1786753193821-feed.png)."
-  },
-  {
-    "data": "2026-08-15T00:19:49.472Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 81): \"Tesouro Direto fecha semana sob estresse, com taxas dos Prefixados e IPCA+ em alta\". Realizando postagem..."
   }
 ]
