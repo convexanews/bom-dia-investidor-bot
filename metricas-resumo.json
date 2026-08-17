@@ -1,25 +1,25 @@
 {
-  "atualizadoEm": "2026-08-16T11:41:49.678Z",
+  "atualizadoEm": "2026-08-17T11:46:51.164Z",
   "porFormato": {
     "carrossel": {
       "posts": 6,
-      "alcanceMedio": 18,
-      "salvamentosMedios": 0,
+      "alcanceMedio": 17,
+      "salvamentosMedios": 1,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
-      "taxaInteracaoMedia": 5.56
+      "taxaInteracaoMedia": 5.88
     },
     "reel": {
       "posts": 16,
-      "alcanceMedio": 79,
+      "alcanceMedio": 84,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
-      "taxaInteracaoMedia": 1.27
+      "taxaInteracaoMedia": 1.19
     },
     "card": {
       "posts": 3,
-      "alcanceMedio": 20,
+      "alcanceMedio": 21,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
@@ -28,7 +28,7 @@
   },
   "porPilar": {
     "macro": {
-      "posts": 21,
+      "posts": 23,
       "alcanceMedio": 63,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
@@ -36,7 +36,15 @@
       "taxaInteracaoMedia": 1.59
     },
     "bolsa": {
-      "posts": 24,
+      "posts": 23,
+      "alcanceMedio": 55,
+      "salvamentosMedios": 0,
+      "compartilhamentosMedios": 0,
+      "reproducoesMedias": null,
+      "taxaInteracaoMedia": 1.82
+    },
+    "exterior": {
+      "posts": 15,
       "alcanceMedio": 54,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
@@ -45,19 +53,11 @@
     },
     "renda_fixa": {
       "posts": 1,
-      "alcanceMedio": 12,
+      "alcanceMedio": 16,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
-      "taxaInteracaoMedia": 8.33
-    },
-    "exterior": {
-      "posts": 14,
-      "alcanceMedio": 51,
-      "salvamentosMedios": 0,
-      "compartilhamentosMedios": 0,
-      "reproducoesMedias": null,
-      "taxaInteracaoMedia": 1.96
+      "taxaInteracaoMedia": 6.25
     },
     "fiis": {
       "posts": 1,
@@ -69,39 +69,63 @@
     }
   },
   "porHorarioBRT": {
+    "20": {
+      "posts": 1,
+      "alcanceMedio": 116,
+      "salvamentosMedios": 0,
+      "compartilhamentosMedios": 0,
+      "reproducoesMedias": null,
+      "taxaInteracaoMedia": 0
+    },
     "22": {
       "posts": 1,
-      "alcanceMedio": 12,
+      "alcanceMedio": 16,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
-      "taxaInteracaoMedia": 8.33
+      "taxaInteracaoMedia": 6.25
+    },
+    "06": {
+      "posts": 1,
+      "alcanceMedio": 7,
+      "salvamentosMedios": 1,
+      "compartilhamentosMedios": 0,
+      "reproducoesMedias": null,
+      "taxaInteracaoMedia": 28.57
     },
     "não informado": {
-      "posts": 24,
-      "alcanceMedio": 59,
+      "posts": 22,
+      "alcanceMedio": 63,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
-      "taxaInteracaoMedia": 1.69
+      "taxaInteracaoMedia": 1.59
     }
   },
   "porCTA": {
+    "📤 Envie para quem acompanha o mercado global.": {
+      "posts": 2,
+      "alcanceMedio": 62,
+      "salvamentosMedios": 1,
+      "compartilhamentosMedios": 0,
+      "reproducoesMedias": null,
+      "taxaInteracaoMedia": 1.61
+    },
     "📌 Salve para revisar quando o COPOM decidir.": {
       "posts": 1,
-      "alcanceMedio": 12,
+      "alcanceMedio": 16,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
-      "taxaInteracaoMedia": 8.33
+      "taxaInteracaoMedia": 6.25
     },
     "não informado": {
-      "posts": 24,
-      "alcanceMedio": 59,
+      "posts": 22,
+      "alcanceMedio": 63,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
-      "taxaInteracaoMedia": 1.69
+      "taxaInteracaoMedia": 1.59
     }
   }
 }

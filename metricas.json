@@ -1,7 +1,68 @@
 [
   {
+    "postId": "17929335261385079",
+    "dataColeta": "2026-08-17T11:46:31.663Z",
+    "dataPostagem": "2026-08-17T09:02:04.805Z",
+    "tipo": "carrossel",
+    "pilares": [
+      "macro",
+      "bolsa",
+      "exterior"
+    ],
+    "peso": 78,
+    "fonte": "InfoMoney",
+    "titulo": "Nasdaq e S&P 500 futuros avançam com menor aposta em alta de juros pelo Fed",
+    "horarioBRT": "06",
+    "cta": "📤 Envie para quem acompanha o mercado global.",
+    "decisaoFormato": "peso 78: carrossel",
+    "insights": {
+      "reach": 7,
+      "saved": 1,
+      "shares": 0,
+      "comments": 0,
+      "likes": 1,
+      "total_interactions": 2,
+      "falhas": [
+        {
+          "metrica": "plays",
+          "erro": "Instagram respondeu 400"
+        }
+      ]
+    }
+  },
+  {
+    "postId": "18096294650137323",
+    "dataColeta": "2026-08-17T11:46:32.496Z",
+    "dataPostagem": "2026-08-16T23:29:52.025Z",
+    "tipo": "reel",
+    "pilares": [
+      "macro",
+      "exterior"
+    ],
+    "peso": 50,
+    "fonte": "G1 Economia",
+    "titulo": "Trilionário por 2 meses: a ‘marcha à ré’ da SpaceX que fez Elon Musk perder bilhões de dólares",
+    "horarioBRT": "20",
+    "cta": "📤 Envie para quem acompanha o mercado global.",
+    "decisaoFormato": "peso 50: reel",
+    "insights": {
+      "reach": 116,
+      "saved": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "total_interactions": 0,
+      "falhas": [
+        {
+          "metrica": "plays",
+          "erro": "Instagram respondeu 400"
+        }
+      ]
+    }
+  },
+  {
     "postId": "18138124603606268",
-    "dataColeta": "2026-08-16T11:41:15.558Z",
+    "dataColeta": "2026-08-17T11:46:33.244Z",
     "dataPostagem": "2026-08-15T01:12:19.454Z",
     "tipo": "carrossel",
     "pilares": [
@@ -17,7 +78,7 @@
     "cta": "📌 Salve para revisar quando o COPOM decidir.",
     "decisaoFormato": "peso 81: carrossel",
     "insights": {
-      "reach": 12,
+      "reach": 16,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -33,7 +94,7 @@
   },
   {
     "postId": "17965194723150941",
-    "dataColeta": "2026-08-16T11:41:16.944Z",
+    "dataColeta": "2026-08-17T11:46:34.072Z",
     "dataPostagem": "2026-08-13T14:03:18.128Z",
     "tipo": "reel",
     "pilares": [
@@ -48,7 +109,7 @@
     "cta": null,
     "decisaoFormato": null,
     "insights": {
-      "reach": 127,
+      "reach": 130,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -64,7 +125,7 @@
   },
   {
     "postId": "18092239103437738",
-    "dataColeta": "2026-08-16T11:41:18.286Z",
+    "dataColeta": "2026-08-17T11:46:34.879Z",
     "dataPostagem": "2026-08-12T20:32:12.584Z",
     "tipo": "carrossel",
     "pilares": [
@@ -79,7 +140,7 @@
     "cta": null,
     "decisaoFormato": null,
     "insights": {
-      "reach": 18,
+      "reach": 19,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -95,7 +156,7 @@
   },
   {
     "postId": "18410454094157439",
-    "dataColeta": "2026-08-16T11:41:19.727Z",
+    "dataColeta": "2026-08-17T11:46:35.512Z",
     "dataPostagem": "2026-08-12T17:03:10.048Z",
     "tipo": "reel",
     "pilares": [
@@ -109,7 +170,7 @@
     "cta": null,
     "decisaoFormato": null,
     "insights": {
-      "reach": 114,
+      "reach": 115,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -125,7 +186,7 @@
   },
   {
     "postId": "18016231085916957",
-    "dataColeta": "2026-08-16T11:41:21.101Z",
+    "dataColeta": "2026-08-17T11:46:36.260Z",
     "dataPostagem": "2026-08-12T10:33:02.280Z",
     "tipo": "carrossel",
     "pilares": [
@@ -140,7 +201,7 @@
     "cta": null,
     "decisaoFormato": null,
     "insights": {
-      "reach": 14,
+      "reach": 15,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -156,7 +217,7 @@
   },
   {
     "postId": "18119833246923540",
-    "dataColeta": "2026-08-16T11:41:22.479Z",
+    "dataColeta": "2026-08-17T11:46:36.993Z",
     "dataPostagem": "2026-08-11T21:03:00.354Z",
     "tipo": "reel",
     "pilares": [
@@ -171,7 +232,7 @@
     "cta": null,
     "decisaoFormato": null,
     "insights": {
-      "reach": 62,
+      "reach": 63,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -187,7 +248,7 @@
   },
   {
     "postId": "17943051630292360",
-    "dataColeta": "2026-08-16T11:41:23.967Z",
+    "dataColeta": "2026-08-17T11:46:37.794Z",
     "dataPostagem": "2026-08-11T11:32:52.418Z",
     "tipo": "reel",
     "pilares": [
@@ -202,7 +263,7 @@
     "cta": null,
     "decisaoFormato": null,
     "insights": {
-      "reach": 111,
+      "reach": 112,
       "saved": 1,
       "shares": 0,
       "comments": 0,
@@ -218,7 +279,7 @@
   },
   {
     "postId": "17997022415989876",
-    "dataColeta": "2026-08-16T11:41:25.307Z",
+    "dataColeta": "2026-08-17T11:46:38.902Z",
     "dataPostagem": "2026-08-11T09:33:29.789Z",
     "tipo": "reel",
     "pilares": [
@@ -229,6 +290,67 @@
     "peso": 101,
     "fonte": "InfoMoney",
     "titulo": "Ata do Copom, IPCA, balanços e mais destaques desta terça-feira",
+    "horarioBRT": null,
+    "cta": null,
+    "decisaoFormato": null,
+    "insights": {
+      "reach": 50,
+      "saved": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 1,
+      "total_interactions": 1,
+      "falhas": [
+        {
+          "metrica": "plays",
+          "erro": "Instagram respondeu 400"
+        }
+      ]
+    }
+  },
+  {
+    "postId": "18042864992810072",
+    "dataColeta": "2026-08-17T11:46:39.744Z",
+    "dataPostagem": "2026-08-10T09:33:00.055Z",
+    "tipo": "reel",
+    "pilares": [
+      "macro",
+      "bolsa",
+      "exterior"
+    ],
+    "peso": 83,
+    "fonte": "InfoMoney",
+    "titulo": "Focus, balanço da Embraer, negociações sobre Ormuz e mais destaques desta segunda",
+    "horarioBRT": null,
+    "cta": null,
+    "decisaoFormato": null,
+    "insights": {
+      "reach": 33,
+      "saved": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 1,
+      "total_interactions": 1,
+      "falhas": [
+        {
+          "metrica": "plays",
+          "erro": "Instagram respondeu 400"
+        }
+      ]
+    }
+  },
+  {
+    "postId": "18020922923698362",
+    "dataColeta": "2026-08-17T11:46:40.339Z",
+    "dataPostagem": "2026-08-09T15:02:45.228Z",
+    "tipo": "reel",
+    "pilares": [
+      "macro",
+      "bolsa"
+    ],
+    "peso": 62,
+    "fonte": "Money Times",
+    "titulo": "Inflação, ata do Copom e CPI dos EUA estão no radar dos mercados nesta semana; confira agenda",
     "horarioBRT": null,
     "cta": null,
     "decisaoFormato": null,
@@ -248,69 +370,8 @@
     }
   },
   {
-    "postId": "18042864992810072",
-    "dataColeta": "2026-08-16T11:41:26.597Z",
-    "dataPostagem": "2026-08-10T09:33:00.055Z",
-    "tipo": "reel",
-    "pilares": [
-      "macro",
-      "bolsa",
-      "exterior"
-    ],
-    "peso": 83,
-    "fonte": "InfoMoney",
-    "titulo": "Focus, balanço da Embraer, negociações sobre Ormuz e mais destaques desta segunda",
-    "horarioBRT": null,
-    "cta": null,
-    "decisaoFormato": null,
-    "insights": {
-      "reach": 32,
-      "saved": 0,
-      "shares": 0,
-      "comments": 0,
-      "likes": 1,
-      "total_interactions": 1,
-      "falhas": [
-        {
-          "metrica": "plays",
-          "erro": "Instagram respondeu 400"
-        }
-      ]
-    }
-  },
-  {
-    "postId": "18020922923698362",
-    "dataColeta": "2026-08-16T11:41:28.196Z",
-    "dataPostagem": "2026-08-09T15:02:45.228Z",
-    "tipo": "reel",
-    "pilares": [
-      "macro",
-      "bolsa"
-    ],
-    "peso": 62,
-    "fonte": "Money Times",
-    "titulo": "Inflação, ata do Copom e CPI dos EUA estão no radar dos mercados nesta semana; confira agenda",
-    "horarioBRT": null,
-    "cta": null,
-    "decisaoFormato": null,
-    "insights": {
-      "reach": 48,
-      "saved": 0,
-      "shares": 0,
-      "comments": 0,
-      "likes": 1,
-      "total_interactions": 1,
-      "falhas": [
-        {
-          "metrica": "plays",
-          "erro": "Instagram respondeu 400"
-        }
-      ]
-    }
-  },
-  {
     "postId": "17946675600258612",
-    "dataColeta": "2026-08-16T11:41:29.725Z",
+    "dataColeta": "2026-08-17T11:46:41.016Z",
     "dataPostagem": "2026-08-08T13:02:49.856Z",
     "tipo": "reel",
     "pilares": [
@@ -340,7 +401,7 @@
   },
   {
     "postId": "18099908960250121",
-    "dataColeta": "2026-08-16T11:41:30.986Z",
+    "dataColeta": "2026-08-17T11:46:42.809Z",
     "dataPostagem": "2026-08-07T13:03:14.745Z",
     "tipo": "card",
     "pilares": [
@@ -354,7 +415,7 @@
     "cta": null,
     "decisaoFormato": null,
     "insights": {
-      "reach": 22,
+      "reach": 23,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -370,7 +431,7 @@
   },
   {
     "postId": "18137291668580867",
-    "dataColeta": "2026-08-16T11:41:32.616Z",
+    "dataColeta": "2026-08-17T11:46:43.650Z",
     "dataPostagem": "2026-08-06T22:33:06.187Z",
     "tipo": "carrossel",
     "pilares": [
@@ -400,7 +461,7 @@
   },
   {
     "postId": "18052937546792576",
-    "dataColeta": "2026-08-16T11:41:34.142Z",
+    "dataColeta": "2026-08-17T11:46:44.521Z",
     "dataPostagem": "2026-08-06T18:17:45.806Z",
     "tipo": "card",
     "pilares": [
@@ -414,7 +475,7 @@
     "cta": null,
     "decisaoFormato": null,
     "insights": {
-      "reach": 24,
+      "reach": 25,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -430,7 +491,7 @@
   },
   {
     "postId": "18238577470313469",
-    "dataColeta": "2026-08-16T11:41:35.434Z",
+    "dataColeta": "2026-08-17T11:46:45.440Z",
     "dataPostagem": "2026-08-06T14:32:54.238Z",
     "tipo": "carrossel",
     "pilares": [
@@ -445,7 +506,7 @@
     "cta": null,
     "decisaoFormato": null,
     "insights": {
-      "reach": 23,
+      "reach": 24,
       "saved": 2,
       "shares": 0,
       "comments": 0,
@@ -461,7 +522,7 @@
   },
   {
     "postId": "18089327834200632",
-    "dataColeta": "2026-08-16T11:41:36.782Z",
+    "dataColeta": "2026-08-17T11:46:46.237Z",
     "dataPostagem": "2026-08-06T11:02:52.370Z",
     "tipo": "reel",
     "pilares": [
@@ -476,7 +537,7 @@
     "cta": null,
     "decisaoFormato": null,
     "insights": {
-      "reach": 116,
+      "reach": 117,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -492,7 +553,7 @@
   },
   {
     "postId": "18087420347406792",
-    "dataColeta": "2026-08-16T11:41:38.637Z",
+    "dataColeta": "2026-08-17T11:46:47.032Z",
     "dataPostagem": "2026-08-05T23:03:04.023Z",
     "tipo": "reel",
     "pilares": [
@@ -522,7 +583,7 @@
   },
   {
     "postId": "18380641240233642",
-    "dataColeta": "2026-08-16T11:41:40.323Z",
+    "dataColeta": "2026-08-17T11:46:47.646Z",
     "dataPostagem": "2026-08-05T21:00:47.400Z",
     "tipo": "reel",
     "pilares": [
@@ -536,7 +597,7 @@
     "cta": null,
     "decisaoFormato": null,
     "insights": {
-      "reach": 43,
+      "reach": 44,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -552,7 +613,7 @@
   },
   {
     "postId": "17960906799183441",
-    "dataColeta": "2026-08-16T11:41:41.649Z",
+    "dataColeta": "2026-08-17T11:46:48.230Z",
     "dataPostagem": "2026-08-05T18:33:34.375Z",
     "tipo": "reel",
     "pilares": [
@@ -582,7 +643,7 @@
   },
   {
     "postId": "17939387505342111",
-    "dataColeta": "2026-08-16T11:41:42.997Z",
+    "dataColeta": "2026-08-17T11:46:49.004Z",
     "dataPostagem": "2026-08-05T16:02:27.621Z",
     "tipo": "reel",
     "pilares": [
@@ -612,7 +673,7 @@
   },
   {
     "postId": "18123187732754394",
-    "dataColeta": "2026-08-16T11:41:44.371Z",
+    "dataColeta": "2026-08-17T11:46:49.732Z",
     "dataPostagem": "2026-08-05T13:33:20.131Z",
     "tipo": "reel",
     "pilares": [
@@ -642,7 +703,7 @@
   },
   {
     "postId": "17958870759189977",
-    "dataColeta": "2026-08-16T11:41:45.588Z",
+    "dataColeta": "2026-08-17T11:46:50.568Z",
     "dataPostagem": "2026-08-05T11:03:19.220Z",
     "tipo": "reel",
     "pilares": [
@@ -657,7 +718,7 @@
     "cta": null,
     "decisaoFormato": null,
     "insights": {
-      "reach": 52,
+      "reach": 53,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -673,7 +734,7 @@
   },
   {
     "postId": "17966043903130307",
-    "dataColeta": "2026-08-16T11:41:46.946Z",
+    "dataColeta": "2026-08-17T11:46:51.163Z",
     "dataPostagem": "2026-08-05T01:31:48.224Z",
     "tipo": "card",
     "pilares": [
@@ -687,66 +748,7 @@
     "cta": null,
     "decisaoFormato": null,
     "insights": {
-      "reach": 14,
-      "saved": 0,
-      "shares": 0,
-      "comments": 0,
-      "likes": 0,
-      "total_interactions": 0,
-      "falhas": [
-        {
-          "metrica": "plays",
-          "erro": "Instagram respondeu 400"
-        }
-      ]
-    }
-  },
-  {
-    "postId": "18112881934978817",
-    "dataColeta": "2026-08-16T11:41:48.382Z",
-    "dataPostagem": "2026-08-04T23:02:47.389Z",
-    "tipo": "carrossel",
-    "pilares": [
-      "bolsa"
-    ],
-    "peso": 59,
-    "fonte": "Money Times",
-    "titulo": "C&A (CEAB3) lucra R$ 130,1 milhões no 2T26, alta de 4,3% no ano",
-    "horarioBRT": null,
-    "cta": null,
-    "decisaoFormato": null,
-    "insights": {
-      "reach": 17,
-      "saved": 0,
-      "shares": 0,
-      "comments": 0,
-      "likes": 0,
-      "total_interactions": 0,
-      "falhas": [
-        {
-          "metrica": "plays",
-          "erro": "Instagram respondeu 400"
-        }
-      ]
-    }
-  },
-  {
-    "postId": "18116838667901509",
-    "dataColeta": "2026-08-16T11:41:49.678Z",
-    "dataPostagem": "2026-08-04T20:32:55.301Z",
-    "tipo": "reel",
-    "pilares": [
-      "bolsa",
-      "exterior"
-    ],
-    "peso": 90,
-    "fonte": "Money Times",
-    "titulo": "Wall Street salta com expectativa de acordo de Ormuz; S&P 500 e Dow Jones batem recordes",
-    "horarioBRT": null,
-    "cta": null,
-    "decisaoFormato": null,
-    "insights": {
-      "reach": 38,
+      "reach": 15,
       "saved": 0,
       "shares": 0,
       "comments": 0,
