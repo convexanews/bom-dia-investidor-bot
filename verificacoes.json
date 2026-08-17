@@ -1,5 +1,12 @@
 [
   {
+    "data": "2026-08-17T21:24:33.157Z",
+    "resultado": "story_noticia_postado",
+    "mensagem": "Story publicado (peso 61): \"Wall Street recua com pressão do petróleo e escalada das tensões entre EUA-Irã\".",
+    "postId": "18009604682755519",
+    "peso": 61
+  },
+  {
     "data": "2026-08-17T21:02:12.016Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1028,10 +1035,5 @@
     "data": "2026-08-15T00:57:22.513Z",
     "resultado": "erro",
     "mensagem": "Erro na execução automática: Render inválido: slide_carrossel ainda contém placeholders não preenchidos."
-  },
-  {
-    "data": "2026-08-15T00:57:08.632Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 81): \"Tesouro Direto fecha semana sob estresse, com taxas dos Prefixados e IPCA+ em alta\". Realizando postagem..."
   }
 ]
