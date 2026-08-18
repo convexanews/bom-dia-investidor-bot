@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-08-18T10:47:24.262Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (carrossel): \"El Niño ‘muito forte’: o que está em jogo para a safra, a inflação e os juros no Brasil\".",
+    "postId": "18349020988223426",
+    "storyId": null,
+    "reelId": null,
+    "tipo": "carrossel"
+  },
+  {
+    "data": "2026-08-18T10:46:12.775Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 78): \"El Niño ‘muito forte’: o que está em jogo para a safra, a inflação e os juros no Brasil\". Realizando postagem..."
+  },
+  {
     "data": "2026-08-18T10:45:22.554Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1026,15 +1040,5 @@
     "data": "2026-08-15T03:01:15.486Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (00:01 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-08-15T02:30:54.111Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (23:30 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-08-15T02:01:06.465Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (23:01 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]

@@ -1,5 +1,27 @@
 [
   {
+    "data": "2026-08-18T10:47:24.260Z",
+    "titulo": "El Niño ‘muito forte’: o que está em jogo para a safra, a inflação e os juros no Brasil",
+    "categoria": "Economia",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/safra-inflacao-e-juros-o-efeito-domino-que-coloca-o-el-nino-no-radar-do-mercado/",
+    "postId": "18349020988223426",
+    "storyId": null,
+    "reelId": null,
+    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1787049977117-slide1.png",
+    "imagemStory": null,
+    "videoUrl": null,
+    "tipo": "carrossel",
+    "peso": 78,
+    "pilares": [
+      "macro",
+      "bolsa"
+    ],
+    "horarioBRT": "07",
+    "cta": "📌 Salve para revisar quando o COPOM decidir.",
+    "decisaoFormato": "peso 78: carrossel"
+  },
+  {
     "data": "2026-08-17T17:32:30.059Z",
     "titulo": "Fim da isenção das LCIs ameaça disparar juros e travar o mercado imobiliário, dizem bancos",
     "categoria": "Economia",
@@ -3260,20 +3282,5 @@
     "videoUrl": null,
     "tipo": "card",
     "peso": 42
-  },
-  {
-    "data": "2026-07-09T00:32:40.038Z",
-    "titulo": "Diretor financeiro da Omada Health vende US$ 85.423 em ações da empresa",
-    "categoria": "MERCADO",
-    "fonte": "Investing.com",
-    "link": "https://br.investing.com/news/insider-trading-news/diretor-financeiro-da-omada-health-vende-us-85423-em-acoes-da-empresa-93CH-1996502",
-    "postId": "17981053788013147",
-    "storyId": null,
-    "reelId": null,
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783557099316-slide1.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783557099316-story.png",
-    "videoUrl": null,
-    "tipo": "carrossel",
-    "peso": 35
   }
 ]
