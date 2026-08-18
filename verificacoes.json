@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-18T22:49:54.031Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 44 min."
+  },
+  {
     "data": "2026-08-18T22:31:09.259Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 63 min."
@@ -1045,10 +1050,5 @@
     "mensagem": "Story publicado (peso 35): \"Inflação, fluxo estrangeiro na bolsa e balanços do 2T26; veja destaques da semana\".",
     "postId": "17942021985309650",
     "peso": 35
-  },
-  {
-    "data": "2026-08-15T11:01:27.163Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
   }
 ]
