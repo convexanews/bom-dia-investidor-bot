@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-18T10:55:53.784Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 82 min."
+  },
+  {
     "data": "2026-08-18T10:47:24.262Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (carrossel): \"El Niño ‘muito forte’: o que está em jogo para a safra, a inflação e os juros no Brasil\".",
@@ -1035,10 +1040,5 @@
     "data": "2026-08-15T03:31:02.457Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (00:31 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-08-15T03:01:15.486Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (00:01 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
