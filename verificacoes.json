@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-18T22:31:09.259Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 63 min."
+  },
+  {
     "data": "2026-08-18T22:03:45.816Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"Ibovespa cai pela 11ª sessão seguida com PEC 6×1 no radar; dólar sobe\".",
@@ -1043,11 +1048,6 @@
   },
   {
     "data": "2026-08-15T11:01:27.163Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
-  },
-  {
-    "data": "2026-08-15T10:48:40.440Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
   }
