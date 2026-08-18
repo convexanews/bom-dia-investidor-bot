@@ -1,5 +1,11 @@
 [
   {
+    "data": "2026-08-18T09:31:01.789Z",
+    "resultado": "pauta_reprovada",
+    "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
+    "titulo": "Petróleo, indústria nos EUA, balanço da Home Depot e mais destaques nesta 3ª"
+  },
+  {
     "data": "2026-08-18T09:01:04.723Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1033,10 +1039,5 @@
     "storyId": null,
     "reelId": null,
     "tipo": "carrossel"
-  },
-  {
-    "data": "2026-08-15T01:11:00.216Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 81): \"Tesouro Direto fecha semana sob estresse, com taxas dos Prefixados e IPCA+ em alta\". Realizando postagem..."
   }
 ]
