@@ -1,5 +1,28 @@
 [
   {
+    "data": "2026-08-18T22:03:45.814Z",
+    "titulo": "Ibovespa cai pela 11ª sessão seguida com PEC 6×1 no radar; dólar sobe",
+    "categoria": "Mercados",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/ibovespa-18-8-26-apsa/",
+    "postId": "18102113207622917",
+    "storyId": null,
+    "reelId": "18102113207622917",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1787090523406.mp4",
+    "tipo": "reel",
+    "peso": 71,
+    "pilares": [
+      "macro",
+      "bolsa",
+      "exterior"
+    ],
+    "horarioBRT": "19",
+    "cta": "📤 Envie para quem tem ativos dolarizados.",
+    "decisaoFormato": "peso 71: reel"
+  },
+  {
     "data": "2026-08-18T13:32:45.364Z",
     "titulo": "Balanço dos balanços do 2T26: BTG vê temporada com receita forte, mas juros limitam avanço do lucro",
     "categoria": "Empresas",
@@ -3274,20 +3297,5 @@
     "videoUrl": null,
     "tipo": "carrossel",
     "peso": 55
-  },
-  {
-    "data": "2026-07-09T11:33:42.437Z",
-    "titulo": "Bitcoin (BTC) volta a subir apesar dos temores da guerra no Irã; veja preços das criptomoedas nesta quinta-feira (9)",
-    "categoria": "Criptomoedas",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/bom-dia-bitcoin-btc-precos-criptomoedas-hoje-rens-090726/",
-    "postId": "18110068339910993",
-    "storyId": null,
-    "reelId": "18110068339910993",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783596704283.mp4",
-    "tipo": "reel",
-    "peso": 42
   }
 ]

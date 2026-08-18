@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-08-18T22:03:45.816Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Ibovespa cai pela 11ª sessão seguida com PEC 6×1 no radar; dólar sobe\".",
+    "postId": "18102113207622917",
+    "storyId": null,
+    "reelId": "18102113207622917",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-08-18T22:01:57.610Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 71): \"Ibovespa cai pela 11ª sessão seguida com PEC 6×1 no radar; dólar sobe\". Realizando postagem..."
+  },
+  {
     "data": "2026-08-18T15:34:21.404Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1034,16 +1048,6 @@
   },
   {
     "data": "2026-08-15T10:48:40.440Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
-  },
-  {
-    "data": "2026-08-15T10:31:14.274Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
-  },
-  {
-    "data": "2026-08-15T10:01:15.095Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
   }
