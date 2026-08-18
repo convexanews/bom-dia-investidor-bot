@@ -1,5 +1,11 @@
 [
   {
+    "data": "2026-08-18T09:31:50.036Z",
+    "resultado": "pauta_reprovada",
+    "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
+    "titulo": "Petróleo, indústria nos EUA, balanço da Home Depot e mais destaques nesta 3ª"
+  },
+  {
     "data": "2026-08-18T09:31:01.789Z",
     "resultado": "pauta_reprovada",
     "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
@@ -1030,14 +1036,5 @@
     "data": "2026-08-15T01:30:57.375Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 72 min."
-  },
-  {
-    "data": "2026-08-15T01:12:19.456Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (carrossel): \"Tesouro Direto fecha semana sob estresse, com taxas dos Prefixados e IPCA+ em alta\".",
-    "postId": "18138124603606268",
-    "storyId": null,
-    "reelId": null,
-    "tipo": "carrossel"
   }
 ]
