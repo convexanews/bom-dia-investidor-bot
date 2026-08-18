@@ -1,5 +1,27 @@
 [
   {
+    "data": "2026-08-18T13:32:45.364Z",
+    "titulo": "Balanço dos balanços do 2T26: BTG vê temporada com receita forte, mas juros limitam avanço do lucro",
+    "categoria": "Empresas",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/balanco-dos-balancos-do-2t26-btg-ve-temporada-com-receita-forte-mas-juros-limitam-avanco-do-lucro/",
+    "postId": "18112439575948546",
+    "storyId": null,
+    "reelId": "18112439575948546",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1787059863553.mp4",
+    "tipo": "reel",
+    "peso": 75,
+    "pilares": [
+      "macro",
+      "bolsa"
+    ],
+    "horarioBRT": "10",
+    "cta": "📌 Salve para revisar quando o COPOM decidir.",
+    "decisaoFormato": "peso 75: reel"
+  },
+  {
     "data": "2026-08-18T10:47:24.260Z",
     "titulo": "El Niño ‘muito forte’: o que está em jogo para a safra, a inflação e os juros no Brasil",
     "categoria": "Economia",
@@ -3266,21 +3288,6 @@
     "imagemStory": null,
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783596704283.mp4",
     "tipo": "reel",
-    "peso": 42
-  },
-  {
-    "data": "2026-07-09T09:08:28.043Z",
-    "titulo": "Dow Jones Futuro avança mesmo com tensão entre EUA e Irã",
-    "categoria": "Mercados",
-    "fonte": "InfoMoney",
-    "link": "https://www.infomoney.com.br/mercados/dow-jones-futuro-avanca-mesmo-com-tensao-entre-eua-e-ira/",
-    "postId": "18171008299384811",
-    "storyId": "18081804167670913",
-    "reelId": null,
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783588054263-feed.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783588054263-story.png",
-    "videoUrl": null,
-    "tipo": "card",
     "peso": 42
   }
 ]
