@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-18T08:01:10.261Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (05:01 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-08-18T07:31:01.654Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (04:31 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1033,10 +1038,5 @@
     "data": "2026-08-15T01:07:31.399Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 81): \"Tesouro Direto fecha semana sob estresse, com taxas dos Prefixados e IPCA+ em alta\". Realizando postagem..."
-  },
-  {
-    "data": "2026-08-15T01:06:57.142Z",
-    "resultado": "erro",
-    "mensagem": "Erro na execução automática: publicarCarrossel is not defined"
   }
 ]
