@@ -1,12 +1,12 @@
-// Separa os formatos do feed por relevância: o fato excepcional pede vídeo;
-// uma pauta relevante com mais contexto pede carrossel.
+// O feed prioriza Reels: toda pauta relevante recebe o formato de maior alcance.
+// Carrossel só é usado quando alguém o força manualmente via FORCE_FORMAT.
 const PESO_MINIMO_FEED = 70;
-const PESO_MINIMO_REEL = 85;
+const PESO_MINIMO_REEL = PESO_MINIMO_FEED;
 
 function selecionarFormatoFeed(peso) {
   const valor = Number(peso || 0);
   if (valor < PESO_MINIMO_FEED) return null;
-  return valor >= PESO_MINIMO_REEL ? 'reel' : 'carrossel';
+  return 'reel';
 }
 
 module.exports = { PESO_MINIMO_FEED, PESO_MINIMO_REEL, selecionarFormatoFeed };
