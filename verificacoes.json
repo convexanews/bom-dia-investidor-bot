@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-18T00:37:56.863Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
     "data": "2026-08-18T00:01:23.612Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1033,10 +1038,5 @@
     "data": "2026-08-15T01:05:50.183Z",
     "resultado": "erro",
     "mensagem": "Erro na execução automática: publicarCarrossel is not defined"
-  },
-  {
-    "data": "2026-08-15T01:05:17.726Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 81): \"Tesouro Direto fecha semana sob estresse, com taxas dos Prefixados e IPCA+ em alta\". Realizando postagem..."
   }
 ]
