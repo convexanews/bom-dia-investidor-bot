@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-18T14:01:38.720Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 62 min."
+  },
+  {
     "data": "2026-08-18T13:32:45.367Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"Balanço dos balanços do 2T26: BTG vê temporada com receita forte, mas juros limitam avanço do lucro\".",
@@ -1041,10 +1046,5 @@
     "data": "2026-08-15T08:01:10.524Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (05:01 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-08-15T07:31:01.633Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (04:31 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
