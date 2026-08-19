@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-19T22:50:21.317Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
     "data": "2026-08-19T22:31:00.384Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1041,12 +1046,5 @@
     "data": "2026-08-15T16:31:16.896Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
-  },
-  {
-    "data": "2026-08-15T16:22:18.399Z",
-    "resultado": "story_noticia_postado",
-    "mensagem": "Story publicado (peso 54): \"JCPs do Banco do Brasil (BBAS3), dividendos da Caixa Seguridade (CXSE3) e liquidação do Ibovespa; veja o que bombou no Money Times na semana\".",
-    "postId": "18124961092748519",
-    "peso": 54
   }
 ]
