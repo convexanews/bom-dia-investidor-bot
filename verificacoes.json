@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-19T23:21:14.171Z",
+    "resultado": "erro_story_noticia",
+    "mensagem": "Command failed: git push"
+  },
+  {
     "data": "2026-08-19T23:01:20.969Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1039,11 +1044,6 @@
   },
   {
     "data": "2026-08-15T17:01:05.820Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
-  },
-  {
-    "data": "2026-08-15T16:50:29.426Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
   }
