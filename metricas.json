@@ -1,7 +1,68 @@
 [
   {
+    "postId": "18102113207622917",
+    "dataColeta": "2026-08-19T11:46:47.101Z",
+    "dataPostagem": "2026-08-18T22:03:45.814Z",
+    "tipo": "reel",
+    "pilares": [
+      "macro",
+      "bolsa",
+      "exterior"
+    ],
+    "peso": 71,
+    "fonte": "Money Times",
+    "titulo": "Ibovespa cai pela 11ª sessão seguida com PEC 6×1 no radar; dólar sobe",
+    "horarioBRT": "19",
+    "cta": "📤 Envie para quem tem ativos dolarizados.",
+    "decisaoFormato": "peso 71: reel",
+    "insights": {
+      "reach": 62,
+      "saved": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "total_interactions": 0,
+      "falhas": [
+        {
+          "metrica": "plays",
+          "erro": "Instagram respondeu 400"
+        }
+      ]
+    }
+  },
+  {
+    "postId": "18112439575948546",
+    "dataColeta": "2026-08-19T11:46:48.124Z",
+    "dataPostagem": "2026-08-18T13:32:45.364Z",
+    "tipo": "reel",
+    "pilares": [
+      "macro",
+      "bolsa"
+    ],
+    "peso": 75,
+    "fonte": "Money Times",
+    "titulo": "Balanço dos balanços do 2T26: BTG vê temporada com receita forte, mas juros limitam avanço do lucro",
+    "horarioBRT": "10",
+    "cta": "📌 Salve para revisar quando o COPOM decidir.",
+    "decisaoFormato": "peso 75: reel",
+    "insights": {
+      "reach": 34,
+      "saved": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "total_interactions": 0,
+      "falhas": [
+        {
+          "metrica": "plays",
+          "erro": "Instagram respondeu 400"
+        }
+      ]
+    }
+  },
+  {
     "postId": "18349020988223426",
-    "dataColeta": "2026-08-18T11:47:31.420Z",
+    "dataColeta": "2026-08-19T11:46:49.051Z",
     "dataPostagem": "2026-08-18T10:47:24.260Z",
     "tipo": "carrossel",
     "pilares": [
@@ -15,7 +76,7 @@
     "cta": "📌 Salve para revisar quando o COPOM decidir.",
     "decisaoFormato": "peso 78: carrossel",
     "insights": {
-      "reach": 6,
+      "reach": 18,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -31,7 +92,7 @@
   },
   {
     "postId": "18110225360283982",
-    "dataColeta": "2026-08-18T11:47:32.059Z",
+    "dataColeta": "2026-08-19T11:46:49.856Z",
     "dataPostagem": "2026-08-17T17:32:30.059Z",
     "tipo": "carrossel",
     "pilares": [
@@ -46,7 +107,7 @@
     "cta": "📌 Salve para revisar quando o COPOM decidir.",
     "decisaoFormato": "peso 79: carrossel",
     "insights": {
-      "reach": 13,
+      "reach": 16,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -62,7 +123,7 @@
   },
   {
     "postId": "18401617738088831",
-    "dataColeta": "2026-08-18T11:47:32.751Z",
+    "dataColeta": "2026-08-19T11:46:50.731Z",
     "dataPostagem": "2026-08-17T12:03:00.502Z",
     "tipo": "carrossel",
     "pilares": [
@@ -76,12 +137,12 @@
     "cta": "📤 Envie para quem está investindo e precisa ver isso.",
     "decisaoFormato": "peso 78: carrossel",
     "insights": {
-      "reach": 15,
-      "saved": 1,
+      "reach": 16,
+      "saved": 0,
       "shares": 0,
       "comments": 0,
       "likes": 1,
-      "total_interactions": 2,
+      "total_interactions": 1,
       "falhas": [
         {
           "metrica": "plays",
@@ -92,7 +153,7 @@
   },
   {
     "postId": "17929335261385079",
-    "dataColeta": "2026-08-18T11:47:33.515Z",
+    "dataColeta": "2026-08-19T11:46:51.640Z",
     "dataPostagem": "2026-08-17T09:02:04.805Z",
     "tipo": "carrossel",
     "pilares": [
@@ -108,11 +169,11 @@
     "decisaoFormato": "peso 78: carrossel",
     "insights": {
       "reach": 13,
-      "saved": 1,
+      "saved": 0,
       "shares": 0,
       "comments": 0,
       "likes": 1,
-      "total_interactions": 2,
+      "total_interactions": 1,
       "falhas": [
         {
           "metrica": "plays",
@@ -123,7 +184,7 @@
   },
   {
     "postId": "18096294650137323",
-    "dataColeta": "2026-08-18T11:47:34.071Z",
+    "dataColeta": "2026-08-19T11:46:52.415Z",
     "dataPostagem": "2026-08-16T23:29:52.025Z",
     "tipo": "reel",
     "pilares": [
@@ -153,7 +214,7 @@
   },
   {
     "postId": "18138124603606268",
-    "dataColeta": "2026-08-18T11:47:34.746Z",
+    "dataColeta": "2026-08-19T11:46:53.231Z",
     "dataPostagem": "2026-08-15T01:12:19.454Z",
     "tipo": "carrossel",
     "pilares": [
@@ -185,7 +246,7 @@
   },
   {
     "postId": "17965194723150941",
-    "dataColeta": "2026-08-18T11:47:35.374Z",
+    "dataColeta": "2026-08-19T11:46:54.021Z",
     "dataPostagem": "2026-08-13T14:03:18.128Z",
     "tipo": "reel",
     "pilares": [
@@ -216,7 +277,7 @@
   },
   {
     "postId": "18092239103437738",
-    "dataColeta": "2026-08-18T11:47:36.057Z",
+    "dataColeta": "2026-08-19T11:46:54.833Z",
     "dataPostagem": "2026-08-12T20:32:12.584Z",
     "tipo": "carrossel",
     "pilares": [
@@ -247,7 +308,7 @@
   },
   {
     "postId": "18410454094157439",
-    "dataColeta": "2026-08-18T11:47:36.650Z",
+    "dataColeta": "2026-08-19T11:46:55.698Z",
     "dataPostagem": "2026-08-12T17:03:10.048Z",
     "tipo": "reel",
     "pilares": [
@@ -277,7 +338,7 @@
   },
   {
     "postId": "18016231085916957",
-    "dataColeta": "2026-08-18T11:47:37.934Z",
+    "dataColeta": "2026-08-19T11:46:56.573Z",
     "dataPostagem": "2026-08-12T10:33:02.280Z",
     "tipo": "carrossel",
     "pilares": [
@@ -292,7 +353,7 @@
     "cta": null,
     "decisaoFormato": null,
     "insights": {
-      "reach": 15,
+      "reach": 16,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -308,7 +369,7 @@
   },
   {
     "postId": "18119833246923540",
-    "dataColeta": "2026-08-18T11:47:38.688Z",
+    "dataColeta": "2026-08-19T11:46:57.378Z",
     "dataPostagem": "2026-08-11T21:03:00.354Z",
     "tipo": "reel",
     "pilares": [
@@ -339,7 +400,7 @@
   },
   {
     "postId": "17943051630292360",
-    "dataColeta": "2026-08-18T11:47:39.386Z",
+    "dataColeta": "2026-08-19T11:46:58.242Z",
     "dataPostagem": "2026-08-11T11:32:52.418Z",
     "tipo": "reel",
     "pilares": [
@@ -370,7 +431,7 @@
   },
   {
     "postId": "17997022415989876",
-    "dataColeta": "2026-08-18T11:47:40.031Z",
+    "dataColeta": "2026-08-19T11:46:59.000Z",
     "dataPostagem": "2026-08-11T09:33:29.789Z",
     "tipo": "reel",
     "pilares": [
@@ -401,7 +462,7 @@
   },
   {
     "postId": "18042864992810072",
-    "dataColeta": "2026-08-18T11:47:40.702Z",
+    "dataColeta": "2026-08-19T11:46:59.862Z",
     "dataPostagem": "2026-08-10T09:33:00.055Z",
     "tipo": "reel",
     "pilares": [
@@ -432,7 +493,7 @@
   },
   {
     "postId": "18020922923698362",
-    "dataColeta": "2026-08-18T11:47:41.435Z",
+    "dataColeta": "2026-08-19T11:47:00.583Z",
     "dataPostagem": "2026-08-09T15:02:45.228Z",
     "tipo": "reel",
     "pilares": [
@@ -462,7 +523,7 @@
   },
   {
     "postId": "17946675600258612",
-    "dataColeta": "2026-08-18T11:47:42.128Z",
+    "dataColeta": "2026-08-19T11:47:01.451Z",
     "dataPostagem": "2026-08-08T13:02:49.856Z",
     "tipo": "reel",
     "pilares": [
@@ -492,7 +553,7 @@
   },
   {
     "postId": "18099908960250121",
-    "dataColeta": "2026-08-18T11:47:42.901Z",
+    "dataColeta": "2026-08-19T11:47:02.163Z",
     "dataPostagem": "2026-08-07T13:03:14.745Z",
     "tipo": "card",
     "pilares": [
@@ -522,7 +583,7 @@
   },
   {
     "postId": "18137291668580867",
-    "dataColeta": "2026-08-18T11:47:43.710Z",
+    "dataColeta": "2026-08-19T11:47:03.071Z",
     "dataPostagem": "2026-08-06T22:33:06.187Z",
     "tipo": "carrossel",
     "pilares": [
@@ -552,7 +613,7 @@
   },
   {
     "postId": "18052937546792576",
-    "dataColeta": "2026-08-18T11:47:44.361Z",
+    "dataColeta": "2026-08-19T11:47:03.824Z",
     "dataPostagem": "2026-08-06T18:17:45.806Z",
     "tipo": "card",
     "pilares": [
@@ -582,7 +643,7 @@
   },
   {
     "postId": "18238577470313469",
-    "dataColeta": "2026-08-18T11:47:45.098Z",
+    "dataColeta": "2026-08-19T11:47:04.703Z",
     "dataPostagem": "2026-08-06T14:32:54.238Z",
     "tipo": "carrossel",
     "pilares": [
@@ -613,7 +674,7 @@
   },
   {
     "postId": "18089327834200632",
-    "dataColeta": "2026-08-18T11:47:45.813Z",
+    "dataColeta": "2026-08-19T11:47:05.552Z",
     "dataPostagem": "2026-08-06T11:02:52.370Z",
     "tipo": "reel",
     "pilares": [
@@ -644,7 +705,7 @@
   },
   {
     "postId": "18087420347406792",
-    "dataColeta": "2026-08-18T11:47:46.363Z",
+    "dataColeta": "2026-08-19T11:47:06.289Z",
     "dataPostagem": "2026-08-05T23:03:04.023Z",
     "tipo": "reel",
     "pilares": [
@@ -674,7 +735,7 @@
   },
   {
     "postId": "18380641240233642",
-    "dataColeta": "2026-08-18T11:47:47.073Z",
+    "dataColeta": "2026-08-19T11:47:07.107Z",
     "dataPostagem": "2026-08-05T21:00:47.400Z",
     "tipo": "reel",
     "pilares": [
@@ -694,66 +755,6 @@
       "comments": 0,
       "likes": 1,
       "total_interactions": 1,
-      "falhas": [
-        {
-          "metrica": "plays",
-          "erro": "Instagram respondeu 400"
-        }
-      ]
-    }
-  },
-  {
-    "postId": "17960906799183441",
-    "dataColeta": "2026-08-18T11:47:47.744Z",
-    "dataPostagem": "2026-08-05T18:33:34.375Z",
-    "tipo": "reel",
-    "pilares": [
-      "macro",
-      "fiis"
-    ],
-    "peso": 65,
-    "fonte": "Money Times",
-    "titulo": "Lula fala em ‘trabalhar para reduzir a taxa de juros’ e diz que Estado foi ‘aprisionado pela Faria Lima’",
-    "horarioBRT": null,
-    "cta": null,
-    "decisaoFormato": null,
-    "insights": {
-      "reach": 139,
-      "saved": 0,
-      "shares": 0,
-      "comments": 0,
-      "likes": 0,
-      "total_interactions": 0,
-      "falhas": [
-        {
-          "metrica": "plays",
-          "erro": "Instagram respondeu 400"
-        }
-      ]
-    }
-  },
-  {
-    "postId": "17939387505342111",
-    "dataColeta": "2026-08-18T11:47:48.385Z",
-    "dataPostagem": "2026-08-05T16:02:27.621Z",
-    "tipo": "reel",
-    "pilares": [
-      "macro",
-      "bolsa"
-    ],
-    "peso": 75,
-    "fonte": "Money Times",
-    "titulo": "Selic pode chegar a 12,5%, mas ‘porém’ segue no radar, diz economista-chefe da Franklin Templeton Brasil",
-    "horarioBRT": null,
-    "cta": null,
-    "decisaoFormato": null,
-    "insights": {
-      "reach": 115,
-      "saved": 0,
-      "shares": 0,
-      "comments": 0,
-      "likes": 0,
-      "total_interactions": 0,
       "falhas": [
         {
           "metrica": "plays",
