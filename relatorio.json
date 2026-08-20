@@ -1,5 +1,16 @@
 [
   {
+    "data": "2026-08-20T08:31:28.252Z",
+    "titulo": "NOVA MÁXIMA: Bitcoin",
+    "categoria": "Alerta de mercado",
+    "fonte": "Cotação de mercado",
+    "postId": "18114143249062739",
+    "tipo": "alerta",
+    "peso": 100,
+    "origem": "alerta_recorde",
+    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/recorde-btc-1787214658059.png"
+  },
+  {
     "data": "2026-08-18T22:03:45.814Z",
     "titulo": "Ibovespa cai pela 11ª sessão seguida com PEC 6×1 no radar; dólar sobe",
     "categoria": "Mercados",
@@ -3282,20 +3293,5 @@
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783614701336.mp4",
     "tipo": "reel",
     "peso": 61
-  },
-  {
-    "data": "2026-07-09T14:02:45.076Z",
-    "titulo": "Wall Street avança com recuperação do setor de tecnologia, apesar do conflito no Oriente Médio",
-    "categoria": "Mercados",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/wall-street-abertura-9-7-26-apsa/",
-    "postId": "18006886292948088",
-    "storyId": "17898928773528918",
-    "reelId": null,
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783605690448-slide1.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783605690448-story.png",
-    "videoUrl": null,
-    "tipo": "carrossel",
-    "peso": 55
   }
 ]
