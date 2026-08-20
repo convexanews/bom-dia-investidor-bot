@@ -1,8 +1,10 @@
 [
   {
-    "data": "2026-08-20T21:26:42.904Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 37 min."
+    "data": "2026-08-20T21:27:42.797Z",
+    "resultado": "story_noticia_postado",
+    "mensagem": "Story publicado (peso 48): \"Curva de juros avança com Treasuries e petróleo\".",
+    "postId": "18142523665494412",
+    "peso": 48
   },
   {
     "data": "2026-08-20T21:01:05.861Z",
