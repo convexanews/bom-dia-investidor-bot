@@ -1,5 +1,27 @@
 [
   {
+    "data": "2026-08-20T18:38:44.083Z",
+    "titulo": "Mansueto faz alerta: 2027 pode ser o pior ano da economia brasileira desde a pandemia",
+    "categoria": "Economia",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/mansueto-faz-alerta-2027-pode-ser-o-pior-ano-da-economia-brasileira-desde-a-pandemia/",
+    "postId": "18072178769717543",
+    "storyId": null,
+    "reelId": "18072178769717543",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1787251027085.mp4",
+    "tipo": "reel",
+    "peso": 72,
+    "pilares": [
+      "macro",
+      "bolsa"
+    ],
+    "horarioBRT": "15",
+    "cta": "📌 Salve para revisar quando o COPOM decidir.",
+    "decisaoFormato": "peso 72: reel"
+  },
+  {
     "data": "2026-08-20T08:31:28.252Z",
     "titulo": "NOVA MÁXIMA: Bitcoin",
     "categoria": "Alerta de mercado",
@@ -3278,20 +3300,5 @@
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783623692201.mp4",
     "tipo": "reel",
     "peso": 73
-  },
-  {
-    "data": "2026-07-09T16:33:17.512Z",
-    "titulo": "‘Trump não vai resolver conflito com o Irã’; acordo deve ficar para o próximo presidente, diz estrategista da Empiricus",
-    "categoria": "Mercados",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/trump-nao-vai-resolver-conflito-com-o-ira-acordo-deve-ficar-para-o-proximo-presidente-diz-estrategista-jcav/",
-    "postId": "18136648042584830",
-    "storyId": null,
-    "reelId": "18136648042584830",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783614701336.mp4",
-    "tipo": "reel",
-    "peso": 61
   }
 ]
