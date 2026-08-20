@@ -1,5 +1,12 @@
 [
   {
+    "data": "2026-08-20T16:33:28.728Z",
+    "resultado": "story_noticia_postado",
+    "mensagem": "Story publicado (peso 68): \"Ibovespa avança 1% na máxima, enquanto Wall Street cai — o que influencia o mercado brasileiro hoje (20)?\".",
+    "postId": "17916345822427689",
+    "peso": 68
+  },
+  {
     "data": "2026-08-20T16:31:05.614Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1041,11 +1048,6 @@
   },
   {
     "data": "2026-08-16T10:48:45.424Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
-  },
-  {
-    "data": "2026-08-16T10:31:11.509Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
   }
