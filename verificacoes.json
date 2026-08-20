@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-20T21:01:05.861Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 62 min."
+  },
+  {
     "data": "2026-08-20T20:32:44.077Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"Ibovespa fecha próximo da estabilidade com apoio de Petrobras (PETR4); dólar sobe\".",
@@ -1051,11 +1056,6 @@
   },
   {
     "data": "2026-08-16T15:31:06.103Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
-  },
-  {
-    "data": "2026-08-16T15:09:03.178Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
   }
