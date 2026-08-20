@@ -1,5 +1,11 @@
 [
   {
+    "data": "2026-08-20T10:31:31.588Z",
+    "resultado": "pauta_reprovada",
+    "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
+    "titulo": "Desemprego nos EUA, juros na China, Walmart, leilão do Tesouro e mais destaques hoje"
+  },
+  {
     "data": "2026-08-20T10:01:03.027Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 1 min."
@@ -1040,10 +1046,5 @@
     "data": "2026-08-16T02:31:01.868Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (23:31 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-08-16T02:01:22.691Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (23:01 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
