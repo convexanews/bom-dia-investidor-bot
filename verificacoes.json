@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-08-20T20:32:44.077Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Ibovespa fecha próximo da estabilidade com apoio de Petrobras (PETR4); dólar sobe\".",
+    "postId": "18137619733599740",
+    "storyId": null,
+    "reelId": "18137619733599740",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-08-20T20:30:55.142Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 74): \"Ibovespa fecha próximo da estabilidade com apoio de Petrobras (PETR4); dólar sobe\". Realizando postagem..."
+  },
+  {
     "data": "2026-08-20T20:01:33.453Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 8 min."
@@ -1042,16 +1056,6 @@
   },
   {
     "data": "2026-08-16T15:09:03.178Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
-  },
-  {
-    "data": "2026-08-16T15:01:16.094Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
-  },
-  {
-    "data": "2026-08-16T14:31:18.721Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
   }

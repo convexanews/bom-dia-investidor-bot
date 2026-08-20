@@ -1,5 +1,28 @@
 [
   {
+    "data": "2026-08-20T20:32:44.074Z",
+    "titulo": "Ibovespa fecha próximo da estabilidade com apoio de Petrobras (PETR4); dólar sobe",
+    "categoria": "Mercados",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/ibovespa-20-8-26-lils/",
+    "postId": "18137619733599740",
+    "storyId": null,
+    "reelId": "18137619733599740",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1787257856558.mp4",
+    "tipo": "reel",
+    "peso": 74,
+    "pilares": [
+      "macro",
+      "bolsa",
+      "exterior"
+    ],
+    "horarioBRT": "17",
+    "cta": "📌 Salve para revisar quando o COPOM decidir.",
+    "decisaoFormato": "peso 74: reel"
+  },
+  {
     "data": "2026-08-20T18:38:44.083Z",
     "titulo": "Mansueto faz alerta: 2027 pode ser o pior ano da economia brasileira desde a pandemia",
     "categoria": "Economia",
@@ -3285,20 +3308,5 @@
     "videoUrl": null,
     "tipo": "carrossel",
     "peso": 54
-  },
-  {
-    "data": "2026-07-09T19:02:46.755Z",
-    "titulo": "Opções de Copom da B3 apontam para corte de 0,25% na Selic em agosto",
-    "categoria": "Mercados",
-    "fonte": "InfoMoney",
-    "link": "https://www.infomoney.com.br/mercados/opcoes-de-copom-da-b3-apontam-para-corte-de-025-na-selic-em-agosto/",
-    "postId": "18107976013803647",
-    "storyId": null,
-    "reelId": "18107976013803647",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783623692201.mp4",
-    "tipo": "reel",
-    "peso": 73
   }
 ]
