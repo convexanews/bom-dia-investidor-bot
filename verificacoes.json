@@ -1,5 +1,12 @@
 [
   {
+    "data": "2026-08-20T23:24:23.889Z",
+    "resultado": "story_noticia_postado",
+    "mensagem": "Story publicado (peso 62): \"Gringo saiu, Ibovespa caiu: o que explica a retirada de R$ 20 bi da Bolsa em agosto?\".",
+    "postId": "18000786974791232",
+    "peso": 62
+  },
+  {
     "data": "2026-08-20T23:01:03.134Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1051,11 +1058,6 @@
   },
   {
     "data": "2026-08-16T18:01:09.077Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
-  },
-  {
-    "data": "2026-08-16T17:31:06.247Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
   }
