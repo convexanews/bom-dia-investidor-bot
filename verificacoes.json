@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-20T19:01:04.869Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 68 min."
+  },
+  {
     "data": "2026-08-20T18:38:44.086Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"Mansueto faz alerta: 2027 pode ser o pior ano da economia brasileira desde a pandemia\".",
@@ -1047,11 +1052,6 @@
   },
   {
     "data": "2026-08-16T13:30:58.784Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
-  },
-  {
-    "data": "2026-08-16T13:01:18.781Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
   }
