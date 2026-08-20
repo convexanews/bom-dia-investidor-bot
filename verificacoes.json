@@ -1,5 +1,12 @@
 [
   {
+    "data": "2026-08-20T11:25:18.046Z",
+    "resultado": "story_noticia_postado",
+    "mensagem": "Story publicado (peso 65): \"Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta quinta\".",
+    "postId": "17979669774078333",
+    "peso": 65
+  },
+  {
     "data": "2026-08-20T11:01:17.553Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1041,10 +1048,5 @@
     "data": "2026-08-16T04:01:08.138Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (01:01 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-08-16T03:30:57.607Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (00:30 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
