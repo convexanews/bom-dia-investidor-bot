@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-20T22:01:24.017Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 2 min."
+  },
+  {
     "data": "2026-08-20T21:31:06.455Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 32 min."
@@ -1053,12 +1058,5 @@
     "data": "2026-08-16T16:31:30.580Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
-  },
-  {
-    "data": "2026-08-16T16:23:05.155Z",
-    "resultado": "story_noticia_postado",
-    "mensagem": "Story publicado (peso 42): \"Ibovespa deve ficar atrás de pares emergentes em 2026 — e risco político está por trás disso, diz consultoria\".",
-    "postId": "18091627982438964",
-    "peso": 42
   }
 ]
