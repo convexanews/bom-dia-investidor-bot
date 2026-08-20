@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-20T07:30:55.613Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (04:30 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-08-20T07:01:36.884Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (04:01 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1041,10 +1046,5 @@
     "mensagem": "Story publicado (peso 35): \"Vivara diz que fundos sob gestão da Guepardo Investimentos compraram ações\".",
     "postId": "18115731571820044",
     "peso": 35
-  },
-  {
-    "data": "2026-08-15T23:01:13.737Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova na última hora. Nada foi postado."
   }
 ]
