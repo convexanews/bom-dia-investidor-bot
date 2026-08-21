@@ -1,5 +1,16 @@
 [
   {
+    "data": "2026-08-21T05:31:30.882Z",
+    "titulo": "NOVA MÁXIMA: Bitcoin",
+    "categoria": "Alerta de mercado",
+    "fonte": "Cotação de mercado",
+    "postId": "18055201010574764",
+    "tipo": "alerta",
+    "peso": 100,
+    "origem": "alerta_recorde",
+    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/recorde-btc-1787290262579.png"
+  },
+  {
     "data": "2026-08-20T20:32:44.074Z",
     "titulo": "Ibovespa fecha próximo da estabilidade com apoio de Petrobras (PETR4); dólar sobe",
     "categoria": "Mercados",
@@ -3293,20 +3304,5 @@
     "videoUrl": null,
     "tipo": "card",
     "peso": 16
-  },
-  {
-    "data": "2026-07-09T21:33:02.568Z",
-    "titulo": "Ibovespa hoje fecha alta, seguindo NY, com ações de bancos; dólar cai para R$ 5,12",
-    "categoria": "Mercados",
-    "fonte": "InfoMoney",
-    "link": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-09072026/",
-    "postId": "18194877634374371",
-    "storyId": "17920064922403340",
-    "reelId": null,
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783632702359-slide1.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783632702359-story.png",
-    "videoUrl": null,
-    "tipo": "carrossel",
-    "peso": 54
   }
 ]
