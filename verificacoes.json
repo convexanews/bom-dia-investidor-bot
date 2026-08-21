@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-21T06:01:01.686Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (03:01 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-08-21T05:31:30.884Z",
     "resultado": "alerta_recorde",
     "mensagem": "Alerta de recorde publicado: Bitcoin (NOVA MÁXIMA).",
@@ -1056,10 +1061,5 @@
     "data": "2026-08-16T23:17:50.962Z",
     "resultado": "sem_noticia_story",
     "mensagem": "Nenhuma notícia recente de menor impacto foi encontrada."
-  },
-  {
-    "data": "2026-08-16T23:01:00.020Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }
 ]
