@@ -1,5 +1,11 @@
 [
   {
+    "data": "2026-08-21T17:01:00.736Z",
+    "resultado": "pauta_reprovada",
+    "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
+    "titulo": "Ibovespa dispara e volta aos 170 mil pontos com Vale e bancos"
+  },
+  {
     "data": "2026-08-21T16:32:22.529Z",
     "resultado": "story_noticia_postado",
     "mensagem": "Story publicado (peso 54): \"Com rendimentos de títulos mais altos, UBS diz onde ainda vale investir e quais ações brasileiras podem ser penalizadas\".",
@@ -1057,10 +1063,5 @@
     "data": "2026-08-17T09:51:26.794Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 71 min."
-  },
-  {
-    "data": "2026-08-17T09:30:56.391Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 92 min."
   }
 ]
