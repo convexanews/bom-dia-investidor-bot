@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-21T07:00:57.129Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (04:00 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-08-21T06:30:59.242Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (03:30 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1056,10 +1061,5 @@
     "storyId": null,
     "reelId": "18096294650137323",
     "tipo": "reel"
-  },
-  {
-    "data": "2026-08-16T23:27:54.535Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 50): \"Trilionário por 2 meses: a ‘marcha à ré’ da SpaceX que fez Elon Musk perder bilhões de dólares\". Realizando postagem..."
   }
 ]
