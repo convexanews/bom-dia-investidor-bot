@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-21T19:30:57.670Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 33 min."
+  },
+  {
     "data": "2026-08-21T19:00:59.384Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 63 min."
@@ -1061,10 +1066,5 @@
     "storyId": null,
     "reelId": null,
     "tipo": "carrossel"
-  },
-  {
-    "data": "2026-08-17T12:01:53.846Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 78): \"Após seis altas consecutivas, inflação para 2026 fica estável; confira o Focus desta segunda-feira (17)\". Realizando postagem..."
   }
 ]
