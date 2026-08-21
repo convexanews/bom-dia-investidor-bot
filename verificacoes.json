@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-21T07:31:07.596Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (04:31 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-08-21T07:00:57.129Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (04:00 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1052,14 +1057,5 @@
     "data": "2026-08-16T23:30:57.507Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 119 min."
-  },
-  {
-    "data": "2026-08-16T23:29:52.027Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"Trilionário por 2 meses: a ‘marcha à ré’ da SpaceX que fez Elon Musk perder bilhões de dólares\".",
-    "postId": "18096294650137323",
-    "storyId": null,
-    "reelId": "18096294650137323",
-    "tipo": "reel"
   }
 ]
