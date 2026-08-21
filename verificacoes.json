@@ -1,5 +1,12 @@
 [
   {
+    "data": "2026-08-21T11:24:20.518Z",
+    "resultado": "story_noticia_postado",
+    "mensagem": "Story publicado (peso 58): \"Núcleo da inflação no Japão acelera em julho e reforça argumentos para aumento de juros\".",
+    "postId": "18131726599652564",
+    "peso": 58
+  },
+  {
     "data": "2026-08-21T11:01:00.889Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1055,10 +1062,5 @@
     "data": "2026-08-17T03:56:27.028Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (00:56 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-08-17T03:31:02.841Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (00:31 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
