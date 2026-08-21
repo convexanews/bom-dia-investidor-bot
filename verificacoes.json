@@ -1,5 +1,11 @@
 [
   {
+    "data": "2026-08-21T22:31:06.011Z",
+    "resultado": "pauta_reprovada",
+    "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
+    "titulo": "Ibovespa dispara e volta aos 170 mil pontos com Vale e bancos"
+  },
+  {
     "data": "2026-08-21T22:01:18.012Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 2 min."
@@ -1062,10 +1068,5 @@
     "mensagem": "Story publicado (peso 55): \"Ibovespa Hoje Ao Vivo: Bolsa oscila com IBC-Br, Focus, eleições e guerra no radar\".",
     "postId": "18138671767569718",
     "peso": 55
-  },
-  {
-    "data": "2026-08-17T16:01:12.747Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }
 ]
