@@ -1,5 +1,12 @@
 [
   {
+    "data": "2026-08-21T23:22:24.796Z",
+    "resultado": "story_noticia_postado",
+    "mensagem": "Story publicado (peso 45): \"Casas Bahia (BHIA3): Ministro nega haver crise no varejo e culpa juros altos e e-commerce por dificuldades\".",
+    "postId": "18141192724567361",
+    "peso": 45
+  },
+  {
     "data": "2026-08-21T23:00:59.038Z",
     "resultado": "pauta_reprovada",
     "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
@@ -1063,10 +1070,5 @@
     "data": "2026-08-17T17:31:17.306Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 79): \"Fim da isenção das LCIs ameaça disparar juros e travar o mercado imobiliário, dizem bancos\". Realizando postagem..."
-  },
-  {
-    "data": "2026-08-17T17:01:49.491Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }
 ]
