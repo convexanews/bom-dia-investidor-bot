@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-21T21:30:55.735Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 33 min."
+  },
+  {
     "data": "2026-08-21T21:23:25.244Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 40 min."
@@ -1063,10 +1068,5 @@
     "resultado": "pauta_reprovada",
     "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
     "titulo": "Ibovespa opera sem direção com Petrobras em alta e bancos em queda; dólar tem leve queda"
-  },
-  {
-    "data": "2026-08-17T15:01:34.099Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }
 ]
