@@ -1,5 +1,12 @@
 [
   {
+    "data": "2026-08-21T21:22:40.320Z",
+    "resultado": "story_noticia_postado",
+    "mensagem": "Story publicado (peso 51): \"Ibovespa fecha com forte alta, com exterior, Lula e Trump; dólar cai a R$ 5,14\".",
+    "postId": "18076215035402704",
+    "peso": 51
+  },
+  {
     "data": "2026-08-21T21:01:13.867Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 62 min."
@@ -1061,10 +1068,5 @@
     "data": "2026-08-17T14:31:22.972Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-08-17T14:01:05.093Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
   }
 ]
