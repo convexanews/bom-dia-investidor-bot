@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-08-21T18:33:35.217Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Ouro avança mais de 5% em semana de intervenção do Tesouro dos EUA nos Treasuries\".",
+    "postId": "18451858954184662",
+    "storyId": null,
+    "reelId": "18451858954184662",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-08-21T18:30:57.615Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 74): \"Ouro avança mais de 5% em semana de intervenção do Tesouro dos EUA nos Treasuries\". Realizando postagem..."
+  },
+  {
     "data": "2026-08-21T18:01:06.682Z",
     "resultado": "pauta_reprovada",
     "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
@@ -1054,17 +1068,5 @@
     "resultado": "pauta_reprovada",
     "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
     "titulo": "Focus mantém inflação de 2026 em 5,02% e reduz projeção para PIB de 2027"
-  },
-  {
-    "data": "2026-08-17T11:24:21.136Z",
-    "resultado": "story_noticia_postado",
-    "mensagem": "Story publicado (peso 64): \"Crescimento do Japão no 2º trimestre fica abaixo do esperado por queda nos gastos e investimentos\".",
-    "postId": "18185429329405081",
-    "peso": 64
-  },
-  {
-    "data": "2026-08-17T11:01:06.578Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 1 min."
   }
 ]
