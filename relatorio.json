@@ -1,5 +1,28 @@
 [
   {
+    "data": "2026-08-21T20:32:58.914Z",
+    "titulo": "Wall Street sobe no dia, mas tem queda de 1% na semana com pressão de petróleo e Treasuries",
+    "categoria": "Mercados",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/wall-street-21-8-26-apsa/",
+    "postId": "18114228017514802",
+    "storyId": null,
+    "reelId": "18114228017514802",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1787344283497.mp4",
+    "tipo": "reel",
+    "peso": 86,
+    "pilares": [
+      "macro",
+      "bolsa",
+      "exterior"
+    ],
+    "horarioBRT": "17",
+    "cta": "📤 Envie para quem acompanha o mercado global.",
+    "decisaoFormato": "peso 86: reel"
+  },
+  {
     "data": "2026-08-21T18:33:35.215Z",
     "titulo": "Ouro avança mais de 5% em semana de intervenção do Tesouro dos EUA nos Treasuries",
     "categoria": "Mercados",
@@ -3295,20 +3318,5 @@
     "videoUrl": null,
     "tipo": "carrossel",
     "peso": 55
-  },
-  {
-    "data": "2026-07-10T09:03:16.361Z",
-    "titulo": "Tempo Real: Ibovespa fecha semana de olho na inflação brasileira",
-    "categoria": "Mercados",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/tempo-real-ibovespa-hoje-mercado-ao-vivo-10-07-2026-jals-lils-apsa/",
-    "postId": "17945679495039252",
-    "storyId": null,
-    "reelId": "17945679495039252",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783674108566.mp4",
-    "tipo": "reel",
-    "peso": 39
   }
 ]
