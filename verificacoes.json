@@ -1,5 +1,11 @@
 [
   {
+    "data": "2026-08-21T16:31:22.168Z",
+    "resultado": "pauta_reprovada",
+    "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
+    "titulo": "Ibovespa dispara e volta aos 170 mil pontos com Vale e bancos"
+  },
+  {
     "data": "2026-08-21T16:01:09.266Z",
     "resultado": "pauta_reprovada",
     "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
@@ -1058,10 +1064,5 @@
     "storyId": null,
     "reelId": null,
     "tipo": "carrossel"
-  },
-  {
-    "data": "2026-08-17T09:00:58.981Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 78): \"Nasdaq e S&P 500 futuros avançam com menor aposta em alta de juros pelo Fed\". Realizando postagem..."
   }
 ]
