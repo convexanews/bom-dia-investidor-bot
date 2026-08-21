@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-21T21:01:13.867Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 62 min."
+  },
+  {
     "data": "2026-08-21T20:32:58.916Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"Wall Street sobe no dia, mas tem queda de 1% na semana com pressão de petróleo e Treasuries\".",
@@ -1061,10 +1066,5 @@
     "data": "2026-08-17T14:01:05.093Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 2 min."
-  },
-  {
-    "data": "2026-08-17T13:45:00.733Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 2h entre posts. Faltam 18 min."
   }
 ]
