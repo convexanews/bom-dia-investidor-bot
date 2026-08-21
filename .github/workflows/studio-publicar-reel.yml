@@ -16,9 +16,13 @@ on:
         description: Legenda em Base64
         required: true
         type: string
+      origin_b64:
+        description: Título, link e fonte originais em Base64
+        required: true
+        type: string
 
 permissions:
-  contents: read
+  contents: write
 
 concurrency:
   group: studio-reel-${{ inputs.queue_id }}
@@ -40,4 +44,18 @@ jobs:
           STUDIO_QUEUE_ID: ${{ inputs.queue_id }}
           STUDIO_VIDEO_URL: ${{ inputs.video_url }}
           STUDIO_CAPTION_B64: ${{ inputs.caption_b64 }}
+          STUDIO_ORIGIN_B64: ${{ inputs.origin_b64 }}
         run: node publicar-reel-studio.cjs
+      - name: Sincronizar histórico com o bot online
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- noticias-postadas.json relatorio.json
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Registra Reel publicado pelo Studio"
+          for tentativa in 1 2 3; do
+            git pull --rebase origin main && git push origin HEAD:main && exit 0
+            sleep $((tentativa * 2))
+          done
+          exit 1
