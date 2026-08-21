@@ -1,0 +1,43 @@
+name: BDI Studio - Publicar Reel aprovado
+run-name: Studio Reel ${{ inputs.queue_id }}
+
+on:
+  workflow_dispatch:
+    inputs:
+      queue_id:
+        description: Identificador da fila local
+        required: true
+        type: string
+      video_url:
+        description: URL pública do vídeo aprovado
+        required: true
+        type: string
+      caption_b64:
+        description: Legenda em Base64
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+concurrency:
+  group: studio-reel-${{ inputs.queue_id }}
+  cancel-in-progress: false
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Publicar Reel aprovado
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          IG_ACCOUNT_ID: ${{ secrets.IG_ACCOUNT_ID }}
+          STUDIO_QUEUE_ID: ${{ inputs.queue_id }}
+          STUDIO_VIDEO_URL: ${{ inputs.video_url }}
+          STUDIO_CAPTION_B64: ${{ inputs.caption_b64 }}
+        run: node publicar-reel-studio.cjs
