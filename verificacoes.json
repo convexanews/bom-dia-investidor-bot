@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-21T18:34:31.610Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 90 min."
+  },
+  {
     "data": "2026-08-21T18:33:35.217Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"Ouro avança mais de 5% em semana de intervenção do Tesouro dos EUA nos Treasuries\".",
@@ -1059,12 +1064,6 @@
   },
   {
     "data": "2026-08-17T11:33:41.829Z",
-    "resultado": "pauta_reprovada",
-    "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
-    "titulo": "Focus mantém inflação de 2026 em 5,02% e reduz projeção para PIB de 2027"
-  },
-  {
-    "data": "2026-08-17T11:31:04.657Z",
     "resultado": "pauta_reprovada",
     "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
     "titulo": "Focus mantém inflação de 2026 em 5,02% e reduz projeção para PIB de 2027"
