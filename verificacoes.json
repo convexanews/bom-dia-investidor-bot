@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-21T19:00:59.384Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 63 min."
+  },
+  {
     "data": "2026-08-21T18:34:31.610Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 90 min."
@@ -1061,11 +1066,5 @@
     "data": "2026-08-17T12:01:53.846Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 78): \"Após seis altas consecutivas, inflação para 2026 fica estável; confira o Focus desta segunda-feira (17)\". Realizando postagem..."
-  },
-  {
-    "data": "2026-08-17T11:33:41.829Z",
-    "resultado": "pauta_reprovada",
-    "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
-    "titulo": "Focus mantém inflação de 2026 em 5,02% e reduz projeção para PIB de 2027"
   }
 ]
