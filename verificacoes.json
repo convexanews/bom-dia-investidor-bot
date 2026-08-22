@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-22T18:28:45.532Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
     "data": "2026-08-22T18:01:07.567Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1055,10 +1060,5 @@
     "storyId": null,
     "reelId": "18102113207622917",
     "tipo": "reel"
-  },
-  {
-    "data": "2026-08-18T22:01:57.610Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 71): \"Ibovespa cai pela 11ª sessão seguida com PEC 6×1 no radar; dólar sobe\". Realizando postagem..."
   }
 ]
