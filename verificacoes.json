@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-22T08:01:06.137Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (05:01 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-08-22T07:31:11.973Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (04:31 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1063,11 +1068,5 @@
     "mensagem": "Story publicado (peso 46): \"BHP registra produção recorde no ano fiscal de 2026 e ações sobem\".",
     "postId": "17901752253518729",
     "peso": 46
-  },
-  {
-    "data": "2026-08-17T23:20:39.489Z",
-    "resultado": "story_sem_imagem",
-    "mensagem": "Story publicado sem imagem editorial: \"BHP registra produção recorde no ano fiscal de 2026 e ações sobem\".",
-    "link": "https://br.investing.com/news/transcripts/bhp-registra-producao-recorde-no-ano-fiscal-de-2026-e-acoes-sobem-93CH-2042039"
   }
 ]
