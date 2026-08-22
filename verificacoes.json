@@ -1,5 +1,11 @@
 [
   {
+    "data": "2026-08-22T01:08:22.719Z",
+    "resultado": "pauta_reprovada",
+    "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
+    "titulo": "Ibovespa dispara e volta aos 170 mil pontos com Vale e bancos"
+  },
+  {
     "data": "2026-08-22T01:00:58.408Z",
     "resultado": "pauta_reprovada",
     "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
@@ -1064,10 +1070,5 @@
     "data": "2026-08-17T19:01:04.014Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 2 min."
-  },
-  {
-    "data": "2026-08-17T18:37:06.793Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 26 min."
   }
 ]
