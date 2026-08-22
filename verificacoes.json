@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-22T11:31:08.312Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
     "data": "2026-08-22T11:19:32.801Z",
     "resultado": "story_noticia_postado",
     "mensagem": "Story publicado (peso 58): \"Volatilidade dos FIIs, alívio no IPCA e arcabouço fiscal; veja destaques da semana\".",
@@ -1059,12 +1064,6 @@
   },
   {
     "data": "2026-08-18T09:31:50.036Z",
-    "resultado": "pauta_reprovada",
-    "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
-    "titulo": "Petróleo, indústria nos EUA, balanço da Home Depot e mais destaques nesta 3ª"
-  },
-  {
-    "data": "2026-08-18T09:31:01.789Z",
     "resultado": "pauta_reprovada",
     "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
     "titulo": "Petróleo, indústria nos EUA, balanço da Home Depot e mais destaques nesta 3ª"
