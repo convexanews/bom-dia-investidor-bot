@@ -1,7 +1,67 @@
 [
   {
+    "postId": "18114228017514802",
+    "dataColeta": "2026-08-22T11:41:36.767Z",
+    "dataPostagem": "2026-08-21T20:32:58.914Z",
+    "tipo": "reel",
+    "pilares": [
+      "macro",
+      "bolsa",
+      "exterior"
+    ],
+    "peso": 86,
+    "fonte": "Money Times",
+    "titulo": "Wall Street sobe no dia, mas tem queda de 1% na semana com pressão de petróleo e Treasuries",
+    "horarioBRT": "17",
+    "cta": "📤 Envie para quem acompanha o mercado global.",
+    "decisaoFormato": "peso 86: reel",
+    "insights": {
+      "reach": 10,
+      "saved": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "total_interactions": 0,
+      "falhas": [
+        {
+          "metrica": "plays",
+          "erro": "Instagram respondeu 400"
+        }
+      ]
+    }
+  },
+  {
+    "postId": "18451858954184662",
+    "dataColeta": "2026-08-22T11:41:38.074Z",
+    "dataPostagem": "2026-08-21T18:33:35.215Z",
+    "tipo": "reel",
+    "pilares": [
+      "macro"
+    ],
+    "peso": 74,
+    "fonte": "Money Times",
+    "titulo": "Ouro avança mais de 5% em semana de intervenção do Tesouro dos EUA nos Treasuries",
+    "horarioBRT": "15",
+    "cta": "📤 Envie para quem acompanha o mercado global.",
+    "decisaoFormato": "peso 74: reel",
+    "insights": {
+      "reach": 40,
+      "saved": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "total_interactions": 0,
+      "falhas": [
+        {
+          "metrica": "plays",
+          "erro": "Instagram respondeu 400"
+        }
+      ]
+    }
+  },
+  {
     "postId": "18055201010574764",
-    "dataColeta": "2026-08-21T11:48:30.979Z",
+    "dataColeta": "2026-08-22T11:41:39.366Z",
     "dataPostagem": "2026-08-21T05:31:30.882Z",
     "tipo": "alerta",
     "pilares": [],
@@ -12,7 +72,7 @@
     "cta": null,
     "decisaoFormato": null,
     "insights": {
-      "reach": 7,
+      "reach": 11,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -28,7 +88,7 @@
   },
   {
     "postId": "18137619733599740",
-    "dataColeta": "2026-08-21T11:48:32.136Z",
+    "dataColeta": "2026-08-22T11:41:40.949Z",
     "dataPostagem": "2026-08-20T20:32:44.074Z",
     "tipo": "reel",
     "pilares": [
@@ -43,7 +103,7 @@
     "cta": "📌 Salve para revisar quando o COPOM decidir.",
     "decisaoFormato": "peso 74: reel",
     "insights": {
-      "reach": 8,
+      "reach": 9,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -59,7 +119,7 @@
   },
   {
     "postId": "18072178769717543",
-    "dataColeta": "2026-08-21T11:48:33.346Z",
+    "dataColeta": "2026-08-22T11:41:42.634Z",
     "dataPostagem": "2026-08-20T18:38:44.083Z",
     "tipo": "reel",
     "pilares": [
@@ -73,7 +133,7 @@
     "cta": "📌 Salve para revisar quando o COPOM decidir.",
     "decisaoFormato": "peso 72: reel",
     "insights": {
-      "reach": 50,
+      "reach": 64,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -89,7 +149,7 @@
   },
   {
     "postId": "18114143249062739",
-    "dataColeta": "2026-08-21T11:48:34.304Z",
+    "dataColeta": "2026-08-22T11:41:44.112Z",
     "dataPostagem": "2026-08-20T08:31:28.252Z",
     "tipo": "alerta",
     "pilares": [],
@@ -116,7 +176,7 @@
   },
   {
     "postId": "18102113207622917",
-    "dataColeta": "2026-08-21T11:48:35.277Z",
+    "dataColeta": "2026-08-22T11:41:45.431Z",
     "dataPostagem": "2026-08-18T22:03:45.814Z",
     "tipo": "reel",
     "pilares": [
@@ -147,7 +207,7 @@
   },
   {
     "postId": "18112439575948546",
-    "dataColeta": "2026-08-21T11:48:36.203Z",
+    "dataColeta": "2026-08-22T11:41:46.804Z",
     "dataPostagem": "2026-08-18T13:32:45.364Z",
     "tipo": "reel",
     "pilares": [
@@ -177,7 +237,7 @@
   },
   {
     "postId": "18349020988223426",
-    "dataColeta": "2026-08-21T11:48:37.315Z",
+    "dataColeta": "2026-08-22T11:41:48.360Z",
     "dataPostagem": "2026-08-18T10:47:24.260Z",
     "tipo": "carrossel",
     "pilares": [
@@ -207,7 +267,7 @@
   },
   {
     "postId": "18110225360283982",
-    "dataColeta": "2026-08-21T11:48:38.614Z",
+    "dataColeta": "2026-08-22T11:41:50.385Z",
     "dataPostagem": "2026-08-17T17:32:30.059Z",
     "tipo": "carrossel",
     "pilares": [
@@ -238,7 +298,7 @@
   },
   {
     "postId": "18401617738088831",
-    "dataColeta": "2026-08-21T11:48:39.551Z",
+    "dataColeta": "2026-08-22T11:41:51.668Z",
     "dataPostagem": "2026-08-17T12:03:00.502Z",
     "tipo": "carrossel",
     "pilares": [
@@ -268,7 +328,7 @@
   },
   {
     "postId": "17929335261385079",
-    "dataColeta": "2026-08-21T11:48:40.576Z",
+    "dataColeta": "2026-08-22T11:41:52.980Z",
     "dataPostagem": "2026-08-17T09:02:04.805Z",
     "tipo": "carrossel",
     "pilares": [
@@ -299,7 +359,7 @@
   },
   {
     "postId": "18096294650137323",
-    "dataColeta": "2026-08-21T11:48:41.741Z",
+    "dataColeta": "2026-08-22T11:41:54.900Z",
     "dataPostagem": "2026-08-16T23:29:52.025Z",
     "tipo": "reel",
     "pilares": [
@@ -329,7 +389,7 @@
   },
   {
     "postId": "18138124603606268",
-    "dataColeta": "2026-08-21T11:48:42.959Z",
+    "dataColeta": "2026-08-22T11:41:56.227Z",
     "dataPostagem": "2026-08-15T01:12:19.454Z",
     "tipo": "carrossel",
     "pilares": [
@@ -361,7 +421,7 @@
   },
   {
     "postId": "17965194723150941",
-    "dataColeta": "2026-08-21T11:48:44.132Z",
+    "dataColeta": "2026-08-22T11:41:57.867Z",
     "dataPostagem": "2026-08-13T14:03:18.128Z",
     "tipo": "reel",
     "pilares": [
@@ -392,7 +452,7 @@
   },
   {
     "postId": "18092239103437738",
-    "dataColeta": "2026-08-21T11:48:45.148Z",
+    "dataColeta": "2026-08-22T11:41:59.227Z",
     "dataPostagem": "2026-08-12T20:32:12.584Z",
     "tipo": "carrossel",
     "pilares": [
@@ -423,7 +483,7 @@
   },
   {
     "postId": "18410454094157439",
-    "dataColeta": "2026-08-21T11:48:46.200Z",
+    "dataColeta": "2026-08-22T11:42:00.698Z",
     "dataPostagem": "2026-08-12T17:03:10.048Z",
     "tipo": "reel",
     "pilares": [
@@ -453,7 +513,7 @@
   },
   {
     "postId": "18016231085916957",
-    "dataColeta": "2026-08-21T11:48:47.182Z",
+    "dataColeta": "2026-08-22T11:42:02.170Z",
     "dataPostagem": "2026-08-12T10:33:02.280Z",
     "tipo": "carrossel",
     "pilares": [
@@ -484,7 +544,7 @@
   },
   {
     "postId": "18119833246923540",
-    "dataColeta": "2026-08-21T11:48:48.062Z",
+    "dataColeta": "2026-08-22T11:42:03.419Z",
     "dataPostagem": "2026-08-11T21:03:00.354Z",
     "tipo": "reel",
     "pilares": [
@@ -515,7 +575,7 @@
   },
   {
     "postId": "17943051630292360",
-    "dataColeta": "2026-08-21T11:48:49.024Z",
+    "dataColeta": "2026-08-22T11:42:04.772Z",
     "dataPostagem": "2026-08-11T11:32:52.418Z",
     "tipo": "reel",
     "pilares": [
@@ -546,7 +606,7 @@
   },
   {
     "postId": "17997022415989876",
-    "dataColeta": "2026-08-21T11:48:49.903Z",
+    "dataColeta": "2026-08-22T11:42:06.249Z",
     "dataPostagem": "2026-08-11T09:33:29.789Z",
     "tipo": "reel",
     "pilares": [
@@ -577,7 +637,7 @@
   },
   {
     "postId": "18042864992810072",
-    "dataColeta": "2026-08-21T11:48:50.941Z",
+    "dataColeta": "2026-08-22T11:42:07.626Z",
     "dataPostagem": "2026-08-10T09:33:00.055Z",
     "tipo": "reel",
     "pilares": [
@@ -608,7 +668,7 @@
   },
   {
     "postId": "18020922923698362",
-    "dataColeta": "2026-08-21T11:48:51.987Z",
+    "dataColeta": "2026-08-22T11:42:09.469Z",
     "dataPostagem": "2026-08-09T15:02:45.228Z",
     "tipo": "reel",
     "pilares": [
@@ -638,7 +698,7 @@
   },
   {
     "postId": "17946675600258612",
-    "dataColeta": "2026-08-21T11:48:53.096Z",
+    "dataColeta": "2026-08-22T11:42:10.803Z",
     "dataPostagem": "2026-08-08T13:02:49.856Z",
     "tipo": "reel",
     "pilares": [
@@ -668,7 +728,7 @@
   },
   {
     "postId": "18099908960250121",
-    "dataColeta": "2026-08-21T11:48:54.202Z",
+    "dataColeta": "2026-08-22T11:42:12.050Z",
     "dataPostagem": "2026-08-07T13:03:14.745Z",
     "tipo": "card",
     "pilares": [
@@ -683,66 +743,6 @@
     "decisaoFormato": null,
     "insights": {
       "reach": 24,
-      "saved": 0,
-      "shares": 0,
-      "comments": 0,
-      "likes": 0,
-      "total_interactions": 0,
-      "falhas": [
-        {
-          "metrica": "plays",
-          "erro": "Instagram respondeu 400"
-        }
-      ]
-    }
-  },
-  {
-    "postId": "18137291668580867",
-    "dataColeta": "2026-08-21T11:48:55.255Z",
-    "dataPostagem": "2026-08-06T22:33:06.187Z",
-    "tipo": "carrossel",
-    "pilares": [
-      "macro",
-      "bolsa"
-    ],
-    "peso": 53,
-    "fonte": "Suno",
-    "titulo": "Ibovespa cai 1,23% após Copom e tensão no exterior; Petrobras (PETR4) limita perdas",
-    "horarioBRT": null,
-    "cta": null,
-    "decisaoFormato": null,
-    "insights": {
-      "reach": 23,
-      "saved": 0,
-      "shares": 0,
-      "comments": 0,
-      "likes": 0,
-      "total_interactions": 0,
-      "falhas": [
-        {
-          "metrica": "plays",
-          "erro": "Instagram respondeu 400"
-        }
-      ]
-    }
-  },
-  {
-    "postId": "18052937546792576",
-    "dataColeta": "2026-08-21T11:48:56.353Z",
-    "dataPostagem": "2026-08-06T18:17:45.806Z",
-    "tipo": "card",
-    "pilares": [
-      "macro",
-      "bolsa"
-    ],
-    "peso": 78,
-    "fonte": "Money Times",
-    "titulo": "Após corte de juros, analista da Empiricus faz aposta para futuro da Selic",
-    "horarioBRT": null,
-    "cta": null,
-    "decisaoFormato": null,
-    "insights": {
-      "reach": 25,
       "saved": 0,
       "shares": 0,
       "comments": 0,
