@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-22T15:19:39.326Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
     "data": "2026-08-22T15:01:01.093Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1059,10 +1064,5 @@
     "data": "2026-08-18T13:30:58.691Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 75): \"Balanço dos balanços do 2T26: BTG vê temporada com receita forte, mas juros limitam avanço do lucro\". Realizando postagem..."
-  },
-  {
-    "data": "2026-08-18T13:01:53.189Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }
 ]
