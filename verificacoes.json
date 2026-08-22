@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-22T18:01:07.567Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
     "data": "2026-08-22T17:30:52.923Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1055,10 +1060,5 @@
     "data": "2026-08-18T22:01:57.610Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 71): \"Ibovespa cai pela 11ª sessão seguida com PEC 6×1 no radar; dólar sobe\". Realizando postagem..."
-  },
-  {
-    "data": "2026-08-18T15:34:21.404Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }
 ]
