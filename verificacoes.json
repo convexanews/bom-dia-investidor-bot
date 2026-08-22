@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-22T04:00:58.285Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (01:00 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-08-22T03:30:58.374Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (00:30 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1066,10 +1071,5 @@
     "mensagem": "Story publicado (peso 61): \"Wall Street recua com pressão do petróleo e escalada das tensões entre EUA-Irã\".",
     "postId": "18009604682755519",
     "peso": 61
-  },
-  {
-    "data": "2026-08-17T21:02:12.016Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }
 ]
