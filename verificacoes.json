@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-22T12:30:59.729Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 63 min."
+  },
+  {
     "data": "2026-08-22T12:03:15.713Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"Hapvida (HAPV3) despenca pela 2ª semana consecutiva; veja os destaques semanais do Ibovespa\".",
@@ -1065,10 +1070,5 @@
     "storyId": null,
     "reelId": null,
     "tipo": "carrossel"
-  },
-  {
-    "data": "2026-08-18T10:46:12.775Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 78): \"El Niño ‘muito forte’: o que está em jogo para a safra, a inflação e os juros no Brasil\". Realizando postagem..."
   }
 ]
