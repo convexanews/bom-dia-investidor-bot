@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-22T16:01:15.513Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
     "data": "2026-08-22T15:30:58.535Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1055,14 +1060,5 @@
     "data": "2026-08-18T14:01:38.720Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 62 min."
-  },
-  {
-    "data": "2026-08-18T13:32:45.367Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"Balanço dos balanços do 2T26: BTG vê temporada com receita forte, mas juros limitam avanço do lucro\".",
-    "postId": "18112439575948546",
-    "storyId": null,
-    "reelId": "18112439575948546",
-    "tipo": "reel"
   }
 ]
