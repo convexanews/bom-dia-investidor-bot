@@ -1,5 +1,27 @@
 [
   {
+    "data": "2026-08-22T12:03:15.710Z",
+    "titulo": "Hapvida (HAPV3) despenca pela 2ª semana consecutiva; veja os destaques semanais do Ibovespa",
+    "categoria": "Mercados",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/ibovespa-destaque-da-semana-34-lils/",
+    "postId": "17894423445598182",
+    "storyId": null,
+    "reelId": "17894423445598182",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1787400076156.mp4",
+    "tipo": "reel",
+    "peso": 70,
+    "pilares": [
+      "macro",
+      "bolsa"
+    ],
+    "horarioBRT": "09",
+    "cta": "📌 Salve para revisar quando o COPOM decidir.",
+    "decisaoFormato": "peso 70: reel"
+  },
+  {
     "data": "2026-08-21T20:32:58.914Z",
     "titulo": "Wall Street sobe no dia, mas tem queda de 1% na semana com pressão de petróleo e Treasuries",
     "categoria": "Mercados",
@@ -3303,20 +3325,5 @@
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783692089571.mp4",
     "tipo": "reel",
     "peso": 66
-  },
-  {
-    "data": "2026-07-10T11:32:50.444Z",
-    "titulo": "Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta sexta",
-    "categoria": "Mercados",
-    "fonte": "InfoMoney",
-    "link": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-10072026/",
-    "postId": "18383621257165945",
-    "storyId": "18479889394097753",
-    "reelId": null,
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783683095779-slide1.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783683095779-story.png",
-    "videoUrl": null,
-    "tipo": "carrossel",
-    "peso": 55
   }
 ]

@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-08-22T12:03:15.713Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Hapvida (HAPV3) despenca pela 2ª semana consecutiva; veja os destaques semanais do Ibovespa\".",
+    "postId": "17894423445598182",
+    "storyId": null,
+    "reelId": "17894423445598182",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-08-22T12:01:11.528Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 70): \"Hapvida (HAPV3) despenca pela 2ª semana consecutiva; veja os destaques semanais do Ibovespa\". Realizando postagem..."
+  },
+  {
     "data": "2026-08-22T11:31:08.312Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1056,16 +1070,5 @@
     "data": "2026-08-18T10:46:12.775Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 78): \"El Niño ‘muito forte’: o que está em jogo para a safra, a inflação e os juros no Brasil\". Realizando postagem..."
-  },
-  {
-    "data": "2026-08-18T10:45:22.554Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-08-18T09:31:50.036Z",
-    "resultado": "pauta_reprovada",
-    "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
-    "titulo": "Petróleo, indústria nos EUA, balanço da Home Depot e mais destaques nesta 3ª"
   }
 ]
