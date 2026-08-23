@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-23T21:01:05.127Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
     "data": "2026-08-23T20:31:01.206Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1047,10 +1052,5 @@
     "storyId": null,
     "reelId": "18072178769717543",
     "tipo": "reel"
-  },
-  {
-    "data": "2026-08-20T18:37:04.796Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 72): \"Mansueto faz alerta: 2027 pode ser o pior ano da economia brasileira desde a pandemia\". Realizando postagem..."
   }
 ]
