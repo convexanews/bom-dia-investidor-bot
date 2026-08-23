@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-23T21:21:38.596Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
     "data": "2026-08-23T21:20:40.322Z",
     "resultado": "story_noticia_postado",
     "mensagem": "Story publicado (peso 32): \"Títulos longos dos EUA podem cair mais sem sinalização clara de Warsh\".",
@@ -1045,10 +1050,5 @@
     "data": "2026-08-20T19:30:52.845Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 38 min."
-  },
-  {
-    "data": "2026-08-20T19:01:04.869Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 68 min."
   }
 ]
