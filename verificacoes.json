@@ -1,5 +1,12 @@
 [
   {
+    "data": "2026-08-23T21:20:40.322Z",
+    "resultado": "story_noticia_postado",
+    "mensagem": "Story publicado (peso 32): \"Títulos longos dos EUA podem cair mais sem sinalização clara de Warsh\".",
+    "postId": "18305260213303043",
+    "peso": 32
+  },
+  {
     "data": "2026-08-23T21:01:05.127Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1043,14 +1050,5 @@
     "data": "2026-08-20T19:01:04.869Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 68 min."
-  },
-  {
-    "data": "2026-08-20T18:38:44.086Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"Mansueto faz alerta: 2027 pode ser o pior ano da economia brasileira desde a pandemia\".",
-    "postId": "18072178769717543",
-    "storyId": null,
-    "reelId": "18072178769717543",
-    "tipo": "reel"
   }
 ]
