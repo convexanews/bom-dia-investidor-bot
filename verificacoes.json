@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-23T12:31:01.180Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
     "data": "2026-08-23T12:01:01.056Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1049,11 +1054,5 @@
     "data": "2026-08-20T10:56:46.160Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-08-20T10:31:31.588Z",
-    "resultado": "pauta_reprovada",
-    "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
-    "titulo": "Desemprego nos EUA, juros na China, Walmart, leilão do Tesouro e mais destaques hoje"
   }
 ]
