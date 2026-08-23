@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-23T13:01:06.536Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
     "data": "2026-08-23T12:36:55.416Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1049,10 +1054,5 @@
     "mensagem": "Story publicado (peso 65): \"Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta quinta\".",
     "postId": "17979669774078333",
     "peso": 65
-  },
-  {
-    "data": "2026-08-20T11:01:17.553Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }
 ]
