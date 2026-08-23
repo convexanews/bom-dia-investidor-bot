@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-23T22:31:10.114Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
     "data": "2026-08-23T22:01:14.101Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1045,10 +1050,5 @@
     "data": "2026-08-20T20:30:55.142Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 74): \"Ibovespa fecha próximo da estabilidade com apoio de Petrobras (PETR4); dólar sobe\". Realizando postagem..."
-  },
-  {
-    "data": "2026-08-20T20:01:33.453Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 8 min."
   }
 ]
