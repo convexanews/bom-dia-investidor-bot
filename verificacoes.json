@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-23T23:01:04.965Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
     "data": "2026-08-23T22:47:36.087Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1041,14 +1046,5 @@
     "data": "2026-08-20T21:01:05.861Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 62 min."
-  },
-  {
-    "data": "2026-08-20T20:32:44.077Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"Ibovespa fecha próximo da estabilidade com apoio de Petrobras (PETR4); dólar sobe\".",
-    "postId": "18137619733599740",
-    "storyId": null,
-    "reelId": "18137619733599740",
-    "tipo": "reel"
   }
 ]
