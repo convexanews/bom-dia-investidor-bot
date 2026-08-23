@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-23T23:19:23.992Z",
+    "resultado": "sem_noticia_story",
+    "mensagem": "Nenhuma notícia recente de menor impacto foi encontrada."
+  },
+  {
     "data": "2026-08-23T23:01:04.965Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1041,10 +1046,5 @@
     "mensagem": "Story publicado (peso 48): \"Curva de juros avança com Treasuries e petróleo\".",
     "postId": "18142523665494412",
     "peso": 48
-  },
-  {
-    "data": "2026-08-20T21:01:05.861Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 62 min."
   }
 ]
