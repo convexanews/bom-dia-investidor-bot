@@ -1,5 +1,12 @@
 [
   {
+    "data": "2026-08-24T21:27:28.979Z",
+    "resultado": "story_noticia_postado",
+    "mensagem": "Story publicado (peso 67): \"Ibovespa evita cautela no exterior com Vale (VALE3) e bancos; dólar sobe a R$ 5,15\".",
+    "postId": "17938508166092794",
+    "peso": 67
+  },
+  {
     "data": "2026-08-24T21:00:58.929Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 26 min."
@@ -1043,10 +1050,5 @@
     "data": "2026-08-21T19:30:57.670Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 33 min."
-  },
-  {
-    "data": "2026-08-21T19:00:59.384Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 63 min."
   }
 ]
