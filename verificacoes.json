@@ -1,5 +1,11 @@
 [
   {
+    "data": "2026-08-24T10:30:55.128Z",
+    "resultado": "pauta_reprovada",
+    "mensagem": "Notícia não publicada: manchete longa demais para caber completa no card.",
+    "titulo": "Mercado mantém guerra no Irã no radar e digere pesquisa eleitoral do BTG Pactual; Ibovespa em dólar recua nesta segunda-feira (24)"
+  },
+  {
     "data": "2026-08-24T10:01:19.925Z",
     "resultado": "pauta_reprovada",
     "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
@@ -1039,10 +1045,5 @@
     "data": "2026-08-21T07:31:07.596Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (04:31 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-08-21T07:00:57.129Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (04:00 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
