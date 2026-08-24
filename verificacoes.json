@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-24T02:01:00.672Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (23:01 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-08-24T01:31:08.816Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1037,12 +1042,5 @@
     "data": "2026-08-20T23:30:55.585Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-08-20T23:24:23.889Z",
-    "resultado": "story_noticia_postado",
-    "mensagem": "Story publicado (peso 62): \"Gringo saiu, Ibovespa caiu: o que explica a retirada de R$ 20 bi da Bolsa em agosto?\".",
-    "postId": "18000786974791232",
-    "peso": 62
   }
 ]
