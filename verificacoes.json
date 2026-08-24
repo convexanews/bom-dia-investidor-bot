@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-24T17:31:02.071Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 32 min."
+  },
+  {
     "data": "2026-08-24T17:04:42.735Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 59 min."
@@ -1050,10 +1055,5 @@
     "resultado": "pauta_reprovada",
     "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
     "titulo": "Ibovespa dispara e volta aos 170 mil pontos com Vale e bancos"
-  },
-  {
-    "data": "2026-08-21T15:32:10.203Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }
 ]
