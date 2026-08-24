@@ -1,5 +1,11 @@
 [
   {
+    "data": "2026-08-24T09:31:06.183Z",
+    "resultado": "pauta_reprovada",
+    "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
+    "titulo": "Sanções dos EUA ao Irã, Focus, Galípolo e mais: veja os destaques desta segunda"
+  },
+  {
     "data": "2026-08-24T09:01:02.366Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1036,11 +1042,5 @@
     "data": "2026-08-21T06:01:01.686Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (03:01 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-08-21T05:31:30.884Z",
-    "resultado": "alerta_recorde",
-    "mensagem": "Alerta de recorde publicado: Bitcoin (NOVA MÁXIMA).",
-    "postId": "18055201010574764"
   }
 ]
