@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-24T20:01:35.800Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 85 min."
+  },
+  {
     "data": "2026-08-24T19:56:03.829Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"Ouro sobe e fecha no maior nível desde maio com Treasuries e tensão entre EUA e Irã no radar\".",
@@ -1047,10 +1052,5 @@
     "storyId": null,
     "reelId": "18451858954184662",
     "tipo": "reel"
-  },
-  {
-    "data": "2026-08-21T18:30:57.615Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 74): \"Ouro avança mais de 5% em semana de intervenção do Tesouro dos EUA nos Treasuries\". Realizando postagem..."
   }
 ]
