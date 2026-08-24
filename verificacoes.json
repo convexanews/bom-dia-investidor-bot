@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-24T17:01:04.083Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 62 min."
+  },
+  {
     "data": "2026-08-24T16:35:48.474Z",
     "resultado": "story_noticia_postado",
     "mensagem": "Story publicado (peso 45): \"B3 anuncia exclusão de ativos da Braskem (BRKM5) em índices após ajuizar pedido de recuperação extrajudicial\".",
@@ -1048,11 +1053,6 @@
   },
   {
     "data": "2026-08-21T15:31:19.967Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-08-21T15:01:59.792Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }
