@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-08-24T16:33:00.214Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Trump diz que Irã ‘está em colapso’ horas antes de anúncio de sanções econômicas\".",
+    "postId": "18140161762506608",
+    "storyId": null,
+    "reelId": "18140161762506608",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-08-24T16:31:20.712Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 80): \"Trump diz que Irã ‘está em colapso’ horas antes de anúncio de sanções econômicas\". Realizando postagem..."
+  },
+  {
     "data": "2026-08-24T16:01:15.209Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1037,16 +1051,6 @@
   },
   {
     "data": "2026-08-21T14:31:01.547Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-08-21T14:06:08.511Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-08-21T14:01:05.194Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }

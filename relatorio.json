@@ -1,5 +1,27 @@
 [
   {
+    "data": "2026-08-24T16:33:00.212Z",
+    "titulo": "Trump diz que Irã ‘está em colapso’ horas antes de anúncio de sanções econômicas",
+    "categoria": "Internacional",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/trump-diz-que-ira-esta-em-colapso-horas-antes-de-anuncio-de-sancoes-economicas/",
+    "postId": "18140161762506608",
+    "storyId": null,
+    "reelId": "18140161762506608",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1787589084863.mp4",
+    "tipo": "reel",
+    "peso": 80,
+    "pilares": [
+      "macro",
+      "bolsa"
+    ],
+    "horarioBRT": "13",
+    "cta": "📤 Envie para quem tem ativos dolarizados.",
+    "decisaoFormato": "peso 80: reel"
+  },
+  {
     "data": "2026-08-24T12:02:49.932Z",
     "titulo": "Economistas veem economia mais fraca e inflação mais forte; confira o Focus desta segunda-feira (24)",
     "categoria": "Economia",
@@ -3317,20 +3339,5 @@
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783711901301.mp4",
     "tipo": "reel",
     "peso": 68
-  },
-  {
-    "data": "2026-07-10T17:20:25.711Z",
-    "titulo": "Fed revela resiliência surpreendente do sistema financeiro americano em meio a crises",
-    "categoria": "Economia",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/fed-diz-que-sistema-financeiro-dos-eua-permaneceu-solido-no-1o-semestre-e-reforca-duplo-mandato/",
-    "postId": "18067287470480257",
-    "storyId": null,
-    "reelId": "18067287470480257",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783703898040.mp4",
-    "tipo": "reel",
-    "peso": 83
   }
 ]
