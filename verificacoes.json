@@ -1,5 +1,11 @@
 [
   {
+    "data": "2026-08-24T09:45:52.629Z",
+    "resultado": "pauta_reprovada",
+    "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
+    "titulo": "Sanções dos EUA ao Irã, Focus, Galípolo e mais: veja os destaques desta segunda"
+  },
+  {
     "data": "2026-08-24T09:31:06.183Z",
     "resultado": "pauta_reprovada",
     "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
@@ -1037,10 +1043,5 @@
     "data": "2026-08-21T06:30:59.242Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (03:30 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-08-21T06:01:01.686Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (03:01 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
