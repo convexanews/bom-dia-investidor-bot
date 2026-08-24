@@ -1,5 +1,12 @@
 [
   {
+    "data": "2026-08-24T16:35:48.474Z",
+    "resultado": "story_noticia_postado",
+    "mensagem": "Story publicado (peso 45): \"B3 anuncia exclusão de ativos da Braskem (BRKM5) em índices após ajuizar pedido de recuperação extrajudicial\".",
+    "postId": "18029036552670401",
+    "peso": 45
+  },
+  {
     "data": "2026-08-24T16:33:00.214Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"Trump diz que Irã ‘está em colapso’ horas antes de anúncio de sanções econômicas\".",
@@ -1046,11 +1053,6 @@
   },
   {
     "data": "2026-08-21T15:01:59.792Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-08-21T14:31:01.547Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }
