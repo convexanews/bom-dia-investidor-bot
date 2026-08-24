@@ -1,5 +1,27 @@
 [
   {
+    "data": "2026-08-24T12:02:49.932Z",
+    "titulo": "Economistas veem economia mais fraca e inflação mais forte; confira o Focus desta segunda-feira (24)",
+    "categoria": "Economia",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/economistas-veem-economia-mais-fraco-e-inflacao-mais-forte-confira-o-focus-desta-segunda-feira-24-jcav/",
+    "postId": "18066394964582106",
+    "storyId": null,
+    "reelId": "18066394964582106",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1787572869890.mp4",
+    "tipo": "reel",
+    "peso": 78,
+    "pilares": [
+      "macro",
+      "bolsa"
+    ],
+    "horarioBRT": "09",
+    "cta": "📤 Envie para quem está investindo e precisa ver isso.",
+    "decisaoFormato": "peso 78: reel"
+  },
+  {
     "data": "2026-08-22T12:03:15.710Z",
     "titulo": "Hapvida (HAPV3) despenca pela 2ª semana consecutiva; veja os destaques semanais do Ibovespa",
     "categoria": "Mercados",
@@ -3310,20 +3332,5 @@
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783703898040.mp4",
     "tipo": "reel",
     "peso": 83
-  },
-  {
-    "data": "2026-07-10T14:03:02.352Z",
-    "titulo": "IPCA fraco reforça aposta em corte da Selic em agosto, mas petróleo mantém alerta",
-    "categoria": "Economia",
-    "fonte": "InfoMoney",
-    "link": "https://www.infomoney.com.br/economia/ipca-fraco-reforca-aposta-em-corte-da-selic-em-agosto-mas-petroleo-mantem-alerta/",
-    "postId": "18107058979997358",
-    "storyId": null,
-    "reelId": "18107058979997358",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783692089571.mp4",
-    "tipo": "reel",
-    "peso": 66
   }
 ]

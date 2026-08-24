@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-08-24T12:02:49.934Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Economistas veem economia mais fraca e inflação mais forte; confira o Focus desta segunda-feira (24)\".",
+    "postId": "18066394964582106",
+    "storyId": null,
+    "reelId": "18066394964582106",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-08-24T12:01:05.667Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 78): \"Economistas veem economia mais fraca e inflação mais forte; confira o Focus desta segunda-feira (24)\". Realizando postagem..."
+  },
+  {
     "data": "2026-08-24T11:31:16.061Z",
     "resultado": "pauta_reprovada",
     "mensagem": "Notícia não publicada: manchete longa demais para caber completa no card.",
@@ -1035,18 +1049,6 @@
   },
   {
     "data": "2026-08-21T10:01:06.432Z",
-    "resultado": "pauta_reprovada",
-    "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
-    "titulo": "PMIs, pesquisa Datafolha, falas do ministro da Fazenda e mais destaques desta sexta"
-  },
-  {
-    "data": "2026-08-21T09:35:09.343Z",
-    "resultado": "pauta_reprovada",
-    "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
-    "titulo": "PMIs, pesquisa Datafolha, falas do ministro da Fazenda e mais destaques desta sexta"
-  },
-  {
-    "data": "2026-08-21T09:31:00.884Z",
     "resultado": "pauta_reprovada",
     "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
     "titulo": "PMIs, pesquisa Datafolha, falas do ministro da Fazenda e mais destaques desta sexta"
