@@ -1,5 +1,11 @@
 [
   {
+    "data": "2026-08-24T11:31:16.061Z",
+    "resultado": "pauta_reprovada",
+    "mensagem": "Notícia não publicada: manchete longa demais para caber completa no card.",
+    "titulo": "Mercado mantém guerra no Irã no radar e digere pesquisa eleitoral do BTG Pactual; Ibovespa em dólar recua nesta segunda-feira (24)"
+  },
+  {
     "data": "2026-08-24T11:26:51.804Z",
     "resultado": "story_noticia_postado",
     "mensagem": "Story publicado (peso 55): \"Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta segunda\".",
@@ -1044,10 +1050,5 @@
     "resultado": "pauta_reprovada",
     "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
     "titulo": "PMIs, pesquisa Datafolha, falas do ministro da Fazenda e mais destaques desta sexta"
-  },
-  {
-    "data": "2026-08-21T09:01:21.701Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }
 ]
