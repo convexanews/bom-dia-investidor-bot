@@ -1,5 +1,11 @@
 [
   {
+    "data": "2026-08-24T18:31:10.824Z",
+    "resultado": "pauta_reprovada",
+    "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
+    "titulo": "Ibovespa Hoje Ao Vivo: Bolsa sobe com VALE3; PETR4 e BRKM5 despencam"
+  },
+  {
     "data": "2026-08-24T18:00:59.125Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 3 min."
@@ -1048,11 +1054,5 @@
     "mensagem": "Story publicado (peso 54): \"Com rendimentos de títulos mais altos, UBS diz onde ainda vale investir e quais ações brasileiras podem ser penalizadas\".",
     "postId": "18125547685751618",
     "peso": 54
-  },
-  {
-    "data": "2026-08-21T16:31:22.168Z",
-    "resultado": "pauta_reprovada",
-    "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
-    "titulo": "Ibovespa dispara e volta aos 170 mil pontos com Vale e bancos"
   }
 ]
