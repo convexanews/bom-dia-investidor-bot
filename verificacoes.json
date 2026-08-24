@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-24T14:01:34.062Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
     "data": "2026-08-24T13:30:59.475Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 2 min."
@@ -1044,12 +1049,5 @@
     "data": "2026-08-21T11:30:57.365Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-08-21T11:24:20.518Z",
-    "resultado": "story_noticia_postado",
-    "mensagem": "Story publicado (peso 58): \"Núcleo da inflação no Japão acelera em julho e reforça argumentos para aumento de juros\".",
-    "postId": "18131726599652564",
-    "peso": 58
   }
 ]
