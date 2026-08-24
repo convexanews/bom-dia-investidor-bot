@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-24T20:32:01.605Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 55 min."
+  },
+  {
     "data": "2026-08-24T20:01:35.800Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 85 min."
@@ -1043,14 +1048,5 @@
     "data": "2026-08-21T18:34:31.610Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 90 min."
-  },
-  {
-    "data": "2026-08-21T18:33:35.217Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"Ouro avança mais de 5% em semana de intervenção do Tesouro dos EUA nos Treasuries\".",
-    "postId": "18451858954184662",
-    "storyId": null,
-    "reelId": "18451858954184662",
-    "tipo": "reel"
   }
 ]
