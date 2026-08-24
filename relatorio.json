@@ -1,5 +1,26 @@
 [
   {
+    "data": "2026-08-24T19:56:03.827Z",
+    "titulo": "Ouro sobe e fecha no maior nível desde maio com Treasuries e tensão entre EUA e Irã no radar",
+    "categoria": "Mercados",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/ouro-24-8-26-lils/",
+    "postId": "18043358765808237",
+    "storyId": null,
+    "reelId": "18043358765808237",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1787601269337.mp4",
+    "tipo": "reel",
+    "peso": 71,
+    "pilares": [
+      "macro"
+    ],
+    "horarioBRT": "16",
+    "cta": "📤 Envie para quem acompanha o mercado global.",
+    "decisaoFormato": "peso 71: reel"
+  },
+  {
     "data": "2026-08-24T16:33:00.212Z",
     "titulo": "Trump diz que Irã ‘está em colapso’ horas antes de anúncio de sanções econômicas",
     "categoria": "Internacional",
@@ -3322,21 +3343,6 @@
     "imagemFeed": null,
     "imagemStory": null,
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783721237881.mp4",
-    "tipo": "reel",
-    "peso": 68
-  },
-  {
-    "data": "2026-07-10T19:33:31.953Z",
-    "titulo": "Inflação abaixo do esperado já permite sonhar com mais cortes na Selic? Veja as projeções dos bancos",
-    "categoria": "Economia",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/inflacao-abaixo-do-esperado-ja-permite-sonhar-com-mais-cortes-na-selic-veja-as-projecoes-dos-bancos-jcav/",
-    "postId": "17993181555004446",
-    "storyId": null,
-    "reelId": "17993181555004446",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783711901301.mp4",
     "tipo": "reel",
     "peso": 68
   }

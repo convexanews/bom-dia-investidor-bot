@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-08-24T19:56:03.829Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Ouro sobe e fecha no maior nível desde maio com Treasuries e tensão entre EUA e Irã no radar\".",
+    "postId": "18043358765808237",
+    "storyId": null,
+    "reelId": "18043358765808237",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-08-24T19:54:14.789Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 71): \"Ouro sobe e fecha no maior nível desde maio com Treasuries e tensão entre EUA e Irã no radar\". Realizando postagem..."
+  },
+  {
     "data": "2026-08-24T19:31:26.313Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1038,17 +1052,5 @@
     "data": "2026-08-21T18:30:57.615Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 74): \"Ouro avança mais de 5% em semana de intervenção do Tesouro dos EUA nos Treasuries\". Realizando postagem..."
-  },
-  {
-    "data": "2026-08-21T18:01:06.682Z",
-    "resultado": "pauta_reprovada",
-    "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
-    "titulo": "Ibovespa dispara e volta aos 170 mil pontos com Vale e bancos"
-  },
-  {
-    "data": "2026-08-21T17:31:14.364Z",
-    "resultado": "pauta_reprovada",
-    "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
-    "titulo": "Ibovespa dispara e volta aos 170 mil pontos com Vale e bancos"
   }
 ]
