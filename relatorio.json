@@ -1,5 +1,26 @@
 [
   {
+    "data": "2026-08-24T22:02:47.235Z",
+    "titulo": "Ibovespa sobe pela 4ª vez seguida com Vale (VALE3); Braskem (BRKM5) despenca",
+    "categoria": "Mercado Financeiro",
+    "fonte": "Suno",
+    "link": "https://www.suno.com.br/noticias/ibovespa-hoje-24-agosto-2026-vale3-brkm5-mt/",
+    "postId": "18276606091290400",
+    "storyId": null,
+    "reelId": "18276606091290400",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1787608867425.mp4",
+    "tipo": "reel",
+    "peso": 74,
+    "pilares": [
+      "bolsa"
+    ],
+    "horarioBRT": "19",
+    "cta": "📤 Envie para quem está investindo e precisa ver isso.",
+    "decisaoFormato": "peso 74: reel"
+  },
+  {
     "data": "2026-08-24T19:56:03.827Z",
     "titulo": "Ouro sobe e fecha no maior nível desde maio com Treasuries e tensão entre EUA e Irã no radar",
     "categoria": "Mercados",
@@ -3330,20 +3351,5 @@
     "videoUrl": null,
     "tipo": "carrossel",
     "peso": 28
-  },
-  {
-    "data": "2026-07-10T22:08:54.321Z",
-    "titulo": "Ibovespa dispara quase 3% com IPCA surpreendente e renova máxima em quase dois meses",
-    "categoria": "Mercado Financeiro",
-    "fonte": "Suno",
-    "link": "https://www.suno.com.br/noticias/ibovespa-hoje-10-julho-2026-fechamento-mt/",
-    "postId": "18188086795377783",
-    "storyId": null,
-    "reelId": "18188086795377783",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783721237881.mp4",
-    "tipo": "reel",
-    "peso": 68
   }
 ]
