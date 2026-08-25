@@ -1,5 +1,11 @@
 [
   {
+    "data": "2026-08-25T15:31:15.365Z",
+    "resultado": "pauta_reprovada",
+    "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
+    "titulo": "Ibovespa Hoje Ao Vivo: Bolsa oscila com preocupações sobre Irã-EUA no radar"
+  },
+  {
     "data": "2026-08-25T15:01:11.683Z",
     "resultado": "pauta_reprovada",
     "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
@@ -1044,10 +1050,5 @@
     "data": "2026-08-22T13:51:35.017Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-08-22T13:31:02.694Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 3 min."
   }
 ]
