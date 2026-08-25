@@ -141,8 +141,9 @@ async function publicarReel(videoUrl, legenda, { shareToFeed = true, coverUrl = 
   return publishData.id;
 }
 
-async function publicarStory(imageUrl) {
-  const createUrl = `${IG_API_BASE}/${igAccountId()}/media?image_url=${encodeURIComponent(imageUrl)}&media_type=STORIES&access_token=${igToken()}`;
+async function publicarStory(mediaUrl, { video = false } = {}) {
+  const mediaParam = video ? 'video_url' : 'image_url';
+  const createUrl = `${IG_API_BASE}/${igAccountId()}/media?${mediaParam}=${encodeURIComponent(mediaUrl)}&media_type=STORIES&access_token=${igToken()}`;
   const createResp = await fetchComRetry(createUrl, { method: 'POST' });
   const createData = await createResp.json();
   if (!createData.id) throw new Error('Erro ao criar container de stories: ' + JSON.stringify(createData));

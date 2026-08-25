@@ -6,7 +6,7 @@ const path = require('path');
 const { limparTextoNarracao, validarConfiguracao, estimarDuracaoNarracao } = require('../studio-audio.cjs');
 const { normalizarMidiaInstagram } = require('../sincronizar-instagram-studio.cjs');
 const { validarAgendamento, agendar, lerAgenda } = require('../studio-agenda.cjs');
-const { argumentosInstagramMp4 } = require('../studio-publisher.cjs');
+const { argumentosInstagramMp4, argumentosStoryComMusica } = require('../studio-publisher.cjs');
 const { readInput } = require('../publicar-studio.cjs');
 
 test('narração remove links e limita configurações de voz', () => {
@@ -46,10 +46,22 @@ test('pipeline MP4 força H.264, AAC, 48 kHz e faststart', () => {
   assert.match(args, /\+faststart/);
 });
 
+test('Story musical limita duração e volume e gera vídeo compatível', () => {
+  const args = argumentosStoryComMusica('story.png', 'news.mp3', 'story.mp4', { duration: 12, volume: .18 }).join(' ');
+  assert.match(args, /-loop 1/);
+  assert.match(args, /-t 12/);
+  assert.match(args, /volume=0\.18/);
+  assert.match(args, /libx264/);
+  assert.match(args, /aac/);
+  assert.match(args, /48000/);
+});
+
 test('publicador geral aceita carrossel autorizado e bloqueia WebM em Reel', () => {
   const b64 = value => Buffer.from(typeof value === 'string' ? value : JSON.stringify(value)).toString('base64');
   const base = { STUDIO_QUEUE_ID: '20260825123456789', STUDIO_CAPTION_B64: b64('Mercado hoje\n\nConteúdo informativo.'), STUDIO_ORIGIN_B64: b64({ source: 'BDI' }), STUDIO_OPTIONS_B64: b64({}) };
   const carousel = readInput({ ...base, STUDIO_FORMAT: 'carousel', STUDIO_MEDIA_B64: b64(['https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-studio/post-20260825123456789-1.png']) });
   assert.equal(carousel.format, 'carousel');
+  const story = readInput({ ...base, STUDIO_FORMAT: 'story', STUDIO_OPTIONS_B64: b64({ storyVideo: true }), STUDIO_MEDIA_B64: b64(['https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-studio/story-20260825123456789.mp4']) });
+  assert.equal(story.options.storyVideo, true);
   assert.throws(() => readInput({ ...base, STUDIO_FORMAT: 'reel', STUDIO_MEDIA_B64: b64(['https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-studio/reel-20260825123456789.webm']) }), /não autorizada|MP4/);
 });

@@ -36,6 +36,13 @@
         <label>Crédito da imagem<input id="storyCredit" maxlength="80" value="Imagem editorial: Bom Dia Investidor"></label>
         <label>Imagem<div class="story-upload"><span id="storyImageName">Escolher imagem</span><input id="storyImageUpload" type="file" accept="image/*"></div></label>
         <div class="story-image-actions" id="storyImageActions"><button id="previousImage">← Imagem anterior</button><button id="nextImage">Próxima imagem →</button></div>
+        <div class="story-music-card">
+          <div class="story-music-head"><div><span>TRILHA DAS NOTÍCIAS</span><b>The Runner</b></div><label class="story-switch"><input id="storyMusicEnabled" type="checkbox" checked><i></i></label></div>
+          <div class="story-music-volume"><span>Volume</span><input id="storyMusicVolume" type="range" min="5" max="60" value="18"><strong id="storyMusicVolumeValue">18%</strong></div>
+          <button id="previewStoryMusic" type="button">▶ Ouvir trilha</button>
+          <audio id="storyMusicAudio" src="../noticias-trilha.mp3" preload="metadata"></audio>
+          <small>Áudio fornecido pelo usuário • trecho automático de 12 segundos</small>
+        </div>
         <div class="story-row colors-row"><label>Fundo<input id="storyColorA" type="color" value="#071d18"></label><label>Final<input id="storyColorB" type="color" value="#0c4b38"></label><label>Destaque<input id="storyAccent" type="color" value="#d9aa43"></label></div>
         <p class="story-hint">A fonte e o crédito ficam gravados dentro da imagem. Confirme a autorização de uso da fotografia.</p>
       </section>
@@ -52,7 +59,7 @@
 
       <aside class="story-publish">
         <div class="story-heading"><div><span>PUBLICAÇÃO</span><h2>Revise e envie</h2></div><em id="storyStatusBadge">local</em></div>
-        <div class="story-checks"><div>✓ Formato vertical 1080 × 1920</div><div>✓ Fonte visível na arte</div><div>✓ Confirmação antes de publicar</div></div>
+        <div class="story-checks"><div>✓ Formato vertical 1080 × 1920</div><div>✓ Fonte visível na arte</div><div>✓ Música incorporada ao vídeo</div><div>✓ Confirmação antes de publicar</div></div>
         <label>Observação interna<textarea id="storyCaption" maxlength="400" placeholder="Opcional — Stories não exibem legenda no post."></textarea></label>
         <button class="primary story-wide" id="queueStory">1. Enviar à fila local</button>
         <button class="story-approve story-wide" id="approveStory" disabled>2. Aprovar Story</button>

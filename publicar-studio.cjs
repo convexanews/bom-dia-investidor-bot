@@ -24,9 +24,10 @@ function readInput(env = process.env) {
   if (!/^\d{17}$/.test(queueId)) throw new Error('Identificador do Studio inválido.');
   if (!['feed', 'story', 'carousel', 'reel'].includes(format)) throw new Error('Formato do Studio inválido.');
   if (!Array.isArray(media) || !media.length || media.length > 10) throw new Error('Lista de mídias inválida.');
-  const allowed = /^https:\/\/raw\.githubusercontent\.com\/convexanews\/convexanews\.github\.io\/main\/bdi-studio\/(?:reel|post)-\d{17}(?:-\d+)?\.(?:mp4|png|jpe?g)$/i;
+  const allowed = /^https:\/\/raw\.githubusercontent\.com\/convexanews\/convexanews\.github\.io\/main\/bdi-studio\/(?:reel|story|post)-\d{17}(?:-\d+)?\.(?:mp4|png|jpe?g)$/i;
   if (media.some(url => !allowed.test(String(url)))) throw new Error('URL de mídia não autorizada.');
   if (format === 'reel' && !/\.mp4$/i.test(media[0])) throw new Error('Reels precisam estar em MP4.');
+  if (format === 'story' && options.storyVideo === true && !/\.mp4$/i.test(media[0])) throw new Error('Story com música precisa estar em MP4.');
   if (format !== 'story' && (!caption || caption.length > 2200)) throw new Error('Legenda ausente ou maior que 2.200 caracteres.');
   origin = {
     title: String(origin.title || '').slice(0, 300), link: String(origin.link || '').slice(0, 1000),
@@ -52,7 +53,7 @@ function registrarHistorico(input, postId, root = __dirname) {
     categoria: 'Studio', fonte: input.origin.source || 'Bom Dia Investidor', link: input.origin.link || '',
     postId: postId || null, storyId: input.format === 'story' ? postId : null,
     reelId: input.format === 'reel' ? postId : null, imagemFeed: input.format !== 'reel' ? input.media[0] : null,
-    imagemStory: input.format === 'story' ? input.media[0] : null, videoUrl: input.format === 'reel' ? input.media[0] : null,
+    imagemStory: input.format === 'story' && !input.options.storyVideo ? input.media[0] : null, videoUrl: input.format === 'reel' || input.options.storyVideo ? input.media[0] : null,
     tipo: `${input.format}-studio`, peso: null, origem: 'studio-local',
   });
   writeJson(reportFile, report.slice(0, 1000));
@@ -63,7 +64,7 @@ async function publicar(input) {
     shareToFeed: input.options.shareToFeed !== false,
     coverUrl: String(input.options.coverUrl || ''), thumbOffset: Number(input.options.thumbOffset) || 0,
   });
-  if (input.format === 'story') return publicarStory(input.media[0]);
+  if (input.format === 'story') return publicarStory(input.media[0], { video: input.options.storyVideo === true });
   if (input.format === 'carousel') return publicarCarrossel(input.media, input.caption, { altTexts: input.options.altTexts || [] });
   return publicarFeed(input.media[0], input.caption, { altText: input.options.altTexts?.[0] });
 }

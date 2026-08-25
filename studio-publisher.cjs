@@ -44,6 +44,31 @@ function argumentosInstagramMp4(input, output) {
   ];
 }
 
+function argumentosStoryComMusica(image, audio, output, settings = {}) {
+  const duration = Math.min(30, Math.max(5, Number(settings.duration) || 12));
+  const volume = Math.min(.6, Math.max(.05, Number(settings.volume) || .18));
+  const fadeOut = Math.max(1, duration - 1);
+  return [
+    '-y', '-loop', '1', '-i', image, '-stream_loop', '-1', '-i', audio, '-t', String(duration),
+    '-vf', 'scale=1080:1920:force_original_aspect_ratio=decrease,pad=1080:1920:(ow-iw)/2:(oh-ih)/2,fps=30,format=yuv420p',
+    '-af', `volume=${volume},afade=t=in:st=0:d=0.4,afade=t=out:st=${fadeOut}:d=1`,
+    '-c:v', 'libx264', '-profile:v', 'high', '-level', '4.0', '-pix_fmt', 'yuv420p',
+    '-c:a', 'aac', '-ar', '48000', '-b:a', '128k', '-movflags', '+faststart', '-shortest', output,
+  ];
+}
+
+async function createStoryVideo(image, audio, folder, settings = {}) {
+  const output = path.join(folder, 'story-instagram.mp4');
+  if (!fs.existsSync(image) || !fs.existsSync(audio)) throw new Error('Imagem ou trilha do Story não foi encontrada.');
+  try {
+    await execFileAsync(ffmpegPath(), argumentosStoryComMusica(image, audio, output, settings), {
+      windowsHide: true, timeout: 8 * 60 * 1000, maxBuffer: 12 * 1024 * 1024,
+    });
+  } catch (error) { throw new Error(`Não foi possível incorporar a música ao Story. ${safeError(error)}`); }
+  if (!fs.existsSync(output) || fs.statSync(output).size < 10 * 1024) throw new Error('O vídeo musical do Story ficou inválido.');
+  return output;
+}
+
 async function ensureInstagramMp4(videoFile, folder) {
   const output = path.join(folder, 'reel-instagram.mp4');
   try {
@@ -153,6 +178,11 @@ async function publicationJob({ id, folder, metaFile }) {
       media = [await uploadVideo(videoFile, id, folder)];
       const cover = path.join(folder, 'slide-1.png');
       if (fs.existsSync(cover)) options.coverUrl = await uploadFile(cover, `bdi-studio/post-${id}-1.png`, `Studio: capa do Reel ${id}`);
+    } else if(format === 'story' && meta.project?.storyMusic?.enabled){
+      const music=meta.project.storyMusic,allowedMusic=music.asset==='noticias-trilha.mp3'?path.join(__dirname,'noticias-trilha.mp3'):null;
+      if(!allowedMusic)throw new Error('Trilha do Story não autorizada.');
+      const video=await createStoryVideo(path.join(folder,'slide-1.png'),allowedMusic,folder,music);
+      media=[await uploadFile(video,`bdi-studio/story-${id}.mp4`,`Studio: Story musical ${id}`)];options.storyVideo=true;
     } else {
       media = await uploadImages(folder, id, meta.project?.slides?.length || 1, format);
     }
@@ -183,5 +213,5 @@ function startPublication(options) {
 
 module.exports = {
   startPublication, safeError, uploadVideo, uploadImages, dispatchWorkflow,
-  argumentosInstagramMp4, ensureInstagramMp4, ffmpegPath,
+  argumentosInstagramMp4, ensureInstagramMp4, argumentosStoryComMusica, createStoryVideo, ffmpegPath,
 };

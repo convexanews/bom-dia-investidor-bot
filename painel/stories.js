@@ -4,7 +4,8 @@ const defaults = () => ({
   category:'Mercado agora', headline:'O mercado recebeu um novo sinal importante',
   body:'Entenda o que aconteceu e o que o investidor deve acompanhar nas próximas horas.',
   source:'Bom Dia Investidor', credit:'Imagem editorial: Bom Dia Investidor', cta:'Veja a análise →',
-  colorA:'#071d18', colorB:'#0c4b38', accent:'#d9aa43', image:'', imageIndex:0, originNews:null, caption:''
+  colorA:'#071d18', colorB:'#0c4b38', accent:'#d9aa43', image:'', imageIndex:0, originNews:null, caption:'',
+  storyMusic:{enabled:true,asset:'noticias-trilha.mp3',volume:0.18,duration:12}
 });
 let state = defaults(), lastQueuedId = null, poll = null, renderToken = 0;
 
@@ -16,12 +17,14 @@ function syncState(){
   state.category=$('storyCategory').value;state.headline=$('storyHeadline').value;state.body=$('storyBody').value;
   state.source=$('storySource').value;state.cta=$('storyCta').value;state.credit=$('storyCredit').value;
   state.colorA=$('storyColorA').value;state.colorB=$('storyColorB').value;state.accent=$('storyAccent').value;state.caption=$('storyCaption').value;
+  state.storyMusic={enabled:$('storyMusicEnabled').checked,asset:'noticias-trilha.mp3',volume:Number($('storyMusicVolume').value)/100,duration:12};
   localStorage.setItem('bdi-story-draft',JSON.stringify(state));
 }
 function syncFields(){
   $('storyCategory').value=state.category;$('storyHeadline').value=state.headline;$('storyBody').value=state.body;
   $('storySource').value=state.source;$('storyCta').value=state.cta;$('storyCredit').value=state.credit;
   $('storyColorA').value=state.colorA;$('storyColorB').value=state.colorB;$('storyAccent').value=state.accent;$('storyCaption').value=state.caption||'';
+  $('storyMusicEnabled').checked=state.storyMusic?.enabled!==false;$('storyMusicVolume').value=Math.round((state.storyMusic?.volume||.18)*100);$('storyMusicVolumeValue').textContent=`${$('storyMusicVolume').value}%`;
   $('storyImageActions').classList.toggle('hidden',!state.originNews?.link);
   $('storyImageName').textContent=state.image?(state.originNews?.link?`Imagem editorial ${state.imageIndex+1}`:'Imagem personalizada'):'Escolher imagem';
   if(state.originNews){$('storyOrigin').querySelector('b').textContent=clean(state.originNews.source,60);$('storyOrigin').querySelector('span').textContent=clean(state.originNews.title,170)}
@@ -58,7 +61,7 @@ function importSeed(){
 }
 async function queueStory(){
   syncState();if(!clean(state.headline,130))return toast('Escreva uma manchete');if(!clean(state.source,60))return toast('Informe a fonte');
-  const button=$('queueStory');button.disabled=true;button.textContent='Preparando Story…';try{await draw();const project={format:'story',originNews:state.originNews,slides:[{category:state.category,headline:state.headline,body:state.body,source:`Fonte: ${state.source}`,imageCredit:state.credit,cta:state.cta,colorA:state.colorA,colorB:state.colorB,accent:state.accent,image:state.image}]};const response=await fetch('/api/queue',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({project,caption:state.caption,images:[$('storyCanvas').toDataURL('image/png')]})}),result=await response.json();if(!response.ok)throw new Error(result.error||'Não foi possível salvar');lastQueuedId=result.id;$('approveStory').disabled=false;$('storyStatusBadge').textContent='na fila';$('storyPublicationStatus').textContent='Story salvo. Revise a imagem e clique em Aprovar Story.';toast('Story enviado à fila local')}catch(error){toast(error.message)}finally{button.disabled=false;button.textContent='1. Enviar à fila local'}
+  const button=$('queueStory');button.disabled=true;button.textContent='Preparando Story…';try{await draw();const project={format:'story',originNews:state.originNews,storyMusic:state.storyMusic,slides:[{category:state.category,headline:state.headline,body:state.body,source:`Fonte: ${state.source}`,imageCredit:state.credit,cta:state.cta,colorA:state.colorA,colorB:state.colorB,accent:state.accent,image:state.image}]};const response=await fetch('/api/queue',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({project,caption:state.caption,images:[$('storyCanvas').toDataURL('image/png')]})}),result=await response.json();if(!response.ok)throw new Error(result.error||'Não foi possível salvar');lastQueuedId=result.id;$('approveStory').disabled=false;$('storyStatusBadge').textContent='na fila';$('storyPublicationStatus').textContent=state.storyMusic.enabled?'Story salvo. A trilha será incorporada na publicação.':'Story salvo sem música.';toast('Story enviado à fila local')}catch(error){toast(error.message)}finally{button.disabled=false;button.textContent='1. Enviar à fila local'}
 }
 async function approveStory(){
   if(!lastQueuedId)return;if(!confirm('Aprovar este Story para liberar a publicação?'))return;const button=$('approveStory');button.disabled=true;try{const response=await fetch(`/api/queue/${lastQueuedId}/approve`,{method:'POST'}),result=await response.json();if(!response.ok)throw new Error(result.error||'Não foi possível aprovar');button.textContent='✓ Story aprovado';$('publishStory').disabled=false;$('storyStatusBadge').textContent='aprovado';$('storyPublicationStatus').textContent='Aprovado. A publicação ainda exige uma confirmação final.';toast('Story aprovado')}catch(error){button.disabled=false;toast(error.message)}
@@ -72,6 +75,9 @@ async function publishStory(){
 function changeEditorialImage(delta){if(!state.originNews?.link)return;state.imageIndex=Math.max(0,state.imageIndex+delta);state.image=articleImage(state.originNews.link,state.imageIndex);$('storyImageName').textContent=`Imagem editorial ${state.imageIndex+1}`;resetApproval();syncState();draw()}
 
 fields.forEach(id=>$(id).addEventListener('input',()=>{syncState();resetApproval();draw()}));
+$('storyMusicEnabled').onchange=()=>{syncState();resetApproval();$('previewStoryMusic').disabled=!state.storyMusic.enabled};
+$('storyMusicVolume').oninput=()=>{syncState();resetApproval();$('storyMusicVolumeValue').textContent=`${$('storyMusicVolume').value}%`;$('storyMusicAudio').volume=state.storyMusic.volume};
+$('previewStoryMusic').onclick=async()=>{const audio=$('storyMusicAudio'),button=$('previewStoryMusic');audio.volume=state.storyMusic.volume;if(audio.paused){audio.currentTime=0;await audio.play();button.textContent='■ Parar';setTimeout(()=>{audio.pause();button.textContent='▶ Ouvir trilha'},12000)}else{audio.pause();button.textContent='▶ Ouvir trilha'}};
 $('storyImageUpload').onchange=event=>{const file=event.target.files?.[0];if(!file)return;if(!file.type.startsWith('image/')||file.size>12*1024*1024)return toast('Escolha uma imagem de até 12 MB');const reader=new FileReader();reader.onload=()=>{state.image=reader.result;state.originNews=null;state.imageIndex=0;$('storyImageName').textContent=file.name;$('storyImageActions').classList.add('hidden');syncState();resetApproval();draw()};reader.readAsDataURL(file)};
 $('previousImage').onclick=()=>changeEditorialImage(-1);$('nextImage').onclick=()=>changeEditorialImage(1);
 $('queueStory').onclick=queueStory;$('approveStory').onclick=approveStory;$('publishStory').onclick=publishStory;
