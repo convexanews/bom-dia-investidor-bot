@@ -7,6 +7,7 @@ const { buscarConteudoArtigo } = require('./imagem_noticia.cjs');
 const { startPublication, ffmpegPath } = require('./studio-publisher.cjs');
 const { gerarNarracao, VOZES_STUDIO, estimarDuracaoNarracao } = require('./studio-audio.cjs');
 const { lerAgenda, agendar, atualizarAgendamento, agendamentosVencidos } = require('./studio-agenda.cjs');
+const { MAX_IMAGE_BYTES, readCachedMedia, saveCachedMedia } = require('./studio-media-cache.cjs');
 
 const ROOT = __dirname;
 const PORT = Math.max(1, Number(process.env.STUDIO_PORT) || 4310);
@@ -166,11 +167,12 @@ function knownArticleLink(link){
 const articleMediaCache=new Map();
 async function serveArticleMedia(res,link,index){
   if(!knownArticleLink(link))return responder(res,403,'Matéria fora do Radar');
+  const cached=readCachedMedia(CACHE_ROOT,link,index);if(cached){res.writeHead(200,{'content-type':cached.type,'cache-control':'private, max-age=86400','x-content-type-options':'nosniff','x-bdi-media-cache':'hit'});return res.end(cached.bytes)}
   try{
-    if(!articleMediaCache.has(link))articleMediaCache.set(link,buscarConteudoArtigo(link));
-    const materia=await articleMediaCache.get(link),itemRadar=newsCache().items.find(item=>item.link===link),imagens=[...(materia.imagens||[]),itemRadar?.imagem].filter(Boolean).filter((url,pos,list)=>list.indexOf(url)===pos);if(!imagens.length)return responder(res,404,'A matéria não forneceu imagem editorial');
+    let materia={imagens:[]},erroArtigo=null;if(!articleMediaCache.has(link))articleMediaCache.set(link,buscarConteudoArtigo(link));try{materia=await articleMediaCache.get(link)}catch(error){erroArtigo=error;articleMediaCache.delete(link)}
+    const itemRadar=newsCache().items.find(item=>item.link===link),imagens=[...(materia.imagens||[]),itemRadar?.imagem].filter(Boolean).filter((url,pos,list)=>list.indexOf(url)===pos);if(!imagens.length)throw erroArtigo||new Error('A matéria não forneceu imagem editorial');
     const inicio=Math.max(0,index)%imagens.length;let ultimoErro=null;
-    for(let tentativa=0;tentativa<imagens.length;tentativa++)try{const imageUrl=imagens[(inicio+tentativa)%imagens.length],response=await fetch(imageUrl,{headers:{'user-agent':'Mozilla/5.0 BDI-Studio/1.0','accept':'image/avif,image/webp,image/apng,image/*,*/*;q=0.8','referer':new URL(link).origin},signal:AbortSignal.timeout(20000)});if(!response.ok)throw new Error(`HTTP ${response.status}`);const type=String(response.headers.get('content-type')||'').split(';')[0];if(!type.startsWith('image/'))throw new Error('Conteúdo recebido não é imagem');const bytes=Buffer.from(await response.arrayBuffer());if(!bytes.length||bytes.length>12*1024*1024)throw new Error('Tamanho de imagem inválido');res.writeHead(200,{'content-type':type,'cache-control':'private, max-age=3600','x-content-type-options':'nosniff'});return res.end(bytes)}catch(error){ultimoErro=error}
+    for(let tentativa=0;tentativa<imagens.length;tentativa++)try{const imageUrl=imagens[(inicio+tentativa)%imagens.length],response=await fetch(imageUrl,{headers:{'user-agent':'Mozilla/5.0 BDI-Studio/1.0','accept':'image/avif,image/webp,image/apng,image/*,*/*;q=0.8','referer':new URL(link).origin},signal:AbortSignal.timeout(20000)});if(!response.ok)throw new Error(`HTTP ${response.status}`);const type=String(response.headers.get('content-type')||'').split(';')[0];if(!type.startsWith('image/'))throw new Error('Conteúdo recebido não é imagem');const bytes=Buffer.from(await response.arrayBuffer());if(!bytes.length||bytes.length>MAX_IMAGE_BYTES)throw new Error('Tamanho de imagem inválido');saveCachedMedia(CACHE_ROOT,link,index,type,bytes);res.writeHead(200,{'content-type':type,'cache-control':'private, max-age=86400','x-content-type-options':'nosniff','x-bdi-media-cache':'miss'});return res.end(bytes)}catch(error){ultimoErro=error}
     throw ultimoErro||new Error('Imagem indisponível');
   }catch(error){articleMediaCache.delete(link);responder(res,502,`Não foi possível carregar a imagem: ${error.message}`)}
 }
