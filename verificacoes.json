@@ -1,5 +1,18 @@
 [
   {
+    "data": "2026-08-25T11:25:49.644Z",
+    "resultado": "story_noticia_postado",
+    "mensagem": "Story publicado (peso 35): \"Queda de 48% da Rocket Lab valida alerta de sobrevalorização do InvestingPro\".",
+    "postId": "18366500461215154",
+    "peso": 35
+  },
+  {
+    "data": "2026-08-25T11:25:18.287Z",
+    "resultado": "story_sem_imagem",
+    "mensagem": "Story publicado sem imagem editorial: \"Queda de 48% da Rocket Lab valida alerta de sobrevalorização do InvestingPro\".",
+    "link": "https://br.investing.com/news/investment-ideas/queda-de-48-da-rocket-lab-valida-alerta-de-sobrevalorizacao-do-investingpro-93CH-2048589"
+  },
+  {
     "data": "2026-08-25T11:01:49.962Z",
     "resultado": "pauta_reprovada",
     "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
@@ -1032,16 +1045,6 @@
   },
   {
     "data": "2026-08-22T10:31:08.397Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-08-22T10:01:14.569Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-08-22T09:31:05.694Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }
