@@ -1,5 +1,11 @@
 [
   {
+    "data": "2026-08-25T11:31:37.631Z",
+    "resultado": "pauta_reprovada",
+    "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
+    "titulo": "Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta terça"
+  },
+  {
     "data": "2026-08-25T11:25:49.644Z",
     "resultado": "story_noticia_postado",
     "mensagem": "Story publicado (peso 35): \"Queda de 48% da Rocket Lab valida alerta de sobrevalorização do InvestingPro\".",
@@ -1040,11 +1046,6 @@
   },
   {
     "data": "2026-08-22T10:48:51.571Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-08-22T10:31:08.397Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }
