@@ -1,5 +1,12 @@
 [
   {
+    "data": "2026-08-25T16:35:58.996Z",
+    "resultado": "story_noticia_postado",
+    "mensagem": "Story publicado (peso 51): \"Hapvida (HAPV3): 2 fatores que fazem ação afundar ainda mais nesta terça (25)\".",
+    "postId": "18062160356763947",
+    "peso": 51
+  },
+  {
     "data": "2026-08-25T16:31:01.826Z",
     "resultado": "pauta_reprovada",
     "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
@@ -1046,11 +1053,6 @@
   },
   {
     "data": "2026-08-22T15:19:39.326Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-08-22T15:01:01.093Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }
