@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-25T21:29:01.993Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
     "data": "2026-08-25T21:26:44.333Z",
     "resultado": "story_noticia_postado",
     "mensagem": "Story publicado (peso 67): \"Ibovespa avança 1% e tem 5ª alta seguida com retorno do apetite a risco; dólar cai a R$ 5,14\".",
@@ -1054,11 +1059,6 @@
   },
   {
     "data": "2026-08-22T20:31:09.944Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-08-22T20:01:11.584Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }
