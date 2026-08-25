@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-25T23:31:02.459Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
     "data": "2026-08-25T23:24:26.993Z",
     "resultado": "story_noticia_postado",
     "mensagem": "Story publicado (peso 61): \"Ibovespa dispara 1,55% e volta aos 174 mil pontos com Vale (VALE3) e bancos\".",
@@ -1056,11 +1061,6 @@
   },
   {
     "data": "2026-08-22T22:47:04.583Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-08-22T22:30:58.990Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }
