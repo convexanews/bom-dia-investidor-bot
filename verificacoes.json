@@ -1,5 +1,11 @@
 [
   {
+    "data": "2026-08-25T12:31:24.868Z",
+    "resultado": "pauta_reprovada",
+    "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
+    "titulo": "Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta terça"
+  },
+  {
     "data": "2026-08-25T12:01:07.524Z",
     "resultado": "pauta_reprovada",
     "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
@@ -1044,10 +1050,5 @@
     "mensagem": "Story publicado (peso 58): \"Volatilidade dos FIIs, alívio no IPCA e arcabouço fiscal; veja destaques da semana\".",
     "postId": "18065135615752615",
     "peso": 58
-  },
-  {
-    "data": "2026-08-22T11:01:01.477Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }
 ]
