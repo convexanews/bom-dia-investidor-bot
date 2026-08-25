@@ -1,5 +1,11 @@
 [
   {
+    "data": "2026-08-25T09:32:19.979Z",
+    "resultado": "pauta_reprovada",
+    "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
+    "titulo": "Arrecadação de julho, confiança do consumidor nos EUA e mais destaques desta terça"
+  },
+  {
     "data": "2026-08-25T09:01:23.102Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1034,10 +1040,5 @@
     "data": "2026-08-22T07:31:11.973Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (04:31 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-08-22T07:01:00.046Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (04:01 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
