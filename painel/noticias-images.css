@@ -1,0 +1,17 @@
+.news-image-fallback {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 18px;
+  background: radial-gradient(circle at 84% 18%, rgba(239,196,103,.32), transparent 28%), linear-gradient(135deg, #103a31, #091a20 58%, #111827);
+  color: #fff;
+}
+.news-image-fallback small { color: #efc467; font-size: 9px; font-weight: 1000; letter-spacing: .15em; }
+.news-image-fallback strong { margin-top: 4px; font-size: 20px; }
+.news-image-fallback span { color: #9fb3b4; font-size: 10px; text-transform: capitalize; }
+.news-image img { position: relative; z-index: 1; }
+.news-image::after { z-index: 2; }
+.news-score { z-index: 3; }
+

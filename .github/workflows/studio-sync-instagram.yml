@@ -1,0 +1,38 @@
+name: BDI Studio - Sincronizar Instagram
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 */3 * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: studio-sync-instagram
+  cancel-in-progress: true
+
+jobs:
+  sincronizar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Sincronizar publicações e métricas
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          IG_ACCOUNT_ID: ${{ secrets.IG_ACCOUNT_ID }}
+        run: node sincronizar-instagram-studio.cjs
+      - name: Atualizar espelho do Studio
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- instagram-studio.json
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Atualiza espelho do Instagram no Studio"
+          git pull --rebase origin main
+          git push origin HEAD:main

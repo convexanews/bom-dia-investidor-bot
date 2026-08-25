@@ -5,3 +5,7 @@ _tmp_card_noticia_*.html
 !logo-bdi-icon.png
 !painel/storys-imgs/*.png
 .secret_*
+rascunhos-studio/
+noticias-studio.json
+studio-agenda.json
+studio-cache/

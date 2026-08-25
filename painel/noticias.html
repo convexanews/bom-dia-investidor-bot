@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Radar de notícias — BDI Studio</title>
+  <meta name="description" content="Radar local de pautas do Bom Dia Investidor">
+  <link rel="stylesheet" href="studio.css">
+  <link rel="stylesheet" href="noticias.css">
+  <link rel="stylesheet" href="noticias-images.css">
+</head>
+<body>
+<div class="app news-app">
+  <aside class="rail">
+    <img class="brand" src="../logo-bdi.jpeg" alt="Bom Dia Investidor">
+    <div class="railnav">
+      <a class="railbtn" href="index.html"><span>✦</span>Estúdio</a>
+      <a class="railbtn active" href="noticias.html"><span>◉</span>Notícias</a>
+      <a class="railbtn" href="biblioteca.html"><span>▣</span>Stories</a>
+    </div>
+  </aside>
+  <div class="workspace">
+    <header class="topbar news-topbar">
+      <div class="titleblock"><h1>Radar de notícias</h1><p id="updatedAt">Pautas de várias fontes em um só lugar</p></div>
+      <button class="ghost" id="openStudio">Abrir Estúdio</button>
+      <button class="primary" id="refreshNews">Atualizar notícias</button>
+    </header>
+    <main class="news-main">
+      <section class="news-hero">
+        <div><span class="eyebrow">CURADORIA LOCAL</span><h2>Encontre a pauta que o automático deixou passar.</h2><p>Compare fontes, filtre assuntos e transforme uma notícia em carrossel ou Reel sem começar do zero.</p></div>
+        <div class="news-stats"><div><strong id="totalNews">—</strong><span>notícias</span></div><div><strong id="unusedNews">—</strong><span>ainda não usadas</span></div><div><strong id="sourceCount">11</strong><span>fontes monitoradas</span></div></div>
+      </section>
+      <section class="news-toolbar" aria-label="Filtros de notícias">
+        <label class="news-search"><span>⌕</span><input id="newsSearch" type="search" placeholder="Buscar empresa, ativo ou assunto"></label>
+        <select id="sourceFilter" aria-label="Filtrar por fonte"><option value="">Todas as fontes</option></select>
+        <select id="pillarFilter" aria-label="Filtrar por tema"><option value="">Todos os temas</option></select>
+        <select id="statusFilter" aria-label="Filtrar por uso"><option value="unused">Ainda não usadas</option><option value="">Todas</option><option value="used">Já usadas</option></select>
+        <select id="sortNews" aria-label="Ordenar notícias"><option value="impact">Maior impacto</option><option value="recent">Mais recentes</option></select>
+      </section>
+      <div class="source-strip"><span>Fontes:</span> InfoMoney · Money Times · Suno · Exame · Exame Invest · CNN Brasil · Investing.com · Valor · Bloomberg Línea · Reuters · G1</div>
+      <section class="news-grid" id="newsGrid">
+        <div class="news-empty"><b>Seu radar está pronto.</b><span>Clique em “Atualizar notícias” para buscar as pautas mais recentes.</span></div>
+      </section>
+    </main>
+  </div>
+</div>
+<div class="toast" id="toast"></div>
+<script src="noticias.js"></script>
+</body>
+</html>
+

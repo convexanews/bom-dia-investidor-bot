@@ -39,6 +39,28 @@ URLs das imagens). `verificacoes.json` guarda o resultado de cada verificação 
 (notícia nova encontrada / nenhuma notícia nova / erro). O painel local (`promo-bot`)
 lê esses arquivos para mostrar o relatório de postagens automáticas em `/bdi-relatorio`.
 
+## BDI Studio 2.0 (local)
+
+O Studio é o ambiente de criação e revisão manual do projeto. Ele permite montar posts,
+Stories, carrosséis e Reels sem publicar automaticamente. Para preparar a máquina na
+primeira utilização, execute `preparar-studio.cmd`; depois, abra `abrir-studio.cmd`.
+
+Principais recursos:
+
+- editor visual com prévia do perfil, modelos, cenas, duração e linha do tempo;
+- importação de notícias do radar com roteiro contextualizado e crédito da fonte;
+- Reels 9:16 com imagens por cena, música autorizada e narração neural em português;
+- mixagem independente da voz e da música;
+- conversão final para MP4 H.264/AAC, 1080 × 1920 e áudio em 48 kHz;
+- espelho das publicações reais do Instagram e resumo local de métricas;
+- fila com revisão, aprovação, segunda confirmação e calendário editorial;
+- deduplicação compartilhada: uma notícia publicada pelo Studio entra no mesmo histórico
+  usado pelo bot online, evitando que a automação publique a mesma pauta novamente.
+
+O agendamento local só é executado enquanto o Studio estiver aberto. A sincronização do
+Instagram e a publicação usam GitHub Actions e dependem dos mesmos secrets descritos
+acima. Nenhuma mídia é enviada ao Instagram apenas por abrir ou editar um projeto.
+
 ## Reel-resumo diário
 
 Uma vez por dia (`.github/workflows/daily-reel.yml`, `auto-reel.cjs`), o bot:

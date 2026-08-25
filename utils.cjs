@@ -121,8 +121,14 @@ async function publicarFeed(imageUrl, legenda, { altText } = {}) {
   return publishData.id;
 }
 
-async function publicarReel(videoUrl, legenda) {
-  const createUrl = `${IG_API_BASE}/${igAccountId()}/media?media_type=REELS&video_url=${encodeURIComponent(videoUrl)}&caption=${encodeURIComponent(legenda)}&access_token=${igToken()}`;
+async function publicarReel(videoUrl, legenda, { shareToFeed = true, coverUrl = '', thumbOffset = 0 } = {}) {
+  const params = new URLSearchParams({
+    media_type: 'REELS', video_url: videoUrl, caption: legenda,
+    share_to_feed: shareToFeed ? 'true' : 'false', access_token: igToken(),
+  });
+  if (coverUrl) params.set('cover_url', coverUrl);
+  if (Number(thumbOffset) > 0) params.set('thumb_offset', String(Math.floor(Number(thumbOffset))));
+  const createUrl = `${IG_API_BASE}/${igAccountId()}/media?${params}`;
   const createResp = await fetchComRetry(createUrl, { method: 'POST' });
   const createData = await createResp.json();
   if (!createData.id) throw new Error('Erro ao criar container do reel: ' + JSON.stringify(createData));
