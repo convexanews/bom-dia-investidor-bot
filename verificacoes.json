@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-25T03:01:00.743Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (00:01 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-08-25T02:30:57.175Z",
     "resultado": "alerta_suprimido",
     "mensagem": "Alerta de recorde não publicado: limite diário de posts atingido.",
@@ -1033,12 +1038,6 @@
   },
   {
     "data": "2026-08-22T01:08:22.719Z",
-    "resultado": "pauta_reprovada",
-    "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
-    "titulo": "Ibovespa dispara e volta aos 170 mil pontos com Vale e bancos"
-  },
-  {
-    "data": "2026-08-22T01:00:58.408Z",
     "resultado": "pauta_reprovada",
     "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
     "titulo": "Ibovespa dispara e volta aos 170 mil pontos com Vale e bancos"
