@@ -1,5 +1,11 @@
 [
   {
+    "data": "2026-08-25T13:32:08.478Z",
+    "resultado": "pauta_reprovada",
+    "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
+    "titulo": "Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta terça"
+  },
+  {
     "data": "2026-08-25T13:02:34.693Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1043,10 +1049,5 @@
     "storyId": null,
     "reelId": "17894423445598182",
     "tipo": "reel"
-  },
-  {
-    "data": "2026-08-22T12:01:11.528Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 70): \"Hapvida (HAPV3) despenca pela 2ª semana consecutiva; veja os destaques semanais do Ibovespa\". Realizando postagem..."
   }
 ]
