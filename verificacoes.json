@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-08-25T18:33:58.482Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Ouro tem leve queda com pausa em escalada dos Treasuries e à espera de dados de inflação\".",
+    "postId": "18072990332435822",
+    "storyId": null,
+    "reelId": "18072990332435822",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-08-25T18:32:15.463Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 71): \"Ouro tem leve queda com pausa em escalada dos Treasuries e à espera de dados de inflação\". Realizando postagem..."
+  },
+  {
     "data": "2026-08-25T18:01:18.742Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1043,16 +1057,6 @@
   },
   {
     "data": "2026-08-22T17:01:04.352Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-08-22T16:49:12.190Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-08-22T16:31:01.351Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }
