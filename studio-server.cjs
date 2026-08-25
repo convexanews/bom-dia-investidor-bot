@@ -5,7 +5,7 @@ const { execFile, spawnSync } = require('child_process');
 const { buscarNoticiasRadar: buscarNoticias, titulosSimilares, corrigirTextoEditorial } = require('./radar_noticias.cjs');
 const { buscarConteudoArtigo } = require('./imagem_noticia.cjs');
 const { startPublication, ffmpegPath } = require('./studio-publisher.cjs');
-const { gerarNarracao, VOZES_STUDIO, estimarDuracaoNarracao } = require('./studio-audio.cjs');
+const { gerarNarracao, chaveNarracao, VOZES_STUDIO, estimarDuracaoNarracao } = require('./studio-audio.cjs');
 const { lerAgenda, agendar, atualizarAgendamento, agendamentosVencidos } = require('./studio-agenda.cjs');
 const { MAX_IMAGE_BYTES, readCachedMedia, saveCachedMedia } = require('./studio-media-cache.cjs');
 
@@ -86,13 +86,13 @@ function healthData(){
 async function createNarration(req,res){
   if(!localOriginAllowed(req))return responder(res,403,JSON.stringify({error:'Origem não autorizada'}),MIME['.json']);
   try{
-    const body=await readJson(req,32*1024),id=`${Date.now()}-${Math.random().toString(16).slice(2)}`;
-    fs.mkdirSync(CACHE_ROOT,{recursive:true});
-    const output=path.join(CACHE_ROOT,`narration-${id}.mp3`);
+    const body=await readJson(req,32*1024),key=chaveNarracao({texto:body.text,voice:body.voice,rate:body.rate,pitch:body.pitch,volume:body.volume});
+    const narrationCache=path.join(CACHE_ROOT,'narration');fs.mkdirSync(narrationCache,{recursive:true});
+    const output=path.join(narrationCache,`${key}.mp3`);
     const result=await gerarNarracao({texto:body.text,voice:body.voice,rate:body.rate,pitch:body.pitch,volume:body.volume,saida:output});
-    const bytes=fs.readFileSync(output);fs.rmSync(output,{force:true});
-    res.writeHead(200,{'content-type':'audio/mpeg','content-length':bytes.length,'cache-control':'no-store','x-narration-seconds':String(estimarDuracaoNarracao(result.roteiro)),'x-content-type-options':'nosniff'});res.end(bytes);
-  }catch(error){responder(res,400,JSON.stringify({error:error.message}),MIME['.json'])}
+    const bytes=fs.readFileSync(output);
+    res.writeHead(200,{'content-type':'audio/mpeg','content-length':bytes.length,'cache-control':'private, max-age=86400','x-narration-cache':result.cache?'hit':'miss','x-narration-seconds':String(estimarDuracaoNarracao(result.roteiro)),'x-content-type-options':'nosniff'});res.end(bytes);
+  }catch(error){responder(res,503,JSON.stringify({error:error.message||'O serviço de voz neural não respondeu.'}),MIME['.json'])}
 }
 
 let instagramCache={at:0,data:null};

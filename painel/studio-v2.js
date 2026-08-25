@@ -84,7 +84,8 @@
         const perScene = Math.min(10, Math.max(2, Number((seconds / state.slides.length).toFixed(1))));
         state.slides.forEach(slide => { slide.duration = perScene; }); render();
       }
-      el('narrationStatus').textContent = `Voz pronta${seconds ? ` • aproximadamente ${seconds}s` : ''}.`;
+      const cached = response.headers.get('x-narration-cache') === 'hit';
+      el('narrationStatus').textContent = `Voz pronta${seconds ? ` • aproximadamente ${seconds}s` : ''}${cached ? ' • recuperada rapidamente' : ''}.`;
       toast('Narração adicionada ao Reel');
     } catch (error) { el('narrationStatus').textContent = error.message; toast(error.message); }
     finally { button.disabled = false; button.textContent = 'Gerar voz'; }

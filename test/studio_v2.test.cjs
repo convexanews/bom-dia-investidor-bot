@@ -3,7 +3,7 @@ const assert = require('node:assert/strict');
 const fs = require('fs');
 const os = require('os');
 const path = require('path');
-const { limparTextoNarracao, validarConfiguracao, estimarDuracaoNarracao } = require('../studio-audio.cjs');
+const { limparTextoNarracao, validarConfiguracao, chaveNarracao, mensagemErroNarracao, estimarDuracaoNarracao } = require('../studio-audio.cjs');
 const { normalizarMidiaInstagram } = require('../sincronizar-instagram-studio.cjs');
 const { validarAgendamento, agendar, lerAgenda } = require('../studio-agenda.cjs');
 const { argumentosInstagramMp4, argumentosStoryComMusica } = require('../studio-publisher.cjs');
@@ -18,6 +18,17 @@ test('narração remove links e limita configurações de voz', () => {
   assert.equal(config.pitch, '-20%');
   assert.equal(config.volume, '+50%');
   assert.ok(estimarDuracaoNarracao(text) >= 3);
+});
+
+test('narração usa chave estável por texto e configuração', () => {
+  const base = { texto: 'O Ibovespa avançou hoje enquanto investidores acompanharam os juros.', voice: 'pt-BR-FranciscaNeural', rate: -4 };
+  assert.equal(chaveNarracao(base), chaveNarracao({ ...base }));
+  assert.notEqual(chaveNarracao(base), chaveNarracao({ ...base, voice: 'pt-BR-AntonioNeural' }));
+});
+
+test('falha vazia do provedor de voz vira orientação compreensível', () => {
+  assert.match(mensagemErroNarracao({}), /internet.*tente novamente/i);
+  assert.match(mensagemErroNarracao(new Error('O módulo de narração instalado é incompatível.')), /incompatível/i);
 });
 
 test('espelho normaliza Reel e usa thumbnail como capa', () => {
