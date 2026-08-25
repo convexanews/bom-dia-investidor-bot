@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-25T01:10:05.836Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
     "data": "2026-08-25T01:01:09.356Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1040,11 +1045,5 @@
     "mensagem": "Story publicado (peso 45): \"Casas Bahia (BHIA3): Ministro nega haver crise no varejo e culpa juros altos e e-commerce por dificuldades\".",
     "postId": "18141192724567361",
     "peso": 45
-  },
-  {
-    "data": "2026-08-21T23:00:59.038Z",
-    "resultado": "pauta_reprovada",
-    "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
-    "titulo": "Ibovespa dispara e volta aos 170 mil pontos com Vale e bancos"
   }
 ]
