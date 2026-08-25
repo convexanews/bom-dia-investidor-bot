@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-25T02:01:10.738Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (23:01 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-08-25T01:31:09.798Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1038,10 +1043,5 @@
     "resultado": "pauta_reprovada",
     "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
     "titulo": "Ibovespa dispara e volta aos 170 mil pontos com Vale e bancos"
-  },
-  {
-    "data": "2026-08-21T23:31:30.965Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }
 ]
