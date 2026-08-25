@@ -1,0 +1,6 @@
+.make-story {
+  grid-column: 1 / -1;
+  border: 0 !important;
+  background: linear-gradient(135deg, #c33792, #ef5350 62%, #efaa3c) !important;
+  color: #fff !important;
+}

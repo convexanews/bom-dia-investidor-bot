@@ -48,6 +48,7 @@ primeira utilização, execute `preparar-studio.cmd`; depois, abra `abrir-studio
 Principais recursos:
 
 - editor visual com prévia do perfil, modelos, cenas, duração e linha do tempo;
+- Story Express independente, com botão direto no Radar, uma única arte 9:16 e fluxo simplificado de publicação;
 - importação de notícias do radar com roteiro contextualizado e crédito da fonte;
 - Reels 9:16 com imagens por cena, música autorizada e narração neural em português;
 - mixagem independente da voz e da música;

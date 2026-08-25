@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Story Express — BDI Studio</title>
+  <meta name="description" content="Criador independente de Stories do Bom Dia Investidor">
+  <link rel="stylesheet" href="studio.css">
+  <link rel="stylesheet" href="stories.css">
+</head>
+<body>
+<div class="app">
+  <aside class="rail">
+    <img class="brand" src="../logo-bdi.jpeg" alt="Bom Dia Investidor">
+    <div class="railnav">
+      <a class="railbtn" href="index.html"><span>✦</span>Estúdio</a>
+      <a class="railbtn" href="noticias.html"><span>◉</span>Notícias</a>
+      <a class="railbtn active" href="stories.html"><span>▣</span>Stories</a>
+      <a class="railbtn" href="biblioteca.html"><span>◫</span>Banco</a>
+    </div>
+  </aside>
+  <div class="workspace">
+    <header class="topbar story-topbar">
+      <div class="titleblock"><h1>Story Express</h1><p>Uma notícia, uma tela vertical, publicação protegida</p></div>
+      <button class="ghost" id="newStory">Novo</button>
+      <button class="ghost" id="downloadStory">Baixar PNG</button>
+      <a class="primary story-news-link" href="noticias.html">Escolher notícia</a>
+    </header>
+    <main class="story-studio">
+      <section class="story-editor">
+        <div class="story-heading"><div><span>CONTEÚDO</span><h2>Monte seu Story</h2></div><em>9:16</em></div>
+        <label>Categoria<input id="storyCategory" maxlength="28" value="Mercado agora"></label>
+        <label>Manchete<textarea id="storyHeadline" maxlength="130">O mercado recebeu um novo sinal importante</textarea></label>
+        <label>Resumo<textarea id="storyBody" maxlength="230">Entenda o que aconteceu e o que o investidor deve acompanhar nas próximas horas.</textarea></label>
+        <div class="story-row"><label>Fonte informativa<input id="storySource" maxlength="60" value="Bom Dia Investidor"></label><label>Chamada<input id="storyCta" maxlength="45" value="Veja a análise →"></label></div>
+        <label>Crédito da imagem<input id="storyCredit" maxlength="80" value="Imagem editorial: Bom Dia Investidor"></label>
+        <label>Imagem<div class="story-upload"><span id="storyImageName">Escolher imagem</span><input id="storyImageUpload" type="file" accept="image/*"></div></label>
+        <div class="story-image-actions" id="storyImageActions"><button id="previousImage">← Imagem anterior</button><button id="nextImage">Próxima imagem →</button></div>
+        <div class="story-row colors-row"><label>Fundo<input id="storyColorA" type="color" value="#071d18"></label><label>Final<input id="storyColorB" type="color" value="#0c4b38"></label><label>Destaque<input id="storyAccent" type="color" value="#d9aa43"></label></div>
+        <p class="story-hint">A fonte e o crédito ficam gravados dentro da imagem. Confirme a autorização de uso da fotografia.</p>
+      </section>
+
+      <section class="story-stage">
+        <div class="story-stagebar"><strong>Prévia ao vivo</strong><span>Área segura do Instagram</span></div>
+        <div class="story-phone">
+          <div class="story-progress"></div>
+          <div class="story-account"><img src="../logo-bdi.jpeg" alt=""><b>bomdia_investidor</b><span>agora</span><i>•••</i></div>
+          <canvas id="storyCanvas" width="1080" height="1920" aria-label="Prévia do Story"></canvas>
+          <div class="story-reply">Enviar mensagem <span>♡</span><span>⌁</span></div>
+        </div>
+      </section>
+
+      <aside class="story-publish">
+        <div class="story-heading"><div><span>PUBLICAÇÃO</span><h2>Revise e envie</h2></div><em id="storyStatusBadge">local</em></div>
+        <div class="story-checks"><div>✓ Formato vertical 1080 × 1920</div><div>✓ Fonte visível na arte</div><div>✓ Confirmação antes de publicar</div></div>
+        <label>Observação interna<textarea id="storyCaption" maxlength="400" placeholder="Opcional — Stories não exibem legenda no post."></textarea></label>
+        <button class="primary story-wide" id="queueStory">1. Enviar à fila local</button>
+        <button class="story-approve story-wide" id="approveStory" disabled>2. Aprovar Story</button>
+        <button class="story-publish-button story-wide" id="publishStory" disabled>3. Publicar no Instagram</button>
+        <p id="storyPublicationStatus">Nada será publicado sem aprovação e confirmação final.</p>
+        <div class="story-origin" id="storyOrigin"><b>Story manual</b><span>Você pode começar do zero ou escolher uma notícia no Radar.</span></div>
+        <a class="story-bank" href="biblioteca.html">Abrir banco de Stories prontos →</a>
+      </aside>
+    </main>
+  </div>
+</div>
+<div class="toast" id="toast"></div>
+<script src="stories.js"></script>
+</body>
+</html>
