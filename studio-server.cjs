@@ -2,7 +2,7 @@ const http = require('http');
 const fs = require('fs');
 const path = require('path');
 const { execFile, spawnSync } = require('child_process');
-const { buscarNoticiasRadar: buscarNoticias, titulosSimilares } = require('./radar_noticias.cjs');
+const { buscarNoticiasRadar: buscarNoticias, titulosSimilares, corrigirTextoEditorial } = require('./radar_noticias.cjs');
 const { buscarConteudoArtigo } = require('./imagem_noticia.cjs');
 const { startPublication, ffmpegPath } = require('./studio-publisher.cjs');
 const { gerarNarracao, VOZES_STUDIO, estimarDuracaoNarracao } = require('./studio-audio.cjs');
@@ -24,7 +24,7 @@ function responder(res,status,body,type='text/plain; charset=utf-8'){
 
 function loadJson(file,fallback){try{return JSON.parse(fs.readFileSync(file,'utf8'))}catch{return fallback}}
 function localOriginAllowed(req){const origin=req.headers.origin;return !origin||/^http:\/\/(127\.0\.0\.1|localhost)(:\d+)?$/.test(origin)}
-function newsCache(){return loadJson(NEWS_CACHE,{updatedAt:null,items:[],warning:null})}
+function newsCache(){const cache=loadJson(NEWS_CACHE,{updatedAt:null,items:[],warning:null});cache.items=(cache.items||[]).map(item=>({...item,titulo:corrigirTextoEditorial(item.titulo),descricao:corrigirTextoEditorial(item.descricao)}));return cache}
 let newsRefreshPromise=null;
 async function refreshNews(){
   if(newsRefreshPromise)return newsRefreshPromise;

@@ -10,6 +10,7 @@ let state = defaults(), lastQueuedId = null, poll = null, renderToken = 0;
 
 function toast(message){$('toast').textContent=message;$('toast').classList.add('show');setTimeout(()=>$('toast').classList.remove('show'),2500)}
 function clean(value,max){return String(value||'').replace(/\s+/g,' ').trim().slice(0,max)}
+function editorial(value){return String(value||'').replace(/\bvolatileve\b/gi,'volatilidade').replace(/\s+The post[\s\S]*?appeared first on\s+[^.]+\.?/gi,'').trim()}
 function articleImage(link,index=0){return link?`/api/news/media?link=${encodeURIComponent(link)}&index=${index}`:''}
 function syncState(){
   state.category=$('storyCategory').value;state.headline=$('storyHeadline').value;state.body=$('storyBody').value;
@@ -52,8 +53,8 @@ async function draw(){
 }
 function importSeed(){
   let seed=null;try{seed=JSON.parse(localStorage.getItem('bdi-story-seed')||'null')}catch{}
-  if(seed?.item){localStorage.removeItem('bdi-story-seed');const news=seed.item,source=clean(news.fonte||'Fonte original',60);state={...defaults(),category:clean((news.pilares?.[0]||'Mercado agora').replace(/^./,x=>x.toUpperCase()),28),headline:clean(news.titulo,130),body:clean(news.descricao||'Consulte a matéria original para entender o contexto completo.',230),source,credit:`Imagem editorial: ${source}`,cta:'Confira no perfil →',image:articleImage(news.link,0),imageIndex:0,originNews:{title:news.titulo,link:news.link,source},caption:`Fonte: ${source}\n${news.link||''}`};return}
-  try{const draft=JSON.parse(localStorage.getItem('bdi-story-draft')||'null');if(draft)state={...defaults(),...draft}}catch{}
+  if(seed?.item){localStorage.removeItem('bdi-story-seed');const news=seed.item,source=clean(news.fonte||'Fonte original',60);state={...defaults(),category:clean((news.pilares?.[0]||'Mercado agora').replace(/^./,x=>x.toUpperCase()),28),headline:clean(editorial(news.titulo),130),body:clean(editorial(news.descricao||'Consulte a matéria original para entender o contexto completo.'),230),source,credit:`Imagem editorial: ${source}`,cta:'Confira no perfil →',image:articleImage(news.link,0),imageIndex:0,originNews:{title:editorial(news.titulo),link:news.link,source},caption:`Fonte: ${source}\n${news.link||''}`};return}
+  try{const draft=JSON.parse(localStorage.getItem('bdi-story-draft')||'null');if(draft)state={...defaults(),...draft,headline:editorial(draft.headline),body:editorial(draft.body)}}catch{}
 }
 async function queueStory(){
   syncState();if(!clean(state.headline,130))return toast('Escreva uma manchete');if(!clean(state.source,60))return toast('Informe a fonte');
