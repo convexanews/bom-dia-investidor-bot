@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-25T01:31:09.798Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
     "data": "2026-08-25T01:10:05.836Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1038,12 +1043,5 @@
     "data": "2026-08-21T23:31:30.965Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-08-21T23:22:24.796Z",
-    "resultado": "story_noticia_postado",
-    "mensagem": "Story publicado (peso 45): \"Casas Bahia (BHIA3): Ministro nega haver crise no varejo e culpa juros altos e e-commerce por dificuldades\".",
-    "postId": "18141192724567361",
-    "peso": 45
   }
 ]
