@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-25T12:45:01.306Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
     "data": "2026-08-25T12:31:24.868Z",
     "resultado": "pauta_reprovada",
     "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
@@ -1043,12 +1048,5 @@
     "data": "2026-08-22T11:31:08.312Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-08-22T11:19:32.801Z",
-    "resultado": "story_noticia_postado",
-    "mensagem": "Story publicado (peso 58): \"Volatilidade dos FIIs, alívio no IPCA e arcabouço fiscal; veja destaques da semana\".",
-    "postId": "18065135615752615",
-    "peso": 58
   }
 ]
