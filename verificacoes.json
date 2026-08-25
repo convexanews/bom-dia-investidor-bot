@@ -1,5 +1,11 @@
 [
   {
+    "data": "2026-08-25T10:31:05.582Z",
+    "resultado": "pauta_reprovada",
+    "mensagem": "Notícia não publicada: manchete longa demais para caber completa no card.",
+    "titulo": "Petróleo alivia bolsas e agenda esvaziada prepara investidor para os próximos indicadores da semana; Ibovespa em dólar sobe nesta terça-feira (25)"
+  },
+  {
     "data": "2026-08-25T10:01:01.514Z",
     "resultado": "pauta_reprovada",
     "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
@@ -1037,10 +1043,5 @@
     "data": "2026-08-22T09:01:09.402Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-08-22T08:30:54.571Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (05:30 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
