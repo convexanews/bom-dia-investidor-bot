@@ -1,5 +1,11 @@
 [
   {
+    "data": "2026-08-25T16:01:08.644Z",
+    "resultado": "pauta_reprovada",
+    "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
+    "titulo": "Ibovespa Hoje Ao Vivo: Bolsa sobe e retoma os 173 mil pontos"
+  },
+  {
     "data": "2026-08-25T15:40:53.779Z",
     "resultado": "pauta_reprovada",
     "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
@@ -1044,11 +1050,6 @@
   },
   {
     "data": "2026-08-22T14:31:04.734Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-08-22T14:00:58.180Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }
