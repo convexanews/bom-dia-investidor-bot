@@ -1,7 +1,125 @@
 [
   {
+    "postId": "18276606091290400",
+    "dataColeta": "2026-08-25T11:51:00.744Z",
+    "dataPostagem": "2026-08-24T22:02:47.235Z",
+    "tipo": "reel",
+    "pilares": [
+      "bolsa"
+    ],
+    "peso": 74,
+    "fonte": "Suno",
+    "titulo": "Ibovespa sobe pela 4ª vez seguida com Vale (VALE3); Braskem (BRKM5) despenca",
+    "horarioBRT": "19",
+    "cta": "📤 Envie para quem está investindo e precisa ver isso.",
+    "decisaoFormato": "peso 74: reel",
+    "insights": {
+      "reach": 13,
+      "saved": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 1,
+      "total_interactions": 1,
+      "falhas": [
+        {
+          "metrica": "plays",
+          "erro": "Instagram respondeu 400"
+        }
+      ]
+    }
+  },
+  {
+    "postId": "18043358765808237",
+    "dataColeta": "2026-08-25T11:51:03.242Z",
+    "dataPostagem": "2026-08-24T19:56:03.827Z",
+    "tipo": "reel",
+    "pilares": [
+      "macro"
+    ],
+    "peso": 71,
+    "fonte": "Money Times",
+    "titulo": "Ouro sobe e fecha no maior nível desde maio com Treasuries e tensão entre EUA e Irã no radar",
+    "horarioBRT": "16",
+    "cta": "📤 Envie para quem acompanha o mercado global.",
+    "decisaoFormato": "peso 71: reel",
+    "insights": {
+      "reach": 25,
+      "saved": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "total_interactions": 0,
+      "falhas": [
+        {
+          "metrica": "plays",
+          "erro": "Instagram respondeu 400"
+        }
+      ]
+    }
+  },
+  {
+    "postId": "18140161762506608",
+    "dataColeta": "2026-08-25T11:51:05.630Z",
+    "dataPostagem": "2026-08-24T16:33:00.212Z",
+    "tipo": "reel",
+    "pilares": [
+      "macro",
+      "bolsa"
+    ],
+    "peso": 80,
+    "fonte": "Money Times",
+    "titulo": "Trump diz que Irã ‘está em colapso’ horas antes de anúncio de sanções econômicas",
+    "horarioBRT": "13",
+    "cta": "📤 Envie para quem tem ativos dolarizados.",
+    "decisaoFormato": "peso 80: reel",
+    "insights": {
+      "reach": 354,
+      "saved": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 15,
+      "total_interactions": 17,
+      "falhas": [
+        {
+          "metrica": "plays",
+          "erro": "Instagram respondeu 400"
+        }
+      ]
+    }
+  },
+  {
+    "postId": "18066394964582106",
+    "dataColeta": "2026-08-25T11:51:08.035Z",
+    "dataPostagem": "2026-08-24T12:02:49.932Z",
+    "tipo": "reel",
+    "pilares": [
+      "macro",
+      "bolsa"
+    ],
+    "peso": 78,
+    "fonte": "Money Times",
+    "titulo": "Economistas veem economia mais fraca e inflação mais forte; confira o Focus desta segunda-feira (24)",
+    "horarioBRT": "09",
+    "cta": "📤 Envie para quem está investindo e precisa ver isso.",
+    "decisaoFormato": "peso 78: reel",
+    "insights": {
+      "reach": 35,
+      "saved": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 1,
+      "total_interactions": 1,
+      "falhas": [
+        {
+          "metrica": "plays",
+          "erro": "Instagram respondeu 400"
+        }
+      ]
+    }
+  },
+  {
     "postId": "17894423445598182",
-    "dataColeta": "2026-08-24T11:49:46.041Z",
+    "dataColeta": "2026-08-25T11:51:10.827Z",
     "dataPostagem": "2026-08-22T12:03:15.710Z",
     "tipo": "reel",
     "pilares": [
@@ -15,7 +133,7 @@
     "cta": "📌 Salve para revisar quando o COPOM decidir.",
     "decisaoFormato": "peso 70: reel",
     "insights": {
-      "reach": 20,
+      "reach": 21,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -31,7 +149,7 @@
   },
   {
     "postId": "18114228017514802",
-    "dataColeta": "2026-08-24T11:49:47.023Z",
+    "dataColeta": "2026-08-25T11:51:13.344Z",
     "dataPostagem": "2026-08-21T20:32:58.914Z",
     "tipo": "reel",
     "pilares": [
@@ -46,7 +164,7 @@
     "cta": "📤 Envie para quem acompanha o mercado global.",
     "decisaoFormato": "peso 86: reel",
     "insights": {
-      "reach": 15,
+      "reach": 16,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -62,7 +180,7 @@
   },
   {
     "postId": "18451858954184662",
-    "dataColeta": "2026-08-24T11:49:48.022Z",
+    "dataColeta": "2026-08-25T11:51:15.880Z",
     "dataPostagem": "2026-08-21T18:33:35.215Z",
     "tipo": "reel",
     "pilares": [
@@ -75,7 +193,7 @@
     "cta": "📤 Envie para quem acompanha o mercado global.",
     "decisaoFormato": "peso 74: reel",
     "insights": {
-      "reach": 63,
+      "reach": 64,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -91,7 +209,7 @@
   },
   {
     "postId": "18055201010574764",
-    "dataColeta": "2026-08-24T11:49:48.982Z",
+    "dataColeta": "2026-08-25T11:51:18.317Z",
     "dataPostagem": "2026-08-21T05:31:30.882Z",
     "tipo": "alerta",
     "pilares": [],
@@ -102,7 +220,7 @@
     "cta": null,
     "decisaoFormato": null,
     "insights": {
-      "reach": 11,
+      "reach": 12,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -118,7 +236,7 @@
   },
   {
     "postId": "18137619733599740",
-    "dataColeta": "2026-08-24T11:49:50.123Z",
+    "dataColeta": "2026-08-25T11:51:20.654Z",
     "dataPostagem": "2026-08-20T20:32:44.074Z",
     "tipo": "reel",
     "pilares": [
@@ -149,7 +267,7 @@
   },
   {
     "postId": "18072178769717543",
-    "dataColeta": "2026-08-24T11:49:52.196Z",
+    "dataColeta": "2026-08-25T11:51:23.047Z",
     "dataPostagem": "2026-08-20T18:38:44.083Z",
     "tipo": "reel",
     "pilares": [
@@ -179,7 +297,7 @@
   },
   {
     "postId": "18114143249062739",
-    "dataColeta": "2026-08-24T11:49:53.095Z",
+    "dataColeta": "2026-08-25T11:51:26.154Z",
     "dataPostagem": "2026-08-20T08:31:28.252Z",
     "tipo": "alerta",
     "pilares": [],
@@ -206,7 +324,7 @@
   },
   {
     "postId": "18102113207622917",
-    "dataColeta": "2026-08-24T11:49:54.089Z",
+    "dataColeta": "2026-08-25T11:51:28.575Z",
     "dataPostagem": "2026-08-18T22:03:45.814Z",
     "tipo": "reel",
     "pilares": [
@@ -237,7 +355,7 @@
   },
   {
     "postId": "18112439575948546",
-    "dataColeta": "2026-08-24T11:49:55.256Z",
+    "dataColeta": "2026-08-25T11:51:31.064Z",
     "dataPostagem": "2026-08-18T13:32:45.364Z",
     "tipo": "reel",
     "pilares": [
@@ -267,7 +385,7 @@
   },
   {
     "postId": "18349020988223426",
-    "dataColeta": "2026-08-24T11:49:56.369Z",
+    "dataColeta": "2026-08-25T11:51:33.879Z",
     "dataPostagem": "2026-08-18T10:47:24.260Z",
     "tipo": "carrossel",
     "pilares": [
@@ -297,7 +415,7 @@
   },
   {
     "postId": "18110225360283982",
-    "dataColeta": "2026-08-24T11:49:57.504Z",
+    "dataColeta": "2026-08-25T11:51:36.732Z",
     "dataPostagem": "2026-08-17T17:32:30.059Z",
     "tipo": "carrossel",
     "pilares": [
@@ -312,7 +430,7 @@
     "cta": "📌 Salve para revisar quando o COPOM decidir.",
     "decisaoFormato": "peso 79: carrossel",
     "insights": {
-      "reach": 17,
+      "reach": 18,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -328,7 +446,7 @@
   },
   {
     "postId": "18401617738088831",
-    "dataColeta": "2026-08-24T11:49:58.493Z",
+    "dataColeta": "2026-08-25T11:51:39.473Z",
     "dataPostagem": "2026-08-17T12:03:00.502Z",
     "tipo": "carrossel",
     "pilares": [
@@ -358,7 +476,7 @@
   },
   {
     "postId": "17929335261385079",
-    "dataColeta": "2026-08-24T11:49:59.996Z",
+    "dataColeta": "2026-08-25T11:51:41.841Z",
     "dataPostagem": "2026-08-17T09:02:04.805Z",
     "tipo": "carrossel",
     "pilares": [
@@ -389,7 +507,7 @@
   },
   {
     "postId": "18096294650137323",
-    "dataColeta": "2026-08-24T11:50:00.984Z",
+    "dataColeta": "2026-08-25T11:51:44.054Z",
     "dataPostagem": "2026-08-16T23:29:52.025Z",
     "tipo": "reel",
     "pilares": [
@@ -419,7 +537,7 @@
   },
   {
     "postId": "18138124603606268",
-    "dataColeta": "2026-08-24T11:50:02.016Z",
+    "dataColeta": "2026-08-25T11:51:46.482Z",
     "dataPostagem": "2026-08-15T01:12:19.454Z",
     "tipo": "carrossel",
     "pilares": [
@@ -451,7 +569,7 @@
   },
   {
     "postId": "17965194723150941",
-    "dataColeta": "2026-08-24T11:50:03.077Z",
+    "dataColeta": "2026-08-25T11:51:48.841Z",
     "dataPostagem": "2026-08-13T14:03:18.128Z",
     "tipo": "reel",
     "pilares": [
@@ -482,7 +600,7 @@
   },
   {
     "postId": "18092239103437738",
-    "dataColeta": "2026-08-24T11:50:04.068Z",
+    "dataColeta": "2026-08-25T11:51:51.560Z",
     "dataPostagem": "2026-08-12T20:32:12.584Z",
     "tipo": "carrossel",
     "pilares": [
@@ -513,7 +631,7 @@
   },
   {
     "postId": "18410454094157439",
-    "dataColeta": "2026-08-24T11:50:05.030Z",
+    "dataColeta": "2026-08-25T11:51:54.016Z",
     "dataPostagem": "2026-08-12T17:03:10.048Z",
     "tipo": "reel",
     "pilares": [
@@ -543,7 +661,7 @@
   },
   {
     "postId": "18016231085916957",
-    "dataColeta": "2026-08-24T11:50:06.344Z",
+    "dataColeta": "2026-08-25T11:51:56.486Z",
     "dataPostagem": "2026-08-12T10:33:02.280Z",
     "tipo": "carrossel",
     "pilares": [
@@ -574,7 +692,7 @@
   },
   {
     "postId": "18119833246923540",
-    "dataColeta": "2026-08-24T11:50:07.539Z",
+    "dataColeta": "2026-08-25T11:51:58.969Z",
     "dataPostagem": "2026-08-11T21:03:00.354Z",
     "tipo": "reel",
     "pilares": [
@@ -605,7 +723,7 @@
   },
   {
     "postId": "17943051630292360",
-    "dataColeta": "2026-08-24T11:50:08.782Z",
+    "dataColeta": "2026-08-25T11:52:01.350Z",
     "dataPostagem": "2026-08-11T11:32:52.418Z",
     "tipo": "reel",
     "pilares": [
@@ -625,128 +743,6 @@
       "shares": 0,
       "comments": 0,
       "likes": 0,
-      "total_interactions": 1,
-      "falhas": [
-        {
-          "metrica": "plays",
-          "erro": "Instagram respondeu 400"
-        }
-      ]
-    }
-  },
-  {
-    "postId": "17997022415989876",
-    "dataColeta": "2026-08-24T11:50:09.990Z",
-    "dataPostagem": "2026-08-11T09:33:29.789Z",
-    "tipo": "reel",
-    "pilares": [
-      "macro",
-      "bolsa",
-      "exterior"
-    ],
-    "peso": 101,
-    "fonte": "InfoMoney",
-    "titulo": "Ata do Copom, IPCA, balanços e mais destaques desta terça-feira",
-    "horarioBRT": null,
-    "cta": null,
-    "decisaoFormato": null,
-    "insights": {
-      "reach": 50,
-      "saved": 0,
-      "shares": 0,
-      "comments": 0,
-      "likes": 1,
-      "total_interactions": 1,
-      "falhas": [
-        {
-          "metrica": "plays",
-          "erro": "Instagram respondeu 400"
-        }
-      ]
-    }
-  },
-  {
-    "postId": "18042864992810072",
-    "dataColeta": "2026-08-24T11:50:11.210Z",
-    "dataPostagem": "2026-08-10T09:33:00.055Z",
-    "tipo": "reel",
-    "pilares": [
-      "macro",
-      "bolsa",
-      "exterior"
-    ],
-    "peso": 83,
-    "fonte": "InfoMoney",
-    "titulo": "Focus, balanço da Embraer, negociações sobre Ormuz e mais destaques desta segunda",
-    "horarioBRT": null,
-    "cta": null,
-    "decisaoFormato": null,
-    "insights": {
-      "reach": 33,
-      "saved": 0,
-      "shares": 0,
-      "comments": 0,
-      "likes": 1,
-      "total_interactions": 1,
-      "falhas": [
-        {
-          "metrica": "plays",
-          "erro": "Instagram respondeu 400"
-        }
-      ]
-    }
-  },
-  {
-    "postId": "18020922923698362",
-    "dataColeta": "2026-08-24T11:50:12.262Z",
-    "dataPostagem": "2026-08-09T15:02:45.228Z",
-    "tipo": "reel",
-    "pilares": [
-      "macro",
-      "bolsa"
-    ],
-    "peso": 62,
-    "fonte": "Money Times",
-    "titulo": "Inflação, ata do Copom e CPI dos EUA estão no radar dos mercados nesta semana; confira agenda",
-    "horarioBRT": null,
-    "cta": null,
-    "decisaoFormato": null,
-    "insights": {
-      "reach": 49,
-      "saved": 0,
-      "shares": 0,
-      "comments": 0,
-      "likes": 1,
-      "total_interactions": 1,
-      "falhas": [
-        {
-          "metrica": "plays",
-          "erro": "Instagram respondeu 400"
-        }
-      ]
-    }
-  },
-  {
-    "postId": "17946675600258612",
-    "dataColeta": "2026-08-24T11:50:13.231Z",
-    "dataPostagem": "2026-08-08T13:02:49.856Z",
-    "tipo": "reel",
-    "pilares": [
-      "macro",
-      "bolsa"
-    ],
-    "peso": 62,
-    "fonte": "Money Times",
-    "titulo": "Julho estanca fuga de estrangeiros do Brasil; o que pode jogar ‘água no chope’, segundo especialistas",
-    "horarioBRT": null,
-    "cta": null,
-    "decisaoFormato": null,
-    "insights": {
-      "reach": 108,
-      "saved": 0,
-      "shares": 0,
-      "comments": 0,
-      "likes": 1,
       "total_interactions": 1,
       "falhas": [
         {
