@@ -17,5 +17,12 @@ function render(){
 }
 async function loadNews(){try{const response=await fetch('/api/news');if(!response.ok)throw new Error();radar=await response.json();fillFilters();render();if(radar.updatedAt)$('updatedAt').textContent=`Última atualização: ${new Date(radar.updatedAt).toLocaleString('pt-BR')}`;if(!radar.items.length)await refreshNews()}catch{toast('Não foi possível abrir o radar agora')}}
 async function refreshNews(){const button=$('refreshNews');button.disabled=true;button.textContent='Consultando as fontes…';document.body.classList.add('refreshing');try{const response=await fetch('/api/news/refresh',{method:'POST'}),data=await response.json();if(!response.ok)throw new Error(data.error||'Falha na atualização');radar=data;fillFilters();render();$('updatedAt').textContent=radar.updatedAt?`Última atualização: ${new Date(radar.updatedAt).toLocaleString('pt-BR')}`:'Sem atualização recente';toast(radar.warning||`${radar.items.length} pautas encontradas`)}catch(error){toast(error.message||'As fontes não responderam agora')}finally{button.disabled=false;button.textContent='Atualizar notícias';document.body.classList.remove('refreshing')}}
-async function createFromNews(item,format){localStorage.setItem(format==='story'?'bdi-story-seed':'bdi-news-seed',JSON.stringify({item,format,createdAt:new Date().toISOString()}));fetch('/api/news/mark',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({link:item.link})}).catch(()=>{});location.href=format==='story'?'stories.html?origem=radar':'index.html?origem=radar'}
+async function createFromNews(item,format){
+  const buttons=[...document.querySelectorAll(`[data-index="${radar.items.indexOf(item)}"]`)];buttons.forEach(button=>{button.disabled=true;button.dataset.originalText=button.textContent;button.textContent='Lendo matéria…'});
+  let enriched={...item};
+  try{const response=await fetch(`/api/news/article?link=${encodeURIComponent(item.link)}`),article=await response.json();if(response.ok)enriched={...item,conteudo:article.texto,blocos:article.blocos}}
+  catch{}
+  localStorage.setItem(format==='story'?'bdi-story-seed':'bdi-news-seed',JSON.stringify({item:enriched,format,createdAt:new Date().toISOString()}));
+  fetch('/api/news/mark',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({link:item.link})}).catch(()=>{});location.href=format==='story'?'stories.html?origem=radar':'index.html?origem=radar'
+}
 $('openStudio').onclick=()=>location.href='index.html';$('refreshNews').onclick=refreshNews;['newsSearch','sourceFilter','pillarFilter','statusFilter','sortNews'].forEach(id=>$(id).addEventListener(id==='newsSearch'?'input':'change',render));loadNews();

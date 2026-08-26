@@ -1,6 +1,6 @@
 const test = require('node:test');
 const assert = require('node:assert/strict');
-const { extrairImagemOg, extrairImagensArtigo } = require('../imagem_noticia.cjs');
+const { extrairImagemOg, extrairImagensArtigo, extrairTextoArtigo, dividirEmBlocosEditoriais } = require('../imagem_noticia.cjs');
 
 test('extrai imagem principal do Open Graph em qualquer ordem de atributos', () => {
   assert.equal(extrairImagemOg('<meta property="og:image" content="https://site.com/a.jpg">'), 'https://site.com/a.jpg');
@@ -21,4 +21,15 @@ test('usa Twitter, JSON-LD, srcset e converte caminhos relativos em alternativas
     'https://site.com/large.jpg',
     'https://site.com/small.jpg',
   ]);
+});
+
+test('extrai parágrafos editoriais e ignora chamadas promocionais', () => {
+  const html = `<article><p class="content-text__container">O IPCA-15 caiu 0,40% em agosto, segundo o IBGE.</p><p class="content-text__container">Com o resultado, o índice acumula alta de 4,24% em doze meses.</p><p class="content-text__container">Leia também</p></article>`;
+  assert.equal(extrairTextoArtigo(html), 'O IPCA-15 caiu 0,40% em agosto, segundo o IBGE.\n\nCom o resultado, o índice acumula alta de 4,24% em doze meses.');
+});
+
+test('divide a matéria em blocos sem cortar números ou frases', () => {
+  const blocos = dividirEmBlocosEditoriais('O IPCA-15 caiu 0,40% em agosto. Em doze meses, o índice acumula alta de 4,24%. Habitação e transportes puxaram a queda.', 90, 3);
+  assert.equal(blocos.join(' '), 'O IPCA-15 caiu 0,40% em agosto. Em doze meses, o índice acumula alta de 4,24%. Habitação e transportes puxaram a queda.');
+  assert.ok(blocos.every(bloco => /[.!?]$/.test(bloco)));
 });

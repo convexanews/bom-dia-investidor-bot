@@ -1,6 +1,6 @@
 const test=require('node:test');
 const assert=require('node:assert/strict');
-const {parseItems,titulosSimilares,corrigirTextoEditorial}=require('../radar_noticias.cjs');
+const {parseItems,titulosSimilares,corrigirTextoEditorial,limitarDescricaoEditorial}=require('../radar_noticias.cjs');
 
 test('radar interpreta RSS financeiro sem dependências externas',()=>{
   const xml=`<rss><channel><item><title><![CDATA[Ibovespa sobe com decisão sobre juros]]></title><link>https://exemplo.com/mercado</link><pubDate>Thu, 20 Aug 2026 12:00:00 GMT</pubDate><description><![CDATA[<p>Bolsa reage à Selic e ao dólar.</p><img src="https://exemplo.com/capa.jpg">]]></description><category>Mercado</category></item></channel></rss>`;
@@ -11,6 +11,11 @@ test('radar interpreta RSS financeiro sem dependências externas',()=>{
 test('radar corrige ruído editorial antes de criar a arte',()=>{
   assert.equal(corrigirTextoEditorial('O dólar opera com volatileve alta nesta terça-feira.'),'O dólar opera com volatilidade alta nesta terça-feira.');
   assert.equal(corrigirTextoEditorial('Bolsa avança The post Bolsa avança appeared first on Portal.'),'Bolsa avança');
+});
+
+test('radar encerra descrição na última frase completa',()=>{
+  const texto='O IPCA-15 caiu 0,40% em agosto. Os dados foram divulgados pelo IBGE. Com o resultado, o índice acumula alta de 4,24';
+  assert.equal(limitarDescricaoEditorial(texto),'O IPCA-15 caiu 0,40% em agosto. Os dados foram divulgados pelo IBGE.');
 });
 
 test('radar descarta assuntos não financeiros e reconhece títulos semelhantes',()=>{

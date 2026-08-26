@@ -10,6 +10,7 @@ const ARTICLE_HEADERS = {
 function decode(value) {
   return String(value || '')
     .replace(/&amp;/gi, '&').replace(/&quot;/gi, '"').replace(/&#39;|&apos;/gi, "'")
+    .replace(/&nbsp;/gi, ' ').replace(/&lt;/gi, '<').replace(/&gt;/gi, '>')
     .replace(/&#(\d+);/g, (_, code) => String.fromCodePoint(Number(code)))
     .replace(/&#x([0-9a-f]+);/gi, (_, code) => String.fromCodePoint(parseInt(code, 16)));
 }
@@ -80,6 +81,85 @@ function extrairImagensArtigo(html, baseUrl) {
   return result;
 }
 
+function htmlParaTexto(value) {
+  return decode(String(value || '')
+    .replace(/<script\b[\s\S]*?<\/script>/gi, ' ')
+    .replace(/<style\b[\s\S]*?<\/style>/gi, ' ')
+    .replace(/<br\s*\/?>/gi, ' ')
+    .replace(/<[^>]+>/g, ' '))
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+function articleBodiesJsonLd(value, output = []) {
+  if (!value) return output;
+  if (Array.isArray(value)) { value.forEach(item => articleBodiesJsonLd(item, output)); return output; }
+  if (typeof value !== 'object') return output;
+  for (const [key, item] of Object.entries(value)) {
+    if (key === 'articleBody' && typeof item === 'string') output.push(item);
+    else if (item && typeof item === 'object') articleBodiesJsonLd(item, output);
+  }
+  return output;
+}
+
+function paragrafoEditorial(value) {
+  const texto = htmlParaTexto(value)
+    .replace(/\p{Extended_Pictographic}/gu, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+  if (texto.length < 45) return '';
+  if (/^(?:leia também|veja também|assista|publicidade|conteúdo publicitário|siga o canal|tem alguma sugestão)/i.test(texto)) return '';
+  return texto
+    .replace(/\s*Tem alguma sugestão de reportagem\?[\s\S]*?(?=(?:Com o resultado|Em |No |Na |O |A )[A-ZÁÉÍÓÚÂÊÔÃÕÇ])/i, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+function extrairTextoArtigo(html) {
+  const texto = String(html || ''), candidatos = [];
+  for (const block of texto.matchAll(/<script\b[^>]*type=["']application\/ld\+json["'][^>]*>([\s\S]*?)<\/script>/gi)) {
+    try { articleBodiesJsonLd(JSON.parse(block[1]), candidatos); } catch {}
+  }
+  for (const block of texto.matchAll(/<p\b[^>]*class=["'][^"']*content-text__container[^"']*["'][^>]*>([\s\S]*?)<\/p>/gi)) candidatos.push(block[1]);
+  if (!candidatos.length) {
+    const article = (/<article\b[^>]*>([\s\S]*?)<\/article>/i.exec(texto) || [])[1] || '';
+    for (const block of article.matchAll(/<p\b[^>]*>([\s\S]*?)<\/p>/gi)) candidatos.push(block[1]);
+  }
+  const paragrafos = [];
+  for (const candidato of candidatos) {
+    const paragrafo = paragrafoEditorial(candidato);
+    if (!paragrafo || paragrafos.includes(paragrafo)) continue;
+    paragrafos.push(paragrafo);
+    if (paragrafos.join(' ').length >= 8000) break;
+  }
+  return paragrafos.join('\n\n');
+}
+
+function dividirEmBlocosEditoriais(texto, maximo = 260, quantidade = 4) {
+  const limpo = String(texto || '').replace(/\s+/g, ' ').trim();
+  if (!limpo) return [];
+  let frases;
+  try { frases = [...new Intl.Segmenter('pt-BR', { granularity: 'sentence' }).segment(limpo)].map(item => item.segment.trim()).filter(Boolean); }
+  catch { frases = limpo.match(/[^.!?]+(?:[.!?]+|$)/g)?.map(item => item.trim()).filter(Boolean) || [limpo]; }
+  const blocos = [];
+  for (const frase of frases) {
+    if (blocos.length >= quantidade) break;
+    const atual = blocos[blocos.length - 1] || '';
+    if (atual && `${atual} ${frase}`.length <= maximo) blocos[blocos.length - 1] = `${atual} ${frase}`;
+    else if (frase.length <= maximo) blocos.push(frase);
+    else {
+      const partes = frase.split(/(?<=[,;:])\s+/);
+      for (const parte of partes) {
+        if (blocos.length >= quantidade) break;
+        const anterior = blocos[blocos.length - 1] || '';
+        if (anterior && `${anterior} ${parte}`.length <= maximo) blocos[blocos.length - 1] = `${anterior} ${parte}`;
+        else blocos.push(parte.length <= maximo ? parte : `${parte.slice(0, maximo - 1).replace(/\s+\S*$/, '')}…`);
+      }
+    }
+  }
+  return blocos;
+}
+
 async function buscarConteudoArtigo(link) {
   if (!/^https?:\/\//i.test(String(link || ''))) return { imagens: [] };
   const response = await fetch(link, { headers: ARTICLE_HEADERS, redirect: 'follow', signal: AbortSignal.timeout(20000) });
@@ -88,7 +168,8 @@ async function buscarConteudoArtigo(link) {
   if (contentType && !/html|xhtml/i.test(contentType)) throw new Error('A matéria não retornou HTML');
   const html = await response.text();
   if (html.length > 6 * 1024 * 1024) throw new Error('A página da matéria é muito grande');
-  return { imagens: extrairImagensArtigo(html, response.url || link) };
+  const texto = extrairTextoArtigo(html);
+  return { imagens: extrairImagensArtigo(html, response.url || link), texto, blocos: dividirEmBlocosEditoriais(texto) };
 }
 
 async function buscarImagemArtigo(link) {
@@ -109,4 +190,4 @@ async function baixarImagemBase64(url) {
   } catch (erro) { console.log('Erro ao baixar imagem:', erro.message); return null; }
 }
 
-module.exports = { extrairImagemOg, extrairImagensArtigo, buscarConteudoArtigo, buscarImagemArtigo, baixarImagemBase64 };
+module.exports = { extrairImagemOg, extrairImagensArtigo, extrairTextoArtigo, dividirEmBlocosEditoriais, buscarConteudoArtigo, buscarImagemArtigo, baixarImagemBase64 };

@@ -177,6 +177,16 @@ async function serveArticleMedia(res,link,index){
   }catch(error){articleMediaCache.delete(link);responder(res,502,`Não foi possível carregar a imagem: ${error.message}`)}
 }
 
+async function serveArticleContent(res,link){
+  if(!knownArticleLink(link))return responder(res,403,JSON.stringify({error:'Matéria fora do Radar'}),MIME['.json']);
+  try{
+    if(!articleMediaCache.has(link))articleMediaCache.set(link,buscarConteudoArtigo(link));
+    const materia=await articleMediaCache.get(link);
+    if(!materia.texto||!materia.blocos?.length)throw new Error('A página não forneceu texto editorial suficiente');
+    responder(res,200,JSON.stringify({texto:materia.texto.slice(0,8000),blocos:materia.blocos,imagens:materia.imagens?.length||0}),MIME['.json']);
+  }catch(error){articleMediaCache.delete(link);responder(res,502,JSON.stringify({error:`Não foi possível ler a matéria completa: ${error.message}`}),MIME['.json'])}
+}
+
 function approveQueueItem(req,res,id){
   if(!localOriginAllowed(req))return responder(res,403,JSON.stringify({error:'Origem não autorizada'}),MIME['.json']);
   if(!/^\d{17}$/.test(id))return responder(res,400,JSON.stringify({error:'Identificador inválido'}),MIME['.json']);
@@ -209,6 +219,7 @@ const server=http.createServer(async(req,res)=>{
     if(url.pathname==='/api/news'&&req.method==='GET')return responder(res,200,JSON.stringify(newsCache()),MIME['.json']);
     if(url.pathname==='/api/news/refresh'&&req.method==='POST'){if(!localOriginAllowed(req))return responder(res,403,JSON.stringify({error:'Origem não autorizada'}),MIME['.json']);try{return responder(res,200,JSON.stringify(await refreshNews()),MIME['.json'])}catch(error){return responder(res,502,JSON.stringify({error:error.message}),MIME['.json'])}}
     if(url.pathname==='/api/news/mark'&&req.method==='POST')return markNewsUsed(req,res);
+    if(url.pathname==='/api/news/article'&&req.method==='GET')return serveArticleContent(res,url.searchParams.get('link')||'');
     if(url.pathname==='/api/news/media'&&req.method==='GET')return serveArticleMedia(res,url.searchParams.get('link')||'',Number(url.searchParams.get('index'))||0);
     if(url.pathname==='/api/queue'&&req.method==='GET')return responder(res,200,JSON.stringify(queueItems()),MIME['.json']);
     if(url.pathname==='/api/queue'&&req.method==='POST')return saveToQueue(req,res);
