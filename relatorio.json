@@ -1,5 +1,27 @@
 [
   {
+    "data": "2026-08-26T12:33:34.562Z",
+    "titulo": "Bolsas da Europa operam mistas com Oriente Médio, PCE e balanço da Nvidia no radar",
+    "categoria": "Mercados",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/bolsas-da-europa-operam-mistas-com-oriente-medio-pce-e-balanco-da-nvidia-no-radar-rens/",
+    "postId": "17866713888642812",
+    "storyId": null,
+    "reelId": "17866713888642812",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1787747491453.mp4",
+    "tipo": "reel",
+    "peso": 70,
+    "pilares": [
+      "macro",
+      "bolsa"
+    ],
+    "horarioBRT": "09",
+    "cta": "📤 Envie para quem acompanha o mercado global.",
+    "decisaoFormato": "peso 70: reel"
+  },
+  {
     "data": "2026-08-25T18:33:58.480Z",
     "titulo": "Ouro tem leve queda com pausa em escalada dos Treasuries e à espera de dados de inflação",
     "categoria": "Mercados",
@@ -3343,20 +3365,5 @@
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783774896873.mp4",
     "tipo": "reel",
     "peso": 49
-  },
-  {
-    "data": "2026-07-11T10:32:19.716Z",
-    "titulo": "XP mantém otimismo com PIB e prevê dólar a R$ 5,00; veja os destaques da semana",
-    "categoria": "Onde Investir",
-    "fonte": "InfoMoney",
-    "link": "https://www.infomoney.com.br/onde-investir/xp-mantem-otimismo-com-pib-e-preve-dolar-a-r-500-veja-os-destaques-da-semana/",
-    "postId": "17899000296472240",
-    "storyId": "17872702857623576",
-    "reelId": null,
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783765896530-feed.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783765896530-story.png",
-    "videoUrl": null,
-    "tipo": "card",
-    "peso": 52
   }
 ]
