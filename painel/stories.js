@@ -11,7 +11,8 @@ let state = defaults(), lastQueuedId = null, poll = null, renderToken = 0;
 
 function toast(message){$('toast').textContent=message;$('toast').classList.add('show');setTimeout(()=>$('toast').classList.remove('show'),2500)}
 function clean(value,max){return String(value||'').replace(/\s+/g,' ').trim().slice(0,max)}
-function editorial(value){return String(value||'').replace(/\bvolatileve\b/gi,'volatilidade').replace(/\s+The post[\s\S]*?appeared first on\s+[^.]+\.?/gi,'').trim()}
+function editorial(value){return String(value||'').replace(/\bvolatileve\b/gi,'volatilidade').replace(/\s+The post[\s\S]*?appeared first on\s+[^.]+\.?/gi,'').replace(/^[^.!?]{0,180}\bdata-[\w-]+\s*=\s*["'][\s\S]*?\/?>(?=\S)/i,'').replace(/\b(?:data-[\w-]+|src|href)\s*=\s*["']?https?:\/\/\S+/gi,' ').replace(/https?:\/\/\S+/gi,' ').replace(/["']?\s*\/?>(?=\S)/g,' ').replace(/\s+/g,' ').trim()}
+function storySummary(value,max=230){const text=editorial(value);if(text.length<=max)return text;const cut=text.slice(0,max),end=Math.max(cut.lastIndexOf('.'),cut.lastIndexOf('!'),cut.lastIndexOf('?'));return end>=70?cut.slice(0,end+1).trim():`${cut.replace(/\s+\S*$/,'').trim()}…`}
 function articleImage(link,index=0){return link?`/api/news/media?link=${encodeURIComponent(link)}&index=${index}`:''}
 function syncState(){
   state.category=$('storyCategory').value;state.headline=$('storyHeadline').value;state.body=$('storyBody').value;
@@ -56,7 +57,7 @@ async function draw(){
 }
 function importSeed(){
   let seed=null;try{seed=JSON.parse(localStorage.getItem('bdi-story-seed')||'null')}catch{}
-  if(seed?.item){localStorage.removeItem('bdi-story-seed');const news=seed.item,source=clean(news.fonte||'Fonte original',60);state={...defaults(),category:clean((news.pilares?.[0]||'Mercado agora').replace(/^./,x=>x.toUpperCase()),28),headline:clean(editorial(news.titulo),130),body:clean(editorial(news.descricao||'Consulte a matéria original para entender o contexto completo.'),230),source,credit:`Imagem editorial: ${source}`,cta:'Confira no perfil →',image:articleImage(news.link,0),imageIndex:0,originNews:{title:editorial(news.titulo),link:news.link,source},caption:`Fonte: ${source}\n${news.link||''}`};return}
+  if(seed?.item){localStorage.removeItem('bdi-story-seed');const news=seed.item,source=clean(news.fonte||'Fonte original',60),articleBlock=Array.isArray(news.blocos)?news.blocos.find(Boolean):'';state={...defaults(),category:clean((news.pilares?.[0]||'Mercado agora').replace(/^./,x=>x.toUpperCase()),28),headline:clean(editorial(news.titulo),130),body:storySummary(articleBlock||news.descricao||'Consulte a matéria original para entender o contexto completo.'),source,credit:`Imagem editorial: ${source}`,cta:'Confira no perfil →',image:articleImage(news.link,0),imageIndex:0,originNews:{title:editorial(news.titulo),link:news.link,source},caption:`Fonte: ${source}\n${news.link||''}`};return}
   try{const draft=JSON.parse(localStorage.getItem('bdi-story-draft')||'null');if(draft)state={...defaults(),...draft,headline:editorial(draft.headline),body:editorial(draft.body)}}catch{}
 }
 async function queueStory(){

@@ -11,6 +11,7 @@ test('radar interpreta RSS financeiro sem dependências externas',()=>{
 test('radar corrige ruído editorial antes de criar a arte',()=>{
   assert.equal(corrigirTextoEditorial('O dólar opera com volatileve alta nesta terça-feira.'),'O dólar opera com volatilidade alta nesta terça-feira.');
   assert.equal(corrigirTextoEditorial('Bolsa avança The post Bolsa avança appeared first on Portal.'),'Bolsa avança');
+  assert.equal(corrigirTextoEditorial('Notas de reais (Shutterstock) " data-large-file="https://site.com/notas.jpg?fit=900" />Taxas recuam após a deflação.'),'Taxas recuam após a deflação.');
 });
 
 test('radar encerra descrição na última frase completa',()=>{
