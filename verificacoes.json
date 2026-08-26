@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-26T17:32:59.362Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 24 min."
+  },
+  {
     "data": "2026-08-26T17:07:39.760Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 49 min."
@@ -1077,12 +1082,5 @@
     "data": "2026-08-23T16:31:03.172Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-08-23T16:23:26.305Z",
-    "resultado": "story_noticia_postado",
-    "mensagem": "Story publicado (peso 58): \"Inflação, dados de emprego e Jackson Hole dividem os holofotes do mercado; confira agenda da semana\".",
-    "postId": "18093787778396638",
-    "peso": 58
   }
 ]
