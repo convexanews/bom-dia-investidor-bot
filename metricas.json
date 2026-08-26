@@ -1,7 +1,37 @@
 [
   {
+    "postId": "18072990332435822",
+    "dataColeta": "2026-08-26T11:52:54.745Z",
+    "dataPostagem": "2026-08-25T18:33:58.480Z",
+    "tipo": "reel",
+    "pilares": [
+      "macro",
+      "bolsa"
+    ],
+    "peso": 71,
+    "fonte": "Money Times",
+    "titulo": "Ouro tem leve queda com pausa em escalada dos Treasuries e à espera de dados de inflação",
+    "horarioBRT": "15",
+    "cta": "📤 Envie para quem acompanha o mercado global.",
+    "decisaoFormato": "peso 71: reel",
+    "insights": {
+      "reach": 12,
+      "saved": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "total_interactions": 0,
+      "falhas": [
+        {
+          "metrica": "plays",
+          "erro": "Instagram respondeu 400"
+        }
+      ]
+    }
+  },
+  {
     "postId": "18276606091290400",
-    "dataColeta": "2026-08-25T11:51:00.744Z",
+    "dataColeta": "2026-08-26T11:52:55.840Z",
     "dataPostagem": "2026-08-24T22:02:47.235Z",
     "tipo": "reel",
     "pilares": [
@@ -14,7 +44,7 @@
     "cta": "📤 Envie para quem está investindo e precisa ver isso.",
     "decisaoFormato": "peso 74: reel",
     "insights": {
-      "reach": 13,
+      "reach": 16,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -30,7 +60,7 @@
   },
   {
     "postId": "18043358765808237",
-    "dataColeta": "2026-08-25T11:51:03.242Z",
+    "dataColeta": "2026-08-26T11:52:56.701Z",
     "dataPostagem": "2026-08-24T19:56:03.827Z",
     "tipo": "reel",
     "pilares": [
@@ -43,7 +73,7 @@
     "cta": "📤 Envie para quem acompanha o mercado global.",
     "decisaoFormato": "peso 71: reel",
     "insights": {
-      "reach": 25,
+      "reach": 30,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -59,7 +89,7 @@
   },
   {
     "postId": "18140161762506608",
-    "dataColeta": "2026-08-25T11:51:05.630Z",
+    "dataColeta": "2026-08-26T11:52:57.644Z",
     "dataPostagem": "2026-08-24T16:33:00.212Z",
     "tipo": "reel",
     "pilares": [
@@ -73,7 +103,7 @@
     "cta": "📤 Envie para quem tem ativos dolarizados.",
     "decisaoFormato": "peso 80: reel",
     "insights": {
-      "reach": 354,
+      "reach": 411,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -89,7 +119,7 @@
   },
   {
     "postId": "18066394964582106",
-    "dataColeta": "2026-08-25T11:51:08.035Z",
+    "dataColeta": "2026-08-26T11:52:58.810Z",
     "dataPostagem": "2026-08-24T12:02:49.932Z",
     "tipo": "reel",
     "pilares": [
@@ -103,7 +133,7 @@
     "cta": "📤 Envie para quem está investindo e precisa ver isso.",
     "decisaoFormato": "peso 78: reel",
     "insights": {
-      "reach": 35,
+      "reach": 38,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -119,7 +149,7 @@
   },
   {
     "postId": "17894423445598182",
-    "dataColeta": "2026-08-25T11:51:10.827Z",
+    "dataColeta": "2026-08-26T11:52:59.705Z",
     "dataPostagem": "2026-08-22T12:03:15.710Z",
     "tipo": "reel",
     "pilares": [
@@ -133,7 +163,7 @@
     "cta": "📌 Salve para revisar quando o COPOM decidir.",
     "decisaoFormato": "peso 70: reel",
     "insights": {
-      "reach": 21,
+      "reach": 22,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -149,7 +179,7 @@
   },
   {
     "postId": "18114228017514802",
-    "dataColeta": "2026-08-25T11:51:13.344Z",
+    "dataColeta": "2026-08-26T11:53:00.658Z",
     "dataPostagem": "2026-08-21T20:32:58.914Z",
     "tipo": "reel",
     "pilares": [
@@ -180,7 +210,7 @@
   },
   {
     "postId": "18451858954184662",
-    "dataColeta": "2026-08-25T11:51:15.880Z",
+    "dataColeta": "2026-08-26T11:53:01.797Z",
     "dataPostagem": "2026-08-21T18:33:35.215Z",
     "tipo": "reel",
     "pilares": [
@@ -209,7 +239,7 @@
   },
   {
     "postId": "18055201010574764",
-    "dataColeta": "2026-08-25T11:51:18.317Z",
+    "dataColeta": "2026-08-26T11:53:02.865Z",
     "dataPostagem": "2026-08-21T05:31:30.882Z",
     "tipo": "alerta",
     "pilares": [],
@@ -236,7 +266,7 @@
   },
   {
     "postId": "18137619733599740",
-    "dataColeta": "2026-08-25T11:51:20.654Z",
+    "dataColeta": "2026-08-26T11:53:03.872Z",
     "dataPostagem": "2026-08-20T20:32:44.074Z",
     "tipo": "reel",
     "pilares": [
@@ -267,7 +297,7 @@
   },
   {
     "postId": "18072178769717543",
-    "dataColeta": "2026-08-25T11:51:23.047Z",
+    "dataColeta": "2026-08-26T11:53:04.913Z",
     "dataPostagem": "2026-08-20T18:38:44.083Z",
     "tipo": "reel",
     "pilares": [
@@ -297,7 +327,7 @@
   },
   {
     "postId": "18114143249062739",
-    "dataColeta": "2026-08-25T11:51:26.154Z",
+    "dataColeta": "2026-08-26T11:53:05.766Z",
     "dataPostagem": "2026-08-20T08:31:28.252Z",
     "tipo": "alerta",
     "pilares": [],
@@ -324,7 +354,7 @@
   },
   {
     "postId": "18102113207622917",
-    "dataColeta": "2026-08-25T11:51:28.575Z",
+    "dataColeta": "2026-08-26T11:53:06.595Z",
     "dataPostagem": "2026-08-18T22:03:45.814Z",
     "tipo": "reel",
     "pilares": [
@@ -355,7 +385,7 @@
   },
   {
     "postId": "18112439575948546",
-    "dataColeta": "2026-08-25T11:51:31.064Z",
+    "dataColeta": "2026-08-26T11:53:07.664Z",
     "dataPostagem": "2026-08-18T13:32:45.364Z",
     "tipo": "reel",
     "pilares": [
@@ -385,7 +415,7 @@
   },
   {
     "postId": "18349020988223426",
-    "dataColeta": "2026-08-25T11:51:33.879Z",
+    "dataColeta": "2026-08-26T11:53:08.957Z",
     "dataPostagem": "2026-08-18T10:47:24.260Z",
     "tipo": "carrossel",
     "pilares": [
@@ -415,7 +445,7 @@
   },
   {
     "postId": "18110225360283982",
-    "dataColeta": "2026-08-25T11:51:36.732Z",
+    "dataColeta": "2026-08-26T11:53:10.128Z",
     "dataPostagem": "2026-08-17T17:32:30.059Z",
     "tipo": "carrossel",
     "pilares": [
@@ -446,7 +476,7 @@
   },
   {
     "postId": "18401617738088831",
-    "dataColeta": "2026-08-25T11:51:39.473Z",
+    "dataColeta": "2026-08-26T11:53:11.361Z",
     "dataPostagem": "2026-08-17T12:03:00.502Z",
     "tipo": "carrossel",
     "pilares": [
@@ -476,7 +506,7 @@
   },
   {
     "postId": "17929335261385079",
-    "dataColeta": "2026-08-25T11:51:41.841Z",
+    "dataColeta": "2026-08-26T11:53:12.562Z",
     "dataPostagem": "2026-08-17T09:02:04.805Z",
     "tipo": "carrossel",
     "pilares": [
@@ -507,7 +537,7 @@
   },
   {
     "postId": "18096294650137323",
-    "dataColeta": "2026-08-25T11:51:44.054Z",
+    "dataColeta": "2026-08-26T11:53:13.587Z",
     "dataPostagem": "2026-08-16T23:29:52.025Z",
     "tipo": "reel",
     "pilares": [
@@ -537,7 +567,7 @@
   },
   {
     "postId": "18138124603606268",
-    "dataColeta": "2026-08-25T11:51:46.482Z",
+    "dataColeta": "2026-08-26T11:53:14.557Z",
     "dataPostagem": "2026-08-15T01:12:19.454Z",
     "tipo": "carrossel",
     "pilares": [
@@ -569,7 +599,7 @@
   },
   {
     "postId": "17965194723150941",
-    "dataColeta": "2026-08-25T11:51:48.841Z",
+    "dataColeta": "2026-08-26T11:53:15.680Z",
     "dataPostagem": "2026-08-13T14:03:18.128Z",
     "tipo": "reel",
     "pilares": [
@@ -600,7 +630,7 @@
   },
   {
     "postId": "18092239103437738",
-    "dataColeta": "2026-08-25T11:51:51.560Z",
+    "dataColeta": "2026-08-26T11:53:16.823Z",
     "dataPostagem": "2026-08-12T20:32:12.584Z",
     "tipo": "carrossel",
     "pilares": [
@@ -631,7 +661,7 @@
   },
   {
     "postId": "18410454094157439",
-    "dataColeta": "2026-08-25T11:51:54.016Z",
+    "dataColeta": "2026-08-26T11:53:17.842Z",
     "dataPostagem": "2026-08-12T17:03:10.048Z",
     "tipo": "reel",
     "pilares": [
@@ -661,7 +691,7 @@
   },
   {
     "postId": "18016231085916957",
-    "dataColeta": "2026-08-25T11:51:56.486Z",
+    "dataColeta": "2026-08-26T11:53:19.045Z",
     "dataPostagem": "2026-08-12T10:33:02.280Z",
     "tipo": "carrossel",
     "pilares": [
@@ -692,7 +722,7 @@
   },
   {
     "postId": "18119833246923540",
-    "dataColeta": "2026-08-25T11:51:58.969Z",
+    "dataColeta": "2026-08-26T11:53:20.017Z",
     "dataPostagem": "2026-08-11T21:03:00.354Z",
     "tipo": "reel",
     "pilares": [
@@ -712,37 +742,6 @@
       "shares": 0,
       "comments": 0,
       "likes": 1,
-      "total_interactions": 1,
-      "falhas": [
-        {
-          "metrica": "plays",
-          "erro": "Instagram respondeu 400"
-        }
-      ]
-    }
-  },
-  {
-    "postId": "17943051630292360",
-    "dataColeta": "2026-08-25T11:52:01.350Z",
-    "dataPostagem": "2026-08-11T11:32:52.418Z",
-    "tipo": "reel",
-    "pilares": [
-      "macro",
-      "bolsa",
-      "exterior"
-    ],
-    "peso": 98,
-    "fonte": "Money Times",
-    "titulo": "Ata do Copom acende alerta: BC eleva preocupação com desancoragem das expectativas de inflação",
-    "horarioBRT": null,
-    "cta": null,
-    "decisaoFormato": null,
-    "insights": {
-      "reach": 112,
-      "saved": 1,
-      "shares": 0,
-      "comments": 0,
-      "likes": 0,
       "total_interactions": 1,
       "falhas": [
         {
