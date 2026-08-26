@@ -1,5 +1,378 @@
 [
   {
+    "data": "2026-08-26T14:30:59.362Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
+    "data": "2026-08-26T14:10:42.404Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
+    "data": "2026-08-26T14:01:09.312Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 3 min."
+  },
+  {
+    "data": "2026-08-26T13:31:07.978Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 33 min."
+  },
+  {
+    "data": "2026-08-26T13:01:11.575Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 63 min."
+  },
+  {
+    "data": "2026-08-26T12:48:45.189Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 75 min."
+  },
+  {
+    "data": "2026-08-26T12:33:34.564Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Bolsas da Europa operam mistas com Oriente Médio, PCE e balanço da Nvidia no radar\".",
+    "postId": "17866713888642812",
+    "storyId": null,
+    "reelId": "17866713888642812",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-08-26T12:31:27.409Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 70): \"Bolsas da Europa operam mistas com Oriente Médio, PCE e balanço da Nvidia no radar\". Realizando postagem..."
+  },
+  {
+    "data": "2026-08-26T12:01:09.943Z",
+    "resultado": "pauta_reprovada",
+    "mensagem": "Notícia não publicada: manchete longa demais para caber completa no card.",
+    "titulo": "Mercados tentam se acomodar antes dos dados de inflação e balanço da Nvidia (NVDA); Ibovespa em dólar sobe nesta quarta-feira (26)"
+  },
+  {
+    "data": "2026-08-26T11:31:04.380Z",
+    "resultado": "pauta_reprovada",
+    "mensagem": "Notícia não publicada: manchete longa demais para caber completa no card.",
+    "titulo": "Mercados tentam se acomodar antes dos dados de inflação e balanço da Nvidia (NVDA); Ibovespa em dólar sobe nesta quarta-feira (26)"
+  },
+  {
+    "data": "2026-08-26T11:28:33.664Z",
+    "resultado": "story_noticia_postado",
+    "mensagem": "Story publicado (peso 68): \"Juros, inflação e Treasuries: Primeiro Jackson Hole de Warsh testa credibilidade do Fed\".",
+    "postId": "18124868012506783",
+    "peso": 68
+  },
+  {
+    "data": "2026-08-26T11:01:48.579Z",
+    "resultado": "pauta_reprovada",
+    "mensagem": "Notícia não publicada: manchete longa demais para caber completa no card.",
+    "titulo": "Mercados tentam se acomodar antes dos dados de inflação e balanço da Nvidia (NVDA); Ibovespa em dólar sobe nesta quarta-feira (26)"
+  },
+  {
+    "data": "2026-08-26T11:00:52.655Z",
+    "resultado": "pauta_reprovada",
+    "mensagem": "Notícia não publicada: manchete longa demais para caber completa no card.",
+    "titulo": "Mercados tentam se acomodar antes dos dados de inflação e balanço da Nvidia (NVDA); Ibovespa em dólar sobe nesta quarta-feira (26)"
+  },
+  {
+    "data": "2026-08-26T10:31:19.007Z",
+    "resultado": "pauta_reprovada",
+    "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
+    "titulo": "IPCA-15, inflação PCE, balanço da Nvidia e mais destaques desta quarta-feira"
+  },
+  {
+    "data": "2026-08-26T10:01:13.398Z",
+    "resultado": "pauta_reprovada",
+    "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
+    "titulo": "IPCA-15, inflação PCE, balanço da Nvidia e mais destaques desta quarta-feira"
+  },
+  {
+    "data": "2026-08-26T09:40:00.331Z",
+    "resultado": "pauta_reprovada",
+    "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
+    "titulo": "IPCA-15, inflação PCE, balanço da Nvidia e mais destaques desta quarta-feira"
+  },
+  {
+    "data": "2026-08-26T09:31:06.929Z",
+    "resultado": "pauta_reprovada",
+    "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
+    "titulo": "IPCA-15, inflação PCE, balanço da Nvidia e mais destaques desta quarta-feira"
+  },
+  {
+    "data": "2026-08-26T09:01:05.618Z",
+    "resultado": "pauta_reprovada",
+    "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
+    "titulo": "IPCA-15, inflação PCE, balanço da Nvidia e mais destaques desta quarta-feira"
+  },
+  {
+    "data": "2026-08-26T08:32:15.297Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (05:32 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
+    "data": "2026-08-26T08:01:39.887Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (05:01 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
+    "data": "2026-08-26T07:31:31.587Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (04:31 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
+    "data": "2026-08-26T07:01:26.680Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (04:01 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
+    "data": "2026-08-26T06:32:12.851Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (03:32 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
+    "data": "2026-08-26T06:01:04.725Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (03:01 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
+    "data": "2026-08-26T05:31:11.748Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (02:31 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
+    "data": "2026-08-26T05:01:00.634Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (02:01 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
+    "data": "2026-08-26T04:31:06.333Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (01:31 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
+    "data": "2026-08-26T04:01:24.039Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (01:01 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
+    "data": "2026-08-26T03:31:37.932Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (00:31 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
+    "data": "2026-08-26T03:01:03.530Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (00:01 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
+    "data": "2026-08-26T02:31:11.209Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (23:31 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
+    "data": "2026-08-26T02:01:04.724Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (23:01 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
+    "data": "2026-08-26T01:31:02.267Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
+    "data": "2026-08-26T01:12:17.654Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
+    "data": "2026-08-26T01:02:07.998Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
+    "data": "2026-08-26T00:31:07.224Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
+    "data": "2026-08-26T00:01:08.060Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
+    "data": "2026-08-25T23:31:02.459Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
+    "data": "2026-08-25T23:24:26.993Z",
+    "resultado": "story_noticia_postado",
+    "mensagem": "Story publicado (peso 61): \"Ibovespa dispara 1,55% e volta aos 174 mil pontos com Vale (VALE3) e bancos\".",
+    "postId": "18458090257141412",
+    "peso": 61
+  },
+  {
+    "data": "2026-08-25T23:01:04.549Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
+    "data": "2026-08-25T22:54:11.991Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
+    "data": "2026-08-25T22:31:09.307Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
+    "data": "2026-08-25T22:01:05.958Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
+    "data": "2026-08-25T21:31:00.047Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
+    "data": "2026-08-25T21:29:01.993Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
+    "data": "2026-08-25T21:26:44.333Z",
+    "resultado": "story_noticia_postado",
+    "mensagem": "Story publicado (peso 67): \"Ibovespa avança 1% e tem 5ª alta seguida com retorno do apetite a risco; dólar cai a R$ 5,14\".",
+    "postId": "18068733770729842",
+    "peso": 67
+  },
+  {
+    "data": "2026-08-25T21:01:50.407Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
+    "data": "2026-08-25T20:33:25.558Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
+    "data": "2026-08-25T20:02:22.410Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 2 min."
+  },
+  {
+    "data": "2026-08-25T19:55:16.217Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 9 min."
+  },
+  {
+    "data": "2026-08-25T19:32:23.158Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 32 min."
+  },
+  {
+    "data": "2026-08-25T19:01:01.618Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 63 min."
+  },
+  {
+    "data": "2026-08-25T18:37:27.110Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 87 min."
+  },
+  {
+    "data": "2026-08-25T18:33:58.482Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Ouro tem leve queda com pausa em escalada dos Treasuries e à espera de dados de inflação\".",
+    "postId": "18072990332435822",
+    "storyId": null,
+    "reelId": "18072990332435822",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-08-25T18:32:15.463Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 71): \"Ouro tem leve queda com pausa em escalada dos Treasuries e à espera de dados de inflação\". Realizando postagem..."
+  },
+  {
+    "data": "2026-08-25T18:01:18.742Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
+    "data": "2026-08-25T17:31:01.926Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
+    "data": "2026-08-25T17:06:26.830Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
+    "data": "2026-08-25T17:02:18.236Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
+    "data": "2026-08-25T16:35:58.996Z",
+    "resultado": "story_noticia_postado",
+    "mensagem": "Story publicado (peso 51): \"Hapvida (HAPV3): 2 fatores que fazem ação afundar ainda mais nesta terça (25)\".",
+    "postId": "18062160356763947",
+    "peso": 51
+  },
+  {
+    "data": "2026-08-25T16:31:01.826Z",
+    "resultado": "pauta_reprovada",
+    "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
+    "titulo": "Ibovespa Hoje Ao Vivo: Bolsa sobe e retoma os 173 mil pontos"
+  },
+  {
+    "data": "2026-08-25T16:01:08.644Z",
+    "resultado": "pauta_reprovada",
+    "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
+    "titulo": "Ibovespa Hoje Ao Vivo: Bolsa sobe e retoma os 173 mil pontos"
+  },
+  {
+    "data": "2026-08-25T15:40:53.779Z",
+    "resultado": "pauta_reprovada",
+    "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
+    "titulo": "Ibovespa Hoje Ao Vivo: Bolsa oscila com preocupações sobre Irã-EUA no radar"
+  },
+  {
+    "data": "2026-08-25T15:31:15.365Z",
+    "resultado": "pauta_reprovada",
+    "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
+    "titulo": "Ibovespa Hoje Ao Vivo: Bolsa oscila com preocupações sobre Irã-EUA no radar"
+  },
+  {
+    "data": "2026-08-25T15:01:11.683Z",
+    "resultado": "pauta_reprovada",
+    "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
+    "titulo": "Ibovespa Hoje Ao Vivo: Bolsa oscila com preocupações sobre Irã-EUA no radar"
+  },
+  {
+    "data": "2026-08-25T14:30:59.172Z",
+    "resultado": "pauta_reprovada",
+    "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
+    "titulo": "Ibovespa Hoje Ao Vivo: Bolsa oscila com preocupações sobre Irã-EUA no radar"
+  },
+  {
+    "data": "2026-08-25T14:12:55.545Z",
+    "resultado": "pauta_reprovada",
+    "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
+    "titulo": "Ibovespa Hoje Ao Vivo: Bolsa oscila com preocupações sobre Irã-EUA no radar"
+  },
+  {
+    "data": "2026-08-25T14:02:36.228Z",
+    "resultado": "pauta_reprovada",
+    "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
+    "titulo": "Ibovespa Hoje Ao Vivo: Bolsa oscila com preocupações sobre Irã-EUA no radar"
+  },
+  {
     "data": "2026-08-25T13:32:08.478Z",
     "resultado": "pauta_reprovada",
     "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
@@ -705,349 +1078,5 @@
     "data": "2026-08-23T13:53:10.037Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-08-23T13:31:01.677Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-08-23T13:01:06.536Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-08-23T12:36:55.416Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-08-23T12:31:01.180Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-08-23T12:01:01.056Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-08-23T11:30:58.044Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-08-23T11:19:06.627Z",
-    "resultado": "sem_noticia_story",
-    "mensagem": "Nenhuma notícia recente de menor impacto foi encontrada."
-  },
-  {
-    "data": "2026-08-23T11:01:11.237Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-08-23T10:49:41.478Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-08-23T10:31:01.406Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-08-23T10:01:09.678Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-08-23T09:31:07.668Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-08-23T09:26:23.223Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-08-23T09:01:04.266Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-08-23T08:30:55.927Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (05:30 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-08-23T08:01:01.151Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (05:01 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-08-23T07:31:06.290Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (04:31 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-08-23T07:00:58.381Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (04:00 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-08-23T06:31:02.971Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (03:31 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-08-23T06:00:59.241Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (03:00 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-08-23T05:30:54.815Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (02:30 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-08-23T05:01:25.869Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (02:01 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-08-23T04:30:55.393Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (01:30 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-08-23T04:01:02.124Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (01:01 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-08-23T03:30:54.680Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (00:30 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-08-23T03:01:05.090Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (00:01 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-08-23T02:30:54.366Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (23:30 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-08-23T02:01:00.856Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (23:01 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-08-23T01:31:09.422Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-08-23T01:13:48.744Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-08-23T01:01:03.740Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-08-23T00:31:18.114Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-08-23T00:01:27.123Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-08-22T23:31:14.227Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-08-22T23:18:34.571Z",
-    "resultado": "sem_noticia_story",
-    "mensagem": "Nenhuma notícia recente de menor impacto foi encontrada."
-  },
-  {
-    "data": "2026-08-22T23:01:01.192Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-08-22T22:47:04.583Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-08-22T22:30:58.990Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-08-22T22:01:09.532Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-08-22T21:30:58.498Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-08-22T21:20:55.189Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-08-22T21:20:02.231Z",
-    "resultado": "sem_noticia_story",
-    "mensagem": "Nenhuma notícia recente de menor impacto foi encontrada."
-  },
-  {
-    "data": "2026-08-22T21:01:06.801Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-08-22T20:31:09.944Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-08-22T20:01:11.584Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-08-22T19:45:36.149Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-08-22T19:31:01.712Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-08-22T19:01:14.439Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-08-22T18:31:03.839Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-08-22T18:28:45.532Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-08-22T18:01:07.567Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-08-22T17:30:52.923Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-08-22T17:01:04.352Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-08-22T16:49:12.190Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-08-22T16:31:01.351Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-08-22T16:21:09.463Z",
-    "resultado": "sem_noticia_story",
-    "mensagem": "Nenhuma notícia recente de menor impacto foi encontrada."
-  },
-  {
-    "data": "2026-08-22T16:01:15.513Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-08-22T15:30:58.535Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-08-22T15:19:39.326Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-08-22T15:01:01.093Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-08-22T14:31:04.734Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-08-22T14:00:58.180Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-08-22T13:51:35.017Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-08-22T13:31:02.694Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 3 min."
-  },
-  {
-    "data": "2026-08-22T13:00:57.040Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 33 min."
-  },
-  {
-    "data": "2026-08-22T12:35:45.917Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 58 min."
-  },
-  {
-    "data": "2026-08-22T12:30:59.729Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 63 min."
-  },
-  {
-    "data": "2026-08-22T12:03:15.713Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"Hapvida (HAPV3) despenca pela 2ª semana consecutiva; veja os destaques semanais do Ibovespa\".",
-    "postId": "17894423445598182",
-    "storyId": null,
-    "reelId": "17894423445598182",
-    "tipo": "reel"
   }
 ]
