@@ -1,5 +1,11 @@
 [
   {
+    "data": "2026-08-26T09:40:00.331Z",
+    "resultado": "pauta_reprovada",
+    "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
+    "titulo": "IPCA-15, inflação PCE, balanço da Nvidia e mais destaques desta quarta-feira"
+  },
+  {
     "data": "2026-08-26T09:31:06.929Z",
     "resultado": "pauta_reprovada",
     "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
@@ -1060,10 +1066,5 @@
     "data": "2026-08-23T08:30:55.927Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (05:30 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-08-23T08:01:01.151Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (05:01 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
