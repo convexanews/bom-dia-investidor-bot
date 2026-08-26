@@ -4,7 +4,7 @@ const path = require('path');
 const { execFile, spawnSync } = require('child_process');
 const { buscarNoticiasRadar: buscarNoticias, titulosSimilares, corrigirTextoEditorial } = require('./radar_noticias.cjs');
 const { buscarConteudoArtigo } = require('./imagem_noticia.cjs');
-const { startPublication, ffmpegPath } = require('./studio-publisher.cjs');
+const { startPublication, ffmpegPath, safeError } = require('./studio-publisher.cjs');
 const { gerarNarracao, chaveNarracao, VOZES_STUDIO, estimarDuracaoNarracao } = require('./studio-audio.cjs');
 const { lerAgenda, agendar, atualizarAgendamento, agendamentosVencidos } = require('./studio-agenda.cjs');
 const { MAX_IMAGE_BYTES, readCachedMedia, saveCachedMedia } = require('./studio-media-cache.cjs');
@@ -70,13 +70,17 @@ function commandAvailable(command,args=['--version']){
   try{return spawnSync(command,args,{windowsHide:true,timeout:5000,stdio:'ignore'}).status===0}catch{return false}
 }
 
+function githubAuthenticated(){
+  try{return spawnSync('gh',['api','user','--jq','.login'],{windowsHide:true,timeout:10000,encoding:'utf8'}).status===0}catch{return false}
+}
+
 function healthData(){
   let ttsInstalled=false;try{require.resolve('node-edge-tts');ttsInstalled=true}catch{}
   const ffmpeg=ffmpegPath();
   return {
     ok:true,version:'2.0',serverTime:new Date().toISOString(),port:PORT,
     capabilities:{
-      github:commandAvailable('gh'),ffmpeg:commandAvailable(ffmpeg,['-version']),tts:ttsInstalled,
+      github:githubAuthenticated(),ffmpeg:commandAvailable(ffmpeg,['-version']),tts:ttsInstalled,
       instagramMirror:fs.existsSync(path.join(ROOT,'instagram-studio.json')),
     },
     queue:queueItems().length,news:newsCache().items.length,scheduled:lerAgenda().filter(item=>item.status==='agendado').length,
@@ -109,8 +113,9 @@ async function instagramMirror(){
 
 function triggerInstagramSync(req,res){
   if(!localOriginAllowed(req))return responder(res,403,JSON.stringify({error:'Origem não autorizada'}),MIME['.json']);
-  execFile('gh',['workflow','run','studio-sync-instagram.yml','--repo','convexanews/bom-dia-investidor-bot'],{windowsHide:true,timeout:30000},error=>{
-    if(error)return responder(res,502,JSON.stringify({error:'Não foi possível iniciar a sincronização no GitHub.'}),MIME['.json']);
+  if(!githubAuthenticated())return responder(res,401,JSON.stringify({error:'GitHub desconectado. Reconecte a conta convexanews pelo GitHub CLI e tente novamente.'}),MIME['.json']);
+  execFile('gh',['workflow','run','studio-sync-instagram.yml','--repo','convexanews/bom-dia-investidor-bot'],{windowsHide:true,timeout:30000},(error,_stdout,stderr)=>{
+    if(error)return responder(res,502,JSON.stringify({error:safeError({message:error.message,stderr})}),MIME['.json']);
     instagramCache={at:0,data:null};responder(res,202,JSON.stringify({ok:true,status:'sincronizando'}),MIME['.json']);
   });
 }

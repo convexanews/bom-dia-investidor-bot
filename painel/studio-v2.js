@@ -122,7 +122,7 @@
       el('instagramSyncStatus').textContent = 'Sincronização iniciada no GitHub. Os dados aparecerão em alguns minutos.';
       toast('Sincronização do Instagram iniciada');
       setTimeout(loadInstagramMirror, 90000);
-    } catch (error) { toast(error.message || 'Falha ao sincronizar'); }
+    } catch (error) { el('instagramSyncStatus').textContent = error.message || 'Falha ao sincronizar'; toast(error.message || 'Falha ao sincronizar'); }
     finally { button.disabled = false; button.textContent = 'Sincronizar'; }
   };
 

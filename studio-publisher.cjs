@@ -25,8 +25,12 @@ function updateMeta(metaFile, changes) {
 }
 
 function safeError(error) {
-  return String(error?.stderr || error?.message || error || 'Falha desconhecida')
+  const clean = String(error?.stderr || error?.message || error || 'Falha desconhecida')
     .replace(/access_token=[^&\s]+/gi, 'access_token=***').slice(0, 900);
+  if (/requires authentication|http\s*401|gh auth login|token.*invalid/i.test(clean)) {
+    return 'GitHub desconectado. Reconecte a conta convexanews pelo GitHub CLI e tente novamente.';
+  }
+  return clean;
 }
 
 function ffmpegPath() {

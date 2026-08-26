@@ -6,7 +6,7 @@ const path = require('path');
 const { limparTextoNarracao, validarConfiguracao, chaveNarracao, mensagemErroNarracao, estimarDuracaoNarracao } = require('../studio-audio.cjs');
 const { normalizarMidiaInstagram } = require('../sincronizar-instagram-studio.cjs');
 const { validarAgendamento, agendar, lerAgenda } = require('../studio-agenda.cjs');
-const { argumentosInstagramMp4, argumentosStoryComMusica } = require('../studio-publisher.cjs');
+const { argumentosInstagramMp4, argumentosStoryComMusica, safeError } = require('../studio-publisher.cjs');
 const { readInput } = require('../publicar-studio.cjs');
 
 test('narração remove links e limita configurações de voz', () => {
@@ -55,6 +55,10 @@ test('pipeline MP4 força H.264, AAC, 48 kHz e faststart', () => {
   assert.match(args, /aac/);
   assert.match(args, /48000/);
   assert.match(args, /\+faststart/);
+});
+
+test('erro 401 do GitHub orienta reconexão sem expor mensagem técnica', () => {
+  assert.match(safeError({ stderr: 'gh: Requires authentication (HTTP 401)' }), /GitHub desconectado.*convexanews/i);
 });
 
 test('Story musical limita duração e volume e gera vídeo compatível', () => {
