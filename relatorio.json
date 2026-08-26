@@ -1,5 +1,28 @@
 [
   {
+    "data": "2026-08-26T21:32:59.834Z",
+    "titulo": "Wall Street fecham no vermelho com inflação acima do esperado e à espera de Nvidia (NVDA)",
+    "categoria": "Mercados",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/wall-street-26-8-26-lils/",
+    "postId": "17942988948072573",
+    "storyId": null,
+    "reelId": "17942988948072573",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1787779895049.mp4",
+    "tipo": "reel",
+    "peso": 92,
+    "pilares": [
+      "macro",
+      "bolsa",
+      "exterior"
+    ],
+    "horarioBRT": "18",
+    "cta": "📤 Envie para quem acompanha o mercado global.",
+    "decisaoFormato": "peso 92: reel"
+  },
+  {
     "data": "2026-08-26T19:34:13.615Z",
     "titulo": "Ouro recua com fortalecimento do dólar e avanço dos Treasuries após inflação dos EUA",
     "categoria": "Mercados",
@@ -3364,20 +3387,5 @@
     "videoUrl": null,
     "tipo": "card",
     "peso": 16
-  },
-  {
-    "data": "2026-07-11T20:33:16.580Z",
-    "titulo": "Federação alemã diz estar confiante sobre contratação de técnico Klopp para a seleção",
-    "categoria": "Esportes",
-    "fonte": "InfoMoney",
-    "link": "https://www.infomoney.com.br/esportes/federacao-alema-diz-estar-confiante-sobre-contratacao-de-tecnico-klopp-para-a-selecao/",
-    "postId": "17993262977809125",
-    "storyId": "18134541682592740",
-    "reelId": null,
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783801915969-slide1.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783801915969-story.png",
-    "videoUrl": null,
-    "tipo": "carrossel",
-    "peso": 21
   }
 ]

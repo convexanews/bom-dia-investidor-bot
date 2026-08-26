@@ -1,5 +1,13 @@
 [
   {
+    "titulo": "Wall Street fecham no vermelho com inflação acima do esperado e à espera de Nvidia (NVDA)",
+    "link": "https://www.moneytimes.com.br/wall-street-26-8-26-lils/",
+    "peso": 92,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1787779895049.mp4",
+    "legendaUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1787779895049-legenda.txt",
+    "data": "2026-08-26T21:32:59.834Z"
+  },
+  {
     "titulo": "Ouro recua com fortalecimento do dólar e avanço dos Treasuries após inflação dos EUA",
     "link": "https://www.moneytimes.com.br/ouro-26-8-26-lils/",
     "peso": 77,
@@ -1590,13 +1598,5 @@
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1781773359243.mp4",
     "legendaUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1781773359243-legenda.txt",
     "data": "2026-06-18T09:04:24.652Z"
-  },
-  {
-    "titulo": "Fed mantém juros dos EUA entre 3,50% e 3,75% ao ano; decisão era esperada",
-    "link": "https://www.suno.com.br/noticias/fed-mantem-juros-eua-inalterados-junho-2026-go/",
-    "peso": 45,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1781728276237.mp4",
-    "legendaUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1781728276237-legenda.txt",
-    "data": "2026-06-17T20:33:04.104Z"
   }
 ]
