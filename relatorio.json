@@ -1,5 +1,21 @@
 [
   {
+    "data": "2026-08-26T14:39:33.638Z",
+    "titulo": "IPCA-15: preços caem 0,40% em agosto na prévia da inflação, puxados por habitação, transportes e alimentação",
+    "categoria": "Studio",
+    "fonte": "G1 Economia",
+    "link": "https://g1.globo.com/economia/noticia/2026/08/26/ipca-15-previa-da-inflacao-agosto.ghtml",
+    "postId": "18137340040592579",
+    "storyId": null,
+    "reelId": "18137340040592579",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-studio/reel-20260826135519031.mp4",
+    "tipo": "reel-studio",
+    "peso": null,
+    "origem": "studio-local"
+  },
+  {
     "data": "2026-08-26T12:33:34.562Z",
     "titulo": "Bolsas da Europa operam mistas com Oriente Médio, PCE e balanço da Nvidia no radar",
     "categoria": "Mercados",
