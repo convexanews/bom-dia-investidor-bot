@@ -1,5 +1,12 @@
 [
   {
+    "data": "2026-08-26T16:47:43.714Z",
+    "resultado": "story_noticia_postado",
+    "mensagem": "Story publicado (peso 61): \"Inflação nos EUA acelera e divide apostas sobre alta de juros em setembro\".",
+    "postId": "18145184860520169",
+    "peso": 61
+  },
+  {
     "data": "2026-08-26T16:26:02.065Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"O que fez a Oncoclínicas (ONCO3) disparar até 28% hoje (26)?\".",
@@ -1075,11 +1082,6 @@
   },
   {
     "data": "2026-08-23T15:31:24.243Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-08-23T15:21:19.786Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }
