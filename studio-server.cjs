@@ -75,14 +75,18 @@ function githubAuthenticated(){
   try{return spawnSync('gh',['api','user','--jq','.login'],{windowsHide:true,timeout:10000,encoding:'utf8'}).status===0}catch{return false}
 }
 
+function cloudAgendaAvailable(){
+  try{return spawnSync('gh',['api','repos/convexanews/bom-dia-investidor-bot/actions/workflows/studio-agenda-cloud.yml','--silent'],{windowsHide:true,timeout:10000,encoding:'utf8'}).status===0}catch{return false}
+}
+
 function healthData(){
   let ttsInstalled=false;try{require.resolve('node-edge-tts');ttsInstalled=true}catch{}
-  const ffmpeg=ffmpegPath(),githubOk=githubAuthenticated();
+  const ffmpeg=ffmpegPath(),githubOk=githubAuthenticated(),cloudAgendaOk=githubOk&&cloudAgendaAvailable();
   return {
     ok:true,version:'2.0',serverTime:new Date().toISOString(),port:PORT,
     capabilities:{
       github:githubOk,ffmpeg:commandAvailable(ffmpeg,['-version']),tts:ttsInstalled,
-      instagramMirror:fs.existsSync(path.join(ROOT,'instagram-studio.json')),cloudAgenda:githubOk,
+      instagramMirror:fs.existsSync(path.join(ROOT,'instagram-studio.json')),cloudAgenda:cloudAgendaOk,
     },
     queue:queueItems().length,news:newsCache().items.length,scheduled:lerAgenda().filter(item=>item.status==='agendado').length,
   };
@@ -129,6 +133,7 @@ async function scheduleQueueItem(req,res){
     if(!meta)throw new Error('Projeto da fila não encontrado.');
     if(meta.status!=='aprovado-local')throw new Error('Aprove o projeto antes de agendar.');
     if(!githubAuthenticated())throw new Error('GitHub desconectado. Reconecte a conta convexanews e tente novamente.');
+    if(!cloudAgendaAvailable())throw new Error('A Agenda na Nuvem ainda não foi ativada na branch principal do GitHub.');
     meta.scheduleStatus='preparando-cloud';meta.scheduleError=null;fs.writeFileSync(metaFile,JSON.stringify(meta,null,2));
     const payload=await preparePublicationPayload({id:schedule.queueId,folder,meta});
     const item=await scheduleInCloud(payload,schedule.scheduledAt);
