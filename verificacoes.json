@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-26T19:47:03.419Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 78 min."
+  },
+  {
     "data": "2026-08-26T19:34:13.617Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"Ouro recua com fortalecimento do dólar e avanço dos Treasuries após inflação dos EUA\".",
@@ -1079,11 +1084,6 @@
   },
   {
     "data": "2026-08-23T19:01:02.624Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-08-23T18:31:04.611Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }
