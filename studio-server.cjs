@@ -4,9 +4,10 @@ const path = require('path');
 const { execFile, spawnSync } = require('child_process');
 const { buscarNoticiasRadar: buscarNoticias, titulosSimilares, corrigirTextoEditorial } = require('./radar_noticias.cjs');
 const { buscarConteudoArtigo } = require('./imagem_noticia.cjs');
-const { startPublication, ffmpegPath, safeError } = require('./studio-publisher.cjs');
+const { startPublication, ffmpegPath, safeError, preparePublicationPayload } = require('./studio-publisher.cjs');
 const { gerarNarracao, chaveNarracao, VOZES_STUDIO, estimarDuracaoNarracao } = require('./studio-audio.cjs');
-const { lerAgenda, agendar, atualizarAgendamento, agendamentosVencidos } = require('./studio-agenda.cjs');
+const { lerAgenda, agendar, atualizarAgendamento, agendamentosVencidos, validarAgendamento } = require('./studio-agenda.cjs');
+const { scheduleInCloud, readRemoteCloudAgenda } = require('./studio-cloud-agenda.cjs');
 const { MAX_IMAGE_BYTES, readCachedMedia, saveCachedMedia } = require('./studio-media-cache.cjs');
 
 const ROOT = __dirname;
@@ -76,12 +77,12 @@ function githubAuthenticated(){
 
 function healthData(){
   let ttsInstalled=false;try{require.resolve('node-edge-tts');ttsInstalled=true}catch{}
-  const ffmpeg=ffmpegPath();
+  const ffmpeg=ffmpegPath(),githubOk=githubAuthenticated();
   return {
     ok:true,version:'2.0',serverTime:new Date().toISOString(),port:PORT,
     capabilities:{
-      github:githubAuthenticated(),ffmpeg:commandAvailable(ffmpeg,['-version']),tts:ttsInstalled,
-      instagramMirror:fs.existsSync(path.join(ROOT,'instagram-studio.json')),
+      github:githubOk,ffmpeg:commandAvailable(ffmpeg,['-version']),tts:ttsInstalled,
+      instagramMirror:fs.existsSync(path.join(ROOT,'instagram-studio.json')),cloudAgenda:githubOk,
     },
     queue:queueItems().length,news:newsCache().items.length,scheduled:lerAgenda().filter(item=>item.status==='agendado').length,
   };
@@ -122,13 +123,36 @@ function triggerInstagramSync(req,res){
 
 async function scheduleQueueItem(req,res){
   if(!localOriginAllowed(req))return responder(res,403,JSON.stringify({error:'Origem não autorizada'}),MIME['.json']);
+  let metaFile=null,meta=null;
   try{
-    const body=await readJson(req,16*1024),metaFile=path.join(QUEUE_ROOT,String(body.queueId||''),'projeto.json'),meta=loadJson(metaFile,null);
+    const body=await readJson(req,16*1024),schedule=validarAgendamento(body),folder=path.join(QUEUE_ROOT,schedule.queueId);metaFile=path.join(folder,'projeto.json');meta=loadJson(metaFile,null);
     if(!meta)throw new Error('Projeto da fila não encontrado.');
     if(meta.status!=='aprovado-local')throw new Error('Aprove o projeto antes de agendar.');
-    const item=agendar(body);meta.scheduledAt=item.scheduledAt;fs.writeFileSync(metaFile,JSON.stringify(meta,null,2));
+    if(!githubAuthenticated())throw new Error('GitHub desconectado. Reconecte a conta convexanews e tente novamente.');
+    meta.scheduleStatus='preparando-cloud';meta.scheduleError=null;fs.writeFileSync(metaFile,JSON.stringify(meta,null,2));
+    const payload=await preparePublicationPayload({id:schedule.queueId,folder,meta});
+    const item=await scheduleInCloud(payload,schedule.scheduledAt);
+    const local=agendar(schedule);atualizarAgendamento(local.queueId,{status:'cloud-agendado'});
+    meta=loadJson(metaFile,meta);meta.scheduledAt=item.scheduledAt;meta.scheduleStatus='cloud-agendado';meta.scheduleError=null;meta.cloudPreparedAt=new Date().toISOString();meta.publishedMediaUrls=payload.media;fs.writeFileSync(metaFile,JSON.stringify(meta,null,2));
+    cloudCalendarCache={at:0,items:null};
     responder(res,201,JSON.stringify(item),MIME['.json']);
-  }catch(error){responder(res,400,JSON.stringify({error:error.message}),MIME['.json'])}
+  }catch(error){if(metaFile&&meta){meta=loadJson(metaFile,meta);meta.scheduleStatus='erro-cloud';meta.scheduleError=safeError(error);fs.writeFileSync(metaFile,JSON.stringify(meta,null,2))}responder(res,400,JSON.stringify({error:safeError(error)}),MIME['.json'])}
+}
+
+let cloudCalendarCache={at:0,items:null};
+async function calendarItems(){
+  if(cloudCalendarCache.items&&Date.now()-cloudCalendarCache.at<30000)return cloudCalendarCache.items;
+  try{
+    const remote=await readRemoteCloudAgenda();
+    const active=new Set(['agendado','tentando-novamente','publicando']);
+    const items=remote.items.map(item=>({queueId:item.queueId,scheduledAt:item.scheduledAt,status:item.status,format:item.format,attempts:item.attempts||0,error:item.error||null,publishedAt:item.publishedAt||null,instagramPostId:item.instagramPostId||null,nextAttemptAt:item.nextAttemptAt||null,source:'cloud'})).sort((a,b)=>{
+      const activeA=active.has(a.status),activeB=active.has(b.status);if(activeA!==activeB)return activeA?-1:1;
+      return activeA?new Date(a.scheduledAt)-new Date(b.scheduledAt):new Date(b.scheduledAt)-new Date(a.scheduledAt);
+    });
+    cloudCalendarCache={at:Date.now(),items};return items;
+  }catch{
+    return lerAgenda().map(item=>({...item,source:'local'}));
+  }
 }
 
 function processScheduled(){
@@ -219,7 +243,7 @@ const server=http.createServer(async(req,res)=>{
     if(url.pathname==='/api/instagram'&&req.method==='GET')return responder(res,200,JSON.stringify(await instagramMirror()),MIME['.json']);
     if(url.pathname==='/api/instagram/refresh'&&req.method==='POST')return triggerInstagramSync(req,res);
     if(url.pathname==='/api/metrics'&&req.method==='GET')return responder(res,200,JSON.stringify({summary:loadJson(path.join(ROOT,'metricas-resumo.json'),{}),items:loadJson(path.join(ROOT,'metricas.json'),[])}),MIME['.json']);
-    if(url.pathname==='/api/calendar'&&req.method==='GET')return responder(res,200,JSON.stringify(lerAgenda()),MIME['.json']);
+    if(url.pathname==='/api/calendar'&&req.method==='GET')return responder(res,200,JSON.stringify(await calendarItems()),MIME['.json']);
     if(url.pathname==='/api/calendar'&&req.method==='POST')return scheduleQueueItem(req,res);
     if(url.pathname==='/api/news'&&req.method==='GET')return responder(res,200,JSON.stringify(newsCache()),MIME['.json']);
     if(url.pathname==='/api/news/refresh'&&req.method==='POST'){if(!localOriginAllowed(req))return responder(res,403,JSON.stringify({error:'Origem não autorizada'}),MIME['.json']);try{return responder(res,200,JSON.stringify(await refreshNews()),MIME['.json'])}catch(error){return responder(res,502,JSON.stringify({error:error.message}),MIME['.json'])}}

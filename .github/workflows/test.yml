@@ -27,3 +27,5 @@ jobs:
           node --check coletor_noticias.cjs
           node --check auto-alerta-recorde.cjs
           node --check coletar_metricas.cjs
+          node --check studio-cloud-agenda.cjs
+          node --check processar-agenda-studio.cjs

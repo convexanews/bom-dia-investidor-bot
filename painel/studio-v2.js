@@ -142,24 +142,27 @@
   async function loadCalendar() {
     try {
       const items = await (await fetch('/api/calendar')).json();
-      el('calendarList').innerHTML = items.slice(0, 8).map(item => `<div class="calendar-item"><strong>${new Date(item.scheduledAt).toLocaleString('pt-BR')}</strong>${escapeHtml(item.queueId)} • ${escapeHtml(item.status)}</div>`).join('') || '<div class="empty">Nenhuma publicação agendada.</div>';
+      const statusLabel = { agendado: 'Agendado', 'cloud-agendado': 'Agendado na nuvem', publicando: 'Publicando', publicado: 'Publicado', 'tentando-novamente': 'Nova tentativa programada', erro: 'Falha após 3 tentativas', 'ignorado-duplicado': 'Ignorado: já publicado' };
+      el('calendarList').innerHTML = items.slice(0, 8).map(item => `<div class="calendar-item"><strong>${new Date(item.scheduledAt).toLocaleString('pt-BR')}</strong>${escapeHtml(item.format || 'post')} • ${escapeHtml(statusLabel[item.status] || item.status)}${item.attempts ? ` • tentativa ${Number(item.attempts)}` : ''}${item.error ? `<small>${escapeHtml(item.error)}</small>` : ''}</div>`).join('') || '<div class="empty">Nenhuma publicação agendada.</div>';
     } catch { el('calendarList').innerHTML = '<div class="empty">Agenda indisponível.</div>'; }
   }
   el('schedulePost').onclick = async () => {
     if (!lastQueuedId) return toast('Abra um projeto aprovado da fila.');
     const scheduledAt = el('scheduleAt').value; if (!scheduledAt) return toast('Escolha a data e o horário.');
+    const button = el('schedulePost'); button.disabled = true; button.textContent = 'Preparando mídia e agenda…';
     try {
       const response = await fetch('/api/calendar', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ queueId: lastQueuedId, scheduledAt: new Date(scheduledAt).toISOString() }) });
       const result = await response.json(); if (!response.ok) throw new Error(result.error);
-      toast('Publicação agendada'); loadCalendar();
+      toast('Publicação agendada no GitHub'); loadCalendar();
     } catch (error) { toast(error.message); }
+    finally { button.disabled = false; button.textContent = 'Agendar na nuvem'; }
   };
 
   async function loadHealth() {
     const root = el('healthPanel');
     try {
       const data = await (await fetch('/api/health')).json();
-      const labels = { github: 'GitHub conectado', ffmpeg: 'Conversão MP4', tts: 'Narração neural', instagramMirror: 'Espelho do Instagram' };
+      const labels = { github: 'GitHub conectado', ffmpeg: 'Conversão MP4', tts: 'Narração neural', instagramMirror: 'Espelho do Instagram', cloudAgenda: 'Agenda na nuvem' };
       root.innerHTML = Object.entries(data.capabilities || {}).map(([key, value]) => `<div class="health-item ${value ? 'ok' : 'bad'}"><b>${value ? '✓' : '!' } ${labels[key] || key}</b><span>${value ? 'Disponível' : 'Precisa de preparação'}</span></div>`).join('');
     } catch { root.innerHTML = '<div class="health-item bad"><b>Servidor indisponível</b><span>Reinicie o Studio.</span></div>'; }
   }

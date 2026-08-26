@@ -170,30 +170,45 @@ async function waitForRun(run) {
   throw new Error('Tempo esgotado aguardando a publicação no Instagram.');
 }
 
+async function preparePublicationPayload({ id, folder, meta }) {
+  const format = meta.project?.format || 'feed';
+  if (!['feed', 'story', 'carousel', 'reel'].includes(format)) throw new Error('Formato não publicável.');
+  let media;
+  const options = { ...(meta.project?.publicationOptions || {}) };
+  if (format === 'reel') {
+    if (!meta.video || !fs.existsSync(path.join(folder, meta.video))) throw new Error('O vídeo ainda não foi anexado à fila.');
+    media = [await uploadVideo(path.join(folder, meta.video), id, folder)];
+    const cover = path.join(folder, 'slide-1.png');
+    if (fs.existsSync(cover)) options.coverUrl = await uploadFile(cover, `bdi-studio/post-${id}-1.png`, `Studio: capa do Reel ${id}`);
+  } else if (format === 'story' && meta.project?.storyMusic?.enabled) {
+    const music = meta.project.storyMusic;
+    const allowedMusic = music.asset === 'noticias-trilha.mp3' ? path.join(__dirname, 'noticias-trilha.mp3') : null;
+    if (!allowedMusic) throw new Error('Trilha do Story não autorizada.');
+    const video = await createStoryVideo(path.join(folder, 'slide-1.png'), allowedMusic, folder, music);
+    media = [await uploadFile(video, `bdi-studio/story-${id}.mp4`, `Studio: Story musical ${id}`)];
+    options.storyVideo = true;
+  } else {
+    media = await uploadImages(folder, id, meta.project?.slides?.length || 1, format);
+  }
+  await waitForPublicUrls([...media, ...(options.coverUrl ? [options.coverUrl] : [])]);
+  const origin = { ...(meta.project?.originNews || {}), headline: meta.project?.slides?.[0]?.headline || '' };
+  return {
+    queueId: id,
+    format,
+    media,
+    caption: String(meta.caption || '').slice(0, 2200),
+    origin,
+    options,
+  };
+}
+
 async function publicationJob({ id, folder, metaFile }) {
   try {
     const meta = readMeta(metaFile);
-    const format = meta.project?.format || 'feed';
     updateMeta(metaFile, { status: 'enviando-midia', publicationError: null, publishAttemptAt: new Date().toISOString() });
-    let media;
-    const options = { ...(meta.project?.publicationOptions || {}) };
-    if (format === 'reel') {
-      const videoFile = path.join(folder, meta.video);
-      media = [await uploadVideo(videoFile, id, folder)];
-      const cover = path.join(folder, 'slide-1.png');
-      if (fs.existsSync(cover)) options.coverUrl = await uploadFile(cover, `bdi-studio/post-${id}-1.png`, `Studio: capa do Reel ${id}`);
-    } else if(format === 'story' && meta.project?.storyMusic?.enabled){
-      const music=meta.project.storyMusic,allowedMusic=music.asset==='noticias-trilha.mp3'?path.join(__dirname,'noticias-trilha.mp3'):null;
-      if(!allowedMusic)throw new Error('Trilha do Story não autorizada.');
-      const video=await createStoryVideo(path.join(folder,'slide-1.png'),allowedMusic,folder,music);
-      media=[await uploadFile(video,`bdi-studio/story-${id}.mp4`,`Studio: Story musical ${id}`)];options.storyVideo=true;
-    } else {
-      media = await uploadImages(folder, id, meta.project?.slides?.length || 1, format);
-    }
-    await waitForPublicUrls([...media, ...(options.coverUrl ? [options.coverUrl] : [])]);
-    updateMeta(metaFile, { status: 'acionando-instagram', publishedMediaUrls: media });
-    const origin = { ...(meta.project?.originNews || {}), headline: meta.project?.slides?.[0]?.headline || '' };
-    const run = await dispatchWorkflow(id, media, String(meta.caption || '').slice(0, 2200), origin, format, options);
+    const payload = await preparePublicationPayload({ id, folder, meta });
+    updateMeta(metaFile, { status: 'acionando-instagram', publishedMediaUrls: payload.media });
+    const run = await dispatchWorkflow(id, payload.media, payload.caption, payload.origin, payload.format, payload.options);
     updateMeta(metaFile, { status: 'publicando-instagram', publicationRunUrl: run.url });
     const finished = await waitForRun(run);
     if (finished.conclusion !== 'success') throw new Error(`A Action terminou com status ${finished.conclusion || 'desconhecido'}. Consulte ${finished.url}`);
@@ -218,4 +233,5 @@ function startPublication(options) {
 module.exports = {
   startPublication, safeError, uploadVideo, uploadImages, dispatchWorkflow,
   argumentosInstagramMp4, ensureInstagramMp4, argumentosStoryComMusica, createStoryVideo, ffmpegPath,
+  preparePublicationPayload,
 };

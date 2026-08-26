@@ -56,13 +56,16 @@ Principais recursos:
 - mixagem independente da voz e da música;
 - conversão final para MP4 H.264/AAC, 1080 × 1920 e áudio em 48 kHz;
 - espelho das publicações reais do Instagram e resumo local de métricas;
-- fila com revisão, aprovação, segunda confirmação e calendário editorial;
+- fila com revisão, aprovação, segunda confirmação e calendário editorial na nuvem;
 - deduplicação compartilhada: uma notícia publicada pelo Studio entra no mesmo histórico
   usado pelo bot online, evitando que a automação publique a mesma pauta novamente.
 
-O agendamento local só é executado enquanto o Studio estiver aberto. A sincronização do
-Instagram e a publicação usam GitHub Actions e dependem dos mesmos secrets descritos
-acima. Nenhuma mídia é enviada ao Instagram apenas por abrir ou editar um projeto.
+Ao agendar uma criação aprovada, o Studio prepara as mídias e registra o trabalho em
+`studio-agenda-cloud.json`. O workflow `studio-agenda-cloud.yml` verifica a fila a cada
+cinco minutos e publica mesmo com o Studio e o computador fechados. Falhas recebem até
+três tentativas, e a deduplicação é verificada novamente antes da publicação. A
+sincronização do Instagram e a publicação dependem dos mesmos secrets descritos acima.
+Nenhuma mídia é enviada ao Instagram apenas por abrir ou editar um projeto.
 
 ## Reel-resumo diário
 

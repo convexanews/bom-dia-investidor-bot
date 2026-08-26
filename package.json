@@ -6,7 +6,8 @@
   "scripts": {
     "test": "node --test test/*.test.cjs",
     "studio": "node studio-server.cjs",
-    "studio:sync-instagram": "node sincronizar-instagram-studio.cjs"
+    "studio:sync-instagram": "node sincronizar-instagram-studio.cjs",
+    "studio:agenda-cloud": "node processar-agenda-studio.cjs"
   },
   "dependencies": {
     "cheerio": "^1.0.0",

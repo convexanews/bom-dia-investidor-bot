@@ -8,6 +8,7 @@ const { normalizarMidiaInstagram } = require('../sincronizar-instagram-studio.cj
 const { validarAgendamento, agendar, lerAgenda } = require('../studio-agenda.cjs');
 const { argumentosInstagramMp4, argumentosStoryComMusica, safeError } = require('../studio-publisher.cjs');
 const { readInput } = require('../publicar-studio.cjs');
+const { createCloudItem, dueCloudItems, retryChanges, inputFromCloudItem } = require('../studio-cloud-agenda.cjs');
 
 test('narração remove links e limita configurações de voz', () => {
   const text = limparTextoNarracao('Bitcoin avançou hoje. Veja https://example.com a matéria completa para entender o movimento do mercado.');
@@ -47,6 +48,30 @@ test('agenda persiste projeto aprovado para horário futuro', () => {
   agendar(validated, file);
   assert.equal(lerAgenda(file).length, 1);
   fs.rmSync(dir, { recursive: true, force: true });
+});
+
+test('agenda cloud preserva payload aprovado e seleciona somente itens vencidos', () => {
+  const payload = {
+    queueId: '20260825123456789', format: 'feed',
+    media: ['https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-studio/post-20260825123456789-1.png'],
+    caption: 'Mercado hoje\n\nConteúdo informativo.', origin: { source: 'BDI' }, options: {},
+  };
+  const item = createCloudItem(payload, '2099-08-26T15:00:00.000Z', new Date('2026-08-26T12:00:00.000Z'));
+  assert.equal(inputFromCloudItem(item).format, 'feed');
+  assert.equal(dueCloudItems([item], new Date('2099-08-26T14:59:00.000Z').getTime()).length, 0);
+  assert.equal(dueCloudItems([item], new Date('2099-08-26T15:01:00.000Z').getTime()).length, 1);
+});
+
+test('agenda cloud tenta novamente duas vezes e encerra na terceira falha', () => {
+  const base = { attempts: 0 };
+  const first = retryChanges(base, new Error('falha access_token=segredo&x=1'), new Date('2026-08-26T12:00:00.000Z'));
+  const second = retryChanges(first, new Error('falha 2'), new Date('2026-08-26T12:05:00.000Z'));
+  const third = retryChanges(second, new Error('falha 3'), new Date('2026-08-26T12:20:00.000Z'));
+  assert.equal(first.status, 'tentando-novamente');
+  assert.doesNotMatch(first.error, /segredo/);
+  assert.equal(second.status, 'tentando-novamente');
+  assert.equal(third.status, 'erro');
+  assert.equal(third.nextAttemptAt, null);
 });
 
 test('pipeline MP4 força H.264, AAC, 48 kHz e faststart', () => {
