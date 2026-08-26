@@ -1,5 +1,15 @@
 [
   {
+    "data": "2026-08-26T16:17:59.854Z",
+    "resultado": "erro",
+    "mensagem": "Erro na execução automática: Command failed: git push"
+  },
+  {
+    "data": "2026-08-26T16:17:01.210Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 70): \"O que fez a Oncoclínicas (ONCO3) disparar até 28% hoje (26)?\". Realizando postagem..."
+  },
+  {
     "data": "2026-08-26T14:30:59.362Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1066,16 +1076,6 @@
   },
   {
     "data": "2026-08-23T14:31:01.693Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-08-23T14:01:06.050Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-08-23T13:53:10.037Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }
