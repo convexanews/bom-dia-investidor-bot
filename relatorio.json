@@ -1,5 +1,26 @@
 [
   {
+    "data": "2026-08-26T16:26:02.063Z",
+    "titulo": "O que fez a Oncoclínicas (ONCO3) disparar até 28% hoje (26)?",
+    "categoria": "Mercados",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/o-que-fez-a-oncoclinicas-onco3-disparar-ate-28-hoje-26-apsa/",
+    "postId": "18193931899379392",
+    "storyId": null,
+    "reelId": "18193931899379392",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1787761459619.mp4",
+    "tipo": "reel",
+    "peso": 70,
+    "pilares": [
+      "bolsa"
+    ],
+    "horarioBRT": "13",
+    "cta": "📤 Envie para quem está investindo e precisa ver isso.",
+    "decisaoFormato": "peso 70: reel"
+  },
+  {
     "data": "2026-08-26T14:39:33.638Z",
     "titulo": "IPCA-15: preços caem 0,40% em agosto na prévia da inflação, puxados por habitação, transportes e alimentação",
     "categoria": "Studio",
@@ -3351,35 +3372,5 @@
     "videoUrl": null,
     "tipo": "card",
     "peso": 13
-  },
-  {
-    "data": "2026-07-11T15:32:52.295Z",
-    "titulo": "Bitcoin (BTC) sobe e mantém nível dos US$ 64 mil com otimismo do setor de tecnologia; veja preços das criptomoedas neste sábado (11)",
-    "categoria": "Criptomoedas",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/bitcoin-btc-11-7-26-lils/",
-    "postId": "18038388149803065",
-    "storyId": "17898022701509861",
-    "reelId": null,
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783783883519-slide1.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783783883519-story.png",
-    "videoUrl": null,
-    "tipo": "carrossel",
-    "peso": 45
-  },
-  {
-    "data": "2026-07-11T13:03:15.507Z",
-    "titulo": "Haddad, sobre taxa de juros: Banco Central está criando problema desnecessariamente",
-    "categoria": "Política",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/haddad-sobre-taxa-de-juros-banco-central-esta-criando-problema-desnecessariamente-lils/",
-    "postId": "18418887697181121",
-    "storyId": null,
-    "reelId": "18418887697181121",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783774896873.mp4",
-    "tipo": "reel",
-    "peso": 49
   }
 ]
