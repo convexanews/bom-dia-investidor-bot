@@ -1,5 +1,27 @@
 [
   {
+    "data": "2026-08-26T19:34:13.615Z",
+    "titulo": "Ouro recua com fortalecimento do dólar e avanço dos Treasuries após inflação dos EUA",
+    "categoria": "Mercados",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/ouro-26-8-26-lils/",
+    "postId": "17891925588417431",
+    "storyId": null,
+    "reelId": "17891925588417431",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1787772747696.mp4",
+    "tipo": "reel",
+    "peso": 77,
+    "pilares": [
+      "macro",
+      "bolsa"
+    ],
+    "horarioBRT": "16",
+    "cta": "📤 Envie para quem acompanha o mercado global.",
+    "decisaoFormato": "peso 77: reel"
+  },
+  {
     "data": "2026-08-26T16:26:02.063Z",
     "titulo": "O que fez a Oncoclínicas (ONCO3) disparar até 28% hoje (26)?",
     "categoria": "Mercados",
@@ -3357,20 +3379,5 @@
     "videoUrl": null,
     "tipo": "carrossel",
     "peso": 21
-  },
-  {
-    "data": "2026-07-11T18:02:22.658Z",
-    "titulo": "Demanda ampla por IA é o fator-chave para investidores da Nvidia, diz Morgan Stanley",
-    "categoria": "MERCADO",
-    "fonte": "Investing.com",
-    "link": "https://br.investing.com/news/stock-market-news/demanda-ampla-por-ia-e-o-fatorchave-para-investidores-da-nvidia-diz-morgan-stanley-1999044",
-    "postId": "17901907611464568",
-    "storyId": "18602479855049363",
-    "reelId": null,
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783792901412-feed.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783792901412-story.png",
-    "videoUrl": null,
-    "tipo": "card",
-    "peso": 13
   }
 ]
