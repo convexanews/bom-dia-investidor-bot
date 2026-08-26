@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-26T12:48:45.189Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 75 min."
+  },
+  {
     "data": "2026-08-26T12:33:34.564Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"Bolsas da Europa operam mistas com Oriente Médio, PCE e balanço da Nvidia no radar\".",
@@ -1071,11 +1076,6 @@
   },
   {
     "data": "2026-08-23T12:01:01.056Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-08-23T11:30:58.044Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }
