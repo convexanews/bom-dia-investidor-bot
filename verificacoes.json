@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-27T13:01:06.939Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
     "data": "2026-08-27T12:31:02.423Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1085,11 +1090,5 @@
     "mensagem": "Story publicado (peso 55): \"Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta segunda\".",
     "postId": "18126226699683687",
     "peso": 55
-  },
-  {
-    "data": "2026-08-24T11:01:58.835Z",
-    "resultado": "pauta_reprovada",
-    "mensagem": "Notícia não publicada: manchete longa demais para caber completa no card.",
-    "titulo": "Mercado mantém guerra no Irã no radar e digere pesquisa eleitoral do BTG Pactual; Ibovespa em dólar recua nesta segunda-feira (24)"
   }
 ]
