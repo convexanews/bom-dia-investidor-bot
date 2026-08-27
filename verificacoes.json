@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-27T14:01:12.878Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
     "data": "2026-08-27T13:31:06.636Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1082,11 +1087,5 @@
     "data": "2026-08-24T12:01:05.667Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 78): \"Economistas veem economia mais fraca e inflação mais forte; confira o Focus desta segunda-feira (24)\". Realizando postagem..."
-  },
-  {
-    "data": "2026-08-24T11:31:16.061Z",
-    "resultado": "pauta_reprovada",
-    "mensagem": "Notícia não publicada: manchete longa demais para caber completa no card.",
-    "titulo": "Mercado mantém guerra no Irã no radar e digere pesquisa eleitoral do BTG Pactual; Ibovespa em dólar recua nesta segunda-feira (24)"
   }
 ]
