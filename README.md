@@ -75,7 +75,8 @@ acontece no GitHub Actions e não depende do computador local.
 
 Ao agendar uma criação aprovada, o Studio prepara as mídias e registra o trabalho em
 `studio-agenda-cloud.json`. O workflow `studio-agenda-cloud.yml` verifica a fila a cada
-cinco minutos e publica mesmo com o Studio e o computador fechados. Falhas recebem até
+dez minutos e publica mesmo com o Studio e o computador fechados. Quando a fila está
+vazia, ele encerra antes de instalar dependências. Falhas recebem até
 três tentativas, e a deduplicação é verificada novamente antes da publicação. A
 sincronização do Instagram e a publicação dependem dos mesmos secrets descritos acima.
 Nenhuma mídia é enviada ao Instagram apenas por abrir ou editar um projeto.
