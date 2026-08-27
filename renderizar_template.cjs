@@ -12,6 +12,16 @@ function validarPng(buffer, saida) {
   }
 }
 
+function navegadorLocal() {
+  const candidates = [
+    process.env.PUPPETEER_EXECUTABLE_PATH,
+    'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe',
+    'C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe',
+    '/usr/bin/google-chrome', '/usr/bin/chromium', '/usr/bin/chromium-browser',
+  ].filter(Boolean);
+  return candidates.find(candidate => fs.existsSync(candidate));
+}
+
 async function renderizarTemplate({ html, saida, largura, altura, nome = 'card' }) {
   if (!html || !String(html).trim()) throw new Error(`Template vazio: ${nome}.`);
   if (String(html).includes('{{') || String(html).includes('}}')) {
@@ -27,7 +37,7 @@ async function renderizarTemplate({ html, saida, largura, altura, nome = 'card' 
   try {
     // Carregamento tardio mantém as regras puras testáveis sem dependências de navegador.
     const puppeteer = require('puppeteer');
-    browser = await puppeteer.launch({ args: [
+    browser = await puppeteer.launch({ executablePath: navegadorLocal(), args: [
       '--no-sandbox', '--disable-setuid-sandbox',
       '--disable-gpu', '--disable-software-rasterizer',
       '--font-render-hinting=none',
@@ -68,4 +78,4 @@ async function renderizarTemplate({ html, saida, largura, altura, nome = 'card' 
   return saida;
 }
 
-module.exports = { renderizarTemplate, validarPng };
+module.exports = { renderizarTemplate, validarPng, navegadorLocal };

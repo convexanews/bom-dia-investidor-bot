@@ -9,6 +9,7 @@ const { gerarNarracao, chaveNarracao, VOZES_STUDIO, estimarDuracaoNarracao } = r
 const { lerAgenda, agendar, atualizarAgendamento, agendamentosVencidos, validarAgendamento } = require('./studio-agenda.cjs');
 const { scheduleInCloud, readRemoteCloudAgenda } = require('./studio-cloud-agenda.cjs');
 const { MAX_IMAGE_BYTES, readCachedMedia, saveCachedMedia } = require('./studio-media-cache.cjs');
+const { buildStudioProject } = require('./studio-content-engine.cjs');
 
 const ROOT = __dirname;
 const PORT = Math.max(1, Number(process.env.STUDIO_PORT) || 4310);
@@ -217,7 +218,12 @@ async function serveArticleContent(res,link){
     if(!articleMediaCache.has(link))articleMediaCache.set(link,buscarConteudoArtigo(link));
     const materia=await articleMediaCache.get(link);
     if(!materia.texto||!materia.blocos?.length)throw new Error('A página não forneceu texto editorial suficiente');
-    responder(res,200,JSON.stringify({texto:materia.texto.slice(0,8000),blocos:materia.blocos,imagens:materia.imagens?.length||0}),MIME['.json']);
+    const news=newsCache().items.find(item=>item.link===link),images=Array.from({length:5},(_,index)=>`/api/news/media?link=${encodeURIComponent(link)}&index=${index}`),projects=news?{
+      story:buildStudioProject(news,{format:'story',article:materia,images}),
+      carousel:buildStudioProject(news,{format:'carousel',article:materia,images}),
+      reel:buildStudioProject(news,{format:'reel',article:materia,images}),
+    }:null;
+    responder(res,200,JSON.stringify({texto:materia.texto.slice(0,8000),blocos:materia.blocos,imagens:materia.imagens?.length||0,projects}),MIME['.json']);
   }catch(error){articleMediaCache.delete(link);responder(res,502,JSON.stringify({error:`Não foi possível ler a matéria completa: ${error.message}`}),MIME['.json'])}
 }
 

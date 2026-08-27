@@ -2,9 +2,9 @@
 // O feed fica reservado aos formatos de maior impacto editorial.
 const fs = require('fs');
 const path = require('path');
-const { criarCapaRetencao } = require('./formato_editorial.cjs');
 const { git } = require('./git-seguro.cjs');
-const { buscarImagemArtigo, baixarImagemBase64 } = require('./imagem_noticia.cjs');
+const { prepareStudioProject } = require('./studio-content-engine.cjs');
+const { renderStudioSlide } = require('./studio-renderer-cloud.cjs');
 const { carregarJson, salvarJson, registrarVerificacao, publicarStory, PAGES_REPO, PAGES_RAW_BASE, IG_API_BASE } = require('./utils.cjs');
 
 const IG_TOKEN = process.env.IG_TOKEN;
@@ -40,7 +40,6 @@ async function main() {
   if (!IG_TOKEN || !IG_ACCOUNT_ID || !process.env.PAGES_TOKEN) throw new Error('Defina IG_TOKEN, IG_ACCOUNT_ID e PAGES_TOKEN.');
   if (!await validarToken()) return;
   const { buscarNoticias } = require('./coletor_noticias.cjs');
-  const { gerarCard } = require('./gerar_card_noticia.cjs');
 
   const registros = carregarJson(STORIES_FILE, []);
   const noticia = selecionarNoticiaStory(await buscarNoticias(), new Set(registros.map(r => r.link)));
@@ -49,27 +48,18 @@ async function main() {
     return;
   }
 
-  const capa = criarCapaRetencao(noticia.titulo, (noticia.categorias || [])[0]);
-  const imagemOriginal = noticia.imagem || await buscarImagemArtigo(noticia.link);
-  const imagem = await baixarImagemBase64(imagemOriginal);
-  if (!imagem) {
-    registrarVerificacao('story_sem_imagem', `Story publicado sem imagem editorial: "${noticia.titulo}".`, { link: noticia.link });
+  const prepared = await prepareStudioProject(noticia, { format: 'story' });
+  if (!prepared.quality.approved) {
+    registrarVerificacao('story_reprovado_studio', `Story bloqueado pelo Studio Engine (nota ${prepared.quality.score}): ${prepared.quality.blockers.join('; ')}.`, { link: noticia.link });
+    return;
   }
-  const cfg = {
-    formato: 'story',
-    categoria: (noticia.categorias || [])[0] || 'MERCADO',
-    manchete: noticia.titulo,
-    mancheteVisual: capa.gancho,
-    fonte: noticia.fonte,
-    imagem,
-    pergunta: 'Veja o que acompanhar no mercado hoje.',
-  };
+  const project = prepared.project;
   const nome = `story-noticia-${Date.now()}.png`;
   if (fs.existsSync(PAGES_DIR)) fs.rmSync(PAGES_DIR, { recursive: true, force: true });
   git(`git clone --depth 1 https://x-access-token@github.com/${PAGES_REPO}.git "${PAGES_DIR}"`, __dirname);
   const cardsDir = path.join(PAGES_DIR, 'bdi-cards');
   fs.mkdirSync(cardsDir, { recursive: true });
-  await gerarCard(cfg, path.join(cardsDir, nome));
+  await renderStudioSlide(project, 0, path.join(cardsDir, nome));
   git('git config user.email "bot@bomdiainvestidor.com.br"', PAGES_DIR);
   git('git config user.name "Bom Dia Investidor Bot"', PAGES_DIR);
   git(`git add bdi-cards/${nome}`, PAGES_DIR);

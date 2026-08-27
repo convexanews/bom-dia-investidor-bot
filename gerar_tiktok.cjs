@@ -6,6 +6,7 @@ const path = require('path');
 const { execSync, execFileSync } = require('child_process');
 const { renderizarTemplate } = require('./renderizar_template.cjs');
 const { montarRoteiroReel, montarCenasReel, quebrarLegendas } = require('./formato_editorial.cjs');
+const { renderStudioSlide } = require('./studio-renderer-cloud.cjs');
 
 function escapeHtml(str) {
   return String(str || '')
@@ -133,17 +134,20 @@ function montarFiltroVideoAnimado(totalCenas, duracaoPorCena, srtPath) {
 }
 
 // Monta o vídeo final com quatro cenas, narração TTS e legendas sincronizadas.
-async function gerarVideoTikTok(cfg, saida) {
+async function gerarVideoTikTok(cfg, saida, { project = null } = {}) {
   const tmpDir = fs.mkdtempSync(path.join(os.tmpdir(), 'bdi-tiktok-'));
   const audioPath = path.join(tmpDir, 'narration.mp3');
   const srtPath = path.join(tmpDir, 'legendas.srt');
-  const cenas = montarCenasReel(cfg);
+  const cenas = project?.format === 'reel' && Array.isArray(project.slides)
+    ? project.slides.map(slide => ({ etapa: slide.category, titulo: slide.headline, texto: slide.body, chamada: slide.cta, tema: 'neutro' }))
+    : montarCenasReel(cfg);
   const framePaths = [];
 
   console.log(`  Gerando ${cenas.length} cenas visuais...`);
   for (let i = 0; i < cenas.length; i++) {
     const framePath = path.join(tmpDir, `cena-${i + 1}.png`);
-    await gerarFrame(cfg, cenas[i], i + 1, cenas.length, framePath);
+    if (project) await renderStudioSlide(project, i, framePath);
+    else await gerarFrame(cfg, cenas[i], i + 1, cenas.length, framePath);
     framePaths.push(framePath);
   }
 
@@ -172,11 +176,16 @@ async function gerarVideoTikTok(cfg, saida) {
 
   const duracaoPorCena = Math.max(3.5, (duracaoAudio + ((cenas.length - 1) * 0.35)) / cenas.length);
   const entradasVisuais = framePaths.map(frame => `-loop 1 -t ${duracaoPorCena.toFixed(3)} -i "${frame}"`).join(' ');
-  const filtro = montarFiltroVideoAnimado(cenas.length, duracaoPorCena, srtPath);
+  let filtro = montarFiltroVideoAnimado(cenas.length, duracaoPorCena, srtPath);
+  const musicPath = path.join(__dirname, 'noticias-trilha.mp3');
+  const hasMusic = fs.existsSync(musicPath);
+  if (hasMusic) filtro += `;[${cenas.length}:a]volume=1[voz];[${cenas.length + 1}:a]volume=0.14,afade=t=in:st=0:d=0.5[musica];[voz][musica]amix=inputs=2:duration=first:dropout_transition=2[aout]`;
+  const musicInput = hasMusic ? `-stream_loop -1 -i "${musicPath}"` : '';
+  const audioMap = hasMusic ? '-map "[aout]"' : `-map ${cenas.length}:a`;
 
   console.log(`  Montando vídeo animado (${duracaoAudio}s) com ${cenas.length} cenas, transições e legendas...`);
   execSync(
-    `ffmpeg -y ${entradasVisuais} -i "${audioPath}" -filter_complex "${filtro}" -map "[vout]" -map ${cenas.length}:a ` +
+    `ffmpeg -y ${entradasVisuais} -i "${audioPath}" ${musicInput} -filter_complex "${filtro}" -map "[vout]" ${audioMap} ` +
     `-c:v libx264 -tune stillimage -c:a aac -b:a 192k -pix_fmt yuv420p -movflags +faststart ` +
     `-shortest "${saida}"`,
     { stdio: 'inherit', timeout: 180000 }

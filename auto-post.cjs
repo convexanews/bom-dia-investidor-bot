@@ -4,22 +4,20 @@
 //   IG_TOKEN, IG_ACCOUNT_ID
 const fs = require('fs');
 const path = require('path');
-const { execSync, execFileSync } = require('child_process');
 const { buscarNoticias, titulosSimilares } = require('./coletor_noticias.cjs');
-const { gerarCard } = require('./gerar_card_noticia.cjs');
-const { gerarSlide } = require('./gerar_slide_carrossel.cjs');
 const { gerarVideoTikTok, montarLegendaTikTok } = require('./gerar_tiktok.cjs');
 const { criarCapaRetencao } = require('./formato_editorial.cjs');
-const { avaliarCarrossel, montarNarrativaImpacto } = require('./qualidade_carrossel.cjs');
+const { avaliarCarrossel } = require('./qualidade_carrossel.cjs');
 const { validarPautaAutomatica } = require('./qualidade_editorial.cjs');
-const { buscarImagemArtigo, baixarImagemBase64 } = require('./imagem_noticia.cjs');
 const { PESO_MINIMO_FEED, selecionarFormatoFeed } = require('./formato_publicacao.cjs');
 const { validarNoticiaParaPublicacao } = require('./qualidade_publicacao.cjs');
+const { prepareStudioProject, buildStudioProject, validateStudioProject } = require('./studio-content-engine.cjs');
+const { renderStudioProject, renderStudioSlide } = require('./studio-renderer-cloud.cjs');
 const { podePublicarFeed, NOVENTA_MINUTOS, LIMITE_DIARIO_PADRAO } = require('./controle_publicacao.cjs');
 const {
   carregarJson, salvarJson, registrarVerificacao, fetchComRetry,
   validarTokenInstagram, aguardarContainerPronto, gerarAltText,
-  publicarFeed, publicarReel, publicarStory, publicarCarrossel, criarItemCarrossel,
+  publicarFeed, publicarReel, publicarStory, publicarCarrossel,
   buscarCaptionsRecentes, clonePages, commitEPush, limparPages,
   pagesDir, PAGES_REPO, PAGES_RAW_BASE, VERIFICACOES_FILE, RELATORIO_FILE,
 } = require('./utils.cjs');
@@ -291,7 +289,21 @@ async function main() {
     return;
   }
 
-  const qualidadeConteudo = validarNoticiaParaPublicacao(nova);
+  // Todo formato automático nasce do mesmo projeto editorial usado pelo Studio.
+  // A leitura completa da matéria acontece antes do portão de qualidade, evitando
+  // reprovar uma boa pauta apenas porque o RSS entregou um resumo curto.
+  const formato = process.env.FORCE_FORMAT || selecionarFormatoFeed(nova.peso);
+  console.log(`Formato escolhido: ${formato} (pauta aprovada, peso ${nova.peso})`);
+  const prepared = await prepareStudioProject(nova, { format: formato });
+  if (!prepared.quality.approved) {
+    const reason = prepared.quality.blockers.join('; ') || 'nota editorial insuficiente';
+    registrarVerificacao('studio_engine_reprovado', `Projeto automático bloqueado (nota ${prepared.quality.score}): ${reason}.`, { titulo: nova.titulo, formato });
+    console.log(`Studio Engine bloqueou a publicação: ${reason}.`);
+    return;
+  }
+  const project = prepared.project;
+  const enrichedNews = { ...nova, titulo: project.editorial.title, descricao: `${project.editorial.summary} ${project.editorial.context}` };
+  const qualidadeConteudo = validarNoticiaParaPublicacao(enrichedNews);
   if (!qualidadeConteudo.aprovada) {
     console.log(`Pulando notícia: ${qualidadeConteudo.motivo}.`);
     registrarVerificacao('pauta_reprovada', `Notícia não publicada: ${qualidadeConteudo.motivo}.`, { titulo: nova.titulo });
@@ -301,14 +313,14 @@ async function main() {
   console.log(`Notícia selecionada (peso ${nova.peso}): ${nova.titulo}`);
   registrarVerificacao('noticia_encontrada', `Notícia nova encontrada (peso ${nova.peso || '?'}): "${nova.titulo}". Realizando postagem...`);
 
-  const sentimento = detectarSentimento(nova.titulo, nova.descricao || '');
+  const sentimento = detectarSentimento(project.editorial.title, project.editorial.summary);
   const cfg = {
     categoria: (nova.categorias && nova.categorias[0]) || 'MERCADO',
-    manchete: nova.titulo,
-    resumo: (nova.descricao || '').replace(/\[…\]|\[&#8230;\]/g, '').trim(),
+    manchete: project.editorial.title,
+    resumo: project.editorial.summary,
     fonte: nova.fonte,
     link: nova.link,
-    imagem: nova.imagem || null,
+    imagem: project.slides[0].image,
     sentimento,
     pergunta: PERGUNTAS[sentimento.tipo] || PERGUNTAS.padrao,
     acentoGradiente: sentimento.gradiente,
@@ -328,13 +340,6 @@ async function main() {
   cfg.mancheteVisual = capa.gancho;
   cfg.acaoCapa = 'Arraste para entender →';
   cfg.apoioCapa = capa.apoio;
-  if (!cfg.imagem) {
-    cfg.imagem = await buscarImagemArtigo(cfg.link);
-  }
-  if (cfg.imagem) {
-    cfg.imagem = await baixarImagemBase64(cfg.imagem);
-  }
-
   console.log('Nova noticia:', cfg.manchete);
 
   // Clona o repo do GitHub Pages para publicar as imagens dos cards
@@ -343,7 +348,7 @@ async function main() {
   const { dir: PAGES_DIR, cardsDir } = clonePages();
 
   const ts = Date.now();
-  const legenda = montarLegenda(cfg);
+  const legenda = project.caption || montarLegenda(cfg);
   let postId = null;
   let storyId = null;
   let reelId = null;
@@ -351,17 +356,13 @@ async function main() {
   let imageUrl = null;
   let storyImageUrl = null;
 
-  // FORCE_FORMAT: força um formato específico via env (feed, carrossel, reel)
-  const formato = process.env.FORCE_FORMAT || selecionarFormatoFeed(nova.peso);
-  console.log(`Formato escolhido: ${formato} (pauta aprovada, peso ${nova.peso})`);
-
   if (formato === 'reel') {
     // === REEL NARRADO ===
     console.log(`Gerando Reel narrado + TikTok...`);
 
     const nomeVideo = `reel-${ts}.mp4`;
     const videoLocal = path.join(__dirname, 'output', nomeVideo);
-    await gerarVideoTikTok(cfg, videoLocal);
+    await gerarVideoTikTok(cfg, videoLocal, { project });
 
     // Salva vídeo no GitHub Pages
     const tiktokDir = path.join(PAGES_DIR, 'bdi-tiktok');
@@ -398,13 +399,7 @@ async function main() {
     // === CARROSSEL NARRATIVO (10 slides) ===
     // Capa > fatos > contexto > impacto > cautela > resumo > CTA.
     // Cada imagem responde uma pergunta e abre a seguinte, sem inventar dados.
-    const slidesCfg = montarNarrativaImpacto({
-      manchete: cfg.manchete,
-      resumo: cfg.resumo,
-      categoria: cfg.categoria,
-      sentimento: cfg.sentimento?.tipo,
-      apoioCapa: cfg.apoioCapa,
-    });
+    const slidesCfg = project.slides;
     const qualidade = avaliarCarrossel({
       manchete: cfg.manchete,
       resumo: cfg.resumo,
@@ -418,23 +413,9 @@ async function main() {
       return;
     }
 
-    const totalSlides = 1 + slidesCfg.length + 1; // capa + internos + final
-    const nomes = [];
-
-    // Capa: card de notícia com a foto
-    const nomeCapa = `noticia-${ts}-slide1.png`;
-    await gerarCard({ ...cfg, manchete: cfg.mancheteVisual, pergunta: cfg.acaoCapa }, path.join(cardsDir, nomeCapa));
-    nomes.push(nomeCapa);
-
-    for (let i = 0; i < slidesCfg.length; i++) {
-      const nome = `noticia-${ts}-slide${i + 2}.png`;
-      await gerarSlide({ ...slidesCfg[i], contador: `${i + 2}/${totalSlides}` }, path.join(cardsDir, nome));
-      nomes.push(nome);
-    }
-
-    const nomeFinal = `noticia-${ts}-slide${totalSlides}.png`;
-    await gerarSlide({ final: true }, path.join(cardsDir, nomeFinal));
-    nomes.push(nomeFinal);
+    const totalSlides = slidesCfg.length;
+    const rendered = await renderStudioProject(project, cardsDir, `noticia-${ts}`);
+    const nomes = rendered.map(file => path.basename(file));
 
     commitEPush(`Carrossel: ${cfg.manchete.slice(0, 60)}`, nomes.map(n => `bdi-cards/${n}`));
 
@@ -448,12 +429,25 @@ async function main() {
     imageUrl = `${PAGES_RAW_BASE}/${nomes[0]}`;
     console.log(`Carrossel de ${totalSlides} slides publicado no Instagram! ID:`, postId);
 
+  } else if (formato === 'story') {
+    // === STORY INDEPENDENTE COM O MESMO MOTOR DO STUDIO ===
+    const nomeStory = `noticia-${ts}-story.png`;
+    await renderStudioSlide(project, 0, path.join(cardsDir, nomeStory));
+    commitEPush(`Story Studio: ${cfg.manchete.slice(0, 60)}`, [`bdi-cards/${nomeStory}`]);
+    storyImageUrl = `${PAGES_RAW_BASE}/${nomeStory}`;
+    await new Promise(r => setTimeout(r, 15000));
+    storyId = await publicarStory(storyImageUrl);
+    postId = storyId;
+    console.log('Story do Studio Engine publicado! ID:', storyId);
   } else {
-    // === CARD ESTÁTICO ===
+    // === FEED + STORY COM O MESMO MOTOR DO STUDIO ===
     const nomeFeed = `noticia-${ts}-feed.png`;
     const nomeStory = `noticia-${ts}-story.png`;
-    await gerarCard(cfg, path.join(cardsDir, nomeFeed));
-    await gerarCard({ ...cfg, formato: 'story' }, path.join(cardsDir, nomeStory));
+    const storyProject = buildStudioProject(nova, { format: 'story', article: prepared.article, images: prepared.images });
+    const storyQuality = validateStudioProject(storyProject);
+    if (!storyQuality.approved) throw new Error(`Story automático bloqueado: ${storyQuality.blockers.join('; ')}`);
+    await renderStudioSlide(project, 0, path.join(cardsDir, nomeFeed));
+    await renderStudioSlide(storyProject, 0, path.join(cardsDir, nomeStory));
 
     commitEPush(`Card automatico: ${cfg.manchete.slice(0, 60)}`, [`bdi-cards/${nomeFeed}`, `bdi-cards/${nomeStory}`]);
 
@@ -493,11 +487,12 @@ async function main() {
     pilares: nova.pilares || [],
     horarioBRT: new Intl.DateTimeFormat('en-CA', { timeZone: 'America/Sao_Paulo', hour: '2-digit', hourCycle: 'h23' }).format(new Date()),
     cta: cfg.cta || null,
-    decisaoFormato: `peso ${nova.peso || 0}: ${formato}`,
+    decisaoFormato: `peso ${nova.peso || 0}: ${formato}; Studio Engine ${prepared.quality.score}/100`,
+    studioQuality: prepared.quality,
   });
   salvarJson(RELATORIO_FILE, relatorio.slice(0, 200));
 
-  registrarVerificacao('postado', `Postagem realizada com sucesso (${formato}): "${cfg.manchete}".`, { postId, storyId, reelId, tipo: formato });
+  registrarVerificacao('postado', `Postagem realizada com sucesso (${formato}, Studio Engine ${prepared.quality.score}/100): "${cfg.manchete}".`, { postId, storyId, reelId, tipo: formato, studioQuality: prepared.quality.score });
 
   limparPages();
 }

@@ -60,6 +60,19 @@ Principais recursos:
 - deduplicação compartilhada: uma notícia publicada pelo Studio entra no mesmo histórico
   usado pelo bot online, evitando que a automação publique a mesma pauta novamente.
 
+## Studio Engine compartilhado
+
+O bot automático e o Studio usam o mesmo motor editorial e visual. Antes de gerar qualquer
+mídia, `studio-content-engine.cjs` lê a matéria completa, remove links e resíduos de HTML,
+organiza fato, contexto, impacto e próximos sinais e cria um projeto no formato do Studio.
+`studio-renderer-cloud.cjs` renderiza esse projeto com o mesmo layout em Feed, Story,
+carrossel e nas cenas do Reel. O portão final bloqueia texto cortado, ausência de fonte,
+imagem indisponível, código de página e conteúdo fora da área segura.
+
+O Reel automático usa as cenas do projeto compartilhado, narração em português, legendas,
+movimento, transições e a trilha autorizada `noticias-trilha.mp3`. Todo esse processamento
+acontece no GitHub Actions e não depende do computador local.
+
 Ao agendar uma criação aprovada, o Studio prepara as mídias e registra o trabalho em
 `studio-agenda-cloud.json`. O workflow `studio-agenda-cloud.yml` verifica a fila a cada
 cinco minutos e publica mesmo com o Studio e o computador fechados. Falhas recebem até

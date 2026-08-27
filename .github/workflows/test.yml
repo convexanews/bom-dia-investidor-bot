@@ -3,7 +3,7 @@ name: Validar bot
 on:
   pull_request:
   push:
-    branches: [main, 'agent/**']
+    branches: [main, 'agent/**', 'codex/**']
 
 permissions:
   contents: read
@@ -29,3 +29,5 @@ jobs:
           node --check coletar_metricas.cjs
           node --check studio-cloud-agenda.cjs
           node --check processar-agenda-studio.cjs
+          node --check studio-content-engine.cjs
+          node --check studio-renderer-cloud.cjs
