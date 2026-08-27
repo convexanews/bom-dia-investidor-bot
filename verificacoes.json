@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-27T11:31:22.583Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 32 min."
+  },
+  {
     "data": "2026-08-27T11:01:11.626Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 63 min."
@@ -1088,11 +1093,5 @@
     "resultado": "pauta_reprovada",
     "mensagem": "Notícia não publicada: manchete longa demais para caber completa no card.",
     "titulo": "Mercado mantém guerra no Irã no radar e digere pesquisa eleitoral do BTG Pactual; Ibovespa em dólar recua nesta segunda-feira (24)"
-  },
-  {
-    "data": "2026-08-24T10:01:19.925Z",
-    "resultado": "pauta_reprovada",
-    "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
-    "titulo": "Sanções dos EUA ao Irã, Focus, Galípolo e mais: veja os destaques desta segunda"
   }
 ]
