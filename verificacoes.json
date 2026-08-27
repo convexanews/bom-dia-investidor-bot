@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-27T23:01:14.716Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
     "data": "2026-08-27T22:31:58.290Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 2 min."
@@ -1090,10 +1095,5 @@
     "data": "2026-08-24T19:54:14.789Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 71): \"Ouro sobe e fecha no maior nível desde maio com Treasuries e tensão entre EUA e Irã no radar\". Realizando postagem..."
-  },
-  {
-    "data": "2026-08-24T19:31:26.313Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }
 ]
