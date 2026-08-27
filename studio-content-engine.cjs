@@ -90,7 +90,7 @@ function buildStudioProject(noticia, { format = 'feed', article = {}, images = [
       common(2, { category: 'Contexto', headline: 'O que explica esse movimento', body: context, cta: 'Entenda o impacto →' }),
       common(3, { category: 'Por que importa', headline: 'O impacto para o investidor', body: impact, cta: 'Continue para o radar →' }),
       common(4, { category: 'No radar', headline: 'O que acompanhar a partir de agora', body: radar, cta: 'Confira a fonte →' }),
-      common(0, { category: 'Fonte', headline: `Informação publicada por ${source}`, body: 'Acompanhe os próximos dados e a matéria original antes de tomar decisões.', cta: 'Salve este resumo' }),
+      common(0, { category: 'Fique por dentro', headline: 'Siga o Bom Dia Investidor', body: 'Acompanhe as principais novidades do mercado financeiro com informação, contexto e clareza.', cta: 'Siga @bomdia_investidor' }),
     ];
   } else {
     slides = [
@@ -98,7 +98,7 @@ function buildStudioProject(noticia, { format = 'feed', article = {}, images = [
       common(1, { category: 'O que aconteceu', headline: 'O fato por trás da manchete', body: context, cta: 'Veja por que importa', duration: 5 }),
       common(2, { category: 'Por que importa', headline: 'O impacto para o investidor', body: impact || detail, cta: 'Continue para o radar', duration: 5 }),
       common(3, { category: 'No radar', headline: 'O que acompanhar a partir de agora', body: radar, cta: 'Salve este Reel', duration: 5 }),
-      common(0, { category: 'Fonte', headline: `Informação publicada por ${source}`, body: 'Consulte a matéria original para acompanhar atualizações e o contexto completo.', cta: 'Conteúdo informativo', duration: 3 }),
+      common(0, { category: 'Fique por dentro', headline: 'Siga o Bom Dia Investidor', body: 'Acompanhe as principais novidades do mercado financeiro com informação, contexto e clareza.', cta: 'Siga @bomdia_investidor', duration: 3 }),
     ];
   }
   return {

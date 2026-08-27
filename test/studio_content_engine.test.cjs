@@ -27,6 +27,9 @@ test('motor compartilhado cria o mesmo projeto narrativo para carrossel e Reel',
   assert.equal(reel.slides.length, 5);
   assert.match(carousel.slides[1].headline, /fato por trás/i);
   assert.match(reel.slides[2].headline, /impacto para o investidor/i);
+  assert.equal(carousel.slides.at(-1).headline, 'Siga o Bom Dia Investidor');
+  assert.equal(reel.slides.at(-1).cta, 'Siga @bomdia_investidor');
+  assert.doesNotMatch(reel.slides.at(-1).headline, /InfoMoney/);
   assert.ok(carousel.slides.every(slide => slide.image && /Fonte: InfoMoney/.test(slide.source)));
 });
 
