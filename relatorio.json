@@ -1,5 +1,33 @@
 [
   {
+    "data": "2026-08-27T19:28:54.640Z",
+    "titulo": "Ibovespa vira para alta com Petrobras e caminha para 7ª sessão de ganhos",
+    "categoria": "Invest",
+    "fonte": "Exame",
+    "link": "https://exame.com/invest/mercados/ibovespa-vira-para-alta-com-petrobras-e-caminha-para-7a-sessao-de-ganhos/",
+    "postId": "18115913912075222",
+    "storyId": null,
+    "reelId": "18115913912075222",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1787858796497.mp4",
+    "tipo": "reel",
+    "peso": 70,
+    "pilares": [
+      "macro",
+      "bolsa"
+    ],
+    "horarioBRT": "16",
+    "cta": null,
+    "decisaoFormato": "peso 70: reel; Studio Engine 100/100",
+    "studioQuality": {
+      "approved": true,
+      "score": 100,
+      "blockers": [],
+      "warnings": []
+    }
+  },
+  {
     "data": "2026-08-27T17:03:04.268Z",
     "titulo": "Ibovespa cai com ações de peso, enquanto Nvidia impulsiona tecnologia em Wall Street",
     "categoria": "Invest",
@@ -3404,20 +3432,5 @@
     "videoUrl": null,
     "tipo": "carrossel",
     "peso": 25
-  },
-  {
-    "data": "2026-07-12T14:02:35.386Z",
-    "titulo": "Investidores em criptomoedas, atenção: ‘see you, space cowboy!’ e as mais lidas do Crypto Times",
-    "categoria": "Colunas",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/investidores-em-criptomoedas-atencao-see-you-space-cowboy-e-as-mais-lidas-do-crypto-times-rens/",
-    "postId": "18134210050591997",
-    "storyId": "18448293961190677",
-    "reelId": null,
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783864906775-feed.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783864906775-story.png",
-    "videoUrl": null,
-    "tipo": "card",
-    "peso": 32
   }
 ]

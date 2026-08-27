@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-08-27T19:28:54.642Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Ibovespa vira para alta com Petrobras e caminha para 7ª sessão de ganhos\".",
+    "postId": "18115913912075222",
+    "storyId": null,
+    "reelId": "18115913912075222",
+    "tipo": "reel",
+    "studioQuality": 100
+  },
+  {
+    "data": "2026-08-27T19:26:32.483Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 70): \"Ibovespa vira para alta com Petrobras e caminha para 7ª sessão de ganhos\". Realizando postagem..."
+  },
+  {
     "data": "2026-08-27T19:01:13.920Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1082,15 +1097,5 @@
     "storyId": null,
     "reelId": "18140161762506608",
     "tipo": "reel"
-  },
-  {
-    "data": "2026-08-24T16:31:20.712Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 80): \"Trump diz que Irã ‘está em colapso’ horas antes de anúncio de sanções econômicas\". Realizando postagem..."
-  },
-  {
-    "data": "2026-08-24T16:01:15.209Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }
 ]
