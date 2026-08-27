@@ -108,10 +108,68 @@ function gerarSRT(blocos, duracaoTotal, srtPath) {
   return srtPath;
 }
 
+function formatarTempoASS(segundos) {
+  const totalCentissegundos = Math.max(0, Math.round(Number(segundos || 0) * 100));
+  const horas = Math.floor(totalCentissegundos / 360000);
+  const minutos = Math.floor((totalCentissegundos % 360000) / 6000).toString().padStart(2, '0');
+  const secs = Math.floor((totalCentissegundos % 6000) / 100).toString().padStart(2, '0');
+  const centesimos = (totalCentissegundos % 100).toString().padStart(2, '0');
+  return `${horas}:${minutos}:${secs}.${centesimos}`;
+}
+
+function escaparTextoASS(texto) {
+  return String(texto || '')
+    .replace(/\\/g, '／')
+    .replace(/[{}]/g, '')
+    .replace(/\r?\n/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+// Legendas do Reel ficam em uma faixa curta sobre a área da imagem. O arquivo
+// ASS fixa a resolução de referência em 1080x1920, evitando que o libass
+// aumente a fonte de forma imprevisível ao converter um SRT automaticamente.
+function gerarLegendasStudio(cenas, duracaoTotal, assPath) {
+  const cenasValidas = (Array.isArray(cenas) ? cenas : []).filter(Boolean);
+  if (!cenasValidas.length) throw new Error('Não há cenas para gerar as legendas do Reel.');
+
+  const duracaoPorCena = duracaoTotal / cenasValidas.length;
+  const dialogos = [];
+  cenasValidas.forEach((cena, indiceCena) => {
+    const texto = `${cena.titulo || ''}. ${cena.texto || ''}`.replace(/\s+/g, ' ').trim();
+    const blocos = quebrarLegendas([texto], 42);
+    if (!blocos.length) return;
+    const duracaoPorBloco = duracaoPorCena / blocos.length;
+    blocos.forEach((bloco, indiceBloco) => {
+      const inicio = (indiceCena * duracaoPorCena) + (indiceBloco * duracaoPorBloco);
+      const fim = Math.min(inicio + duracaoPorBloco, duracaoTotal);
+      dialogos.push(`Dialogue: 0,${formatarTempoASS(inicio)},${formatarTempoASS(fim)},Legenda,,0,0,0,,${escaparTextoASS(bloco)}`);
+    });
+  });
+
+  const ass = `[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Legenda,Arial,34,&H00FFFFFF,&H00FFFFFF,&H78000000,&H78000000,-1,0,0,0,100,100,0,0,3,10,0,8,130,130,410,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+${dialogos.join('\n')}
+`;
+  fs.writeFileSync(assPath, ass, 'utf8');
+  return { path: assPath, blocos: dialogos.length, conteudo: ass };
+}
+
 // Anima cada frame estático com zoom/pan e une as cenas com transições.
 // Isso evita o efeito de “imagem fixa com legenda” e cria ritmo visual mesmo
 // quando a matéria oferece apenas uma foto de agência.
-function montarFiltroVideoAnimado(totalCenas, duracaoPorCena, srtPath) {
+function montarFiltroVideoAnimado(totalCenas, duracaoPorCena, legendaPath) {
   const fade = 0.35;
   const partes = [];
   for (let i = 0; i < totalCenas; i++) {
@@ -127,9 +185,8 @@ function montarFiltroVideoAnimado(totalCenas, duracaoPorCena, srtPath) {
     partes.push(`${anterior}[v${i}]xfade=transition=fade:duration=${fade}:offset=${offset}${proximo}`);
     anterior = proximo;
   }
-  const srtEscaped = srtPath.replace(/\\/g, '/').replace(/:/g, '\\:');
-  const estilo = "FontName=Arial,FontSize=11,PrimaryColour=&H00FFFFFF,OutlineColour=&H00101010,BorderStyle=1,Outline=2,Shadow=1,MarginV=42,Alignment=2,Bold=1";
-  partes.push(`[base]subtitles='${srtEscaped}':force_style='${estilo}',format=yuv420p[vout]`);
+  const legendaEscaped = legendaPath.replace(/\\/g, '/').replace(/:/g, '\\:');
+  partes.push(`[base]subtitles='${legendaEscaped}',format=yuv420p[vout]`);
   return partes.join(';');
 }
 
@@ -137,7 +194,7 @@ function montarFiltroVideoAnimado(totalCenas, duracaoPorCena, srtPath) {
 async function gerarVideoTikTok(cfg, saida, { project = null } = {}) {
   const tmpDir = fs.mkdtempSync(path.join(os.tmpdir(), 'bdi-tiktok-'));
   const audioPath = path.join(tmpDir, 'narration.mp3');
-  const srtPath = path.join(tmpDir, 'legendas.srt');
+  const legendaPath = path.join(tmpDir, 'legendas.ass');
   const cenas = project?.format === 'reel' && Array.isArray(project.slides)
     ? project.slides.map(slide => ({ etapa: slide.category, titulo: slide.headline, texto: slide.body, chamada: slide.cta, tema: 'neutro' }))
     : montarCenasReel(cfg);
@@ -167,16 +224,15 @@ async function gerarVideoTikTok(cfg, saida, { project = null } = {}) {
     console.log(`  (ffprobe não disponível, duração estimada: ${duracaoAudio}s)`);
   }
 
-  // Gera legendas SRT sincronizadas
-  const blocos = cenas.map(cena => cena.texto);
-  gerarSRT(blocos, duracaoAudio - 1, srtPath);
-  console.log(`  Legendas: ${blocos.length} blocos`);
+  // Frases curtas e posição segura: não cobre o conteúdo editorial do Studio.
+  const legendas = gerarLegendasStudio(cenas, duracaoAudio - 1, legendaPath);
+  console.log(`  Legendas Studio: ${legendas.blocos} blocos curtos`);
 
   if (!fs.existsSync(path.dirname(saida))) fs.mkdirSync(path.dirname(saida), { recursive: true });
 
   const duracaoPorCena = Math.max(3.5, (duracaoAudio + ((cenas.length - 1) * 0.35)) / cenas.length);
   const entradasVisuais = framePaths.map(frame => `-loop 1 -t ${duracaoPorCena.toFixed(3)} -i "${frame}"`).join(' ');
-  let filtro = montarFiltroVideoAnimado(cenas.length, duracaoPorCena, srtPath);
+  let filtro = montarFiltroVideoAnimado(cenas.length, duracaoPorCena, legendaPath);
   const musicPath = path.join(__dirname, 'noticias-trilha.mp3');
   const hasMusic = fs.existsSync(musicPath);
   if (hasMusic) filtro += `;[${cenas.length}:a]volume=1[voz];[${cenas.length + 1}:a]volume=0.14,afade=t=in:st=0:d=0.5[musica];[voz][musica]amix=inputs=2:duration=first:dropout_transition=2[aout]`;
@@ -215,7 +271,7 @@ function montarLegendaTikTok(cfg) {
   return `📌 ${cfg.manchete}\n\nO que aconteceu: ${resumo}\n\nFonte: ${cfg.fonte || 'não informada'}. Conteúdo informativo; não é recomendação de investimento.\n\n${tema} #investimentos #bomdiainvestidor`;
 }
 
-module.exports = { gerarVideoTikTok, gerarFrame, gerarTTS, montarLegendaTikTok, montarTextoNarracao, montarBlocosLegenda, montarFiltroVideoAnimado, validarTextoNarracaoEmPortugues, VOZ_TTS_PRIMARIA, VOZ_TTS_RESERVA };
+module.exports = { gerarVideoTikTok, gerarFrame, gerarTTS, gerarLegendasStudio, montarLegendaTikTok, montarTextoNarracao, montarBlocosLegenda, montarFiltroVideoAnimado, validarTextoNarracaoEmPortugues, VOZ_TTS_PRIMARIA, VOZ_TTS_RESERVA };
 
 if (require.main === module) {
   const cfg = JSON.parse(process.argv[2] || '{}');

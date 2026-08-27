@@ -1,13 +1,35 @@
 const test = require('node:test');
 const assert = require('node:assert/strict');
-const { montarFiltroVideoAnimado, validarTextoNarracaoEmPortugues, VOZ_TTS_PRIMARIA, VOZ_TTS_RESERVA } = require('../gerar_tiktok.cjs');
+const fs = require('node:fs');
+const os = require('node:os');
+const path = require('node:path');
+const { gerarLegendasStudio, montarFiltroVideoAnimado, validarTextoNarracaoEmPortugues, VOZ_TTS_PRIMARIA, VOZ_TTS_RESERVA } = require('../gerar_tiktok.cjs');
 
 test('reel usa movimento e transições entre as cenas', () => {
-  const filtro = montarFiltroVideoAnimado(4, 4.5, 'C:/tmp/legendas.srt');
+  const filtro = montarFiltroVideoAnimado(4, 4.5, 'C:/tmp/legendas.ass');
   assert.match(filtro, /zoompan/);
   assert.match(filtro, /xfade=transition=fade/);
   assert.match(filtro, /subtitles=/);
   assert.match(filtro, /\[vout\]/);
+});
+
+test('legendas do Studio são curtas, previsíveis e não cobrem o texto editorial', () => {
+  const pasta = fs.mkdtempSync(path.join(os.tmpdir(), 'bdi-legendas-'));
+  const arquivo = path.join(pasta, 'legendas.ass');
+  const resultado = gerarLegendasStudio([
+    { titulo: 'O que aconteceu', texto: 'No câmbio, o dólar comercial avança sobre o real, enquanto o mercado acompanha os dados do trabalho no Brasil.' },
+    { titulo: 'Por que importa', texto: 'A reação dos juros pode mudar a leitura dos investidores.' },
+  ], 12, arquivo);
+
+  assert.ok(resultado.blocos >= 4);
+  assert.match(resultado.conteudo, /PlayResX: 1080/);
+  assert.match(resultado.conteudo, /PlayResY: 1920/);
+  assert.match(resultado.conteudo, /Fontsize, PrimaryColour/);
+  assert.match(resultado.conteudo, /Style: Legenda,Arial,34/);
+  assert.match(resultado.conteudo, /Alignment, MarginL, MarginR, MarginV/);
+  assert.match(resultado.conteudo, /,8,130,130,410,1/);
+  assert.doesNotMatch(resultado.conteudo, /No câmbio, o dólar comercial avança sobre o real, enquanto o mercado acompanha os dados do trabalho no Brasil\./);
+  fs.rmSync(pasta, { recursive: true, force: true });
 });
 
 test('narração exige português e usa apenas vozes pt-BR não multilíngues', () => {
