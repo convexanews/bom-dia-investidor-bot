@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-27T17:01:06.167Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 63 min."
+  },
+  {
     "data": "2026-08-27T16:33:35.269Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Ibovespa cai com ações de peso, enquanto Nvidia impulsiona tecnologia em Wall Street\".",
@@ -1085,11 +1090,6 @@
   },
   {
     "data": "2026-08-24T14:31:20.518Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-08-24T14:10:39.093Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }
