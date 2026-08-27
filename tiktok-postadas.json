@@ -1,5 +1,13 @@
 [
   {
+    "titulo": "Wall Street sobe com Nvidia (NVDA) puxando o setor de semicondutores; Nasdaq salta 1,5%",
+    "link": "https://www.moneytimes.com.br/wall-street-27-8-26-apsa/",
+    "peso": 81,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1787864469425.mp4",
+    "legendaUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1787864469425-legenda.txt",
+    "data": "2026-08-27T21:03:46.562Z"
+  },
+  {
     "titulo": "Ibovespa vira para alta com Petrobras e caminha para 7ª sessão de ganhos",
     "link": "https://exame.com/invest/mercados/ibovespa-vira-para-alta-com-petrobras-e-caminha-para-7a-sessao-de-ganhos/",
     "peso": 70,
@@ -1590,13 +1598,5 @@
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1781780484151.mp4",
     "legendaUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1781780484151-legenda.txt",
     "data": "2026-06-18T11:03:36.619Z"
-  },
-  {
-    "titulo": "Mercados repercutem dúvidas sobre juros; Ibovespa em dólar avança com mais um corte da Selic no radar",
-    "link": "https://www.moneytimes.com.br/mercados-repercutem-duvidas-sobre-juros-ibovespa-em-dolar-avanca-com-mais-um-corte-da-selic-no-radar/",
-    "peso": 87,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1781779604425.mp4",
-    "legendaUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1781779604425-legenda.txt",
-    "data": "2026-06-18T10:48:25.362Z"
   }
 ]

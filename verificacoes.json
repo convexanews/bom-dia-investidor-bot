@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-08-27T21:03:46.566Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Wall Street sobe com Nvidia (NVDA) puxando o setor de semicondutores; Nasdaq salta 1,5%\".",
+    "postId": "18074479556406558",
+    "storyId": null,
+    "reelId": "18074479556406558",
+    "tipo": "reel",
+    "studioQuality": 100
+  },
+  {
+    "data": "2026-08-27T21:01:05.158Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 81): \"Wall Street sobe com Nvidia (NVDA) puxando o setor de semicondutores; Nasdaq salta 1,5%\". Realizando postagem..."
+  },
+  {
     "data": "2026-08-27T20:39:12.059Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 20 min."
@@ -1081,15 +1096,5 @@
     "resultado": "pauta_reprovada",
     "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
     "titulo": "Ibovespa Hoje Ao Vivo: Bolsa sobe com VALE3; PETR4 e BRKM5 despencam"
-  },
-  {
-    "data": "2026-08-24T18:00:59.125Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 3 min."
-  },
-  {
-    "data": "2026-08-24T17:31:02.071Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 32 min."
   }
 ]
