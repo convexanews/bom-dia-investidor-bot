@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-08-27T10:33:11.714Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Nvidia embala Wall Street antes de Jackson Hole; Ibovespa em dólar sobe nesta quinta-feira (27)\".",
+    "postId": "18160557883487544",
+    "storyId": null,
+    "reelId": "18160557883487544",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-08-27T10:31:13.348Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 73): \"Nvidia embala Wall Street antes de Jackson Hole; Ibovespa em dólar sobe nesta quinta-feira (27)\". Realizando postagem..."
+  },
+  {
     "data": "2026-08-27T10:01:16.493Z",
     "resultado": "pauta_reprovada",
     "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
@@ -1081,16 +1095,5 @@
     "resultado": "pauta_reprovada",
     "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
     "titulo": "Sanções dos EUA ao Irã, Focus, Galípolo e mais: veja os destaques desta segunda"
-  },
-  {
-    "data": "2026-08-24T09:31:06.183Z",
-    "resultado": "pauta_reprovada",
-    "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
-    "titulo": "Sanções dos EUA ao Irã, Focus, Galípolo e mais: veja os destaques desta segunda"
-  },
-  {
-    "data": "2026-08-24T09:01:02.366Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }
 ]

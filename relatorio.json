@@ -1,5 +1,30 @@
 [
   {
+    "data": "2026-08-27T10:33:11.712Z",
+    "titulo": "Nvidia embala Wall Street antes de Jackson Hole; Ibovespa em dólar sobe nesta quinta-feira (27)",
+    "categoria": "Mercados",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/nvidia-embala-wall-street-antes-de-jackson-hole-ibovespa-em-dolar-sobe-nesta-quinta-feira-27/",
+    "postId": "18160557883487544",
+    "storyId": null,
+    "reelId": "18160557883487544",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1787826677679.mp4",
+    "tipo": "reel",
+    "peso": 73,
+    "pilares": [
+      "macro",
+      "bolsa",
+      "fiis",
+      "cripto",
+      "exterior"
+    ],
+    "horarioBRT": "07",
+    "cta": "📤 Envie para quem acompanha o mercado global.",
+    "decisaoFormato": "peso 73: reel"
+  },
+  {
     "data": "2026-08-26T21:32:59.834Z",
     "titulo": "Wall Street fecham no vermelho com inflação acima do esperado e à espera de Nvidia (NVDA)",
     "categoria": "Mercados",
@@ -3372,20 +3397,5 @@
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783846895123.mp4",
     "tipo": "reel",
     "peso": 35
-  },
-  {
-    "data": "2026-07-11T22:54:09.752Z",
-    "titulo": "Mendonça ordena apreensão de passaporte de Thiago Miranda, ligado a Vorcaro",
-    "categoria": "Política",
-    "fonte": "InfoMoney",
-    "link": "https://www.infomoney.com.br/politica/mendonca-ordena-apreensao-de-passaporte-de-thiago-miranda-ligado-a-vorcaro/",
-    "postId": "18176111113411147",
-    "storyId": "18188191270387741",
-    "reelId": null,
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783810409398-feed.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783810409398-story.png",
-    "videoUrl": null,
-    "tipo": "card",
-    "peso": 16
   }
 ]
