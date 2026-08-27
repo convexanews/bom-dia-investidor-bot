@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-27T00:31:05.415Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
     "data": "2026-08-27T00:29:19.524Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1085,10 +1090,5 @@
     "data": "2026-08-23T23:31:07.373Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-08-23T23:19:23.992Z",
-    "resultado": "sem_noticia_story",
-    "mensagem": "Nenhuma notícia recente de menor impacto foi encontrada."
   }
 ]
