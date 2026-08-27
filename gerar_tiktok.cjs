@@ -170,21 +170,18 @@ ${dialogos.join('\n')}
 // Isso evita o efeito de “imagem fixa com legenda” e cria ritmo visual mesmo
 // quando a matéria oferece apenas uma foto de agência.
 function montarFiltroVideoAnimado(totalCenas, duracaoPorCena, legendaPath) {
-  const fade = 0.35;
+  const fade = 0.3;
   const partes = [];
   for (let i = 0; i < totalCenas; i++) {
-    const direcao = i % 2 === 0 ? 1 : -1;
+    const inicioFadeOut = Math.max(fade, duracaoPorCena - fade).toFixed(3);
     partes.push(
-      `[${i}:v]scale=1280:2276,zoompan=z='min(zoom+0.00075,1.12)':x='iw/2-(iw/zoom/2)+${direcao}*sin(on/18)*18':y='ih/2-(ih/zoom/2)':d=1:s=1080x1920:fps=30,trim=duration=${duracaoPorCena.toFixed(3)},setpts=PTS-STARTPTS[v${i}]`
+      `[${i}:v]scale=1080:1920,fps=30,trim=duration=${duracaoPorCena.toFixed(3)},fade=t=in:st=0:d=${fade},fade=t=out:st=${inicioFadeOut}:d=${fade},setpts=PTS-STARTPTS[v${i}]`
     );
   }
-  let anterior = '[v0]';
-  for (let i = 1; i < totalCenas; i++) {
-    const proximo = i === totalCenas - 1 ? '[base]' : `[mix${i}]`;
-    const offset = ((duracaoPorCena - fade) * i).toFixed(3);
-    partes.push(`${anterior}[v${i}]xfade=transition=fade:duration=${fade}:offset=${offset}${proximo}`);
-    anterior = proximo;
-  }
+  const entradas = Array.from({ length: totalCenas }, (_, i) => `[v${i}]`).join('');
+  // Concatenação com fade por cena mantém a duração integral e preserva os
+  // 1080 px do layout. Zoom/crop cortava textos nas margens do Studio.
+  partes.push(`${entradas}concat=n=${totalCenas}:v=1:a=0[base]`);
   const legendaEscaped = legendaPath.replace(/\\/g, '/').replace(/:/g, '\\:');
   partes.push(`[base]subtitles='${legendaEscaped}',format=yuv420p[vout]`);
   return partes.join(';');

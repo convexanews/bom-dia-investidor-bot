@@ -7,8 +7,10 @@ const { gerarLegendasStudio, montarFiltroVideoAnimado, validarTextoNarracaoEmPor
 
 test('reel usa movimento e transições entre as cenas', () => {
   const filtro = montarFiltroVideoAnimado(4, 4.5, 'C:/tmp/legendas.ass');
-  assert.match(filtro, /zoompan/);
-  assert.match(filtro, /xfade=transition=fade/);
+  assert.match(filtro, /scale=1080:1920/);
+  assert.doesNotMatch(filtro, /crop=/);
+  assert.match(filtro, /fade=t=out/);
+  assert.match(filtro, /concat=n=4:v=1:a=0/);
   assert.match(filtro, /subtitles=/);
   assert.match(filtro, /\[vout\]/);
 });
