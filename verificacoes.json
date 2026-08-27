@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-27T15:01:17.934Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 62 min."
+  },
+  {
     "data": "2026-08-27T14:32:52.261Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel): \"Wall Street avança com balanço da Nvidia (NVDA) impulsionando o setor tech\".",
@@ -1082,10 +1087,5 @@
     "data": "2026-08-24T12:46:36.284Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 47 min."
-  },
-  {
-    "data": "2026-08-24T12:30:59.121Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 62 min."
   }
 ]
