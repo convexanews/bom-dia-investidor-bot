@@ -1,5 +1,34 @@
 [
   {
+    "data": "2026-08-27T16:33:35.267Z",
+    "titulo": "Ibovespa cai com ações de peso, enquanto Nvidia impulsiona tecnologia em Wall Street",
+    "categoria": "Invest",
+    "fonte": "Exame",
+    "link": "https://exame.com/invest/mercados/ibovespa-cai-com-acoes-de-peso-enquanto-nvidia-impulsiona-tecnologia-em-wall-street/",
+    "postId": "18156367039500508",
+    "storyId": null,
+    "reelId": "18156367039500508",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1787848267822.mp4",
+    "tipo": "reel",
+    "peso": 73,
+    "pilares": [
+      "macro",
+      "bolsa",
+      "exterior"
+    ],
+    "horarioBRT": "13",
+    "cta": null,
+    "decisaoFormato": "peso 73: reel; Studio Engine 100/100",
+    "studioQuality": {
+      "approved": true,
+      "score": 100,
+      "blockers": [],
+      "warnings": []
+    }
+  },
+  {
     "data": "2026-08-27T14:32:52.258Z",
     "titulo": "Wall Street avança com balanço da Nvidia (NVDA) impulsionando o setor tech",
     "categoria": "Mercados",
@@ -3390,20 +3419,5 @@
     "videoUrl": null,
     "tipo": "card",
     "peso": 32
-  },
-  {
-    "data": "2026-07-12T11:32:33.757Z",
-    "titulo": "Irã anuncia novo fechamento do Estreito de Ormuz e diz ter atingido embarcação na rota",
-    "categoria": "Internacional",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/ira-anuncia-novo-fechamento-do-estreito-de-ormuz-e-diz-ter-atingido-embarcacao-na-rota-lmrs/",
-    "postId": "18091767710272491",
-    "storyId": "17900134644326034",
-    "reelId": null,
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783855886593-slide1.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783855886593-story.png",
-    "videoUrl": null,
-    "tipo": "carrossel",
-    "peso": 12
   }
 ]

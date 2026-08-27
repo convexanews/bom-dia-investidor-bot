@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-08-27T16:33:35.269Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Ibovespa cai com ações de peso, enquanto Nvidia impulsiona tecnologia em Wall Street\".",
+    "postId": "18156367039500508",
+    "storyId": null,
+    "reelId": "18156367039500508",
+    "tipo": "reel",
+    "studioQuality": 100
+  },
+  {
+    "data": "2026-08-27T16:31:04.193Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 73): \"Ibovespa cai com ações de peso, enquanto Nvidia impulsiona tecnologia em Wall Street\". Realizando postagem..."
+  },
+  {
     "data": "2026-08-27T16:01:07.081Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 2 min."
@@ -1077,15 +1092,5 @@
     "data": "2026-08-24T14:10:39.093Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-08-24T14:01:34.062Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-08-24T13:30:59.475Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 2 min."
   }
 ]

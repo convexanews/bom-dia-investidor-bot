@@ -1,5 +1,13 @@
 [
   {
+    "titulo": "Ibovespa cai com ações de peso, enquanto Nvidia impulsiona tecnologia em Wall Street",
+    "link": "https://exame.com/invest/mercados/ibovespa-cai-com-acoes-de-peso-enquanto-nvidia-impulsiona-tecnologia-em-wall-street/",
+    "peso": 73,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1787848267822.mp4",
+    "legendaUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1787848267822-legenda.txt",
+    "data": "2026-08-27T16:33:35.265Z"
+  },
+  {
     "titulo": "Wall Street avança com balanço da Nvidia (NVDA) impulsionando o setor tech",
     "link": "https://www.moneytimes.com.br/wall-street-abertura-27-8-26-apsa/",
     "peso": 78,
@@ -1590,13 +1598,5 @@
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1781776881933.mp4",
     "legendaUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1781776881933-legenda.txt",
     "data": "2026-06-18T10:02:55.178Z"
-  },
-  {
-    "titulo": "Corte da Selic, cautela do Fed e entrada em vigor do acordo EUA-Irã agitam o mercado",
-    "link": "https://www.infomoney.com.br/mercados/corte-selic-cautela-fed-e-acordo-eua-ira-18062026/",
-    "peso": 103,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1781775102251.mp4",
-    "legendaUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1781775102251-legenda.txt",
-    "data": "2026-06-18T09:33:19.827Z"
   }
 ]
