@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-27T23:31:08.101Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
     "data": "2026-08-27T23:01:14.716Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1090,10 +1095,5 @@
     "storyId": null,
     "reelId": "18043358765808237",
     "tipo": "reel"
-  },
-  {
-    "data": "2026-08-24T19:54:14.789Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 71): \"Ouro sobe e fecha no maior nível desde maio com Treasuries e tensão entre EUA e Irã no radar\". Realizando postagem..."
   }
 ]
