@@ -1,5 +1,11 @@
 [
   {
+    "data": "2026-08-27T09:30:57.162Z",
+    "resultado": "pauta_reprovada",
+    "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
+    "titulo": "Taxa de desemprego, Jackson Hole, balança comercial nos EUA e mais destaques desta 5ª"
+  },
+  {
     "data": "2026-08-27T09:01:10.183Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1085,10 +1091,5 @@
     "data": "2026-08-24T08:31:01.639Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (05:31 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-08-24T08:01:09.798Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (05:01 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
