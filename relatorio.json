@@ -1,5 +1,28 @@
 [
   {
+    "data": "2026-08-27T14:32:52.258Z",
+    "titulo": "Wall Street avança com balanço da Nvidia (NVDA) impulsionando o setor tech",
+    "categoria": "Mercados",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/wall-street-abertura-27-8-26-apsa/",
+    "postId": "18077260973348361",
+    "storyId": null,
+    "reelId": "18077260973348361",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1787841068676.mp4",
+    "tipo": "reel",
+    "peso": 78,
+    "pilares": [
+      "macro",
+      "bolsa",
+      "exterior"
+    ],
+    "horarioBRT": "11",
+    "cta": "📤 Envie para quem acompanha o mercado global.",
+    "decisaoFormato": "peso 78: reel"
+  },
+  {
     "data": "2026-08-27T10:33:11.712Z",
     "titulo": "Nvidia embala Wall Street antes de Jackson Hole; Ibovespa em dólar sobe nesta quinta-feira (27)",
     "categoria": "Mercados",
@@ -3382,20 +3405,5 @@
     "videoUrl": null,
     "tipo": "carrossel",
     "peso": 12
-  },
-  {
-    "data": "2026-07-12T09:03:15.603Z",
-    "titulo": "5 grandes movimentos de analistas em IA: SpaceX recebe preço-alvo recorde, queda da Samsung é exagerada",
-    "categoria": "MERCADO",
-    "fonte": "Investing.com",
-    "link": "https://br.investing.com/news/stock-market-news/5-grandes-movimentos-de-analistas-em-ia-spacex-recebe-precoalvo-recorde-queda-da-samsung-e-exagerada-1999133",
-    "postId": "17912957382430533",
-    "storyId": null,
-    "reelId": "17912957382430533",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783846895123.mp4",
-    "tipo": "reel",
-    "peso": 35
   }
 ]

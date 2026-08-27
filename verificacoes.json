@@ -1,5 +1,19 @@
 [
   {
+    "data": "2026-08-27T14:32:52.261Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel): \"Wall Street avança com balanço da Nvidia (NVDA) impulsionando o setor tech\".",
+    "postId": "18077260973348361",
+    "storyId": null,
+    "reelId": "18077260973348361",
+    "tipo": "reel"
+  },
+  {
+    "data": "2026-08-27T14:31:03.892Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 78): \"Wall Street avança com balanço da Nvidia (NVDA) impulsionando o setor tech\". Realizando postagem..."
+  },
+  {
     "data": "2026-08-27T14:01:12.878Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1073,19 +1087,5 @@
     "data": "2026-08-24T12:30:59.121Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 62 min."
-  },
-  {
-    "data": "2026-08-24T12:02:49.934Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"Economistas veem economia mais fraca e inflação mais forte; confira o Focus desta segunda-feira (24)\".",
-    "postId": "18066394964582106",
-    "storyId": null,
-    "reelId": "18066394964582106",
-    "tipo": "reel"
-  },
-  {
-    "data": "2026-08-24T12:01:05.667Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 78): \"Economistas veem economia mais fraca e inflação mais forte; confira o Focus desta segunda-feira (24)\". Realizando postagem..."
   }
 ]
