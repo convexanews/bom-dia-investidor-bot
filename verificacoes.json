@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-28T20:42:44.394Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 81 min."
+  },
+  {
     "data": "2026-08-28T20:33:26.511Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Wall Street recua após discurso de Warsh em Jackson Hole\".",
@@ -1088,12 +1093,6 @@
   },
   {
     "data": "2026-08-25T14:12:55.545Z",
-    "resultado": "pauta_reprovada",
-    "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
-    "titulo": "Ibovespa Hoje Ao Vivo: Bolsa oscila com preocupações sobre Irã-EUA no radar"
-  },
-  {
-    "data": "2026-08-25T14:02:36.228Z",
     "resultado": "pauta_reprovada",
     "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
     "titulo": "Ibovespa Hoje Ao Vivo: Bolsa oscila com preocupações sobre Irã-EUA no radar"
