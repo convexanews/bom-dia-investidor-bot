@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-28T17:00:59.956Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 63 min."
+  },
+  {
     "data": "2026-08-28T16:33:46.840Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Banho de água fria? Ibovespa volta ao tom negativo e dólar supera R$ 5,20 com Warsh\".",
@@ -1090,10 +1095,5 @@
     "resultado": "pauta_reprovada",
     "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
     "titulo": "Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta terça"
-  },
-  {
-    "data": "2026-08-25T10:59:45.554Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }
 ]
