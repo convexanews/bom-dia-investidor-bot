@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-08-28T22:33:36.824Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"S&P e Nasdaq fecham em baixa após chair do Fed reafirmar combate à inflação\".",
+    "postId": "18112527307822831",
+    "storyId": null,
+    "reelId": "18112527307822831",
+    "tipo": "reel",
+    "studioQuality": 100
+  },
+  {
+    "data": "2026-08-28T22:31:24.618Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 77): \"S&P e Nasdaq fecham em baixa após chair do Fed reafirmar combate à inflação\". Realizando postagem..."
+  },
+  {
     "data": "2026-08-28T22:01:38.314Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 2 min."
@@ -1080,17 +1095,5 @@
     "resultado": "pauta_reprovada",
     "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
     "titulo": "Ibovespa Hoje Ao Vivo: Bolsa sobe e retoma os 173 mil pontos"
-  },
-  {
-    "data": "2026-08-25T16:01:08.644Z",
-    "resultado": "pauta_reprovada",
-    "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
-    "titulo": "Ibovespa Hoje Ao Vivo: Bolsa sobe e retoma os 173 mil pontos"
-  },
-  {
-    "data": "2026-08-25T15:40:53.779Z",
-    "resultado": "pauta_reprovada",
-    "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
-    "titulo": "Ibovespa Hoje Ao Vivo: Bolsa oscila com preocupações sobre Irã-EUA no radar"
   }
 ]

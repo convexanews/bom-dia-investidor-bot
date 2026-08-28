@@ -1,5 +1,13 @@
 [
   {
+    "titulo": "S&P e Nasdaq fecham em baixa após chair do Fed reafirmar combate à inflação",
+    "link": "https://www.infomoney.com.br/mercados/wall-street-operam-em-queda-apos-discurso-do-chair-do-fed-alta-de-ia-perde-forca/",
+    "peso": 77,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1787956291091.mp4",
+    "legendaUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1787956291091-legenda.txt",
+    "data": "2026-08-28T22:33:36.820Z"
+  },
+  {
     "titulo": "Wall Street recua após discurso de Warsh em Jackson Hole",
     "link": "https://www.moneytimes.com.br/wall-street-28-8-26-apsa/",
     "peso": 85,
@@ -1590,13 +1598,5 @@
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1781886683181.mp4",
     "legendaUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1781886683181-legenda.txt",
     "data": "2026-06-19T16:33:27.297Z"
-  },
-  {
-    "titulo": "Dólar cede após ganhos, em dia de poucos negócios com feriado nos EUA",
-    "link": "https://www.suno.com.br/noticias/dolar-cede-apos-ganhos-19062026-go/",
-    "peso": 45,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1781877674435.mp4",
-    "legendaUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1781877674435-legenda.txt",
-    "data": "2026-06-19T14:02:57.684Z"
   }
 ]

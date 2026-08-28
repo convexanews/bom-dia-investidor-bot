@@ -1,5 +1,34 @@
 [
   {
+    "data": "2026-08-28T22:33:36.821Z",
+    "titulo": "S&P e Nasdaq fecham em baixa após chair do Fed reafirmar combate à inflação",
+    "categoria": "Mercados",
+    "fonte": "InfoMoney",
+    "link": "https://www.infomoney.com.br/mercados/wall-street-operam-em-queda-apos-discurso-do-chair-do-fed-alta-de-ia-perde-forca/",
+    "postId": "18112527307822831",
+    "storyId": null,
+    "reelId": "18112527307822831",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1787956291091.mp4",
+    "tipo": "reel",
+    "peso": 77,
+    "pilares": [
+      "macro",
+      "bolsa",
+      "exterior"
+    ],
+    "horarioBRT": "19",
+    "cta": null,
+    "decisaoFormato": "peso 77: reel; Studio Engine 100/100",
+    "studioQuality": {
+      "approved": true,
+      "score": 100,
+      "blockers": [],
+      "warnings": []
+    }
+  },
+  {
     "data": "2026-08-28T20:33:26.508Z",
     "titulo": "Wall Street recua após discurso de Warsh em Jackson Hole",
     "categoria": "Mercados",
@@ -3498,20 +3527,5 @@
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783958776714.mp4",
     "tipo": "reel",
     "peso": 71
-  },
-  {
-    "data": "2026-07-13T14:03:32.306Z",
-    "titulo": "TSMC tem receita recorde no 2º tri impulsionada pela demanda por IA",
-    "categoria": "Empresas",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/tsmc-tem-receita-recorde-no-2o-tri-impulsionada-pela-demanda-por-ia/",
-    "postId": "18122677552720727",
-    "storyId": null,
-    "reelId": "18122677552720727",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783951310138.mp4",
-    "tipo": "reel",
-    "peso": 70
   }
 ]
