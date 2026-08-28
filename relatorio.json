@@ -1,5 +1,33 @@
 [
   {
+    "data": "2026-08-28T16:33:46.838Z",
+    "titulo": "Banho de água fria? Ibovespa volta ao tom negativo e dólar supera R$ 5,20 com Warsh",
+    "categoria": "Mercados",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/banho-de-agua-fria-ibovespa-volta-ao-tom-negativo-e-dolar-supera-r-520-com-warsh-lils/",
+    "postId": "18105067799585005",
+    "storyId": null,
+    "reelId": "18105067799585005",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1787934676020.mp4",
+    "tipo": "reel",
+    "peso": 75,
+    "pilares": [
+      "macro",
+      "bolsa"
+    ],
+    "horarioBRT": "13",
+    "cta": null,
+    "decisaoFormato": "peso 75: reel; Studio Engine 100/100",
+    "studioQuality": {
+      "approved": true,
+      "score": 100,
+      "blockers": [],
+      "warnings": []
+    }
+  },
+  {
     "data": "2026-08-28T14:33:33.561Z",
     "titulo": "Wall Street abre sem direção com as atenções em Warsh",
     "categoria": "Mercados",
@@ -3458,20 +3486,5 @@
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783933327007.mp4",
     "tipo": "reel",
     "peso": 80
-  },
-  {
-    "data": "2026-07-12T23:59:28.713Z",
-    "titulo": "Petróleo sobe forte após EUA e Irã trocarem ataques e divergirem sobre Ormuz",
-    "categoria": "Mercados",
-    "fonte": "InfoMoney",
-    "link": "https://www.infomoney.com.br/mercados/petroleo-sobe-forte-apos-eua-e-ira-trocarem-ataques-e-divergirem-sobre-ormuz/",
-    "postId": "18189487939391255",
-    "storyId": "18130210087622467",
-    "reelId": null,
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783900717369-feed.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783900717369-story.png",
-    "videoUrl": null,
-    "tipo": "card",
-    "peso": 12
   }
 ]
