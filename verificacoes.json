@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-28T15:01:08.489Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 63 min."
+  },
+  {
     "data": "2026-08-28T14:33:33.563Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Wall Street abre sem direção com as atenções em Warsh\".",
@@ -1089,10 +1094,5 @@
     "resultado": "pauta_reprovada",
     "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
     "titulo": "Arrecadação de julho, confiança do consumidor nos EUA e mais destaques desta terça"
-  },
-  {
-    "data": "2026-08-25T09:01:23.102Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }
 ]
