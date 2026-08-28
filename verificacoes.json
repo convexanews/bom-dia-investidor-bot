@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-08-28T20:33:26.511Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Wall Street recua após discurso de Warsh em Jackson Hole\".",
+    "postId": "18124524241697347",
+    "storyId": null,
+    "reelId": "18124524241697347",
+    "tipo": "reel",
+    "studioQuality": 100
+  },
+  {
+    "data": "2026-08-28T20:31:07.512Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 85): \"Wall Street recua após discurso de Warsh em Jackson Hole\". Realizando postagem..."
+  },
+  {
     "data": "2026-08-28T20:00:59.550Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 4 min."
@@ -1082,16 +1097,5 @@
     "resultado": "pauta_reprovada",
     "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
     "titulo": "Ibovespa Hoje Ao Vivo: Bolsa oscila com preocupações sobre Irã-EUA no radar"
-  },
-  {
-    "data": "2026-08-25T13:32:08.478Z",
-    "resultado": "pauta_reprovada",
-    "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
-    "titulo": "Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta terça"
-  },
-  {
-    "data": "2026-08-25T13:02:34.693Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }
 ]

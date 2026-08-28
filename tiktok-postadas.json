@@ -1,5 +1,13 @@
 [
   {
+    "titulo": "Wall Street recua após discurso de Warsh em Jackson Hole",
+    "link": "https://www.moneytimes.com.br/wall-street-28-8-26-apsa/",
+    "peso": 85,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1787949072688.mp4",
+    "legendaUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1787949072688-legenda.txt",
+    "data": "2026-08-28T20:33:26.507Z"
+  },
+  {
     "titulo": "Ouro recua quase 3% após falas de Warsh em Jackson Hole",
     "link": "https://www.moneytimes.com.br/ouro-28-8-26-apsa/",
     "peso": 80,
@@ -1590,13 +1598,5 @@
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1781877674435.mp4",
     "legendaUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1781877674435-legenda.txt",
     "data": "2026-06-19T14:02:57.684Z"
-  },
-  {
-    "titulo": "BC do Japão alerta para risco de inflação acima da meta e sinaliza intenção de aumentar juros",
-    "link": "https://br.investing.com/news/economy-news/bc-do-japao-alerta-para-risco-de-inflacao-acima-da-meta-e-sinaliza-intencao-de-aumentar-juros-1978391",
-    "peso": 43,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1781868668033.mp4",
-    "legendaUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1781868668033-legenda.txt",
-    "data": "2026-06-19T11:32:28.406Z"
   }
 ]

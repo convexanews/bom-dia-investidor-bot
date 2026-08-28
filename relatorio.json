@@ -1,5 +1,34 @@
 [
   {
+    "data": "2026-08-28T20:33:26.508Z",
+    "titulo": "Wall Street recua após discurso de Warsh em Jackson Hole",
+    "categoria": "Mercados",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/wall-street-28-8-26-apsa/",
+    "postId": "18124524241697347",
+    "storyId": null,
+    "reelId": "18124524241697347",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1787949072688.mp4",
+    "tipo": "reel",
+    "peso": 85,
+    "pilares": [
+      "macro",
+      "bolsa",
+      "exterior"
+    ],
+    "horarioBRT": "17",
+    "cta": null,
+    "decisaoFormato": "peso 85: reel; Studio Engine 100/100",
+    "studioQuality": {
+      "approved": true,
+      "score": 100,
+      "blockers": [],
+      "warnings": []
+    }
+  },
+  {
     "data": "2026-08-28T18:34:33.770Z",
     "titulo": "Ouro recua quase 3% após falas de Warsh em Jackson Hole",
     "categoria": "Mercados",
@@ -3484,20 +3513,5 @@
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783951310138.mp4",
     "tipo": "reel",
     "peso": 70
-  },
-  {
-    "data": "2026-07-13T11:32:55.926Z",
-    "titulo": "Ação da SK Hynix despenca após estreia na Nasdaq em meio a realizações de lucros",
-    "categoria": "Mercados",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/acao-da-sk-hynix-despenca-apos-estreia-na-nasdaq-em-meio-a-realizacoes-de-lucros-lmrs/",
-    "postId": "18118608937864079",
-    "storyId": "18015755498864000",
-    "reelId": null,
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783942300298-slide1.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783942300298-story.png",
-    "videoUrl": null,
-    "tipo": "carrossel",
-    "peso": 56
   }
 ]
