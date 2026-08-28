@@ -1,5 +1,33 @@
 [
   {
+    "data": "2026-08-28T14:33:33.561Z",
+    "titulo": "Wall Street abre sem direção com as atenções em Warsh",
+    "categoria": "Mercados",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/wall-street-abertura-28-8-26-apsa/",
+    "postId": "18027429152890937",
+    "storyId": null,
+    "reelId": "18027429152890937",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1787927463389.mp4",
+    "tipo": "reel",
+    "peso": 82,
+    "pilares": [
+      "macro",
+      "exterior"
+    ],
+    "horarioBRT": "11",
+    "cta": null,
+    "decisaoFormato": "peso 82: reel; Studio Engine 100/100",
+    "studioQuality": {
+      "approved": true,
+      "score": 100,
+      "blockers": [],
+      "warnings": []
+    }
+  },
+  {
     "data": "2026-08-28T09:33:59.857Z",
     "titulo": "Kevin Warsh discursa em Jackson Hole, Caged, IGP-M e mais destaques desta sexta-feira",
     "categoria": "Mercados",
@@ -3445,20 +3473,5 @@
     "videoUrl": null,
     "tipo": "card",
     "peso": 12
-  },
-  {
-    "data": "2026-07-12T21:33:00.284Z",
-    "titulo": "Rússia - Ações fecharam o pregão em queda e o Índice MOEX Russia Index terminou sem alterações",
-    "categoria": "MERCADO",
-    "fonte": "Investing.com",
-    "link": "https://br.investing.com/news/stock-market-news/russia--acoes-fecharam-o-pregao-em-queda-e-o-indice-moex-russia-index-terminou-sem-alteracoes-1999235",
-    "postId": "18101557079138919",
-    "storyId": "18103279754165696",
-    "reelId": null,
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783891910106-slide1.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783891910106-story.png",
-    "videoUrl": null,
-    "tipo": "carrossel",
-    "peso": 3
   }
 ]

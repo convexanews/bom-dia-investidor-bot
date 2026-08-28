@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-08-28T14:33:33.563Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Wall Street abre sem direção com as atenções em Warsh\".",
+    "postId": "18027429152890937",
+    "storyId": null,
+    "reelId": "18027429152890937",
+    "tipo": "reel",
+    "studioQuality": 100
+  },
+  {
+    "data": "2026-08-28T14:30:58.554Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 82): \"Wall Street abre sem direção com as atenções em Warsh\". Realizando postagem..."
+  },
+  {
     "data": "2026-08-28T14:01:15.763Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1079,15 +1094,5 @@
     "data": "2026-08-25T09:01:23.102Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-08-25T08:31:04.393Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (05:31 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-08-25T08:01:16.122Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (05:01 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
