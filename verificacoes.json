@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-28T10:01:20.698Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 63 min."
+  },
+  {
     "data": "2026-08-28T09:33:59.859Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Kevin Warsh discursa em Jackson Hole, Caged, IGP-M e mais destaques desta sexta-feira\".",
@@ -1084,10 +1089,5 @@
     "data": "2026-08-25T04:01:12.404Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (01:01 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-08-25T03:31:10.284Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (00:31 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
