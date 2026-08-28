@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-28T23:01:00.239Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 63 min."
+  },
+  {
     "data": "2026-08-28T22:33:36.824Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"S&P e Nasdaq fecham em baixa após chair do Fed reafirmar combate à inflação\".",
@@ -1089,11 +1094,5 @@
     "mensagem": "Story publicado (peso 51): \"Hapvida (HAPV3): 2 fatores que fazem ação afundar ainda mais nesta terça (25)\".",
     "postId": "18062160356763947",
     "peso": 51
-  },
-  {
-    "data": "2026-08-25T16:31:01.826Z",
-    "resultado": "pauta_reprovada",
-    "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
-    "titulo": "Ibovespa Hoje Ao Vivo: Bolsa sobe e retoma os 173 mil pontos"
   }
 ]
