@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-28T16:01:07.826Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 3 min."
+  },
+  {
     "data": "2026-08-28T15:32:05.554Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 32 min."
@@ -1084,12 +1089,6 @@
   },
   {
     "data": "2026-08-25T10:01:01.514Z",
-    "resultado": "pauta_reprovada",
-    "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
-    "titulo": "Arrecadação de julho, confiança do consumidor nos EUA e mais destaques desta terça"
-  },
-  {
-    "data": "2026-08-25T09:34:02.215Z",
     "resultado": "pauta_reprovada",
     "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
     "titulo": "Arrecadação de julho, confiança do consumidor nos EUA e mais destaques desta terça"
