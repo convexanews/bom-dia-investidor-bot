@@ -1,5 +1,33 @@
 [
   {
+    "data": "2026-08-28T18:34:33.770Z",
+    "titulo": "Ouro recua quase 3% após falas de Warsh em Jackson Hole",
+    "categoria": "Mercados",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/ouro-28-8-26-apsa/",
+    "postId": "18620874430008518",
+    "storyId": null,
+    "reelId": "18620874430008518",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1787941897834.mp4",
+    "tipo": "reel",
+    "peso": 80,
+    "pilares": [
+      "macro",
+      "bolsa"
+    ],
+    "horarioBRT": "15",
+    "cta": null,
+    "decisaoFormato": "peso 80: reel; Studio Engine 100/100",
+    "studioQuality": {
+      "approved": true,
+      "score": 100,
+      "blockers": [],
+      "warnings": []
+    }
+  },
+  {
     "data": "2026-08-28T16:33:46.838Z",
     "titulo": "Banho de água fria? Ibovespa volta ao tom negativo e dólar supera R$ 5,20 com Warsh",
     "categoria": "Mercados",
@@ -3471,20 +3499,5 @@
     "videoUrl": null,
     "tipo": "carrossel",
     "peso": 56
-  },
-  {
-    "data": "2026-07-13T09:04:16.062Z",
-    "titulo": "Conflito EUA-Irã, falas do Fed, Focus e mais destaques desta segunda-feira",
-    "categoria": "Mercados",
-    "fonte": "InfoMoney",
-    "link": "https://www.infomoney.com.br/mercados/conflito-eua-ira-falas-fed-focus-agenda-13072026/",
-    "postId": "17961345543157386",
-    "storyId": null,
-    "reelId": "17961345543157386",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783933327007.mp4",
-    "tipo": "reel",
-    "peso": 80
   }
 ]

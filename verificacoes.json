@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-08-28T18:34:33.772Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Ouro recua quase 3% após falas de Warsh em Jackson Hole\".",
+    "postId": "18620874430008518",
+    "storyId": null,
+    "reelId": "18620874430008518",
+    "tipo": "reel",
+    "studioQuality": 100
+  },
+  {
+    "data": "2026-08-28T18:31:30.506Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 80): \"Ouro recua quase 3% após falas de Warsh em Jackson Hole\". Realizando postagem..."
+  },
+  {
     "data": "2026-08-28T18:01:07.991Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 3 min."
@@ -1080,18 +1095,5 @@
     "resultado": "pauta_reprovada",
     "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
     "titulo": "Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta terça"
-  },
-  {
-    "data": "2026-08-25T11:31:37.631Z",
-    "resultado": "pauta_reprovada",
-    "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
-    "titulo": "Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta terça"
-  },
-  {
-    "data": "2026-08-25T11:25:49.644Z",
-    "resultado": "story_noticia_postado",
-    "mensagem": "Story publicado (peso 35): \"Queda de 48% da Rocket Lab valida alerta de sobrevalorização do InvestingPro\".",
-    "postId": "18366500461215154",
-    "peso": 35
   }
 ]
