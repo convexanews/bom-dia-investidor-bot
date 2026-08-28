@@ -1,7 +1,159 @@
 [
   {
+    "postId": "18124524241697347",
+    "dataColeta": "2026-08-28T21:27:33.802Z",
+    "dataPostagem": "2026-08-28T20:33:26.508Z",
+    "tipo": "reel",
+    "pilares": [
+      "macro",
+      "bolsa",
+      "exterior"
+    ],
+    "peso": 85,
+    "fonte": "Money Times",
+    "titulo": "Wall Street recua após discurso de Warsh em Jackson Hole",
+    "horarioBRT": "17",
+    "cta": null,
+    "decisaoFormato": "peso 85: reel; Studio Engine 100/100",
+    "insights": {
+      "reach": 2,
+      "saved": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "total_interactions": 0,
+      "falhas": [
+        {
+          "metrica": "plays",
+          "erro": "Instagram respondeu 400"
+        }
+      ]
+    }
+  },
+  {
+    "postId": "18620874430008518",
+    "dataColeta": "2026-08-28T21:27:34.680Z",
+    "dataPostagem": "2026-08-28T18:34:33.770Z",
+    "tipo": "reel",
+    "pilares": [
+      "macro",
+      "bolsa"
+    ],
+    "peso": 80,
+    "fonte": "Money Times",
+    "titulo": "Ouro recua quase 3% após falas de Warsh em Jackson Hole",
+    "horarioBRT": "15",
+    "cta": null,
+    "decisaoFormato": "peso 80: reel; Studio Engine 100/100",
+    "insights": {
+      "reach": 5,
+      "saved": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 1,
+      "total_interactions": 1,
+      "falhas": [
+        {
+          "metrica": "plays",
+          "erro": "Instagram respondeu 400"
+        }
+      ]
+    }
+  },
+  {
+    "postId": "18105067799585005",
+    "dataColeta": "2026-08-28T21:27:35.528Z",
+    "dataPostagem": "2026-08-28T16:33:46.838Z",
+    "tipo": "reel",
+    "pilares": [
+      "macro",
+      "bolsa"
+    ],
+    "peso": 75,
+    "fonte": "Money Times",
+    "titulo": "Banho de água fria? Ibovespa volta ao tom negativo e dólar supera R$ 5,20 com Warsh",
+    "horarioBRT": "13",
+    "cta": null,
+    "decisaoFormato": "peso 75: reel; Studio Engine 100/100",
+    "insights": {
+      "reach": 7,
+      "saved": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "total_interactions": 0,
+      "falhas": [
+        {
+          "metrica": "plays",
+          "erro": "Instagram respondeu 400"
+        }
+      ]
+    }
+  },
+  {
+    "postId": "18027429152890937",
+    "dataColeta": "2026-08-28T21:27:36.352Z",
+    "dataPostagem": "2026-08-28T14:33:33.561Z",
+    "tipo": "reel",
+    "pilares": [
+      "macro",
+      "exterior"
+    ],
+    "peso": 82,
+    "fonte": "Money Times",
+    "titulo": "Wall Street abre sem direção com as atenções em Warsh",
+    "horarioBRT": "11",
+    "cta": null,
+    "decisaoFormato": "peso 82: reel; Studio Engine 100/100",
+    "insights": {
+      "reach": 6,
+      "saved": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "total_interactions": 0,
+      "falhas": [
+        {
+          "metrica": "plays",
+          "erro": "Instagram respondeu 400"
+        }
+      ]
+    }
+  },
+  {
+    "postId": "18372136063300767",
+    "dataColeta": "2026-08-28T21:27:37.200Z",
+    "dataPostagem": "2026-08-28T09:33:59.857Z",
+    "tipo": "reel",
+    "pilares": [
+      "macro",
+      "bolsa",
+      "exterior"
+    ],
+    "peso": 80,
+    "fonte": "InfoMoney",
+    "titulo": "Kevin Warsh discursa em Jackson Hole, Caged, IGP-M e mais destaques desta sexta-feira",
+    "horarioBRT": "06",
+    "cta": null,
+    "decisaoFormato": "peso 80: reel; Studio Engine 100/100",
+    "insights": {
+      "reach": 6,
+      "saved": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "total_interactions": 0,
+      "falhas": [
+        {
+          "metrica": "plays",
+          "erro": "Instagram respondeu 400"
+        }
+      ]
+    }
+  },
+  {
     "postId": "18074479556406558",
-    "dataColeta": "2026-08-27T21:04:07.169Z",
+    "dataColeta": "2026-08-28T21:27:38.266Z",
     "dataPostagem": "2026-08-27T21:03:46.564Z",
     "tipo": "reel",
     "pilares": [
@@ -16,7 +168,7 @@
     "cta": null,
     "decisaoFormato": "peso 81: reel; Studio Engine 100/100",
     "insights": {
-      "reach": 0,
+      "reach": 9,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -32,7 +184,7 @@
   },
   {
     "postId": "18115913912075222",
-    "dataColeta": "2026-08-27T21:04:08.117Z",
+    "dataColeta": "2026-08-28T21:27:39.317Z",
     "dataPostagem": "2026-08-27T19:28:54.640Z",
     "tipo": "reel",
     "pilares": [
@@ -46,7 +198,7 @@
     "cta": null,
     "decisaoFormato": "peso 70: reel; Studio Engine 100/100",
     "insights": {
-      "reach": 4,
+      "reach": 9,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -62,7 +214,7 @@
   },
   {
     "postId": "18110217500026590",
-    "dataColeta": "2026-08-27T21:04:08.987Z",
+    "dataColeta": "2026-08-28T21:27:40.200Z",
     "dataPostagem": "2026-08-27T17:03:04.268Z",
     "tipo": "reel",
     "pilares": [
@@ -77,7 +229,7 @@
     "cta": null,
     "decisaoFormato": "peso 73: reel; Studio Engine 100/100",
     "insights": {
-      "reach": 4,
+      "reach": 5,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -93,7 +245,7 @@
   },
   {
     "postId": "18077260973348361",
-    "dataColeta": "2026-08-27T21:04:10.085Z",
+    "dataColeta": "2026-08-28T21:27:41.107Z",
     "dataPostagem": "2026-08-27T14:32:52.258Z",
     "tipo": "reel",
     "pilares": [
@@ -108,7 +260,7 @@
     "cta": "📤 Envie para quem acompanha o mercado global.",
     "decisaoFormato": "peso 78: reel",
     "insights": {
-      "reach": 11,
+      "reach": 14,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -124,7 +276,7 @@
   },
   {
     "postId": "18160557883487544",
-    "dataColeta": "2026-08-27T21:04:11.133Z",
+    "dataColeta": "2026-08-28T21:27:42.066Z",
     "dataPostagem": "2026-08-27T10:33:11.712Z",
     "tipo": "reel",
     "pilares": [
@@ -141,7 +293,7 @@
     "cta": "📤 Envie para quem acompanha o mercado global.",
     "decisaoFormato": "peso 73: reel",
     "insights": {
-      "reach": 20,
+      "reach": 25,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -157,7 +309,7 @@
   },
   {
     "postId": "17942988948072573",
-    "dataColeta": "2026-08-27T21:04:12.045Z",
+    "dataColeta": "2026-08-28T21:27:42.852Z",
     "dataPostagem": "2026-08-26T21:32:59.834Z",
     "tipo": "reel",
     "pilares": [
@@ -188,7 +340,7 @@
   },
   {
     "postId": "17891925588417431",
-    "dataColeta": "2026-08-27T21:04:12.923Z",
+    "dataColeta": "2026-08-28T21:27:43.763Z",
     "dataPostagem": "2026-08-26T19:34:13.615Z",
     "tipo": "reel",
     "pilares": [
@@ -218,7 +370,7 @@
   },
   {
     "postId": "18193931899379392",
-    "dataColeta": "2026-08-27T21:04:13.718Z",
+    "dataColeta": "2026-08-28T21:27:44.729Z",
     "dataPostagem": "2026-08-26T16:26:02.063Z",
     "tipo": "reel",
     "pilares": [
@@ -247,7 +399,7 @@
   },
   {
     "postId": "18137340040592579",
-    "dataColeta": "2026-08-27T21:04:14.472Z",
+    "dataColeta": "2026-08-28T21:27:45.656Z",
     "dataPostagem": "2026-08-26T14:39:33.638Z",
     "tipo": "reel-studio",
     "pilares": [],
@@ -257,6 +409,36 @@
     "horarioBRT": null,
     "cta": null,
     "decisaoFormato": null,
+    "insights": {
+      "reach": 12,
+      "saved": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 1,
+      "total_interactions": 1,
+      "falhas": [
+        {
+          "metrica": "plays",
+          "erro": "Instagram respondeu 400"
+        }
+      ]
+    }
+  },
+  {
+    "postId": "17866713888642812",
+    "dataColeta": "2026-08-28T21:27:46.526Z",
+    "dataPostagem": "2026-08-26T12:33:34.562Z",
+    "tipo": "reel",
+    "pilares": [
+      "macro",
+      "bolsa"
+    ],
+    "peso": 70,
+    "fonte": "Money Times",
+    "titulo": "Bolsas da Europa operam mistas com Oriente Médio, PCE e balanço da Nvidia no radar",
+    "horarioBRT": "09",
+    "cta": "📤 Envie para quem acompanha o mercado global.",
+    "decisaoFormato": "peso 70: reel",
     "insights": {
       "reach": 11,
       "saved": 0,
@@ -273,38 +455,8 @@
     }
   },
   {
-    "postId": "17866713888642812",
-    "dataColeta": "2026-08-27T21:04:15.385Z",
-    "dataPostagem": "2026-08-26T12:33:34.562Z",
-    "tipo": "reel",
-    "pilares": [
-      "macro",
-      "bolsa"
-    ],
-    "peso": 70,
-    "fonte": "Money Times",
-    "titulo": "Bolsas da Europa operam mistas com Oriente Médio, PCE e balanço da Nvidia no radar",
-    "horarioBRT": "09",
-    "cta": "📤 Envie para quem acompanha o mercado global.",
-    "decisaoFormato": "peso 70: reel",
-    "insights": {
-      "reach": 10,
-      "saved": 0,
-      "shares": 0,
-      "comments": 0,
-      "likes": 1,
-      "total_interactions": 1,
-      "falhas": [
-        {
-          "metrica": "plays",
-          "erro": "Instagram respondeu 400"
-        }
-      ]
-    }
-  },
-  {
     "postId": "18072990332435822",
-    "dataColeta": "2026-08-27T21:04:16.221Z",
+    "dataColeta": "2026-08-28T21:27:47.476Z",
     "dataPostagem": "2026-08-25T18:33:58.480Z",
     "tipo": "reel",
     "pilares": [
@@ -318,7 +470,7 @@
     "cta": "📤 Envie para quem acompanha o mercado global.",
     "decisaoFormato": "peso 71: reel",
     "insights": {
-      "reach": 12,
+      "reach": 13,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -334,7 +486,7 @@
   },
   {
     "postId": "18276606091290400",
-    "dataColeta": "2026-08-27T21:04:16.966Z",
+    "dataColeta": "2026-08-28T21:27:48.332Z",
     "dataPostagem": "2026-08-24T22:02:47.235Z",
     "tipo": "reel",
     "pilares": [
@@ -363,7 +515,7 @@
   },
   {
     "postId": "18043358765808237",
-    "dataColeta": "2026-08-27T21:04:17.801Z",
+    "dataColeta": "2026-08-28T21:27:49.299Z",
     "dataPostagem": "2026-08-24T19:56:03.827Z",
     "tipo": "reel",
     "pilares": [
@@ -392,7 +544,7 @@
   },
   {
     "postId": "18140161762506608",
-    "dataColeta": "2026-08-27T21:04:18.543Z",
+    "dataColeta": "2026-08-28T21:27:50.147Z",
     "dataPostagem": "2026-08-24T16:33:00.212Z",
     "tipo": "reel",
     "pilares": [
@@ -406,7 +558,7 @@
     "cta": "📤 Envie para quem tem ativos dolarizados.",
     "decisaoFormato": "peso 80: reel",
     "insights": {
-      "reach": 415,
+      "reach": 416,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -422,7 +574,7 @@
   },
   {
     "postId": "18066394964582106",
-    "dataColeta": "2026-08-27T21:04:19.457Z",
+    "dataColeta": "2026-08-28T21:27:51.652Z",
     "dataPostagem": "2026-08-24T12:02:49.932Z",
     "tipo": "reel",
     "pilares": [
@@ -452,7 +604,7 @@
   },
   {
     "postId": "17894423445598182",
-    "dataColeta": "2026-08-27T21:04:20.343Z",
+    "dataColeta": "2026-08-28T21:27:52.552Z",
     "dataPostagem": "2026-08-22T12:03:15.710Z",
     "tipo": "reel",
     "pilares": [
@@ -482,7 +634,7 @@
   },
   {
     "postId": "18114228017514802",
-    "dataColeta": "2026-08-27T21:04:21.262Z",
+    "dataColeta": "2026-08-28T21:27:53.431Z",
     "dataPostagem": "2026-08-21T20:32:58.914Z",
     "tipo": "reel",
     "pilares": [
@@ -513,7 +665,7 @@
   },
   {
     "postId": "18451858954184662",
-    "dataColeta": "2026-08-27T21:04:22.098Z",
+    "dataColeta": "2026-08-28T21:27:54.406Z",
     "dataPostagem": "2026-08-21T18:33:35.215Z",
     "tipo": "reel",
     "pilares": [
@@ -526,7 +678,7 @@
     "cta": "📤 Envie para quem acompanha o mercado global.",
     "decisaoFormato": "peso 74: reel",
     "insights": {
-      "reach": 64,
+      "reach": 65,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -542,7 +694,7 @@
   },
   {
     "postId": "18055201010574764",
-    "dataColeta": "2026-08-27T21:04:22.923Z",
+    "dataColeta": "2026-08-28T21:27:55.351Z",
     "dataPostagem": "2026-08-21T05:31:30.882Z",
     "tipo": "alerta",
     "pilares": [],
@@ -569,7 +721,7 @@
   },
   {
     "postId": "18137619733599740",
-    "dataColeta": "2026-08-27T21:04:23.973Z",
+    "dataColeta": "2026-08-28T21:27:56.309Z",
     "dataPostagem": "2026-08-20T20:32:44.074Z",
     "tipo": "reel",
     "pilares": [
@@ -585,154 +737,6 @@
     "decisaoFormato": "peso 74: reel",
     "insights": {
       "reach": 9,
-      "saved": 0,
-      "shares": 0,
-      "comments": 0,
-      "likes": 1,
-      "total_interactions": 1,
-      "falhas": [
-        {
-          "metrica": "plays",
-          "erro": "Instagram respondeu 400"
-        }
-      ]
-    }
-  },
-  {
-    "postId": "18072178769717543",
-    "dataColeta": "2026-08-27T21:04:24.940Z",
-    "dataPostagem": "2026-08-20T18:38:44.083Z",
-    "tipo": "reel",
-    "pilares": [
-      "macro",
-      "bolsa"
-    ],
-    "peso": 72,
-    "fonte": "Money Times",
-    "titulo": "Mansueto faz alerta: 2027 pode ser o pior ano da economia brasileira desde a pandemia",
-    "horarioBRT": "15",
-    "cta": "📌 Salve para revisar quando o COPOM decidir.",
-    "decisaoFormato": "peso 72: reel",
-    "insights": {
-      "reach": 65,
-      "saved": 0,
-      "shares": 0,
-      "comments": 0,
-      "likes": 0,
-      "total_interactions": 0,
-      "falhas": [
-        {
-          "metrica": "plays",
-          "erro": "Instagram respondeu 400"
-        }
-      ]
-    }
-  },
-  {
-    "postId": "18114143249062739",
-    "dataColeta": "2026-08-27T21:04:25.748Z",
-    "dataPostagem": "2026-08-20T08:31:28.252Z",
-    "tipo": "alerta",
-    "pilares": [],
-    "peso": 100,
-    "fonte": "Cotação de mercado",
-    "titulo": "NOVA MÁXIMA: Bitcoin",
-    "horarioBRT": null,
-    "cta": null,
-    "decisaoFormato": null,
-    "insights": {
-      "reach": 12,
-      "saved": 0,
-      "shares": 0,
-      "comments": 0,
-      "likes": 1,
-      "total_interactions": 1,
-      "falhas": [
-        {
-          "metrica": "plays",
-          "erro": "Instagram respondeu 400"
-        }
-      ]
-    }
-  },
-  {
-    "postId": "18102113207622917",
-    "dataColeta": "2026-08-27T21:04:26.596Z",
-    "dataPostagem": "2026-08-18T22:03:45.814Z",
-    "tipo": "reel",
-    "pilares": [
-      "macro",
-      "bolsa",
-      "exterior"
-    ],
-    "peso": 71,
-    "fonte": "Money Times",
-    "titulo": "Ibovespa cai pela 11ª sessão seguida com PEC 6×1 no radar; dólar sobe",
-    "horarioBRT": "19",
-    "cta": "📤 Envie para quem tem ativos dolarizados.",
-    "decisaoFormato": "peso 71: reel",
-    "insights": {
-      "reach": 76,
-      "saved": 0,
-      "shares": 0,
-      "comments": 0,
-      "likes": 0,
-      "total_interactions": 0,
-      "falhas": [
-        {
-          "metrica": "plays",
-          "erro": "Instagram respondeu 400"
-        }
-      ]
-    }
-  },
-  {
-    "postId": "18112439575948546",
-    "dataColeta": "2026-08-27T21:04:27.485Z",
-    "dataPostagem": "2026-08-18T13:32:45.364Z",
-    "tipo": "reel",
-    "pilares": [
-      "macro",
-      "bolsa"
-    ],
-    "peso": 75,
-    "fonte": "Money Times",
-    "titulo": "Balanço dos balanços do 2T26: BTG vê temporada com receita forte, mas juros limitam avanço do lucro",
-    "horarioBRT": "10",
-    "cta": "📌 Salve para revisar quando o COPOM decidir.",
-    "decisaoFormato": "peso 75: reel",
-    "insights": {
-      "reach": 35,
-      "saved": 0,
-      "shares": 0,
-      "comments": 0,
-      "likes": 0,
-      "total_interactions": 0,
-      "falhas": [
-        {
-          "metrica": "plays",
-          "erro": "Instagram respondeu 400"
-        }
-      ]
-    }
-  },
-  {
-    "postId": "18349020988223426",
-    "dataColeta": "2026-08-27T21:04:28.512Z",
-    "dataPostagem": "2026-08-18T10:47:24.260Z",
-    "tipo": "carrossel",
-    "pilares": [
-      "macro",
-      "bolsa"
-    ],
-    "peso": 78,
-    "fonte": "Money Times",
-    "titulo": "El Niño ‘muito forte’: o que está em jogo para a safra, a inflação e os juros no Brasil",
-    "horarioBRT": "07",
-    "cta": "📌 Salve para revisar quando o COPOM decidir.",
-    "decisaoFormato": "peso 78: carrossel",
-    "insights": {
-      "reach": 23,
       "saved": 0,
       "shares": 0,
       "comments": 0,
