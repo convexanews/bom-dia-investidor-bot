@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-28T09:01:19.157Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
     "data": "2026-08-28T08:31:05.254Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (05:31 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1080,10 +1085,5 @@
     "resultado": "alerta_suprimido",
     "mensagem": "Alerta de recorde não publicado: limite diário de posts atingido.",
     "ativo": "Bitcoin"
-  },
-  {
-    "data": "2026-08-25T02:30:55.466Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (23:30 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
