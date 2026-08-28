@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-28T18:01:07.991Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 3 min."
+  },
+  {
     "data": "2026-08-28T17:31:05.626Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 33 min."
@@ -1088,11 +1093,5 @@
     "mensagem": "Story publicado (peso 35): \"Queda de 48% da Rocket Lab valida alerta de sobrevalorização do InvestingPro\".",
     "postId": "18366500461215154",
     "peso": 35
-  },
-  {
-    "data": "2026-08-25T11:25:18.287Z",
-    "resultado": "story_sem_imagem",
-    "mensagem": "Story publicado sem imagem editorial: \"Queda de 48% da Rocket Lab valida alerta de sobrevalorização do InvestingPro\".",
-    "link": "https://br.investing.com/news/investment-ideas/queda-de-48-da-rocket-lab-valida-alerta-de-sobrevalorizacao-do-investingpro-93CH-2048589"
   }
 ]
