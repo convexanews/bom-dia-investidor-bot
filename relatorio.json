@@ -1,5 +1,34 @@
 [
   {
+    "data": "2026-08-28T09:33:59.857Z",
+    "titulo": "Kevin Warsh discursa em Jackson Hole, Caged, IGP-M e mais destaques desta sexta-feira",
+    "categoria": "Mercados",
+    "fonte": "InfoMoney",
+    "link": "https://www.infomoney.com.br/mercados/kevin-warsh-jackson-hole-caged-igp-m-agenda-28082026/",
+    "postId": "18372136063300767",
+    "storyId": null,
+    "reelId": "18372136063300767",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1787909462321.mp4",
+    "tipo": "reel",
+    "peso": 80,
+    "pilares": [
+      "macro",
+      "bolsa",
+      "exterior"
+    ],
+    "horarioBRT": "06",
+    "cta": null,
+    "decisaoFormato": "peso 80: reel; Studio Engine 100/100",
+    "studioQuality": {
+      "approved": true,
+      "score": 100,
+      "blockers": [],
+      "warnings": []
+    }
+  },
+  {
     "data": "2026-08-27T21:03:46.564Z",
     "titulo": "Wall Street sobe com Nvidia (NVDA) puxando o setor de semicondutores; Nasdaq salta 1,5%",
     "categoria": "Mercados",
@@ -3431,20 +3460,5 @@
     "videoUrl": null,
     "tipo": "carrossel",
     "peso": 3
-  },
-  {
-    "data": "2026-07-12T19:02:18.058Z",
-    "titulo": "Eleições nacionais em Israel serão realizadas em 27 de outubro, diz líder da coalizão",
-    "categoria": "Mundo",
-    "fonte": "InfoMoney",
-    "link": "https://www.infomoney.com.br/mundo/eleicoes-nacionais-em-israel-serao-realizadas-em-27-de-outubro-diz-lider-da-coalizao/",
-    "postId": "18101975624266916",
-    "storyId": "18187601989385938",
-    "reelId": null,
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783882891682-feed.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783882891682-story.png",
-    "videoUrl": null,
-    "tipo": "card",
-    "peso": 14
   }
 ]

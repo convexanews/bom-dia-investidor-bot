@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-08-28T09:33:59.859Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Kevin Warsh discursa em Jackson Hole, Caged, IGP-M e mais destaques desta sexta-feira\".",
+    "postId": "18372136063300767",
+    "storyId": null,
+    "reelId": "18372136063300767",
+    "tipo": "reel",
+    "studioQuality": 100
+  },
+  {
+    "data": "2026-08-28T09:30:58.139Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 80): \"Kevin Warsh discursa em Jackson Hole, Caged, IGP-M e mais destaques desta sexta-feira\". Realizando postagem..."
+  },
+  {
     "data": "2026-08-28T09:01:19.157Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1074,16 +1089,5 @@
     "data": "2026-08-25T03:31:10.284Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (00:31 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-08-25T03:01:00.743Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (00:01 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-08-25T02:30:57.175Z",
-    "resultado": "alerta_suprimido",
-    "mensagem": "Alerta de recorde não publicado: limite diário de posts atingido.",
-    "ativo": "Bitcoin"
   }
 ]
