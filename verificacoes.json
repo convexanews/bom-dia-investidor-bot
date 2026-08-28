@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-28T17:31:05.626Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 33 min."
+  },
+  {
     "data": "2026-08-28T17:00:59.956Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 63 min."
@@ -1089,11 +1094,5 @@
     "resultado": "story_sem_imagem",
     "mensagem": "Story publicado sem imagem editorial: \"Queda de 48% da Rocket Lab valida alerta de sobrevalorização do InvestingPro\".",
     "link": "https://br.investing.com/news/investment-ideas/queda-de-48-da-rocket-lab-valida-alerta-de-sobrevalorizacao-do-investingpro-93CH-2048589"
-  },
-  {
-    "data": "2026-08-25T11:01:49.962Z",
-    "resultado": "pauta_reprovada",
-    "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
-    "titulo": "Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta terça"
   }
 ]
