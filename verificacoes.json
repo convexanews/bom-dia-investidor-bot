@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-29T20:31:09.491Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
     "data": "2026-08-29T20:01:08.169Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1075,12 +1080,5 @@
     "resultado": "pauta_reprovada",
     "mensagem": "Notícia não publicada: manchete longa demais para caber completa no card.",
     "titulo": "Mercados tentam se acomodar antes dos dados de inflação e balanço da Nvidia (NVDA); Ibovespa em dólar sobe nesta quarta-feira (26)"
-  },
-  {
-    "data": "2026-08-26T11:28:33.664Z",
-    "resultado": "story_noticia_postado",
-    "mensagem": "Story publicado (peso 68): \"Juros, inflação e Treasuries: Primeiro Jackson Hole de Warsh testa credibilidade do Fed\".",
-    "postId": "18124868012506783",
-    "peso": 68
   }
 ]
