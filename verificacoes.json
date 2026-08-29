@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-29T17:31:14.368Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
     "data": "2026-08-29T17:01:21.714Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1084,10 +1089,5 @@
     "resultado": "pauta_reprovada",
     "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
     "titulo": "IPCA-15, inflação PCE, balanço da Nvidia e mais destaques desta quarta-feira"
-  },
-  {
-    "data": "2026-08-26T08:32:15.297Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (05:32 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
