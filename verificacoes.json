@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-29T01:01:04.102Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 63 min."
+  },
+  {
     "data": "2026-08-29T00:33:49.931Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Ibovespa engata 8ª alta consecutiva e avança quase 3% na semana; dólar sobe a R$ 5,19\".",
@@ -1092,10 +1097,5 @@
     "data": "2026-08-25T18:32:15.463Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 71): \"Ouro tem leve queda com pausa em escalada dos Treasuries e à espera de dados de inflação\". Realizando postagem..."
-  },
-  {
-    "data": "2026-08-25T18:01:18.742Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }
 ]
