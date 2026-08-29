@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-29T04:31:08.931Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (01:31 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-08-29T04:01:09.037Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (01:01 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1088,10 +1093,5 @@
     "mensagem": "Story publicado (peso 67): \"Ibovespa avança 1% e tem 5ª alta seguida com retorno do apetite a risco; dólar cai a R$ 5,14\".",
     "postId": "18068733770729842",
     "peso": 67
-  },
-  {
-    "data": "2026-08-25T21:01:50.407Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }
 ]
