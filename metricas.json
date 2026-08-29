@@ -1,22 +1,22 @@
 [
   {
-    "postId": "18124524241697347",
-    "dataColeta": "2026-08-28T21:27:33.802Z",
-    "dataPostagem": "2026-08-28T20:33:26.508Z",
+    "postId": "17946523722271115",
+    "dataColeta": "2026-08-29T15:40:48.969Z",
+    "dataPostagem": "2026-08-29T00:33:49.928Z",
     "tipo": "reel",
     "pilares": [
       "macro",
       "bolsa",
       "exterior"
     ],
-    "peso": 85,
+    "peso": 77,
     "fonte": "Money Times",
-    "titulo": "Wall Street recua após discurso de Warsh em Jackson Hole",
-    "horarioBRT": "17",
+    "titulo": "Ibovespa engata 8ª alta consecutiva e avança quase 3% na semana; dólar sobe a R$ 5,19",
+    "horarioBRT": "21",
     "cta": null,
-    "decisaoFormato": "peso 85: reel; Studio Engine 100/100",
+    "decisaoFormato": "peso 77: reel; Studio Engine 100/100",
     "insights": {
-      "reach": 2,
+      "reach": 9,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -31,8 +31,70 @@
     }
   },
   {
+    "postId": "18112527307822831",
+    "dataColeta": "2026-08-29T15:40:49.880Z",
+    "dataPostagem": "2026-08-28T22:33:36.821Z",
+    "tipo": "reel",
+    "pilares": [
+      "macro",
+      "bolsa",
+      "exterior"
+    ],
+    "peso": 77,
+    "fonte": "InfoMoney",
+    "titulo": "S&P e Nasdaq fecham em baixa após chair do Fed reafirmar combate à inflação",
+    "horarioBRT": "19",
+    "cta": null,
+    "decisaoFormato": "peso 77: reel; Studio Engine 100/100",
+    "insights": {
+      "reach": 15,
+      "saved": 1,
+      "shares": 0,
+      "comments": 0,
+      "likes": 1,
+      "total_interactions": 2,
+      "falhas": [
+        {
+          "metrica": "plays",
+          "erro": "Instagram respondeu 400"
+        }
+      ]
+    }
+  },
+  {
+    "postId": "18124524241697347",
+    "dataColeta": "2026-08-29T15:40:50.702Z",
+    "dataPostagem": "2026-08-28T20:33:26.508Z",
+    "tipo": "reel",
+    "pilares": [
+      "macro",
+      "bolsa",
+      "exterior"
+    ],
+    "peso": 85,
+    "fonte": "Money Times",
+    "titulo": "Wall Street recua após discurso de Warsh em Jackson Hole",
+    "horarioBRT": "17",
+    "cta": null,
+    "decisaoFormato": "peso 85: reel; Studio Engine 100/100",
+    "insights": {
+      "reach": 8,
+      "saved": 1,
+      "shares": 0,
+      "comments": 0,
+      "likes": 1,
+      "total_interactions": 2,
+      "falhas": [
+        {
+          "metrica": "plays",
+          "erro": "Instagram respondeu 400"
+        }
+      ]
+    }
+  },
+  {
     "postId": "18620874430008518",
-    "dataColeta": "2026-08-28T21:27:34.680Z",
+    "dataColeta": "2026-08-29T15:40:51.535Z",
     "dataPostagem": "2026-08-28T18:34:33.770Z",
     "tipo": "reel",
     "pilares": [
@@ -46,7 +108,7 @@
     "cta": null,
     "decisaoFormato": "peso 80: reel; Studio Engine 100/100",
     "insights": {
-      "reach": 5,
+      "reach": 11,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -62,7 +124,7 @@
   },
   {
     "postId": "18105067799585005",
-    "dataColeta": "2026-08-28T21:27:35.528Z",
+    "dataColeta": "2026-08-29T15:40:52.361Z",
     "dataPostagem": "2026-08-28T16:33:46.838Z",
     "tipo": "reel",
     "pilares": [
@@ -75,6 +137,36 @@
     "horarioBRT": "13",
     "cta": null,
     "decisaoFormato": "peso 75: reel; Studio Engine 100/100",
+    "insights": {
+      "reach": 10,
+      "saved": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "total_interactions": 0,
+      "falhas": [
+        {
+          "metrica": "plays",
+          "erro": "Instagram respondeu 400"
+        }
+      ]
+    }
+  },
+  {
+    "postId": "18027429152890937",
+    "dataColeta": "2026-08-29T15:40:53.233Z",
+    "dataPostagem": "2026-08-28T14:33:33.561Z",
+    "tipo": "reel",
+    "pilares": [
+      "macro",
+      "exterior"
+    ],
+    "peso": 82,
+    "fonte": "Money Times",
+    "titulo": "Wall Street abre sem direção com as atenções em Warsh",
+    "horarioBRT": "11",
+    "cta": null,
+    "decisaoFormato": "peso 82: reel; Studio Engine 100/100",
     "insights": {
       "reach": 7,
       "saved": 0,
@@ -91,38 +183,8 @@
     }
   },
   {
-    "postId": "18027429152890937",
-    "dataColeta": "2026-08-28T21:27:36.352Z",
-    "dataPostagem": "2026-08-28T14:33:33.561Z",
-    "tipo": "reel",
-    "pilares": [
-      "macro",
-      "exterior"
-    ],
-    "peso": 82,
-    "fonte": "Money Times",
-    "titulo": "Wall Street abre sem direção com as atenções em Warsh",
-    "horarioBRT": "11",
-    "cta": null,
-    "decisaoFormato": "peso 82: reel; Studio Engine 100/100",
-    "insights": {
-      "reach": 6,
-      "saved": 0,
-      "shares": 0,
-      "comments": 0,
-      "likes": 0,
-      "total_interactions": 0,
-      "falhas": [
-        {
-          "metrica": "plays",
-          "erro": "Instagram respondeu 400"
-        }
-      ]
-    }
-  },
-  {
     "postId": "18372136063300767",
-    "dataColeta": "2026-08-28T21:27:37.200Z",
+    "dataColeta": "2026-08-29T15:40:54.080Z",
     "dataPostagem": "2026-08-28T09:33:59.857Z",
     "tipo": "reel",
     "pilares": [
@@ -137,7 +199,7 @@
     "cta": null,
     "decisaoFormato": "peso 80: reel; Studio Engine 100/100",
     "insights": {
-      "reach": 6,
+      "reach": 9,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -153,7 +215,7 @@
   },
   {
     "postId": "18074479556406558",
-    "dataColeta": "2026-08-28T21:27:38.266Z",
+    "dataColeta": "2026-08-29T15:40:54.911Z",
     "dataPostagem": "2026-08-27T21:03:46.564Z",
     "tipo": "reel",
     "pilares": [
@@ -168,7 +230,7 @@
     "cta": null,
     "decisaoFormato": "peso 81: reel; Studio Engine 100/100",
     "insights": {
-      "reach": 9,
+      "reach": 10,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -184,7 +246,7 @@
   },
   {
     "postId": "18115913912075222",
-    "dataColeta": "2026-08-28T21:27:39.317Z",
+    "dataColeta": "2026-08-29T15:40:55.731Z",
     "dataPostagem": "2026-08-27T19:28:54.640Z",
     "tipo": "reel",
     "pilares": [
@@ -198,7 +260,7 @@
     "cta": null,
     "decisaoFormato": "peso 70: reel; Studio Engine 100/100",
     "insights": {
-      "reach": 9,
+      "reach": 11,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -214,7 +276,7 @@
   },
   {
     "postId": "18110217500026590",
-    "dataColeta": "2026-08-28T21:27:40.200Z",
+    "dataColeta": "2026-08-29T15:40:56.556Z",
     "dataPostagem": "2026-08-27T17:03:04.268Z",
     "tipo": "reel",
     "pilares": [
@@ -229,7 +291,7 @@
     "cta": null,
     "decisaoFormato": "peso 73: reel; Studio Engine 100/100",
     "insights": {
-      "reach": 5,
+      "reach": 6,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -245,7 +307,7 @@
   },
   {
     "postId": "18077260973348361",
-    "dataColeta": "2026-08-28T21:27:41.107Z",
+    "dataColeta": "2026-08-29T15:40:57.432Z",
     "dataPostagem": "2026-08-27T14:32:52.258Z",
     "tipo": "reel",
     "pilares": [
@@ -259,100 +321,6 @@
     "horarioBRT": "11",
     "cta": "📤 Envie para quem acompanha o mercado global.",
     "decisaoFormato": "peso 78: reel",
-    "insights": {
-      "reach": 14,
-      "saved": 0,
-      "shares": 0,
-      "comments": 0,
-      "likes": 1,
-      "total_interactions": 1,
-      "falhas": [
-        {
-          "metrica": "plays",
-          "erro": "Instagram respondeu 400"
-        }
-      ]
-    }
-  },
-  {
-    "postId": "18160557883487544",
-    "dataColeta": "2026-08-28T21:27:42.066Z",
-    "dataPostagem": "2026-08-27T10:33:11.712Z",
-    "tipo": "reel",
-    "pilares": [
-      "macro",
-      "bolsa",
-      "fiis",
-      "cripto",
-      "exterior"
-    ],
-    "peso": 73,
-    "fonte": "Money Times",
-    "titulo": "Nvidia embala Wall Street antes de Jackson Hole; Ibovespa em dólar sobe nesta quinta-feira (27)",
-    "horarioBRT": "07",
-    "cta": "📤 Envie para quem acompanha o mercado global.",
-    "decisaoFormato": "peso 73: reel",
-    "insights": {
-      "reach": 25,
-      "saved": 0,
-      "shares": 0,
-      "comments": 0,
-      "likes": 1,
-      "total_interactions": 1,
-      "falhas": [
-        {
-          "metrica": "plays",
-          "erro": "Instagram respondeu 400"
-        }
-      ]
-    }
-  },
-  {
-    "postId": "17942988948072573",
-    "dataColeta": "2026-08-28T21:27:42.852Z",
-    "dataPostagem": "2026-08-26T21:32:59.834Z",
-    "tipo": "reel",
-    "pilares": [
-      "macro",
-      "bolsa",
-      "exterior"
-    ],
-    "peso": 92,
-    "fonte": "Money Times",
-    "titulo": "Wall Street fecham no vermelho com inflação acima do esperado e à espera de Nvidia (NVDA)",
-    "horarioBRT": "18",
-    "cta": "📤 Envie para quem acompanha o mercado global.",
-    "decisaoFormato": "peso 92: reel",
-    "insights": {
-      "reach": 13,
-      "saved": 0,
-      "shares": 0,
-      "comments": 0,
-      "likes": 0,
-      "total_interactions": 0,
-      "falhas": [
-        {
-          "metrica": "plays",
-          "erro": "Instagram respondeu 400"
-        }
-      ]
-    }
-  },
-  {
-    "postId": "17891925588417431",
-    "dataColeta": "2026-08-28T21:27:43.763Z",
-    "dataPostagem": "2026-08-26T19:34:13.615Z",
-    "tipo": "reel",
-    "pilares": [
-      "macro",
-      "bolsa"
-    ],
-    "peso": 77,
-    "fonte": "Money Times",
-    "titulo": "Ouro recua com fortalecimento do dólar e avanço dos Treasuries após inflação dos EUA",
-    "horarioBRT": "16",
-    "cta": "📤 Envie para quem acompanha o mercado global.",
-    "decisaoFormato": "peso 77: reel",
     "insights": {
       "reach": 16,
       "saved": 0,
@@ -369,8 +337,102 @@
     }
   },
   {
+    "postId": "18160557883487544",
+    "dataColeta": "2026-08-29T15:40:58.193Z",
+    "dataPostagem": "2026-08-27T10:33:11.712Z",
+    "tipo": "reel",
+    "pilares": [
+      "macro",
+      "bolsa",
+      "fiis",
+      "cripto",
+      "exterior"
+    ],
+    "peso": 73,
+    "fonte": "Money Times",
+    "titulo": "Nvidia embala Wall Street antes de Jackson Hole; Ibovespa em dólar sobe nesta quinta-feira (27)",
+    "horarioBRT": "07",
+    "cta": "📤 Envie para quem acompanha o mercado global.",
+    "decisaoFormato": "peso 73: reel",
+    "insights": {
+      "reach": 26,
+      "saved": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 1,
+      "total_interactions": 1,
+      "falhas": [
+        {
+          "metrica": "plays",
+          "erro": "Instagram respondeu 400"
+        }
+      ]
+    }
+  },
+  {
+    "postId": "17942988948072573",
+    "dataColeta": "2026-08-29T15:40:59.046Z",
+    "dataPostagem": "2026-08-26T21:32:59.834Z",
+    "tipo": "reel",
+    "pilares": [
+      "macro",
+      "bolsa",
+      "exterior"
+    ],
+    "peso": 92,
+    "fonte": "Money Times",
+    "titulo": "Wall Street fecham no vermelho com inflação acima do esperado e à espera de Nvidia (NVDA)",
+    "horarioBRT": "18",
+    "cta": "📤 Envie para quem acompanha o mercado global.",
+    "decisaoFormato": "peso 92: reel",
+    "insights": {
+      "reach": 14,
+      "saved": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "total_interactions": 0,
+      "falhas": [
+        {
+          "metrica": "plays",
+          "erro": "Instagram respondeu 400"
+        }
+      ]
+    }
+  },
+  {
+    "postId": "17891925588417431",
+    "dataColeta": "2026-08-29T15:40:59.931Z",
+    "dataPostagem": "2026-08-26T19:34:13.615Z",
+    "tipo": "reel",
+    "pilares": [
+      "macro",
+      "bolsa"
+    ],
+    "peso": 77,
+    "fonte": "Money Times",
+    "titulo": "Ouro recua com fortalecimento do dólar e avanço dos Treasuries após inflação dos EUA",
+    "horarioBRT": "16",
+    "cta": "📤 Envie para quem acompanha o mercado global.",
+    "decisaoFormato": "peso 77: reel",
+    "insights": {
+      "reach": 18,
+      "saved": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 1,
+      "total_interactions": 1,
+      "falhas": [
+        {
+          "metrica": "plays",
+          "erro": "Instagram respondeu 400"
+        }
+      ]
+    }
+  },
+  {
     "postId": "18193931899379392",
-    "dataColeta": "2026-08-28T21:27:44.729Z",
+    "dataColeta": "2026-08-29T15:41:00.782Z",
     "dataPostagem": "2026-08-26T16:26:02.063Z",
     "tipo": "reel",
     "pilares": [
@@ -383,7 +445,7 @@
     "cta": "📤 Envie para quem está investindo e precisa ver isso.",
     "decisaoFormato": "peso 70: reel",
     "insights": {
-      "reach": 11,
+      "reach": 12,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -399,7 +461,7 @@
   },
   {
     "postId": "18137340040592579",
-    "dataColeta": "2026-08-28T21:27:45.656Z",
+    "dataColeta": "2026-08-29T15:41:01.552Z",
     "dataPostagem": "2026-08-26T14:39:33.638Z",
     "tipo": "reel-studio",
     "pilares": [],
@@ -409,6 +471,36 @@
     "horarioBRT": null,
     "cta": null,
     "decisaoFormato": null,
+    "insights": {
+      "reach": 13,
+      "saved": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 1,
+      "total_interactions": 1,
+      "falhas": [
+        {
+          "metrica": "plays",
+          "erro": "Instagram respondeu 400"
+        }
+      ]
+    }
+  },
+  {
+    "postId": "17866713888642812",
+    "dataColeta": "2026-08-29T15:41:02.346Z",
+    "dataPostagem": "2026-08-26T12:33:34.562Z",
+    "tipo": "reel",
+    "pilares": [
+      "macro",
+      "bolsa"
+    ],
+    "peso": 70,
+    "fonte": "Money Times",
+    "titulo": "Bolsas da Europa operam mistas com Oriente Médio, PCE e balanço da Nvidia no radar",
+    "horarioBRT": "09",
+    "cta": "📤 Envie para quem acompanha o mercado global.",
+    "decisaoFormato": "peso 70: reel",
     "insights": {
       "reach": 12,
       "saved": 0,
@@ -425,38 +517,8 @@
     }
   },
   {
-    "postId": "17866713888642812",
-    "dataColeta": "2026-08-28T21:27:46.526Z",
-    "dataPostagem": "2026-08-26T12:33:34.562Z",
-    "tipo": "reel",
-    "pilares": [
-      "macro",
-      "bolsa"
-    ],
-    "peso": 70,
-    "fonte": "Money Times",
-    "titulo": "Bolsas da Europa operam mistas com Oriente Médio, PCE e balanço da Nvidia no radar",
-    "horarioBRT": "09",
-    "cta": "📤 Envie para quem acompanha o mercado global.",
-    "decisaoFormato": "peso 70: reel",
-    "insights": {
-      "reach": 11,
-      "saved": 0,
-      "shares": 0,
-      "comments": 0,
-      "likes": 1,
-      "total_interactions": 1,
-      "falhas": [
-        {
-          "metrica": "plays",
-          "erro": "Instagram respondeu 400"
-        }
-      ]
-    }
-  },
-  {
     "postId": "18072990332435822",
-    "dataColeta": "2026-08-28T21:27:47.476Z",
+    "dataColeta": "2026-08-29T15:41:03.141Z",
     "dataPostagem": "2026-08-25T18:33:58.480Z",
     "tipo": "reel",
     "pilares": [
@@ -470,7 +532,7 @@
     "cta": "📤 Envie para quem acompanha o mercado global.",
     "decisaoFormato": "peso 71: reel",
     "insights": {
-      "reach": 13,
+      "reach": 15,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -486,7 +548,7 @@
   },
   {
     "postId": "18276606091290400",
-    "dataColeta": "2026-08-28T21:27:48.332Z",
+    "dataColeta": "2026-08-29T15:41:03.959Z",
     "dataPostagem": "2026-08-24T22:02:47.235Z",
     "tipo": "reel",
     "pilares": [
@@ -499,7 +561,7 @@
     "cta": "📤 Envie para quem está investindo e precisa ver isso.",
     "decisaoFormato": "peso 74: reel",
     "insights": {
-      "reach": 17,
+      "reach": 19,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -515,7 +577,7 @@
   },
   {
     "postId": "18043358765808237",
-    "dataColeta": "2026-08-28T21:27:49.299Z",
+    "dataColeta": "2026-08-29T15:41:04.899Z",
     "dataPostagem": "2026-08-24T19:56:03.827Z",
     "tipo": "reel",
     "pilares": [
@@ -544,7 +606,7 @@
   },
   {
     "postId": "18140161762506608",
-    "dataColeta": "2026-08-28T21:27:50.147Z",
+    "dataColeta": "2026-08-29T15:41:05.672Z",
     "dataPostagem": "2026-08-24T16:33:00.212Z",
     "tipo": "reel",
     "pilares": [
@@ -574,7 +636,7 @@
   },
   {
     "postId": "18066394964582106",
-    "dataColeta": "2026-08-28T21:27:51.652Z",
+    "dataColeta": "2026-08-29T15:41:06.421Z",
     "dataPostagem": "2026-08-24T12:02:49.932Z",
     "tipo": "reel",
     "pilares": [
@@ -604,7 +666,7 @@
   },
   {
     "postId": "17894423445598182",
-    "dataColeta": "2026-08-28T21:27:52.552Z",
+    "dataColeta": "2026-08-29T15:41:07.323Z",
     "dataPostagem": "2026-08-22T12:03:15.710Z",
     "tipo": "reel",
     "pilares": [
@@ -634,7 +696,7 @@
   },
   {
     "postId": "18114228017514802",
-    "dataColeta": "2026-08-28T21:27:53.431Z",
+    "dataColeta": "2026-08-29T15:41:08.292Z",
     "dataPostagem": "2026-08-21T20:32:58.914Z",
     "tipo": "reel",
     "pilares": [
@@ -665,7 +727,7 @@
   },
   {
     "postId": "18451858954184662",
-    "dataColeta": "2026-08-28T21:27:54.406Z",
+    "dataColeta": "2026-08-29T15:41:09.051Z",
     "dataPostagem": "2026-08-21T18:33:35.215Z",
     "tipo": "reel",
     "pilares": [
@@ -684,64 +746,6 @@
       "comments": 0,
       "likes": 0,
       "total_interactions": 0,
-      "falhas": [
-        {
-          "metrica": "plays",
-          "erro": "Instagram respondeu 400"
-        }
-      ]
-    }
-  },
-  {
-    "postId": "18055201010574764",
-    "dataColeta": "2026-08-28T21:27:55.351Z",
-    "dataPostagem": "2026-08-21T05:31:30.882Z",
-    "tipo": "alerta",
-    "pilares": [],
-    "peso": 100,
-    "fonte": "Cotação de mercado",
-    "titulo": "NOVA MÁXIMA: Bitcoin",
-    "horarioBRT": null,
-    "cta": null,
-    "decisaoFormato": null,
-    "insights": {
-      "reach": 13,
-      "saved": 0,
-      "shares": 0,
-      "comments": 0,
-      "likes": 0,
-      "total_interactions": 0,
-      "falhas": [
-        {
-          "metrica": "plays",
-          "erro": "Instagram respondeu 400"
-        }
-      ]
-    }
-  },
-  {
-    "postId": "18137619733599740",
-    "dataColeta": "2026-08-28T21:27:56.309Z",
-    "dataPostagem": "2026-08-20T20:32:44.074Z",
-    "tipo": "reel",
-    "pilares": [
-      "macro",
-      "bolsa",
-      "exterior"
-    ],
-    "peso": 74,
-    "fonte": "Money Times",
-    "titulo": "Ibovespa fecha próximo da estabilidade com apoio de Petrobras (PETR4); dólar sobe",
-    "horarioBRT": "17",
-    "cta": "📌 Salve para revisar quando o COPOM decidir.",
-    "decisaoFormato": "peso 74: reel",
-    "insights": {
-      "reach": 9,
-      "saved": 0,
-      "shares": 0,
-      "comments": 0,
-      "likes": 1,
-      "total_interactions": 1,
       "falhas": [
         {
           "metrica": "plays",
