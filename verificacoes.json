@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-29T08:01:14.889Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (05:01 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-08-29T07:30:53.790Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (04:30 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1086,10 +1091,5 @@
     "mensagem": "Story publicado (peso 61): \"Ibovespa dispara 1,55% e volta aos 174 mil pontos com Vale (VALE3) e bancos\".",
     "postId": "18458090257141412",
     "peso": 61
-  },
-  {
-    "data": "2026-08-25T23:01:04.549Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }
 ]
