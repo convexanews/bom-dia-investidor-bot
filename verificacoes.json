@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-29T19:28:22.591Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
     "data": "2026-08-29T19:01:27.587Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1079,11 +1084,5 @@
     "resultado": "pauta_reprovada",
     "mensagem": "Notícia não publicada: manchete longa demais para caber completa no card.",
     "titulo": "Mercados tentam se acomodar antes dos dados de inflação e balanço da Nvidia (NVDA); Ibovespa em dólar sobe nesta quarta-feira (26)"
-  },
-  {
-    "data": "2026-08-26T10:31:19.007Z",
-    "resultado": "pauta_reprovada",
-    "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
-    "titulo": "IPCA-15, inflação PCE, balanço da Nvidia e mais destaques desta quarta-feira"
   }
 ]
