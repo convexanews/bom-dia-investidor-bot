@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-29T02:01:20.852Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (23:01 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-08-29T01:30:58.119Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 33 min."
@@ -1088,14 +1093,5 @@
     "data": "2026-08-25T18:37:27.110Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 87 min."
-  },
-  {
-    "data": "2026-08-25T18:33:58.482Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"Ouro tem leve queda com pausa em escalada dos Treasuries e à espera de dados de inflação\".",
-    "postId": "18072990332435822",
-    "storyId": null,
-    "reelId": "18072990332435822",
-    "tipo": "reel"
   }
 ]
