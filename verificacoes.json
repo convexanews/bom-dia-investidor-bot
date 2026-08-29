@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-29T18:01:11.362Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
     "data": "2026-08-29T17:31:14.368Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1080,12 +1085,6 @@
   },
   {
     "data": "2026-08-26T09:31:06.929Z",
-    "resultado": "pauta_reprovada",
-    "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
-    "titulo": "IPCA-15, inflação PCE, balanço da Nvidia e mais destaques desta quarta-feira"
-  },
-  {
-    "data": "2026-08-26T09:01:05.618Z",
     "resultado": "pauta_reprovada",
     "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
     "titulo": "IPCA-15, inflação PCE, balanço da Nvidia e mais destaques desta quarta-feira"
