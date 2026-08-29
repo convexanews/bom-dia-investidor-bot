@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-29T21:53:59.249Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
     "data": "2026-08-29T21:30:56.012Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1073,10 +1078,5 @@
     "storyId": null,
     "reelId": "17866713888642812",
     "tipo": "reel"
-  },
-  {
-    "data": "2026-08-26T12:31:27.409Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 70): \"Bolsas da Europa operam mistas com Oriente Médio, PCE e balanço da Nvidia no radar\". Realizando postagem..."
   }
 ]
