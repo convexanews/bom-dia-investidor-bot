@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-30T06:01:08.805Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (03:01 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-08-30T05:31:03.101Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (02:31 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1063,10 +1068,5 @@
     "storyId": null,
     "reelId": "17891925588417431",
     "tipo": "reel"
-  },
-  {
-    "data": "2026-08-26T19:32:23.605Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 77): \"Ouro recua com fortalecimento do dólar e avanço dos Treasuries após inflação dos EUA\". Realizando postagem..."
   }
 ]
