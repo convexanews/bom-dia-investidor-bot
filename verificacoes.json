@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-30T01:30:55.521Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
     "data": "2026-08-30T01:01:02.272Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1069,10 +1074,5 @@
     "storyId": null,
     "reelId": "18193931899379392",
     "tipo": "reel"
-  },
-  {
-    "data": "2026-08-26T16:24:15.788Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 70): \"O que fez a Oncoclínicas (ONCO3) disparar até 28% hoje (26)?\". Realizando postagem..."
   }
 ]
