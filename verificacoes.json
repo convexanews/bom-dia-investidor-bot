@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-30T21:57:59.695Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
     "data": "2026-08-30T21:31:21.426Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1056,10 +1061,5 @@
     "storyId": null,
     "reelId": "18160557883487544",
     "tipo": "reel"
-  },
-  {
-    "data": "2026-08-27T10:31:13.348Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 73): \"Nvidia embala Wall Street antes de Jackson Hole; Ibovespa em dólar sobe nesta quinta-feira (27)\". Realizando postagem..."
   }
 ]
