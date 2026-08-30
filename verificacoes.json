@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-30T22:01:15.988Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
     "data": "2026-08-30T21:57:59.695Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1052,14 +1057,5 @@
     "data": "2026-08-27T11:01:11.626Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 63 min."
-  },
-  {
-    "data": "2026-08-27T10:33:11.714Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"Nvidia embala Wall Street antes de Jackson Hole; Ibovespa em dólar sobe nesta quinta-feira (27)\".",
-    "postId": "18160557883487544",
-    "storyId": null,
-    "reelId": "18160557883487544",
-    "tipo": "reel"
   }
 ]
