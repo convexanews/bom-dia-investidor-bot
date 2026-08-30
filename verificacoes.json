@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-30T02:01:09.576Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (23:01 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-08-30T01:30:55.521Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1065,14 +1070,5 @@
     "mensagem": "Story publicado (peso 61): \"Inflação nos EUA acelera e divide apostas sobre alta de juros em setembro\".",
     "postId": "18145184860520169",
     "peso": 61
-  },
-  {
-    "data": "2026-08-26T16:26:02.065Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"O que fez a Oncoclínicas (ONCO3) disparar até 28% hoje (26)?\".",
-    "postId": "18193931899379392",
-    "storyId": null,
-    "reelId": "18193931899379392",
-    "tipo": "reel"
   }
 ]
