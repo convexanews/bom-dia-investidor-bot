@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-08-30T13:34:19.315Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Selic pode ir de 9,75% a 15,5% após as eleições, diz Morgan Stanley\".",
+    "postId": "18068026070780872",
+    "storyId": null,
+    "reelId": "18068026070780872",
+    "tipo": "reel",
+    "studioQuality": 100
+  },
+  {
+    "data": "2026-08-30T13:31:02.445Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 75): \"Selic pode ir de 9,75% a 15,5% após as eleições, diz Morgan Stanley\". Realizando postagem..."
+  },
+  {
     "data": "2026-08-30T13:01:10.798Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1046,16 +1061,6 @@
   },
   {
     "data": "2026-08-27T01:01:10.053Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-08-27T00:31:05.415Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-08-27T00:29:19.524Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }

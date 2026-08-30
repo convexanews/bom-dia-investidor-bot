@@ -1,5 +1,33 @@
 [
   {
+    "data": "2026-08-30T13:34:19.314Z",
+    "titulo": "Selic pode ir de 9,75% a 15,5% após as eleições, diz Morgan Stanley",
+    "categoria": "Economia",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/selic-pode-ir-de-975-a-155-apos-as-eleicoes-diz-morgan-stanley-jcav/",
+    "postId": "18068026070780872",
+    "storyId": null,
+    "reelId": "18068026070780872",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1788096668636.mp4",
+    "tipo": "reel",
+    "peso": 75,
+    "pilares": [
+      "macro",
+      "bolsa"
+    ],
+    "horarioBRT": "10",
+    "cta": null,
+    "decisaoFormato": "peso 75: reel; Studio Engine 100/100",
+    "studioQuality": {
+      "approved": true,
+      "score": 100,
+      "blockers": [],
+      "warnings": []
+    }
+  },
+  {
     "data": "2026-08-29T00:33:49.928Z",
     "titulo": "Ibovespa engata 8ª alta consecutiva e avança quase 3% na semana; dólar sobe a R$ 5,19",
     "categoria": "Mercados",
@@ -3526,20 +3554,5 @@
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783974703489.mp4",
     "tipo": "reel",
     "peso": 93
-  },
-  {
-    "data": "2026-07-13T18:19:48.208Z",
-    "titulo": "Alívio com inflação X tensão com Ormuz: o que deve prevalecer para Ibovespa e dólar?",
-    "categoria": "Mercados",
-    "fonte": "InfoMoney",
-    "link": "https://www.infomoney.com.br/mercados/alivio-com-inflacao-x-tensao-com-ormuz-o-que-deve-prevalecer-para-ibovespa-e-dolar/",
-    "postId": "18345019159220082",
-    "storyId": null,
-    "reelId": "18345019159220082",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783966702605.mp4",
-    "tipo": "reel",
-    "peso": 95
   }
 ]
