@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-30T02:31:06.909Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (23:31 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-08-30T02:01:09.576Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (23:01 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1063,12 +1068,5 @@
     "data": "2026-08-26T16:51:57.222Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 65 min."
-  },
-  {
-    "data": "2026-08-26T16:47:43.714Z",
-    "resultado": "story_noticia_postado",
-    "mensagem": "Story publicado (peso 61): \"Inflação nos EUA acelera e divide apostas sobre alta de juros em setembro\".",
-    "postId": "18145184860520169",
-    "peso": 61
   }
 ]
