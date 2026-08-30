@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-30T09:31:12.576Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
     "data": "2026-08-30T09:01:03.948Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1055,14 +1060,5 @@
     "data": "2026-08-26T22:01:01.468Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 62 min."
-  },
-  {
-    "data": "2026-08-26T21:32:59.837Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel): \"Wall Street fecham no vermelho com inflação acima do esperado e à espera de Nvidia (NVDA)\".",
-    "postId": "17942988948072573",
-    "storyId": null,
-    "reelId": "17942988948072573",
-    "tipo": "reel"
   }
 ]
