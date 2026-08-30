@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-30T21:01:13.120Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
     "data": "2026-08-30T20:31:01.758Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1054,12 +1059,6 @@
   },
   {
     "data": "2026-08-27T10:01:16.493Z",
-    "resultado": "pauta_reprovada",
-    "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
-    "titulo": "Taxa de desemprego, Jackson Hole, balança comercial nos EUA e mais destaques desta 5ª"
-  },
-  {
-    "data": "2026-08-27T09:30:57.162Z",
     "resultado": "pauta_reprovada",
     "mensagem": "Notícia não publicada: notícia sem contexto suficiente no resumo da fonte.",
     "titulo": "Taxa de desemprego, Jackson Hole, balança comercial nos EUA e mais destaques desta 5ª"
