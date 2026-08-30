@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-30T12:31:19.531Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
     "data": "2026-08-30T12:01:15.719Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1055,10 +1060,5 @@
     "mensagem": "Story publicado (peso 68): \"Tesoura maior: XP muda projeções para Selic em 2026; veja como ficaram os números\".",
     "postId": "17888927427437223",
     "peso": 68
-  },
-  {
-    "data": "2026-08-27T00:01:32.960Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }
 ]
