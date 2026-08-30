@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-30T14:01:12.786Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 64 min."
+  },
+  {
     "data": "2026-08-30T13:34:19.315Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Selic pode ir de 9,75% a 15,5% após as eleições, diz Morgan Stanley\".",
@@ -1056,11 +1061,6 @@
   },
   {
     "data": "2026-08-27T01:30:55.835Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-08-27T01:01:10.053Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }
