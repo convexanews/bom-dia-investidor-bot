@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-31T22:32:57.643Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 90 min."
+  },
+  {
     "data": "2026-08-31T22:32:09.112Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Wall Street avança mais 1% em agosto, apesar de Oriente Médio; Nasdaq salta 3%\".",
@@ -1056,11 +1061,6 @@
   },
   {
     "data": "2026-08-28T13:01:21.908Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-08-28T12:31:00.558Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }
