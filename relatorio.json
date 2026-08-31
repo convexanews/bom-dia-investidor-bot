@@ -1,5 +1,33 @@
 [
   {
+    "data": "2026-08-31T16:33:41.893Z",
+    "titulo": "Brasil está mais sujeito a risco cambial em cenário de estresse fiscal, alerta UBS",
+    "categoria": "Economia",
+    "fonte": "InfoMoney",
+    "link": "https://www.infomoney.com.br/economia/brasil-esta-mais-sujeito-a-risco-cambial-em-cenario-de-estresse-fiscal-alerta-ubs/",
+    "postId": "18227411764323333",
+    "storyId": null,
+    "reelId": "18227411764323333",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1788193885978.mp4",
+    "tipo": "reel",
+    "peso": 78,
+    "pilares": [
+      "macro",
+      "bolsa"
+    ],
+    "horarioBRT": "13",
+    "cta": null,
+    "decisaoFormato": "peso 78: reel; Studio Engine 100/100",
+    "studioQuality": {
+      "approved": true,
+      "score": 100,
+      "blockers": [],
+      "warnings": []
+    }
+  },
+  {
     "data": "2026-08-31T14:03:41.026Z",
     "titulo": "BTG Macro Day: Ajuste fiscal se dará com redução nas despesas e queda nos juros, afirma Alckmin",
     "categoria": "Economia",
@@ -3579,20 +3607,5 @@
     "videoUrl": null,
     "tipo": "carrossel",
     "peso": 55
-  },
-  {
-    "data": "2026-07-14T11:11:50.588Z",
-    "titulo": "Petróleo dispara e eleva cautela nos mercados; Ibovespa em dólar sobe hoje (14)",
-    "categoria": "Mercados",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/petroleo-dispara-e-eleva-cautela-nos-mercados-ibovespa-em-dolar-sobe-hoje-14/",
-    "postId": "17914130097424497",
-    "storyId": null,
-    "reelId": "17914130097424497",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1784027371052.mp4",
-    "tipo": "reel",
-    "peso": 79
   }
 ]
