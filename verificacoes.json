@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-31T06:01:14.949Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (03:01 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-08-31T05:31:05.276Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (02:31 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1043,10 +1048,5 @@
     "data": "2026-08-27T19:26:32.483Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 70): \"Ibovespa vira para alta com Petrobras e caminha para 7ª sessão de ganhos\". Realizando postagem..."
-  },
-  {
-    "data": "2026-08-27T19:01:13.920Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }
 ]
