@@ -1,5 +1,33 @@
 [
   {
+    "data": "2026-08-31T20:35:05.144Z",
+    "titulo": "Ibovespa consegue 9ª alta seguida, mas mês não sai do negativo; Petrobras dispara 3%",
+    "categoria": "Mercados",
+    "fonte": "InfoMoney",
+    "link": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-31082026/",
+    "postId": "18151613461468099",
+    "storyId": null,
+    "reelId": "18151613461468099",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1788208299381.mp4",
+    "tipo": "reel",
+    "peso": 93,
+    "pilares": [
+      "macro",
+      "bolsa"
+    ],
+    "horarioBRT": "17",
+    "cta": null,
+    "decisaoFormato": "peso 93: reel; Studio Engine 100/100",
+    "studioQuality": {
+      "approved": true,
+      "score": 100,
+      "blockers": [],
+      "warnings": []
+    }
+  },
+  {
     "data": "2026-08-31T16:33:41.893Z",
     "titulo": "Brasil está mais sujeito a risco cambial em cenário de estresse fiscal, alerta UBS",
     "categoria": "Economia",
@@ -3591,21 +3619,6 @@
     "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784044936767-story.png",
     "videoUrl": null,
     "tipo": "card",
-    "peso": 55
-  },
-  {
-    "data": "2026-07-14T13:33:51.944Z",
-    "titulo": "Ibovespa Hoje Ao Vivo: Bolsa sobe com CPI dos EUA e guerra em foco",
-    "categoria": "Mercados",
-    "fonte": "InfoMoney",
-    "link": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-14072026/",
-    "postId": "18447687550187478",
-    "storyId": "18100519690913870",
-    "reelId": null,
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784035955629-slide1.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784035955629-story.png",
-    "videoUrl": null,
-    "tipo": "carrossel",
     "peso": 55
   }
 ]

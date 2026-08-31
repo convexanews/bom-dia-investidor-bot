@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-08-31T20:35:05.146Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Ibovespa consegue 9ª alta seguida, mas mês não sai do negativo; Petrobras dispara 3%\".",
+    "postId": "18151613461468099",
+    "storyId": null,
+    "reelId": "18151613461468099",
+    "tipo": "reel",
+    "studioQuality": 100
+  },
+  {
+    "data": "2026-08-31T20:31:32.740Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 93): \"Ibovespa consegue 9ª alta seguida, mas mês não sai do negativo; Petrobras dispara 3%\". Realizando postagem..."
+  },
+  {
     "data": "2026-08-31T20:02:11.209Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1043,20 +1058,5 @@
     "data": "2026-08-28T10:01:20.698Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 63 min."
-  },
-  {
-    "data": "2026-08-28T09:33:59.859Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Kevin Warsh discursa em Jackson Hole, Caged, IGP-M e mais destaques desta sexta-feira\".",
-    "postId": "18372136063300767",
-    "storyId": null,
-    "reelId": "18372136063300767",
-    "tipo": "reel",
-    "studioQuality": 100
-  },
-  {
-    "data": "2026-08-28T09:30:58.139Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 80): \"Kevin Warsh discursa em Jackson Hole, Caged, IGP-M e mais destaques desta sexta-feira\". Realizando postagem..."
   }
 ]
