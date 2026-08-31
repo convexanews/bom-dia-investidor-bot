@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-31T03:45:35.516Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (00:45 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-08-31T03:31:16.825Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (00:31 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1043,15 +1048,5 @@
     "data": "2026-08-27T17:01:06.167Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 63 min."
-  },
-  {
-    "data": "2026-08-27T16:33:35.269Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Ibovespa cai com ações de peso, enquanto Nvidia impulsiona tecnologia em Wall Street\".",
-    "postId": "18156367039500508",
-    "storyId": null,
-    "reelId": "18156367039500508",
-    "tipo": "reel",
-    "studioQuality": 100
   }
 ]
