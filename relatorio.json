@@ -1,5 +1,33 @@
 [
   {
+    "data": "2026-08-31T14:03:41.026Z",
+    "titulo": "BTG Macro Day: Ajuste fiscal se dará com redução nas despesas e queda nos juros, afirma Alckmin",
+    "categoria": "Economia",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/btg-macro-day-ajuste-fiscal-se-dara-com-reducao-nas-despesas-e-nos-juros-afirma-alckmin-gaep/",
+    "postId": "18143593789492127",
+    "storyId": null,
+    "reelId": "18143593789492127",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1788184876908.mp4",
+    "tipo": "reel",
+    "peso": 81,
+    "pilares": [
+      "macro",
+      "fiis"
+    ],
+    "horarioBRT": "11",
+    "cta": null,
+    "decisaoFormato": "peso 81: reel; Studio Engine 100/100",
+    "studioQuality": {
+      "approved": true,
+      "score": 100,
+      "blockers": [],
+      "warnings": []
+    }
+  },
+  {
     "data": "2026-08-31T11:33:18.879Z",
     "titulo": "Wall Street sob pressão: o que o Japão e as big techs têm a ver com a disparada dos títulos dos EUA",
     "categoria": "Mercados",
@@ -3566,20 +3594,5 @@
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1784027371052.mp4",
     "tipo": "reel",
     "peso": 79
-  },
-  {
-    "data": "2026-07-14T09:03:22.225Z",
-    "titulo": "Inflação nos EUA, sabatina de Warsh, balanços de bancos e mais destaques desta terça",
-    "categoria": "Mercados",
-    "fonte": "InfoMoney",
-    "link": "https://www.infomoney.com.br/mercados/inflacao-eua-sabatina-warsh-balancos-bancos-14072026/",
-    "postId": "18146603080459932",
-    "storyId": null,
-    "reelId": "18146603080459932",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1784019722753.mp4",
-    "tipo": "reel",
-    "peso": 83
   }
 ]
