@@ -1,5 +1,33 @@
 [
   {
+    "data": "2026-08-31T11:33:18.879Z",
+    "titulo": "Wall Street sob pressão: o que o Japão e as big techs têm a ver com a disparada dos títulos dos EUA",
+    "categoria": "Mercados",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/foi-so-o-fiscal-titulos-pressionam-bolsas-nos-eua-e-concorrencia-pode-ser-a-grande-vila-apsa/",
+    "postId": "18086165042693094",
+    "storyId": null,
+    "reelId": "18086165042693094",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1788175861101.mp4",
+    "tipo": "reel",
+    "peso": 80,
+    "pilares": [
+      "macro",
+      "exterior"
+    ],
+    "horarioBRT": "08",
+    "cta": null,
+    "decisaoFormato": "peso 80: reel; Studio Engine 100/100",
+    "studioQuality": {
+      "approved": true,
+      "score": 100,
+      "blockers": [],
+      "warnings": []
+    }
+  },
+  {
     "data": "2026-08-31T09:33:22.814Z",
     "titulo": "Orçamento de 2027, Focus, dados da China e mais destaques desta segunda-feira (31)",
     "categoria": "Mercados",
@@ -3553,20 +3581,5 @@
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1784019722753.mp4",
     "tipo": "reel",
     "peso": 83
-  },
-  {
-    "data": "2026-07-13T23:03:12.520Z",
-    "titulo": "Eztec (EZTC3) bate recorde de lançamentos e vendas no 1º semestre de 2026",
-    "categoria": "Empresas",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/eztec-eztc3-bate-recorde-de-lancamentos-e-vendas-no-1o-semestre-de-2026/",
-    "postId": "18103835492134997",
-    "storyId": "18105116332843771",
-    "reelId": null,
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783983713341-slide1.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1783983713341-story.png",
-    "videoUrl": null,
-    "tipo": "carrossel",
-    "peso": 40
   }
 ]
