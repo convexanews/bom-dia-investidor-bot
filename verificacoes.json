@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-31T01:01:01.836Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
     "data": "2026-08-31T00:44:22.235Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1052,10 +1057,5 @@
     "storyId": null,
     "reelId": "18077260973348361",
     "tipo": "reel"
-  },
-  {
-    "data": "2026-08-27T14:31:03.892Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 78): \"Wall Street avança com balanço da Nvidia (NVDA) impulsionando o setor tech\". Realizando postagem..."
   }
 ]
