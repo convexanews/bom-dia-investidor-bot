@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-08-31T09:33:22.816Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Orçamento de 2027, Focus, dados da China e mais destaques desta segunda-feira (31)\".",
+    "postId": "17901642789564069",
+    "storyId": null,
+    "reelId": "17901642789564069",
+    "tipo": "reel",
+    "studioQuality": 100
+  },
+  {
+    "data": "2026-08-31T09:31:09.460Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 80): \"Orçamento de 2027, Focus, dados da China e mais destaques desta segunda-feira (31)\". Realizando postagem..."
+  },
+  {
     "data": "2026-08-31T09:01:15.256Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1028,20 +1043,5 @@
     "data": "2026-08-27T21:31:19.898Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 63 min."
-  },
-  {
-    "data": "2026-08-27T21:03:46.566Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Wall Street sobe com Nvidia (NVDA) puxando o setor de semicondutores; Nasdaq salta 1,5%\".",
-    "postId": "18074479556406558",
-    "storyId": null,
-    "reelId": "18074479556406558",
-    "tipo": "reel",
-    "studioQuality": 100
-  },
-  {
-    "data": "2026-08-27T21:01:05.158Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 81): \"Wall Street sobe com Nvidia (NVDA) puxando o setor de semicondutores; Nasdaq salta 1,5%\". Realizando postagem..."
   }
 ]
