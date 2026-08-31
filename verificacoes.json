@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-31T09:01:15.256Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
     "data": "2026-08-31T08:31:51.695Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (05:31 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1038,10 +1043,5 @@
     "data": "2026-08-27T21:01:05.158Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 81): \"Wall Street sobe com Nvidia (NVDA) puxando o setor de semicondutores; Nasdaq salta 1,5%\". Realizando postagem..."
-  },
-  {
-    "data": "2026-08-27T20:39:12.059Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 20 min."
   }
 ]
