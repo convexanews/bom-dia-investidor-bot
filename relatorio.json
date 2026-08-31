@@ -1,5 +1,34 @@
 [
   {
+    "data": "2026-08-31T22:32:09.110Z",
+    "titulo": "Wall Street avança mais 1% em agosto, apesar de Oriente Médio; Nasdaq salta 3%",
+    "categoria": "Mercados",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/wall-street-31-8-26-apsa/",
+    "postId": "18025882718888174",
+    "storyId": null,
+    "reelId": "18025882718888174",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1788215369358.mp4",
+    "tipo": "reel",
+    "peso": 88,
+    "pilares": [
+      "macro",
+      "bolsa",
+      "exterior"
+    ],
+    "horarioBRT": "19",
+    "cta": null,
+    "decisaoFormato": "peso 88: reel; Studio Engine 100/100",
+    "studioQuality": {
+      "approved": true,
+      "score": 100,
+      "blockers": [],
+      "warnings": []
+    }
+  },
+  {
     "data": "2026-08-31T20:35:05.144Z",
     "titulo": "Ibovespa consegue 9ª alta seguida, mas mês não sai do negativo; Petrobras dispara 3%",
     "categoria": "Mercados",
@@ -3605,20 +3634,5 @@
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1784053903819.mp4",
     "tipo": "reel",
     "peso": 74
-  },
-  {
-    "data": "2026-07-14T16:03:05.151Z",
-    "titulo": "Inflação para baixo no Brasil e nos EUA pode trazer fluxo gringo de volta para B3?",
-    "categoria": "Mercados",
-    "fonte": "InfoMoney",
-    "link": "https://www.infomoney.com.br/mercados/inflacao-para-baixo-no-brasil-e-nos-eua-pode-trazer-fluxo-gringo-de-volta-para-b3/",
-    "postId": "17926514571363468",
-    "storyId": "18168881236446796",
-    "reelId": null,
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784044936767-feed.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784044936767-story.png",
-    "videoUrl": null,
-    "tipo": "card",
-    "peso": 55
   }
 ]
