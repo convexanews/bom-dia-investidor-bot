@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-31T23:31:20.457Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 31 min."
+  },
+  {
     "data": "2026-08-31T23:18:10.838Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 44 min."
@@ -1058,10 +1063,5 @@
     "data": "2026-08-28T14:30:58.554Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 82): \"Wall Street abre sem direção com as atenções em Warsh\". Realizando postagem..."
-  },
-  {
-    "data": "2026-08-28T14:01:15.763Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }
 ]
