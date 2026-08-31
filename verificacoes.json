@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-31T10:01:25.325Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 62 min."
+  },
+  {
     "data": "2026-08-31T09:33:22.816Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Orçamento de 2027, Focus, dados da China e mais destaques desta segunda-feira (31)\".",
@@ -1038,10 +1043,5 @@
     "data": "2026-08-27T22:02:05.646Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 32 min."
-  },
-  {
-    "data": "2026-08-27T21:31:19.898Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 63 min."
   }
 ]
