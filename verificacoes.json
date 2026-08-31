@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-31T14:31:16.155Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 63 min."
+  },
+  {
     "data": "2026-08-31T14:03:41.028Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"BTG Macro Day: Ajuste fiscal se dará com redução nas despesas e queda nos juros, afirma Alckmin\".",
@@ -1048,10 +1053,5 @@
     "data": "2026-08-28T03:30:55.341Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (00:30 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-08-28T03:01:10.816Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (00:01 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
