@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-08-31T20:02:11.209Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
     "data": "2026-08-31T19:31:27.507Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1053,10 +1058,5 @@
     "data": "2026-08-28T09:30:58.139Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 80): \"Kevin Warsh discursa em Jackson Hole, Caged, IGP-M e mais destaques desta sexta-feira\". Realizando postagem..."
-  },
-  {
-    "data": "2026-08-28T09:01:19.157Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }
 ]
