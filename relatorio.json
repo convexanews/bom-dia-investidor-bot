@@ -1,5 +1,33 @@
 [
   {
+    "data": "2026-09-01T20:34:09.228Z",
+    "titulo": "Ibovespa chega à 10ª alta seguida, com Petrobras, Vale e Bancos; Dólar cai",
+    "categoria": "Mercados",
+    "fonte": "InfoMoney",
+    "link": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-01092026/",
+    "postId": "17882965671618480",
+    "storyId": null,
+    "reelId": "17882965671618480",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1788294680007.mp4",
+    "tipo": "reel",
+    "peso": 81,
+    "pilares": [
+      "macro",
+      "bolsa"
+    ],
+    "horarioBRT": "17",
+    "cta": null,
+    "decisaoFormato": "peso 81: reel; Studio Engine 100/100",
+    "studioQuality": {
+      "approved": true,
+      "score": 100,
+      "blockers": [],
+      "warnings": []
+    }
+  },
+  {
     "data": "2026-09-01T17:03:43.520Z",
     "titulo": "Juros globais disparam e abalam mercado: o que está acontecendo e como fica o Brasil?",
     "categoria": "Mercados",
@@ -3688,20 +3716,5 @@
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1784131310642.mp4",
     "tipo": "reel",
     "peso": 77
-  },
-  {
-    "data": "2026-07-15T13:33:07.874Z",
-    "titulo": "Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta quarta",
-    "categoria": "Mercados",
-    "fonte": "InfoMoney",
-    "link": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-15072026/",
-    "postId": "18098327918581584",
-    "storyId": "18454011322141485",
-    "reelId": null,
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784122316917-slide1.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784122316917-story.png",
-    "videoUrl": null,
-    "tipo": "carrossel",
-    "peso": 55
   }
 ]
