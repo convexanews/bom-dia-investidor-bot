@@ -1,5 +1,33 @@
 [
   {
+    "data": "2026-09-01T12:04:28.371Z",
+    "titulo": "O que precisa acontecer para a Selic cair? BTG aponta ajuste fiscal como único caminho",
+    "categoria": "Economia",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/o-que-precisa-acontecer-para-a-selic-cair-btg-aponta-ajuste-fiscal-como-unico-caminho/",
+    "postId": "17924763402415172",
+    "storyId": null,
+    "reelId": "17924763402415172",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1788264097846.mp4",
+    "tipo": "reel",
+    "peso": 75,
+    "pilares": [
+      "macro",
+      "bolsa"
+    ],
+    "horarioBRT": "09",
+    "cta": null,
+    "decisaoFormato": "peso 75: reel; Studio Engine 100/100",
+    "studioQuality": {
+      "approved": true,
+      "score": 100,
+      "blockers": [],
+      "warnings": []
+    }
+  },
+  {
     "data": "2026-09-01T09:33:19.518Z",
     "titulo": "PIB do Brasil, PMIs, Jolts nos EUA e mais destaques desta terça-feira",
     "categoria": "Mercados",
@@ -3646,20 +3674,5 @@
     "videoUrl": null,
     "tipo": "card",
     "peso": 38
-  },
-  {
-    "data": "2026-07-14T23:03:00.635Z",
-    "titulo": "CACR11 volta a fechar no negativo; IFIX termina pregão estável",
-    "categoria": "FIIs",
-    "fonte": "Suno",
-    "link": "https://www.suno.com.br/noticias/cacr11-volta-a-fechar-no-negativo-ifix-termina-pregao-estavel/",
-    "postId": "17921371770402104",
-    "storyId": "17999270516995048",
-    "reelId": null,
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784070089475-slide1.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784070089475-story.png",
-    "videoUrl": null,
-    "tipo": "carrossel",
-    "peso": 25
   }
 ]

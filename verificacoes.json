@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-09-01T12:04:28.374Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"O que precisa acontecer para a Selic cair? BTG aponta ajuste fiscal como único caminho\".",
+    "postId": "17924763402415172",
+    "storyId": null,
+    "reelId": "17924763402415172",
+    "tipo": "reel",
+    "studioQuality": 100
+  },
+  {
+    "data": "2026-09-01T12:01:28.614Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 75): \"O que precisa acontecer para a Selic cair? BTG aponta ajuste fiscal como único caminho\". Realizando postagem..."
+  },
+  {
     "data": "2026-09-01T11:31:07.006Z",
     "resultado": "studio_engine_reprovado",
     "mensagem": "Projeto automático bloqueado (nota 80): slide 1 contém manchete cortada.",
@@ -1035,20 +1050,5 @@
     "data": "2026-08-29T01:01:04.102Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 63 min."
-  },
-  {
-    "data": "2026-08-29T00:33:49.931Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Ibovespa engata 8ª alta consecutiva e avança quase 3% na semana; dólar sobe a R$ 5,19\".",
-    "postId": "17946523722271115",
-    "storyId": null,
-    "reelId": "17946523722271115",
-    "tipo": "reel",
-    "studioQuality": 100
-  },
-  {
-    "data": "2026-08-29T00:31:16.204Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 77): \"Ibovespa engata 8ª alta consecutiva e avança quase 3% na semana; dólar sobe a R$ 5,19\". Realizando postagem..."
   }
 ]
