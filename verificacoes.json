@@ -1,5 +1,12 @@
 [
   {
+    "data": "2026-09-01T11:31:07.006Z",
+    "resultado": "studio_engine_reprovado",
+    "mensagem": "Projeto automático bloqueado (nota 80): slide 1 contém manchete cortada.",
+    "titulo": "Mercado local acompanha PIB enquanto exterior aguarda dados de emprego nos Estados Unidos; Ibovespa em dólar cai mais de 1% nesta terça-feira (1º)",
+    "formato": "reel"
+  },
+  {
     "data": "2026-09-01T11:01:11.391Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 3 min."
@@ -1043,10 +1050,5 @@
     "data": "2026-08-29T00:31:16.204Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 77): \"Ibovespa engata 8ª alta consecutiva e avança quase 3% na semana; dólar sobe a R$ 5,19\". Realizando postagem..."
-  },
-  {
-    "data": "2026-08-29T00:01:00.251Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 3 min."
   }
 ]
