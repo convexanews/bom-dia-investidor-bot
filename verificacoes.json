@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-09-01T06:01:45.060Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (03:01 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-09-01T05:33:17.170Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (02:33 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1048,10 +1053,5 @@
     "data": "2026-08-28T20:31:07.512Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 85): \"Wall Street recua após discurso de Warsh em Jackson Hole\". Realizando postagem..."
-  },
-  {
-    "data": "2026-08-28T20:00:59.550Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 4 min."
   }
 ]
