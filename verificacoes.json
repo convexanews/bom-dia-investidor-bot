@@ -1,5 +1,11 @@
 [
   {
+    "data": "2026-09-01T14:02:27.256Z",
+    "resultado": "pauta_reprovada",
+    "mensagem": "Notícia não publicada: manchete longa demais para caber completa no card.",
+    "titulo": "Itaú BBA: Investidor local volta à Bolsa e estrangeiro reduz ritmo de saída; saiba que tipo de ações eles estão escolhendo"
+  },
+  {
     "data": "2026-09-01T13:56:41.183Z",
     "resultado": "pauta_reprovada",
     "mensagem": "Notícia não publicada: manchete longa demais para caber completa no card.",
@@ -1046,10 +1052,5 @@
     "data": "2026-08-29T03:05:25.924Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (00:05 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-08-29T03:01:06.818Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (00:01 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
