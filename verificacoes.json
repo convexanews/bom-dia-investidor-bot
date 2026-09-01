@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-09-01T12:31:08.225Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 64 min."
+  },
+  {
     "data": "2026-09-01T12:04:28.374Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"O que precisa acontecer para a Selic cair? BTG aponta ajuste fiscal como único caminho\".",
@@ -1045,10 +1050,5 @@
     "data": "2026-08-29T01:30:58.119Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 33 min."
-  },
-  {
-    "data": "2026-08-29T01:01:04.102Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 63 min."
   }
 ]
