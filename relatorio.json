@@ -1,5 +1,34 @@
 [
   {
+    "data": "2026-09-01T09:33:19.518Z",
+    "titulo": "PIB do Brasil, PMIs, Jolts nos EUA e mais destaques desta terça-feira",
+    "categoria": "Mercados",
+    "fonte": "InfoMoney",
+    "link": "https://www.infomoney.com.br/mercados/pib-brasil-pmis-jolts-eua-agenda-01092026/",
+    "postId": "18090696881656032",
+    "storyId": null,
+    "reelId": "18090696881656032",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1788255073290.mp4",
+    "tipo": "reel",
+    "peso": 90,
+    "pilares": [
+      "macro",
+      "bolsa",
+      "exterior"
+    ],
+    "horarioBRT": "06",
+    "cta": null,
+    "decisaoFormato": "peso 90: reel; Studio Engine 100/100",
+    "studioQuality": {
+      "approved": true,
+      "score": 100,
+      "blockers": [],
+      "warnings": []
+    }
+  },
+  {
     "data": "2026-09-01T00:35:00.856Z",
     "titulo": "Governo prevê superávit primário de R$18,6 bi para 2027 em projeto orçamentário",
     "categoria": "Economia",
@@ -3632,20 +3661,5 @@
     "videoUrl": null,
     "tipo": "carrossel",
     "peso": 25
-  },
-  {
-    "data": "2026-07-14T20:40:45.972Z",
-    "titulo": "Wall Street tem alta após inflação abaixo do esperado reduzir apostas de elevação nos juros pelo Fed",
-    "categoria": "Mercados",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/wall-street-14-7-26-lils/",
-    "postId": "18060533594583475",
-    "storyId": null,
-    "reelId": "18060533594583475",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1784061550381.mp4",
-    "tipo": "reel",
-    "peso": 95
   }
 ]

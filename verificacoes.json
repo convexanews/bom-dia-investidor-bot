@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-09-01T09:33:19.520Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"PIB do Brasil, PMIs, Jolts nos EUA e mais destaques desta terça-feira\".",
+    "postId": "18090696881656032",
+    "storyId": null,
+    "reelId": "18090696881656032",
+    "tipo": "reel",
+    "studioQuality": 100
+  },
+  {
+    "data": "2026-09-01T09:31:04.815Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 90): \"PIB do Brasil, PMIs, Jolts nos EUA e mais destaques desta terça-feira\". Realizando postagem..."
+  },
+  {
     "data": "2026-09-01T09:01:12.300Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1038,15 +1053,5 @@
     "reelId": "18112527307822831",
     "tipo": "reel",
     "studioQuality": 100
-  },
-  {
-    "data": "2026-08-28T22:31:24.618Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 77): \"S&P e Nasdaq fecham em baixa após chair do Fed reafirmar combate à inflação\". Realizando postagem..."
-  },
-  {
-    "data": "2026-08-28T22:01:38.314Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 2 min."
   }
 ]
