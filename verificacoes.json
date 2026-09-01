@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-09-01T00:01:06.139Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 2 min."
+  },
+  {
     "data": "2026-08-31T23:31:20.457Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 31 min."
@@ -1058,10 +1063,5 @@
     "reelId": "18027429152890937",
     "tipo": "reel",
     "studioQuality": 100
-  },
-  {
-    "data": "2026-08-28T14:30:58.554Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 82): \"Wall Street abre sem direção com as atenções em Warsh\". Realizando postagem..."
   }
 ]
