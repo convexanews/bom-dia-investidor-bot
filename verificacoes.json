@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-09-01T00:35:00.857Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Governo prevê superávit primário de R$18,6 bi para 2027 em projeto orçamentário\".",
+    "postId": "18121980550868507",
+    "storyId": null,
+    "reelId": "18121980550868507",
+    "tipo": "reel",
+    "studioQuality": 100
+  },
+  {
+    "data": "2026-09-01T00:32:14.722Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 72): \"Governo prevê superávit primário de R$18,6 bi para 2027 em projeto orçamentário\". Realizando postagem..."
+  },
+  {
     "data": "2026-09-01T00:01:06.139Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 2 min."
@@ -1048,20 +1063,5 @@
     "data": "2026-08-28T15:32:05.554Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 32 min."
-  },
-  {
-    "data": "2026-08-28T15:01:08.489Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 63 min."
-  },
-  {
-    "data": "2026-08-28T14:33:33.563Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Wall Street abre sem direção com as atenções em Warsh\".",
-    "postId": "18027429152890937",
-    "storyId": null,
-    "reelId": "18027429152890937",
-    "tipo": "reel",
-    "studioQuality": 100
   }
 ]

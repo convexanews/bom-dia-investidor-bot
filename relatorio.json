@@ -1,5 +1,33 @@
 [
   {
+    "data": "2026-09-01T00:35:00.856Z",
+    "titulo": "Governo prevê superávit primário de R$18,6 bi para 2027 em projeto orçamentário",
+    "categoria": "Economia",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/governo-preve-superavit-primario-de-r186-bi-para-2027-em-projeto-orcamentario-pads/",
+    "postId": "18121980550868507",
+    "storyId": null,
+    "reelId": "18121980550868507",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1788222743015.mp4",
+    "tipo": "reel",
+    "peso": 72,
+    "pilares": [
+      "macro",
+      "bolsa"
+    ],
+    "horarioBRT": "21",
+    "cta": null,
+    "decisaoFormato": "peso 72: reel; Studio Engine 100/100",
+    "studioQuality": {
+      "approved": true,
+      "score": 100,
+      "blockers": [],
+      "warnings": []
+    }
+  },
+  {
     "data": "2026-08-31T22:32:09.110Z",
     "titulo": "Wall Street avança mais 1% em agosto, apesar de Oriente Médio; Nasdaq salta 3%",
     "categoria": "Mercados",
@@ -3619,20 +3647,5 @@
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1784061550381.mp4",
     "tipo": "reel",
     "peso": 95
-  },
-  {
-    "data": "2026-07-14T18:33:22.099Z",
-    "titulo": "Ibovespa pode chegar aos 300 mil pontos, mas sob uma condição, diz ASA",
-    "categoria": "Mercados",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/ibovespa-pode-chegar-aos-300-mil-pontos-mas-sob-uma-condicao-diz-asa/",
-    "postId": "18159227458476033",
-    "storyId": null,
-    "reelId": "18159227458476033",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1784053903819.mp4",
-    "tipo": "reel",
-    "peso": 74
   }
 ]
