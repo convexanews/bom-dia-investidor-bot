@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-09-01T21:01:04.101Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 64 min."
+  },
+  {
     "data": "2026-09-01T20:34:09.231Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Ibovespa chega à 10ª alta seguida, com Petrobras, Vale e Bancos; Dólar cai\".",
@@ -1061,11 +1066,6 @@
   },
   {
     "data": "2026-08-29T12:31:05.502Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-08-29T12:01:11.686Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }
