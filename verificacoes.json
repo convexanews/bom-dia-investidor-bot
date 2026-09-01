@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-09-01T02:31:03.332Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (23:31 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-09-01T02:01:00.292Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (23:01 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1053,15 +1058,5 @@
     "data": "2026-08-28T17:00:59.956Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 63 min."
-  },
-  {
-    "data": "2026-08-28T16:33:46.840Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Banho de água fria? Ibovespa volta ao tom negativo e dólar supera R$ 5,20 com Warsh\".",
-    "postId": "18105067799585005",
-    "storyId": null,
-    "reelId": "18105067799585005",
-    "tipo": "reel",
-    "studioQuality": 100
   }
 ]
