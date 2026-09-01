@@ -1,5 +1,35 @@
 [
   {
+    "data": "2026-09-01T15:03:57.402Z",
+    "titulo": "Bitcoin dispara, ouro avança e Bolsa recua em mês turbulento: veja os investimentos que mais renderam em agosto",
+    "categoria": "Mercados",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/bitcoin-dispara-ouro-avanca-e-bolsa-recua-em-mes-turbulento-veja-os-investimentos-que-mais-renderam-em-agosto/",
+    "postId": "17958772005207279",
+    "storyId": null,
+    "reelId": "17958772005207279",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1788274883292.mp4",
+    "tipo": "reel",
+    "peso": 70,
+    "pilares": [
+      "bolsa",
+      "renda_fixa",
+      "fiis",
+      "cripto"
+    ],
+    "horarioBRT": "12",
+    "cta": null,
+    "decisaoFormato": "peso 70: reel; Studio Engine 100/100",
+    "studioQuality": {
+      "approved": true,
+      "score": 100,
+      "blockers": [],
+      "warnings": []
+    }
+  },
+  {
     "data": "2026-09-01T12:04:28.371Z",
     "titulo": "O que precisa acontecer para a Selic cair? BTG aponta ajuste fiscal como único caminho",
     "categoria": "Economia",
@@ -3659,20 +3689,5 @@
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1784113880742.mp4",
     "tipo": "reel",
     "peso": 67
-  },
-  {
-    "data": "2026-07-15T09:02:39.644Z",
-    "titulo": "Em reunião com Jamieson Greer, Brasil chama tarifa dos EUA de “injusta”; governo já prepara nova MP de apoio aos exportadores",
-    "categoria": "Economia",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/em-reuniao-com-jamieson-greer-brasil-chama-tarifa-dos-eua-de-injusta-governo-ja-prepara-nova-mp-de-apoio-aos-exportadores-fets/",
-    "postId": "18111125464948052",
-    "storyId": "17872149582547084",
-    "reelId": null,
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784106111833-feed.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784106111833-story.png",
-    "videoUrl": null,
-    "tipo": "card",
-    "peso": 38
   }
 ]

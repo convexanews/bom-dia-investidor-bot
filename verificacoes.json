@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-09-01T15:03:57.404Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Bitcoin dispara, ouro avança e Bolsa recua em mês turbulento: veja os investimentos que mais renderam em agosto\".",
+    "postId": "17958772005207279",
+    "storyId": null,
+    "reelId": "17958772005207279",
+    "tipo": "reel",
+    "studioQuality": 100
+  },
+  {
+    "data": "2026-09-01T15:01:12.629Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 70): \"Bitcoin dispara, ouro avança e Bolsa recua em mês turbulento: veja os investimentos que mais renderam em agosto\". Realizando postagem..."
+  },
+  {
     "data": "2026-09-01T14:31:22.874Z",
     "resultado": "pauta_reprovada",
     "mensagem": "Notícia não publicada: manchete longa demais para caber completa no card.",
@@ -1043,15 +1058,5 @@
     "data": "2026-08-29T04:01:09.037Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (01:01 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-08-29T03:47:48.721Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (00:47 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-08-29T03:31:04.364Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (00:31 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
