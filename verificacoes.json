@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-09-01T01:31:08.021Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 34 min."
+  },
+  {
     "data": "2026-09-01T01:01:21.670Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 64 min."
@@ -1058,10 +1063,5 @@
     "data": "2026-08-28T16:31:10.031Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 75): \"Banho de água fria? Ibovespa volta ao tom negativo e dólar supera R$ 5,20 com Warsh\". Realizando postagem..."
-  },
-  {
-    "data": "2026-08-28T16:01:07.826Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 3 min."
   }
 ]
