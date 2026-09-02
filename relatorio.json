@@ -1,5 +1,34 @@
 [
   {
+    "data": "2026-09-02T09:33:59.233Z",
+    "titulo": "Livro Bege, ADP, indústria, pesquisa eleitoral e mais destaques desta quarta",
+    "categoria": "Mercados",
+    "fonte": "InfoMoney",
+    "link": "https://www.infomoney.com.br/mercados/emprego-adp-livro-bege-industria-destaques-02092026/",
+    "postId": "18468975577115316",
+    "storyId": null,
+    "reelId": "18468975577115316",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1788341479527.mp4",
+    "tipo": "reel",
+    "peso": 80,
+    "pilares": [
+      "macro",
+      "bolsa",
+      "exterior"
+    ],
+    "horarioBRT": "06",
+    "cta": null,
+    "decisaoFormato": "peso 80: reel; Studio Engine 100/100",
+    "studioQuality": {
+      "approved": true,
+      "score": 100,
+      "blockers": [],
+      "warnings": []
+    }
+  },
+  {
     "data": "2026-09-01T20:34:09.228Z",
     "titulo": "Ibovespa chega à 10ª alta seguida, com Petrobras, Vale e Bancos; Dólar cai",
     "categoria": "Mercados",
@@ -3701,20 +3730,5 @@
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1784140288712.mp4",
     "tipo": "reel",
     "peso": 91
-  },
-  {
-    "data": "2026-07-15T16:04:12.379Z",
-    "titulo": "Gringos ingressam com R$ 1,5 bilhão na B3 em dia de inflação abaixo do esperado",
-    "categoria": "Mercados",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/gringos-ingressam-com-r-15-bilhao-na-b3-em-dia-de-inflacao-abaixo-do-esperado-lils/",
-    "postId": "18123749074742594",
-    "storyId": null,
-    "reelId": "18123749074742594",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1784131310642.mp4",
-    "tipo": "reel",
-    "peso": 77
   }
 ]

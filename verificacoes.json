@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-09-02T09:33:59.235Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Livro Bege, ADP, indústria, pesquisa eleitoral e mais destaques desta quarta\".",
+    "postId": "18468975577115316",
+    "storyId": null,
+    "reelId": "18468975577115316",
+    "tipo": "reel",
+    "studioQuality": 100
+  },
+  {
+    "data": "2026-09-02T09:31:15.711Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 80): \"Livro Bege, ADP, indústria, pesquisa eleitoral e mais destaques desta quarta\". Realizando postagem..."
+  },
+  {
     "data": "2026-09-02T09:01:14.452Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1056,16 +1071,6 @@
   },
   {
     "data": "2026-08-30T00:01:23.408Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-08-29T23:31:05.311Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-08-29T23:01:18.131Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }
