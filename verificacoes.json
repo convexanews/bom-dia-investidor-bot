@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-09-02T21:30:58.680Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 64 min."
+  },
+  {
     "data": "2026-09-02T21:04:08.168Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Ibovespa dispara com cenário eleitoral e ações de bancos e Vale; dólar recua 1%\".",
@@ -1085,10 +1090,5 @@
     "data": "2026-08-30T14:31:06.237Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 34 min."
-  },
-  {
-    "data": "2026-08-30T14:17:20.398Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 47 min."
   }
 ]
