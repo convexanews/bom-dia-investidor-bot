@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-09-02T23:02:48.845Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 90 min."
+  },
+  {
     "data": "2026-09-02T23:02:07.324Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Hora de vender? BofA vê 2 riscos para bolsa\".",
@@ -1088,11 +1093,6 @@
   },
   {
     "data": "2026-08-30T17:01:06.648Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-08-30T16:31:05.133Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }
