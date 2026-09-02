@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-09-02T20:01:36.449Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
     "data": "2026-09-02T19:31:13.281Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1085,10 +1090,5 @@
     "data": "2026-08-30T13:31:02.445Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 75): \"Selic pode ir de 9,75% a 15,5% após as eleições, diz Morgan Stanley\". Realizando postagem..."
-  },
-  {
-    "data": "2026-08-30T13:01:10.798Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }
 ]
