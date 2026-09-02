@@ -174,8 +174,11 @@ function montarFiltroVideoAnimado(totalCenas, duracaoPorCena, legendaPath) {
   const partes = [];
   for (let i = 0; i < totalCenas; i++) {
     const inicioFadeOut = Math.max(fade, duracaoPorCena - fade).toFixed(3);
+    // O primeiro quadro precisa conter a capa: o Instagram pode usá-lo como
+    // thumbnail quando a capa explícita ainda está sendo processada.
+    const fadeIn = i === 0 ? '' : `,fade=t=in:st=0:d=${fade}`;
     partes.push(
-      `[${i}:v]scale=1080:1920,fps=30,trim=duration=${duracaoPorCena.toFixed(3)},fade=t=in:st=0:d=${fade},fade=t=out:st=${inicioFadeOut}:d=${fade},setpts=PTS-STARTPTS[v${i}]`
+      `[${i}:v]scale=1080:1920,fps=30,trim=duration=${duracaoPorCena.toFixed(3)}${fadeIn},fade=t=out:st=${inicioFadeOut}:d=${fade},setpts=PTS-STARTPTS[v${i}]`
     );
   }
   const entradas = Array.from({ length: totalCenas }, (_, i) => `[v${i}]`).join('');

@@ -353,6 +353,7 @@ async function main() {
   let storyId = null;
   let reelId = null;
   let videoUrl = null;
+  let reelCoverUrl = null;
   let imageUrl = null;
   let storyImageUrl = null;
 
@@ -361,25 +362,30 @@ async function main() {
     console.log(`Gerando Reel narrado + TikTok...`);
 
     const nomeVideo = `reel-${ts}.mp4`;
+    const nomeCapa = `reel-${ts}-capa.png`;
     const videoLocal = path.join(__dirname, 'output', nomeVideo);
+    const capaLocal = path.join(__dirname, 'output', nomeCapa);
     await gerarVideoTikTok(cfg, videoLocal, { project });
+    await renderStudioSlide(project, 0, capaLocal);
 
     // Salva vídeo no GitHub Pages
     const tiktokDir = path.join(PAGES_DIR, 'bdi-tiktok');
     if (!fs.existsSync(tiktokDir)) fs.mkdirSync(tiktokDir, { recursive: true });
     fs.copyFileSync(videoLocal, path.join(tiktokDir, nomeVideo));
+    fs.copyFileSync(capaLocal, path.join(tiktokDir, nomeCapa));
 
     const legendaTikTok = montarLegendaTikTok(cfg);
     const legendaFile = `reel-${ts}-legenda.txt`;
     fs.writeFileSync(path.join(tiktokDir, legendaFile), legendaTikTok, 'utf8');
 
-    commitEPush(`Reel narrado: ${cfg.manchete.slice(0, 50)}`, [`bdi-tiktok/${nomeVideo}`, `bdi-tiktok/${legendaFile}`]);
+    commitEPush(`Reel narrado: ${cfg.manchete.slice(0, 50)}`, [`bdi-tiktok/${nomeVideo}`, `bdi-tiktok/${legendaFile}`, `bdi-tiktok/${nomeCapa}`]);
 
     const { PAGES_REPO } = require('./utils.cjs');
     videoUrl = `https://raw.githubusercontent.com/${PAGES_REPO}/main/bdi-tiktok/${nomeVideo}`;
+    reelCoverUrl = `https://raw.githubusercontent.com/${PAGES_REPO}/main/bdi-tiktok/${nomeCapa}`;
     await new Promise(r => setTimeout(r, 20000));
 
-    reelId = await publicarReel(videoUrl, legenda);
+    reelId = await publicarReel(videoUrl, legenda, { coverUrl: reelCoverUrl });
     console.log('Reel narrado publicado no Instagram! ID:', reelId);
     postId = reelId;
 
@@ -390,6 +396,7 @@ async function main() {
       link: nova.link,
       peso: nova.peso,
       videoUrl,
+      coverUrl: reelCoverUrl,
       legendaUrl: `https://raw.githubusercontent.com/${PAGES_REPO}/main/bdi-tiktok/${legendaFile}`,
       data: new Date().toISOString(),
     });

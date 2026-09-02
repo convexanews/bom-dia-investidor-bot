@@ -10,6 +10,9 @@ test('reel usa movimento e transições entre as cenas', () => {
   assert.match(filtro, /scale=1080:1920/);
   assert.doesNotMatch(filtro, /crop=/);
   assert.match(filtro, /fade=t=out/);
+  const primeiraCena = filtro.split('[v0]')[0];
+  assert.doesNotMatch(primeiraCena, /fade=t=in/);
+  assert.match(filtro, /\[1:v\][^;]+fade=t=in/);
   assert.match(filtro, /concat=n=4:v=1:a=0/);
   assert.match(filtro, /subtitles=/);
   assert.match(filtro, /\[vout\]/);
