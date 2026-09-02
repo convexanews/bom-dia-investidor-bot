@@ -1,5 +1,33 @@
 [
   {
+    "data": "2026-09-02T23:02:07.322Z",
+    "titulo": "Hora de vender? BofA vê 2 riscos para bolsa",
+    "categoria": "Mercados",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/bofa-mantem-visao-neutra-para-brasil-mas-ve-fiscal-e-eleicoes-como-riscos-apsa/",
+    "postId": "18085847591290964",
+    "storyId": null,
+    "reelId": "18085847591290964",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1788389994698.mp4",
+    "tipo": "reel",
+    "peso": 71,
+    "pilares": [
+      "macro",
+      "bolsa"
+    ],
+    "horarioBRT": "20",
+    "cta": null,
+    "decisaoFormato": "peso 71: reel; Studio Engine 100/100",
+    "studioQuality": {
+      "approved": true,
+      "score": 100,
+      "blockers": [],
+      "warnings": []
+    }
+  },
+  {
     "data": "2026-09-02T21:04:08.166Z",
     "titulo": "Ibovespa dispara com cenário eleitoral e ações de bancos e Vale; dólar recua 1%",
     "categoria": "Invest",
@@ -3766,20 +3794,5 @@
     "videoUrl": null,
     "tipo": "carrossel",
     "peso": 58
-  },
-  {
-    "data": "2026-07-16T11:33:29.574Z",
-    "titulo": "Fundo imobiliário anuncia recompra de até 10% das cotas; IFIX avança",
-    "categoria": "Economia",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/fundo-imobiliario-anuncia-recompra-de-ate-10-das-cotas-ifix-avanca-igdl/",
-    "postId": "18386964250163947",
-    "storyId": null,
-    "reelId": "18386964250163947",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1784201505937.mp4",
-    "tipo": "reel",
-    "peso": 44
   }
 ]

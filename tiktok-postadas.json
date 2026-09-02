@@ -1,5 +1,14 @@
 [
   {
+    "titulo": "Hora de vender? BofA vê 2 riscos para bolsa",
+    "link": "https://www.moneytimes.com.br/bofa-mantem-visao-neutra-para-brasil-mas-ve-fiscal-e-eleicoes-como-riscos-apsa/",
+    "peso": 71,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1788389994698.mp4",
+    "coverUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1788389994698-capa.png",
+    "legendaUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1788389994698-legenda.txt",
+    "data": "2026-09-02T23:02:07.320Z"
+  },
+  {
     "titulo": "Ibovespa dispara com cenário eleitoral e ações de bancos e Vale; dólar recua 1%",
     "link": "https://exame.com/invest/mercados/ibovespa-dispara-com-cenario-eleitoral-e-acoes-de-bancos-e-vale-dolar-recua-1/",
     "peso": 75,
@@ -1591,13 +1600,5 @@
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782291680799.mp4",
     "legendaUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782291680799-legenda.txt",
     "data": "2026-06-24T09:03:09.090Z"
-  },
-  {
-    "titulo": "Banco Central divulga calendário das reuniões do Copom para 2027",
-    "link": "https://www.infomoney.com.br/economia/banco-central-divulga-calendario-das-reunioes-do-copom-para-2027/",
-    "peso": 57,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782255705110.mp4",
-    "legendaUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782255705110-legenda.txt",
-    "data": "2026-06-23T23:04:09.451Z"
   }
 ]

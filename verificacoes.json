@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-09-02T23:02:07.324Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Hora de vender? BofA vê 2 riscos para bolsa\".",
+    "postId": "18085847591290964",
+    "storyId": null,
+    "reelId": "18085847591290964",
+    "tipo": "reel",
+    "studioQuality": 100
+  },
+  {
+    "data": "2026-09-02T22:59:43.919Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 71): \"Hora de vender? BofA vê 2 riscos para bolsa\". Realizando postagem..."
+  },
+  {
     "data": "2026-09-02T22:31:03.346Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 4 min."
@@ -1078,16 +1093,6 @@
   },
   {
     "data": "2026-08-30T16:31:05.133Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-08-30T16:01:49.647Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-08-30T15:31:38.502Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }
