@@ -1,5 +1,33 @@
 [
   {
+    "data": "2026-09-02T14:03:19.548Z",
+    "titulo": "Ibovespa Hoje Ao Vivo: Bolsa dispara e chega aos 183 mil com nova pesquisa eleitoral",
+    "categoria": "Mercados",
+    "fonte": "InfoMoney",
+    "link": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-02092026/",
+    "postId": "17904617259517494",
+    "storyId": null,
+    "reelId": "17904617259517494",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1788357679955.mp4",
+    "tipo": "reel",
+    "peso": 70,
+    "pilares": [
+      "macro",
+      "bolsa"
+    ],
+    "horarioBRT": "11",
+    "cta": null,
+    "decisaoFormato": "peso 70: reel; Studio Engine 100/100",
+    "studioQuality": {
+      "approved": true,
+      "score": 100,
+      "blockers": [],
+      "warnings": []
+    }
+  },
+  {
     "data": "2026-09-02T12:03:42.635Z",
     "titulo": "Queda do consumo surpreende e mostra que ajuste fiscal é urgente, alerta FGV Ibre",
     "categoria": "Economia",
@@ -3727,20 +3755,5 @@
     "videoUrl": null,
     "tipo": "carrossel",
     "peso": 31
-  },
-  {
-    "data": "2026-07-15T20:37:02.388Z",
-    "titulo": "Wall Street avança após mercado adiar aposta de alta nos juros pelo Fed; Oriente Médio fica no radar",
-    "categoria": "Mercados",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/wall-street-15-7-26-lils/",
-    "postId": "18108000559967946",
-    "storyId": null,
-    "reelId": "18108000559967946",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1784147726082.mp4",
-    "tipo": "reel",
-    "peso": 88
   }
 ]
