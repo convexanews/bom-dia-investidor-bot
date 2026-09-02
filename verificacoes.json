@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-09-02T14:30:58.842Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 63 min."
+  },
+  {
     "data": "2026-09-02T14:03:19.550Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Ibovespa Hoje Ao Vivo: Bolsa dispara e chega aos 183 mil com nova pesquisa eleitoral\".",
@@ -1079,10 +1084,5 @@
     "data": "2026-08-30T05:31:03.101Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (02:31 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-08-30T05:01:06.321Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (02:01 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
