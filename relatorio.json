@@ -1,5 +1,32 @@
 [
   {
+    "data": "2026-09-02T12:03:42.635Z",
+    "titulo": "Queda do consumo surpreende e mostra que ajuste fiscal é urgente, alerta FGV Ibre",
+    "categoria": "Economia",
+    "fonte": "InfoMoney",
+    "link": "https://www.infomoney.com.br/economia/pib-segundo-trimestre-queda-consumo-ajuste-fiscal/",
+    "postId": "18102514121611532",
+    "storyId": null,
+    "reelId": "18102514121611532",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1788350489500.mp4",
+    "tipo": "reel",
+    "peso": 71,
+    "pilares": [
+      "macro"
+    ],
+    "horarioBRT": "09",
+    "cta": null,
+    "decisaoFormato": "peso 71: reel; Studio Engine 100/100",
+    "studioQuality": {
+      "approved": true,
+      "score": 100,
+      "blockers": [],
+      "warnings": []
+    }
+  },
+  {
     "data": "2026-09-02T09:33:59.233Z",
     "titulo": "Livro Bege, ADP, indústria, pesquisa eleitoral e mais destaques desta quarta",
     "categoria": "Mercados",
@@ -3715,20 +3742,5 @@
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1784147726082.mp4",
     "tipo": "reel",
     "peso": 88
-  },
-  {
-    "data": "2026-07-15T18:33:03.166Z",
-    "titulo": "Dois fatores que podem ajudar o Brasil a cortar juros, segundo HSBC",
-    "categoria": "Economia",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/dolar-fraco-e-petroleo-mais-barato-ajudam-brasil-a-cortar-juros-diz-hsbc-jcav/",
-    "postId": "18032613740818189",
-    "storyId": null,
-    "reelId": "18032613740818189",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1784140288712.mp4",
-    "tipo": "reel",
-    "peso": 91
   }
 ]

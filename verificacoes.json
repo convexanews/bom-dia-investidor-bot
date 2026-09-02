@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-09-02T12:03:42.637Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Queda do consumo surpreende e mostra que ajuste fiscal é urgente, alerta FGV Ibre\".",
+    "postId": "18102514121611532",
+    "storyId": null,
+    "reelId": "18102514121611532",
+    "tipo": "reel",
+    "studioQuality": 100
+  },
+  {
+    "data": "2026-09-02T12:01:24.059Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 71): \"Queda do consumo surpreende e mostra que ajuste fiscal é urgente, alerta FGV Ibre\". Realizando postagem..."
+  },
+  {
     "data": "2026-09-02T11:31:00.262Z",
     "resultado": "pauta_reprovada",
     "mensagem": "Notícia não publicada: manchete longa demais para caber completa no card.",
@@ -1064,15 +1079,5 @@
     "data": "2026-08-30T02:31:06.909Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (23:31 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-08-30T02:01:09.576Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (23:01 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-08-30T01:30:55.521Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }
 ]
