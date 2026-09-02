@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-09-02T10:01:14.081Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 63 min."
+  },
+  {
     "data": "2026-09-02T09:33:59.235Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Livro Bege, ADP, indústria, pesquisa eleitoral e mais destaques desta quarta\".",
@@ -1066,11 +1071,6 @@
   },
   {
     "data": "2026-08-30T00:31:20.951Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-08-30T00:01:23.408Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }
