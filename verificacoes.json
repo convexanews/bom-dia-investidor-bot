@@ -1,5 +1,11 @@
 [
   {
+    "data": "2026-09-02T15:01:07.403Z",
+    "resultado": "alerta_suprimido",
+    "mensagem": "Alerta de recorde não publicado: limite diário de posts atingido.",
+    "ativo": "Ibovespa"
+  },
+  {
     "data": "2026-09-02T15:01:04.799Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 33 min."
@@ -1079,10 +1085,5 @@
     "data": "2026-08-30T07:01:09.271Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (04:01 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-08-30T06:31:04.066Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (03:31 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
