@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-09-01T15:29:54.810Z",
+  "atualizadoEm": "2026-09-02T15:10:13.553Z",
   "porFormato": {
     "reel": {
       "posts": 25,
@@ -7,42 +7,10 @@
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
-      "taxaInteracaoMedia": 0
+      "taxaInteracaoMedia": 6.67
     }
   },
   "porPilar": {
-    "bolsa": {
-      "posts": 22,
-      "alcanceMedio": 15,
-      "salvamentosMedios": 0,
-      "compartilhamentosMedios": 0,
-      "reproducoesMedias": null,
-      "taxaInteracaoMedia": 6.67
-    },
-    "renda_fixa": {
-      "posts": 1,
-      "alcanceMedio": 1,
-      "salvamentosMedios": 0,
-      "compartilhamentosMedios": 0,
-      "reproducoesMedias": null,
-      "taxaInteracaoMedia": 0
-    },
-    "fiis": {
-      "posts": 3,
-      "alcanceMedio": 13,
-      "salvamentosMedios": 0,
-      "compartilhamentosMedios": 0,
-      "reproducoesMedias": null,
-      "taxaInteracaoMedia": 0
-    },
-    "cripto": {
-      "posts": 2,
-      "alcanceMedio": 14,
-      "salvamentosMedios": 0,
-      "compartilhamentosMedios": 0,
-      "reproducoesMedias": null,
-      "taxaInteracaoMedia": 7.14
-    },
     "macro": {
       "posts": 24,
       "alcanceMedio": 15,
@@ -51,13 +19,45 @@
       "reproducoesMedias": null,
       "taxaInteracaoMedia": 6.67
     },
+    "bolsa": {
+      "posts": 21,
+      "alcanceMedio": 16,
+      "salvamentosMedios": 0,
+      "compartilhamentosMedios": 0,
+      "reproducoesMedias": null,
+      "taxaInteracaoMedia": 6.25
+    },
     "exterior": {
-      "posts": 14,
+      "posts": 11,
       "alcanceMedio": 14,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
       "taxaInteracaoMedia": 7.14
+    },
+    "renda_fixa": {
+      "posts": 2,
+      "alcanceMedio": 15,
+      "salvamentosMedios": 0,
+      "compartilhamentosMedios": 0,
+      "reproducoesMedias": null,
+      "taxaInteracaoMedia": 6.67
+    },
+    "fiis": {
+      "posts": 2,
+      "alcanceMedio": 10,
+      "salvamentosMedios": 0,
+      "compartilhamentosMedios": 0,
+      "reproducoesMedias": null,
+      "taxaInteracaoMedia": 0
+    },
+    "cripto": {
+      "posts": 1,
+      "alcanceMedio": 7,
+      "salvamentosMedios": 0,
+      "compartilhamentosMedios": 0,
+      "reproducoesMedias": null,
+      "taxaInteracaoMedia": 0
     }
   },
   "porHorarioBRT": {
@@ -71,7 +71,7 @@
     },
     "11": {
       "posts": 3,
-      "alcanceMedio": 12,
+      "alcanceMedio": 9,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
@@ -79,19 +79,27 @@
     },
     "12": {
       "posts": 1,
-      "alcanceMedio": 1,
+      "alcanceMedio": 7,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
       "taxaInteracaoMedia": 0
     },
     "13": {
-      "posts": 3,
-      "alcanceMedio": 10,
+      "posts": 2,
+      "alcanceMedio": 13,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
       "taxaInteracaoMedia": 0
+    },
+    "14": {
+      "posts": 1,
+      "alcanceMedio": 22,
+      "salvamentosMedios": 0,
+      "compartilhamentosMedios": 0,
+      "reproducoesMedias": null,
+      "taxaInteracaoMedia": 9.09
     },
     "15": {
       "posts": 1,
@@ -102,24 +110,24 @@
       "taxaInteracaoMedia": 7.69
     },
     "16": {
-      "posts": 2,
-      "alcanceMedio": 16,
+      "posts": 1,
+      "alcanceMedio": 12,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
-      "taxaInteracaoMedia": 6.25
+      "taxaInteracaoMedia": 0
     },
     "17": {
-      "posts": 2,
-      "alcanceMedio": 15,
+      "posts": 3,
+      "alcanceMedio": 17,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
-      "taxaInteracaoMedia": 6.67
+      "taxaInteracaoMedia": 5.88
     },
     "18": {
-      "posts": 2,
-      "alcanceMedio": 13,
+      "posts": 1,
+      "alcanceMedio": 11,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
@@ -127,35 +135,35 @@
     },
     "19": {
       "posts": 2,
-      "alcanceMedio": 15,
+      "alcanceMedio": 16,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
-      "taxaInteracaoMedia": 6.67
+      "taxaInteracaoMedia": 6.25
     },
     "21": {
       "posts": 2,
-      "alcanceMedio": 12,
+      "alcanceMedio": 13,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
       "taxaInteracaoMedia": 0
     },
     "09": {
-      "posts": 1,
-      "alcanceMedio": 4,
+      "posts": 2,
+      "alcanceMedio": 9,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
       "taxaInteracaoMedia": 0
     },
     "06": {
-      "posts": 3,
+      "posts": 4,
       "alcanceMedio": 13,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
-      "taxaInteracaoMedia": 0
+      "taxaInteracaoMedia": 7.69
     },
     "08": {
       "posts": 1,
@@ -164,32 +172,16 @@
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
       "taxaInteracaoMedia": 6.67
-    },
-    "07": {
-      "posts": 1,
-      "alcanceMedio": 27,
-      "salvamentosMedios": 0,
-      "compartilhamentosMedios": 0,
-      "reproducoesMedias": null,
-      "taxaInteracaoMedia": 3.7
     }
   },
   "porCTA": {
     "não informado": {
-      "posts": 21,
-      "alcanceMedio": 14,
+      "posts": 25,
+      "alcanceMedio": 15,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
-      "taxaInteracaoMedia": 0
-    },
-    "📤 Envie para quem acompanha o mercado global.": {
-      "posts": 4,
-      "alcanceMedio": 20,
-      "salvamentosMedios": 0,
-      "compartilhamentosMedios": 0,
-      "reproducoesMedias": null,
-      "taxaInteracaoMedia": 5
+      "taxaInteracaoMedia": 6.67
     }
   }
 }
