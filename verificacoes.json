@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-09-02T16:31:03.257Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 65 min."
+  },
+  {
     "data": "2026-09-02T16:05:03.754Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Ibovespa sobe forte com Vale em disparada e novas pesquisas eleitorais\".",
@@ -1085,10 +1090,5 @@
     "data": "2026-08-30T09:01:03.948Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-08-30T08:31:10.008Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (05:31 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
