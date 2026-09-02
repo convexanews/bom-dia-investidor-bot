@@ -1,5 +1,33 @@
 [
   {
+    "data": "2026-09-02T16:05:03.752Z",
+    "titulo": "Ibovespa sobe forte com Vale em disparada e novas pesquisas eleitorais",
+    "categoria": "Invest",
+    "fonte": "Exame",
+    "link": "https://exame.com/invest/mercados/ibovespa-sobe-forte-com-vale-em-disparada-e-novas-pesquisas-eleitorais/",
+    "postId": "17895283683668397",
+    "storyId": null,
+    "reelId": "17895283683668397",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1788364975660.mp4",
+    "tipo": "reel",
+    "peso": 82,
+    "pilares": [
+      "macro",
+      "bolsa"
+    ],
+    "horarioBRT": "13",
+    "cta": null,
+    "decisaoFormato": "peso 82: reel; Studio Engine 100/100",
+    "studioQuality": {
+      "approved": true,
+      "score": 100,
+      "blockers": [],
+      "warnings": []
+    }
+  },
+  {
     "data": "2026-09-02T14:03:19.548Z",
     "titulo": "Ibovespa Hoje Ao Vivo: Bolsa dispara e chega aos 183 mil com nova pesquisa eleitoral",
     "categoria": "Mercados",
@@ -3740,20 +3768,5 @@
     "videoUrl": null,
     "tipo": "card",
     "peso": 51
-  },
-  {
-    "data": "2026-07-15T23:02:52.116Z",
-    "titulo": "Gerdau (GGBR4) e Usiminas (USIM5): Morgan Stanley eleva preços-alvo, mas mantém cautela",
-    "categoria": "Empresas",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/gerdau-ggbr4-e-usiminas-usim5-morgan-stanley-eleva-precos-alvo-mas-mantem-cautela-vtra/",
-    "postId": "18131851771613157",
-    "storyId": "18231014737317019",
-    "reelId": null,
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784156490265-slide1.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784156490265-story.png",
-    "videoUrl": null,
-    "tipo": "carrossel",
-    "peso": 31
   }
 ]
