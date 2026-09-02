@@ -1,5 +1,14 @@
 [
   {
+    "titulo": "Ibovespa dispara com cenário eleitoral e ações de bancos e Vale; dólar recua 1%",
+    "link": "https://exame.com/invest/mercados/ibovespa-dispara-com-cenario-eleitoral-e-acoes-de-bancos-e-vale-dolar-recua-1/",
+    "peso": 75,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1788382920075.mp4",
+    "coverUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1788382920075-capa.png",
+    "legendaUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1788382920075-legenda.txt",
+    "data": "2026-09-02T21:04:08.164Z"
+  },
+  {
     "titulo": "Ibovespa sobe forte com Vale em disparada e novas pesquisas eleitorais",
     "link": "https://exame.com/invest/mercados/ibovespa-sobe-forte-com-vale-em-disparada-e-novas-pesquisas-eleitorais/",
     "peso": 82,
@@ -1590,13 +1599,5 @@
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782255705110.mp4",
     "legendaUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782255705110-legenda.txt",
     "data": "2026-06-23T23:04:09.451Z"
-  },
-  {
-    "titulo": "Wall Street recua com venda dos setores de tecnologia e semicondutores; Nasdaq derrete 2%",
-    "link": "https://www.moneytimes.com.br/wall-street-23-6-26-apsa/",
-    "peso": 80,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782246693317.mp4",
-    "legendaUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782246693317-legenda.txt",
-    "data": "2026-06-23T20:33:25.678Z"
   }
 ]

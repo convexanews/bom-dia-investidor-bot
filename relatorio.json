@@ -1,5 +1,33 @@
 [
   {
+    "data": "2026-09-02T21:04:08.166Z",
+    "titulo": "Ibovespa dispara com cenário eleitoral e ações de bancos e Vale; dólar recua 1%",
+    "categoria": "Invest",
+    "fonte": "Exame",
+    "link": "https://exame.com/invest/mercados/ibovespa-dispara-com-cenario-eleitoral-e-acoes-de-bancos-e-vale-dolar-recua-1/",
+    "postId": "18412756327159117",
+    "storyId": null,
+    "reelId": "18412756327159117",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1788382920075.mp4",
+    "tipo": "reel",
+    "peso": 75,
+    "pilares": [
+      "macro",
+      "bolsa"
+    ],
+    "horarioBRT": "18",
+    "cta": null,
+    "decisaoFormato": "peso 75: reel; Studio Engine 100/100",
+    "studioQuality": {
+      "approved": true,
+      "score": 100,
+      "blockers": [],
+      "warnings": []
+    }
+  },
+  {
     "data": "2026-09-02T16:05:03.752Z",
     "titulo": "Ibovespa sobe forte com Vale em disparada e novas pesquisas eleitorais",
     "categoria": "Invest",
@@ -3753,20 +3781,5 @@
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1784201505937.mp4",
     "tipo": "reel",
     "peso": 44
-  },
-  {
-    "data": "2026-07-16T09:02:17.107Z",
-    "titulo": "Ações da SIG despencam 22% após alerta de lucros e vendas fracas",
-    "categoria": "MERCADO",
-    "fonte": "Investing.com",
-    "link": "https://br.investing.com/news/stock-market-news/acoes-da-sig-despencam-22-apos-alerta-de-lucros-e-vendas-fracas-93CH-2003456",
-    "postId": "18103814827882569",
-    "storyId": "17999250128957230",
-    "reelId": null,
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784192497038-feed.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784192497038-story.png",
-    "videoUrl": null,
-    "tipo": "card",
-    "peso": 51
   }
 ]

@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-09-02T21:04:08.168Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Ibovespa dispara com cenário eleitoral e ações de bancos e Vale; dólar recua 1%\".",
+    "postId": "18412756327159117",
+    "storyId": null,
+    "reelId": "18412756327159117",
+    "tipo": "reel",
+    "studioQuality": 100
+  },
+  {
+    "data": "2026-09-02T21:01:51.330Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 75): \"Ibovespa dispara com cenário eleitoral e ações de bancos e Vale; dólar recua 1%\". Realizando postagem..."
+  },
+  {
     "data": "2026-09-02T20:31:20.318Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1075,20 +1090,5 @@
     "data": "2026-08-30T14:17:20.398Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 47 min."
-  },
-  {
-    "data": "2026-08-30T14:01:12.786Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 64 min."
-  },
-  {
-    "data": "2026-08-30T13:34:19.315Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Selic pode ir de 9,75% a 15,5% após as eleições, diz Morgan Stanley\".",
-    "postId": "18068026070780872",
-    "storyId": null,
-    "reelId": "18068026070780872",
-    "tipo": "reel",
-    "studioQuality": 100
   }
 ]
