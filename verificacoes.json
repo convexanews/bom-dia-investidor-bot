@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-09-03T16:01:13.580Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
     "data": "2026-09-03T15:31:54.447Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1095,10 +1100,5 @@
     "data": "2026-08-31T09:31:09.460Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 80): \"Orçamento de 2027, Focus, dados da China e mais destaques desta segunda-feira (31)\". Realizando postagem..."
-  },
-  {
-    "data": "2026-08-31T09:01:15.256Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }
 ]
