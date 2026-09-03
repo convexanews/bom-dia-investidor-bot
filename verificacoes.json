@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-09-03T18:21:34.781Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
     "data": "2026-09-03T18:00:59.385Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 5 min."
@@ -1095,10 +1100,5 @@
     "reelId": "18086165042693094",
     "tipo": "reel",
     "studioQuality": 100
-  },
-  {
-    "data": "2026-08-31T11:30:56.719Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 80): \"Wall Street sob pressão: o que o Japão e as big techs têm a ver com a disparada dos títulos dos EUA\". Realizando postagem..."
   }
 ]
