@@ -1,34 +1,34 @@
 {
-  "atualizadoEm": "2026-09-02T15:10:13.553Z",
+  "atualizadoEm": "2026-09-03T15:04:38.425Z",
   "porFormato": {
     "reel": {
       "posts": 25,
-      "alcanceMedio": 15,
+      "alcanceMedio": 17,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
-      "taxaInteracaoMedia": 6.67
+      "taxaInteracaoMedia": 5.88
     }
   },
   "porPilar": {
     "macro": {
       "posts": 24,
-      "alcanceMedio": 15,
+      "alcanceMedio": 17,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
-      "taxaInteracaoMedia": 6.67
+      "taxaInteracaoMedia": 5.88
     },
     "bolsa": {
-      "posts": 21,
-      "alcanceMedio": 16,
+      "posts": 22,
+      "alcanceMedio": 17,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
-      "taxaInteracaoMedia": 6.25
+      "taxaInteracaoMedia": 5.88
     },
     "exterior": {
-      "posts": 11,
+      "posts": 9,
       "alcanceMedio": 14,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
@@ -70,8 +70,8 @@
       "taxaInteracaoMedia": 3.17
     },
     "11": {
-      "posts": 3,
-      "alcanceMedio": 9,
+      "posts": 2,
+      "alcanceMedio": 11,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
@@ -86,8 +86,8 @@
       "taxaInteracaoMedia": 0
     },
     "13": {
-      "posts": 2,
-      "alcanceMedio": 13,
+      "posts": 3,
+      "alcanceMedio": 12,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
@@ -109,25 +109,17 @@
       "reproducoesMedias": null,
       "taxaInteracaoMedia": 7.69
     },
-    "16": {
-      "posts": 1,
-      "alcanceMedio": 12,
-      "salvamentosMedios": 0,
-      "compartilhamentosMedios": 0,
-      "reproducoesMedias": null,
-      "taxaInteracaoMedia": 0
-    },
     "17": {
       "posts": 3,
-      "alcanceMedio": 17,
+      "alcanceMedio": 28,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
-      "taxaInteracaoMedia": 5.88
+      "taxaInteracaoMedia": 3.57
     },
     "18": {
       "posts": 1,
-      "alcanceMedio": 11,
+      "alcanceMedio": 10,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
@@ -141,17 +133,17 @@
       "reproducoesMedias": null,
       "taxaInteracaoMedia": 6.25
     },
-    "21": {
-      "posts": 2,
-      "alcanceMedio": 13,
+    "20": {
+      "posts": 1,
+      "alcanceMedio": 9,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
       "taxaInteracaoMedia": 0
     },
-    "09": {
+    "21": {
       "posts": 2,
-      "alcanceMedio": 9,
+      "alcanceMedio": 14,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
@@ -159,11 +151,19 @@
     },
     "06": {
       "posts": 4,
-      "alcanceMedio": 13,
+      "alcanceMedio": 12,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
-      "taxaInteracaoMedia": 7.69
+      "taxaInteracaoMedia": 8.33
+    },
+    "09": {
+      "posts": 2,
+      "alcanceMedio": 12,
+      "salvamentosMedios": 0,
+      "compartilhamentosMedios": 0,
+      "reproducoesMedias": null,
+      "taxaInteracaoMedia": 0
     },
     "08": {
       "posts": 1,
@@ -177,11 +177,11 @@
   "porCTA": {
     "não informado": {
       "posts": 25,
-      "alcanceMedio": 15,
+      "alcanceMedio": 17,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
-      "taxaInteracaoMedia": 6.67
+      "taxaInteracaoMedia": 5.88
     }
   }
 }
