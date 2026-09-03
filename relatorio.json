@@ -1,5 +1,32 @@
 [
   {
+    "data": "2026-09-03T16:35:14.329Z",
+    "titulo": "Japão eleva alerta sobre iene e reacende temor de nova intervenção no câmbio",
+    "categoria": "Mercados",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/japao-eleva-alerta-sobre-iene-e-reacende-temor-de-nova-intervencao-no-cambio-lils/",
+    "postId": "17955235236221185",
+    "storyId": null,
+    "reelId": "17955235236221185",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1788453128264.mp4",
+    "tipo": "reel",
+    "peso": 75,
+    "pilares": [
+      "macro"
+    ],
+    "horarioBRT": "13",
+    "cta": null,
+    "decisaoFormato": "peso 75: reel; Studio Engine 100/100",
+    "studioQuality": {
+      "approved": true,
+      "score": 100,
+      "blockers": [],
+      "warnings": []
+    }
+  },
+  {
     "data": "2026-09-03T09:33:56.290Z",
     "titulo": "Pesquisa DataFolha, discurso de Lula, PMIs e mais destaques desta quinta-feira",
     "categoria": "Mercados",
@@ -3793,20 +3820,5 @@
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1784226673706.mp4",
     "tipo": "reel",
     "peso": 48
-  },
-  {
-    "data": "2026-07-16T16:02:31.461Z",
-    "titulo": "S&P 500 e Nasdaq caem com perdas em chips e foco em balanços e dados econômicos",
-    "categoria": "Mercados",
-    "fonte": "InfoMoney",
-    "link": "https://www.infomoney.com.br/mercados/sp-500-e-nasdaq-caem-com-perdas-de-chips/",
-    "postId": "18041887418619184",
-    "storyId": "18108322670013687",
-    "reelId": null,
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784217702767-feed.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784217702767-story.png",
-    "videoUrl": null,
-    "tipo": "card",
-    "peso": 49
   }
 ]

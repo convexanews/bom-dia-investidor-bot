@@ -1,5 +1,14 @@
 [
   {
+    "titulo": "Japão eleva alerta sobre iene e reacende temor de nova intervenção no câmbio",
+    "link": "https://www.moneytimes.com.br/japao-eleva-alerta-sobre-iene-e-reacende-temor-de-nova-intervencao-no-cambio-lils/",
+    "peso": 75,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1788453128264.mp4",
+    "coverUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1788453128264-capa.png",
+    "legendaUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1788453128264-legenda.txt",
+    "data": "2026-09-03T16:35:14.327Z"
+  },
+  {
     "titulo": "Pesquisa DataFolha, discurso de Lula, PMIs e mais destaques desta quinta-feira",
     "link": "https://www.infomoney.com.br/mercados/pesquisa-datafolha-lula-pmis-03092026/",
     "peso": 80,
@@ -1593,13 +1602,5 @@
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782309706623.mp4",
     "legendaUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782309706623-legenda.txt",
     "data": "2026-06-24T14:03:26.515Z"
-  },
-  {
-    "titulo": "Resultados da Micron ganham importância com mercado em modo “alerta máximo” com IA",
-    "link": "https://www.infomoney.com.br/mercados/resultados-da-micron-ganham-importancia-com-mercado-em-modo-alerta-maximo-com-ia/",
-    "peso": 42,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782300741215.mp4",
-    "legendaUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782300741215-legenda.txt",
-    "data": "2026-06-24T11:34:57.305Z"
   }
 ]

@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-09-03T16:35:14.331Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Japão eleva alerta sobre iene e reacende temor de nova intervenção no câmbio\".",
+    "postId": "17955235236221185",
+    "storyId": null,
+    "reelId": "17955235236221185",
+    "tipo": "reel",
+    "studioQuality": 100
+  },
+  {
+    "data": "2026-09-03T16:31:56.886Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 75): \"Japão eleva alerta sobre iene e reacende temor de nova intervenção no câmbio\". Realizando postagem..."
+  },
+  {
     "data": "2026-09-03T16:01:13.580Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1085,20 +1100,5 @@
     "data": "2026-08-31T10:01:25.325Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 62 min."
-  },
-  {
-    "data": "2026-08-31T09:33:22.816Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Orçamento de 2027, Focus, dados da China e mais destaques desta segunda-feira (31)\".",
-    "postId": "17901642789564069",
-    "storyId": null,
-    "reelId": "17901642789564069",
-    "tipo": "reel",
-    "studioQuality": 100
-  },
-  {
-    "data": "2026-08-31T09:31:09.460Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 80): \"Orçamento de 2027, Focus, dados da China e mais destaques desta segunda-feira (31)\". Realizando postagem..."
   }
 ]
