@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-09-03T23:00:22.268Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 68 min."
+  },
+  {
     "data": "2026-09-03T22:37:54.108Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Dividendos: Carteira do Safra dispara e deixa Ibovespa comendo poeira; veja portfólio para setembro\".",
@@ -1090,10 +1095,5 @@
     "data": "2026-08-31T17:01:00.086Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 63 min."
-  },
-  {
-    "data": "2026-08-31T16:44:18.492Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 80 min."
   }
 ]
