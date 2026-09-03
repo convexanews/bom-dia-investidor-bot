@@ -1,5 +1,14 @@
 [
   {
+    "titulo": "Wall Street sobe 1% de olho em títulos antes do payroll",
+    "link": "https://www.moneytimes.com.br/wall-street-3-9-26-apsa/",
+    "peso": 78,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1788467485393.mp4",
+    "coverUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1788467485393-capa.png",
+    "legendaUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1788467485393-legenda.txt",
+    "data": "2026-09-03T20:33:39.461Z"
+  },
+  {
     "titulo": "Japão eleva alerta sobre iene e reacende temor de nova intervenção no câmbio",
     "link": "https://www.moneytimes.com.br/japao-eleva-alerta-sobre-iene-e-reacende-temor-de-nova-intervencao-no-cambio-lils/",
     "peso": 75,
@@ -1594,13 +1603,5 @@
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782318685140.mp4",
     "legendaUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782318685140-legenda.txt",
     "data": "2026-06-24T16:33:24.501Z"
-  },
-  {
-    "titulo": "Ibovespa Hoje Ao Vivo: Bolsa cai com petroleiras e VALE3; bancos sobem",
-    "link": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-24062026/",
-    "peso": 58,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782309706623.mp4",
-    "legendaUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782309706623-legenda.txt",
-    "data": "2026-06-24T14:03:26.515Z"
   }
 ]

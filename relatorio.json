@@ -1,5 +1,33 @@
 [
   {
+    "data": "2026-09-03T20:33:39.462Z",
+    "titulo": "Wall Street sobe 1% de olho em títulos antes do payroll",
+    "categoria": "Mercados",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/wall-street-3-9-26-apsa/",
+    "postId": "17988079107022680",
+    "storyId": null,
+    "reelId": "17988079107022680",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1788467485393.mp4",
+    "tipo": "reel",
+    "peso": 78,
+    "pilares": [
+      "macro",
+      "exterior"
+    ],
+    "horarioBRT": "17",
+    "cta": null,
+    "decisaoFormato": "peso 78: reel; Studio Engine 100/100",
+    "studioQuality": {
+      "approved": true,
+      "score": 100,
+      "blockers": [],
+      "warnings": []
+    }
+  },
+  {
     "data": "2026-09-03T16:35:14.329Z",
     "titulo": "Japão eleva alerta sobre iene e reacende temor de nova intervenção no câmbio",
     "categoria": "Mercados",
@@ -3805,20 +3833,5 @@
     "videoUrl": null,
     "tipo": "carrossel",
     "peso": 47
-  },
-  {
-    "data": "2026-07-16T18:32:47.754Z",
-    "titulo": "Novas tarifas dos Estados Unidos impactam principalmente as empresas de pequeno porte, diz sócio da Voga Investimentos",
-    "categoria": "Economia",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/novas-tarifas-dos-estados-unidos-impactam-empresas-de-pequeno-porte-garg/",
-    "postId": "18477497953102993",
-    "storyId": null,
-    "reelId": "18477497953102993",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1784226673706.mp4",
-    "tipo": "reel",
-    "peso": 48
   }
 ]
