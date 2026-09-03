@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-09-03T18:31:18.371Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
     "data": "2026-09-03T18:21:34.781Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1090,15 +1095,5 @@
     "data": "2026-08-31T12:01:16.213Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 63 min."
-  },
-  {
-    "data": "2026-08-31T11:33:18.881Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Wall Street sob pressão: o que o Japão e as big techs têm a ver com a disparada dos títulos dos EUA\".",
-    "postId": "18086165042693094",
-    "storyId": null,
-    "reelId": "18086165042693094",
-    "tipo": "reel",
-    "studioQuality": 100
   }
 ]
