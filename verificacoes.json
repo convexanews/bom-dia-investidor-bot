@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-09-03T22:01:10.764Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 3 min."
+  },
+  {
     "data": "2026-09-03T21:48:22.245Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 16 min."
@@ -1090,10 +1095,5 @@
     "data": "2026-08-31T16:31:20.836Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 78): \"Brasil está mais sujeito a risco cambial em cenário de estresse fiscal, alerta UBS\". Realizando postagem..."
-  },
-  {
-    "data": "2026-08-31T16:01:04.116Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }
 ]
