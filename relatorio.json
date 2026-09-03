@@ -1,5 +1,34 @@
 [
   {
+    "data": "2026-09-03T09:33:56.290Z",
+    "titulo": "Pesquisa DataFolha, discurso de Lula, PMIs e mais destaques desta quinta-feira",
+    "categoria": "Mercados",
+    "fonte": "InfoMoney",
+    "link": "https://www.infomoney.com.br/mercados/pesquisa-datafolha-lula-pmis-03092026/",
+    "postId": "17928313350446058",
+    "storyId": null,
+    "reelId": "17928313350446058",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1788427872107.mp4",
+    "tipo": "reel",
+    "peso": 80,
+    "pilares": [
+      "macro",
+      "bolsa",
+      "exterior"
+    ],
+    "horarioBRT": "06",
+    "cta": null,
+    "decisaoFormato": "peso 80: reel; Studio Engine 100/100",
+    "studioQuality": {
+      "approved": true,
+      "score": 100,
+      "blockers": [],
+      "warnings": []
+    }
+  },
+  {
     "data": "2026-09-02T23:02:07.322Z",
     "titulo": "Hora de vender? BofA vê 2 riscos para bolsa",
     "categoria": "Mercados",
@@ -3779,20 +3808,5 @@
     "videoUrl": null,
     "tipo": "card",
     "peso": 49
-  },
-  {
-    "data": "2026-07-16T14:01:12.589Z",
-    "titulo": "Chips pesam e Wall Street opera majoritariamente em queda; Oriente Médio continua no radar",
-    "categoria": "Mercados",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/wall-street-abertura-16-7-26-lils/",
-    "postId": "18114134417297234",
-    "storyId": "17917939209205795",
-    "reelId": null,
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784210388346-slide1.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784210388346-story.png",
-    "videoUrl": null,
-    "tipo": "carrossel",
-    "peso": 58
   }
 ]

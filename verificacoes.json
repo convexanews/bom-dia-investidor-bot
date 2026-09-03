@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-09-03T09:33:56.292Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Pesquisa DataFolha, discurso de Lula, PMIs e mais destaques desta quinta-feira\".",
+    "postId": "17928313350446058",
+    "storyId": null,
+    "reelId": "17928313350446058",
+    "tipo": "reel",
+    "studioQuality": 100
+  },
+  {
+    "data": "2026-09-03T09:31:03.229Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 80): \"Pesquisa DataFolha, discurso de Lula, PMIs e mais destaques desta quinta-feira\". Realizando postagem..."
+  },
+  {
     "data": "2026-09-03T09:01:16.127Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1085,15 +1100,5 @@
     "data": "2026-08-31T02:31:15.072Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (23:31 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-08-31T02:01:38.657Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (23:01 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-08-31T01:31:17.340Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }
 ]
