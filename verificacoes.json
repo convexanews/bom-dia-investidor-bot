@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-09-03T22:37:54.108Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Dividendos: Carteira do Safra dispara e deixa Ibovespa comendo poeira; veja portfólio para setembro\".",
+    "postId": "17884119477653979",
+    "storyId": null,
+    "reelId": "17884119477653979",
+    "tipo": "reel",
+    "studioQuality": 100
+  },
+  {
+    "data": "2026-09-03T22:35:04.087Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 80): \"Dividendos: Carteira do Safra dispara e deixa Ibovespa comendo poeira; veja portfólio para setembro\". Realizando postagem..."
+  },
+  {
     "data": "2026-09-03T22:01:10.764Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 3 min."
@@ -1080,20 +1095,5 @@
     "data": "2026-08-31T16:44:18.492Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 80 min."
-  },
-  {
-    "data": "2026-08-31T16:33:41.895Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Brasil está mais sujeito a risco cambial em cenário de estresse fiscal, alerta UBS\".",
-    "postId": "18227411764323333",
-    "storyId": null,
-    "reelId": "18227411764323333",
-    "tipo": "reel",
-    "studioQuality": 100
-  },
-  {
-    "data": "2026-08-31T16:31:20.836Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 78): \"Brasil está mais sujeito a risco cambial em cenário de estresse fiscal, alerta UBS\". Realizando postagem..."
   }
 ]
