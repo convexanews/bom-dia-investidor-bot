@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-09-03T20:01:21.233Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
     "data": "2026-09-03T19:31:06.793Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1090,10 +1095,5 @@
     "data": "2026-08-31T14:01:11.483Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 81): \"BTG Macro Day: Ajuste fiscal se dará com redução nas despesas e queda nos juros, afirma Alckmin\". Realizando postagem..."
-  },
-  {
-    "data": "2026-08-31T13:31:18.553Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }
 ]
