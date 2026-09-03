@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-09-03T21:01:26.572Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 63 min."
+  },
+  {
     "data": "2026-09-03T20:33:39.465Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Wall Street sobe 1% de olho em títulos antes do payroll\".",
@@ -1090,10 +1095,5 @@
     "data": "2026-08-31T15:01:00.725Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 33 min."
-  },
-  {
-    "data": "2026-08-31T14:31:16.155Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 63 min."
   }
 ]
