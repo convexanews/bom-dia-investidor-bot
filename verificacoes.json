@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-09-03T17:01:10.629Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 65 min."
+  },
+  {
     "data": "2026-09-03T16:35:14.331Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Japão eleva alerta sobre iene e reacende temor de nova intervenção no câmbio\".",
@@ -1095,10 +1100,5 @@
     "data": "2026-08-31T10:31:01.698Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 33 min."
-  },
-  {
-    "data": "2026-08-31T10:01:25.325Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 62 min."
   }
 ]
