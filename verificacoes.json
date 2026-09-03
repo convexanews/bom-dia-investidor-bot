@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-09-03T10:01:06.893Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 63 min."
+  },
+  {
     "data": "2026-09-03T09:33:56.292Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Pesquisa DataFolha, discurso de Lula, PMIs e mais destaques desta quinta-feira\".",
@@ -1095,10 +1100,5 @@
     "data": "2026-08-31T03:01:03.756Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (00:01 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-08-31T02:31:15.072Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (23:31 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
