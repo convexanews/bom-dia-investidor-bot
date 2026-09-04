@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-09-04T03:00:05.107Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (00:00 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-09-04T02:32:40.085Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (23:32 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1085,15 +1090,5 @@
     "data": "2026-08-31T21:01:16.246Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 64 min."
-  },
-  {
-    "data": "2026-08-31T20:35:05.146Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Ibovespa consegue 9ª alta seguida, mas mês não sai do negativo; Petrobras dispara 3%\".",
-    "postId": "18151613461468099",
-    "storyId": null,
-    "reelId": "18151613461468099",
-    "tipo": "reel",
-    "studioQuality": 100
   }
 ]
