@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-09-04T16:31:39.747Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 63 min."
+  },
+  {
     "data": "2026-09-04T16:03:56.303Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Crédito rural em alerta: operações problemáticas atingem recorde de R$ 207 bilhões e já representam 23,5% da carteira\".",
@@ -1085,10 +1090,5 @@
     "data": "2026-09-01T10:30:59.101Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 33 min."
-  },
-  {
-    "data": "2026-09-01T10:01:22.806Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 62 min."
   }
 ]
