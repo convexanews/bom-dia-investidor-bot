@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-09-04T17:30:59.068Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 3 min."
+  },
+  {
     "data": "2026-09-04T17:01:04.510Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 33 min."
@@ -1085,10 +1090,5 @@
     "mensagem": "Projeto automático bloqueado (nota 80): slide 1 contém manchete cortada.",
     "titulo": "Mercado local acompanha PIB enquanto exterior aguarda dados de emprego nos Estados Unidos; Ibovespa em dólar cai mais de 1% nesta terça-feira (1º)",
     "formato": "reel"
-  },
-  {
-    "data": "2026-09-01T11:01:11.391Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 3 min."
   }
 ]
