@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-09-04T22:47:38.733Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
     "data": "2026-09-04T22:30:55.758Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1075,10 +1080,5 @@
     "data": "2026-09-01T17:01:18.658Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 73): \"Juros globais disparam e abalam mercado: o que está acontecendo e como fica o Brasil?\". Realizando postagem..."
-  },
-  {
-    "data": "2026-09-01T16:31:05.620Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 3 min."
   }
 ]
