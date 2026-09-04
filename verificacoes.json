@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-09-04T09:11:02.791Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Payroll nos EUA, balança comercial no Brasil, varejo na Europa e mais destaques hoje\".",
+    "postId": "18428023018177664",
+    "storyId": null,
+    "reelId": "18428023018177664",
+    "tipo": "reel",
+    "studioQuality": 100
+  },
+  {
+    "data": "2026-09-04T09:08:14.237Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 86): \"Payroll nos EUA, balança comercial no Brasil, varejo na Europa e mais destaques hoje\". Realizando postagem..."
+  },
+  {
     "data": "2026-09-04T08:37:56.486Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (05:37 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1070,15 +1085,5 @@
     "data": "2026-09-01T02:01:00.292Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (23:01 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-09-01T01:31:08.021Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 34 min."
-  },
-  {
-    "data": "2026-09-01T01:01:21.670Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 64 min."
   }
 ]
