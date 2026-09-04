@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-09-04T02:32:40.085Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (23:32 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-09-04T02:03:03.816Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (23:03 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1090,10 +1095,5 @@
     "reelId": "18151613461468099",
     "tipo": "reel",
     "studioQuality": 100
-  },
-  {
-    "data": "2026-08-31T20:31:32.740Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 93): \"Ibovespa consegue 9ª alta seguida, mas mês não sai do negativo; Petrobras dispara 3%\". Realizando postagem..."
   }
 ]
