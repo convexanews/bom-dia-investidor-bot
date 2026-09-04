@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-09-04T08:37:56.486Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (05:37 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-09-04T08:06:53.527Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (05:06 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1075,15 +1080,5 @@
     "data": "2026-09-01T01:01:21.670Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 64 min."
-  },
-  {
-    "data": "2026-09-01T00:35:00.857Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Governo prevê superávit primário de R$18,6 bi para 2027 em projeto orçamentário\".",
-    "postId": "18121980550868507",
-    "storyId": null,
-    "reelId": "18121980550868507",
-    "tipo": "reel",
-    "studioQuality": 100
   }
 ]
