@@ -1,5 +1,33 @@
 [
   {
+    "data": "2026-09-04T16:03:56.300Z",
+    "titulo": "Crédito rural em alerta: operações problemáticas atingem recorde de R$ 207 bilhões e já representam 23,5% da carteira",
+    "categoria": "Economia",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/credito-rural-em-alerta-operacoes-problematicas-atingem-recorde-de-r-207-bilhoes-e-ja-representam-235-da-carteira-pads/",
+    "postId": "18495104827102286",
+    "storyId": null,
+    "reelId": "18495104827102286",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1788537682110.mp4",
+    "tipo": "reel",
+    "peso": 76,
+    "pilares": [
+      "bolsa",
+      "renda_fixa"
+    ],
+    "horarioBRT": "13",
+    "cta": null,
+    "decisaoFormato": "peso 76: reel; Studio Engine 100/100",
+    "studioQuality": {
+      "approved": true,
+      "score": 100,
+      "blockers": [],
+      "warnings": []
+    }
+  },
+  {
     "data": "2026-09-04T11:10:25.393Z",
     "titulo": "Super-ricos abocanham fatia recorde da renda sob Lula apesar de agenda voltada aos mais pobres",
     "categoria": "Economia",
@@ -3857,20 +3885,5 @@
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1784296882898.mp4",
     "tipo": "reel",
     "peso": 66
-  },
-  {
-    "data": "2026-07-17T11:32:32.568Z",
-    "titulo": "Fundo imobiliário renova contrato com Banrisul (BRSR6) por mais 5 anos; IFIX avança",
-    "categoria": "Economia",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/fundo-imobiliario-renova-contrato-com-banrisul-brsr6-por-mais-5-anos-ifix-avanca-igdl/",
-    "postId": "18099190421613215",
-    "storyId": "18086390327406985",
-    "reelId": null,
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784287879373-slide1.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784287879373-story.png",
-    "videoUrl": null,
-    "tipo": "carrossel",
-    "peso": 34
   }
 ]

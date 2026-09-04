@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-09-04T16:03:56.303Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Crédito rural em alerta: operações problemáticas atingem recorde de R$ 207 bilhões e já representam 23,5% da carteira\".",
+    "postId": "18495104827102286",
+    "storyId": null,
+    "reelId": "18495104827102286",
+    "tipo": "reel",
+    "studioQuality": 100
+  },
+  {
+    "data": "2026-09-04T16:01:08.909Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 76): \"Crédito rural em alerta: operações problemáticas atingem recorde de R$ 207 bilhões e já representam 23,5% da carteira\". Realizando postagem..."
+  },
+  {
     "data": "2026-09-04T15:30:59.830Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1075,20 +1090,5 @@
     "data": "2026-09-01T10:01:22.806Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 62 min."
-  },
-  {
-    "data": "2026-09-01T09:33:19.520Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"PIB do Brasil, PMIs, Jolts nos EUA e mais destaques desta terça-feira\".",
-    "postId": "18090696881656032",
-    "storyId": null,
-    "reelId": "18090696881656032",
-    "tipo": "reel",
-    "studioQuality": 100
-  },
-  {
-    "data": "2026-09-01T09:31:04.815Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 90): \"PIB do Brasil, PMIs, Jolts nos EUA e mais destaques desta terça-feira\". Realizando postagem..."
   }
 ]
