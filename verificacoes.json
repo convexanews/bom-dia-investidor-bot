@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-09-04T18:30:55.846Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
     "data": "2026-09-04T18:06:49.078Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1078,15 +1083,5 @@
     "data": "2026-09-01T12:31:08.225Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 64 min."
-  },
-  {
-    "data": "2026-09-01T12:04:28.374Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"O que precisa acontecer para a Selic cair? BTG aponta ajuste fiscal como único caminho\".",
-    "postId": "17924763402415172",
-    "storyId": null,
-    "reelId": "17924763402415172",
-    "tipo": "reel",
-    "studioQuality": 100
   }
 ]
