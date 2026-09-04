@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-09-04T11:34:10.373Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 67 min."
+  },
+  {
     "data": "2026-09-04T11:10:25.395Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Super-ricos abocanham fatia recorde da renda sob Lula apesar de agenda voltada aos mais pobres\".",
@@ -1085,10 +1090,5 @@
     "data": "2026-09-01T04:30:57.523Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (01:30 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-09-01T04:01:17.507Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (01:01 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
