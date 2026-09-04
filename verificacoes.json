@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-09-04T18:06:49.078Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
     "data": "2026-09-04T18:01:08.952Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1083,10 +1088,5 @@
     "reelId": "17924763402415172",
     "tipo": "reel",
     "studioQuality": 100
-  },
-  {
-    "data": "2026-09-01T12:01:28.614Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 75): \"O que precisa acontecer para a Selic cair? BTG aponta ajuste fiscal como único caminho\". Realizando postagem..."
   }
 ]
