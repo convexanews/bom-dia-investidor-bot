@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-09-04T21:30:58.437Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 33 min."
+  },
+  {
     "data": "2026-09-04T21:00:56.332Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 63 min."
@@ -1075,15 +1080,5 @@
     "data": "2026-09-01T15:05:06.089Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 89 min."
-  },
-  {
-    "data": "2026-09-01T15:03:57.404Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Bitcoin dispara, ouro avança e Bolsa recua em mês turbulento: veja os investimentos que mais renderam em agosto\".",
-    "postId": "17958772005207279",
-    "storyId": null,
-    "reelId": "17958772005207279",
-    "tipo": "reel",
-    "studioQuality": 100
   }
 ]
