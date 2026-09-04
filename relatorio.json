@@ -1,5 +1,33 @@
 [
   {
+    "data": "2026-09-04T11:10:25.393Z",
+    "titulo": "Super-ricos abocanham fatia recorde da renda sob Lula apesar de agenda voltada aos mais pobres",
+    "categoria": "Economia",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/super-ricos-abocanham-fatia-recorde-da-renda-sob-lula-apesar-de-agenda-voltada-aos-mais-pobres-jcav/",
+    "postId": "17926993569403223",
+    "storyId": null,
+    "reelId": "17926993569403223",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1788520105794.mp4",
+    "tipo": "reel",
+    "peso": 83,
+    "pilares": [
+      "macro",
+      "bolsa"
+    ],
+    "horarioBRT": "08",
+    "cta": null,
+    "decisaoFormato": "peso 83: reel; Studio Engine 100/100",
+    "studioQuality": {
+      "approved": true,
+      "score": 100,
+      "blockers": [],
+      "warnings": []
+    }
+  },
+  {
     "data": "2026-09-04T09:11:02.789Z",
     "titulo": "Payroll nos EUA, balança comercial no Brasil, varejo na Europa e mais destaques hoje",
     "categoria": "Mercados",
@@ -3844,20 +3872,5 @@
     "videoUrl": null,
     "tipo": "carrossel",
     "peso": 34
-  },
-  {
-    "data": "2026-07-17T09:02:54.058Z",
-    "titulo": "Prévia do PIB no Brasil, indústria e confiança consumidor nos EUA e mais destaques",
-    "categoria": "Mercados",
-    "fonte": "InfoMoney",
-    "link": "https://www.infomoney.com.br/mercados/previa-pib-industria-confianca-consumidor-destaques-17072026/",
-    "postId": "17980539123047334",
-    "storyId": null,
-    "reelId": "17980539123047334",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1784278887867.mp4",
-    "tipo": "reel",
-    "peso": 90
   }
 ]
