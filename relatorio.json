@@ -1,5 +1,33 @@
 [
   {
+    "data": "2026-09-04T20:33:50.317Z",
+    "titulo": "Wall Street fecha em queda após payroll e apostas de alta nos juros pelo Fed",
+    "categoria": "Mercados",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/wall-street-4-9-26-apsa-2/",
+    "postId": "18489108766097245",
+    "storyId": null,
+    "reelId": "18489108766097245",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1788553887873.mp4",
+    "tipo": "reel",
+    "peso": 75,
+    "pilares": [
+      "macro",
+      "exterior"
+    ],
+    "horarioBRT": "17",
+    "cta": null,
+    "decisaoFormato": "peso 75: reel; Studio Engine 100/100",
+    "studioQuality": {
+      "approved": true,
+      "score": 100,
+      "blockers": [],
+      "warnings": []
+    }
+  },
+  {
     "data": "2026-09-04T16:03:56.300Z",
     "titulo": "Crédito rural em alerta: operações problemáticas atingem recorde de R$ 207 bilhões e já representam 23,5% da carteira",
     "categoria": "Economia",
@@ -3870,20 +3898,5 @@
     "videoUrl": null,
     "tipo": "carrossel",
     "peso": 56
-  },
-  {
-    "data": "2026-07-17T14:03:09.344Z",
-    "titulo": "B3 lança três novos índices de renda fixa para acompanhar títulos do Tesouro IPCA+",
-    "categoria": "Renda Fixa",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/b3-lanca-tres-novos-indices-de-renda-fixa-para-acompanhar-titulos-do-tesouro-ipca/",
-    "postId": "18471987406109753",
-    "storyId": null,
-    "reelId": "18471987406109753",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1784296882898.mp4",
-    "tipo": "reel",
-    "peso": 66
   }
 ]
