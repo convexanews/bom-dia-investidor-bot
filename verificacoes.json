@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-09-04T20:01:05.793Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
     "data": "2026-09-04T19:30:54.389Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1074,12 +1079,6 @@
   },
   {
     "data": "2026-09-01T14:02:27.256Z",
-    "resultado": "pauta_reprovada",
-    "mensagem": "Notícia não publicada: manchete longa demais para caber completa no card.",
-    "titulo": "Itaú BBA: Investidor local volta à Bolsa e estrangeiro reduz ritmo de saída; saiba que tipo de ações eles estão escolhendo"
-  },
-  {
-    "data": "2026-09-01T13:56:41.183Z",
     "resultado": "pauta_reprovada",
     "mensagem": "Notícia não publicada: manchete longa demais para caber completa no card.",
     "titulo": "Itaú BBA: Investidor local volta à Bolsa e estrangeiro reduz ritmo de saída; saiba que tipo de ações eles estão escolhendo"
