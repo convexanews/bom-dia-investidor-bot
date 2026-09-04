@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-09-04T21:00:56.332Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 63 min."
+  },
+  {
     "data": "2026-09-04T20:33:50.319Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Wall Street fecha em queda após payroll e apostas de alta nos juros pelo Fed\".",
@@ -1080,10 +1085,5 @@
     "reelId": "17958772005207279",
     "tipo": "reel",
     "studioQuality": 100
-  },
-  {
-    "data": "2026-09-01T15:01:12.629Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 70): \"Bitcoin dispara, ouro avança e Bolsa recua em mês turbulento: veja os investimentos que mais renderam em agosto\". Realizando postagem..."
   }
 ]
