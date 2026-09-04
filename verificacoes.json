@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-09-04T09:35:49.287Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 66 min."
+  },
+  {
     "data": "2026-09-04T09:11:02.791Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Payroll nos EUA, balança comercial no Brasil, varejo na Europa e mais destaques hoje\".",
@@ -1080,10 +1085,5 @@
     "data": "2026-09-01T02:31:03.332Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (23:31 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-09-01T02:01:00.292Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (23:01 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
