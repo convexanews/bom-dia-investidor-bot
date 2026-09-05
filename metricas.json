@@ -1,7 +1,67 @@
 [
   {
+    "postId": "18489108766097245",
+    "dataColeta": "2026-09-05T13:55:24.675Z",
+    "dataPostagem": "2026-09-04T20:33:50.317Z",
+    "tipo": "reel",
+    "pilares": [
+      "macro",
+      "exterior"
+    ],
+    "peso": 75,
+    "fonte": "Money Times",
+    "titulo": "Wall Street fecha em queda após payroll e apostas de alta nos juros pelo Fed",
+    "horarioBRT": "17",
+    "cta": null,
+    "decisaoFormato": "peso 75: reel; Studio Engine 100/100",
+    "insights": {
+      "reach": 6,
+      "saved": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "total_interactions": 0,
+      "falhas": [
+        {
+          "metrica": "plays",
+          "erro": "Instagram respondeu 400"
+        }
+      ]
+    }
+  },
+  {
+    "postId": "18495104827102286",
+    "dataColeta": "2026-09-05T13:55:25.907Z",
+    "dataPostagem": "2026-09-04T16:03:56.300Z",
+    "tipo": "reel",
+    "pilares": [
+      "bolsa",
+      "renda_fixa"
+    ],
+    "peso": 76,
+    "fonte": "Money Times",
+    "titulo": "Crédito rural em alerta: operações problemáticas atingem recorde de R$ 207 bilhões e já representam 23,5% da carteira",
+    "horarioBRT": "13",
+    "cta": null,
+    "decisaoFormato": "peso 76: reel; Studio Engine 100/100",
+    "insights": {
+      "reach": 5,
+      "saved": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "total_interactions": 0,
+      "falhas": [
+        {
+          "metrica": "plays",
+          "erro": "Instagram respondeu 400"
+        }
+      ]
+    }
+  },
+  {
     "postId": "17926993569403223",
-    "dataColeta": "2026-09-04T15:01:11.060Z",
+    "dataColeta": "2026-09-05T13:55:26.922Z",
     "dataPostagem": "2026-09-04T11:10:25.393Z",
     "tipo": "reel",
     "pilares": [
@@ -15,7 +75,7 @@
     "cta": null,
     "decisaoFormato": "peso 83: reel; Studio Engine 100/100",
     "insights": {
-      "reach": 2,
+      "reach": 13,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -31,7 +91,7 @@
   },
   {
     "postId": "18428023018177664",
-    "dataColeta": "2026-09-04T15:01:11.982Z",
+    "dataColeta": "2026-09-05T13:55:27.867Z",
     "dataPostagem": "2026-09-04T09:11:02.789Z",
     "tipo": "reel",
     "pilares": [
@@ -46,7 +106,7 @@
     "cta": null,
     "decisaoFormato": "peso 86: reel; Studio Engine 100/100",
     "insights": {
-      "reach": 4,
+      "reach": 13,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -62,7 +122,7 @@
   },
   {
     "postId": "17884119477653979",
-    "dataColeta": "2026-09-04T15:01:12.826Z",
+    "dataColeta": "2026-09-05T13:55:29.087Z",
     "dataPostagem": "2026-09-03T22:37:54.106Z",
     "tipo": "reel",
     "pilares": [
@@ -75,7 +135,7 @@
     "cta": null,
     "decisaoFormato": "peso 80: reel; Studio Engine 100/100",
     "insights": {
-      "reach": 8,
+      "reach": 12,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -91,7 +151,7 @@
   },
   {
     "postId": "17988079107022680",
-    "dataColeta": "2026-09-04T15:01:13.753Z",
+    "dataColeta": "2026-09-05T13:55:30.287Z",
     "dataPostagem": "2026-09-03T20:33:39.462Z",
     "tipo": "reel",
     "pilares": [
@@ -121,7 +181,7 @@
   },
   {
     "postId": "17955235236221185",
-    "dataColeta": "2026-09-04T15:01:14.946Z",
+    "dataColeta": "2026-09-05T13:55:31.507Z",
     "dataPostagem": "2026-09-03T16:35:14.329Z",
     "tipo": "reel",
     "pilares": [
@@ -134,7 +194,7 @@
     "cta": null,
     "decisaoFormato": "peso 75: reel; Studio Engine 100/100",
     "insights": {
-      "reach": 7,
+      "reach": 9,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -150,7 +210,7 @@
   },
   {
     "postId": "17928313350446058",
-    "dataColeta": "2026-09-04T15:01:15.757Z",
+    "dataColeta": "2026-09-05T13:55:32.505Z",
     "dataPostagem": "2026-09-03T09:33:56.290Z",
     "tipo": "reel",
     "pilares": [
@@ -181,7 +241,7 @@
   },
   {
     "postId": "18085847591290964",
-    "dataColeta": "2026-09-04T15:01:16.546Z",
+    "dataColeta": "2026-09-05T13:55:33.459Z",
     "dataPostagem": "2026-09-02T23:02:07.322Z",
     "tipo": "reel",
     "pilares": [
@@ -211,7 +271,7 @@
   },
   {
     "postId": "18412756327159117",
-    "dataColeta": "2026-09-04T15:01:17.491Z",
+    "dataColeta": "2026-09-05T13:55:34.488Z",
     "dataPostagem": "2026-09-02T21:04:08.166Z",
     "tipo": "reel",
     "pilares": [
@@ -225,7 +285,7 @@
     "cta": null,
     "decisaoFormato": "peso 75: reel; Studio Engine 100/100",
     "insights": {
-      "reach": 11,
+      "reach": 12,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -241,7 +301,7 @@
   },
   {
     "postId": "17895283683668397",
-    "dataColeta": "2026-09-04T15:01:18.738Z",
+    "dataColeta": "2026-09-05T13:55:35.504Z",
     "dataPostagem": "2026-09-02T16:05:03.752Z",
     "tipo": "reel",
     "pilares": [
@@ -255,7 +315,7 @@
     "cta": null,
     "decisaoFormato": "peso 82: reel; Studio Engine 100/100",
     "insights": {
-      "reach": 11,
+      "reach": 12,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -271,7 +331,7 @@
   },
   {
     "postId": "17904617259517494",
-    "dataColeta": "2026-09-04T15:01:19.595Z",
+    "dataColeta": "2026-09-05T13:55:36.510Z",
     "dataPostagem": "2026-09-02T14:03:19.548Z",
     "tipo": "reel",
     "pilares": [
@@ -285,7 +345,7 @@
     "cta": null,
     "decisaoFormato": "peso 70: reel; Studio Engine 100/100",
     "insights": {
-      "reach": 11,
+      "reach": 12,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -301,7 +361,7 @@
   },
   {
     "postId": "18102514121611532",
-    "dataColeta": "2026-09-04T15:01:20.447Z",
+    "dataColeta": "2026-09-05T13:55:37.559Z",
     "dataPostagem": "2026-09-02T12:03:42.635Z",
     "tipo": "reel",
     "pilares": [
@@ -330,7 +390,7 @@
   },
   {
     "postId": "18468975577115316",
-    "dataColeta": "2026-09-04T15:01:21.448Z",
+    "dataColeta": "2026-09-05T13:55:38.655Z",
     "dataPostagem": "2026-09-02T09:33:59.233Z",
     "tipo": "reel",
     "pilares": [
@@ -361,7 +421,7 @@
   },
   {
     "postId": "17882965671618480",
-    "dataColeta": "2026-09-04T15:01:22.454Z",
+    "dataColeta": "2026-09-05T13:55:39.897Z",
     "dataPostagem": "2026-09-01T20:34:09.228Z",
     "tipo": "reel",
     "pilares": [
@@ -391,7 +451,7 @@
   },
   {
     "postId": "18084734060454785",
-    "dataColeta": "2026-09-04T15:01:23.407Z",
+    "dataColeta": "2026-09-05T13:55:40.996Z",
     "dataPostagem": "2026-09-01T17:03:43.520Z",
     "tipo": "reel",
     "pilares": [
@@ -422,7 +482,7 @@
   },
   {
     "postId": "17958772005207279",
-    "dataColeta": "2026-09-04T15:01:24.386Z",
+    "dataColeta": "2026-09-05T13:55:42.111Z",
     "dataPostagem": "2026-09-01T15:03:57.402Z",
     "tipo": "reel",
     "pilares": [
@@ -454,7 +514,7 @@
   },
   {
     "postId": "17924763402415172",
-    "dataColeta": "2026-09-04T15:01:25.383Z",
+    "dataColeta": "2026-09-05T13:55:43.264Z",
     "dataPostagem": "2026-09-01T12:04:28.371Z",
     "tipo": "reel",
     "pilares": [
@@ -484,7 +544,7 @@
   },
   {
     "postId": "18090696881656032",
-    "dataColeta": "2026-09-04T15:01:26.423Z",
+    "dataColeta": "2026-09-05T13:55:44.580Z",
     "dataPostagem": "2026-09-01T09:33:19.518Z",
     "tipo": "reel",
     "pilares": [
@@ -515,7 +575,7 @@
   },
   {
     "postId": "18121980550868507",
-    "dataColeta": "2026-09-04T15:01:27.124Z",
+    "dataColeta": "2026-09-05T13:55:45.689Z",
     "dataPostagem": "2026-09-01T00:35:00.856Z",
     "tipo": "reel",
     "pilares": [
@@ -545,7 +605,7 @@
   },
   {
     "postId": "18025882718888174",
-    "dataColeta": "2026-09-04T15:01:27.981Z",
+    "dataColeta": "2026-09-05T13:55:46.693Z",
     "dataPostagem": "2026-08-31T22:32:09.110Z",
     "tipo": "reel",
     "pilares": [
@@ -576,7 +636,7 @@
   },
   {
     "postId": "18151613461468099",
-    "dataColeta": "2026-09-04T15:01:28.785Z",
+    "dataColeta": "2026-09-05T13:55:47.824Z",
     "dataPostagem": "2026-08-31T20:35:05.144Z",
     "tipo": "reel",
     "pilares": [
@@ -606,7 +666,7 @@
   },
   {
     "postId": "18227411764323333",
-    "dataColeta": "2026-09-04T15:01:29.805Z",
+    "dataColeta": "2026-09-05T13:55:48.834Z",
     "dataPostagem": "2026-08-31T16:33:41.893Z",
     "tipo": "reel",
     "pilares": [
@@ -636,7 +696,7 @@
   },
   {
     "postId": "18143593789492127",
-    "dataColeta": "2026-09-04T15:01:30.637Z",
+    "dataColeta": "2026-09-05T13:55:49.986Z",
     "dataPostagem": "2026-08-31T14:03:41.026Z",
     "tipo": "reel",
     "pilares": [
@@ -666,7 +726,7 @@
   },
   {
     "postId": "18086165042693094",
-    "dataColeta": "2026-09-04T15:01:31.869Z",
+    "dataColeta": "2026-09-05T13:55:51.624Z",
     "dataPostagem": "2026-08-31T11:33:18.879Z",
     "tipo": "reel",
     "pilares": [
@@ -686,67 +746,6 @@
       "comments": 0,
       "likes": 1,
       "total_interactions": 1,
-      "falhas": [
-        {
-          "metrica": "plays",
-          "erro": "Instagram respondeu 400"
-        }
-      ]
-    }
-  },
-  {
-    "postId": "17901642789564069",
-    "dataColeta": "2026-09-04T15:01:32.902Z",
-    "dataPostagem": "2026-08-31T09:33:22.814Z",
-    "tipo": "reel",
-    "pilares": [
-      "macro",
-      "bolsa",
-      "exterior"
-    ],
-    "peso": 80,
-    "fonte": "InfoMoney",
-    "titulo": "Orçamento de 2027, Focus, dados da China e mais destaques desta segunda-feira (31)",
-    "horarioBRT": "06",
-    "cta": null,
-    "decisaoFormato": "peso 80: reel; Studio Engine 100/100",
-    "insights": {
-      "reach": 25,
-      "saved": 0,
-      "shares": 0,
-      "comments": 0,
-      "likes": 0,
-      "total_interactions": 0,
-      "falhas": [
-        {
-          "metrica": "plays",
-          "erro": "Instagram respondeu 400"
-        }
-      ]
-    }
-  },
-  {
-    "postId": "18068026070780872",
-    "dataColeta": "2026-09-04T15:01:33.684Z",
-    "dataPostagem": "2026-08-30T13:34:19.314Z",
-    "tipo": "reel",
-    "pilares": [
-      "macro",
-      "bolsa"
-    ],
-    "peso": 75,
-    "fonte": "Money Times",
-    "titulo": "Selic pode ir de 9,75% a 15,5% após as eleições, diz Morgan Stanley",
-    "horarioBRT": "10",
-    "cta": null,
-    "decisaoFormato": "peso 75: reel; Studio Engine 100/100",
-    "insights": {
-      "reach": 63,
-      "saved": 0,
-      "shares": 0,
-      "comments": 0,
-      "likes": 2,
-      "total_interactions": 2,
       "falhas": [
         {
           "metrica": "plays",
