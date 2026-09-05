@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-09-05T21:28:03.222Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
     "data": "2026-09-05T21:01:04.090Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1049,15 +1054,5 @@
     "data": "2026-09-02T14:30:58.842Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 63 min."
-  },
-  {
-    "data": "2026-09-02T14:03:19.550Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Ibovespa Hoje Ao Vivo: Bolsa dispara e chega aos 183 mil com nova pesquisa eleitoral\".",
-    "postId": "17904617259517494",
-    "storyId": null,
-    "reelId": "17904617259517494",
-    "tipo": "reel",
-    "studioQuality": 100
   }
 ]
