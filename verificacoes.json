@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-09-05T20:31:48.965Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
     "data": "2026-09-05T20:00:58.840Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1054,10 +1059,5 @@
     "data": "2026-09-02T14:01:13.844Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 70): \"Ibovespa Hoje Ao Vivo: Bolsa dispara e chega aos 183 mil com nova pesquisa eleitoral\". Realizando postagem..."
-  },
-  {
-    "data": "2026-09-02T13:31:00.709Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 3 min."
   }
 ]
