@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-09-05T18:01:14.103Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
     "data": "2026-09-05T17:31:05.332Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1060,10 +1065,5 @@
     "resultado": "pauta_reprovada",
     "mensagem": "Notícia não publicada: manchete longa demais para caber completa no card.",
     "titulo": "Mercado internacional reage às falas do presidente do BoJ e ataques dos EUA ao Irã; Ibovespa em dólar sobe nesta quarta-feira (2)"
-  },
-  {
-    "data": "2026-09-02T11:01:01.068Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 3 min."
   }
 ]
