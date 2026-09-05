@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-09-05T19:01:07.684Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
     "data": "2026-09-05T18:31:03.497Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1054,15 +1059,5 @@
     "data": "2026-09-02T12:31:00.185Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 63 min."
-  },
-  {
-    "data": "2026-09-02T12:03:42.637Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Queda do consumo surpreende e mostra que ajuste fiscal é urgente, alerta FGV Ibre\".",
-    "postId": "18102514121611532",
-    "storyId": null,
-    "reelId": "18102514121611532",
-    "tipo": "reel",
-    "studioQuality": 100
   }
 ]
