@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-09-05T18:31:03.497Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
     "data": "2026-09-05T18:29:32.843Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1059,10 +1064,5 @@
     "reelId": "18102514121611532",
     "tipo": "reel",
     "studioQuality": 100
-  },
-  {
-    "data": "2026-09-02T12:01:24.059Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 71): \"Queda do consumo surpreende e mostra que ajuste fiscal é urgente, alerta FGV Ibre\". Realizando postagem..."
   }
 ]
