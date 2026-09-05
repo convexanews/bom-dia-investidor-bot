@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-09-05T23:01:08.347Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
     "data": "2026-09-05T22:39:22.049Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1048,10 +1053,5 @@
     "data": "2026-09-02T16:02:47.543Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 82): \"Ibovespa sobe forte com Vale em disparada e novas pesquisas eleitorais\". Realizando postagem..."
-  },
-  {
-    "data": "2026-09-02T15:31:23.999Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 2 min."
   }
 ]
