@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-09-05T16:13:00.809Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
     "data": "2026-09-05T16:01:13.170Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1065,10 +1070,5 @@
     "data": "2026-09-02T09:31:15.711Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 80): \"Livro Bege, ADP, indústria, pesquisa eleitoral e mais destaques desta quarta\". Realizando postagem..."
-  },
-  {
-    "data": "2026-09-02T09:01:14.452Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }
 ]
