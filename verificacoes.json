@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-09-05T23:31:01.620Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
     "data": "2026-09-05T23:01:08.347Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1048,10 +1053,5 @@
     "reelId": "17895283683668397",
     "tipo": "reel",
     "studioQuality": 100
-  },
-  {
-    "data": "2026-09-02T16:02:47.543Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 82): \"Ibovespa sobe forte com Vale em disparada e novas pesquisas eleitorais\". Realizando postagem..."
   }
 ]
