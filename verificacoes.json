@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-09-05T03:01:30.735Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (00:01 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-09-05T02:31:43.725Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (23:31 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1070,10 +1075,5 @@
     "data": "2026-09-01T20:31:08.019Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 81): \"Ibovespa chega à 10ª alta seguida, com Petrobras, Vale e Bancos; Dólar cai\". Realizando postagem..."
-  },
-  {
-    "data": "2026-09-01T20:01:03.459Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }
 ]
