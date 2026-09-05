@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-09-05T21:01:04.090Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
     "data": "2026-09-05T20:31:48.965Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1054,10 +1059,5 @@
     "reelId": "17904617259517494",
     "tipo": "reel",
     "studioQuality": 100
-  },
-  {
-    "data": "2026-09-02T14:01:13.844Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 70): \"Ibovespa Hoje Ao Vivo: Bolsa dispara e chega aos 183 mil com nova pesquisa eleitoral\". Realizando postagem..."
   }
 ]
