@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-09-05T22:31:01.920Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
     "data": "2026-09-05T22:01:31.894Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1049,10 +1054,5 @@
     "resultado": "alerta_suprimido",
     "mensagem": "Alerta de recorde não publicado: limite diário de posts atingido.",
     "ativo": "Ibovespa"
-  },
-  {
-    "data": "2026-09-02T15:01:04.799Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 33 min."
   }
 ]
