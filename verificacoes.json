@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-09-05T18:29:32.843Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
     "data": "2026-09-05T18:01:14.103Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1059,11 +1064,5 @@
     "data": "2026-09-02T12:01:24.059Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 71): \"Queda do consumo surpreende e mostra que ajuste fiscal é urgente, alerta FGV Ibre\". Realizando postagem..."
-  },
-  {
-    "data": "2026-09-02T11:31:00.262Z",
-    "resultado": "pauta_reprovada",
-    "mensagem": "Notícia não publicada: manchete longa demais para caber completa no card.",
-    "titulo": "Mercado internacional reage às falas do presidente do BoJ e ataques dos EUA ao Irã; Ibovespa em dólar sobe nesta quarta-feira (2)"
   }
 ]
