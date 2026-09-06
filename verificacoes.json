@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-09-06T09:31:13.934Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 64 min."
+  },
+  {
     "data": "2026-09-06T09:04:41.804Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Governo federal projeta receita total de R$ 3,24 trilhões em 2026; número é recorde e equivale a 23,7% do PIB\".",
@@ -1038,10 +1043,5 @@
     "data": "2026-09-03T00:28:26.942Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 4 min."
-  },
-  {
-    "data": "2026-09-03T00:01:08.657Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 31 min."
   }
 ]
