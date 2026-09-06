@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-09-06T00:01:12.344Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
     "data": "2026-09-05T23:31:01.620Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1043,15 +1048,5 @@
     "data": "2026-09-02T16:31:03.257Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 65 min."
-  },
-  {
-    "data": "2026-09-02T16:05:03.754Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Ibovespa sobe forte com Vale em disparada e novas pesquisas eleitorais\".",
-    "postId": "17895283683668397",
-    "storyId": null,
-    "reelId": "17895283683668397",
-    "tipo": "reel",
-    "studioQuality": 100
   }
 ]
