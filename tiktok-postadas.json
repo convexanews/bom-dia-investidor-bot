@@ -1,5 +1,14 @@
 [
   {
+    "titulo": "Governo federal projeta receita total de R$ 3,24 trilhões em 2026; número é recorde e equivale a 23,7% do PIB",
+    "link": "https://g1.globo.com/economia/noticia/2026/09/06/governo-federal-projeta-receita-total-de-r-324-trilhoes-em-2026-numero-e-recorde-e-equivale-a-237percent-do-pib.ghtml",
+    "peso": 71,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1788685303672.mp4",
+    "coverUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1788685303672-capa.png",
+    "legendaUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1788685303672-legenda.txt",
+    "data": "2026-09-06T09:04:41.801Z"
+  },
+  {
     "titulo": "Wall Street fecha em queda após payroll e apostas de alta nos juros pelo Fed",
     "link": "https://www.moneytimes.com.br/wall-street-4-9-26-apsa-2/",
     "peso": 75,
@@ -1600,13 +1609,5 @@
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782405090991.mp4",
     "legendaUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782405090991-legenda.txt",
     "data": "2026-06-25T16:33:02.398Z"
-  },
-  {
-    "titulo": "Ações globais de chips disparam à medida que resultados da Micron reacendem alta da IA",
-    "link": "https://www.moneytimes.com.br/acoes-globais-de-chips-disparam-a-medida-que-resultados-da-micron-reacendem-alta-da-ia-jvka/",
-    "peso": 58,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782396106756.mp4",
-    "legendaUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782396106756-legenda.txt",
-    "data": "2026-06-25T14:03:39.964Z"
   }
 ]

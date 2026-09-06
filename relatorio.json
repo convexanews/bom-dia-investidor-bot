@@ -1,5 +1,33 @@
 [
   {
+    "data": "2026-09-06T09:04:41.802Z",
+    "titulo": "Governo federal projeta receita total de R$ 3,24 trilhões em 2026; número é recorde e equivale a 23,7% do PIB",
+    "categoria": "G1",
+    "fonte": "G1 Economia",
+    "link": "https://g1.globo.com/economia/noticia/2026/09/06/governo-federal-projeta-receita-total-de-r-324-trilhoes-em-2026-numero-e-recorde-e-equivale-a-237percent-do-pib.ghtml",
+    "postId": "18113578810803767",
+    "storyId": null,
+    "reelId": "18113578810803767",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1788685303672.mp4",
+    "tipo": "reel",
+    "peso": 71,
+    "pilares": [
+      "macro",
+      "bolsa"
+    ],
+    "horarioBRT": "06",
+    "cta": null,
+    "decisaoFormato": "peso 71: reel; Studio Engine 100/100",
+    "studioQuality": {
+      "approved": true,
+      "score": 100,
+      "blockers": [],
+      "warnings": []
+    }
+  },
+  {
     "data": "2026-09-04T20:33:50.317Z",
     "titulo": "Wall Street fecha em queda após payroll e apostas de alta nos juros pelo Fed",
     "categoria": "Mercados",
@@ -3883,20 +3911,5 @@
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1784313341917.mp4",
     "tipo": "reel",
     "peso": 62
-  },
-  {
-    "data": "2026-07-17T16:32:58.299Z",
-    "titulo": "Ações da Netflix tombam após resultado com cenário de desaceleração do crescimento",
-    "categoria": "Mercados",
-    "fonte": "InfoMoney",
-    "link": "https://www.infomoney.com.br/mercados/acoes-da-netflix-tombam-apos-resultado-com-cenario-de-desaceleracao-do-crescimento/",
-    "postId": "17946462345246565",
-    "storyId": "18121989733688979",
-    "reelId": null,
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784305887346-slide1.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784305887346-story.png",
-    "videoUrl": null,
-    "tipo": "carrossel",
-    "peso": 56
   }
 ]
