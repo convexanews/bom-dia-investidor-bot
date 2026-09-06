@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-09-06T15:03:34.763Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"IPCA, inflação nos EUA e decisão de juros do BCE movimentam a semana; confira os indicadores\".",
+    "postId": "18134561281727916",
+    "storyId": null,
+    "reelId": "18134561281727916",
+    "tipo": "reel",
+    "studioQuality": 100
+  },
+  {
+    "data": "2026-09-06T15:01:01.498Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 75): \"IPCA, inflação nos EUA e decisão de juros do BCE movimentam a semana; confira os indicadores\". Realizando postagem..."
+  },
+  {
     "data": "2026-09-06T14:31:02.094Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1033,15 +1048,5 @@
     "data": "2026-09-03T06:31:02.235Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (03:31 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-09-03T06:01:20.456Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (03:01 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-09-03T05:31:13.528Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (02:31 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]

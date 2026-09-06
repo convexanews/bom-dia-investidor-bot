@@ -1,5 +1,34 @@
 [
   {
+    "data": "2026-09-06T15:03:34.760Z",
+    "titulo": "IPCA, inflação nos EUA e decisão de juros do BCE movimentam a semana; confira os indicadores",
+    "categoria": "Economia",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/ipca-inflacao-nos-eua-e-decisao-de-juros-do-bce-movimentam-a-semana-confira-os-indicadores-jcav/",
+    "postId": "18134561281727916",
+    "storyId": null,
+    "reelId": "18134561281727916",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1788706877158.mp4",
+    "tipo": "reel",
+    "peso": 75,
+    "pilares": [
+      "macro",
+      "bolsa",
+      "exterior"
+    ],
+    "horarioBRT": "12",
+    "cta": null,
+    "decisaoFormato": "peso 75: reel; Studio Engine 100/100",
+    "studioQuality": {
+      "approved": true,
+      "score": 100,
+      "blockers": [],
+      "warnings": []
+    }
+  },
+  {
     "data": "2026-09-06T09:04:41.802Z",
     "titulo": "Governo federal projeta receita total de R$ 3,24 trilhões em 2026; número é recorde e equivale a 23,7% do PIB",
     "categoria": "G1",
@@ -3896,20 +3925,5 @@
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1784322095715.mp4",
     "tipo": "reel",
     "peso": 80
-  },
-  {
-    "data": "2026-07-17T18:37:10.348Z",
-    "titulo": "Mais 12,5% e temor com reciprocidade: tarifaço ainda não foi precificado pelo mercado",
-    "categoria": "Mercados",
-    "fonte": "InfoMoney",
-    "link": "https://www.infomoney.com.br/mercados/mais-125-e-temor-com-reciprocidade-tarifaco-ainda-nao-foi-precificado-no-mercado/",
-    "postId": "18123595150689307",
-    "storyId": null,
-    "reelId": "18123595150689307",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1784313341917.mp4",
-    "tipo": "reel",
-    "peso": 62
   }
 ]
