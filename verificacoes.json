@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-09-06T15:31:01.746Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 63 min."
+  },
+  {
     "data": "2026-09-06T15:03:34.763Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"IPCA, inflação nos EUA e decisão de juros do BCE movimentam a semana; confira os indicadores\".",
@@ -1043,10 +1048,5 @@
     "data": "2026-09-03T07:01:04.088Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (04:01 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-09-03T06:31:02.235Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (03:31 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
