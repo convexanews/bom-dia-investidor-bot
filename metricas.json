@@ -1,7 +1,37 @@
 [
   {
+    "postId": "18113578810803767",
+    "dataColeta": "2026-09-06T14:16:08.351Z",
+    "dataPostagem": "2026-09-06T09:04:41.802Z",
+    "tipo": "reel",
+    "pilares": [
+      "macro",
+      "bolsa"
+    ],
+    "peso": 71,
+    "fonte": "G1 Economia",
+    "titulo": "Governo federal projeta receita total de R$ 3,24 trilhões em 2026; número é recorde e equivale a 23,7% do PIB",
+    "horarioBRT": "06",
+    "cta": null,
+    "decisaoFormato": "peso 71: reel; Studio Engine 100/100",
+    "insights": {
+      "reach": 6,
+      "saved": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 1,
+      "total_interactions": 1,
+      "falhas": [
+        {
+          "metrica": "plays",
+          "erro": "Instagram respondeu 400"
+        }
+      ]
+    }
+  },
+  {
     "postId": "18489108766097245",
-    "dataColeta": "2026-09-05T13:55:24.675Z",
+    "dataColeta": "2026-09-06T14:16:09.308Z",
     "dataPostagem": "2026-09-04T20:33:50.317Z",
     "tipo": "reel",
     "pilares": [
@@ -15,7 +45,7 @@
     "cta": null,
     "decisaoFormato": "peso 75: reel; Studio Engine 100/100",
     "insights": {
-      "reach": 6,
+      "reach": 9,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -31,7 +61,7 @@
   },
   {
     "postId": "18495104827102286",
-    "dataColeta": "2026-09-05T13:55:25.907Z",
+    "dataColeta": "2026-09-06T14:16:10.094Z",
     "dataPostagem": "2026-09-04T16:03:56.300Z",
     "tipo": "reel",
     "pilares": [
@@ -45,7 +75,7 @@
     "cta": null,
     "decisaoFormato": "peso 76: reel; Studio Engine 100/100",
     "insights": {
-      "reach": 5,
+      "reach": 7,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -61,7 +91,7 @@
   },
   {
     "postId": "17926993569403223",
-    "dataColeta": "2026-09-05T13:55:26.922Z",
+    "dataColeta": "2026-09-06T14:16:10.939Z",
     "dataPostagem": "2026-09-04T11:10:25.393Z",
     "tipo": "reel",
     "pilares": [
@@ -75,7 +105,7 @@
     "cta": null,
     "decisaoFormato": "peso 83: reel; Studio Engine 100/100",
     "insights": {
-      "reach": 13,
+      "reach": 14,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -91,7 +121,7 @@
   },
   {
     "postId": "18428023018177664",
-    "dataColeta": "2026-09-05T13:55:27.867Z",
+    "dataColeta": "2026-09-06T14:16:11.959Z",
     "dataPostagem": "2026-09-04T09:11:02.789Z",
     "tipo": "reel",
     "pilares": [
@@ -122,7 +152,7 @@
   },
   {
     "postId": "17884119477653979",
-    "dataColeta": "2026-09-05T13:55:29.087Z",
+    "dataColeta": "2026-09-06T14:16:12.774Z",
     "dataPostagem": "2026-09-03T22:37:54.106Z",
     "tipo": "reel",
     "pilares": [
@@ -135,7 +165,7 @@
     "cta": null,
     "decisaoFormato": "peso 80: reel; Studio Engine 100/100",
     "insights": {
-      "reach": 12,
+      "reach": 13,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -151,7 +181,7 @@
   },
   {
     "postId": "17988079107022680",
-    "dataColeta": "2026-09-05T13:55:30.287Z",
+    "dataColeta": "2026-09-06T14:16:13.570Z",
     "dataPostagem": "2026-09-03T20:33:39.462Z",
     "tipo": "reel",
     "pilares": [
@@ -181,7 +211,7 @@
   },
   {
     "postId": "17955235236221185",
-    "dataColeta": "2026-09-05T13:55:31.507Z",
+    "dataColeta": "2026-09-06T14:16:14.415Z",
     "dataPostagem": "2026-09-03T16:35:14.329Z",
     "tipo": "reel",
     "pilares": [
@@ -194,7 +224,7 @@
     "cta": null,
     "decisaoFormato": "peso 75: reel; Studio Engine 100/100",
     "insights": {
-      "reach": 9,
+      "reach": 10,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -210,7 +240,7 @@
   },
   {
     "postId": "17928313350446058",
-    "dataColeta": "2026-09-05T13:55:32.505Z",
+    "dataColeta": "2026-09-06T14:16:15.710Z",
     "dataPostagem": "2026-09-03T09:33:56.290Z",
     "tipo": "reel",
     "pilares": [
@@ -241,7 +271,7 @@
   },
   {
     "postId": "18085847591290964",
-    "dataColeta": "2026-09-05T13:55:33.459Z",
+    "dataColeta": "2026-09-06T14:16:16.491Z",
     "dataPostagem": "2026-09-02T23:02:07.322Z",
     "tipo": "reel",
     "pilares": [
@@ -271,7 +301,7 @@
   },
   {
     "postId": "18412756327159117",
-    "dataColeta": "2026-09-05T13:55:34.488Z",
+    "dataColeta": "2026-09-06T14:16:17.333Z",
     "dataPostagem": "2026-09-02T21:04:08.166Z",
     "tipo": "reel",
     "pilares": [
@@ -301,7 +331,7 @@
   },
   {
     "postId": "17895283683668397",
-    "dataColeta": "2026-09-05T13:55:35.504Z",
+    "dataColeta": "2026-09-06T14:16:18.050Z",
     "dataPostagem": "2026-09-02T16:05:03.752Z",
     "tipo": "reel",
     "pilares": [
@@ -331,7 +361,7 @@
   },
   {
     "postId": "17904617259517494",
-    "dataColeta": "2026-09-05T13:55:36.510Z",
+    "dataColeta": "2026-09-06T14:16:18.859Z",
     "dataPostagem": "2026-09-02T14:03:19.548Z",
     "tipo": "reel",
     "pilares": [
@@ -361,7 +391,7 @@
   },
   {
     "postId": "18102514121611532",
-    "dataColeta": "2026-09-05T13:55:37.559Z",
+    "dataColeta": "2026-09-06T14:16:19.688Z",
     "dataPostagem": "2026-09-02T12:03:42.635Z",
     "tipo": "reel",
     "pilares": [
@@ -390,7 +420,7 @@
   },
   {
     "postId": "18468975577115316",
-    "dataColeta": "2026-09-05T13:55:38.655Z",
+    "dataColeta": "2026-09-06T14:16:20.622Z",
     "dataPostagem": "2026-09-02T09:33:59.233Z",
     "tipo": "reel",
     "pilares": [
@@ -421,7 +451,7 @@
   },
   {
     "postId": "17882965671618480",
-    "dataColeta": "2026-09-05T13:55:39.897Z",
+    "dataColeta": "2026-09-06T14:16:21.456Z",
     "dataPostagem": "2026-09-01T20:34:09.228Z",
     "tipo": "reel",
     "pilares": [
@@ -451,7 +481,7 @@
   },
   {
     "postId": "18084734060454785",
-    "dataColeta": "2026-09-05T13:55:40.996Z",
+    "dataColeta": "2026-09-06T14:16:22.249Z",
     "dataPostagem": "2026-09-01T17:03:43.520Z",
     "tipo": "reel",
     "pilares": [
@@ -482,7 +512,7 @@
   },
   {
     "postId": "17958772005207279",
-    "dataColeta": "2026-09-05T13:55:42.111Z",
+    "dataColeta": "2026-09-06T14:16:23.024Z",
     "dataPostagem": "2026-09-01T15:03:57.402Z",
     "tipo": "reel",
     "pilares": [
@@ -514,7 +544,7 @@
   },
   {
     "postId": "17924763402415172",
-    "dataColeta": "2026-09-05T13:55:43.264Z",
+    "dataColeta": "2026-09-06T14:16:23.845Z",
     "dataPostagem": "2026-09-01T12:04:28.371Z",
     "tipo": "reel",
     "pilares": [
@@ -544,7 +574,7 @@
   },
   {
     "postId": "18090696881656032",
-    "dataColeta": "2026-09-05T13:55:44.580Z",
+    "dataColeta": "2026-09-06T14:16:24.855Z",
     "dataPostagem": "2026-09-01T09:33:19.518Z",
     "tipo": "reel",
     "pilares": [
@@ -575,7 +605,7 @@
   },
   {
     "postId": "18121980550868507",
-    "dataColeta": "2026-09-05T13:55:45.689Z",
+    "dataColeta": "2026-09-06T14:16:25.792Z",
     "dataPostagem": "2026-09-01T00:35:00.856Z",
     "tipo": "reel",
     "pilares": [
@@ -605,7 +635,7 @@
   },
   {
     "postId": "18025882718888174",
-    "dataColeta": "2026-09-05T13:55:46.693Z",
+    "dataColeta": "2026-09-06T14:16:26.676Z",
     "dataPostagem": "2026-08-31T22:32:09.110Z",
     "tipo": "reel",
     "pilares": [
@@ -636,7 +666,7 @@
   },
   {
     "postId": "18151613461468099",
-    "dataColeta": "2026-09-05T13:55:47.824Z",
+    "dataColeta": "2026-09-06T14:16:27.479Z",
     "dataPostagem": "2026-08-31T20:35:05.144Z",
     "tipo": "reel",
     "pilares": [
@@ -666,7 +696,7 @@
   },
   {
     "postId": "18227411764323333",
-    "dataColeta": "2026-09-05T13:55:48.834Z",
+    "dataColeta": "2026-09-06T14:16:28.222Z",
     "dataPostagem": "2026-08-31T16:33:41.893Z",
     "tipo": "reel",
     "pilares": [
@@ -696,7 +726,7 @@
   },
   {
     "postId": "18143593789492127",
-    "dataColeta": "2026-09-05T13:55:49.986Z",
+    "dataColeta": "2026-09-06T14:16:29.107Z",
     "dataPostagem": "2026-08-31T14:03:41.026Z",
     "tipo": "reel",
     "pilares": [
@@ -716,36 +746,6 @@
       "comments": 0,
       "likes": 0,
       "total_interactions": 0,
-      "falhas": [
-        {
-          "metrica": "plays",
-          "erro": "Instagram respondeu 400"
-        }
-      ]
-    }
-  },
-  {
-    "postId": "18086165042693094",
-    "dataColeta": "2026-09-05T13:55:51.624Z",
-    "dataPostagem": "2026-08-31T11:33:18.879Z",
-    "tipo": "reel",
-    "pilares": [
-      "macro",
-      "exterior"
-    ],
-    "peso": 80,
-    "fonte": "Money Times",
-    "titulo": "Wall Street sob pressão: o que o Japão e as big techs têm a ver com a disparada dos títulos dos EUA",
-    "horarioBRT": "08",
-    "cta": null,
-    "decisaoFormato": "peso 80: reel; Studio Engine 100/100",
-    "insights": {
-      "reach": 15,
-      "saved": 0,
-      "shares": 0,
-      "comments": 0,
-      "likes": 1,
-      "total_interactions": 1,
       "falhas": [
         {
           "metrica": "plays",
