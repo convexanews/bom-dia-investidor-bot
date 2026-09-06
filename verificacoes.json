@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-09-06T18:30:02.833Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
     "data": "2026-09-06T18:01:03.510Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1038,15 +1043,5 @@
     "data": "2026-09-03T10:01:06.893Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 63 min."
-  },
-  {
-    "data": "2026-09-03T09:33:56.292Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Pesquisa DataFolha, discurso de Lula, PMIs e mais destaques desta quinta-feira\".",
-    "postId": "17928313350446058",
-    "storyId": null,
-    "reelId": "17928313350446058",
-    "tipo": "reel",
-    "studioQuality": 100
   }
 ]
