@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-09-06T18:01:03.510Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
     "data": "2026-09-06T17:31:48.383Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1043,10 +1048,5 @@
     "reelId": "17928313350446058",
     "tipo": "reel",
     "studioQuality": 100
-  },
-  {
-    "data": "2026-09-03T09:31:03.229Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 80): \"Pesquisa DataFolha, discurso de Lula, PMIs e mais destaques desta quinta-feira\". Realizando postagem..."
   }
 ]
