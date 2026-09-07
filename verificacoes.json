@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-09-07T21:01:09.443Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
     "data": "2026-09-07T20:31:09.380Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1018,10 +1023,5 @@
     "reelId": "17926993569403223",
     "tipo": "reel",
     "studioQuality": 100
-  },
-  {
-    "data": "2026-09-04T11:08:11.993Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 83): \"Super-ricos abocanham fatia recorde da renda sob Lula apesar de agenda voltada aos mais pobres\". Realizando postagem..."
   }
 ]
