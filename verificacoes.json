@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-09-07T08:01:18.253Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (05:01 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-09-07T07:31:08.513Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (04:31 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1028,10 +1033,5 @@
     "reelId": "17884119477653979",
     "tipo": "reel",
     "studioQuality": 100
-  },
-  {
-    "data": "2026-09-03T22:35:04.087Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 80): \"Dividendos: Carteira do Safra dispara e deixa Ibovespa comendo poeira; veja portfólio para setembro\". Realizando postagem..."
   }
 ]
