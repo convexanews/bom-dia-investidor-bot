@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-09-07T07:31:08.513Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (04:31 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-09-07T07:01:24.867Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (04:01 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1028,10 +1033,5 @@
     "data": "2026-09-03T22:35:04.087Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 80): \"Dividendos: Carteira do Safra dispara e deixa Ibovespa comendo poeira; veja portfólio para setembro\". Realizando postagem..."
-  },
-  {
-    "data": "2026-09-03T22:01:10.764Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 3 min."
   }
 ]
