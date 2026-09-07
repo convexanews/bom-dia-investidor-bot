@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-09-07T21:31:01.199Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
     "data": "2026-09-07T21:01:09.443Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1013,15 +1018,5 @@
     "data": "2026-09-04T11:34:10.373Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 67 min."
-  },
-  {
-    "data": "2026-09-04T11:10:25.395Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Super-ricos abocanham fatia recorde da renda sob Lula apesar de agenda voltada aos mais pobres\".",
-    "postId": "17926993569403223",
-    "storyId": null,
-    "reelId": "17926993569403223",
-    "tipo": "reel",
-    "studioQuality": 100
   }
 ]
