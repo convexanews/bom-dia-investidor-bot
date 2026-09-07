@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-09-07T08:30:55.277Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (05:30 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-09-07T08:01:18.253Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (05:01 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1023,15 +1028,5 @@
     "data": "2026-09-03T23:00:22.268Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 68 min."
-  },
-  {
-    "data": "2026-09-03T22:37:54.108Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Dividendos: Carteira do Safra dispara e deixa Ibovespa comendo poeira; veja portfólio para setembro\".",
-    "postId": "17884119477653979",
-    "storyId": null,
-    "reelId": "17884119477653979",
-    "tipo": "reel",
-    "studioQuality": 100
   }
 ]
