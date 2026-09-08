@@ -1,7 +1,68 @@
 [
   {
+    "postId": "18113776247097411",
+    "dataColeta": "2026-09-08T15:11:41.615Z",
+    "dataPostagem": "2026-09-08T12:04:16.283Z",
+    "tipo": "reel",
+    "pilares": [
+      "macro",
+      "bolsa"
+    ],
+    "peso": 88,
+    "fonte": "Money Times",
+    "titulo": "Economistas melhoram previsões para inflação e PIB de 2026; veja as projeções do Focus desta terça-feira (8)",
+    "horarioBRT": "09",
+    "cta": null,
+    "decisaoFormato": "peso 88: reel; Studio Engine 100/100",
+    "insights": {
+      "reach": 1,
+      "saved": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 1,
+      "total_interactions": 1,
+      "falhas": [
+        {
+          "metrica": "plays",
+          "erro": "Instagram respondeu 400"
+        }
+      ]
+    }
+  },
+  {
+    "postId": "17934852843122331",
+    "dataColeta": "2026-09-08T15:11:42.685Z",
+    "dataPostagem": "2026-09-08T09:33:43.170Z",
+    "tipo": "reel",
+    "pilares": [
+      "macro",
+      "bolsa",
+      "exterior"
+    ],
+    "peso": 80,
+    "fonte": "InfoMoney",
+    "titulo": "Petróleo perto de US$ 100, Focus, dados da China e mais destaques desta terça-feira",
+    "horarioBRT": "06",
+    "cta": null,
+    "decisaoFormato": "peso 80: reel; Studio Engine 100/100",
+    "insights": {
+      "reach": 4,
+      "saved": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 1,
+      "total_interactions": 1,
+      "falhas": [
+        {
+          "metrica": "plays",
+          "erro": "Instagram respondeu 400"
+        }
+      ]
+    }
+  },
+  {
     "postId": "18134561281727916",
-    "dataColeta": "2026-09-07T16:33:27.827Z",
+    "dataColeta": "2026-09-08T15:11:43.523Z",
     "dataPostagem": "2026-09-06T15:03:34.760Z",
     "tipo": "reel",
     "pilares": [
@@ -16,7 +77,7 @@
     "cta": null,
     "decisaoFormato": "peso 75: reel; Studio Engine 100/100",
     "insights": {
-      "reach": 10,
+      "reach": 12,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -32,7 +93,7 @@
   },
   {
     "postId": "18113578810803767",
-    "dataColeta": "2026-09-07T16:33:28.920Z",
+    "dataColeta": "2026-09-08T15:11:44.559Z",
     "dataPostagem": "2026-09-06T09:04:41.802Z",
     "tipo": "reel",
     "pilares": [
@@ -46,7 +107,7 @@
     "cta": null,
     "decisaoFormato": "peso 71: reel; Studio Engine 100/100",
     "insights": {
-      "reach": 13,
+      "reach": 15,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -62,7 +123,7 @@
   },
   {
     "postId": "18489108766097245",
-    "dataColeta": "2026-09-07T16:33:29.779Z",
+    "dataColeta": "2026-09-08T15:11:45.478Z",
     "dataPostagem": "2026-09-04T20:33:50.317Z",
     "tipo": "reel",
     "pilares": [
@@ -76,7 +137,7 @@
     "cta": null,
     "decisaoFormato": "peso 75: reel; Studio Engine 100/100",
     "insights": {
-      "reach": 10,
+      "reach": 12,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -92,7 +153,7 @@
   },
   {
     "postId": "18495104827102286",
-    "dataColeta": "2026-09-07T16:33:30.811Z",
+    "dataColeta": "2026-09-08T15:11:46.431Z",
     "dataPostagem": "2026-09-04T16:03:56.300Z",
     "tipo": "reel",
     "pilares": [
@@ -106,7 +167,7 @@
     "cta": null,
     "decisaoFormato": "peso 76: reel; Studio Engine 100/100",
     "insights": {
-      "reach": 7,
+      "reach": 8,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -122,7 +183,7 @@
   },
   {
     "postId": "17926993569403223",
-    "dataColeta": "2026-09-07T16:33:31.642Z",
+    "dataColeta": "2026-09-08T15:11:47.476Z",
     "dataPostagem": "2026-09-04T11:10:25.393Z",
     "tipo": "reel",
     "pilares": [
@@ -136,7 +197,7 @@
     "cta": null,
     "decisaoFormato": "peso 83: reel; Studio Engine 100/100",
     "insights": {
-      "reach": 14,
+      "reach": 15,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -152,7 +213,7 @@
   },
   {
     "postId": "18428023018177664",
-    "dataColeta": "2026-09-07T16:33:32.982Z",
+    "dataColeta": "2026-09-08T15:11:48.423Z",
     "dataPostagem": "2026-09-04T09:11:02.789Z",
     "tipo": "reel",
     "pilares": [
@@ -167,7 +228,7 @@
     "cta": null,
     "decisaoFormato": "peso 86: reel; Studio Engine 100/100",
     "insights": {
-      "reach": 14,
+      "reach": 15,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -183,7 +244,7 @@
   },
   {
     "postId": "17884119477653979",
-    "dataColeta": "2026-09-07T16:33:33.894Z",
+    "dataColeta": "2026-09-08T15:11:49.507Z",
     "dataPostagem": "2026-09-03T22:37:54.106Z",
     "tipo": "reel",
     "pilares": [
@@ -196,7 +257,7 @@
     "cta": null,
     "decisaoFormato": "peso 80: reel; Studio Engine 100/100",
     "insights": {
-      "reach": 14,
+      "reach": 15,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -212,7 +273,7 @@
   },
   {
     "postId": "17988079107022680",
-    "dataColeta": "2026-09-07T16:33:34.959Z",
+    "dataColeta": "2026-09-08T15:11:50.509Z",
     "dataPostagem": "2026-09-03T20:33:39.462Z",
     "tipo": "reel",
     "pilares": [
@@ -226,7 +287,7 @@
     "cta": null,
     "decisaoFormato": "peso 78: reel; Studio Engine 100/100",
     "insights": {
-      "reach": 10,
+      "reach": 11,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -242,7 +303,7 @@
   },
   {
     "postId": "17955235236221185",
-    "dataColeta": "2026-09-07T16:33:36.092Z",
+    "dataColeta": "2026-09-08T15:11:51.395Z",
     "dataPostagem": "2026-09-03T16:35:14.329Z",
     "tipo": "reel",
     "pilares": [
@@ -271,7 +332,7 @@
   },
   {
     "postId": "17928313350446058",
-    "dataColeta": "2026-09-07T16:33:36.978Z",
+    "dataColeta": "2026-09-08T15:11:52.463Z",
     "dataPostagem": "2026-09-03T09:33:56.290Z",
     "tipo": "reel",
     "pilares": [
@@ -285,36 +346,6 @@
     "horarioBRT": "06",
     "cta": null,
     "decisaoFormato": "peso 80: reel; Studio Engine 100/100",
-    "insights": {
-      "reach": 10,
-      "saved": 0,
-      "shares": 0,
-      "comments": 0,
-      "likes": 0,
-      "total_interactions": 0,
-      "falhas": [
-        {
-          "metrica": "plays",
-          "erro": "Instagram respondeu 400"
-        }
-      ]
-    }
-  },
-  {
-    "postId": "18085847591290964",
-    "dataColeta": "2026-09-07T16:33:38.222Z",
-    "dataPostagem": "2026-09-02T23:02:07.322Z",
-    "tipo": "reel",
-    "pilares": [
-      "macro",
-      "bolsa"
-    ],
-    "peso": 71,
-    "fonte": "Money Times",
-    "titulo": "Hora de vender? BofA vê 2 riscos para bolsa",
-    "horarioBRT": "20",
-    "cta": null,
-    "decisaoFormato": "peso 71: reel; Studio Engine 100/100",
     "insights": {
       "reach": 11,
       "saved": 0,
@@ -331,8 +362,38 @@
     }
   },
   {
+    "postId": "18085847591290964",
+    "dataColeta": "2026-09-08T15:11:53.340Z",
+    "dataPostagem": "2026-09-02T23:02:07.322Z",
+    "tipo": "reel",
+    "pilares": [
+      "macro",
+      "bolsa"
+    ],
+    "peso": 71,
+    "fonte": "Money Times",
+    "titulo": "Hora de vender? BofA vê 2 riscos para bolsa",
+    "horarioBRT": "20",
+    "cta": null,
+    "decisaoFormato": "peso 71: reel; Studio Engine 100/100",
+    "insights": {
+      "reach": 12,
+      "saved": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "total_interactions": 0,
+      "falhas": [
+        {
+          "metrica": "plays",
+          "erro": "Instagram respondeu 400"
+        }
+      ]
+    }
+  },
+  {
     "postId": "18412756327159117",
-    "dataColeta": "2026-09-07T16:33:39.060Z",
+    "dataColeta": "2026-09-08T15:11:54.399Z",
     "dataPostagem": "2026-09-02T21:04:08.166Z",
     "tipo": "reel",
     "pilares": [
@@ -346,7 +407,7 @@
     "cta": null,
     "decisaoFormato": "peso 75: reel; Studio Engine 100/100",
     "insights": {
-      "reach": 12,
+      "reach": 13,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -362,7 +423,7 @@
   },
   {
     "postId": "17895283683668397",
-    "dataColeta": "2026-09-07T16:33:40.044Z",
+    "dataColeta": "2026-09-08T15:11:55.383Z",
     "dataPostagem": "2026-09-02T16:05:03.752Z",
     "tipo": "reel",
     "pilares": [
@@ -376,7 +437,7 @@
     "cta": null,
     "decisaoFormato": "peso 82: reel; Studio Engine 100/100",
     "insights": {
-      "reach": 12,
+      "reach": 13,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -392,7 +453,7 @@
   },
   {
     "postId": "17904617259517494",
-    "dataColeta": "2026-09-07T16:33:40.879Z",
+    "dataColeta": "2026-09-08T15:11:56.274Z",
     "dataPostagem": "2026-09-02T14:03:19.548Z",
     "tipo": "reel",
     "pilares": [
@@ -406,7 +467,7 @@
     "cta": null,
     "decisaoFormato": "peso 70: reel; Studio Engine 100/100",
     "insights": {
-      "reach": 12,
+      "reach": 13,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -422,7 +483,7 @@
   },
   {
     "postId": "18102514121611532",
-    "dataColeta": "2026-09-07T16:33:42.201Z",
+    "dataColeta": "2026-09-08T15:11:57.232Z",
     "dataPostagem": "2026-09-02T12:03:42.635Z",
     "tipo": "reel",
     "pilares": [
@@ -435,7 +496,7 @@
     "cta": null,
     "decisaoFormato": "peso 71: reel; Studio Engine 100/100",
     "insights": {
-      "reach": 9,
+      "reach": 10,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -451,7 +512,7 @@
   },
   {
     "postId": "18468975577115316",
-    "dataColeta": "2026-09-07T16:33:43.083Z",
+    "dataColeta": "2026-09-08T15:11:58.358Z",
     "dataPostagem": "2026-09-02T09:33:59.233Z",
     "tipo": "reel",
     "pilares": [
@@ -466,7 +527,7 @@
     "cta": null,
     "decisaoFormato": "peso 80: reel; Studio Engine 100/100",
     "insights": {
-      "reach": 10,
+      "reach": 11,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -482,7 +543,7 @@
   },
   {
     "postId": "17882965671618480",
-    "dataColeta": "2026-09-07T16:33:43.999Z",
+    "dataColeta": "2026-09-08T15:11:59.661Z",
     "dataPostagem": "2026-09-01T20:34:09.228Z",
     "tipo": "reel",
     "pilares": [
@@ -496,7 +557,7 @@
     "cta": null,
     "decisaoFormato": "peso 81: reel; Studio Engine 100/100",
     "insights": {
-      "reach": 48,
+      "reach": 49,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -512,7 +573,7 @@
   },
   {
     "postId": "18084734060454785",
-    "dataColeta": "2026-09-07T16:33:45.070Z",
+    "dataColeta": "2026-09-08T15:12:00.783Z",
     "dataPostagem": "2026-09-01T17:03:43.520Z",
     "tipo": "reel",
     "pilares": [
@@ -527,7 +588,7 @@
     "cta": null,
     "decisaoFormato": "peso 73: reel; Studio Engine 100/100",
     "insights": {
-      "reach": 22,
+      "reach": 23,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -543,7 +604,7 @@
   },
   {
     "postId": "17958772005207279",
-    "dataColeta": "2026-09-07T16:33:46.027Z",
+    "dataColeta": "2026-09-08T15:12:01.833Z",
     "dataPostagem": "2026-09-01T15:03:57.402Z",
     "tipo": "reel",
     "pilares": [
@@ -559,7 +620,7 @@
     "cta": null,
     "decisaoFormato": "peso 70: reel; Studio Engine 100/100",
     "insights": {
-      "reach": 7,
+      "reach": 8,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -575,7 +636,7 @@
   },
   {
     "postId": "17924763402415172",
-    "dataColeta": "2026-09-07T16:33:47.132Z",
+    "dataColeta": "2026-09-08T15:12:02.775Z",
     "dataPostagem": "2026-09-01T12:04:28.371Z",
     "tipo": "reel",
     "pilares": [
@@ -589,7 +650,7 @@
     "cta": null,
     "decisaoFormato": "peso 75: reel; Studio Engine 100/100",
     "insights": {
-      "reach": 16,
+      "reach": 17,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -605,7 +666,7 @@
   },
   {
     "postId": "18090696881656032",
-    "dataColeta": "2026-09-07T16:33:48.336Z",
+    "dataColeta": "2026-09-08T15:12:03.843Z",
     "dataPostagem": "2026-09-01T09:33:19.518Z",
     "tipo": "reel",
     "pilares": [
@@ -620,7 +681,7 @@
     "cta": null,
     "decisaoFormato": "peso 90: reel; Studio Engine 100/100",
     "insights": {
-      "reach": 13,
+      "reach": 14,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -636,7 +697,7 @@
   },
   {
     "postId": "18121980550868507",
-    "dataColeta": "2026-09-07T16:33:49.313Z",
+    "dataColeta": "2026-09-08T15:12:04.865Z",
     "dataPostagem": "2026-09-01T00:35:00.856Z",
     "tipo": "reel",
     "pilares": [
@@ -650,7 +711,7 @@
     "cta": null,
     "decisaoFormato": "peso 72: reel; Studio Engine 100/100",
     "insights": {
-      "reach": 10,
+      "reach": 11,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -666,7 +727,7 @@
   },
   {
     "postId": "18025882718888174",
-    "dataColeta": "2026-09-07T16:33:50.230Z",
+    "dataColeta": "2026-09-08T15:12:05.904Z",
     "dataPostagem": "2026-08-31T22:32:09.110Z",
     "tipo": "reel",
     "pilares": [
@@ -681,72 +742,12 @@
     "cta": null,
     "decisaoFormato": "peso 88: reel; Studio Engine 100/100",
     "insights": {
-      "reach": 13,
+      "reach": 14,
       "saved": 0,
       "shares": 0,
       "comments": 0,
       "likes": 1,
       "total_interactions": 1,
-      "falhas": [
-        {
-          "metrica": "plays",
-          "erro": "Instagram respondeu 400"
-        }
-      ]
-    }
-  },
-  {
-    "postId": "18151613461468099",
-    "dataColeta": "2026-09-07T16:33:51.269Z",
-    "dataPostagem": "2026-08-31T20:35:05.144Z",
-    "tipo": "reel",
-    "pilares": [
-      "macro",
-      "bolsa"
-    ],
-    "peso": 93,
-    "fonte": "InfoMoney",
-    "titulo": "Ibovespa consegue 9ª alta seguida, mas mês não sai do negativo; Petrobras dispara 3%",
-    "horarioBRT": "17",
-    "cta": null,
-    "decisaoFormato": "peso 93: reel; Studio Engine 100/100",
-    "insights": {
-      "reach": 22,
-      "saved": 0,
-      "shares": 0,
-      "comments": 0,
-      "likes": 2,
-      "total_interactions": 2,
-      "falhas": [
-        {
-          "metrica": "plays",
-          "erro": "Instagram respondeu 400"
-        }
-      ]
-    }
-  },
-  {
-    "postId": "18227411764323333",
-    "dataColeta": "2026-09-07T16:33:52.484Z",
-    "dataPostagem": "2026-08-31T16:33:41.893Z",
-    "tipo": "reel",
-    "pilares": [
-      "macro",
-      "bolsa"
-    ],
-    "peso": 78,
-    "fonte": "InfoMoney",
-    "titulo": "Brasil está mais sujeito a risco cambial em cenário de estresse fiscal, alerta UBS",
-    "horarioBRT": "13",
-    "cta": null,
-    "decisaoFormato": "peso 78: reel; Studio Engine 100/100",
-    "insights": {
-      "reach": 14,
-      "saved": 0,
-      "shares": 0,
-      "comments": 0,
-      "likes": 0,
-      "total_interactions": 0,
       "falhas": [
         {
           "metrica": "plays",
