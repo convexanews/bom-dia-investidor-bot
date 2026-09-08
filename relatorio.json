@@ -1,5 +1,33 @@
 [
   {
+    "data": "2026-09-08T12:04:16.283Z",
+    "titulo": "Economistas melhoram previsões para inflação e PIB de 2026; veja as projeções do Focus desta terça-feira (8)",
+    "categoria": "Economia",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/economistas-melhoram-previsoes-para-inflacao-e-pib-de-2026-veja-as-projecoes-do-focus-desta-terca-feira-8-igdl/",
+    "postId": "18113776247097411",
+    "storyId": null,
+    "reelId": "18113776247097411",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1788868901045.mp4",
+    "tipo": "reel",
+    "peso": 88,
+    "pilares": [
+      "macro",
+      "bolsa"
+    ],
+    "horarioBRT": "09",
+    "cta": null,
+    "decisaoFormato": "peso 88: reel; Studio Engine 100/100",
+    "studioQuality": {
+      "approved": true,
+      "score": 100,
+      "blockers": [],
+      "warnings": []
+    }
+  },
+  {
     "data": "2026-09-08T09:33:43.170Z",
     "titulo": "Petróleo perto de US$ 100, Focus, dados da China e mais destaques desta terça-feira",
     "categoria": "Mercados",
@@ -3924,20 +3952,5 @@
     "videoUrl": null,
     "tipo": "card",
     "peso": 29
-  },
-  {
-    "data": "2026-07-17T23:27:01.038Z",
-    "titulo": "Indicador de risco de crédito da Oracle atinge recorde em meio a preocupações com gastos em IA",
-    "categoria": "MERCADO",
-    "fonte": "Investing.com",
-    "link": "https://br.investing.com/news/company-news/indicador-de-risco-de-credito-da-oracle-atinge-recorde-em-meio-a-preocupacoes-com-gastos-em-ia-2005755",
-    "postId": "18168493432440146",
-    "storyId": "18092452211076024",
-    "reelId": null,
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784330753448-slide1.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784330753448-story.png",
-    "videoUrl": null,
-    "tipo": "carrossel",
-    "peso": 31
   }
 ]
