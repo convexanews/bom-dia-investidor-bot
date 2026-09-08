@@ -1,5 +1,33 @@
 [
   {
+    "data": "2026-09-08T18:22:03.421Z",
+    "titulo": "Com perda de espaço da inteligência artificial, Brasil volta a ser compra para o BofA: O que mais mudou?",
+    "categoria": "Mercados",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/brasil-volta-a-ser-compra-para-o-bofa-o-que-mudou-apsa/",
+    "postId": "18076010186707089",
+    "storyId": null,
+    "reelId": "18076010186707089",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1788891575087.mp4",
+    "tipo": "reel",
+    "peso": 91,
+    "pilares": [
+      "macro",
+      "bolsa"
+    ],
+    "horarioBRT": "15",
+    "cta": null,
+    "decisaoFormato": "peso 91: reel; Studio Engine 100/100",
+    "studioQuality": {
+      "approved": true,
+      "score": 100,
+      "blockers": [],
+      "warnings": []
+    }
+  },
+  {
     "data": "2026-09-08T12:04:16.283Z",
     "titulo": "Economistas melhoram previsões para inflação e PIB de 2026; veja as projeções do Focus desta terça-feira (8)",
     "categoria": "Economia",
@@ -3937,20 +3965,5 @@
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1784379687696.mp4",
     "tipo": "reel",
     "peso": 37
-  },
-  {
-    "data": "2026-07-18T10:32:00.441Z",
-    "titulo": "Guerra entre EUA e Irã se intensifica com novos ataques no Golfo; petróleo atinge maior nível em mais de um mês",
-    "categoria": "G1",
-    "fonte": "G1 Economia",
-    "link": "https://g1.globo.com/mundo/noticia/2026/07/18/guerra-eua-ira-ataques-golfo-petroleo.ghtml",
-    "postId": "17887624671666011",
-    "storyId": "18159230179465556",
-    "reelId": null,
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784370676066-feed.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784370676066-story.png",
-    "videoUrl": null,
-    "tipo": "card",
-    "peso": 29
   }
 ]
