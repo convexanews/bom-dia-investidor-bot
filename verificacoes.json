@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-09-08T07:31:11.143Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (04:31 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-09-08T07:01:07.882Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (04:01 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1008,10 +1013,5 @@
     "data": "2026-09-04T20:31:13.491Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 75): \"Wall Street fecha em queda após payroll e apostas de alta nos juros pelo Fed\". Realizando postagem..."
-  },
-  {
-    "data": "2026-09-04T20:01:05.793Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }
 ]
