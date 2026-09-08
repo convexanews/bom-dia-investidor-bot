@@ -1,5 +1,14 @@
 [
   {
+    "titulo": "Wall Street cai com barril de Brent acima de US$ 90",
+    "link": "https://www.moneytimes.com.br/wall-street-8-9-26-lils-2/",
+    "peso": 71,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1788899473143.mp4",
+    "coverUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1788899473143-capa.png",
+    "legendaUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1788899473143-legenda.txt",
+    "data": "2026-09-08T20:33:27.273Z"
+  },
+  {
     "titulo": "Com perda de espaço da inteligência artificial, Brasil volta a ser compra para o BofA: O que mais mudou?",
     "link": "https://www.moneytimes.com.br/brasil-volta-a-ser-compra-para-o-bofa-o-que-mudou-apsa/",
     "peso": 91,
@@ -1605,13 +1614,5 @@
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782480664695.mp4",
     "legendaUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782480664695-legenda.txt",
     "data": "2026-06-26T13:33:42.010Z"
-  },
-  {
-    "titulo": "Banco Central decreta liquidação extrajudicial da Sefer Investimentos",
-    "link": "https://g1.globo.com/economia/noticia/2026/06/26/banco-central-decreta-liquidacao-extrajudicial-da-sefer-investimentos.ghtml",
-    "peso": 32,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782473120437.mp4",
-    "legendaUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782473120437-legenda.txt",
-    "data": "2026-06-26T11:27:46.252Z"
   }
 ]
