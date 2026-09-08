@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-09-08T18:30:57.802Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 82 min."
+  },
+  {
     "data": "2026-09-08T18:22:03.423Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Com perda de espaço da inteligência artificial, Brasil volta a ser compra para o BofA: O que mais mudou?\".",
@@ -1018,10 +1023,5 @@
     "data": "2026-09-05T08:01:04.243Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (05:01 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-09-05T07:31:03.864Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (04:31 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
