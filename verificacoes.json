@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-09-08T09:33:43.173Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Petróleo perto de US$ 100, Focus, dados da China e mais destaques desta terça-feira\".",
+    "postId": "17934852843122331",
+    "storyId": null,
+    "reelId": "17934852843122331",
+    "tipo": "reel",
+    "studioQuality": 100
+  },
+  {
+    "data": "2026-09-08T09:31:11.571Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 80): \"Petróleo perto de US$ 100, Focus, dados da China e mais destaques desta terça-feira\". Realizando postagem..."
+  },
+  {
     "data": "2026-09-08T09:01:44.621Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -998,15 +1013,5 @@
     "data": "2026-09-04T22:01:25.266Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 3 min."
-  },
-  {
-    "data": "2026-09-04T21:38:40.290Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 26 min."
-  },
-  {
-    "data": "2026-09-04T21:30:58.437Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 33 min."
   }
 ]

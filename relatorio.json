@@ -1,5 +1,34 @@
 [
   {
+    "data": "2026-09-08T09:33:43.170Z",
+    "titulo": "Petróleo perto de US$ 100, Focus, dados da China e mais destaques desta terça-feira",
+    "categoria": "Mercados",
+    "fonte": "InfoMoney",
+    "link": "https://www.infomoney.com.br/mercados/focus-petroleo-dados-china-agenda-08092026/",
+    "postId": "17934852843122331",
+    "storyId": null,
+    "reelId": "17934852843122331",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1788859889683.mp4",
+    "tipo": "reel",
+    "peso": 80,
+    "pilares": [
+      "macro",
+      "bolsa",
+      "exterior"
+    ],
+    "horarioBRT": "06",
+    "cta": null,
+    "decisaoFormato": "peso 80: reel; Studio Engine 100/100",
+    "studioQuality": {
+      "approved": true,
+      "score": 100,
+      "blockers": [],
+      "warnings": []
+    }
+  },
+  {
     "data": "2026-09-06T15:03:34.760Z",
     "titulo": "IPCA, inflação nos EUA e decisão de juros do BCE movimentam a semana; confira os indicadores",
     "categoria": "Economia",
@@ -3910,20 +3939,5 @@
     "videoUrl": null,
     "tipo": "carrossel",
     "peso": 31
-  },
-  {
-    "data": "2026-07-17T21:04:01.615Z",
-    "titulo": "Wall Street tomba 1% na semana com tecnologia e alta do petróleo; Nasdaq lidera perdas",
-    "categoria": "Mercados",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/wall-street-17-7-26-apsa/",
-    "postId": "18609541807023058",
-    "storyId": null,
-    "reelId": "18609541807023058",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1784322095715.mp4",
-    "tipo": "reel",
-    "peso": 80
   }
 ]

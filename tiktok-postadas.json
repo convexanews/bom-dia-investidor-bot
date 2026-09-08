@@ -1,5 +1,14 @@
 [
   {
+    "titulo": "Petróleo perto de US$ 100, Focus, dados da China e mais destaques desta terça-feira",
+    "link": "https://www.infomoney.com.br/mercados/focus-petroleo-dados-china-agenda-08092026/",
+    "peso": 80,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1788859889683.mp4",
+    "coverUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1788859889683-capa.png",
+    "legendaUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1788859889683-legenda.txt",
+    "data": "2026-09-08T09:33:43.168Z"
+  },
+  {
     "titulo": "IPCA, inflação nos EUA e decisão de juros do BCE movimentam a semana; confira os indicadores",
     "link": "https://www.moneytimes.com.br/ipca-inflacao-nos-eua-e-decisao-de-juros-do-bce-movimentam-a-semana-confira-os-indicadores-jcav/",
     "peso": 75,
@@ -1602,13 +1611,5 @@
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782423107804.mp4",
     "legendaUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782423107804-legenda.txt",
     "data": "2026-06-25T21:34:05.935Z"
-  },
-  {
-    "titulo": "Ouro fecha em alta com leve recuperação após índice de preços PCE abaixo do esperado",
-    "link": "https://www.moneytimes.com.br/ouro-fecha-em-alta-com-leve-recuperacao-apos-indice-de-precos-pce-abaixo-do-esperado/",
-    "peso": 39,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782414103681.mp4",
-    "legendaUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782414103681-legenda.txt",
-    "data": "2026-06-25T19:04:29.757Z"
   }
 ]
