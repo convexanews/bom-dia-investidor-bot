@@ -1,5 +1,14 @@
 [
   {
+    "titulo": "Primeiro turno, e não o vencedor, costuma ditar reação dos mercados, diz Bradesco BBI",
+    "link": "https://www.infomoney.com.br/mercados/primeiro-turno-e-nao-o-vencedor-costuma-ditar-reacao-dos-mercados-diz-bradesco-bbi/",
+    "peso": 75,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1788955282659.mp4",
+    "coverUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1788955282659-capa.png",
+    "legendaUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1788955282659-legenda.txt",
+    "data": "2026-09-09T12:04:13.474Z"
+  },
+  {
     "titulo": "Petróleo, eleições e crise no STF: o que movimenta os mercados nesta quarta",
     "link": "https://www.infomoney.com.br/mercados/petroleo-trade-eleitoral-crise-stf-09092026/",
     "peso": 90,
@@ -1607,13 +1616,5 @@
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782497490112.mp4",
     "legendaUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782497490112-legenda.txt",
     "data": "2026-06-26T18:13:41.639Z"
-  },
-  {
-    "titulo": "Avanço de 4,8% na massa salarial pressiona BC com juros maiores por mais tempo",
-    "link": "https://www.infomoney.com.br/economia/pnad-desemprego-26062026/",
-    "peso": 61,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782489678486.mp4",
-    "legendaUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782489678486-legenda.txt",
-    "data": "2026-06-26T16:03:06.133Z"
   }
 ]

@@ -1,5 +1,33 @@
 [
   {
+    "data": "2026-09-09T12:04:13.475Z",
+    "titulo": "Primeiro turno, e não o vencedor, costuma ditar reação dos mercados, diz Bradesco BBI",
+    "categoria": "Mercados",
+    "fonte": "InfoMoney",
+    "link": "https://www.infomoney.com.br/mercados/primeiro-turno-e-nao-o-vencedor-costuma-ditar-reacao-dos-mercados-diz-bradesco-bbi/",
+    "postId": "18008937839766466",
+    "storyId": null,
+    "reelId": "18008937839766466",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1788955282659.mp4",
+    "tipo": "reel",
+    "peso": 75,
+    "pilares": [
+      "macro",
+      "bolsa"
+    ],
+    "horarioBRT": "09",
+    "cta": null,
+    "decisaoFormato": "peso 75: reel; Studio Engine 100/100",
+    "studioQuality": {
+      "approved": true,
+      "score": 100,
+      "blockers": [],
+      "warnings": []
+    }
+  },
+  {
     "data": "2026-09-09T09:34:12.967Z",
     "titulo": "Petróleo, eleições e crise no STF: o que movimenta os mercados nesta quarta",
     "categoria": "Mercados",
@@ -3979,20 +4007,5 @@
     "videoUrl": null,
     "tipo": "carrossel",
     "peso": 16
-  },
-  {
-    "data": "2026-07-18T17:32:27.890Z",
-    "titulo": "Iguatemi (IGTI11) e mais 4 ações para investir na semana, segundo Terra Investimentos",
-    "categoria": "Mercados",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/iguatemi-igti11-e-mais-4-acoes-para-investir-na-semana-segundo-terra-investimentos-lmrs/",
-    "postId": "18109612361287131",
-    "storyId": "17885757579434876",
-    "reelId": null,
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784395896822-feed.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784395896822-story.png",
-    "videoUrl": null,
-    "tipo": "card",
-    "peso": 32
   }
 ]
