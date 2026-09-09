@@ -1,5 +1,35 @@
 [
   {
+    "data": "2026-09-09T09:34:12.967Z",
+    "titulo": "Petróleo, eleições e crise no STF: o que movimenta os mercados nesta quarta",
+    "categoria": "Mercados",
+    "fonte": "InfoMoney",
+    "link": "https://www.infomoney.com.br/mercados/petroleo-trade-eleitoral-crise-stf-09092026/",
+    "postId": "18132965482658914",
+    "storyId": null,
+    "reelId": "18132965482658914",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1788946288324.mp4",
+    "tipo": "reel",
+    "peso": 90,
+    "pilares": [
+      "macro",
+      "bolsa",
+      "fiis",
+      "exterior"
+    ],
+    "horarioBRT": "06",
+    "cta": null,
+    "decisaoFormato": "peso 90: reel; Studio Engine 100/100",
+    "studioQuality": {
+      "approved": true,
+      "score": 100,
+      "blockers": [],
+      "warnings": []
+    }
+  },
+  {
     "data": "2026-09-08T20:33:27.274Z",
     "titulo": "Wall Street cai com barril de Brent acima de US$ 90",
     "categoria": "Mercados",
@@ -3964,20 +3994,5 @@
     "videoUrl": null,
     "tipo": "card",
     "peso": 32
-  },
-  {
-    "data": "2026-07-18T15:07:15.049Z",
-    "titulo": "Incêndios no Canadá desencadeiam nova ameaça tarifária de Trump e colocam final da Copa em alerta",
-    "categoria": "G1",
-    "fonte": "G1 Economia",
-    "link": "https://g1.globo.com/economia/noticia/2026/07/18/incendios-canada-ameaca-tarifaria-trump-final-copa.ghtml",
-    "postId": "17869608027691665",
-    "storyId": "18072746615372100",
-    "reelId": null,
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784387161988-slide1.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784387161988-story.png",
-    "videoUrl": null,
-    "tipo": "carrossel",
-    "peso": 33
   }
 ]

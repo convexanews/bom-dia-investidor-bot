@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-09-09T09:34:12.970Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Petróleo, eleições e crise no STF: o que movimenta os mercados nesta quarta\".",
+    "postId": "18132965482658914",
+    "storyId": null,
+    "reelId": "18132965482658914",
+    "tipo": "reel",
+    "studioQuality": 100
+  },
+  {
+    "data": "2026-09-09T09:31:11.185Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 90): \"Petróleo, eleições e crise no STF: o que movimenta os mercados nesta quarta\". Realizando postagem..."
+  },
+  {
     "data": "2026-09-09T09:01:09.171Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1016,16 +1031,6 @@
   },
   {
     "data": "2026-09-05T22:39:22.049Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-09-05T22:31:01.920Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-09-05T22:01:31.894Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }
