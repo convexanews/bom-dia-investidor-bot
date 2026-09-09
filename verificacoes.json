@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-09-09T19:21:49.242Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
     "data": "2026-09-09T19:03:07.118Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1033,10 +1038,5 @@
     "reelId": "18113578810803767",
     "tipo": "reel",
     "studioQuality": 100
-  },
-  {
-    "data": "2026-09-06T09:01:27.383Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 71): \"Governo federal projeta receita total de R$ 3,24 trilhões em 2026; número é recorde e equivale a 23,7% do PIB\". Realizando postagem..."
   }
 ]
