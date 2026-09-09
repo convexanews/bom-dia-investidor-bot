@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-09-09T19:31:22.527Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
     "data": "2026-09-09T19:21:49.242Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1028,15 +1033,5 @@
     "data": "2026-09-06T09:31:13.934Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 64 min."
-  },
-  {
-    "data": "2026-09-06T09:04:41.804Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Governo federal projeta receita total de R$ 3,24 trilhões em 2026; número é recorde e equivale a 23,7% do PIB\".",
-    "postId": "18113578810803767",
-    "storyId": null,
-    "reelId": "18113578810803767",
-    "tipo": "reel",
-    "studioQuality": 100
   }
 ]
