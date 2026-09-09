@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-09-09T10:01:47.297Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 63 min."
+  },
+  {
     "data": "2026-09-09T09:34:12.970Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Petróleo, eleições e crise no STF: o que movimenta os mercados nesta quarta\".",
@@ -1026,11 +1031,6 @@
   },
   {
     "data": "2026-09-05T23:01:08.347Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-09-05T22:39:22.049Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }
