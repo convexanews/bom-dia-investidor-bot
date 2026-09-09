@@ -1,5 +1,15 @@
 [
   {
+    "data": "2026-09-09T20:31:32.524Z",
+    "resultado": "erro",
+    "mensagem": "Erro na execução automática: Narração bloqueada: texto aparenta estar em espanhol."
+  },
+  {
+    "data": "2026-09-09T20:31:01.545Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 79): \"Ibovespa segue exterior e recua quase 1% com disparada do petróleo; dólar sobe a R$ 5,11\". Realizando postagem..."
+  },
+  {
     "data": "2026-09-09T20:00:59.991Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1023,15 +1033,5 @@
     "data": "2026-09-06T11:01:18.192Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-09-06T10:30:58.714Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 4 min."
-  },
-  {
-    "data": "2026-09-06T10:00:59.495Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 34 min."
   }
 ]
