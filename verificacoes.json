@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-09-09T22:56:46.788Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
     "data": "2026-09-09T22:32:13.794Z",
     "resultado": "erro",
     "mensagem": "Erro na execução automática: Narração bloqueada: texto aparenta estar em espanhol."
@@ -1028,10 +1033,5 @@
     "reelId": "18134561281727916",
     "tipo": "reel",
     "studioQuality": 100
-  },
-  {
-    "data": "2026-09-06T15:01:01.498Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 75): \"IPCA, inflação nos EUA e decisão de juros do BCE movimentam a semana; confira os indicadores\". Realizando postagem..."
   }
 ]
