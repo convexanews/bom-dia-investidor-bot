@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-09-09T23:01:20.320Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
     "data": "2026-09-09T22:56:46.788Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1023,15 +1028,5 @@
     "data": "2026-09-06T15:31:01.746Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 63 min."
-  },
-  {
-    "data": "2026-09-06T15:03:34.763Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"IPCA, inflação nos EUA e decisão de juros do BCE movimentam a semana; confira os indicadores\".",
-    "postId": "18134561281727916",
-    "storyId": null,
-    "reelId": "18134561281727916",
-    "tipo": "reel",
-    "studioQuality": 100
   }
 ]
