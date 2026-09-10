@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-09-10T18:01:04.805Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 34 min."
+  },
+  {
     "data": "2026-09-10T17:31:42.243Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 63 min."
@@ -1041,11 +1046,6 @@
   },
   {
     "data": "2026-09-07T11:01:10.732Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-09-07T10:30:59.929Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }
