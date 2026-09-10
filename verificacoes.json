@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-09-10T11:34:17.824Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Recessão à vista? O PIB já desacelerou; agora, o risco está no crédito\".",
+    "postId": "17969559531044860",
+    "storyId": null,
+    "reelId": "17969559531044860",
+    "tipo": "reel",
+    "studioQuality": 100
+  },
+  {
+    "data": "2026-09-10T11:31:16.363Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 78): \"Recessão à vista? O PIB já desacelerou; agora, o risco está no crédito\". Realizando postagem..."
+  },
+  {
     "data": "2026-09-10T11:01:02.224Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 3 min."
@@ -1023,15 +1038,5 @@
     "data": "2026-09-07T02:59:02.376Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (23:59 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-09-07T02:30:57.871Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (23:30 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-09-07T02:00:58.460Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (23:00 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]

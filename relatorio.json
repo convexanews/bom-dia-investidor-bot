@@ -1,5 +1,33 @@
 [
   {
+    "data": "2026-09-10T11:34:17.822Z",
+    "titulo": "Recessão à vista? O PIB já desacelerou; agora, o risco está no crédito",
+    "categoria": "Colunas",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/recessao-a-vista-o-pib-ja-desacelerou-agora-o-risco-esta-no-credito/",
+    "postId": "17969559531044860",
+    "storyId": null,
+    "reelId": "17969559531044860",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1789039897865.mp4",
+    "tipo": "reel",
+    "peso": 78,
+    "pilares": [
+      "macro",
+      "bolsa"
+    ],
+    "horarioBRT": "08",
+    "cta": null,
+    "decisaoFormato": "peso 78: reel; Studio Engine 100/100",
+    "studioQuality": {
+      "approved": true,
+      "score": 100,
+      "blockers": [],
+      "warnings": []
+    }
+  },
+  {
     "data": "2026-09-10T09:33:58.254Z",
     "titulo": "BCE, inflação nos EUA, serviços no Brasil, AtlasIntel e mais destaques desta quinta",
     "categoria": "Mercados",
@@ -4006,20 +4034,5 @@
     "videoUrl": null,
     "tipo": "carrossel",
     "peso": 10
-  },
-  {
-    "data": "2026-07-18T22:25:41.985Z",
-    "titulo": "EUA afirmam que militares foram mortos na Jordânia; líder do Irã faz advertência",
-    "categoria": "Mundo",
-    "fonte": "InfoMoney",
-    "link": "https://www.infomoney.com.br/mundo/eua-afirmam-que-militares-foram-mortos-na-jordania-lider-do-ira-faz-advertencia/",
-    "postId": "17983071612020896",
-    "storyId": "18083466179230181",
-    "reelId": null,
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784413496856-feed.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784413496856-story.png",
-    "videoUrl": null,
-    "tipo": "card",
-    "peso": 11
   }
 ]

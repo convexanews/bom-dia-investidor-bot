@@ -1,5 +1,14 @@
 [
   {
+    "titulo": "Recessão à vista? O PIB já desacelerou; agora, o risco está no crédito",
+    "link": "https://www.moneytimes.com.br/recessao-a-vista-o-pib-ja-desacelerou-agora-o-risco-esta-no-credito/",
+    "peso": 78,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1789039897865.mp4",
+    "coverUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1789039897865-capa.png",
+    "legendaUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1789039897865-legenda.txt",
+    "data": "2026-09-10T11:34:17.820Z"
+  },
+  {
     "titulo": "BCE, inflação nos EUA, serviços no Brasil, AtlasIntel e mais destaques desta quinta",
     "link": "https://www.infomoney.com.br/mercados/bce-inflacao-nos-eua-servicos-no-brasil-atlasintel-e-mais-destaques-desta-quinta/",
     "peso": 80,
@@ -1609,13 +1618,5 @@
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782561686285.mp4",
     "legendaUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782561686285-legenda.txt",
     "data": "2026-06-27T12:03:36.146Z"
-  },
-  {
-    "titulo": "Wall Street fecha em queda; Nasdaq derrete 4% na semana com liquidação tech",
-    "link": "https://www.moneytimes.com.br/wall-street-26-6-26-apsa/",
-    "peso": 80,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782505146179.mp4",
-    "legendaUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782505146179-legenda.txt",
-    "data": "2026-06-26T20:20:54.248Z"
   }
 ]
