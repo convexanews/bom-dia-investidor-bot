@@ -1,5 +1,34 @@
 [
   {
+    "data": "2026-09-10T17:04:23.654Z",
+    "titulo": "Petróleo em US$ 104: Petrobras (PETR4) poderia estar capturando ‘muito mais’ a alta da commodity, diz analista",
+    "categoria": "Economia",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/petroleo-em-us-104-petrobras-petr4-poderia-estar-capturando-muito-mais-a-alta-da-commodity-diz-analista-mlem/",
+    "postId": "18005357775003381",
+    "storyId": null,
+    "reelId": "18005357775003381",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1789059707208.mp4",
+    "tipo": "reel",
+    "peso": 71,
+    "pilares": [
+      "bolsa",
+      "renda_fixa",
+      "exterior"
+    ],
+    "horarioBRT": "14",
+    "cta": null,
+    "decisaoFormato": "peso 71: reel; Studio Engine 100/100",
+    "studioQuality": {
+      "approved": true,
+      "score": 100,
+      "blockers": [],
+      "warnings": []
+    }
+  },
+  {
     "data": "2026-09-10T14:35:02.142Z",
     "titulo": "Wall Street recua com petróleo acima dos US$ 104 e alta do PPI",
     "categoria": "Mercados",
@@ -4033,20 +4062,5 @@
     "videoUrl": null,
     "tipo": "carrossel",
     "peso": 19
-  },
-  {
-    "data": "2026-07-19T09:30:42.269Z",
-    "titulo": "Quando sai o resultado da Vale (VALE3) do 2º tri de 2026?",
-    "categoria": "Mercados",
-    "fonte": "InfoMoney",
-    "link": "https://www.infomoney.com.br/mercados/quando-sai-o-resultado-da-vale-vale3-do-2o-tri-de-2026/",
-    "postId": "17953949735997100",
-    "storyId": "18086859821534887",
-    "reelId": null,
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784453398997-feed.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784453398997-story.png",
-    "videoUrl": null,
-    "tipo": "card",
-    "peso": 29
   }
 ]

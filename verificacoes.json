@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-09-10T17:04:23.656Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Petróleo em US$ 104: Petrobras (PETR4) poderia estar capturando ‘muito mais’ a alta da commodity, diz analista\".",
+    "postId": "18005357775003381",
+    "storyId": null,
+    "reelId": "18005357775003381",
+    "tipo": "reel",
+    "studioQuality": 100
+  },
+  {
+    "data": "2026-09-10T17:01:23.798Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 71): \"Petróleo em US$ 104: Petrobras (PETR4) poderia estar capturando ‘muito mais’ a alta da commodity, diz analista\". Realizando postagem..."
+  },
+  {
     "data": "2026-09-10T16:31:10.675Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1031,16 +1046,6 @@
   },
   {
     "data": "2026-09-07T10:01:00.232Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-09-07T09:30:59.864Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-09-07T09:01:17.195Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }
