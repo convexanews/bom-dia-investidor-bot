@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-09-10T09:33:58.257Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"BCE, inflação nos EUA, serviços no Brasil, AtlasIntel e mais destaques desta quinta\".",
+    "postId": "17860515297696226",
+    "storyId": null,
+    "reelId": "17860515297696226",
+    "tipo": "reel",
+    "studioQuality": 100
+  },
+  {
+    "data": "2026-09-10T09:31:26.957Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 80): \"BCE, inflação nos EUA, serviços no Brasil, AtlasIntel e mais destaques desta quinta\". Realizando postagem..."
+  },
+  {
     "data": "2026-09-10T09:01:07.804Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1016,16 +1031,6 @@
   },
   {
     "data": "2026-09-07T00:31:01.338Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-09-07T00:10:52.119Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-09-07T00:01:12.499Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }

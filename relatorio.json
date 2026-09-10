@@ -1,5 +1,34 @@
 [
   {
+    "data": "2026-09-10T09:33:58.254Z",
+    "titulo": "BCE, inflação nos EUA, serviços no Brasil, AtlasIntel e mais destaques desta quinta",
+    "categoria": "Mercados",
+    "fonte": "InfoMoney",
+    "link": "https://www.infomoney.com.br/mercados/bce-inflacao-nos-eua-servicos-no-brasil-atlasintel-e-mais-destaques-desta-quinta/",
+    "postId": "17860515297696226",
+    "storyId": null,
+    "reelId": "17860515297696226",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1789032707595.mp4",
+    "tipo": "reel",
+    "peso": 80,
+    "pilares": [
+      "macro",
+      "bolsa",
+      "exterior"
+    ],
+    "horarioBRT": "06",
+    "cta": null,
+    "decisaoFormato": "peso 80: reel; Studio Engine 100/100",
+    "studioQuality": {
+      "approved": true,
+      "score": 100,
+      "blockers": [],
+      "warnings": []
+    }
+  },
+  {
     "data": "2026-09-09T12:04:13.475Z",
     "titulo": "Primeiro turno, e não o vencedor, costuma ditar reação dos mercados, diz Bradesco BBI",
     "categoria": "Mercados",
@@ -3992,20 +4021,5 @@
     "videoUrl": null,
     "tipo": "card",
     "peso": 11
-  },
-  {
-    "data": "2026-07-18T20:02:24.108Z",
-    "titulo": "Petrobras (PETR4) e BB (BBAS3) à venda? Zema promete privatização para bancar obras",
-    "categoria": "Política",
-    "fonte": "InfoMoney",
-    "link": "https://www.infomoney.com.br/politica/zema-promete-privatizar-petrobras-e-banco-do-brasil-para-investir-em-infraestrutura/",
-    "postId": "18098971691596601",
-    "storyId": "17893970793564440",
-    "reelId": null,
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784404875482-slide1.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784404875482-story.png",
-    "videoUrl": null,
-    "tipo": "carrossel",
-    "peso": 16
   }
 ]
