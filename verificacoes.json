@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-09-10T05:31:03.245Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (02:31 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-09-10T05:01:14.500Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (02:01 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1021,11 +1026,6 @@
   },
   {
     "data": "2026-09-06T21:31:14.737Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-09-06T21:01:02.846Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }
