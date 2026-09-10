@@ -1,5 +1,34 @@
 [
   {
+    "data": "2026-09-10T20:33:32.090Z",
+    "titulo": "Wall Street estende perdas com disparada do petróleo a US$ 107 e Fed no radar",
+    "categoria": "Mercados",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/wall-street-10-9-26-apsa/",
+    "postId": "17947518492057020",
+    "storyId": null,
+    "reelId": "17947518492057020",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1789072286616.mp4",
+    "tipo": "reel",
+    "peso": 123,
+    "pilares": [
+      "macro",
+      "bolsa",
+      "exterior"
+    ],
+    "horarioBRT": "17",
+    "cta": null,
+    "decisaoFormato": "peso 123: reel; Studio Engine 100/100",
+    "studioQuality": {
+      "approved": true,
+      "score": 100,
+      "blockers": [],
+      "warnings": []
+    }
+  },
+  {
     "data": "2026-09-10T17:04:23.654Z",
     "titulo": "Petróleo em US$ 104: Petrobras (PETR4) poderia estar capturando ‘muito mais’ a alta da commodity, diz analista",
     "categoria": "Economia",
@@ -4047,20 +4076,5 @@
     "videoUrl": null,
     "tipo": "card",
     "peso": 29
-  },
-  {
-    "data": "2026-07-19T11:32:36.822Z",
-    "titulo": "33% do eleitorado brasileiro vê culpa de Lula e Bolsonaro em aumento das bets, diz pesquisa",
-    "categoria": "Política",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/33-do-eleitorado-brasileiro-ve-culpa-de-lula-e-bolsonaro-em-aumento-das-bets-diz-pesquisa-lils/",
-    "postId": "17993331389816517",
-    "storyId": "17867690358587710",
-    "reelId": null,
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784460678525-slide1.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784460678525-story.png",
-    "videoUrl": null,
-    "tipo": "carrossel",
-    "peso": 19
   }
 ]
