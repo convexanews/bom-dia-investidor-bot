@@ -1,5 +1,34 @@
 [
   {
+    "data": "2026-09-10T14:35:02.142Z",
+    "titulo": "Wall Street recua com petróleo acima dos US$ 104 e alta do PPI",
+    "categoria": "Mercados",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/wall-street-abertura-10-9-26-apsa/",
+    "postId": "18175723612441140",
+    "storyId": null,
+    "reelId": "18175723612441140",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1789050743725.mp4",
+    "tipo": "reel",
+    "peso": 85,
+    "pilares": [
+      "macro",
+      "bolsa",
+      "exterior"
+    ],
+    "horarioBRT": "11",
+    "cta": null,
+    "decisaoFormato": "peso 85: reel; Studio Engine 100/100",
+    "studioQuality": {
+      "approved": true,
+      "score": 100,
+      "blockers": [],
+      "warnings": []
+    }
+  },
+  {
     "data": "2026-09-10T11:34:17.822Z",
     "titulo": "Recessão à vista? O PIB já desacelerou; agora, o risco está no crédito",
     "categoria": "Colunas",
@@ -4019,20 +4048,5 @@
     "videoUrl": null,
     "tipo": "card",
     "peso": 29
-  },
-  {
-    "data": "2026-07-19T00:32:27.889Z",
-    "titulo": "Gol está perto de fechar acordo por jatos E2 da Embraer",
-    "categoria": "Business",
-    "fonte": "InfoMoney",
-    "link": "https://www.infomoney.com.br/business/gol-esta-perto-de-fechar-acordo-por-jatos-e2-da-embraer/",
-    "postId": "18332722732284144",
-    "storyId": "17899486707532348",
-    "reelId": null,
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784421068084-slide1.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784421068084-story.png",
-    "videoUrl": null,
-    "tipo": "carrossel",
-    "peso": 10
   }
 ]

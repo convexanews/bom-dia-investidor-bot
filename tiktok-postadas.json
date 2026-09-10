@@ -1,5 +1,14 @@
 [
   {
+    "titulo": "Wall Street recua com petróleo acima dos US$ 104 e alta do PPI",
+    "link": "https://www.moneytimes.com.br/wall-street-abertura-10-9-26-apsa/",
+    "peso": 85,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1789050743725.mp4",
+    "coverUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1789050743725-capa.png",
+    "legendaUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1789050743725-legenda.txt",
+    "data": "2026-09-10T14:35:02.140Z"
+  },
+  {
     "titulo": "Recessão à vista? O PIB já desacelerou; agora, o risco está no crédito",
     "link": "https://www.moneytimes.com.br/recessao-a-vista-o-pib-ja-desacelerou-agora-o-risco-esta-no-credito/",
     "peso": 78,
@@ -1610,13 +1619,5 @@
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782569692711.mp4",
     "legendaUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782569692711-legenda.txt",
     "data": "2026-06-27T14:16:45.311Z"
-  },
-  {
-    "titulo": "Selic baixa popularizou os FIIs, mas deixou uma lição errada, diz professor da USP",
-    "link": "https://www.infomoney.com.br/onde-investir/selic-baixa-popularizou-os-fiis-mas-deixou-uma-licao-errada-diz-professor-da-usp/",
-    "peso": 45,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782561686285.mp4",
-    "legendaUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782561686285-legenda.txt",
-    "data": "2026-06-27T12:03:36.146Z"
   }
 ]
