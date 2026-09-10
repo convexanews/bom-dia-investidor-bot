@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-09-10T12:01:40.009Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 63 min."
+  },
+  {
     "data": "2026-09-10T11:34:17.824Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Recessão à vista? O PIB já desacelerou; agora, o risco está no crédito\".",
@@ -1033,10 +1038,5 @@
     "data": "2026-09-07T03:01:01.506Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (00:01 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-09-07T02:59:02.376Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (23:59 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
