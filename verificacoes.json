@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-09-11T17:05:09.249Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Oracle (ORCL) dispara após balanço, mas caixa negativo acende alerta para investidores\".",
+    "postId": "18133103428655061",
+    "storyId": null,
+    "reelId": "18133103428655061",
+    "tipo": "reel",
+    "studioQuality": 100
+  },
+  {
+    "data": "2026-09-11T17:01:31.432Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 73): \"Oracle (ORCL) dispara após balanço, mas caixa negativo acende alerta para investidores\". Realizando postagem..."
+  },
+  {
     "data": "2026-09-11T16:31:19.393Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1053,15 +1068,5 @@
     "reelId": "18113776247097411",
     "tipo": "reel",
     "studioQuality": 100
-  },
-  {
-    "data": "2026-09-08T12:01:19.600Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 88): \"Economistas melhoram previsões para inflação e PIB de 2026; veja as projeções do Focus desta terça-feira (8)\". Realizando postagem..."
-  },
-  {
-    "data": "2026-09-08T11:31:01.572Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }
 ]

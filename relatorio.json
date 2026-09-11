@@ -1,5 +1,33 @@
 [
   {
+    "data": "2026-09-11T17:05:09.246Z",
+    "titulo": "Oracle (ORCL) dispara após balanço, mas caixa negativo acende alerta para investidores",
+    "categoria": "Internacional",
+    "fonte": "Suno",
+    "link": "https://www.suno.com.br/noticias/oracle-orcl-resultados-2t26-inteligencia-artificial-mt/",
+    "postId": "18133103428655061",
+    "storyId": null,
+    "reelId": "18133103428655061",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1789146116732.mp4",
+    "tipo": "reel",
+    "peso": 73,
+    "pilares": [
+      "macro",
+      "bolsa"
+    ],
+    "horarioBRT": "14",
+    "cta": null,
+    "decisaoFormato": "peso 73: reel; Studio Engine 100/100",
+    "studioQuality": {
+      "approved": true,
+      "score": 100,
+      "blockers": [],
+      "warnings": []
+    }
+  },
+  {
     "data": "2026-09-11T14:04:19.511Z",
     "titulo": "IPCA surpreende e reforça corte da Selic; até onde os juros podem cair?",
     "categoria": "Economia",
@@ -4100,20 +4128,5 @@
     "videoUrl": null,
     "tipo": "carrossel",
     "peso": 12
-  },
-  {
-    "data": "2026-07-19T21:57:16.729Z",
-    "titulo": "Dino determina prisão domiciliar e afastamento de secretário do Maranhão",
-    "categoria": "Política",
-    "fonte": "InfoMoney",
-    "link": "https://www.infomoney.com.br/politica/dino-determina-prisao-domiciliar-e-afastamento-de-secretario-do-maranhao/",
-    "postId": "17882985747460310",
-    "storyId": "18099405116352860",
-    "reelId": null,
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784498196163-feed.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784498196163-story.png",
-    "videoUrl": null,
-    "tipo": "card",
-    "peso": 13
   }
 ]
