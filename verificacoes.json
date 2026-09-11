@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-09-11T17:31:00.105Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 65 min."
+  },
+  {
     "data": "2026-09-11T17:05:09.249Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Oracle (ORCL) dispara após balanço, mas caixa negativo acende alerta para investidores\".",
@@ -1058,15 +1063,5 @@
     "data": "2026-09-08T12:30:56.462Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 64 min."
-  },
-  {
-    "data": "2026-09-08T12:04:16.285Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Economistas melhoram previsões para inflação e PIB de 2026; veja as projeções do Focus desta terça-feira (8)\".",
-    "postId": "18113776247097411",
-    "storyId": null,
-    "reelId": "18113776247097411",
-    "tipo": "reel",
-    "studioQuality": 100
   }
 ]
