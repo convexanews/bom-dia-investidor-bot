@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-09-11T19:13:36.411Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 81 min."
+  },
+  {
     "data": "2026-09-11T19:04:33.142Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Ouro recua 1,5% na semana de olho em alta do Fed e disparada dos Treasuries\".",
@@ -1061,11 +1066,6 @@
   },
   {
     "data": "2026-09-08T14:42:43.737Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-09-08T14:31:37.194Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }
