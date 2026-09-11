@@ -1,5 +1,33 @@
 [
   {
+    "data": "2026-09-11T14:04:19.511Z",
+    "titulo": "IPCA surpreende e reforça corte da Selic; até onde os juros podem cair?",
+    "categoria": "Economia",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/ipca-surpreende-e-reforca-corte-da-selic-ate-onde-os-juros-podem-cair-jcav/",
+    "postId": "18380136685234968",
+    "storyId": null,
+    "reelId": "18380136685234968",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1789135292435.mp4",
+    "tipo": "reel",
+    "peso": 96,
+    "pilares": [
+      "macro",
+      "bolsa"
+    ],
+    "horarioBRT": "11",
+    "cta": null,
+    "decisaoFormato": "peso 96: reel; Studio Engine 100/100",
+    "studioQuality": {
+      "approved": true,
+      "score": 100,
+      "blockers": [],
+      "warnings": []
+    }
+  },
+  {
     "data": "2026-09-11T11:03:58.307Z",
     "titulo": "Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta sexta",
     "categoria": "Mercados",
@@ -4087,20 +4115,5 @@
     "videoUrl": null,
     "tipo": "card",
     "peso": 13
-  },
-  {
-    "data": "2026-07-19T19:33:41.897Z",
-    "titulo": "Anvisa fez 33 fiscalizações em farmácias que produzem canetas emagrecedoras em 2026",
-    "categoria": "Consumo",
-    "fonte": "InfoMoney",
-    "link": "https://www.infomoney.com.br/consumo/anvisa-fez-33-fiscalizacoes-em-farmacias-que-produzem-canetas-emagrecedoras-em-2026/",
-    "postId": "18097974685998436",
-    "storyId": "18144185671546757",
-    "reelId": null,
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784489480810-slide1.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784489480810-story.png",
-    "videoUrl": null,
-    "tipo": "carrossel",
-    "peso": 32
   }
 ]

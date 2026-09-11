@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-09-11T14:04:19.514Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"IPCA surpreende e reforça corte da Selic; até onde os juros podem cair?\".",
+    "postId": "18380136685234968",
+    "storyId": null,
+    "reelId": "18380136685234968",
+    "tipo": "reel",
+    "studioQuality": 100
+  },
+  {
+    "data": "2026-09-11T14:01:10.821Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 96): \"IPCA surpreende e reforça corte da Selic; até onde os juros podem cair?\". Realizando postagem..."
+  },
+  {
     "data": "2026-09-11T13:31:43.389Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1053,15 +1068,5 @@
     "data": "2026-09-08T09:01:44.621Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-09-08T08:30:59.934Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (05:30 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-09-08T08:01:12.145Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (05:01 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
