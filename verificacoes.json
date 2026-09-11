@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-09-11T19:04:33.142Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Ouro recua 1,5% na semana de olho em alta do Fed e disparada dos Treasuries\".",
+    "postId": "17946190170280963",
+    "storyId": null,
+    "reelId": "17946190170280963",
+    "tipo": "reel",
+    "studioQuality": 100
+  },
+  {
+    "data": "2026-09-11T19:01:23.391Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 70): \"Ouro recua 1,5% na semana de olho em alta do Fed e disparada dos Treasuries\". Realizando postagem..."
+  },
+  {
     "data": "2026-09-11T18:31:37.158Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 4 min."
@@ -1053,15 +1068,5 @@
     "data": "2026-09-08T14:31:37.194Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-09-08T14:01:08.861Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-09-08T13:31:36.530Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 3 min."
   }
 ]

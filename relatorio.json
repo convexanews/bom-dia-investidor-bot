@@ -1,5 +1,33 @@
 [
   {
+    "data": "2026-09-11T19:04:33.139Z",
+    "titulo": "Ouro recua 1,5% na semana de olho em alta do Fed e disparada dos Treasuries",
+    "categoria": "Mercados",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/ouro-11-9-26-apsa/",
+    "postId": "17946190170280963",
+    "storyId": null,
+    "reelId": "17946190170280963",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1789153316281.mp4",
+    "tipo": "reel",
+    "peso": 70,
+    "pilares": [
+      "macro",
+      "bolsa"
+    ],
+    "horarioBRT": "16",
+    "cta": null,
+    "decisaoFormato": "peso 70: reel; Studio Engine 100/100",
+    "studioQuality": {
+      "approved": true,
+      "score": 100,
+      "blockers": [],
+      "warnings": []
+    }
+  },
+  {
     "data": "2026-09-11T17:05:09.246Z",
     "titulo": "Oracle (ORCL) dispara após balanço, mas caixa negativo acende alerta para investidores",
     "categoria": "Internacional",
@@ -4113,20 +4141,5 @@
     "videoUrl": null,
     "tipo": "card",
     "peso": 58
-  },
-  {
-    "data": "2026-07-20T00:03:11.023Z",
-    "titulo": "Petróleo sobe e futuros de NY abrem estáveis com escalada do conflito entre Irã e EUA",
-    "categoria": "Mercados",
-    "fonte": "InfoMoney",
-    "link": "https://www.infomoney.com.br/mercados/petroleo-sobe-e-futuros-de-ny-abrem-estaveis-com-escalada-do-conflito-entre-ira-e-eua/",
-    "postId": "18112233760908229",
-    "storyId": "18011804783923040",
-    "reelId": null,
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784505710976-slide1.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784505710976-story.png",
-    "videoUrl": null,
-    "tipo": "carrossel",
-    "peso": 12
   }
 ]
