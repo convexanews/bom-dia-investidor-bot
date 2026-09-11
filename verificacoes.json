@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-09-11T14:31:11.493Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 64 min."
+  },
+  {
     "data": "2026-09-11T14:04:19.514Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"IPCA surpreende e reforça corte da Selic; até onde os juros podem cair?\".",
@@ -1063,10 +1068,5 @@
     "data": "2026-09-08T09:31:11.571Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 80): \"Petróleo perto de US$ 100, Focus, dados da China e mais destaques desta terça-feira\". Realizando postagem..."
-  },
-  {
-    "data": "2026-09-08T09:01:44.621Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }
 ]
