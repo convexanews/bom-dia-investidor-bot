@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-09-11T14:32:52.084Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 62 min."
+  },
+  {
     "data": "2026-09-11T14:31:11.493Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 64 min."
@@ -1063,10 +1068,5 @@
     "reelId": "17934852843122331",
     "tipo": "reel",
     "studioQuality": 100
-  },
-  {
-    "data": "2026-09-08T09:31:11.571Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 80): \"Petróleo perto de US$ 100, Focus, dados da China e mais destaques desta terça-feira\". Realizando postagem..."
   }
 ]
