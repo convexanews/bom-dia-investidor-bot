@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-09-11T22:59:30.262Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
     "data": "2026-09-11T22:30:56.983Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1058,15 +1063,5 @@
     "data": "2026-09-08T18:30:57.802Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 82 min."
-  },
-  {
-    "data": "2026-09-08T18:22:03.423Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Com perda de espaço da inteligência artificial, Brasil volta a ser compra para o BofA: O que mais mudou?\".",
-    "postId": "18076010186707089",
-    "storyId": null,
-    "reelId": "18076010186707089",
-    "tipo": "reel",
-    "studioQuality": 100
   }
 ]
