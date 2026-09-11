@@ -1,5 +1,33 @@
 [
   {
+    "data": "2026-09-11T09:05:15.922Z",
+    "titulo": "Com rali em curso, Ibovespa encara inflação no Brasil e nos EUA; veja os cenários",
+    "categoria": "Mercados",
+    "fonte": "InfoMoney",
+    "link": "https://www.infomoney.com.br/mercados/cpi-ipca-hoje-ibovespa-cenarios-bolsa/",
+    "postId": "18129216199739798",
+    "storyId": null,
+    "reelId": "18129216199739798",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1789117287407.mp4",
+    "tipo": "reel",
+    "peso": 95,
+    "pilares": [
+      "macro",
+      "bolsa"
+    ],
+    "horarioBRT": "06",
+    "cta": null,
+    "decisaoFormato": "peso 95: reel; Studio Engine 100/100",
+    "studioQuality": {
+      "approved": true,
+      "score": 100,
+      "blockers": [],
+      "warnings": []
+    }
+  },
+  {
     "data": "2026-09-10T20:33:32.090Z",
     "titulo": "Wall Street estende perdas com disparada do petróleo a US$ 107 e Fed no radar",
     "categoria": "Mercados",
@@ -4061,20 +4089,5 @@
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1784478679374.mp4",
     "tipo": "reel",
     "peso": 30
-  },
-  {
-    "data": "2026-07-19T14:02:19.909Z",
-    "titulo": "Congresso ameaça CPI sobre suposta interferência do governo na Vale (VALE3), diz portal",
-    "categoria": "Empresas",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/congresso-ameaca-cpi-sobre-suposta-interferencia-do-governo-na-vale-vale3-diz-portal-lils/",
-    "postId": "18001105952970853",
-    "storyId": "18406216774155396",
-    "reelId": null,
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784469690624-feed.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784469690624-story.png",
-    "videoUrl": null,
-    "tipo": "card",
-    "peso": 29
   }
 ]
