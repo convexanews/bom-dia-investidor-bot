@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-09-11T22:30:56.983Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
     "data": "2026-09-11T22:01:14.036Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1063,10 +1068,5 @@
     "reelId": "18076010186707089",
     "tipo": "reel",
     "studioQuality": 100
-  },
-  {
-    "data": "2026-09-08T18:19:20.635Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 91): \"Com perda de espaço da inteligência artificial, Brasil volta a ser compra para o BofA: O que mais mudou?\". Realizando postagem..."
   }
 ]
