@@ -1,5 +1,33 @@
 [
   {
+    "data": "2026-09-11T11:03:58.307Z",
+    "titulo": "Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta sexta",
+    "categoria": "Mercados",
+    "fonte": "InfoMoney",
+    "link": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-11092026/",
+    "postId": "17947490109057196",
+    "storyId": null,
+    "reelId": "17947490109057196",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1789124486657.mp4",
+    "tipo": "reel",
+    "peso": 71,
+    "pilares": [
+      "macro",
+      "bolsa"
+    ],
+    "horarioBRT": "08",
+    "cta": null,
+    "decisaoFormato": "peso 71: reel; Studio Engine 100/100",
+    "studioQuality": {
+      "approved": true,
+      "score": 100,
+      "blockers": [],
+      "warnings": []
+    }
+  },
+  {
     "data": "2026-09-11T09:05:15.922Z",
     "titulo": "Com rali em curso, Ibovespa encara inflação no Brasil e nos EUA; veja os cenários",
     "categoria": "Mercados",
@@ -4074,20 +4102,5 @@
     "videoUrl": null,
     "tipo": "carrossel",
     "peso": 32
-  },
-  {
-    "data": "2026-07-19T16:33:11.289Z",
-    "titulo": "TIM (TIMS3) paga dividendos nesta semana; veja o calendário",
-    "categoria": "Empresas",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/dividendos-da-semana-17-7-26-apsa/",
-    "postId": "18601877908050381",
-    "storyId": null,
-    "reelId": "18601877908050381",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1784478679374.mp4",
-    "tipo": "reel",
-    "peso": 30
   }
 ]
