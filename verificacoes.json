@@ -1,5 +1,15 @@
 [
   {
+    "data": "2026-09-11T21:03:10.180Z",
+    "resultado": "erro",
+    "mensagem": "Erro na execução automática: Container com erro: {\"status_code\":\"ERROR\",\"id\":\"18137429599665621\"}"
+  },
+  {
+    "data": "2026-09-11T21:01:07.063Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 78): \"Wall Street avança no dia com alívio do petróleo, mas Dow Jones cai 1,5% na semana\". Realizando postagem..."
+  },
+  {
     "data": "2026-09-11T20:31:26.762Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 4 min."
@@ -1056,16 +1066,6 @@
   },
   {
     "data": "2026-09-08T17:01:14.558Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-09-08T16:31:08.996Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-09-08T16:01:35.258Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }
