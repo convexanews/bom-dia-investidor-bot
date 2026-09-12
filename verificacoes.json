@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-09-12T00:31:20.111Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
     "data": "2026-09-12T00:28:46.142Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1058,10 +1063,5 @@
     "data": "2026-09-08T20:30:57.908Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 71): \"Wall Street cai com barril de Brent acima de US$ 90\". Realizando postagem..."
-  },
-  {
-    "data": "2026-09-08T20:01:09.921Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }
 ]
