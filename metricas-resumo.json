@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-09-11T15:06:44.401Z",
+  "atualizadoEm": "2026-09-12T14:14:50.652Z",
   "porFormato": {
     "reel": {
       "posts": 25,
@@ -28,7 +28,7 @@
       "taxaInteracaoMedia": 0
     },
     "exterior": {
-      "posts": 12,
+      "posts": 11,
       "alcanceMedio": 13,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
@@ -55,7 +55,7 @@
   "porHorarioBRT": {
     "11": {
       "posts": 2,
-      "alcanceMedio": 7,
+      "alcanceMedio": 9,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
@@ -78,8 +78,8 @@
       "taxaInteracaoMedia": 9.09
     },
     "14": {
-      "posts": 1,
-      "alcanceMedio": 10,
+      "posts": 2,
+      "alcanceMedio": 9,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
@@ -88,6 +88,14 @@
     "15": {
       "posts": 1,
       "alcanceMedio": 11,
+      "salvamentosMedios": 0,
+      "compartilhamentosMedios": 0,
+      "reproducoesMedias": null,
+      "taxaInteracaoMedia": 0
+    },
+    "16": {
+      "posts": 1,
+      "alcanceMedio": 6,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
@@ -109,29 +117,21 @@
       "reproducoesMedias": null,
       "taxaInteracaoMedia": 0
     },
-    "20": {
-      "posts": 1,
-      "alcanceMedio": 13,
-      "salvamentosMedios": 0,
-      "compartilhamentosMedios": 0,
-      "reproducoesMedias": null,
-      "taxaInteracaoMedia": 0
-    },
     "08": {
       "posts": 3,
-      "alcanceMedio": 18,
+      "alcanceMedio": 19,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
       "taxaInteracaoMedia": 0
     },
     "06": {
-      "posts": 7,
+      "posts": 6,
       "alcanceMedio": 14,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
-      "taxaInteracaoMedia": 0
+      "taxaInteracaoMedia": 7.14
     },
     "09": {
       "posts": 2,
