@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-09-12T17:41:47.105Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
     "data": "2026-09-12T17:31:00.323Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1052,10 +1057,5 @@
     "reelId": "18008937839766466",
     "tipo": "reel",
     "studioQuality": 100
-  },
-  {
-    "data": "2026-09-09T12:01:04.846Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 75): \"Primeiro turno, e não o vencedor, costuma ditar reação dos mercados, diz Bradesco BBI\". Realizando postagem..."
   }
 ]
