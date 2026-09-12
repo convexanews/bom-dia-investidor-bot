@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-09-12T01:31:03.478Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
     "data": "2026-09-12T01:01:01.444Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1053,15 +1058,5 @@
     "data": "2026-09-08T21:01:10.035Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 63 min."
-  },
-  {
-    "data": "2026-09-08T20:33:27.277Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Wall Street cai com barril de Brent acima de US$ 90\".",
-    "postId": "17985622428028861",
-    "storyId": null,
-    "reelId": "17985622428028861",
-    "tipo": "reel",
-    "studioQuality": 100
   }
 ]
