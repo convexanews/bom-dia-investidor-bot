@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-09-12T14:31:01.779Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
     "data": "2026-09-12T14:01:42.682Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1057,10 +1062,5 @@
     "data": "2026-09-09T09:31:11.185Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 90): \"Petróleo, eleições e crise no STF: o que movimenta os mercados nesta quarta\". Realizando postagem..."
-  },
-  {
-    "data": "2026-09-09T09:01:09.171Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }
 ]
