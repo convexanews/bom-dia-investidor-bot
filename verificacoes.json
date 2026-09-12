@@ -1,5 +1,11 @@
 [
   {
+    "data": "2026-09-12T12:38:00.791Z",
+    "resultado": "pauta_reprovada",
+    "mensagem": "Notícia não publicada: manchete longa demais para caber completa no card.",
+    "titulo": "Ethereum (ETH) vai na contramão do Bitcoin (BTC) e sobe 3% na semana, com Fomc no radar; confira os preços das criptomoedas neste sábado (12)"
+  },
+  {
     "data": "2026-09-12T12:31:12.372Z",
     "resultado": "pauta_reprovada",
     "mensagem": "Notícia não publicada: manchete longa demais para caber completa no card.",
@@ -1055,10 +1061,5 @@
     "data": "2026-09-09T07:01:45.546Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (04:01 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-09-09T06:31:04.458Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (03:31 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
