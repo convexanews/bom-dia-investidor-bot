@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-09-12T18:01:04.161Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
     "data": "2026-09-12T17:41:47.105Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1047,15 +1052,5 @@
     "data": "2026-09-09T12:30:56.001Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 64 min."
-  },
-  {
-    "data": "2026-09-09T12:04:13.478Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Primeiro turno, e não o vencedor, costuma ditar reação dos mercados, diz Bradesco BBI\".",
-    "postId": "18008937839766466",
-    "storyId": null,
-    "reelId": "18008937839766466",
-    "tipo": "reel",
-    "studioQuality": 100
   }
 ]
