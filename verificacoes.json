@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-09-12T13:31:08.288Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
     "data": "2026-09-12T13:01:21.649Z",
     "resultado": "pauta_reprovada",
     "mensagem": "Notícia não publicada: manchete longa demais para caber completa no card.",
@@ -1057,10 +1062,5 @@
     "data": "2026-09-09T08:02:07.786Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (05:02 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-09-09T07:31:25.180Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (04:31 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
