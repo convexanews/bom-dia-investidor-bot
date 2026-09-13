@@ -1,5 +1,15 @@
 [
   {
+    "data": "2026-09-13T22:03:03.857Z",
+    "resultado": "erro",
+    "mensagem": "Erro na execução automática: Command failed: git push"
+  },
+  {
+    "data": "2026-09-13T22:01:27.375Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 94): \"Bitcoin tenta reagir, mas tomba na semana; veja cotações das criptomoedas neste domingo (13)\". Realizando postagem..."
+  },
+  {
     "data": "2026-09-13T21:35:11.174Z",
     "resultado": "erro",
     "mensagem": "Erro na execução automática: Command failed: git push"
@@ -1022,15 +1032,5 @@
     "reelId": "17947518492057020",
     "tipo": "reel",
     "studioQuality": 100
-  },
-  {
-    "data": "2026-09-10T20:31:07.977Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 123): \"Wall Street estende perdas com disparada do petróleo a US$ 107 e Fed no radar\". Realizando postagem..."
-  },
-  {
-    "data": "2026-09-10T20:01:06.600Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }
 ]
