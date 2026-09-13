@@ -1,5 +1,15 @@
 [
   {
+    "data": "2026-09-13T17:32:29.065Z",
+    "resultado": "erro",
+    "mensagem": "Erro na execução automática: Command failed: git push"
+  },
+  {
+    "data": "2026-09-13T17:31:05.762Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 94): \"Bitcoin tenta reagir, mas tomba na semana; veja cotações das criptomoedas neste domingo (13)\". Realizando postagem..."
+  },
+  {
     "data": "2026-09-13T17:02:37.022Z",
     "resultado": "erro",
     "mensagem": "Erro na execução automática: Command failed: git push"
@@ -1037,15 +1047,5 @@
     "data": "2026-09-10T11:31:16.363Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 78): \"Recessão à vista? O PIB já desacelerou; agora, o risco está no crédito\". Realizando postagem..."
-  },
-  {
-    "data": "2026-09-10T11:01:02.224Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 3 min."
-  },
-  {
-    "data": "2026-09-10T10:30:56.866Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 34 min."
   }
 ]
