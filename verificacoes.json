@@ -1,5 +1,15 @@
 [
   {
+    "data": "2026-09-13T17:02:37.022Z",
+    "resultado": "erro",
+    "mensagem": "Erro na execução automática: Command failed: git push"
+  },
+  {
+    "data": "2026-09-13T17:01:16.347Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 94): \"Bitcoin tenta reagir, mas tomba na semana; veja cotações das criptomoedas neste domingo (13)\". Realizando postagem..."
+  },
+  {
     "data": "2026-09-13T16:32:52.731Z",
     "resultado": "erro",
     "mensagem": "Erro na execução automática: Command failed: git push"
@@ -1037,20 +1047,5 @@
     "data": "2026-09-10T10:30:56.866Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 34 min."
-  },
-  {
-    "data": "2026-09-10T10:01:42.164Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 63 min."
-  },
-  {
-    "data": "2026-09-10T09:33:58.257Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"BCE, inflação nos EUA, serviços no Brasil, AtlasIntel e mais destaques desta quinta\".",
-    "postId": "17860515297696226",
-    "storyId": null,
-    "reelId": "17860515297696226",
-    "tipo": "reel",
-    "studioQuality": 100
   }
 ]
