@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-09-13T07:01:02.001Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (04:01 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-09-13T06:30:59.204Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (03:30 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1047,10 +1052,5 @@
     "data": "2026-09-09T22:56:46.788Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-09-09T22:32:13.794Z",
-    "resultado": "erro",
-    "mensagem": "Erro na execução automática: Narração bloqueada: texto aparenta estar em espanhol."
   }
 ]
