@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-09-13T03:31:09.415Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (00:31 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-09-13T03:16:05.060Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (00:16 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1047,10 +1052,5 @@
     "data": "2026-09-09T21:32:06.726Z",
     "resultado": "erro",
     "mensagem": "Erro na execução automática: Narração bloqueada: texto aparenta estar em espanhol."
-  },
-  {
-    "data": "2026-09-09T21:31:02.046Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 79): \"Ibovespa segue exterior e recua quase 1% com disparada do petróleo; dólar sobe a R$ 5,11\". Realizando postagem..."
   }
 ]
