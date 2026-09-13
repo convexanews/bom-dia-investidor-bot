@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-09-12T14:14:50.652Z",
+  "atualizadoEm": "2026-09-13T14:57:54.140Z",
   "porFormato": {
     "reel": {
       "posts": 25,
@@ -55,7 +55,7 @@
   "porHorarioBRT": {
     "11": {
       "posts": 2,
-      "alcanceMedio": 9,
+      "alcanceMedio": 10,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
@@ -79,7 +79,7 @@
     },
     "14": {
       "posts": 2,
-      "alcanceMedio": 9,
+      "alcanceMedio": 11,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
@@ -95,7 +95,7 @@
     },
     "16": {
       "posts": 1,
-      "alcanceMedio": 6,
+      "alcanceMedio": 7,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
@@ -119,7 +119,7 @@
     },
     "08": {
       "posts": 3,
-      "alcanceMedio": 19,
+      "alcanceMedio": 20,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
@@ -127,11 +127,11 @@
     },
     "06": {
       "posts": 6,
-      "alcanceMedio": 14,
+      "alcanceMedio": 15,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
-      "taxaInteracaoMedia": 7.14
+      "taxaInteracaoMedia": 6.67
     },
     "09": {
       "posts": 2,
