@@ -1,5 +1,15 @@
 [
   {
+    "data": "2026-09-13T22:32:35.039Z",
+    "resultado": "erro",
+    "mensagem": "Erro na execução automática: Command failed: git push"
+  },
+  {
+    "data": "2026-09-13T22:31:00.699Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 94): \"Bitcoin tenta reagir, mas tomba na semana; veja cotações das criptomoedas neste domingo (13)\". Realizando postagem..."
+  },
+  {
     "data": "2026-09-13T22:03:03.857Z",
     "resultado": "erro",
     "mensagem": "Erro na execução automática: Command failed: git push"
@@ -1017,20 +1027,5 @@
     "data": "2026-09-10T21:31:19.024Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 33 min."
-  },
-  {
-    "data": "2026-09-10T21:01:03.366Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 63 min."
-  },
-  {
-    "data": "2026-09-10T20:33:32.092Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Wall Street estende perdas com disparada do petróleo a US$ 107 e Fed no radar\".",
-    "postId": "17947518492057020",
-    "storyId": null,
-    "reelId": "17947518492057020",
-    "tipo": "reel",
-    "studioQuality": 100
   }
 ]
