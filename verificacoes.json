@@ -1,5 +1,15 @@
 [
   {
+    "data": "2026-09-13T20:22:57.182Z",
+    "resultado": "erro",
+    "mensagem": "Erro na execução automática: Command failed: git push"
+  },
+  {
+    "data": "2026-09-13T20:21:24.201Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 94): \"Bitcoin tenta reagir, mas tomba na semana; veja cotações das criptomoedas neste domingo (13)\". Realizando postagem..."
+  },
+  {
     "data": "2026-09-13T20:02:36.672Z",
     "resultado": "erro",
     "mensagem": "Erro na execução automática: Command failed: git push"
@@ -1027,15 +1037,5 @@
     "reelId": "18005357775003381",
     "tipo": "reel",
     "studioQuality": 100
-  },
-  {
-    "data": "2026-09-10T17:01:23.798Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 71): \"Petróleo em US$ 104: Petrobras (PETR4) poderia estar capturando ‘muito mais’ a alta da commodity, diz analista\". Realizando postagem..."
-  },
-  {
-    "data": "2026-09-10T16:31:10.675Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }
 ]
