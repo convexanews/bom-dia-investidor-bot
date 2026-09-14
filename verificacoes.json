@@ -1,5 +1,15 @@
 [
   {
+    "data": "2026-09-14T14:33:01.742Z",
+    "resultado": "erro",
+    "mensagem": "Erro na execução automática: Command failed: git push"
+  },
+  {
+    "data": "2026-09-14T14:31:35.370Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 77): \"Ibovespa cai e dólar sobe com aversão global ao risco e crise no STF no radar\". Realizando postagem..."
+  },
+  {
     "data": "2026-09-14T14:01:14.920Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1005,15 +1015,5 @@
     "reelId": "18133103428655061",
     "tipo": "reel",
     "studioQuality": 100
-  },
-  {
-    "data": "2026-09-11T17:01:31.432Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 73): \"Oracle (ORCL) dispara após balanço, mas caixa negativo acende alerta para investidores\". Realizando postagem..."
-  },
-  {
-    "data": "2026-09-11T16:31:19.393Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }
 ]
