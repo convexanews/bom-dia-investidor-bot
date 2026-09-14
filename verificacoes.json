@@ -1,5 +1,15 @@
 [
   {
+    "data": "2026-09-14T12:02:58.512Z",
+    "resultado": "erro",
+    "mensagem": "Erro na execução automática: Command failed: git push"
+  },
+  {
+    "data": "2026-09-14T12:01:12.681Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 88): \"Economistas projetam inflação mais baixa em 2026 e só mais um corte na Selic; confira o Focus desta segunda-feira (14)\". Realizando postagem..."
+  },
+  {
     "data": "2026-09-14T11:31:21.099Z",
     "resultado": "pauta_reprovada",
     "mensagem": "Notícia não publicada: manchete longa demais para caber completa no card.",
@@ -1005,20 +1015,5 @@
     "data": "2026-09-11T14:31:11.493Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 64 min."
-  },
-  {
-    "data": "2026-09-11T14:04:19.514Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"IPCA surpreende e reforça corte da Selic; até onde os juros podem cair?\".",
-    "postId": "18380136685234968",
-    "storyId": null,
-    "reelId": "18380136685234968",
-    "tipo": "reel",
-    "studioQuality": 100
-  },
-  {
-    "data": "2026-09-11T14:01:10.821Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 96): \"IPCA surpreende e reforça corte da Selic; até onde os juros podem cair?\". Realizando postagem..."
   }
 ]
