@@ -1,5 +1,15 @@
 [
   {
+    "data": "2026-09-14T16:02:33.432Z",
+    "resultado": "erro",
+    "mensagem": "Erro na execução automática: Command failed: git push"
+  },
+  {
+    "data": "2026-09-14T16:01:07.893Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 77): \"Ibovespa cai e dólar sobe com aversão global ao risco e crise no STF no radar\". Realizando postagem..."
+  },
+  {
     "data": "2026-09-14T15:42:14.330Z",
     "resultado": "erro",
     "mensagem": "Erro na execução automática: Command failed: git push"
@@ -995,20 +1005,5 @@
     "data": "2026-09-11T19:30:59.965Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 64 min."
-  },
-  {
-    "data": "2026-09-11T19:13:36.411Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 81 min."
-  },
-  {
-    "data": "2026-09-11T19:04:33.142Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Ouro recua 1,5% na semana de olho em alta do Fed e disparada dos Treasuries\".",
-    "postId": "17946190170280963",
-    "storyId": null,
-    "reelId": "17946190170280963",
-    "tipo": "reel",
-    "studioQuality": 100
   }
 ]
