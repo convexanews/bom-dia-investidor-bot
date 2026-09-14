@@ -1,5 +1,11 @@
 [
   {
+    "data": "2026-09-14T11:31:21.099Z",
+    "resultado": "pauta_reprovada",
+    "mensagem": "Notícia não publicada: manchete longa demais para caber completa no card.",
+    "titulo": "Ações de tecnologia pesam nos mercados e investidores digerem nova pesquisa BTG Pactual/Nexus; Ibovespa em dólar cai nesta segunda-feira (14)"
+  },
+  {
     "data": "2026-09-14T11:01:03.441Z",
     "resultado": "pauta_reprovada",
     "mensagem": "Notícia não publicada: manchete longa demais para caber completa no card.",
@@ -1014,10 +1020,5 @@
     "data": "2026-09-11T14:01:10.821Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 96): \"IPCA surpreende e reforça corte da Selic; até onde os juros podem cair?\". Realizando postagem..."
-  },
-  {
-    "data": "2026-09-11T13:31:43.389Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }
 ]
