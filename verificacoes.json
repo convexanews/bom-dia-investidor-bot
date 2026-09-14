@@ -1,5 +1,15 @@
 [
   {
+    "data": "2026-09-14T10:02:45.003Z",
+    "resultado": "erro",
+    "mensagem": "Erro na execução automática: Command failed: git push"
+  },
+  {
+    "data": "2026-09-14T10:01:08.215Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 80): \"Boletim Focus, dados da China, petróleo e mais destaques desta segunda-feira\". Realizando postagem..."
+  },
+  {
     "data": "2026-09-14T09:32:56.766Z",
     "resultado": "erro",
     "mensagem": "Erro na execução automática: Command failed: git push"
@@ -1007,15 +1017,5 @@
     "data": "2026-09-11T13:01:20.104Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-09-11T12:31:07.899Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 3 min."
-  },
-  {
-    "data": "2026-09-11T12:01:12.223Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 33 min."
   }
 ]
