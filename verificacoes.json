@@ -1,5 +1,15 @@
 [
   {
+    "data": "2026-09-14T01:32:27.402Z",
+    "resultado": "erro",
+    "mensagem": "Erro na execução automática: Command failed: git push"
+  },
+  {
+    "data": "2026-09-14T01:30:56.706Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 94): \"Bitcoin tenta reagir, mas tomba na semana; veja cotações das criptomoedas neste domingo (13)\". Realizando postagem..."
+  },
+  {
     "data": "2026-09-14T01:02:48.103Z",
     "resultado": "erro",
     "mensagem": "Erro na execução automática: Command failed: git push"
@@ -1017,15 +1027,5 @@
     "data": "2026-09-11T03:30:57.416Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (00:30 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-09-11T03:06:32.773Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (00:06 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-09-11T03:01:03.586Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (00:01 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
