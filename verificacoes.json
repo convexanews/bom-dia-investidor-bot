@@ -1,5 +1,11 @@
 [
   {
+    "data": "2026-09-14T11:01:03.441Z",
+    "resultado": "pauta_reprovada",
+    "mensagem": "Notícia não publicada: manchete longa demais para caber completa no card.",
+    "titulo": "Ações de tecnologia pesam nos mercados e investidores digerem nova pesquisa BTG Pactual/Nexus; Ibovespa em dólar cai nesta segunda-feira (14)"
+  },
+  {
     "data": "2026-09-14T10:31:04.954Z",
     "resultado": "pauta_reprovada",
     "mensagem": "Notícia não publicada: manchete longa demais para caber completa no card.",
@@ -1011,11 +1017,6 @@
   },
   {
     "data": "2026-09-11T13:31:43.389Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-09-11T13:15:37.191Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }
