@@ -1,5 +1,15 @@
 [
   {
+    "data": "2026-09-14T09:02:37.561Z",
+    "resultado": "erro",
+    "mensagem": "Erro na execução automática: Command failed: git push"
+  },
+  {
+    "data": "2026-09-14T09:01:11.372Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 82): \"Bitcoin tenta reagir, mas tomba na semana; veja cotações das criptomoedas neste domingo (13)\". Realizando postagem..."
+  },
+  {
     "data": "2026-09-14T08:30:59.790Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (05:30 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1012,15 +1022,5 @@
     "reelId": "17947490109057196",
     "tipo": "reel",
     "studioQuality": 100
-  },
-  {
-    "data": "2026-09-11T11:01:06.438Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 71): \"Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta sexta\". Realizando postagem..."
-  },
-  {
-    "data": "2026-09-11T10:31:05.312Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 5 min."
   }
 ]
