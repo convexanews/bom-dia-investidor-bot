@@ -1,5 +1,15 @@
 [
   {
+    "data": "2026-09-14T12:33:16.725Z",
+    "resultado": "erro",
+    "mensagem": "Erro na execução automática: Command failed: git push"
+  },
+  {
+    "data": "2026-09-14T12:31:44.740Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 88): \"Economistas projetam inflação mais baixa em 2026 e só mais um corte na Selic; confira o Focus desta segunda-feira (14)\". Realizando postagem..."
+  },
+  {
     "data": "2026-09-14T12:02:58.512Z",
     "resultado": "erro",
     "mensagem": "Erro na execução automática: Command failed: git push"
@@ -1005,15 +1015,5 @@
     "data": "2026-09-11T15:01:05.944Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 34 min."
-  },
-  {
-    "data": "2026-09-11T14:32:52.084Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 62 min."
-  },
-  {
-    "data": "2026-09-11T14:31:11.493Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 64 min."
   }
 ]
