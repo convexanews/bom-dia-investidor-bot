@@ -1,5 +1,15 @@
 [
   {
+    "data": "2026-09-14T15:02:28.611Z",
+    "resultado": "erro",
+    "mensagem": "Erro na execução automática: Command failed: git push"
+  },
+  {
+    "data": "2026-09-14T15:01:07.881Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 77): \"Ibovespa cai e dólar sobe com aversão global ao risco e crise no STF no radar\". Realizando postagem..."
+  },
+  {
     "data": "2026-09-14T14:33:01.742Z",
     "resultado": "erro",
     "mensagem": "Erro na execução automática: Command failed: git push"
@@ -1000,20 +1010,5 @@
     "data": "2026-09-11T18:01:06.006Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 35 min."
-  },
-  {
-    "data": "2026-09-11T17:31:00.105Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 65 min."
-  },
-  {
-    "data": "2026-09-11T17:05:09.249Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Oracle (ORCL) dispara após balanço, mas caixa negativo acende alerta para investidores\".",
-    "postId": "18133103428655061",
-    "storyId": null,
-    "reelId": "18133103428655061",
-    "tipo": "reel",
-    "studioQuality": 100
   }
 ]
