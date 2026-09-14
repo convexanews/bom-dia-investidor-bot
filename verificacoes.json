@@ -1,5 +1,15 @@
 [
   {
+    "data": "2026-09-14T09:32:56.766Z",
+    "resultado": "erro",
+    "mensagem": "Erro na execução automática: Command failed: git push"
+  },
+  {
+    "data": "2026-09-14T09:31:17.315Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 80): \"Boletim Focus, dados da China, petróleo e mais destaques desta segunda-feira\". Realizando postagem..."
+  },
+  {
     "data": "2026-09-14T09:02:37.561Z",
     "resultado": "erro",
     "mensagem": "Erro na execução automática: Command failed: git push"
@@ -1007,20 +1017,5 @@
     "data": "2026-09-11T12:01:12.223Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 33 min."
-  },
-  {
-    "data": "2026-09-11T11:31:03.492Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 63 min."
-  },
-  {
-    "data": "2026-09-11T11:03:58.309Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta sexta\".",
-    "postId": "17947490109057196",
-    "storyId": null,
-    "reelId": "17947490109057196",
-    "tipo": "reel",
-    "studioQuality": 100
   }
 ]
