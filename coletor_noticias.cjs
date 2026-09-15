@@ -2,7 +2,7 @@
 // o que é relevante para o "Bom Dia Investidor" (mercado, economia, ações, etc.)
 // Uso: node coletor_noticias.cjs   -> imprime JSON com as notícias filtradas
 const cheerio = require('cheerio');
-const { classificarEditorial } = require('./politica_editorial.cjs');
+const { classificarEditorial, analisarBrasilEleicoes } = require('./politica_editorial.cjs');
 
 const FONTES = [
   { nome: 'InfoMoney',       url: 'https://www.infomoney.com.br/feed/' },
@@ -106,6 +106,11 @@ function calcularPesoImpacto(titulo, descricao, categorias) {
   if (/urgente|breaking|alerta|última hora/.test(tituloLower)) peso += 20;
   if (/dispara|despenca|recorde|crash|tomba|derrete|surpreende/.test(tituloLower)) peso += 15;
   if (/sobe mais de \d|cai mais de \d|alta de \d|queda de \d/.test(tituloLower)) peso += 12;
+
+  // Política só ganha relevância extra quando há efeito econômico verificável.
+  // Isso evita elevar discussões partidárias ou curiosidades eleitorais.
+  const analisePolitica = analisarBrasilEleicoes({ titulo, descricao, categorias });
+  if (analisePolitica.aprovada) peso += 15;
 
   // Bônus por múltiplas fontes cobrindo o mesmo tema (será calculado externamente)
   // Penalidade leve por notícia muito antiga (>12h)

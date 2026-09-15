@@ -32,3 +32,24 @@ test('recusa notícia com pilar financeiro mas impacto abaixo do mínimo de publ
   assert.equal(resultado.aprovada, false);
   assert.equal(resultado.motivo, 'impacto editorial insuficiente');
 });
+
+test('aprova eleição somente quando há impacto econômico objetivo', () => {
+  const resultado = classificarEditorial({
+    titulo: 'Eleições: proposta fiscal coloca juros e dólar no radar do mercado',
+    descricao: 'A medida prevê mudanças no orçamento e pode afetar a percepção de investidores.',
+    categorias: ['Política'], peso: 92,
+  });
+  assert.equal(resultado.aprovada, true);
+  assert.ok(resultado.pilares.includes('brasil_eleicoes'));
+});
+
+test('bloqueia política eleitoral sem impacto econômico ou pesquisa sem registro', () => {
+  const semImpacto = classificarEditorial({
+    titulo: 'Candidato faz evento de campanha eleitoral nesta tarde', descricao: 'A agenda reúne apoiadores.', categorias: ['Política'], peso: 95,
+  });
+  const pesquisaSemRegistro = classificarEditorial({
+    titulo: 'Pesquisa eleitoral mostra mudança na intenção de voto', descricao: 'Levantamento foi divulgado nesta manhã.', categorias: ['Política'], peso: 95,
+  });
+  assert.match(semImpacto.motivo, /impacto econômico/);
+  assert.match(pesquisaSemRegistro.motivo, /registro/);
+});

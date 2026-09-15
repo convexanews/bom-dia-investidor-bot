@@ -27,6 +27,8 @@ const {
 // fonte, contexto, deduplicação e política editorial. Isso abastece nove Reels
 // distintos ao longo do dia sem recorrer a conteúdo inventado.
 const PESO_MINIMO_PUBLICACAO = Math.max(30, Number(process.env.MIN_FEED_WEIGHT) || PESO_MINIMO_FEED);
+const PESO_MINIMO_REEL_BRASIL_ELEICOES = 90;
+const LIMITE_REELS_BRASIL_ELEICOES_DIA = 1;
 const TIKTOK_POSTADAS_FILE = path.join(__dirname, 'tiktok-postadas.json');
 
 const IG_TOKEN = process.env.IG_TOKEN;
@@ -260,13 +262,25 @@ async function main() {
   const JANELA_MS = JANELA_HORAS * 60 * 60 * 1000;
   console.log(`Janela de busca: ${JANELA_HORAS}h. Notícias disponíveis: ${noticias.length}. Peso mínimo: ${PESO_MINIMO_PUBLICACAO}.`);
   const agora = Date.now();
+  const inicioDiaBRT = new Date(new Date().toLocaleString('en-US', { timeZone: 'America/Sao_Paulo' }));
+  inicioDiaBRT.setHours(0, 0, 0, 0);
+  const reelsEleicoesHoje = relatorio.filter(post =>
+    new Date(post.data) >= inicioDiaBRT &&
+    post.tipo === 'reel' &&
+    Array.isArray(post.pilares) && post.pilares.includes('brasil_eleicoes')
+  ).length;
   const candidatas = noticias.filter(n =>
     n.link &&
     !postadas.has(n.link) &&
     !tituloJaPostado(n.titulo) &&
     n.publicadoEm > 0 &&
     (n.peso || 0) >= PESO_MINIMO_PUBLICACAO &&
-    (agora - n.publicadoEm) <= JANELA_MS
+    (agora - n.publicadoEm) <= JANELA_MS &&
+    // Pautas eleitorais entram apenas como Reel de alto impacto e uma vez ao dia.
+    (!n.pilares?.includes('brasil_eleicoes') || (
+      n.peso >= PESO_MINIMO_REEL_BRASIL_ELEICOES &&
+      reelsEleicoesHoje < LIMITE_REELS_BRASIL_ELEICOES_DIA
+    ))
   );
   console.log(`Candidatas após filtros (peso+janela+dedup): ${candidatas.length}.`);
   if (candidatas.length) console.log(`Top candidata: "${candidatas[0].titulo.slice(0,60)}" (peso ${candidatas[0].peso}).`);

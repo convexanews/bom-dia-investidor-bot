@@ -12,8 +12,9 @@ Transformar notícias financeiras em conteúdo claro, confiável e útil para o 
 4. FIIs: IFIX, rendimentos, vacância, gestão e riscos.
 5. Criptoativos: Bitcoin, Ethereum, regulação e risco.
 6. Exterior com impacto: Fed, commodities, bolsas globais e eventos que afetam o Brasil.
+7. Brasil & Eleições: fatos confirmados sobre propostas, pesquisas registradas e decisões públicas com efeito objetivo em impostos, juros, inflação, empresas ou mercado. No máximo um Reel por dia, somente com peso 90 ou maior e sem posicionamento partidário.
 
-Entretenimento, esportes, celebridades, loterias e curiosidades não entram na pauta, mesmo quando usam palavras como dinheiro ou mercado.
+Entretenimento, esportes, celebridades, loterias, curiosidades e disputa partidária sem consequência econômica não entram na pauta, mesmo quando usam palavras como dinheiro ou mercado.
 
 ## Cadência
 
