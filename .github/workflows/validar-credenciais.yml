@@ -1,0 +1,26 @@
+name: BDI - Validar credenciais
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  pages-token:
+    name: Validar PAGES_TOKEN sem alterar arquivos
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Confirmar acesso de escrita ao repositório de mídias
+        env:
+          PAGES_TOKEN: ${{ secrets.PAGES_TOKEN }}
+        run: |
+          if [ -z "$PAGES_TOKEN" ]; then
+            echo "PAGES_TOKEN não está configurado."
+            exit 1
+          fi
+          git clone --depth 1 "https://x-access-token:${PAGES_TOKEN}@github.com/convexanews/convexanews.github.io.git" pages-token-check
+          cd pages-token-check
+          git push --dry-run origin HEAD:main
+          echo "PAGES_TOKEN válido e com acesso de escrita. Nenhum arquivo foi alterado."
