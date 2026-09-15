@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-09-15T23:28:16.320Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Ibovespa volta a subir de olho em STF, Fed e Copom: dólar avança para R$ 5,15\".",
+    "postId": "18114176186045758",
+    "storyId": null,
+    "reelId": "18114176186045758",
+    "tipo": "reel",
+    "studioQuality": 100
+  },
+  {
+    "data": "2026-09-15T23:25:10.058Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 70): \"Ibovespa volta a subir de olho em STF, Fed e Copom: dólar avança para R$ 5,15\". Realizando postagem..."
+  },
+  {
     "data": "2026-09-15T19:46:26.453Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -993,16 +1008,6 @@
   },
   {
     "data": "2026-09-12T01:01:01.444Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-09-12T00:31:20.111Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-09-12T00:28:46.142Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }
