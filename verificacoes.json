@@ -1,5 +1,15 @@
 [
   {
+    "data": "2026-09-15T14:11:05.607Z",
+    "resultado": "erro",
+    "mensagem": "Erro na execução automática: Narração bloqueada: texto aparenta estar em espanhol."
+  },
+  {
+    "data": "2026-09-15T14:10:16.053Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 87): \"Juros de 10 anos dos EUA opera no maior nível desde 2007; ‘não é motivo para pânico’, diz bancão gringo\". Realizando postagem..."
+  },
+  {
     "data": "2026-09-15T03:29:16.617Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (00:29 BRT). Postagens ocorrem entre 06h e 22h."
@@ -993,16 +1003,6 @@
   },
   {
     "data": "2026-09-11T23:01:09.830Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-09-11T22:59:30.262Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-09-11T22:30:56.983Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }
