@@ -1,5 +1,15 @@
 [
   {
+    "data": "2026-09-15T00:48:00.321Z",
+    "resultado": "erro",
+    "mensagem": "Erro na execução automática: Command failed: git push"
+  },
+  {
+    "data": "2026-09-15T00:46:25.161Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 73): \"Por que o Bank of America reforça venda dessas duas ações mesmo com disparada das commodities? Um fator é decisivo\". Realizando postagem..."
+  },
+  {
     "data": "2026-09-14T21:32:18.214Z",
     "resultado": "erro",
     "mensagem": "Erro na execução automática: Command failed: git push"
@@ -993,16 +1003,6 @@
   },
   {
     "data": "2026-09-11T22:01:14.036Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-09-11T21:49:54.661Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-09-11T21:31:27.965Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }
