@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-09-16T19:38:38.152Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 34 min."
+  },
+  {
     "data": "2026-09-16T18:42:05.109Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Com pessimismo recorde, fundos cortam projeção de PIB e mudam posições no câmbio\".",
@@ -1015,10 +1020,5 @@
     "data": "2026-09-12T04:30:59.266Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (01:30 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-09-12T04:01:28.046Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (01:01 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
