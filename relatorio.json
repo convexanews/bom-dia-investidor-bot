@@ -1,5 +1,33 @@
 [
   {
+    "data": "2026-09-16T14:05:43.801Z",
+    "titulo": "Tesouro Direto: taxas recuam com prévia do PIB mais fraca antes do Copom",
+    "categoria": "Onde Investir",
+    "fonte": "InfoMoney",
+    "link": "https://www.infomoney.com.br/onde-investir/tesouro-direto-abertura-fechamento-16092026/",
+    "postId": "17987922207117329",
+    "storyId": null,
+    "reelId": "17987922207117329",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1789567383608.mp4",
+    "tipo": "reel",
+    "peso": 82,
+    "pilares": [
+      "macro",
+      "renda_fixa"
+    ],
+    "horarioBRT": "11",
+    "cta": null,
+    "decisaoFormato": "peso 82: reel; Studio Engine 100/100",
+    "studioQuality": {
+      "approved": true,
+      "score": 100,
+      "blockers": [],
+      "warnings": []
+    }
+  },
+  {
     "data": "2026-09-15T23:28:16.317Z",
     "titulo": "Ibovespa volta a subir de olho em STF, Fed e Copom: dólar avança para R$ 5,15",
     "categoria": "Invest",
@@ -4139,20 +4167,5 @@
     "videoUrl": null,
     "tipo": "carrossel",
     "peso": 43
-  },
-  {
-    "data": "2026-07-20T16:03:03.715Z",
-    "titulo": "Ação renda fixa: Esta elétrica rende mais que o Tesouro IPCA+ — e pode ganhar R$ 20 na bolsa; vale a compra?",
-    "categoria": "Mercados",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/acao-renda-fixa-esta-eletrica-rende-mais-que-o-tesouro-ipca-e-pode-ganhar-r-20-na-bolsa-vale-a-compra-rnda/",
-    "postId": "18142541023556298",
-    "storyId": null,
-    "reelId": "18142541023556298",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1784563266650.mp4",
-    "tipo": "reel",
-    "peso": 48
   }
 ]
