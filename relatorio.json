@@ -1,5 +1,33 @@
 [
   {
+    "data": "2026-09-16T23:35:53.449Z",
+    "titulo": "Selic a 13,75% é o fim da linha? Decisão do Copom deixa próximo corte em aberto",
+    "categoria": "Economia",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/selic-a-1375-e-o-fim-da-linha-decisao-do-copom-deixa-proximo-corte-em-aberto-jcav/",
+    "postId": "17995323078034410",
+    "storyId": null,
+    "reelId": "17995323078034410",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1789601605262.mp4",
+    "tipo": "reel",
+    "peso": 88,
+    "pilares": [
+      "macro",
+      "bolsa"
+    ],
+    "horarioBRT": "20",
+    "cta": null,
+    "decisaoFormato": "peso 88: reel; Studio Engine 100/100",
+    "studioQuality": {
+      "approved": true,
+      "score": 100,
+      "blockers": [],
+      "warnings": []
+    }
+  },
+  {
     "data": "2026-09-16T18:42:05.106Z",
     "titulo": "Com pessimismo recorde, fundos cortam projeção de PIB e mudam posições no câmbio",
     "categoria": "Economia",
@@ -4164,20 +4192,5 @@
     "videoUrl": null,
     "tipo": "carrossel",
     "peso": 21
-  },
-  {
-    "data": "2026-07-20T20:50:46.252Z",
-    "titulo": "Wall Street cai após falas de Trump sobre Irã; semicondutores perdem força",
-    "categoria": "Mercados",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/wall-street-20-7-26-apsa/",
-    "postId": "18333516763282614",
-    "storyId": null,
-    "reelId": "18333516763282614",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1784580570821.mp4",
-    "tipo": "reel",
-    "peso": 65
   }
 ]
