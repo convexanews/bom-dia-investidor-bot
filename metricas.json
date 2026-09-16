@@ -1,7 +1,67 @@
 [
   {
+    "postId": "17987922207117329",
+    "dataColeta": "2026-09-16T15:27:16.594Z",
+    "dataPostagem": "2026-09-16T14:05:43.801Z",
+    "tipo": "reel",
+    "pilares": [
+      "macro",
+      "renda_fixa"
+    ],
+    "peso": 82,
+    "fonte": "InfoMoney",
+    "titulo": "Tesouro Direto: taxas recuam com prévia do PIB mais fraca antes do Copom",
+    "horarioBRT": "11",
+    "cta": null,
+    "decisaoFormato": "peso 82: reel; Studio Engine 100/100",
+    "insights": {
+      "reach": 2,
+      "saved": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "total_interactions": 0,
+      "falhas": [
+        {
+          "metrica": "plays",
+          "erro": "Instagram respondeu 400"
+        }
+      ]
+    }
+  },
+  {
+    "postId": "18114176186045758",
+    "dataColeta": "2026-09-16T15:27:17.396Z",
+    "dataPostagem": "2026-09-15T23:28:16.317Z",
+    "tipo": "reel",
+    "pilares": [
+      "macro",
+      "bolsa"
+    ],
+    "peso": 70,
+    "fonte": "Exame",
+    "titulo": "Ibovespa volta a subir de olho em STF, Fed e Copom: dólar avança para R$ 5,15",
+    "horarioBRT": "20",
+    "cta": null,
+    "decisaoFormato": "peso 70: reel; Studio Engine 100/100",
+    "insights": {
+      "reach": 9,
+      "saved": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 1,
+      "total_interactions": 1,
+      "falhas": [
+        {
+          "metrica": "plays",
+          "erro": "Instagram respondeu 400"
+        }
+      ]
+    }
+  },
+  {
     "postId": "17946190170280963",
-    "dataColeta": "2026-09-15T15:37:05.145Z",
+    "dataColeta": "2026-09-16T15:27:18.404Z",
     "dataPostagem": "2026-09-11T19:04:33.139Z",
     "tipo": "reel",
     "pilares": [
@@ -31,7 +91,7 @@
   },
   {
     "postId": "18133103428655061",
-    "dataColeta": "2026-09-15T15:37:06.297Z",
+    "dataColeta": "2026-09-16T15:27:19.382Z",
     "dataPostagem": "2026-09-11T17:05:09.246Z",
     "tipo": "reel",
     "pilares": [
@@ -45,7 +105,7 @@
     "cta": null,
     "decisaoFormato": "peso 73: reel; Studio Engine 100/100",
     "insights": {
-      "reach": 13,
+      "reach": 14,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -61,7 +121,7 @@
   },
   {
     "postId": "18380136685234968",
-    "dataColeta": "2026-09-15T15:37:07.319Z",
+    "dataColeta": "2026-09-16T15:27:20.311Z",
     "dataPostagem": "2026-09-11T14:04:19.511Z",
     "tipo": "reel",
     "pilares": [
@@ -91,7 +151,7 @@
   },
   {
     "postId": "17947490109057196",
-    "dataColeta": "2026-09-15T15:37:08.444Z",
+    "dataColeta": "2026-09-16T15:27:21.293Z",
     "dataPostagem": "2026-09-11T11:03:58.307Z",
     "tipo": "reel",
     "pilares": [
@@ -105,7 +165,7 @@
     "cta": null,
     "decisaoFormato": "peso 71: reel; Studio Engine 100/100",
     "insights": {
-      "reach": 11,
+      "reach": 12,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -121,7 +181,7 @@
   },
   {
     "postId": "18129216199739798",
-    "dataColeta": "2026-09-15T15:37:09.544Z",
+    "dataColeta": "2026-09-16T15:27:22.101Z",
     "dataPostagem": "2026-09-11T09:05:15.922Z",
     "tipo": "reel",
     "pilares": [
@@ -151,7 +211,7 @@
   },
   {
     "postId": "17947518492057020",
-    "dataColeta": "2026-09-15T15:37:10.504Z",
+    "dataColeta": "2026-09-16T15:27:22.910Z",
     "dataPostagem": "2026-09-10T20:33:32.090Z",
     "tipo": "reel",
     "pilares": [
@@ -166,7 +226,7 @@
     "cta": null,
     "decisaoFormato": "peso 123: reel; Studio Engine 100/100",
     "insights": {
-      "reach": 12,
+      "reach": 13,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -182,7 +242,7 @@
   },
   {
     "postId": "18005357775003381",
-    "dataColeta": "2026-09-15T15:37:11.376Z",
+    "dataColeta": "2026-09-16T15:27:23.718Z",
     "dataPostagem": "2026-09-10T17:04:23.654Z",
     "tipo": "reel",
     "pilares": [
@@ -213,7 +273,7 @@
   },
   {
     "postId": "18175723612441140",
-    "dataColeta": "2026-09-15T15:37:12.397Z",
+    "dataColeta": "2026-09-16T15:27:24.670Z",
     "dataPostagem": "2026-09-10T14:35:02.142Z",
     "tipo": "reel",
     "pilares": [
@@ -244,7 +304,7 @@
   },
   {
     "postId": "17969559531044860",
-    "dataColeta": "2026-09-15T15:37:13.326Z",
+    "dataColeta": "2026-09-16T15:27:25.601Z",
     "dataPostagem": "2026-09-10T11:34:17.822Z",
     "tipo": "reel",
     "pilares": [
@@ -258,7 +318,7 @@
     "cta": null,
     "decisaoFormato": "peso 78: reel; Studio Engine 100/100",
     "insights": {
-      "reach": 33,
+      "reach": 34,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -274,7 +334,7 @@
   },
   {
     "postId": "17860515297696226",
-    "dataColeta": "2026-09-15T15:37:14.339Z",
+    "dataColeta": "2026-09-16T15:27:26.359Z",
     "dataPostagem": "2026-09-10T09:33:58.254Z",
     "tipo": "reel",
     "pilares": [
@@ -305,7 +365,7 @@
   },
   {
     "postId": "18008937839766466",
-    "dataColeta": "2026-09-15T15:37:15.392Z",
+    "dataColeta": "2026-09-16T15:27:27.227Z",
     "dataPostagem": "2026-09-09T12:04:13.475Z",
     "tipo": "reel",
     "pilares": [
@@ -335,7 +395,7 @@
   },
   {
     "postId": "18132965482658914",
-    "dataColeta": "2026-09-15T15:37:16.416Z",
+    "dataColeta": "2026-09-16T15:27:28.271Z",
     "dataPostagem": "2026-09-09T09:34:12.967Z",
     "tipo": "reel",
     "pilares": [
@@ -367,7 +427,7 @@
   },
   {
     "postId": "17985622428028861",
-    "dataColeta": "2026-09-15T15:37:17.760Z",
+    "dataColeta": "2026-09-16T15:27:29.340Z",
     "dataPostagem": "2026-09-08T20:33:27.274Z",
     "tipo": "reel",
     "pilares": [
@@ -398,7 +458,7 @@
   },
   {
     "postId": "18076010186707089",
-    "dataColeta": "2026-09-15T15:37:18.709Z",
+    "dataColeta": "2026-09-16T15:27:30.082Z",
     "dataPostagem": "2026-09-08T18:22:03.421Z",
     "tipo": "reel",
     "pilares": [
@@ -428,7 +488,7 @@
   },
   {
     "postId": "18113776247097411",
-    "dataColeta": "2026-09-15T15:37:19.717Z",
+    "dataColeta": "2026-09-16T15:27:31.129Z",
     "dataPostagem": "2026-09-08T12:04:16.283Z",
     "tipo": "reel",
     "pilares": [
@@ -458,7 +518,7 @@
   },
   {
     "postId": "17934852843122331",
-    "dataColeta": "2026-09-15T15:37:20.658Z",
+    "dataColeta": "2026-09-16T15:27:32.091Z",
     "dataPostagem": "2026-09-08T09:33:43.170Z",
     "tipo": "reel",
     "pilares": [
@@ -473,7 +533,7 @@
     "cta": null,
     "decisaoFormato": "peso 80: reel; Studio Engine 100/100",
     "insights": {
-      "reach": 9,
+      "reach": 10,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -489,7 +549,7 @@
   },
   {
     "postId": "18134561281727916",
-    "dataColeta": "2026-09-15T15:37:21.701Z",
+    "dataColeta": "2026-09-16T15:27:32.977Z",
     "dataPostagem": "2026-09-06T15:03:34.760Z",
     "tipo": "reel",
     "pilares": [
@@ -520,7 +580,7 @@
   },
   {
     "postId": "18113578810803767",
-    "dataColeta": "2026-09-15T15:37:22.574Z",
+    "dataColeta": "2026-09-16T15:27:33.849Z",
     "dataPostagem": "2026-09-06T09:04:41.802Z",
     "tipo": "reel",
     "pilares": [
@@ -550,7 +610,7 @@
   },
   {
     "postId": "18489108766097245",
-    "dataColeta": "2026-09-15T15:37:24.088Z",
+    "dataColeta": "2026-09-16T15:27:34.869Z",
     "dataPostagem": "2026-09-04T20:33:50.317Z",
     "tipo": "reel",
     "pilares": [
@@ -580,7 +640,7 @@
   },
   {
     "postId": "18495104827102286",
-    "dataColeta": "2026-09-15T15:37:25.055Z",
+    "dataColeta": "2026-09-16T15:27:35.872Z",
     "dataPostagem": "2026-09-04T16:03:56.300Z",
     "tipo": "reel",
     "pilares": [
@@ -610,7 +670,7 @@
   },
   {
     "postId": "17926993569403223",
-    "dataColeta": "2026-09-15T15:37:25.970Z",
+    "dataColeta": "2026-09-16T15:27:36.895Z",
     "dataPostagem": "2026-09-04T11:10:25.393Z",
     "tipo": "reel",
     "pilares": [
@@ -640,7 +700,7 @@
   },
   {
     "postId": "18428023018177664",
-    "dataColeta": "2026-09-15T15:37:26.990Z",
+    "dataColeta": "2026-09-16T15:27:37.782Z",
     "dataPostagem": "2026-09-04T09:11:02.789Z",
     "tipo": "reel",
     "pilares": [
@@ -671,7 +731,7 @@
   },
   {
     "postId": "17884119477653979",
-    "dataColeta": "2026-09-15T15:37:28.319Z",
+    "dataColeta": "2026-09-16T15:27:38.697Z",
     "dataPostagem": "2026-09-03T22:37:54.106Z",
     "tipo": "reel",
     "pilares": [
@@ -690,65 +750,6 @@
       "comments": 0,
       "likes": 0,
       "total_interactions": 0,
-      "falhas": [
-        {
-          "metrica": "plays",
-          "erro": "Instagram respondeu 400"
-        }
-      ]
-    }
-  },
-  {
-    "postId": "17988079107022680",
-    "dataColeta": "2026-09-15T15:37:29.272Z",
-    "dataPostagem": "2026-09-03T20:33:39.462Z",
-    "tipo": "reel",
-    "pilares": [
-      "macro",
-      "exterior"
-    ],
-    "peso": 78,
-    "fonte": "Money Times",
-    "titulo": "Wall Street sobe 1% de olho em títulos antes do payroll",
-    "horarioBRT": "17",
-    "cta": null,
-    "decisaoFormato": "peso 78: reel; Studio Engine 100/100",
-    "insights": {
-      "reach": 13,
-      "saved": 0,
-      "shares": 0,
-      "comments": 0,
-      "likes": 1,
-      "total_interactions": 1,
-      "falhas": [
-        {
-          "metrica": "plays",
-          "erro": "Instagram respondeu 400"
-        }
-      ]
-    }
-  },
-  {
-    "postId": "17955235236221185",
-    "dataColeta": "2026-09-15T15:37:30.276Z",
-    "dataPostagem": "2026-09-03T16:35:14.329Z",
-    "tipo": "reel",
-    "pilares": [
-      "macro"
-    ],
-    "peso": 75,
-    "fonte": "Money Times",
-    "titulo": "Japão eleva alerta sobre iene e reacende temor de nova intervenção no câmbio",
-    "horarioBRT": "13",
-    "cta": null,
-    "decisaoFormato": "peso 75: reel; Studio Engine 100/100",
-    "insights": {
-      "reach": 11,
-      "saved": 0,
-      "shares": 0,
-      "comments": 0,
-      "likes": 1,
-      "total_interactions": 1,
       "falhas": [
         {
           "metrica": "plays",
