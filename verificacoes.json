@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-09-16T00:38:35.061Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 20 min."
+  },
+  {
     "data": "2026-09-15T23:28:16.320Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Ibovespa volta a subir de olho em STF, Fed e Copom: dólar avança para R$ 5,15\".",
@@ -1003,11 +1008,6 @@
   },
   {
     "data": "2026-09-12T01:31:03.478Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-09-12T01:01:01.444Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }
