@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-09-16T18:42:05.109Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Com pessimismo recorde, fundos cortam projeção de PIB e mudam posições no câmbio\".",
+    "postId": "18579586219068513",
+    "storyId": null,
+    "reelId": "18579586219068513",
+    "tipo": "reel",
+    "studioQuality": 100
+  },
+  {
+    "data": "2026-09-16T18:39:26.086Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 77): \"Com pessimismo recorde, fundos cortam projeção de PIB e mudam posições no câmbio\". Realizando postagem..."
+  },
+  {
     "data": "2026-09-16T15:07:00.833Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 29 min."
@@ -1005,15 +1020,5 @@
     "data": "2026-09-12T04:01:28.046Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (01:01 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-09-12T03:31:11.362Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (00:31 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-09-12T03:12:24.229Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (00:12 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
