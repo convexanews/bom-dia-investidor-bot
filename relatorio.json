@@ -1,5 +1,35 @@
 [
   {
+    "data": "2026-09-17T14:09:57.606Z",
+    "titulo": "Wall Street avança após ‘sell-off’ com Fed; tecnologia lidera ganhos",
+    "categoria": "Mercados",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/wall-street-17-9-26-apsa/",
+    "postId": "17884900779488230",
+    "storyId": null,
+    "reelId": "17884900779488230",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1789654031974.mp4",
+    "tipo": "reel",
+    "peso": 84,
+    "pilares": [
+      "macro",
+      "bolsa",
+      "exterior",
+      "mundo_empresas"
+    ],
+    "horarioBRT": "11",
+    "cta": null,
+    "decisaoFormato": "peso 84: reel; Studio Engine 100/100",
+    "studioQuality": {
+      "approved": true,
+      "score": 100,
+      "blockers": [],
+      "warnings": []
+    }
+  },
+  {
     "data": "2026-09-16T23:35:53.449Z",
     "titulo": "Selic a 13,75% é o fim da linha? Decisão do Copom deixa próximo corte em aberto",
     "categoria": "Economia",
@@ -4177,20 +4207,5 @@
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1784643711197.mp4",
     "tipo": "reel",
     "peso": 75
-  },
-  {
-    "data": "2026-07-20T23:02:28.994Z",
-    "titulo": "EUA impõem novas tarifas de 50% sobre alguns produtos canadenses",
-    "categoria": "MERCADO",
-    "fonte": "Investing.com",
-    "link": "https://br.investing.com/news/economy-news/eua-impoem-novas-tarifas-de-50-sobre-alguns-produtos-canadenses-2007457",
-    "postId": "18108424591823064",
-    "storyId": "18170252410440612",
-    "reelId": null,
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784588485418-slide1.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784588485418-story.png",
-    "videoUrl": null,
-    "tipo": "carrossel",
-    "peso": 21
   }
 ]
