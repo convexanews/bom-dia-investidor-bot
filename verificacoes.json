@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-09-17T19:51:12.353Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Tesouro Direto hoje: Taxas disparam após reajuste do Bolsa Família e títulos param de negociar; confira\".",
+    "postId": "18110192299869019",
+    "storyId": null,
+    "reelId": "18110192299869019",
+    "tipo": "reel",
+    "studioQuality": 100
+  },
+  {
+    "data": "2026-09-17T19:47:57.433Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 73): \"Tesouro Direto hoje: Taxas disparam após reajuste do Bolsa Família e títulos param de negociar; confira\". Realizando postagem..."
+  },
+  {
     "data": "2026-09-17T18:49:41.316Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1020,15 +1035,5 @@
     "data": "2026-09-12T09:30:56.301Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-09-12T09:01:09.969Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-09-12T08:31:02.292Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (05:31 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]

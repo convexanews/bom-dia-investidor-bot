@@ -1,5 +1,34 @@
 [
   {
+    "data": "2026-09-17T19:51:12.351Z",
+    "titulo": "Tesouro Direto hoje: Taxas disparam após reajuste do Bolsa Família e títulos param de negociar; confira",
+    "categoria": "Renda Fixa",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/tesouro-direto-hoje-taxas-disparam-apos-reajuste-do-bolsa-familia-e-titulos-param-de-negociar-confira-jcav/",
+    "postId": "18110192299869019",
+    "storyId": null,
+    "reelId": "18110192299869019",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1789674486547.mp4",
+    "tipo": "reel",
+    "peso": 73,
+    "pilares": [
+      "macro",
+      "bolsa",
+      "renda_fixa"
+    ],
+    "horarioBRT": "16",
+    "cta": null,
+    "decisaoFormato": "peso 73: reel; Studio Engine 100/100",
+    "studioQuality": {
+      "approved": true,
+      "score": 100,
+      "blockers": [],
+      "warnings": []
+    }
+  },
+  {
     "data": "2026-09-17T14:09:57.606Z",
     "titulo": "Wall Street avança após ‘sell-off’ com Fed; tecnologia lidera ganhos",
     "categoria": "Mercados",
@@ -4192,20 +4221,5 @@
     "videoUrl": null,
     "tipo": "carrossel",
     "peso": 51
-  },
-  {
-    "data": "2026-07-21T14:24:10.289Z",
-    "titulo": "Wall Street avança com apoio de semicondutores; tarifas e conflito no Oriente Médio seguem no radar",
-    "categoria": "Mercados",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/wall-street-21-7-26-lils/",
-    "postId": "18091295177567567",
-    "storyId": null,
-    "reelId": "18091295177567567",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1784643711197.mp4",
-    "tipo": "reel",
-    "peso": 75
   }
 ]
