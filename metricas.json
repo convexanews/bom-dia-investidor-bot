@@ -1,7 +1,98 @@
 [
   {
+    "postId": "17884900779488230",
+    "dataColeta": "2026-09-17T15:34:54.590Z",
+    "dataPostagem": "2026-09-17T14:09:57.606Z",
+    "tipo": "reel",
+    "pilares": [
+      "macro",
+      "bolsa",
+      "exterior",
+      "mundo_empresas"
+    ],
+    "peso": 84,
+    "fonte": "Money Times",
+    "titulo": "Wall Street avança após ‘sell-off’ com Fed; tecnologia lidera ganhos",
+    "horarioBRT": "11",
+    "cta": null,
+    "decisaoFormato": "peso 84: reel; Studio Engine 100/100",
+    "insights": {
+      "reach": 0,
+      "saved": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "total_interactions": 0,
+      "falhas": [
+        {
+          "metrica": "plays",
+          "erro": "Instagram respondeu 400"
+        }
+      ]
+    }
+  },
+  {
+    "postId": "17995323078034410",
+    "dataColeta": "2026-09-17T15:34:55.509Z",
+    "dataPostagem": "2026-09-16T23:35:53.449Z",
+    "tipo": "reel",
+    "pilares": [
+      "macro",
+      "bolsa"
+    ],
+    "peso": 88,
+    "fonte": "Money Times",
+    "titulo": "Selic a 13,75% é o fim da linha? Decisão do Copom deixa próximo corte em aberto",
+    "horarioBRT": "20",
+    "cta": null,
+    "decisaoFormato": "peso 88: reel; Studio Engine 100/100",
+    "insights": {
+      "reach": 7,
+      "saved": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "total_interactions": 0,
+      "falhas": [
+        {
+          "metrica": "plays",
+          "erro": "Instagram respondeu 400"
+        }
+      ]
+    }
+  },
+  {
+    "postId": "18579586219068513",
+    "dataColeta": "2026-09-17T15:34:56.862Z",
+    "dataPostagem": "2026-09-16T18:42:05.106Z",
+    "tipo": "reel",
+    "pilares": [
+      "macro"
+    ],
+    "peso": 77,
+    "fonte": "InfoMoney",
+    "titulo": "Com pessimismo recorde, fundos cortam projeção de PIB e mudam posições no câmbio",
+    "horarioBRT": "15",
+    "cta": null,
+    "decisaoFormato": "peso 77: reel; Studio Engine 100/100",
+    "insights": {
+      "reach": 7,
+      "saved": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "total_interactions": 0,
+      "falhas": [
+        {
+          "metrica": "plays",
+          "erro": "Instagram respondeu 400"
+        }
+      ]
+    }
+  },
+  {
     "postId": "17987922207117329",
-    "dataColeta": "2026-09-16T15:27:16.594Z",
+    "dataColeta": "2026-09-17T15:34:58.320Z",
     "dataPostagem": "2026-09-16T14:05:43.801Z",
     "tipo": "reel",
     "pilares": [
@@ -15,7 +106,7 @@
     "cta": null,
     "decisaoFormato": "peso 82: reel; Studio Engine 100/100",
     "insights": {
-      "reach": 2,
+      "reach": 6,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -31,7 +122,7 @@
   },
   {
     "postId": "18114176186045758",
-    "dataColeta": "2026-09-16T15:27:17.396Z",
+    "dataColeta": "2026-09-17T15:34:59.473Z",
     "dataPostagem": "2026-09-15T23:28:16.317Z",
     "tipo": "reel",
     "pilares": [
@@ -61,7 +152,7 @@
   },
   {
     "postId": "17946190170280963",
-    "dataColeta": "2026-09-16T15:27:18.404Z",
+    "dataColeta": "2026-09-17T15:35:00.661Z",
     "dataPostagem": "2026-09-11T19:04:33.139Z",
     "tipo": "reel",
     "pilares": [
@@ -91,7 +182,7 @@
   },
   {
     "postId": "18133103428655061",
-    "dataColeta": "2026-09-16T15:27:19.382Z",
+    "dataColeta": "2026-09-17T15:35:02.077Z",
     "dataPostagem": "2026-09-11T17:05:09.246Z",
     "tipo": "reel",
     "pilares": [
@@ -121,7 +212,7 @@
   },
   {
     "postId": "18380136685234968",
-    "dataColeta": "2026-09-16T15:27:20.311Z",
+    "dataColeta": "2026-09-17T15:35:03.261Z",
     "dataPostagem": "2026-09-11T14:04:19.511Z",
     "tipo": "reel",
     "pilares": [
@@ -151,7 +242,7 @@
   },
   {
     "postId": "17947490109057196",
-    "dataColeta": "2026-09-16T15:27:21.293Z",
+    "dataColeta": "2026-09-17T15:35:04.342Z",
     "dataPostagem": "2026-09-11T11:03:58.307Z",
     "tipo": "reel",
     "pilares": [
@@ -181,7 +272,7 @@
   },
   {
     "postId": "18129216199739798",
-    "dataColeta": "2026-09-16T15:27:22.101Z",
+    "dataColeta": "2026-09-17T15:35:05.686Z",
     "dataPostagem": "2026-09-11T09:05:15.922Z",
     "tipo": "reel",
     "pilares": [
@@ -211,7 +302,7 @@
   },
   {
     "postId": "17947518492057020",
-    "dataColeta": "2026-09-16T15:27:22.910Z",
+    "dataColeta": "2026-09-17T15:35:06.973Z",
     "dataPostagem": "2026-09-10T20:33:32.090Z",
     "tipo": "reel",
     "pilares": [
@@ -226,7 +317,7 @@
     "cta": null,
     "decisaoFormato": "peso 123: reel; Studio Engine 100/100",
     "insights": {
-      "reach": 13,
+      "reach": 14,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -242,7 +333,7 @@
   },
   {
     "postId": "18005357775003381",
-    "dataColeta": "2026-09-16T15:27:23.718Z",
+    "dataColeta": "2026-09-17T15:35:07.998Z",
     "dataPostagem": "2026-09-10T17:04:23.654Z",
     "tipo": "reel",
     "pilares": [
@@ -273,7 +364,7 @@
   },
   {
     "postId": "18175723612441140",
-    "dataColeta": "2026-09-16T15:27:24.670Z",
+    "dataColeta": "2026-09-17T15:35:08.926Z",
     "dataPostagem": "2026-09-10T14:35:02.142Z",
     "tipo": "reel",
     "pilares": [
@@ -304,7 +395,7 @@
   },
   {
     "postId": "17969559531044860",
-    "dataColeta": "2026-09-16T15:27:25.601Z",
+    "dataColeta": "2026-09-17T15:35:09.894Z",
     "dataPostagem": "2026-09-10T11:34:17.822Z",
     "tipo": "reel",
     "pilares": [
@@ -334,7 +425,7 @@
   },
   {
     "postId": "17860515297696226",
-    "dataColeta": "2026-09-16T15:27:26.359Z",
+    "dataColeta": "2026-09-17T15:35:11.008Z",
     "dataPostagem": "2026-09-10T09:33:58.254Z",
     "tipo": "reel",
     "pilares": [
@@ -365,7 +456,7 @@
   },
   {
     "postId": "18008937839766466",
-    "dataColeta": "2026-09-16T15:27:27.227Z",
+    "dataColeta": "2026-09-17T15:35:12.562Z",
     "dataPostagem": "2026-09-09T12:04:13.475Z",
     "tipo": "reel",
     "pilares": [
@@ -395,7 +486,7 @@
   },
   {
     "postId": "18132965482658914",
-    "dataColeta": "2026-09-16T15:27:28.271Z",
+    "dataColeta": "2026-09-17T15:35:13.831Z",
     "dataPostagem": "2026-09-09T09:34:12.967Z",
     "tipo": "reel",
     "pilares": [
@@ -427,7 +518,7 @@
   },
   {
     "postId": "17985622428028861",
-    "dataColeta": "2026-09-16T15:27:29.340Z",
+    "dataColeta": "2026-09-17T15:35:14.902Z",
     "dataPostagem": "2026-09-08T20:33:27.274Z",
     "tipo": "reel",
     "pilares": [
@@ -458,7 +549,7 @@
   },
   {
     "postId": "18076010186707089",
-    "dataColeta": "2026-09-16T15:27:30.082Z",
+    "dataColeta": "2026-09-17T15:35:16.424Z",
     "dataPostagem": "2026-09-08T18:22:03.421Z",
     "tipo": "reel",
     "pilares": [
@@ -488,7 +579,7 @@
   },
   {
     "postId": "18113776247097411",
-    "dataColeta": "2026-09-16T15:27:31.129Z",
+    "dataColeta": "2026-09-17T15:35:17.702Z",
     "dataPostagem": "2026-09-08T12:04:16.283Z",
     "tipo": "reel",
     "pilares": [
@@ -518,7 +609,7 @@
   },
   {
     "postId": "17934852843122331",
-    "dataColeta": "2026-09-16T15:27:32.091Z",
+    "dataColeta": "2026-09-17T15:35:18.794Z",
     "dataPostagem": "2026-09-08T09:33:43.170Z",
     "tipo": "reel",
     "pilares": [
@@ -549,7 +640,7 @@
   },
   {
     "postId": "18134561281727916",
-    "dataColeta": "2026-09-16T15:27:32.977Z",
+    "dataColeta": "2026-09-17T15:35:20.055Z",
     "dataPostagem": "2026-09-06T15:03:34.760Z",
     "tipo": "reel",
     "pilares": [
@@ -580,7 +671,7 @@
   },
   {
     "postId": "18113578810803767",
-    "dataColeta": "2026-09-16T15:27:33.849Z",
+    "dataColeta": "2026-09-17T15:35:21.628Z",
     "dataPostagem": "2026-09-06T09:04:41.802Z",
     "tipo": "reel",
     "pilares": [
@@ -610,7 +701,7 @@
   },
   {
     "postId": "18489108766097245",
-    "dataColeta": "2026-09-16T15:27:34.869Z",
+    "dataColeta": "2026-09-17T15:35:22.855Z",
     "dataPostagem": "2026-09-04T20:33:50.317Z",
     "tipo": "reel",
     "pilares": [
@@ -640,7 +731,7 @@
   },
   {
     "postId": "18495104827102286",
-    "dataColeta": "2026-09-16T15:27:35.872Z",
+    "dataColeta": "2026-09-17T15:35:24.287Z",
     "dataPostagem": "2026-09-04T16:03:56.300Z",
     "tipo": "reel",
     "pilares": [
@@ -655,96 +746,6 @@
     "decisaoFormato": "peso 76: reel; Studio Engine 100/100",
     "insights": {
       "reach": 11,
-      "saved": 0,
-      "shares": 0,
-      "comments": 0,
-      "likes": 0,
-      "total_interactions": 0,
-      "falhas": [
-        {
-          "metrica": "plays",
-          "erro": "Instagram respondeu 400"
-        }
-      ]
-    }
-  },
-  {
-    "postId": "17926993569403223",
-    "dataColeta": "2026-09-16T15:27:36.895Z",
-    "dataPostagem": "2026-09-04T11:10:25.393Z",
-    "tipo": "reel",
-    "pilares": [
-      "macro",
-      "bolsa"
-    ],
-    "peso": 83,
-    "fonte": "Money Times",
-    "titulo": "Super-ricos abocanham fatia recorde da renda sob Lula apesar de agenda voltada aos mais pobres",
-    "horarioBRT": "08",
-    "cta": null,
-    "decisaoFormato": "peso 83: reel; Studio Engine 100/100",
-    "insights": {
-      "reach": 17,
-      "saved": 0,
-      "shares": 0,
-      "comments": 0,
-      "likes": 0,
-      "total_interactions": 0,
-      "falhas": [
-        {
-          "metrica": "plays",
-          "erro": "Instagram respondeu 400"
-        }
-      ]
-    }
-  },
-  {
-    "postId": "18428023018177664",
-    "dataColeta": "2026-09-16T15:27:37.782Z",
-    "dataPostagem": "2026-09-04T09:11:02.789Z",
-    "tipo": "reel",
-    "pilares": [
-      "macro",
-      "bolsa",
-      "exterior"
-    ],
-    "peso": 86,
-    "fonte": "InfoMoney",
-    "titulo": "Payroll nos EUA, balança comercial no Brasil, varejo na Europa e mais destaques hoje",
-    "horarioBRT": "06",
-    "cta": null,
-    "decisaoFormato": "peso 86: reel; Studio Engine 100/100",
-    "insights": {
-      "reach": 16,
-      "saved": 0,
-      "shares": 0,
-      "comments": 0,
-      "likes": 0,
-      "total_interactions": 0,
-      "falhas": [
-        {
-          "metrica": "plays",
-          "erro": "Instagram respondeu 400"
-        }
-      ]
-    }
-  },
-  {
-    "postId": "17884119477653979",
-    "dataColeta": "2026-09-16T15:27:38.697Z",
-    "dataPostagem": "2026-09-03T22:37:54.106Z",
-    "tipo": "reel",
-    "pilares": [
-      "bolsa"
-    ],
-    "peso": 80,
-    "fonte": "Money Times",
-    "titulo": "Dividendos: Carteira do Safra dispara e deixa Ibovespa comendo poeira; veja portfólio para setembro",
-    "horarioBRT": "19",
-    "cta": null,
-    "decisaoFormato": "peso 80: reel; Studio Engine 100/100",
-    "insights": {
-      "reach": 17,
       "saved": 0,
       "shares": 0,
       "comments": 0,
