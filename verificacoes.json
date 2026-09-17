@@ -1,5 +1,15 @@
 [
   {
+    "data": "2026-09-17T23:23:55.974Z",
+    "resultado": "erro",
+    "mensagem": "Erro na execução automática: Narração bloqueada: texto aparenta estar em espanhol."
+  },
+  {
+    "data": "2026-09-17T23:23:33.398Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 74): \"Fed sobe juros: o que a história diz sobre as bolsas daqui para frente, segundo o Citi\". Realizando postagem..."
+  },
+  {
     "data": "2026-09-17T19:51:12.353Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Tesouro Direto hoje: Taxas disparam após reajuste do Bolsa Família e títulos param de negociar; confira\".",
@@ -1023,16 +1033,6 @@
   },
   {
     "data": "2026-09-12T10:31:08.331Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-09-12T10:00:58.991Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-09-12T09:30:56.301Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }
