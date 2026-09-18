@@ -1,5 +1,15 @@
 [
   {
+    "data": "2026-09-18T00:36:06.997Z",
+    "resultado": "erro",
+    "mensagem": "Erro na execução automática: Narração bloqueada: texto aparenta estar em espanhol."
+  },
+  {
+    "data": "2026-09-18T00:35:34.900Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 74): \"Fed sobe juros: o que a história diz sobre as bolsas daqui para frente, segundo o Citi\". Realizando postagem..."
+  },
+  {
     "data": "2026-09-17T23:23:55.974Z",
     "resultado": "erro",
     "mensagem": "Erro na execução automática: Narração bloqueada: texto aparenta estar em espanhol."
@@ -1023,16 +1033,6 @@
   },
   {
     "data": "2026-09-12T11:31:24.227Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-09-12T11:01:04.346Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-09-12T10:31:08.331Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }
