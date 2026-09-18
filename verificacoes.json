@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-09-18T18:05:35.714Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
     "data": "2026-09-18T14:38:16.538Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Selic pode cair mais mesmo com Fed subindo juros; veja as projeções do Bradesco para os juros\".",
@@ -1031,11 +1036,5 @@
     "data": "2026-09-12T13:31:08.288Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-09-12T13:01:21.649Z",
-    "resultado": "pauta_reprovada",
-    "mensagem": "Notícia não publicada: manchete longa demais para caber completa no card.",
-    "titulo": "Ethereum (ETH) vai na contramão do Bitcoin (BTC) e sobe 3% na semana, com Fomc no radar; confira os preços das criptomoedas neste sábado (12)"
   }
 ]
