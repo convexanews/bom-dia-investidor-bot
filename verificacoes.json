@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-09-18T14:38:16.538Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Selic pode cair mais mesmo com Fed subindo juros; veja as projeções do Bradesco para os juros\".",
+    "postId": "18127775176702881",
+    "storyId": null,
+    "reelId": "18127775176702881",
+    "tipo": "reel",
+    "studioQuality": 100
+  },
+  {
+    "data": "2026-09-18T14:35:38.823Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 114): \"Selic pode cair mais mesmo com Fed subindo juros; veja as projeções do Bradesco para os juros\". Realizando postagem..."
+  },
+  {
     "data": "2026-09-18T13:24:22.697Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1019,18 +1034,6 @@
   },
   {
     "data": "2026-09-12T13:01:21.649Z",
-    "resultado": "pauta_reprovada",
-    "mensagem": "Notícia não publicada: manchete longa demais para caber completa no card.",
-    "titulo": "Ethereum (ETH) vai na contramão do Bitcoin (BTC) e sobe 3% na semana, com Fomc no radar; confira os preços das criptomoedas neste sábado (12)"
-  },
-  {
-    "data": "2026-09-12T12:38:00.791Z",
-    "resultado": "pauta_reprovada",
-    "mensagem": "Notícia não publicada: manchete longa demais para caber completa no card.",
-    "titulo": "Ethereum (ETH) vai na contramão do Bitcoin (BTC) e sobe 3% na semana, com Fomc no radar; confira os preços das criptomoedas neste sábado (12)"
-  },
-  {
-    "data": "2026-09-12T12:31:12.372Z",
     "resultado": "pauta_reprovada",
     "mensagem": "Notícia não publicada: manchete longa demais para caber completa no card.",
     "titulo": "Ethereum (ETH) vai na contramão do Bitcoin (BTC) e sobe 3% na semana, com Fomc no radar; confira os preços das criptomoedas neste sábado (12)"

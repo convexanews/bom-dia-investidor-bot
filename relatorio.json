@@ -1,5 +1,33 @@
 [
   {
+    "data": "2026-09-18T14:38:16.536Z",
+    "titulo": "Selic pode cair mais mesmo com Fed subindo juros; veja as projeções do Bradesco para os juros",
+    "categoria": "Economia",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/selic-pode-cair-mais-mesmo-com-fed-subindo-juros-veja-as-projecoes-do-bradesco-para-os-juros-jcav/",
+    "postId": "18127775176702881",
+    "storyId": null,
+    "reelId": "18127775176702881",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1789742151900.mp4",
+    "tipo": "reel",
+    "peso": 114,
+    "pilares": [
+      "macro",
+      "bolsa"
+    ],
+    "horarioBRT": "11",
+    "cta": null,
+    "decisaoFormato": "peso 114: reel; Studio Engine 100/100",
+    "studioQuality": {
+      "approved": true,
+      "score": 100,
+      "blockers": [],
+      "warnings": []
+    }
+  },
+  {
     "data": "2026-09-17T19:51:12.351Z",
     "titulo": "Tesouro Direto hoje: Taxas disparam após reajuste do Bolsa Família e títulos param de negociar; confira",
     "categoria": "Renda Fixa",
@@ -4206,20 +4234,5 @@
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1784660484604.mp4",
     "tipo": "reel",
     "peso": 64
-  },
-  {
-    "data": "2026-07-21T16:32:25.431Z",
-    "titulo": "Ibovespa Hoje Ao Vivo: Bolsa cai e perde os 173 mil pontos",
-    "categoria": "Mercados",
-    "fonte": "InfoMoney",
-    "link": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-21072026/",
-    "postId": "17932604337359845",
-    "storyId": "18095385530340255",
-    "reelId": null,
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784651473751-slide1.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784651473751-story.png",
-    "videoUrl": null,
-    "tipo": "carrossel",
-    "peso": 51
   }
 ]
