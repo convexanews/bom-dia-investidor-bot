@@ -1,5 +1,33 @@
 [
   {
+    "data": "2026-09-20T18:00:53.621Z",
+    "titulo": "Agenda: Ata do Copom e IPCA-15 movimentam os mercados nesta semana; confira os indicadores",
+    "categoria": "Economia",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/agenda-ata-do-copom-e-ipca-15-movimentam-os-mercados-nesta-semana-confira-os-indicadores-jcav/",
+    "postId": "18130306408670501",
+    "storyId": null,
+    "reelId": "18130306408670501",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1789927117704.mp4",
+    "tipo": "reel",
+    "peso": 78,
+    "pilares": [
+      "macro",
+      "bolsa"
+    ],
+    "horarioBRT": "15",
+    "cta": null,
+    "decisaoFormato": "peso 78: reel; Studio Engine 100/100",
+    "studioQuality": {
+      "approved": true,
+      "score": 100,
+      "blockers": [],
+      "warnings": []
+    }
+  },
+  {
     "data": "2026-09-18T14:38:16.536Z",
     "titulo": "Selic pode cair mais mesmo com Fed subindo juros; veja as projeções do Bradesco para os juros",
     "categoria": "Economia",
@@ -4219,20 +4247,5 @@
     "videoUrl": null,
     "tipo": "carrossel",
     "peso": 52
-  },
-  {
-    "data": "2026-07-21T19:02:52.903Z",
-    "titulo": "Bitcoin (BTC) em disparada? Até onde a criptomoeda pode chegar, segundo especialistas",
-    "categoria": "Criptomoedas",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/bitcoin-btc-em-disparada-ate-onde-a-criptomoeda-pode-chegar-segundo-especialistas-igdl/",
-    "postId": "18122447902686188",
-    "storyId": null,
-    "reelId": "18122447902686188",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1784660484604.mp4",
-    "tipo": "reel",
-    "peso": 64
   }
 ]
