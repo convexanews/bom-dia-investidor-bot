@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-09-19T14:33:21.853Z",
+  "atualizadoEm": "2026-09-20T14:45:37.980Z",
   "porFormato": {
     "reel": {
       "posts": 25,
@@ -45,7 +45,7 @@
     },
     "mundo_empresas": {
       "posts": 1,
-      "alcanceMedio": 10,
+      "alcanceMedio": 11,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
@@ -63,7 +63,7 @@
   "porHorarioBRT": {
     "11": {
       "posts": 5,
-      "alcanceMedio": 9,
+      "alcanceMedio": 10,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
@@ -71,11 +71,11 @@
     },
     "12": {
       "posts": 1,
-      "alcanceMedio": 12,
+      "alcanceMedio": 13,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
-      "taxaInteracaoMedia": 8.33
+      "taxaInteracaoMedia": 7.69
     },
     "14": {
       "posts": 2,
@@ -135,11 +135,11 @@
     },
     "09": {
       "posts": 2,
-      "alcanceMedio": 10,
+      "alcanceMedio": 11,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
-      "taxaInteracaoMedia": 10
+      "taxaInteracaoMedia": 9.09
     }
   },
   "porCTA": {
