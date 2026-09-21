@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-09-21T16:32:24.072Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 40 min."
+  },
+  {
     "data": "2026-09-21T15:41:27.156Z",
     "resultado": "alerta_recorde",
     "mensagem": "Alerta de recorde publicado: Bitcoin (NOVA MÁXIMA).",
@@ -1035,11 +1040,6 @@
   },
   {
     "data": "2026-09-13T00:01:17.071Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-09-12T23:31:03.803Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }
