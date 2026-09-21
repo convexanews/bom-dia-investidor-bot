@@ -1,8 +1,16 @@
 {
-  "atualizadoEm": "2026-09-20T14:45:37.980Z",
+  "atualizadoEm": "2026-09-21T17:07:53.971Z",
   "porFormato": {
+    "alerta": {
+      "posts": 1,
+      "alcanceMedio": 1,
+      "salvamentosMedios": 0,
+      "compartilhamentosMedios": 0,
+      "reproducoesMedias": null,
+      "taxaInteracaoMedia": 100
+    },
     "reel": {
-      "posts": 25,
+      "posts": 24,
       "alcanceMedio": 12,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
@@ -12,7 +20,7 @@
   },
   "porPilar": {
     "macro": {
-      "posts": 24,
+      "posts": 23,
       "alcanceMedio": 12,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
@@ -20,8 +28,8 @@
       "taxaInteracaoMedia": 0
     },
     "bolsa": {
-      "posts": 23,
-      "alcanceMedio": 13,
+      "posts": 22,
+      "alcanceMedio": 12,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
@@ -36,7 +44,7 @@
       "taxaInteracaoMedia": 0
     },
     "exterior": {
-      "posts": 9,
+      "posts": 8,
       "alcanceMedio": 13,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
@@ -69,14 +77,6 @@
       "reproducoesMedias": null,
       "taxaInteracaoMedia": 0
     },
-    "12": {
-      "posts": 1,
-      "alcanceMedio": 13,
-      "salvamentosMedios": 0,
-      "compartilhamentosMedios": 0,
-      "reproducoesMedias": null,
-      "taxaInteracaoMedia": 7.69
-    },
     "14": {
       "posts": 2,
       "alcanceMedio": 13,
@@ -86,7 +86,7 @@
       "taxaInteracaoMedia": 0
     },
     "15": {
-      "posts": 2,
+      "posts": 3,
       "alcanceMedio": 10,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
@@ -117,6 +117,14 @@
       "reproducoesMedias": null,
       "taxaInteracaoMedia": 11.11
     },
+    "não informado": {
+      "posts": 1,
+      "alcanceMedio": 1,
+      "salvamentosMedios": 0,
+      "compartilhamentosMedios": 0,
+      "reproducoesMedias": null,
+      "taxaInteracaoMedia": 100
+    },
     "08": {
       "posts": 2,
       "alcanceMedio": 23,
@@ -126,7 +134,7 @@
       "taxaInteracaoMedia": 4.35
     },
     "06": {
-      "posts": 5,
+      "posts": 4,
       "alcanceMedio": 15,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
