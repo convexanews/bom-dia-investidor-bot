@@ -1,5 +1,34 @@
 [
   {
+    "data": "2026-09-21T21:46:11.616Z",
+    "titulo": "Wall Street fecha em alta com otimismo com IA e alívio no petróleo; Nasdaq salta 2% e renova recorde",
+    "categoria": "Mercados",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/wall-street-21-9-26-lils/",
+    "postId": "18410854753081645",
+    "storyId": null,
+    "reelId": "18410854753081645",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1790027004909.mp4",
+    "tipo": "reel",
+    "peso": 84,
+    "pilares": [
+      "bolsa",
+      "exterior",
+      "mundo_empresas"
+    ],
+    "horarioBRT": "18",
+    "cta": null,
+    "decisaoFormato": "peso 84: reel; Studio Engine 100/100",
+    "studioQuality": {
+      "approved": true,
+      "score": 100,
+      "blockers": [],
+      "warnings": []
+    }
+  },
+  {
     "data": "2026-09-21T15:41:27.154Z",
     "titulo": "NOVA MÁXIMA: Bitcoin",
     "categoria": "Alerta de mercado",
@@ -4228,20 +4257,5 @@
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1784730671077.mp4",
     "tipo": "reel",
     "peso": 67
-  },
-  {
-    "data": "2026-07-21T23:51:08.405Z",
-    "titulo": "Fiagros atingem marca de 600 mil investidores; SNAG11 se destaca entre mais negociados",
-    "categoria": "Fiagro",
-    "fonte": "Suno",
-    "link": "https://www.suno.com.br/noticias/fiagros-atingem-marca-de-600-mil-investidores-snag11-se-destaca-entre-mais-negociados/",
-    "postId": "18608191930010984",
-    "storyId": "18454205053136458",
-    "reelId": null,
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784677815293-feed.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784677815293-story.png",
-    "videoUrl": null,
-    "tipo": "card",
-    "peso": 26
   }
 ]
