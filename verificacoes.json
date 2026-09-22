@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-09-22T15:07:19.060Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 21 min."
+  },
+  {
     "data": "2026-09-22T13:57:21.481Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Ata do Copom: BC vê desaceleração ganhar força, mas deixa próximos cortes da Selic em aberto\".",
@@ -1047,10 +1052,5 @@
     "data": "2026-09-13T03:00:59.769Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (00:00 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-09-13T02:31:04.547Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (23:31 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
