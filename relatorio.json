@@ -1,5 +1,33 @@
 [
   {
+    "data": "2026-09-22T13:57:21.479Z",
+    "titulo": "Ata do Copom: BC vê desaceleração ganhar força, mas deixa próximos cortes da Selic em aberto",
+    "categoria": "Economia",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/ata-do-copom-bc-ve-desaceleracao-ganhar-forca-mas-deixa-proximos-cortes-da-selic-em-aberto-jcav/",
+    "postId": "18011117402762568",
+    "storyId": null,
+    "reelId": "18011117402762568",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1790085318050.mp4",
+    "tipo": "reel",
+    "peso": 78,
+    "pilares": [
+      "macro",
+      "bolsa"
+    ],
+    "horarioBRT": "10",
+    "cta": null,
+    "decisaoFormato": "peso 78: reel; Studio Engine 100/100",
+    "studioQuality": {
+      "approved": true,
+      "score": 100,
+      "blockers": [],
+      "warnings": []
+    }
+  },
+  {
     "data": "2026-09-21T21:46:11.616Z",
     "titulo": "Wall Street fecha em alta com otimismo com IA e alívio no petróleo; Nasdaq salta 2% e renova recorde",
     "categoria": "Mercados",
@@ -4242,20 +4270,5 @@
     "videoUrl": null,
     "tipo": "carrossel",
     "peso": 26
-  },
-  {
-    "data": "2026-07-22T14:32:27.638Z",
-    "titulo": "Wall Street abre sem direção única com avanço do petróleo e resultados da Alphabet",
-    "categoria": "Mercados",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/wall-street-abertura-22-7-26-apsa/",
-    "postId": "18064657556706176",
-    "storyId": null,
-    "reelId": "18064657556706176",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1784730671077.mp4",
-    "tipo": "reel",
-    "peso": 67
   }
 ]
