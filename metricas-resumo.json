@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-09-24T15:51:44.821Z",
+  "atualizadoEm": "2026-09-25T15:51:58.959Z",
   "porFormato": {
     "reel": {
       "posts": 24,
@@ -71,7 +71,7 @@
   "porHorarioBRT": {
     "10": {
       "posts": 1,
-      "alcanceMedio": 11,
+      "alcanceMedio": 12,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
@@ -127,11 +127,11 @@
     },
     "20": {
       "posts": 2,
-      "alcanceMedio": 9,
+      "alcanceMedio": 10,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
-      "taxaInteracaoMedia": 11.11
+      "taxaInteracaoMedia": 10
     },
     "não informado": {
       "posts": 1,
