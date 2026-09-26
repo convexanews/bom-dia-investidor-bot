@@ -1,5 +1,14 @@
 [
   {
+    "titulo": "BofA vê mercado precificando cenário otimista para o Ibovespa antes das eleições, mas faz alerta",
+    "link": "https://www.moneytimes.com.br/mercado-adota-cenario-mais-otimista-para-ibovespa-antes-das-eleicoes-diz-bofa-apsa/",
+    "peso": 90,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1790446830410.mp4",
+    "coverUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1790446830410-capa.png",
+    "legendaUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1790446830410-legenda.txt",
+    "data": "2026-09-26T18:23:03.255Z"
+  },
+  {
     "titulo": "Ata do Copom: BC vê desaceleração ganhar força, mas deixa próximos cortes da Selic em aberto",
     "link": "https://www.moneytimes.com.br/ata-do-copom-bc-ve-desaceleracao-ganhar-forca-mas-deixa-proximos-cortes-da-selic-em-aberto-jcav/",
     "peso": 78,
@@ -1628,13 +1637,5 @@
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782855104013.mp4",
     "legendaUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782855104013-legenda.txt",
     "data": "2026-06-30T21:33:36.655Z"
-  },
-  {
-    "titulo": "Plano Safra: juros e esforço fiscal são positivos, mas gastos, promessas e redução generalizada decepcionam, avalia Cogo Inteligência",
-    "link": "https://www.moneytimes.com.br/plano-safra-juros-e-esforco-fiscal-sao-positivos-mas-gastos-promessas-e-reducao-generalizada-decepcionam-avalia-cogo-inteligencia/",
-    "peso": 48,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782846123688.mp4",
-    "legendaUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782846123688-legenda.txt",
-    "data": "2026-06-30T19:04:01.909Z"
   }
 ]

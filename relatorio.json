@@ -1,5 +1,34 @@
 [
   {
+    "data": "2026-09-26T18:23:03.256Z",
+    "titulo": "BofA vê mercado precificando cenário otimista para o Ibovespa antes das eleições, mas faz alerta",
+    "categoria": "Mercados",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/mercado-adota-cenario-mais-otimista-para-ibovespa-antes-das-eleicoes-diz-bofa-apsa/",
+    "postId": "18131184052751169",
+    "storyId": null,
+    "reelId": "18131184052751169",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1790446830410.mp4",
+    "tipo": "reel",
+    "peso": 90,
+    "pilares": [
+      "macro",
+      "bolsa",
+      "brasil_eleicoes"
+    ],
+    "horarioBRT": "15",
+    "cta": null,
+    "decisaoFormato": "peso 90: reel; Studio Engine 100/100",
+    "studioQuality": {
+      "approved": true,
+      "score": 100,
+      "blockers": [],
+      "warnings": []
+    }
+  },
+  {
     "data": "2026-09-22T13:57:21.479Z",
     "titulo": "Ata do Copom: BC vê desaceleração ganhar força, mas deixa próximos cortes da Selic em aberto",
     "categoria": "Economia",
@@ -4255,20 +4284,5 @@
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1784748677803.mp4",
     "tipo": "reel",
     "peso": 74
-  },
-  {
-    "data": "2026-07-22T17:02:24.218Z",
-    "titulo": "JBS (JBSS32) pode reagir no 2T26, mas XP ainda vê alerta na carne",
-    "categoria": "Agro",
-    "fonte": "Suno",
-    "link": "https://www.suno.com.br/noticias/rascunho-automaticojbs-jbss32-previa-resultados-2t26-xp-mt/",
-    "postId": "18085799186168753",
-    "storyId": "18045659978609326",
-    "reelId": null,
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784739672605-slide1.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784739672605-story.png",
-    "videoUrl": null,
-    "tipo": "carrossel",
-    "peso": 26
   }
 ]
