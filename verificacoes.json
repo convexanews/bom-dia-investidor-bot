@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-09-29T15:24:58.309Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Bradesco Asset: Selic pode ficar parada no início de 2027 com El Niño, mas tendência é de queda\".",
+    "postId": "18116996371985532",
+    "storyId": null,
+    "reelId": "18116996371985532",
+    "tipo": "reel",
+    "studioQuality": 100
+  },
+  {
+    "data": "2026-09-29T15:22:40.901Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 75): \"Bradesco Asset: Selic pode ficar parada no início de 2027 com El Niño, mas tendência é de queda\". Realizando postagem..."
+  },
+  {
     "data": "2026-09-29T04:20:23.785Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (01:20 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1045,16 +1060,6 @@
   },
   {
     "data": "2026-09-13T19:31:06.678Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 94): \"Bitcoin tenta reagir, mas tomba na semana; veja cotações das criptomoedas neste domingo (13)\". Realizando postagem..."
-  },
-  {
-    "data": "2026-09-13T19:02:45.133Z",
-    "resultado": "erro",
-    "mensagem": "Erro na execução automática: Command failed: git push"
-  },
-  {
-    "data": "2026-09-13T19:01:14.651Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 94): \"Bitcoin tenta reagir, mas tomba na semana; veja cotações das criptomoedas neste domingo (13)\". Realizando postagem..."
   }
