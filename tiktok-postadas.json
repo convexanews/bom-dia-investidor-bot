@@ -1,5 +1,14 @@
 [
   {
+    "titulo": "Ibovespa avança com ajuda de Petrobras (PETR4) e bancos; dólar cai a R$ 5,21",
+    "link": "https://www.moneytimes.com.br/ibovespa-29-9-26-apsa/",
+    "peso": 77,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1790718843217.mp4",
+    "coverUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1790718843217-capa.png",
+    "legendaUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1790718843217-legenda.txt",
+    "data": "2026-09-29T21:56:23.345Z"
+  },
+  {
     "titulo": "Bradesco Asset: Selic pode ficar parada no início de 2027 com El Niño, mas tendência é de queda",
     "link": "https://www.moneytimes.com.br/bradesco-asset-selic-pode-ficar-parada-no-inicio-de-2027-com-el-nino-mas-tendencia-e-de-queda/",
     "peso": 75,
@@ -1630,13 +1639,5 @@
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782905493452.mp4",
     "legendaUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782905493452-legenda.txt",
     "data": "2026-07-01T11:33:26.152Z"
-  },
-  {
-    "titulo": "Warsh, emprego nos EUA, pesquisa AtlasIntel e mais destaques desta quarta-feira",
-    "link": "https://www.infomoney.com.br/mercados/warsh-emprego-eua-pesquisa-eleitoral-01072026/",
-    "peso": 93,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782896502608.mp4",
-    "legendaUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782896502608-legenda.txt",
-    "data": "2026-07-01T09:04:25.192Z"
   }
 ]

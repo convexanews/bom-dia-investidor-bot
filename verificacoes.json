@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-09-29T21:56:23.354Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Ibovespa avança com ajuda de Petrobras (PETR4) e bancos; dólar cai a R$ 5,21\".",
+    "postId": "18124864381885779",
+    "storyId": null,
+    "reelId": "18124864381885779",
+    "tipo": "reel",
+    "studioQuality": 100
+  },
+  {
+    "data": "2026-09-29T21:53:59.418Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 77): \"Ibovespa avança com ajuda de Petrobras (PETR4) e bancos; dólar cai a R$ 5,21\". Realizando postagem..."
+  },
+  {
     "data": "2026-09-29T16:35:28.408Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 20 min."
@@ -1050,16 +1065,6 @@
   },
   {
     "data": "2026-09-13T20:02:36.672Z",
-    "resultado": "erro",
-    "mensagem": "Erro na execução automática: Command failed: git push"
-  },
-  {
-    "data": "2026-09-13T20:01:08.877Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 94): \"Bitcoin tenta reagir, mas tomba na semana; veja cotações das criptomoedas neste domingo (13)\". Realizando postagem..."
-  },
-  {
-    "data": "2026-09-13T19:32:31.860Z",
     "resultado": "erro",
     "mensagem": "Erro na execução automática: Command failed: git push"
   }
