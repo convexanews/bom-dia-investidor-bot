@@ -1,5 +1,14 @@
 [
   {
+    "titulo": "Inflação dos EUA alivia pressão por altas de juros, mas PIB mais forte mantém Fed em alerta",
+    "link": "https://www.moneytimes.com.br/inflacao-dos-eua-alivia-pressao-por-altas-de-juros-mas-pib-mais-forte-mantem-fed-em-alerta/",
+    "peso": 75,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1790785715381.mp4",
+    "coverUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1790785715381-capa.png",
+    "legendaUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1790785715381-legenda.txt",
+    "data": "2026-09-30T16:31:07.168Z"
+  },
+  {
     "titulo": "Ibovespa avança com ajuda de Petrobras (PETR4) e bancos; dólar cai a R$ 5,21",
     "link": "https://www.moneytimes.com.br/ibovespa-29-9-26-apsa/",
     "peso": 77,
@@ -1631,13 +1640,5 @@
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782914522822.mp4",
     "legendaUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782914522822-legenda.txt",
     "data": "2026-07-01T14:04:55.527Z"
-  },
-  {
-    "titulo": "Inflação da zona do euro desacelera mais do que o esperado e reduz pressão sobre o BCE",
-    "link": "https://www.moneytimes.com.br/inflacao-na-zona-do-euro-cai-mais-do-que-o-esperado-e-reforca-argumentos-do-bce-a-favor-de-paciencia/",
-    "peso": 45,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782905493452.mp4",
-    "legendaUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782905493452-legenda.txt",
-    "data": "2026-07-01T11:33:26.152Z"
   }
 ]

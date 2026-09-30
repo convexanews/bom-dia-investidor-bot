@@ -1,5 +1,33 @@
 [
   {
+    "data": "2026-09-30T16:31:07.170Z",
+    "titulo": "Inflação dos EUA alivia pressão por altas de juros, mas PIB mais forte mantém Fed em alerta",
+    "categoria": "Economia",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/inflacao-dos-eua-alivia-pressao-por-altas-de-juros-mas-pib-mais-forte-mantem-fed-em-alerta/",
+    "postId": "18105563180218517",
+    "storyId": null,
+    "reelId": "18105563180218517",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1790785715381.mp4",
+    "tipo": "reel",
+    "peso": 75,
+    "pilares": [
+      "macro",
+      "bolsa"
+    ],
+    "horarioBRT": "13",
+    "cta": null,
+    "decisaoFormato": "peso 75: reel; Studio Engine 100/100",
+    "studioQuality": {
+      "approved": true,
+      "score": 100,
+      "blockers": [],
+      "warnings": []
+    }
+  },
+  {
     "data": "2026-09-29T21:56:23.351Z",
     "titulo": "Ibovespa avança com ajuda de Petrobras (PETR4) e bancos; dólar cai a R$ 5,21",
     "categoria": "Mercados",
@@ -4296,20 +4324,5 @@
     "videoUrl": null,
     "tipo": "card",
     "peso": 58
-  },
-  {
-    "data": "2026-07-23T00:32:34.930Z",
-    "titulo": "FII do BTG fecha duas locações, reduz vacância para cerca de 20% e projeta alta de 28% na receita",
-    "categoria": "FIIs",
-    "fonte": "Suno",
-    "link": "https://www.suno.com.br/noticias/fii-do-btg-fecha-duas-locacoes-reduz-vacancia-para-cerca-de-20-e-projeta-alta-de-28-na-receita/",
-    "postId": "18369198055227635",
-    "storyId": "18108850208090063",
-    "reelId": null,
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784766679050-slide1.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784766679050-story.png",
-    "videoUrl": null,
-    "tipo": "carrossel",
-    "peso": 27
   }
 ]

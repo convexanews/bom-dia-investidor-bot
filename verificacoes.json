@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-09-30T16:31:07.173Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Inflação dos EUA alivia pressão por altas de juros, mas PIB mais forte mantém Fed em alerta\".",
+    "postId": "18105563180218517",
+    "storyId": null,
+    "reelId": "18105563180218517",
+    "tipo": "reel",
+    "studioQuality": 100
+  },
+  {
+    "data": "2026-09-30T16:28:30.953Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 75): \"Inflação dos EUA alivia pressão por altas de juros, mas PIB mais forte mantém Fed em alerta\". Realizando postagem..."
+  },
+  {
     "data": "2026-09-30T15:39:49.283Z",
     "resultado": "erro",
     "mensagem": "Erro na execução automática: Command failed: git push"
@@ -1055,16 +1070,6 @@
   },
   {
     "data": "2026-09-13T21:02:51.168Z",
-    "resultado": "erro",
-    "mensagem": "Erro na execução automática: Command failed: git push"
-  },
-  {
-    "data": "2026-09-13T21:01:16.315Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 94): \"Bitcoin tenta reagir, mas tomba na semana; veja cotações das criptomoedas neste domingo (13)\". Realizando postagem..."
-  },
-  {
-    "data": "2026-09-13T20:32:22.393Z",
     "resultado": "erro",
     "mensagem": "Erro na execução automática: Command failed: git push"
   }
