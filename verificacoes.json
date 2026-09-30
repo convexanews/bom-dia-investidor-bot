@@ -1,5 +1,15 @@
 [
   {
+    "data": "2026-09-30T15:39:49.283Z",
+    "resultado": "erro",
+    "mensagem": "Erro na execução automática: Command failed: git push"
+  },
+  {
+    "data": "2026-09-30T15:38:28.528Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 75): \"Inflação dos EUA alivia pressão por altas de juros, mas PIB mais forte mantém Fed em alerta\". Realizando postagem..."
+  },
+  {
     "data": "2026-09-30T04:04:03.544Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (01:04 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1055,16 +1065,6 @@
   },
   {
     "data": "2026-09-13T20:32:22.393Z",
-    "resultado": "erro",
-    "mensagem": "Erro na execução automática: Command failed: git push"
-  },
-  {
-    "data": "2026-09-13T20:31:03.796Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 94): \"Bitcoin tenta reagir, mas tomba na semana; veja cotações das criptomoedas neste domingo (13)\". Realizando postagem..."
-  },
-  {
-    "data": "2026-09-13T20:22:57.182Z",
     "resultado": "erro",
     "mensagem": "Erro na execução automática: Command failed: git push"
   }
