@@ -1,5 +1,33 @@
 [
   {
+    "data": "2026-09-30T20:59:44.087Z",
+    "titulo": "Dólar cai e fecha a R$ 5,17 com inflação dos EUA e contas públicas no foco; Ibovespa sobe",
+    "categoria": "G1",
+    "fonte": "G1 Economia",
+    "link": "https://g1.globo.com/economia/noticia/2026/09/30/dolar-ibovespa.ghtml",
+    "postId": "18070095284770139",
+    "storyId": null,
+    "reelId": "18070095284770139",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1790801848624.mp4",
+    "tipo": "reel",
+    "peso": 78,
+    "pilares": [
+      "macro",
+      "bolsa"
+    ],
+    "horarioBRT": "17",
+    "cta": null,
+    "decisaoFormato": "peso 78: reel; Studio Engine 100/100",
+    "studioQuality": {
+      "approved": true,
+      "score": 100,
+      "blockers": [],
+      "warnings": []
+    }
+  },
+  {
     "data": "2026-09-30T16:31:07.170Z",
     "titulo": "Inflação dos EUA alivia pressão por altas de juros, mas PIB mais forte mantém Fed em alerta",
     "categoria": "Economia",
@@ -4309,20 +4337,5 @@
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1784804560110.mp4",
     "tipo": "reel",
     "peso": 68
-  },
-  {
-    "data": "2026-07-23T09:01:57.888Z",
-    "titulo": "Mercado em tempo real: Ibovespa segue decisão de juros do BCE e dados globais",
-    "categoria": "Mercados",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/tempo-real-ibovespa-hoje-mercado-ao-vivo-23-07-2026-jals-lils-apsa/",
-    "postId": "18128204236647630",
-    "storyId": "18110565022944437",
-    "reelId": null,
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784797273847-feed.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784797273847-story.png",
-    "videoUrl": null,
-    "tipo": "card",
-    "peso": 58
   }
 ]

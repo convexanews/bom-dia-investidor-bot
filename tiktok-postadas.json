@@ -1,5 +1,14 @@
 [
   {
+    "titulo": "Dólar cai e fecha a R$ 5,17 com inflação dos EUA e contas públicas no foco; Ibovespa sobe",
+    "link": "https://g1.globo.com/economia/noticia/2026/09/30/dolar-ibovespa.ghtml",
+    "peso": 78,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1790801848624.mp4",
+    "coverUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1790801848624-capa.png",
+    "legendaUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1790801848624-legenda.txt",
+    "data": "2026-09-30T20:59:44.086Z"
+  },
+  {
     "titulo": "Inflação dos EUA alivia pressão por altas de juros, mas PIB mais forte mantém Fed em alerta",
     "link": "https://www.moneytimes.com.br/inflacao-dos-eua-alivia-pressao-por-altas-de-juros-mas-pib-mais-forte-mantem-fed-em-alerta/",
     "peso": 75,
@@ -1632,13 +1641,5 @@
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782923519731.mp4",
     "legendaUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782923519731-legenda.txt",
     "data": "2026-07-01T16:33:34.648Z"
-  },
-  {
-    "titulo": "Ibovespa cai 1% com exterior e baixa do petróleo; 5 coisas para saber antes de investir hoje (1º)",
-    "link": "https://www.moneytimes.com.br/ibovespa-5-coisas-1-7-26-apsa/",
-    "peso": 54,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782914522822.mp4",
-    "legendaUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782914522822-legenda.txt",
-    "data": "2026-07-01T14:04:55.527Z"
   }
 ]
