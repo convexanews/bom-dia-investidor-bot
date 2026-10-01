@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-10-01T23:19:29.119Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
     "data": "2026-10-01T22:22:00.504Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1072,10 +1077,5 @@
     "data": "2026-09-13T22:31:00.699Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 94): \"Bitcoin tenta reagir, mas tomba na semana; veja cotações das criptomoedas neste domingo (13)\". Realizando postagem..."
-  },
-  {
-    "data": "2026-09-13T22:03:03.857Z",
-    "resultado": "erro",
-    "mensagem": "Erro na execução automática: Command failed: git push"
   }
 ]
