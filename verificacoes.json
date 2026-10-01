@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-10-01T04:16:19.392Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (01:16 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-10-01T01:24:28.745Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1072,10 +1077,5 @@
     "data": "2026-09-13T22:01:27.375Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 94): \"Bitcoin tenta reagir, mas tomba na semana; veja cotações das criptomoedas neste domingo (13)\". Realizando postagem..."
-  },
-  {
-    "data": "2026-09-13T21:35:11.174Z",
-    "resultado": "erro",
-    "mensagem": "Erro na execução automática: Command failed: git push"
   }
 ]
