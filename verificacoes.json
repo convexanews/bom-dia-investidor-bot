@@ -1,5 +1,11 @@
 [
   {
+    "data": "2026-10-02T20:52:54.957Z",
+    "resultado": "alerta_recorde",
+    "mensagem": "Alerta de recorde publicado: Ibovespa (NOVA MÁXIMA).",
+    "postId": "18105967610576253"
+  },
+  {
     "data": "2026-10-02T20:52:19.168Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1072,10 +1078,5 @@
     "data": "2026-09-13T23:03:11.518Z",
     "resultado": "erro",
     "mensagem": "Erro na execução automática: Command failed: git push"
-  },
-  {
-    "data": "2026-09-13T23:01:42.217Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 94): \"Bitcoin tenta reagir, mas tomba na semana; veja cotações das criptomoedas neste domingo (13)\". Realizando postagem..."
   }
 ]
