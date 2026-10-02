@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-10-02T21:51:01.792Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 32 min."
+  },
+  {
     "data": "2026-10-02T20:52:54.957Z",
     "resultado": "alerta_recorde",
     "mensagem": "Alerta de recorde publicado: Ibovespa (NOVA MÁXIMA).",
@@ -1073,10 +1078,5 @@
     "data": "2026-09-13T23:31:18.986Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 94): \"Bitcoin tenta reagir, mas tomba na semana; veja cotações das criptomoedas neste domingo (13)\". Realizando postagem..."
-  },
-  {
-    "data": "2026-09-13T23:03:11.518Z",
-    "resultado": "erro",
-    "mensagem": "Erro na execução automática: Command failed: git push"
   }
 ]
