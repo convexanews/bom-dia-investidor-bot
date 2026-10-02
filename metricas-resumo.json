@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-10-01T17:26:09.891Z",
+  "atualizadoEm": "2026-10-02T16:44:05.837Z",
   "porFormato": {
     "reel": {
       "posts": 24,
@@ -29,7 +29,7 @@
     },
     "bolsa": {
       "posts": 22,
-      "alcanceMedio": 12,
+      "alcanceMedio": 13,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
@@ -45,11 +45,11 @@
     },
     "brasil_eleicoes": {
       "posts": 1,
-      "alcanceMedio": 12,
+      "alcanceMedio": 13,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
-      "taxaInteracaoMedia": 0
+      "taxaInteracaoMedia": 7.69
     },
     "mundo_empresas": {
       "posts": 2,
@@ -127,11 +127,11 @@
     },
     "17": {
       "posts": 2,
-      "alcanceMedio": 12,
+      "alcanceMedio": 13,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
-      "taxaInteracaoMedia": 8.33
+      "taxaInteracaoMedia": 7.69
     },
     "18": {
       "posts": 2,
@@ -177,7 +177,7 @@
   "porCTA": {
     "não informado": {
       "posts": 25,
-      "alcanceMedio": 12,
+      "alcanceMedio": 13,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
