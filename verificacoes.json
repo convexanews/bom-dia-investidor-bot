@@ -1,5 +1,11 @@
 [
   {
+    "data": "2026-10-03T14:09:00.041Z",
+    "resultado": "pauta_reprovada",
+    "mensagem": "Notícia não publicada: manchete longa demais para caber completa no card.",
+    "titulo": "Das ações que podem disparar caso Lula seja reeleito à locação do Esther Towers pelo Itaú; confira as mais lidas da semana"
+  },
+  {
     "data": "2026-10-03T03:52:17.362Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (00:52 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1073,10 +1079,5 @@
     "data": "2026-09-14T00:02:35.091Z",
     "resultado": "erro",
     "mensagem": "Erro na execução automática: Command failed: git push"
-  },
-  {
-    "data": "2026-09-14T00:01:03.322Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 94): \"Bitcoin tenta reagir, mas tomba na semana; veja cotações das criptomoedas neste domingo (13)\". Realizando postagem..."
   }
 ]
