@@ -1,5 +1,16 @@
 [
   {
+    "data": "2026-10-05T17:56:10.159Z",
+    "titulo": "NOVA MÁXIMA: Ibovespa",
+    "categoria": "Alerta de mercado",
+    "fonte": "Cotação de mercado",
+    "postId": "18018316037931898",
+    "tipo": "alerta",
+    "peso": 100,
+    "origem": "alerta_recorde",
+    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/recorde-ibov-1791222925336.png"
+  },
+  {
     "data": "2026-10-02T20:52:54.954Z",
     "titulo": "NOVA MÁXIMA: Ibovespa",
     "categoria": "Alerta de mercado",
@@ -4318,20 +4329,5 @@
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1784820690772.mp4",
     "tipo": "reel",
     "peso": 76
-  },
-  {
-    "data": "2026-07-23T13:28:56.927Z",
-    "titulo": "Pedidos semanais de auxílio-desemprego nos EUA têm forte queda na última semana",
-    "categoria": "Economia",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/pedidos-semanais-de-auxilio-desemprego-nos-eua-tem-forte-queda-na-ultima-semana-jcav/",
-    "postId": "18087306182642348",
-    "storyId": "18008939630945986",
-    "reelId": null,
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784813258855-slide1.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784813258855-story.png",
-    "videoUrl": null,
-    "tipo": "carrossel",
-    "peso": 51
   }
 ]

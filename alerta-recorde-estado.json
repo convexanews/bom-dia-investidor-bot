@@ -1,11 +1,11 @@
 {
   "ibov": {
-    "maiorMarco": 190000,
+    "maiorMarco": 205000,
     "menorMarco": 165000
   },
   "dolar": {
     "maiorMarco": 5,
-    "menorMarco": 5
+    "menorMarco": 4.75
   },
   "btc": {
     "maiorMarco": 85000,
