@@ -1,5 +1,14 @@
 [
   {
+    "titulo": "Wall Street sobem com alívio dos Treasuries e petróleo; Nasdaq e S&P 500 renova recordes",
+    "link": "https://www.moneytimes.com.br/wall-street-abertura-6-10-26-lils/",
+    "peso": 93,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1791301351917.mp4",
+    "coverUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1791301351917-capa.png",
+    "legendaUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1791301351917-legenda.txt",
+    "data": "2026-10-06T15:44:54.160Z"
+  },
+  {
     "titulo": "Dólar cai e fecha a R$ 5,17 com inflação dos EUA e contas públicas no foco; Ibovespa sobe",
     "link": "https://g1.globo.com/economia/noticia/2026/09/30/dolar-ibovespa.ghtml",
     "peso": 78,
@@ -1633,13 +1642,5 @@
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782932518992.mp4",
     "legendaUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782932518992-legenda.txt",
     "data": "2026-07-01T19:03:43.385Z"
-  },
-  {
-    "titulo": "Dólar hoje sobe quase 1% e volta a superar R$ 5,20",
-    "link": "https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-01072026/",
-    "peso": 42,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782923519731.mp4",
-    "legendaUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782923519731-legenda.txt",
-    "data": "2026-07-01T16:33:34.648Z"
   }
 ]

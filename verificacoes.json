@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-10-06T15:44:54.165Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Wall Street sobem com alívio dos Treasuries e petróleo; Nasdaq e S&P 500 renova recordes\".",
+    "postId": "18096051884670752",
+    "storyId": null,
+    "reelId": "18096051884670752",
+    "tipo": "reel",
+    "studioQuality": 100
+  },
+  {
+    "data": "2026-10-06T15:42:29.410Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 93): \"Wall Street sobem com alívio dos Treasuries e petróleo; Nasdaq e S&P 500 renova recordes\". Realizando postagem..."
+  },
+  {
     "data": "2026-10-06T04:58:14.649Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (01:58 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1071,15 +1086,5 @@
     "data": "2026-09-14T07:31:02.604Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (04:31 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-09-14T07:01:29.696Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (04:01 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-09-14T06:31:05.814Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (03:31 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]

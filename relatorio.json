@@ -1,5 +1,34 @@
 [
   {
+    "data": "2026-10-06T15:44:54.163Z",
+    "titulo": "Wall Street sobem com alívio dos Treasuries e petróleo; Nasdaq e S&P 500 renova recordes",
+    "categoria": "Mercados",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/wall-street-abertura-6-10-26-lils/",
+    "postId": "18096051884670752",
+    "storyId": null,
+    "reelId": "18096051884670752",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1791301351917.mp4",
+    "tipo": "reel",
+    "peso": 93,
+    "pilares": [
+      "macro",
+      "exterior",
+      "mundo_empresas"
+    ],
+    "horarioBRT": "12",
+    "cta": null,
+    "decisaoFormato": "peso 93: reel; Studio Engine 100/100",
+    "studioQuality": {
+      "approved": true,
+      "score": 100,
+      "blockers": [],
+      "warnings": []
+    }
+  },
+  {
     "data": "2026-10-05T17:56:10.159Z",
     "titulo": "NOVA MÁXIMA: Ibovespa",
     "categoria": "Alerta de mercado",
@@ -4314,20 +4343,5 @@
     "videoUrl": null,
     "tipo": "carrossel",
     "peso": 43
-  },
-  {
-    "data": "2026-07-23T15:32:54.460Z",
-    "titulo": "Mercado amplia apostas em alta de juros nos EUA após escalada da tensão no Oriente Médio e disparada do petróleo",
-    "categoria": "Economia",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/mercado-amplia-apostas-em-alta-de-juros-pelo-fed-apos-escalada-no-oriente-medio-e-disparada-do-petroleo-jcav/",
-    "postId": "18050928998563972",
-    "storyId": null,
-    "reelId": "18050928998563972",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1784820690772.mp4",
-    "tipo": "reel",
-    "peso": 76
   }
 ]
