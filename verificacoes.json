@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-10-06T17:05:30.671Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 10 min."
+  },
+  {
     "data": "2026-10-06T15:44:54.165Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Wall Street sobem com alívio dos Treasuries e petróleo; Nasdaq e S&P 500 renova recordes\".",
@@ -1081,10 +1086,5 @@
     "data": "2026-09-14T08:01:01.910Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (05:01 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-09-14T07:31:02.604Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (04:31 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
