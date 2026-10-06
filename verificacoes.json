@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-10-06T23:11:18.079Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 44 min."
+  },
+  {
     "data": "2026-10-06T22:24:54.733Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Veja os setores da economia que dispararam na bolsa após o 1º turno\".",
@@ -1086,10 +1091,5 @@
     "data": "2026-09-14T09:02:37.561Z",
     "resultado": "erro",
     "mensagem": "Erro na execução automática: Command failed: git push"
-  },
-  {
-    "data": "2026-09-14T09:01:11.372Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 82): \"Bitcoin tenta reagir, mas tomba na semana; veja cotações das criptomoedas neste domingo (13)\". Realizando postagem..."
   }
 ]
