@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-10-06T22:24:54.733Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Veja os setores da economia que dispararam na bolsa após o 1º turno\".",
+    "postId": "18072758507723382",
+    "storyId": null,
+    "reelId": "18072758507723382",
+    "tipo": "reel",
+    "studioQuality": 100
+  },
+  {
+    "data": "2026-10-06T22:21:55.080Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 95): \"Veja os setores da economia que dispararam na bolsa após o 1º turno\". Realizando postagem..."
+  },
+  {
     "data": "2026-10-06T17:05:30.671Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 10 min."
@@ -1076,15 +1091,5 @@
     "data": "2026-09-14T09:01:11.372Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 82): \"Bitcoin tenta reagir, mas tomba na semana; veja cotações das criptomoedas neste domingo (13)\". Realizando postagem..."
-  },
-  {
-    "data": "2026-09-14T08:30:59.790Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (05:30 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-09-14T08:01:01.910Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (05:01 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]

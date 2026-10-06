@@ -1,5 +1,14 @@
 [
   {
+    "titulo": "Veja os setores da economia que dispararam na bolsa após o 1º turno",
+    "link": "https://g1.globo.com/economia/noticia/2026/10/06/setores-da-economia-bolsa-1o-turno.ghtml",
+    "peso": 95,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1791325318655.mp4",
+    "coverUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1791325318655-capa.png",
+    "legendaUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1791325318655-legenda.txt",
+    "data": "2026-10-06T22:24:54.729Z"
+  },
+  {
     "titulo": "Wall Street sobem com alívio dos Treasuries e petróleo; Nasdaq e S&P 500 renova recordes",
     "link": "https://www.moneytimes.com.br/wall-street-abertura-6-10-26-lils/",
     "peso": 93,
@@ -1634,13 +1643,5 @@
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782940120794.mp4",
     "legendaUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782940120794-legenda.txt",
     "data": "2026-07-01T21:10:18.665Z"
-  },
-  {
-    "titulo": "Ibovespa Hoje Ao Vivo: Bolsa tem leve queda, com PETR4; VALE3 sobe",
-    "link": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-01072026/",
-    "peso": 75,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782932518992.mp4",
-    "legendaUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1782932518992-legenda.txt",
-    "data": "2026-07-01T19:03:43.385Z"
   }
 ]

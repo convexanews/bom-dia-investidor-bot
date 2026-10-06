@@ -1,5 +1,34 @@
 [
   {
+    "data": "2026-10-06T22:24:54.731Z",
+    "titulo": "Veja os setores da economia que dispararam na bolsa após o 1º turno",
+    "categoria": "G1",
+    "fonte": "G1 Economia",
+    "link": "https://g1.globo.com/economia/noticia/2026/10/06/setores-da-economia-bolsa-1o-turno.ghtml",
+    "postId": "18072758507723382",
+    "storyId": null,
+    "reelId": "18072758507723382",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1791325318655.mp4",
+    "tipo": "reel",
+    "peso": 95,
+    "pilares": [
+      "macro",
+      "bolsa",
+      "brasil_eleicoes"
+    ],
+    "horarioBRT": "19",
+    "cta": null,
+    "decisaoFormato": "peso 95: reel; Studio Engine 100/100",
+    "studioQuality": {
+      "approved": true,
+      "score": 100,
+      "blockers": [],
+      "warnings": []
+    }
+  },
+  {
     "data": "2026-10-06T15:44:54.163Z",
     "titulo": "Wall Street sobem com alívio dos Treasuries e petróleo; Nasdaq e S&P 500 renova recordes",
     "categoria": "Mercados",
@@ -4328,20 +4357,5 @@
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1784838680387.mp4",
     "tipo": "reel",
     "peso": 106
-  },
-  {
-    "data": "2026-07-23T18:02:46.925Z",
-    "titulo": "Bolsas da Europa têm forte queda com disparada do petróleo e decisão do BCE",
-    "categoria": "Mercados",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/europa-23-7-26-lils/",
-    "postId": "17920512999410762",
-    "storyId": "18030416678822699",
-    "reelId": null,
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784829687828-slide1.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784829687828-story.png",
-    "videoUrl": null,
-    "tipo": "carrossel",
-    "peso": 43
   }
 ]
