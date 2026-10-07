@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-10-07T04:25:06.825Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (01:25 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-10-06T23:11:18.079Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 44 min."
@@ -1086,10 +1091,5 @@
     "data": "2026-09-14T09:31:17.315Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 80): \"Boletim Focus, dados da China, petróleo e mais destaques desta segunda-feira\". Realizando postagem..."
-  },
-  {
-    "data": "2026-09-14T09:02:37.561Z",
-    "resultado": "erro",
-    "mensagem": "Erro na execução automática: Command failed: git push"
   }
 ]
