@@ -1,5 +1,33 @@
 [
   {
+    "data": "2026-10-07T16:09:18.298Z",
+    "titulo": "Mercado se antecipou demais com Flávio? Felipe Salto vê espaço para correção após rali",
+    "categoria": "Economia",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/mercado-se-antecipou-demais-com-flavio-felipe-salto-ve-espaco-para-correcao-apos-rali/",
+    "postId": "18105568454193433",
+    "storyId": null,
+    "reelId": "18105568454193433",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1791389198062.mp4",
+    "tipo": "reel",
+    "peso": 84,
+    "pilares": [
+      "macro",
+      "bolsa"
+    ],
+    "horarioBRT": "13",
+    "cta": null,
+    "decisaoFormato": "peso 84: reel; Studio Engine 100/100",
+    "studioQuality": {
+      "approved": true,
+      "score": 100,
+      "blockers": [],
+      "warnings": []
+    }
+  },
+  {
     "data": "2026-10-06T22:24:54.731Z",
     "titulo": "Veja os setores da economia que dispararam na bolsa após o 1º turno",
     "categoria": "G1",
@@ -4342,20 +4370,5 @@
     "videoUrl": null,
     "tipo": "carrossel",
     "peso": 45
-  },
-  {
-    "data": "2026-07-23T20:32:50.768Z",
-    "titulo": "Wall Street tem forte queda com petróleo a US$ 100; Tesla (TSLA) despenca 14%",
-    "categoria": "Mercados",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/wall-street-23-7-26-lils-2/",
-    "postId": "17936420679088375",
-    "storyId": null,
-    "reelId": "17936420679088375",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1784838680387.mp4",
-    "tipo": "reel",
-    "peso": 106
   }
 ]
