@@ -1,5 +1,34 @@
 [
   {
+    "data": "2026-10-07T22:47:15.951Z",
+    "titulo": "Ibovespa recua aos 204 mil pontos com bancos e Vale (VALE3); dólar volta aos R$ 5,01",
+    "categoria": "Mercados",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/ibovespa-7-10-26-apsa/",
+    "postId": "17993012472051689",
+    "storyId": null,
+    "reelId": "17993012472051689",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1791413084077.mp4",
+    "tipo": "reel",
+    "peso": 94,
+    "pilares": [
+      "macro",
+      "bolsa",
+      "exterior"
+    ],
+    "horarioBRT": "19",
+    "cta": null,
+    "decisaoFormato": "peso 94: reel; Studio Engine 100/100",
+    "studioQuality": {
+      "approved": true,
+      "score": 100,
+      "blockers": [],
+      "warnings": []
+    }
+  },
+  {
     "data": "2026-10-07T16:09:18.298Z",
     "titulo": "Mercado se antecipou demais com Flávio? Felipe Salto vê espaço para correção após rali",
     "categoria": "Economia",
@@ -4355,20 +4384,5 @@
     "videoUrl": null,
     "tipo": "card",
     "peso": 44
-  },
-  {
-    "data": "2026-07-23T22:58:04.710Z",
-    "titulo": "Fed está pronto para elevar os juros nos EUA, avalia Janet Yellen",
-    "categoria": "Economia",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/fed-esta-pronto-para-elevar-os-juros-nos-eua-avalia-janet-yellen-apsa/",
-    "postId": "18184283596395879",
-    "storyId": "18066530552651147",
-    "reelId": null,
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784847408692-slide1.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784847408692-story.png",
-    "videoUrl": null,
-    "tipo": "carrossel",
-    "peso": 45
   }
 ]

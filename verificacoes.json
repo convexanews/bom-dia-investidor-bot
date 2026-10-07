@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-10-07T22:47:15.954Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Ibovespa recua aos 204 mil pontos com bancos e Vale (VALE3); dólar volta aos R$ 5,01\".",
+    "postId": "17993012472051689",
+    "storyId": null,
+    "reelId": "17993012472051689",
+    "tipo": "reel",
+    "studioQuality": 100
+  },
+  {
+    "data": "2026-10-07T22:44:41.097Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 94): \"Ibovespa recua aos 204 mil pontos com bancos e Vale (VALE3); dólar volta aos R$ 5,01\". Realizando postagem..."
+  },
+  {
     "data": "2026-10-07T17:29:54.766Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 10 min."
@@ -1085,16 +1100,5 @@
     "resultado": "pauta_reprovada",
     "mensagem": "Notícia não publicada: manchete longa demais para caber completa no card.",
     "titulo": "Ações de tecnologia pesam nos mercados e investidores digerem nova pesquisa BTG Pactual/Nexus; Ibovespa em dólar cai nesta segunda-feira (14)"
-  },
-  {
-    "data": "2026-09-14T10:31:04.954Z",
-    "resultado": "pauta_reprovada",
-    "mensagem": "Notícia não publicada: manchete longa demais para caber completa no card.",
-    "titulo": "Ações de tecnologia pesam nos mercados e investidores digerem nova pesquisa BTG Pactual/Nexus; Ibovespa em dólar cai nesta segunda-feira (14)"
-  },
-  {
-    "data": "2026-09-14T10:02:45.003Z",
-    "resultado": "erro",
-    "mensagem": "Erro na execução automática: Command failed: git push"
   }
 ]
