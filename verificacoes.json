@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-10-07T17:29:54.766Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 10 min."
+  },
+  {
     "data": "2026-10-07T16:09:18.300Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Mercado se antecipou demais com Flávio? Felipe Salto vê espaço para correção após rali\".",
@@ -1091,10 +1096,5 @@
     "data": "2026-09-14T10:02:45.003Z",
     "resultado": "erro",
     "mensagem": "Erro na execução automática: Command failed: git push"
-  },
-  {
-    "data": "2026-09-14T10:01:08.215Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 80): \"Boletim Focus, dados da China, petróleo e mais destaques desta segunda-feira\". Realizando postagem..."
   }
 ]
