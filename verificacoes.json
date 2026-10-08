@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-10-08T04:36:14.414Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (01:36 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-10-07T23:40:30.481Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 37 min."
@@ -1093,11 +1098,5 @@
     "data": "2026-09-14T12:01:12.681Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 88): \"Economistas projetam inflação mais baixa em 2026 e só mais um corte na Selic; confira o Focus desta segunda-feira (14)\". Realizando postagem..."
-  },
-  {
-    "data": "2026-09-14T11:31:21.099Z",
-    "resultado": "pauta_reprovada",
-    "mensagem": "Notícia não publicada: manchete longa demais para caber completa no card.",
-    "titulo": "Ações de tecnologia pesam nos mercados e investidores digerem nova pesquisa BTG Pactual/Nexus; Ibovespa em dólar cai nesta segunda-feira (14)"
   }
 ]
