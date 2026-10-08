@@ -1,5 +1,33 @@
 [
   {
+    "data": "2026-10-08T23:00:15.558Z",
+    "titulo": "IPCA pode frear os cortes da Selic? Inflação deve superar teto da meta nesta sexta (9)",
+    "categoria": "Economia",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/ipca-pode-frear-os-cortes-da-selic-inflacao-deve-superar-teto-da-meta-nesta-sexta-9/",
+    "postId": "18498590122102793",
+    "storyId": null,
+    "reelId": "18498590122102793",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1791500286870.mp4",
+    "tipo": "reel",
+    "peso": 75,
+    "pilares": [
+      "macro",
+      "bolsa"
+    ],
+    "horarioBRT": "20",
+    "cta": null,
+    "decisaoFormato": "peso 75: reel; Studio Engine 100/100",
+    "studioQuality": {
+      "approved": true,
+      "score": 100,
+      "blockers": [],
+      "warnings": []
+    }
+  },
+  {
     "data": "2026-10-07T22:47:15.951Z",
     "titulo": "Ibovespa recua aos 204 mil pontos com bancos e Vale (VALE3); dólar volta aos R$ 5,01",
     "categoria": "Mercados",
@@ -4369,20 +4397,5 @@
     "videoUrl": null,
     "tipo": "carrossel",
     "peso": 27
-  },
-  {
-    "data": "2026-07-24T09:02:24.618Z",
-    "titulo": "Estados Unidos isentam 471 produtos de nova tarifa de 12,5%; veja lista com os principais itens",
-    "categoria": "Economia",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/estados-unidos-isentam-471-produtos-de-nova-tarifa-de-125-veja-lista-com-os-principais-itens-fets/",
-    "postId": "18109399639994804",
-    "storyId": "18100659929462569",
-    "reelId": null,
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784883703387-feed.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784883703387-story.png",
-    "videoUrl": null,
-    "tipo": "card",
-    "peso": 44
   }
 ]
