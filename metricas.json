@@ -1,7 +1,38 @@
 [
   {
+    "postId": "17993012472051689",
+    "dataColeta": "2026-10-08T17:55:20.560Z",
+    "dataPostagem": "2026-10-07T22:47:15.951Z",
+    "tipo": "reel",
+    "pilares": [
+      "macro",
+      "bolsa",
+      "exterior"
+    ],
+    "peso": 94,
+    "fonte": "Money Times",
+    "titulo": "Ibovespa recua aos 204 mil pontos com bancos e Vale (VALE3); dólar volta aos R$ 5,01",
+    "horarioBRT": "19",
+    "cta": null,
+    "decisaoFormato": "peso 94: reel; Studio Engine 100/100",
+    "insights": {
+      "reach": 12,
+      "saved": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "total_interactions": 0,
+      "falhas": [
+        {
+          "metrica": "plays",
+          "erro": "Instagram respondeu 400"
+        }
+      ]
+    }
+  },
+  {
     "postId": "18105568454193433",
-    "dataColeta": "2026-10-07T17:51:46.647Z",
+    "dataColeta": "2026-10-08T17:55:21.627Z",
     "dataPostagem": "2026-10-07T16:09:18.298Z",
     "tipo": "reel",
     "pilares": [
@@ -15,7 +46,7 @@
     "cta": null,
     "decisaoFormato": "peso 84: reel; Studio Engine 100/100",
     "insights": {
-      "reach": 4,
+      "reach": 15,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -31,7 +62,7 @@
   },
   {
     "postId": "18072758507723382",
-    "dataColeta": "2026-10-07T17:51:47.583Z",
+    "dataColeta": "2026-10-08T17:55:22.938Z",
     "dataPostagem": "2026-10-06T22:24:54.731Z",
     "tipo": "reel",
     "pilares": [
@@ -46,7 +77,7 @@
     "cta": null,
     "decisaoFormato": "peso 95: reel; Studio Engine 100/100",
     "insights": {
-      "reach": 8,
+      "reach": 11,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -62,7 +93,7 @@
   },
   {
     "postId": "18096051884670752",
-    "dataColeta": "2026-10-07T17:51:48.697Z",
+    "dataColeta": "2026-10-08T17:55:24.220Z",
     "dataPostagem": "2026-10-06T15:44:54.163Z",
     "tipo": "reel",
     "pilares": [
@@ -93,7 +124,7 @@
   },
   {
     "postId": "18018316037931898",
-    "dataColeta": "2026-10-07T17:51:49.670Z",
+    "dataColeta": "2026-10-08T17:55:25.322Z",
     "dataPostagem": "2026-10-05T17:56:10.159Z",
     "tipo": "alerta",
     "pilares": [],
@@ -120,7 +151,7 @@
   },
   {
     "postId": "18105967610576253",
-    "dataColeta": "2026-10-07T17:51:50.673Z",
+    "dataColeta": "2026-10-08T17:55:26.431Z",
     "dataPostagem": "2026-10-02T20:52:54.954Z",
     "tipo": "alerta",
     "pilares": [],
@@ -131,7 +162,7 @@
     "cta": null,
     "decisaoFormato": null,
     "insights": {
-      "reach": 17,
+      "reach": 18,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -147,7 +178,7 @@
   },
   {
     "postId": "18070095284770139",
-    "dataColeta": "2026-10-07T17:51:51.572Z",
+    "dataColeta": "2026-10-08T17:55:27.655Z",
     "dataPostagem": "2026-09-30T20:59:44.087Z",
     "tipo": "reel",
     "pilares": [
@@ -177,7 +208,7 @@
   },
   {
     "postId": "18105563180218517",
-    "dataColeta": "2026-10-07T17:51:52.959Z",
+    "dataColeta": "2026-10-08T17:55:28.827Z",
     "dataPostagem": "2026-09-30T16:31:07.170Z",
     "tipo": "reel",
     "pilares": [
@@ -207,7 +238,7 @@
   },
   {
     "postId": "18124864381885779",
-    "dataColeta": "2026-10-07T17:51:54.090Z",
+    "dataColeta": "2026-10-08T17:55:29.958Z",
     "dataPostagem": "2026-09-29T21:56:23.351Z",
     "tipo": "reel",
     "pilares": [
@@ -238,7 +269,7 @@
   },
   {
     "postId": "18116996371985532",
-    "dataColeta": "2026-10-07T17:51:55.528Z",
+    "dataColeta": "2026-10-08T17:55:30.972Z",
     "dataPostagem": "2026-09-29T15:24:58.307Z",
     "tipo": "reel",
     "pilares": [
@@ -268,7 +299,7 @@
   },
   {
     "postId": "18131184052751169",
-    "dataColeta": "2026-10-07T17:51:56.561Z",
+    "dataColeta": "2026-10-08T17:55:32.183Z",
     "dataPostagem": "2026-09-26T18:23:03.256Z",
     "tipo": "reel",
     "pilares": [
@@ -299,7 +330,7 @@
   },
   {
     "postId": "18011117402762568",
-    "dataColeta": "2026-10-07T17:51:57.890Z",
+    "dataColeta": "2026-10-08T17:55:33.615Z",
     "dataPostagem": "2026-09-22T13:57:21.479Z",
     "tipo": "reel",
     "pilares": [
@@ -329,7 +360,7 @@
   },
   {
     "postId": "18410854753081645",
-    "dataColeta": "2026-10-07T17:51:59.046Z",
+    "dataColeta": "2026-10-08T17:55:34.631Z",
     "dataPostagem": "2026-09-21T21:46:11.616Z",
     "tipo": "reel",
     "pilares": [
@@ -360,7 +391,7 @@
   },
   {
     "postId": "17881073505625472",
-    "dataColeta": "2026-10-07T17:52:00.420Z",
+    "dataColeta": "2026-10-08T17:55:35.764Z",
     "dataPostagem": "2026-09-21T15:41:27.154Z",
     "tipo": "alerta",
     "pilares": [],
@@ -387,7 +418,7 @@
   },
   {
     "postId": "18130306408670501",
-    "dataColeta": "2026-10-07T17:52:01.563Z",
+    "dataColeta": "2026-10-08T17:55:36.982Z",
     "dataPostagem": "2026-09-20T18:00:53.621Z",
     "tipo": "reel",
     "pilares": [
@@ -417,7 +448,7 @@
   },
   {
     "postId": "18127775176702881",
-    "dataColeta": "2026-10-07T17:52:02.661Z",
+    "dataColeta": "2026-10-08T17:55:38.159Z",
     "dataPostagem": "2026-09-18T14:38:16.536Z",
     "tipo": "reel",
     "pilares": [
@@ -447,7 +478,7 @@
   },
   {
     "postId": "18110192299869019",
-    "dataColeta": "2026-10-07T17:52:03.851Z",
+    "dataColeta": "2026-10-08T17:55:39.138Z",
     "dataPostagem": "2026-09-17T19:51:12.351Z",
     "tipo": "reel",
     "pilares": [
@@ -478,7 +509,7 @@
   },
   {
     "postId": "17884900779488230",
-    "dataColeta": "2026-10-07T17:52:04.969Z",
+    "dataColeta": "2026-10-08T17:55:40.237Z",
     "dataPostagem": "2026-09-17T14:09:57.606Z",
     "tipo": "reel",
     "pilares": [
@@ -510,7 +541,7 @@
   },
   {
     "postId": "17995323078034410",
-    "dataColeta": "2026-10-07T17:52:06.058Z",
+    "dataColeta": "2026-10-08T17:55:41.317Z",
     "dataPostagem": "2026-09-16T23:35:53.449Z",
     "tipo": "reel",
     "pilares": [
@@ -540,7 +571,7 @@
   },
   {
     "postId": "18579586219068513",
-    "dataColeta": "2026-10-07T17:52:07.082Z",
+    "dataColeta": "2026-10-08T17:55:42.522Z",
     "dataPostagem": "2026-09-16T18:42:05.106Z",
     "tipo": "reel",
     "pilares": [
@@ -569,7 +600,7 @@
   },
   {
     "postId": "17987922207117329",
-    "dataColeta": "2026-10-07T17:52:08.364Z",
+    "dataColeta": "2026-10-08T17:55:43.640Z",
     "dataPostagem": "2026-09-16T14:05:43.801Z",
     "tipo": "reel",
     "pilares": [
@@ -599,7 +630,7 @@
   },
   {
     "postId": "18114176186045758",
-    "dataColeta": "2026-10-07T17:52:09.493Z",
+    "dataColeta": "2026-10-08T17:55:44.742Z",
     "dataPostagem": "2026-09-15T23:28:16.317Z",
     "tipo": "reel",
     "pilares": [
@@ -629,7 +660,7 @@
   },
   {
     "postId": "17946190170280963",
-    "dataColeta": "2026-10-07T17:52:10.673Z",
+    "dataColeta": "2026-10-08T17:55:45.772Z",
     "dataPostagem": "2026-09-11T19:04:33.139Z",
     "tipo": "reel",
     "pilares": [
@@ -659,7 +690,7 @@
   },
   {
     "postId": "18133103428655061",
-    "dataColeta": "2026-10-07T17:52:13.057Z",
+    "dataColeta": "2026-10-08T17:55:46.976Z",
     "dataPostagem": "2026-09-11T17:05:09.246Z",
     "tipo": "reel",
     "pilares": [
@@ -689,7 +720,7 @@
   },
   {
     "postId": "18380136685234968",
-    "dataColeta": "2026-10-07T17:52:14.275Z",
+    "dataColeta": "2026-10-08T17:55:48.076Z",
     "dataPostagem": "2026-09-11T14:04:19.511Z",
     "tipo": "reel",
     "pilares": [
@@ -709,36 +740,6 @@
       "comments": 0,
       "likes": 0,
       "total_interactions": 0,
-      "falhas": [
-        {
-          "metrica": "plays",
-          "erro": "Instagram respondeu 400"
-        }
-      ]
-    }
-  },
-  {
-    "postId": "17947490109057196",
-    "dataColeta": "2026-10-07T17:52:15.413Z",
-    "dataPostagem": "2026-09-11T11:03:58.307Z",
-    "tipo": "reel",
-    "pilares": [
-      "macro",
-      "bolsa"
-    ],
-    "peso": 71,
-    "fonte": "InfoMoney",
-    "titulo": "Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta sexta",
-    "horarioBRT": "08",
-    "cta": null,
-    "decisaoFormato": "peso 71: reel; Studio Engine 100/100",
-    "insights": {
-      "reach": 13,
-      "saved": 0,
-      "shares": 0,
-      "comments": 0,
-      "likes": 1,
-      "total_interactions": 1,
       "falhas": [
         {
           "metrica": "plays",
