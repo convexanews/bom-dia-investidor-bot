@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-10-08T23:50:35.364Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 40 min."
+  },
+  {
     "data": "2026-10-08T23:00:15.561Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"IPCA pode frear os cortes da Selic? Inflação deve superar teto da meta nesta sexta (9)\".",
@@ -1096,11 +1101,6 @@
   },
   {
     "data": "2026-09-14T13:31:26.636Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-09-14T13:01:10.037Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }
