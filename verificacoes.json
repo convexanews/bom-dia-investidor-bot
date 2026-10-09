@@ -1,5 +1,11 @@
 [
   {
+    "data": "2026-10-09T22:17:15.643Z",
+    "resultado": "pauta_reprovada",
+    "mensagem": "Notícia não publicada: manchete longa demais para caber completa no card.",
+    "titulo": "Ibovespa tem duplo recorde aos 209 mil pontos e avança quase 9% na semana após 1º turno; dólar cai e fica abaixo de R$ 5"
+  },
+  {
     "data": "2026-10-09T17:07:41.705Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 16 min."
@@ -1103,10 +1109,5 @@
     "data": "2026-09-14T15:02:28.611Z",
     "resultado": "erro",
     "mensagem": "Erro na execução automática: Command failed: git push"
-  },
-  {
-    "data": "2026-09-14T15:01:07.881Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 77): \"Ibovespa cai e dólar sobe com aversão global ao risco e crise no STF no radar\". Realizando postagem..."
   }
 ]
