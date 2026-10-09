@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-10-09T17:07:41.705Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 16 min."
+  },
+  {
     "data": "2026-10-09T15:53:25.643Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"‘Efeito Flávio’ continua a fazer preço e Ibovespa renova recorde aos 209 mil pontos\".",
@@ -1103,10 +1108,5 @@
     "data": "2026-09-14T15:01:07.881Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 77): \"Ibovespa cai e dólar sobe com aversão global ao risco e crise no STF no radar\". Realizando postagem..."
-  },
-  {
-    "data": "2026-09-14T14:33:01.742Z",
-    "resultado": "erro",
-    "mensagem": "Erro na execução automática: Command failed: git push"
   }
 ]
