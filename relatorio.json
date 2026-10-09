@@ -1,5 +1,34 @@
 [
   {
+    "data": "2026-10-09T15:53:25.640Z",
+    "titulo": "‘Efeito Flávio’ continua a fazer preço e Ibovespa renova recorde aos 209 mil pontos",
+    "categoria": "Mercados",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/efeito-flavio-continua-a-fazer-preco-e-ibovespa-renova-recorde-aos-209-mil-pontos-llils/",
+    "postId": "18094261319349406",
+    "storyId": null,
+    "reelId": "18094261319349406",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1791561024253.mp4",
+    "tipo": "reel",
+    "peso": 76,
+    "pilares": [
+      "macro",
+      "bolsa",
+      "exterior"
+    ],
+    "horarioBRT": "12",
+    "cta": null,
+    "decisaoFormato": "peso 76: reel; Studio Engine 100/100",
+    "studioQuality": {
+      "approved": true,
+      "score": 100,
+      "blockers": [],
+      "warnings": []
+    }
+  },
+  {
     "data": "2026-10-08T23:00:15.558Z",
     "titulo": "IPCA pode frear os cortes da Selic? Inflação deve superar teto da meta nesta sexta (9)",
     "categoria": "Economia",
@@ -4382,20 +4411,5 @@
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1784901694467.mp4",
     "tipo": "reel",
     "peso": 68
-  },
-  {
-    "data": "2026-07-24T11:32:22.848Z",
-    "titulo": "Fundo imobiliário eleva projeção de dividendos para o 3T26; IFIX cai pelo 4º dia seguido",
-    "categoria": "Economia",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/fundo-imobiliario-eleva-projecao-de-dividendos-para-o-3t26-ifix-cai-pelo-seguido-igdl/",
-    "postId": "17973247020096016",
-    "storyId": "17898532437519845",
-    "reelId": null,
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784892668632-slide1.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784892668632-story.png",
-    "videoUrl": null,
-    "tipo": "carrossel",
-    "peso": 27
   }
 ]
