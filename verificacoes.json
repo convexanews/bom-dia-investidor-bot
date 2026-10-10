@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-10-10T04:25:09.096Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (01:25 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-10-09T23:24:16.021Z",
     "resultado": "pauta_reprovada",
     "mensagem": "Notícia não publicada: manchete longa demais para caber completa no card.",
@@ -1105,10 +1110,5 @@
     "data": "2026-09-14T15:32:14.980Z",
     "resultado": "erro",
     "mensagem": "Erro na execução automática: Command failed: git push"
-  },
-  {
-    "data": "2026-09-14T15:31:00.269Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 77): \"Ibovespa cai e dólar sobe com aversão global ao risco e crise no STF no radar\". Realizando postagem..."
   }
 ]
