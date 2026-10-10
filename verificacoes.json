@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-10-10T15:56:08.108Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
     "data": "2026-10-10T15:03:33.064Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1105,10 +1110,5 @@
     "data": "2026-09-14T15:42:14.330Z",
     "resultado": "erro",
     "mensagem": "Erro na execução automática: Command failed: git push"
-  },
-  {
-    "data": "2026-09-14T15:40:52.036Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 77): \"Ibovespa cai e dólar sobe com aversão global ao risco e crise no STF no radar\". Realizando postagem..."
   }
 ]
