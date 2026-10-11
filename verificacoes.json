@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-10-11T04:07:05.236Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (01:07 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-10-11T01:07:20.945Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1105,10 +1110,5 @@
     "data": "2026-09-14T20:24:30.557Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 75): \"Ibovespa recua com exterior e cenário político; dólar sobe a R$ 5,14\". Realizando postagem..."
-  },
-  {
-    "data": "2026-09-14T16:26:35.070Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }
 ]
