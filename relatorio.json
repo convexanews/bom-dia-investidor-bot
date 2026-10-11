@@ -1,5 +1,35 @@
 [
   {
+    "data": "2026-10-11T15:23:17.043Z",
+    "titulo": "FMI alerta: disparadas e choques de preços podem ser mais frequentes e afetar inflação por anos",
+    "categoria": "G1",
+    "fonte": "G1 Economia",
+    "link": "https://g1.globo.com/economia/noticia/2026/10/11/fmi-alerta-disparadas-e-choques-de-precos-podem-ser-mais-frequentes-e-afetar-inflacao-por-anos.ghtml",
+    "postId": "18109869248231887",
+    "storyId": null,
+    "reelId": "18109869248231887",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1791732053583.mp4",
+    "tipo": "reel",
+    "peso": 71,
+    "pilares": [
+      "macro",
+      "bolsa",
+      "fiis",
+      "mundo_empresas"
+    ],
+    "horarioBRT": "12",
+    "cta": null,
+    "decisaoFormato": "peso 71: reel; Studio Engine 100/100",
+    "studioQuality": {
+      "approved": true,
+      "score": 100,
+      "blockers": [],
+      "warnings": []
+    }
+  },
+  {
     "data": "2026-10-09T15:53:25.640Z",
     "titulo": "‘Efeito Flávio’ continua a fazer preço e Ibovespa renova recorde aos 209 mil pontos",
     "categoria": "Mercados",
@@ -4396,20 +4426,5 @@
     "videoUrl": null,
     "tipo": "carrossel",
     "peso": 49
-  },
-  {
-    "data": "2026-07-24T14:02:45.845Z",
-    "titulo": "Ibovespa Hoje Ao Vivo: Bolsa cai com nova tarifa dos EUA sobre o Brasil",
-    "categoria": "Mercados",
-    "fonte": "InfoMoney",
-    "link": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-24072026/",
-    "postId": "18601549957043005",
-    "storyId": null,
-    "reelId": "18601549957043005",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1784901694467.mp4",
-    "tipo": "reel",
-    "peso": 68
   }
 ]

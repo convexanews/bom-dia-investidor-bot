@@ -1,5 +1,14 @@
 [
   {
+    "titulo": "FMI alerta: disparadas e choques de preços podem ser mais frequentes e afetar inflação por anos",
+    "link": "https://g1.globo.com/economia/noticia/2026/10/11/fmi-alerta-disparadas-e-choques-de-precos-podem-ser-mais-frequentes-e-afetar-inflacao-por-anos.ghtml",
+    "peso": 71,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1791732053583.mp4",
+    "coverUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1791732053583-capa.png",
+    "legendaUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1791732053583-legenda.txt",
+    "data": "2026-10-11T15:23:17.041Z"
+  },
+  {
     "titulo": "‘Efeito Flávio’ continua a fazer preço e Ibovespa renova recorde aos 209 mil pontos",
     "link": "https://www.moneytimes.com.br/efeito-flavio-continua-a-fazer-preco-e-ibovespa-renova-recorde-aos-209-mil-pontos-llils/",
     "peso": 76,
@@ -1639,13 +1648,5 @@
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783096120072.mp4",
     "legendaUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783096120072-legenda.txt",
     "data": "2026-07-03T16:30:13.341Z"
-  },
-  {
-    "titulo": "Feriado nos EUA, indústria no Brasil, PMIs e mais destaques desta sexta",
-    "link": "https://www.infomoney.com.br/mercados/feriado-eua-industria-brasil-pmis-03072026/",
-    "peso": 93,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783069327956.mp4",
-    "legendaUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783069327956-legenda.txt",
-    "data": "2026-07-03T09:04:00.977Z"
   }
 ]
