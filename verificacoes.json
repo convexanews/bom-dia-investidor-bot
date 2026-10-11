@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-10-11T16:23:32.819Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 30 min."
+  },
+  {
     "data": "2026-10-11T15:23:17.046Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"FMI alerta: disparadas e choques de preços podem ser mais frequentes e afetar inflação por anos\".",
@@ -1110,10 +1115,5 @@
     "data": "2026-09-14T21:32:18.214Z",
     "resultado": "erro",
     "mensagem": "Erro na execução automática: Command failed: git push"
-  },
-  {
-    "data": "2026-09-14T21:30:36.502Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 80): \"Ibovespa fecha em queda, com exterior, IA e eleições em foco; Vale despenca 3%\". Realizando postagem..."
   }
 ]
