@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-10-10T16:18:12.829Z",
+  "atualizadoEm": "2026-10-11T16:41:25.445Z",
   "porFormato": {
     "reel": {
       "posts": 22,
@@ -29,19 +29,35 @@
     },
     "bolsa": {
       "posts": 19,
-      "alcanceMedio": 12,
+      "alcanceMedio": 13,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
       "taxaInteracaoMedia": 0
     },
-    "exterior": {
-      "posts": 6,
+    "fiis": {
+      "posts": 1,
+      "alcanceMedio": 6,
+      "salvamentosMedios": 0,
+      "compartilhamentosMedios": 0,
+      "reproducoesMedias": null,
+      "taxaInteracaoMedia": 0
+    },
+    "mundo_empresas": {
+      "posts": 4,
       "alcanceMedio": 11,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
       "taxaInteracaoMedia": 9.09
+    },
+    "exterior": {
+      "posts": 6,
+      "alcanceMedio": 12,
+      "salvamentosMedios": 0,
+      "compartilhamentosMedios": 0,
+      "reproducoesMedias": null,
+      "taxaInteracaoMedia": 8.33
     },
     "brasil_eleicoes": {
       "posts": 2,
@@ -50,14 +66,6 @@
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
       "taxaInteracaoMedia": 7.14
-    },
-    "mundo_empresas": {
-      "posts": 3,
-      "alcanceMedio": 12,
-      "salvamentosMedios": 0,
-      "compartilhamentosMedios": 0,
-      "reproducoesMedias": null,
-      "taxaInteracaoMedia": 8.33
     },
     "renda_fixa": {
       "posts": 2,
@@ -86,8 +94,8 @@
       "taxaInteracaoMedia": 0
     },
     "12": {
-      "posts": 3,
-      "alcanceMedio": 10,
+      "posts": 4,
+      "alcanceMedio": 9,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
@@ -95,11 +103,11 @@
     },
     "13": {
       "posts": 2,
-      "alcanceMedio": 15,
+      "alcanceMedio": 16,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
-      "taxaInteracaoMedia": 6.67
+      "taxaInteracaoMedia": 6.25
     },
     "15": {
       "posts": 3,
@@ -110,7 +118,7 @@
       "taxaInteracaoMedia": 0
     },
     "16": {
-      "posts": 2,
+      "posts": 1,
       "alcanceMedio": 10,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
@@ -135,15 +143,15 @@
     },
     "19": {
       "posts": 2,
-      "alcanceMedio": 13,
+      "alcanceMedio": 14,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
-      "taxaInteracaoMedia": 7.69
+      "taxaInteracaoMedia": 7.14
     },
     "20": {
       "posts": 3,
-      "alcanceMedio": 10,
+      "alcanceMedio": 11,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
@@ -161,7 +169,7 @@
   "porCTA": {
     "não informado": {
       "posts": 25,
-      "alcanceMedio": 12,
+      "alcanceMedio": 13,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
