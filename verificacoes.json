@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-10-11T20:27:55.816Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
     "data": "2026-10-11T16:23:32.819Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 30 min."
@@ -1110,10 +1115,5 @@
     "data": "2026-09-15T00:46:25.161Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 73): \"Por que o Bank of America reforça venda dessas duas ações mesmo com disparada das commodities? Um fator é decisivo\". Realizando postagem..."
-  },
-  {
-    "data": "2026-09-14T21:32:18.214Z",
-    "resultado": "erro",
-    "mensagem": "Erro na execução automática: Command failed: git push"
   }
 ]
