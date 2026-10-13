@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-10-13T16:44:09.668Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
     "data": "2026-10-13T03:06:52.573Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (00:06 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1110,10 +1115,5 @@
     "data": "2026-09-15T23:25:10.058Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 70): \"Ibovespa volta a subir de olho em STF, Fed e Copom: dólar avança para R$ 5,15\". Realizando postagem..."
-  },
-  {
-    "data": "2026-09-15T19:46:26.453Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }
 ]
