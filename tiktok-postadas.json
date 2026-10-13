@@ -1,5 +1,14 @@
 [
   {
+    "titulo": "Wall Street tem dia negativo com liquidação de ações de chips e temporada de balanços em foco",
+    "link": "https://www.moneytimes.com.br/wall-street-13-10-26-lils/",
+    "peso": 74,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1791929933504.mp4",
+    "coverUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1791929933504-capa.png",
+    "legendaUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1791929933504-legenda.txt",
+    "data": "2026-10-13T22:20:58.986Z"
+  },
+  {
     "titulo": "FMI alerta: disparadas e choques de preços podem ser mais frequentes e afetar inflação por anos",
     "link": "https://g1.globo.com/economia/noticia/2026/10/11/fmi-alerta-disparadas-e-choques-de-precos-podem-ser-mais-frequentes-e-afetar-inflacao-por-anos.ghtml",
     "peso": 71,
@@ -1640,13 +1649,5 @@
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783171919590.mp4",
     "legendaUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783171919590-legenda.txt",
     "data": "2026-07-04T13:33:35.324Z"
-  },
-  {
-    "titulo": "Bolsa brasileira segue sem gatilhos para subir; juros nos EUA e fluxo para IA pesam sobre mercado, diz Bank of America",
-    "link": "https://www.moneytimes.com.br/bolsa-brasileira-segue-sem-gatilhos-para-subir-juros-nos-eua-e-fluxo-para-ia-pesam-sobre-mercado-diz-bank-of-america/",
-    "peso": 61,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783096120072.mp4",
-    "legendaUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783096120072-legenda.txt",
-    "data": "2026-07-03T16:30:13.341Z"
   }
 ]
