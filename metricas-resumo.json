@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-10-12T20:21:47.396Z",
+  "atualizadoEm": "2026-10-13T18:24:13.671Z",
   "porFormato": {
     "reel": {
       "posts": 22,
@@ -37,7 +37,7 @@
     },
     "fiis": {
       "posts": 1,
-      "alcanceMedio": 15,
+      "alcanceMedio": 16,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
@@ -45,11 +45,11 @@
     },
     "mundo_empresas": {
       "posts": 4,
-      "alcanceMedio": 13,
+      "alcanceMedio": 14,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
-      "taxaInteracaoMedia": 7.69
+      "taxaInteracaoMedia": 7.14
     },
     "exterior": {
       "posts": 6,
@@ -95,7 +95,7 @@
     },
     "12": {
       "posts": 4,
-      "alcanceMedio": 12,
+      "alcanceMedio": 13,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
