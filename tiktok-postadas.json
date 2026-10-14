@@ -1,5 +1,14 @@
 [
   {
+    "titulo": "Inflação dos EUA pressiona e Ibovespa tem leve queda; dólar sobe a R$ 5,02",
+    "link": "https://www.moneytimes.com.br/ibovespa-14-10-26-lils/",
+    "peso": 74,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1792021346077.mp4",
+    "coverUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1792021346077-capa.png",
+    "legendaUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1792021346077-legenda.txt",
+    "data": "2026-10-14T23:44:49.497Z"
+  },
+  {
     "titulo": "Inflação dos EUA reacende alerta para o Fed, dizem economistas",
     "link": "https://www.moneytimes.com.br/inflacao-dos-eua-reacende-alerta-para-o-fed-dizem-economistas/",
     "peso": 78,
@@ -1642,13 +1651,5 @@
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783328531568.mp4",
     "legendaUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783328531568-legenda.txt",
     "data": "2026-07-06T09:03:39.253Z"
-  },
-  {
-    "titulo": "Dólar fecha estável na semana,  mas gráfico alerta para \"muralha\" de baixa",
-    "link": "https://br.investing.com/news/forex-news/dolar-fecha-estavel-na-semana--mas-grafico-alerta-para-muralha-de-baixa-1992004",
-    "peso": 33,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783296129123.mp4",
-    "legendaUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783296129123-legenda.txt",
-    "data": "2026-07-06T00:03:15.369Z"
   }
 ]

@@ -1,5 +1,34 @@
 [
   {
+    "data": "2026-10-14T23:44:49.499Z",
+    "titulo": "Inflação dos EUA pressiona e Ibovespa tem leve queda; dólar sobe a R$ 5,02",
+    "categoria": "Mercados",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/ibovespa-14-10-26-lils/",
+    "postId": "18198452518384439",
+    "storyId": null,
+    "reelId": "18198452518384439",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1792021346077.mp4",
+    "tipo": "reel",
+    "peso": 74,
+    "pilares": [
+      "macro",
+      "bolsa",
+      "exterior"
+    ],
+    "horarioBRT": "20",
+    "cta": null,
+    "decisaoFormato": "peso 74: reel; Studio Engine 100/100",
+    "studioQuality": {
+      "approved": true,
+      "score": 100,
+      "blockers": [],
+      "warnings": []
+    }
+  },
+  {
     "data": "2026-10-14T14:23:18.895Z",
     "titulo": "Inflação dos EUA reacende alerta para o Fed, dizem economistas",
     "categoria": "Economia",
@@ -4439,20 +4468,5 @@
     "videoUrl": null,
     "tipo": "carrossel",
     "peso": 41
-  },
-  {
-    "data": "2026-07-24T21:32:55.841Z",
-    "titulo": "Ibovespa cai 1,52% com Petrobras (PETR4), Vale (VALE3) e bancos em baixa",
-    "categoria": "Mercado Financeiro",
-    "fonte": "Suno",
-    "link": "https://www.suno.com.br/noticias/ibovespa-hoje-24-julho-2026-petr4-vale3-mt/",
-    "postId": "18116084479902377",
-    "storyId": null,
-    "reelId": "18116084479902377",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1784928684924.mp4",
-    "tipo": "reel",
-    "peso": 62
   }
 ]
