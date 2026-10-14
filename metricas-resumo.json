@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-10-13T18:24:13.671Z",
+  "atualizadoEm": "2026-10-14T15:52:37.258Z",
   "porFormato": {
     "reel": {
       "posts": 22,
@@ -21,14 +21,30 @@
   "porPilar": {
     "macro": {
       "posts": 21,
-      "alcanceMedio": 13,
+      "alcanceMedio": 12,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
       "taxaInteracaoMedia": 0
     },
     "bolsa": {
-      "posts": 19,
+      "posts": 20,
+      "alcanceMedio": 13,
+      "salvamentosMedios": 0,
+      "compartilhamentosMedios": 0,
+      "reproducoesMedias": null,
+      "taxaInteracaoMedia": 0
+    },
+    "exterior": {
+      "posts": 7,
+      "alcanceMedio": 12,
+      "salvamentosMedios": 0,
+      "compartilhamentosMedios": 0,
+      "reproducoesMedias": null,
+      "taxaInteracaoMedia": 0
+    },
+    "mundo_empresas": {
+      "posts": 5,
       "alcanceMedio": 13,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
@@ -43,22 +59,6 @@
       "reproducoesMedias": null,
       "taxaInteracaoMedia": 0
     },
-    "mundo_empresas": {
-      "posts": 4,
-      "alcanceMedio": 14,
-      "salvamentosMedios": 0,
-      "compartilhamentosMedios": 0,
-      "reproducoesMedias": null,
-      "taxaInteracaoMedia": 7.14
-    },
-    "exterior": {
-      "posts": 6,
-      "alcanceMedio": 12,
-      "salvamentosMedios": 0,
-      "compartilhamentosMedios": 0,
-      "reproducoesMedias": null,
-      "taxaInteracaoMedia": 8.33
-    },
     "brasil_eleicoes": {
       "posts": 2,
       "alcanceMedio": 15,
@@ -68,7 +68,7 @@
       "taxaInteracaoMedia": 6.67
     },
     "renda_fixa": {
-      "posts": 2,
+      "posts": 1,
       "alcanceMedio": 10,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
@@ -87,7 +87,7 @@
     },
     "11": {
       "posts": 3,
-      "alcanceMedio": 11,
+      "alcanceMedio": 8,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
@@ -142,16 +142,16 @@
       "taxaInteracaoMedia": 7.14
     },
     "19": {
-      "posts": 2,
-      "alcanceMedio": 15,
+      "posts": 3,
+      "alcanceMedio": 13,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
-      "taxaInteracaoMedia": 6.67
+      "taxaInteracaoMedia": 0
     },
     "20": {
-      "posts": 3,
-      "alcanceMedio": 11,
+      "posts": 2,
+      "alcanceMedio": 10,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
