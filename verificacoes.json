@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-10-15T19:58:01.788Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 28 min."
+  },
+  {
     "data": "2026-10-15T18:55:52.530Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Preocupações com crédito de IA levam seguro contra calote para nível recorde\".",
@@ -1105,15 +1110,5 @@
     "data": "2026-09-17T23:23:33.398Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 74): \"Fed sobe juros: o que a história diz sobre as bolsas daqui para frente, segundo o Citi\". Realizando postagem..."
-  },
-  {
-    "data": "2026-09-17T19:51:12.353Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Tesouro Direto hoje: Taxas disparam após reajuste do Bolsa Família e títulos param de negociar; confira\".",
-    "postId": "18110192299869019",
-    "storyId": null,
-    "reelId": "18110192299869019",
-    "tipo": "reel",
-    "studioQuality": 100
   }
 ]
