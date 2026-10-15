@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-10-15T00:42:43.337Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 33 min."
+  },
+  {
     "data": "2026-10-14T23:44:49.501Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Inflação dos EUA pressiona e Ibovespa tem leve queda; dólar sobe a R$ 5,02\".",
@@ -1105,10 +1110,5 @@
     "data": "2026-09-17T03:31:04.243Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (00:31 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-09-17T00:45:34.588Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 21 min."
   }
 ]
