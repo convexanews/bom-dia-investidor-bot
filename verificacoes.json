@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-10-15T14:00:27.182Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Localiza (RENT3) dispara no radar do Citi: banco eleva preço-alvo, mas faz alerta\".",
+    "postId": "17880151338549132",
+    "storyId": null,
+    "reelId": "17880151338549132",
+    "tipo": "reel",
+    "studioQuality": 100
+  },
+  {
+    "data": "2026-10-15T13:57:54.785Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 76): \"Localiza (RENT3) dispara no radar do Citi: banco eleva preço-alvo, mas faz alerta\". Realizando postagem..."
+  },
+  {
     "data": "2026-10-15T03:17:07.109Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (00:17 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1095,20 +1110,5 @@
     "data": "2026-09-17T15:09:34.492Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 31 min."
-  },
-  {
-    "data": "2026-09-17T14:09:57.608Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Wall Street avança após ‘sell-off’ com Fed; tecnologia lidera ganhos\".",
-    "postId": "17884900779488230",
-    "storyId": null,
-    "reelId": "17884900779488230",
-    "tipo": "reel",
-    "studioQuality": 100
-  },
-  {
-    "data": "2026-09-17T14:07:04.205Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 84): \"Wall Street avança após ‘sell-off’ com Fed; tecnologia lidera ganhos\". Realizando postagem..."
   }
 ]

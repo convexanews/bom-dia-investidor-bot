@@ -1,5 +1,33 @@
 [
   {
+    "data": "2026-10-15T14:00:27.180Z",
+    "titulo": "Localiza (RENT3) dispara no radar do Citi: banco eleva preço-alvo, mas faz alerta",
+    "categoria": "Empresas",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/localiza-rent3-dispara-no-radar-do-citi-banco-eleva-preco-alvo-mas-faz-alerta/",
+    "postId": "17880151338549132",
+    "storyId": null,
+    "reelId": "17880151338549132",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1792072679919.mp4",
+    "tipo": "reel",
+    "peso": 76,
+    "pilares": [
+      "macro",
+      "bolsa"
+    ],
+    "horarioBRT": "11",
+    "cta": null,
+    "decisaoFormato": "peso 76: reel; Studio Engine 100/100",
+    "studioQuality": {
+      "approved": true,
+      "score": 100,
+      "blockers": [],
+      "warnings": []
+    }
+  },
+  {
     "data": "2026-10-14T23:44:49.499Z",
     "titulo": "Inflação dos EUA pressiona e Ibovespa tem leve queda; dólar sobe a R$ 5,02",
     "categoria": "Mercados",
@@ -4453,20 +4481,5 @@
     "videoUrl": null,
     "tipo": "card",
     "peso": 15
-  },
-  {
-    "data": "2026-07-25T00:03:14.764Z",
-    "titulo": "SNID11 fecha em forte alta de 1,4% após pagamento de dividendos",
-    "categoria": "FIIs",
-    "fonte": "Suno",
-    "link": "https://www.suno.com.br/noticias/snid11-fecha-em-forte-alta-de-14-apos-pagamento-de-dividendos/",
-    "postId": "18450132373184302",
-    "storyId": "18119102467819905",
-    "reelId": null,
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784937699595-slide1.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1784937699595-story.png",
-    "videoUrl": null,
-    "tipo": "carrossel",
-    "peso": 41
   }
 ]

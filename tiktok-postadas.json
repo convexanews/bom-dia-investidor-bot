@@ -1,5 +1,14 @@
 [
   {
+    "titulo": "Localiza (RENT3) dispara no radar do Citi: banco eleva preço-alvo, mas faz alerta",
+    "link": "https://www.moneytimes.com.br/localiza-rent3-dispara-no-radar-do-citi-banco-eleva-preco-alvo-mas-faz-alerta/",
+    "peso": 76,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1792072679919.mp4",
+    "coverUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1792072679919-capa.png",
+    "legendaUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1792072679919-legenda.txt",
+    "data": "2026-10-15T14:00:27.177Z"
+  },
+  {
     "titulo": "Inflação dos EUA pressiona e Ibovespa tem leve queda; dólar sobe a R$ 5,02",
     "link": "https://www.moneytimes.com.br/ibovespa-14-10-26-lils/",
     "peso": 74,
@@ -1643,13 +1652,5 @@
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783341095692.mp4",
     "legendaUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783341095692-legenda.txt",
     "data": "2026-07-06T12:33:27.875Z"
-  },
-  {
-    "titulo": "Boletim Focus, ISM de serviços e falas do Fed movimentam a agenda desta segunda",
-    "link": "https://www.infomoney.com.br/mercados/focus-servicos-eua-falas-fed-06072026/",
-    "peso": 80,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783328531568.mp4",
-    "legendaUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783328531568-legenda.txt",
-    "data": "2026-07-06T09:03:39.253Z"
   }
 ]
