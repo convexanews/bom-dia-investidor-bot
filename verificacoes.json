@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-10-15T03:17:07.109Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (00:17 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-10-15T00:42:43.337Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 33 min."
@@ -1105,10 +1110,5 @@
     "data": "2026-09-17T14:07:04.205Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 84): \"Wall Street avança após ‘sell-off’ com Fed; tecnologia lidera ganhos\". Realizando postagem..."
-  },
-  {
-    "data": "2026-09-17T03:31:04.243Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (00:31 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
