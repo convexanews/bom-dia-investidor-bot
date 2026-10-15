@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-10-15T15:12:02.350Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 19 min."
+  },
+  {
     "data": "2026-10-15T14:00:27.182Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Localiza (RENT3) dispara no radar do Citi: banco eleva preço-alvo, mas faz alerta\".",
@@ -1105,10 +1110,5 @@
     "data": "2026-09-17T18:49:41.316Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-09-17T15:09:34.492Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 31 min."
   }
 ]
