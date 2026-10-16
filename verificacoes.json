@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-10-16T23:15:45.151Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
     "data": "2026-10-16T19:38:05.233Z",
     "resultado": "pauta_reprovada",
     "mensagem": "Notícia não publicada: manchete longa demais para caber completa no card.",
@@ -1105,11 +1110,6 @@
   },
   {
     "data": "2026-09-18T19:06:41.008Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-09-18T18:05:35.714Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }
