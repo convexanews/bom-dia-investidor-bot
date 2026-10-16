@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-10-16T00:32:35.484Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
     "data": "2026-10-15T23:33:34.831Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1105,10 +1110,5 @@
     "data": "2026-09-18T00:35:34.900Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 74): \"Fed sobe juros: o que a história diz sobre as bolsas daqui para frente, segundo o Citi\". Realizando postagem..."
-  },
-  {
-    "data": "2026-09-17T23:23:55.974Z",
-    "resultado": "erro",
-    "mensagem": "Erro na execução automática: Narração bloqueada: texto aparenta estar em espanhol."
   }
 ]
