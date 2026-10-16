@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-10-16T14:58:10.375Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 20 min."
+  },
+  {
     "data": "2026-10-16T13:47:53.582Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Wall Street tem tom misto com pressão ‘tech’ e Fed\".",
@@ -1110,10 +1115,5 @@
     "data": "2026-09-18T14:35:38.823Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 114): \"Selic pode cair mais mesmo com Fed subindo juros; veja as projeções do Bradesco para os juros\". Realizando postagem..."
-  },
-  {
-    "data": "2026-09-18T13:24:22.697Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }
 ]
