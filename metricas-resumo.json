@@ -1,9 +1,9 @@
 {
-  "atualizadoEm": "2026-10-15T15:40:01.947Z",
+  "atualizadoEm": "2026-10-16T15:25:16.158Z",
   "porFormato": {
     "reel": {
       "posts": 22,
-      "alcanceMedio": 13,
+      "alcanceMedio": 12,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
@@ -29,7 +29,7 @@
     },
     "bolsa": {
       "posts": 21,
-      "alcanceMedio": 13,
+      "alcanceMedio": 12,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
@@ -37,15 +37,15 @@
     },
     "exterior": {
       "posts": 8,
-      "alcanceMedio": 11,
+      "alcanceMedio": 10,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
       "taxaInteracaoMedia": 0
     },
     "mundo_empresas": {
-      "posts": 5,
-      "alcanceMedio": 13,
+      "posts": 6,
+      "alcanceMedio": 10,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
@@ -66,28 +66,20 @@
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
       "taxaInteracaoMedia": 6.67
-    },
-    "renda_fixa": {
-      "posts": 1,
-      "alcanceMedio": 10,
-      "salvamentosMedios": 0,
-      "compartilhamentosMedios": 0,
-      "reproducoesMedias": null,
-      "taxaInteracaoMedia": 0
     }
   },
   "porHorarioBRT": {
     "10": {
-      "posts": 1,
-      "alcanceMedio": 14,
+      "posts": 2,
+      "alcanceMedio": 7,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
       "taxaInteracaoMedia": 0
     },
     "11": {
-      "posts": 4,
-      "alcanceMedio": 9,
+      "posts": 3,
+      "alcanceMedio": 11,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
@@ -110,15 +102,7 @@
       "taxaInteracaoMedia": 5.88
     },
     "15": {
-      "posts": 2,
-      "alcanceMedio": 14,
-      "salvamentosMedios": 0,
-      "compartilhamentosMedios": 0,
-      "reproducoesMedias": null,
-      "taxaInteracaoMedia": 7.14
-    },
-    "16": {
-      "posts": 1,
+      "posts": 3,
       "alcanceMedio": 10,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
