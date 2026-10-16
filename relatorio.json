@@ -1,5 +1,35 @@
 [
   {
+    "data": "2026-10-16T13:47:53.579Z",
+    "titulo": "Wall Street tem tom misto com pressão ‘tech’ e Fed",
+    "categoria": "Mercados",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/wall-street-abertura-16-10-26-lils/",
+    "postId": "18063178151538202",
+    "storyId": null,
+    "reelId": "18063178151538202",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1792158331194.mp4",
+    "tipo": "reel",
+    "peso": 75,
+    "pilares": [
+      "macro",
+      "bolsa",
+      "exterior",
+      "mundo_empresas"
+    ],
+    "horarioBRT": "10",
+    "cta": null,
+    "decisaoFormato": "peso 75: reel; Studio Engine 100/100",
+    "studioQuality": {
+      "approved": true,
+      "score": 100,
+      "blockers": [],
+      "warnings": []
+    }
+  },
+  {
     "data": "2026-10-15T18:55:52.528Z",
     "titulo": "Preocupações com crédito de IA levam seguro contra calote para nível recorde",
     "categoria": "Empresas",
@@ -4480,20 +4510,5 @@
     "videoUrl": null,
     "tipo": "carrossel",
     "peso": 23
-  },
-  {
-    "data": "2026-07-25T13:20:06.026Z",
-    "titulo": "“Você só descobre quem está nadando pelado quando a maré baixa”: o significado da frase de Warren Buffett no mundo dos investimentos",
-    "categoria": "Economia",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/voce-so-descobre-quem-esta-nadando-pelado-quando-a-mare-baixa-o-significado-da-frase-de-warren-buffett-no-mundo-dos-investimentos-jvka/",
-    "postId": "18371311393227094",
-    "storyId": null,
-    "reelId": "18371311393227094",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1784985514776.mp4",
-    "tipo": "reel",
-    "peso": 38
   }
 ]
