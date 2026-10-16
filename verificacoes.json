@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-10-16T03:13:08.066Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (00:13 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-10-16T00:32:35.484Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1105,10 +1110,5 @@
     "data": "2026-09-18T00:36:06.997Z",
     "resultado": "erro",
     "mensagem": "Erro na execução automática: Narração bloqueada: texto aparenta estar em espanhol."
-  },
-  {
-    "data": "2026-09-18T00:35:34.900Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 74): \"Fed sobe juros: o que a história diz sobre as bolsas daqui para frente, segundo o Citi\". Realizando postagem..."
   }
 ]
