@@ -1,5 +1,11 @@
 [
   {
+    "data": "2026-10-16T19:38:05.233Z",
+    "resultado": "pauta_reprovada",
+    "mensagem": "Notícia não publicada: manchete longa demais para caber completa no card.",
+    "titulo": "Mais Magazine Luiza (MGLU3) e menos Embraer (EMBJ3): As ‘pimentas’ de Christian Keleti, da Alpha Key, para lucrar com trade Flávio"
+  },
+  {
     "data": "2026-10-16T18:37:40.131Z",
     "resultado": "pauta_reprovada",
     "mensagem": "Notícia não publicada: manchete longa demais para caber completa no card.",
@@ -1106,15 +1112,5 @@
     "data": "2026-09-18T18:05:35.714Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-09-18T14:38:16.538Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Selic pode cair mais mesmo com Fed subindo juros; veja as projeções do Bradesco para os juros\".",
-    "postId": "18127775176702881",
-    "storyId": null,
-    "reelId": "18127775176702881",
-    "tipo": "reel",
-    "studioQuality": 100
   }
 ]
