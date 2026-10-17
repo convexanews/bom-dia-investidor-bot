@@ -1,9 +1,9 @@
 {
-  "atualizadoEm": "2026-10-16T15:25:16.158Z",
+  "atualizadoEm": "2026-10-17T14:18:21.303Z",
   "porFormato": {
     "reel": {
       "posts": 22,
-      "alcanceMedio": 12,
+      "alcanceMedio": 13,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
@@ -29,7 +29,7 @@
     },
     "bolsa": {
       "posts": 21,
-      "alcanceMedio": 12,
+      "alcanceMedio": 13,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
@@ -37,7 +37,7 @@
     },
     "exterior": {
       "posts": 8,
-      "alcanceMedio": 10,
+      "alcanceMedio": 11,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
@@ -45,7 +45,7 @@
     },
     "mundo_empresas": {
       "posts": 6,
-      "alcanceMedio": 10,
+      "alcanceMedio": 11,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
@@ -71,7 +71,7 @@
   "porHorarioBRT": {
     "10": {
       "posts": 2,
-      "alcanceMedio": 7,
+      "alcanceMedio": 10,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
@@ -103,7 +103,7 @@
     },
     "15": {
       "posts": 3,
-      "alcanceMedio": 10,
+      "alcanceMedio": 11,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,

@@ -1,7 +1,7 @@
 [
   {
     "postId": "18063178151538202",
-    "dataColeta": "2026-10-16T15:24:54.185Z",
+    "dataColeta": "2026-10-17T14:17:59.725Z",
     "dataPostagem": "2026-10-16T13:47:53.579Z",
     "tipo": "reel",
     "pilares": [
@@ -17,7 +17,7 @@
     "cta": null,
     "decisaoFormato": "peso 75: reel; Studio Engine 100/100",
     "insights": {
-      "reach": 0,
+      "reach": 5,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -33,7 +33,7 @@
   },
   {
     "postId": "18433176727194368",
-    "dataColeta": "2026-10-16T15:24:55.069Z",
+    "dataColeta": "2026-10-17T14:18:00.708Z",
     "dataPostagem": "2026-10-15T18:55:52.528Z",
     "tipo": "reel",
     "pilares": [
@@ -48,7 +48,7 @@
     "cta": null,
     "decisaoFormato": "peso 76: reel; Studio Engine 100/100",
     "insights": {
-      "reach": 3,
+      "reach": 6,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -64,7 +64,7 @@
   },
   {
     "postId": "17880151338549132",
-    "dataColeta": "2026-10-16T15:24:55.792Z",
+    "dataColeta": "2026-10-17T14:18:01.439Z",
     "dataPostagem": "2026-10-15T14:00:27.180Z",
     "tipo": "reel",
     "pilares": [
@@ -78,7 +78,7 @@
     "cta": null,
     "decisaoFormato": "peso 76: reel; Studio Engine 100/100",
     "insights": {
-      "reach": 12,
+      "reach": 13,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -94,7 +94,7 @@
   },
   {
     "postId": "18198452518384439",
-    "dataColeta": "2026-10-16T15:24:56.633Z",
+    "dataColeta": "2026-10-17T14:18:02.320Z",
     "dataPostagem": "2026-10-14T23:44:49.499Z",
     "tipo": "reel",
     "pilares": [
@@ -125,7 +125,7 @@
   },
   {
     "postId": "18117905389951964",
-    "dataColeta": "2026-10-16T15:24:57.411Z",
+    "dataColeta": "2026-10-17T14:18:03.131Z",
     "dataPostagem": "2026-10-14T14:23:18.895Z",
     "tipo": "reel",
     "pilares": [
@@ -155,7 +155,7 @@
   },
   {
     "postId": "17887019571685566",
-    "dataColeta": "2026-10-16T15:24:58.366Z",
+    "dataColeta": "2026-10-17T14:18:04.250Z",
     "dataPostagem": "2026-10-13T22:20:58.987Z",
     "tipo": "reel",
     "pilares": [
@@ -187,7 +187,7 @@
   },
   {
     "postId": "18109869248231887",
-    "dataColeta": "2026-10-16T15:24:59.256Z",
+    "dataColeta": "2026-10-17T14:18:05.205Z",
     "dataPostagem": "2026-10-11T15:23:17.043Z",
     "tipo": "reel",
     "pilares": [
@@ -219,7 +219,7 @@
   },
   {
     "postId": "18094261319349406",
-    "dataColeta": "2026-10-16T15:25:00.123Z",
+    "dataColeta": "2026-10-17T14:18:06.230Z",
     "dataPostagem": "2026-10-09T15:53:25.640Z",
     "tipo": "reel",
     "pilares": [
@@ -250,7 +250,7 @@
   },
   {
     "postId": "18498590122102793",
-    "dataColeta": "2026-10-16T15:25:01.130Z",
+    "dataColeta": "2026-10-17T14:18:07.128Z",
     "dataPostagem": "2026-10-08T23:00:15.558Z",
     "tipo": "reel",
     "pilares": [
@@ -280,7 +280,7 @@
   },
   {
     "postId": "17993012472051689",
-    "dataColeta": "2026-10-16T15:25:01.960Z",
+    "dataColeta": "2026-10-17T14:18:07.879Z",
     "dataPostagem": "2026-10-07T22:47:15.951Z",
     "tipo": "reel",
     "pilares": [
@@ -311,7 +311,7 @@
   },
   {
     "postId": "18105568454193433",
-    "dataColeta": "2026-10-16T15:25:02.728Z",
+    "dataColeta": "2026-10-17T14:18:08.613Z",
     "dataPostagem": "2026-10-07T16:09:18.298Z",
     "tipo": "reel",
     "pilares": [
@@ -341,7 +341,7 @@
   },
   {
     "postId": "18072758507723382",
-    "dataColeta": "2026-10-16T15:25:03.605Z",
+    "dataColeta": "2026-10-17T14:18:09.385Z",
     "dataPostagem": "2026-10-06T22:24:54.731Z",
     "tipo": "reel",
     "pilares": [
@@ -372,7 +372,7 @@
   },
   {
     "postId": "18096051884670752",
-    "dataColeta": "2026-10-16T15:25:04.326Z",
+    "dataColeta": "2026-10-17T14:18:10.336Z",
     "dataPostagem": "2026-10-06T15:44:54.163Z",
     "tipo": "reel",
     "pilares": [
@@ -403,7 +403,7 @@
   },
   {
     "postId": "18018316037931898",
-    "dataColeta": "2026-10-16T15:25:05.091Z",
+    "dataColeta": "2026-10-17T14:18:11.155Z",
     "dataPostagem": "2026-10-05T17:56:10.159Z",
     "tipo": "alerta",
     "pilares": [],
@@ -430,7 +430,7 @@
   },
   {
     "postId": "18105967610576253",
-    "dataColeta": "2026-10-16T15:25:06.018Z",
+    "dataColeta": "2026-10-17T14:18:11.956Z",
     "dataPostagem": "2026-10-02T20:52:54.954Z",
     "tipo": "alerta",
     "pilares": [],
@@ -457,7 +457,7 @@
   },
   {
     "postId": "18070095284770139",
-    "dataColeta": "2026-10-16T15:25:06.830Z",
+    "dataColeta": "2026-10-17T14:18:12.876Z",
     "dataPostagem": "2026-09-30T20:59:44.087Z",
     "tipo": "reel",
     "pilares": [
@@ -487,7 +487,7 @@
   },
   {
     "postId": "18105563180218517",
-    "dataColeta": "2026-10-16T15:25:07.742Z",
+    "dataColeta": "2026-10-17T14:18:13.934Z",
     "dataPostagem": "2026-09-30T16:31:07.170Z",
     "tipo": "reel",
     "pilares": [
@@ -517,7 +517,7 @@
   },
   {
     "postId": "18124864381885779",
-    "dataColeta": "2026-10-16T15:25:08.664Z",
+    "dataColeta": "2026-10-17T14:18:15.009Z",
     "dataPostagem": "2026-09-29T21:56:23.351Z",
     "tipo": "reel",
     "pilares": [
@@ -548,7 +548,7 @@
   },
   {
     "postId": "18116996371985532",
-    "dataColeta": "2026-10-16T15:25:10.773Z",
+    "dataColeta": "2026-10-17T14:18:15.825Z",
     "dataPostagem": "2026-09-29T15:24:58.307Z",
     "tipo": "reel",
     "pilares": [
@@ -578,7 +578,7 @@
   },
   {
     "postId": "18131184052751169",
-    "dataColeta": "2026-10-16T15:25:11.770Z",
+    "dataColeta": "2026-10-17T14:18:16.757Z",
     "dataPostagem": "2026-09-26T18:23:03.256Z",
     "tipo": "reel",
     "pilares": [
@@ -609,7 +609,7 @@
   },
   {
     "postId": "18011117402762568",
-    "dataColeta": "2026-10-16T15:25:12.652Z",
+    "dataColeta": "2026-10-17T14:18:17.681Z",
     "dataPostagem": "2026-09-22T13:57:21.479Z",
     "tipo": "reel",
     "pilares": [
@@ -639,7 +639,7 @@
   },
   {
     "postId": "18410854753081645",
-    "dataColeta": "2026-10-16T15:25:13.744Z",
+    "dataColeta": "2026-10-17T14:18:18.578Z",
     "dataPostagem": "2026-09-21T21:46:11.616Z",
     "tipo": "reel",
     "pilares": [
@@ -670,7 +670,7 @@
   },
   {
     "postId": "17881073505625472",
-    "dataColeta": "2026-10-16T15:25:14.583Z",
+    "dataColeta": "2026-10-17T14:18:19.560Z",
     "dataPostagem": "2026-09-21T15:41:27.154Z",
     "tipo": "alerta",
     "pilares": [],
@@ -697,7 +697,7 @@
   },
   {
     "postId": "18130306408670501",
-    "dataColeta": "2026-10-16T15:25:15.389Z",
+    "dataColeta": "2026-10-17T14:18:20.341Z",
     "dataPostagem": "2026-09-20T18:00:53.621Z",
     "tipo": "reel",
     "pilares": [
@@ -727,7 +727,7 @@
   },
   {
     "postId": "18127775176702881",
-    "dataColeta": "2026-10-16T15:25:16.158Z",
+    "dataColeta": "2026-10-17T14:18:21.300Z",
     "dataPostagem": "2026-09-18T14:38:16.536Z",
     "tipo": "reel",
     "pilares": [
