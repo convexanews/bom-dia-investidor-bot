@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-10-18T20:07:58.203Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
     "data": "2026-10-18T18:45:43.364Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1107,10 +1112,5 @@
     "data": "2026-09-20T17:58:27.121Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 78): \"Agenda: Ata do Copom e IPCA-15 movimentam os mercados nesta semana; confira os indicadores\". Realizando postagem..."
-  },
-  {
-    "data": "2026-09-20T14:18:35.154Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }
 ]
