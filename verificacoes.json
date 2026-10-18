@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-10-18T22:47:35.118Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
     "data": "2026-10-18T21:39:20.091Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1102,15 +1107,5 @@
     "data": "2026-09-20T18:57:34.304Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 34 min."
-  },
-  {
-    "data": "2026-09-20T18:00:53.623Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Agenda: Ata do Copom e IPCA-15 movimentam os mercados nesta semana; confira os indicadores\".",
-    "postId": "18130306408670501",
-    "storyId": null,
-    "reelId": "18130306408670501",
-    "tipo": "reel",
-    "studioQuality": 100
   }
 ]
