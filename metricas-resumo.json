@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-10-18T14:42:11.482Z",
+  "atualizadoEm": "2026-10-19T17:36:43.258Z",
   "porFormato": {
     "reel": {
       "posts": 21,
@@ -11,11 +11,11 @@
     },
     "alerta": {
       "posts": 3,
-      "alcanceMedio": 17,
+      "alcanceMedio": 18,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
-      "taxaInteracaoMedia": 5.88
+      "taxaInteracaoMedia": 5.56
     }
   },
   "porPilar": {
@@ -79,7 +79,7 @@
     },
     "11": {
       "posts": 2,
-      "alcanceMedio": 13,
+      "alcanceMedio": 14,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
@@ -143,17 +143,17 @@
     },
     "não informado": {
       "posts": 3,
-      "alcanceMedio": 17,
+      "alcanceMedio": 18,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
-      "taxaInteracaoMedia": 5.88
+      "taxaInteracaoMedia": 5.56
     }
   },
   "porCTA": {
     "não informado": {
       "posts": 24,
-      "alcanceMedio": 13,
+      "alcanceMedio": 14,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
