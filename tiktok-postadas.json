@@ -1,5 +1,14 @@
 [
   {
+    "titulo": "SpaceX tem lucro acima do esperado e receita dispara no 3º trimestre; ação sobe",
+    "link": "https://www.moneytimes.com.br/spacex-registra-lucro-acima-do-esperado-e-receita-dispara-no-3o-trimestre-acao-sobe-14-em-ny-rnda/",
+    "peso": 73,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1792539513224.mp4",
+    "coverUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1792539513224-capa.png",
+    "legendaUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1792539513224-legenda.txt",
+    "data": "2026-10-20T23:40:52.434Z"
+  },
+  {
     "titulo": "Wall Street tem tom misto com pressão ‘tech’ e Fed",
     "link": "https://www.moneytimes.com.br/wall-street-abertura-16-10-26-lils/",
     "peso": 75,
@@ -1646,13 +1655,5 @@
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783431086575.mp4",
     "legendaUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783431086575-legenda.txt",
     "data": "2026-07-07T13:32:57.854Z"
-  },
-  {
-    "titulo": "Futuros de NY operam mistos após Samsung frustrar mercado apesar de lucro recorde",
-    "link": "https://www.infomoney.com.br/mercados/futuros-de-ny-operam-mistos-apos-samsung-frustrar-mercado-apesar-de-lucro-recorde/",
-    "peso": 60,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783414898736.mp4",
-    "legendaUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783414898736-legenda.txt",
-    "data": "2026-07-07T09:02:59.537Z"
   }
 ]
