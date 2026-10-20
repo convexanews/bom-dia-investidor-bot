@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-10-20T15:15:42.419Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
     "data": "2026-10-20T14:06:58.940Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1101,10 +1106,5 @@
     "data": "2026-09-21T21:43:13.060Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 84): \"Wall Street fecha em alta com otimismo com IA e alívio no petróleo; Nasdaq salta 2% e renova recorde\". Realizando postagem..."
-  },
-  {
-    "data": "2026-09-21T16:32:24.072Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 40 min."
   }
 ]
