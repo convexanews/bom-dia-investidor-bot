@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-10-21T00:44:41.452Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 27 min."
+  },
+  {
     "data": "2026-10-20T23:40:52.441Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"SpaceX tem lucro acima do esperado e receita dispara no 3º trimestre; ação sobe\".",
@@ -1101,10 +1106,5 @@
     "reelId": "18011117402762568",
     "tipo": "reel",
     "studioQuality": 100
-  },
-  {
-    "data": "2026-09-22T13:55:13.093Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 78): \"Ata do Copom: BC vê desaceleração ganhar força, mas deixa próximos cortes da Selic em aberto\". Realizando postagem..."
   }
 ]
