@@ -1,5 +1,35 @@
 [
   {
+    "data": "2026-10-21T14:24:14.055Z",
+    "titulo": "Wall Street avança com balanço do 3T26 em foco; SpaceX dispara mais de 10%",
+    "categoria": "Mercados",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/wall-street-abertura-21-10-26-lils/",
+    "postId": "17984369343120890",
+    "storyId": null,
+    "reelId": "17984369343120890",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1792592510677.mp4",
+    "tipo": "reel",
+    "peso": 86,
+    "pilares": [
+      "macro",
+      "bolsa",
+      "exterior",
+      "mundo_empresas"
+    ],
+    "horarioBRT": "11",
+    "cta": null,
+    "decisaoFormato": "peso 86: reel; Studio Engine 100/100",
+    "studioQuality": {
+      "approved": true,
+      "score": 100,
+      "blockers": [],
+      "warnings": []
+    }
+  },
+  {
     "data": "2026-10-20T23:40:52.436Z",
     "titulo": "SpaceX tem lucro acima do esperado e receita dispara no 3º trimestre; ação sobe",
     "categoria": "Empresas",
@@ -4508,20 +4538,5 @@
     "videoUrl": null,
     "tipo": "carrossel",
     "peso": 19
-  },
-  {
-    "data": "2026-07-25T17:59:50.218Z",
-    "titulo": "Canadense é presa na Bélgica sob acusação de espionagem em instalação da Otan",
-    "categoria": "Mundo",
-    "fonte": "InfoMoney",
-    "link": "https://www.infomoney.com.br/mundo/canadense-e-presa-na-belgica-sob-acusacao-de-espionagem-em-instalacao-da-otan/",
-    "postId": "18383948572163052",
-    "storyId": "18091385870160723",
-    "reelId": null,
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1785002348170-feed.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1785002348170-story.png",
-    "videoUrl": null,
-    "tipo": "card",
-    "peso": 24
   }
 ]

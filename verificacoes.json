@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-10-21T14:24:14.057Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Wall Street avança com balanço do 3T26 em foco; SpaceX dispara mais de 10%\".",
+    "postId": "17984369343120890",
+    "storyId": null,
+    "reelId": "17984369343120890",
+    "tipo": "reel",
+    "studioQuality": 100
+  },
+  {
+    "data": "2026-10-21T14:21:41.382Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 86): \"Wall Street avança com balanço do 3T26 em foco; SpaceX dispara mais de 10%\". Realizando postagem..."
+  },
+  {
     "data": "2026-10-21T03:23:50.935Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (00:23 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1091,15 +1106,5 @@
     "data": "2026-09-22T19:49:23.894Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-09-22T18:30:46.647Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-09-22T15:07:19.060Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 21 min."
   }
 ]
