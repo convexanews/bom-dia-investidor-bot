@@ -1,5 +1,33 @@
 [
   {
+    "data": "2026-10-21T19:09:49.313Z",
+    "titulo": "“Quando a rentabilidade melhora, eles gastam”: acordo com Einstein reacende alerta sobre a Ânima (ANIM3)",
+    "categoria": "Empresas",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/quando-a-rentabilidade-melhora-eles-gastam-acordo-com-einstein-reacende-alerta-sobre-a-anima-anim3-bdap/",
+    "postId": "18124544279317803",
+    "storyId": null,
+    "reelId": "18124544279317803",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1792609642557.mp4",
+    "tipo": "reel",
+    "peso": 75,
+    "pilares": [
+      "macro",
+      "bolsa"
+    ],
+    "horarioBRT": "16",
+    "cta": null,
+    "decisaoFormato": "peso 75: reel; Studio Engine 100/100",
+    "studioQuality": {
+      "approved": true,
+      "score": 100,
+      "blockers": [],
+      "warnings": []
+    }
+  },
+  {
     "data": "2026-10-21T14:24:14.055Z",
     "titulo": "Wall Street avança com balanço do 3T26 em foco; SpaceX dispara mais de 10%",
     "categoria": "Mercados",
@@ -4523,20 +4551,5 @@
     "videoUrl": null,
     "tipo": "card",
     "peso": 22
-  },
-  {
-    "data": "2026-07-25T20:02:28.856Z",
-    "titulo": "Lula usa convenção de Haddad para mandar recado: “não meta dedo nas nossas eleições”",
-    "categoria": "Política",
-    "fonte": "InfoMoney",
-    "link": "https://www.infomoney.com.br/politica/lula-usa-convencao-de-haddad-para-mandar-recado-nao-meta-dedo-nas-nossas-eleicoes/",
-    "postId": "17976975591076541",
-    "storyId": "18159767611477524",
-    "reelId": null,
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1785009678863-slide1.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1785009678863-story.png",
-    "videoUrl": null,
-    "tipo": "carrossel",
-    "peso": 19
   }
 ]
