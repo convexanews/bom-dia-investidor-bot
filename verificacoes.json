@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-10-21T15:28:38.041Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 26 min."
+  },
+  {
     "data": "2026-10-21T14:24:14.057Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Wall Street avança com balanço do 3T26 em foco; SpaceX dispara mais de 10%\".",
@@ -1099,11 +1104,6 @@
   },
   {
     "data": "2026-09-22T23:30:53.631Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-09-22T19:49:23.894Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }
