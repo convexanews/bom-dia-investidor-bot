@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-10-21T20:16:49.354Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 23 min."
+  },
+  {
     "data": "2026-10-21T19:09:49.316Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"“Quando a rentabilidade melhora, eles gastam”: acordo com Einstein reacende alerta sobre a Ânima (ANIM3)\".",
@@ -1106,10 +1111,5 @@
     "data": "2026-09-23T14:05:12.363Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-09-23T03:25:22.656Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (00:25 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
