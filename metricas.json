@@ -1,7 +1,69 @@
 [
   {
+    "postId": "17984369343120890",
+    "dataColeta": "2026-10-21T16:00:02.319Z",
+    "dataPostagem": "2026-10-21T14:24:14.055Z",
+    "tipo": "reel",
+    "pilares": [
+      "macro",
+      "bolsa",
+      "exterior",
+      "mundo_empresas"
+    ],
+    "peso": 86,
+    "fonte": "Money Times",
+    "titulo": "Wall Street avança com balanço do 3T26 em foco; SpaceX dispara mais de 10%",
+    "horarioBRT": "11",
+    "cta": null,
+    "decisaoFormato": "peso 86: reel; Studio Engine 100/100",
+    "insights": {
+      "reach": 1,
+      "saved": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "total_interactions": 0,
+      "falhas": [
+        {
+          "metrica": "plays",
+          "erro": "Instagram respondeu 400"
+        }
+      ]
+    }
+  },
+  {
+    "postId": "18094492088171908",
+    "dataColeta": "2026-10-21T16:00:03.307Z",
+    "dataPostagem": "2026-10-20T23:40:52.436Z",
+    "tipo": "reel",
+    "pilares": [
+      "bolsa",
+      "mundo_empresas"
+    ],
+    "peso": 73,
+    "fonte": "Money Times",
+    "titulo": "SpaceX tem lucro acima do esperado e receita dispara no 3º trimestre; ação sobe",
+    "horarioBRT": "20",
+    "cta": null,
+    "decisaoFormato": "peso 73: reel; Studio Engine 100/100",
+    "insights": {
+      "reach": 6,
+      "saved": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "total_interactions": 0,
+      "falhas": [
+        {
+          "metrica": "plays",
+          "erro": "Instagram respondeu 400"
+        }
+      ]
+    }
+  },
+  {
     "postId": "18063178151538202",
-    "dataColeta": "2026-10-20T15:42:09.933Z",
+    "dataColeta": "2026-10-21T16:00:04.369Z",
     "dataPostagem": "2026-10-16T13:47:53.579Z",
     "tipo": "reel",
     "pilares": [
@@ -33,7 +95,7 @@
   },
   {
     "postId": "18433176727194368",
-    "dataColeta": "2026-10-20T15:42:10.866Z",
+    "dataColeta": "2026-10-21T16:00:05.461Z",
     "dataPostagem": "2026-10-15T18:55:52.528Z",
     "tipo": "reel",
     "pilares": [
@@ -64,7 +126,7 @@
   },
   {
     "postId": "17880151338549132",
-    "dataColeta": "2026-10-20T15:42:11.873Z",
+    "dataColeta": "2026-10-21T16:00:06.871Z",
     "dataPostagem": "2026-10-15T14:00:27.180Z",
     "tipo": "reel",
     "pilares": [
@@ -94,7 +156,7 @@
   },
   {
     "postId": "18198452518384439",
-    "dataColeta": "2026-10-20T15:42:12.650Z",
+    "dataColeta": "2026-10-21T16:00:08.164Z",
     "dataPostagem": "2026-10-14T23:44:49.499Z",
     "tipo": "reel",
     "pilares": [
@@ -125,7 +187,7 @@
   },
   {
     "postId": "18117905389951964",
-    "dataColeta": "2026-10-20T15:42:13.541Z",
+    "dataColeta": "2026-10-21T16:00:09.385Z",
     "dataPostagem": "2026-10-14T14:23:18.895Z",
     "tipo": "reel",
     "pilares": [
@@ -155,7 +217,7 @@
   },
   {
     "postId": "17887019571685566",
-    "dataColeta": "2026-10-20T15:42:14.307Z",
+    "dataColeta": "2026-10-21T16:00:10.948Z",
     "dataPostagem": "2026-10-13T22:20:58.987Z",
     "tipo": "reel",
     "pilares": [
@@ -171,7 +233,7 @@
     "cta": null,
     "decisaoFormato": "peso 74: reel; Studio Engine 100/100",
     "insights": {
-      "reach": 13,
+      "reach": 14,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -187,7 +249,7 @@
   },
   {
     "postId": "18109869248231887",
-    "dataColeta": "2026-10-20T15:42:15.103Z",
+    "dataColeta": "2026-10-21T16:00:11.938Z",
     "dataPostagem": "2026-10-11T15:23:17.043Z",
     "tipo": "reel",
     "pilares": [
@@ -219,7 +281,7 @@
   },
   {
     "postId": "18094261319349406",
-    "dataColeta": "2026-10-20T15:42:15.972Z",
+    "dataColeta": "2026-10-21T16:00:13.061Z",
     "dataPostagem": "2026-10-09T15:53:25.640Z",
     "tipo": "reel",
     "pilares": [
@@ -250,7 +312,7 @@
   },
   {
     "postId": "18498590122102793",
-    "dataColeta": "2026-10-20T15:42:16.913Z",
+    "dataColeta": "2026-10-21T16:00:14.270Z",
     "dataPostagem": "2026-10-08T23:00:15.558Z",
     "tipo": "reel",
     "pilares": [
@@ -280,7 +342,7 @@
   },
   {
     "postId": "17993012472051689",
-    "dataColeta": "2026-10-20T15:42:18.081Z",
+    "dataColeta": "2026-10-21T16:00:15.996Z",
     "dataPostagem": "2026-10-07T22:47:15.951Z",
     "tipo": "reel",
     "pilares": [
@@ -311,7 +373,7 @@
   },
   {
     "postId": "18105568454193433",
-    "dataColeta": "2026-10-20T15:42:19.153Z",
+    "dataColeta": "2026-10-21T16:00:17.224Z",
     "dataPostagem": "2026-10-07T16:09:18.298Z",
     "tipo": "reel",
     "pilares": [
@@ -341,7 +403,7 @@
   },
   {
     "postId": "18072758507723382",
-    "dataColeta": "2026-10-20T15:42:20.173Z",
+    "dataColeta": "2026-10-21T16:00:18.365Z",
     "dataPostagem": "2026-10-06T22:24:54.731Z",
     "tipo": "reel",
     "pilares": [
@@ -372,7 +434,7 @@
   },
   {
     "postId": "18096051884670752",
-    "dataColeta": "2026-10-20T15:42:21.054Z",
+    "dataColeta": "2026-10-21T16:00:19.758Z",
     "dataPostagem": "2026-10-06T15:44:54.163Z",
     "tipo": "reel",
     "pilares": [
@@ -403,7 +465,7 @@
   },
   {
     "postId": "18018316037931898",
-    "dataColeta": "2026-10-20T15:42:22.015Z",
+    "dataColeta": "2026-10-21T16:00:20.848Z",
     "dataPostagem": "2026-10-05T17:56:10.159Z",
     "tipo": "alerta",
     "pilares": [],
@@ -430,7 +492,7 @@
   },
   {
     "postId": "18105967610576253",
-    "dataColeta": "2026-10-20T15:42:22.904Z",
+    "dataColeta": "2026-10-21T16:00:22.042Z",
     "dataPostagem": "2026-10-02T20:52:54.954Z",
     "tipo": "alerta",
     "pilares": [],
@@ -457,7 +519,7 @@
   },
   {
     "postId": "18070095284770139",
-    "dataColeta": "2026-10-20T15:42:23.736Z",
+    "dataColeta": "2026-10-21T16:00:23.176Z",
     "dataPostagem": "2026-09-30T20:59:44.087Z",
     "tipo": "reel",
     "pilares": [
@@ -487,7 +549,7 @@
   },
   {
     "postId": "18105563180218517",
-    "dataColeta": "2026-10-20T15:42:24.815Z",
+    "dataColeta": "2026-10-21T16:00:24.460Z",
     "dataPostagem": "2026-09-30T16:31:07.170Z",
     "tipo": "reel",
     "pilares": [
@@ -517,7 +579,7 @@
   },
   {
     "postId": "18124864381885779",
-    "dataColeta": "2026-10-20T15:42:25.832Z",
+    "dataColeta": "2026-10-21T16:00:25.476Z",
     "dataPostagem": "2026-09-29T21:56:23.351Z",
     "tipo": "reel",
     "pilares": [
@@ -548,7 +610,7 @@
   },
   {
     "postId": "18116996371985532",
-    "dataColeta": "2026-10-20T15:42:26.684Z",
+    "dataColeta": "2026-10-21T16:00:26.590Z",
     "dataPostagem": "2026-09-29T15:24:58.307Z",
     "tipo": "reel",
     "pilares": [
@@ -578,7 +640,7 @@
   },
   {
     "postId": "18131184052751169",
-    "dataColeta": "2026-10-20T15:42:27.795Z",
+    "dataColeta": "2026-10-21T16:00:27.854Z",
     "dataPostagem": "2026-09-26T18:23:03.256Z",
     "tipo": "reel",
     "pilares": [
@@ -609,7 +671,7 @@
   },
   {
     "postId": "18011117402762568",
-    "dataColeta": "2026-10-20T15:42:28.647Z",
+    "dataColeta": "2026-10-21T16:00:29.008Z",
     "dataPostagem": "2026-09-22T13:57:21.479Z",
     "tipo": "reel",
     "pilares": [
@@ -639,7 +701,7 @@
   },
   {
     "postId": "18410854753081645",
-    "dataColeta": "2026-10-20T15:42:29.566Z",
+    "dataColeta": "2026-10-21T16:00:30.268Z",
     "dataPostagem": "2026-09-21T21:46:11.616Z",
     "tipo": "reel",
     "pilares": [
@@ -660,63 +722,6 @@
       "comments": 0,
       "likes": 1,
       "total_interactions": 1,
-      "falhas": [
-        {
-          "metrica": "plays",
-          "erro": "Instagram respondeu 400"
-        }
-      ]
-    }
-  },
-  {
-    "postId": "17881073505625472",
-    "dataColeta": "2026-10-20T15:42:30.726Z",
-    "dataPostagem": "2026-09-21T15:41:27.154Z",
-    "tipo": "alerta",
-    "pilares": [],
-    "peso": 100,
-    "fonte": "Cotação de mercado",
-    "titulo": "NOVA MÁXIMA: Bitcoin",
-    "horarioBRT": null,
-    "cta": null,
-    "decisaoFormato": null,
-    "insights": {
-      "reach": 16,
-      "saved": 0,
-      "shares": 0,
-      "comments": 0,
-      "likes": 1,
-      "total_interactions": 1,
-      "falhas": [
-        {
-          "metrica": "plays",
-          "erro": "Instagram respondeu 400"
-        }
-      ]
-    }
-  },
-  {
-    "postId": "18130306408670501",
-    "dataColeta": "2026-10-20T15:42:31.786Z",
-    "dataPostagem": "2026-09-20T18:00:53.621Z",
-    "tipo": "reel",
-    "pilares": [
-      "macro",
-      "bolsa"
-    ],
-    "peso": 78,
-    "fonte": "Money Times",
-    "titulo": "Agenda: Ata do Copom e IPCA-15 movimentam os mercados nesta semana; confira os indicadores",
-    "horarioBRT": "15",
-    "cta": null,
-    "decisaoFormato": "peso 78: reel; Studio Engine 100/100",
-    "insights": {
-      "reach": 13,
-      "saved": 0,
-      "shares": 0,
-      "comments": 0,
-      "likes": 0,
-      "total_interactions": 0,
       "falhas": [
         {
           "metrica": "plays",
