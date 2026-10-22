@@ -1,5 +1,34 @@
 [
   {
+    "data": "2026-10-22T23:55:57.508Z",
+    "titulo": "Alívio com data marcada? IPCA-15 deve desacelerar antes de novas pressões na inflação",
+    "categoria": "Economia",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/alivio-com-data-marcada-ipca-15-deve-desacelerar-antes-de-novas-pressoes-na-inflacao-jcav/",
+    "postId": "17882880072536280",
+    "storyId": null,
+    "reelId": "17882880072536280",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1792713221939.mp4",
+    "tipo": "reel",
+    "peso": 72,
+    "pilares": [
+      "macro",
+      "bolsa",
+      "mundo_empresas"
+    ],
+    "horarioBRT": "20",
+    "cta": null,
+    "decisaoFormato": "peso 72: reel; Studio Engine 100/100",
+    "studioQuality": {
+      "approved": true,
+      "score": 100,
+      "blockers": [],
+      "warnings": []
+    }
+  },
+  {
     "data": "2026-10-22T20:55:31.086Z",
     "titulo": "Arrecadação bate recorde de R$ 239 bilhões, mas perde força e acende alerta para as contas públicas",
     "categoria": "Economia",
@@ -4564,20 +4593,5 @@
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1785074480296.mp4",
     "tipo": "reel",
     "peso": 36
-  },
-  {
-    "data": "2026-07-26T11:31:52.694Z",
-    "titulo": "EUA suspendem ataques aéreos ao Irã, mas tensão permanece em meio a negociações",
-    "categoria": "Mundo",
-    "fonte": "InfoMoney",
-    "link": "https://www.infomoney.com.br/mundo/eua-suspendem-ataques-aereos-ao-ira-mas-tensao-permanece-em-meio-a-negociacoes/",
-    "postId": "18015196517871337",
-    "storyId": "18610887088059214",
-    "reelId": null,
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1785065470297-feed.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1785065470297-story.png",
-    "videoUrl": null,
-    "tipo": "card",
-    "peso": 16
   }
 ]

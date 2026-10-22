@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-10-22T23:55:57.511Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Alívio com data marcada? IPCA-15 deve desacelerar antes de novas pressões na inflação\".",
+    "postId": "17882880072536280",
+    "storyId": null,
+    "reelId": "17882880072536280",
+    "tipo": "reel",
+    "studioQuality": 100
+  },
+  {
+    "data": "2026-10-22T23:53:32.140Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 72): \"Alívio com data marcada? IPCA-15 deve desacelerar antes de novas pressões na inflação\". Realizando postagem..."
+  },
+  {
     "data": "2026-10-22T20:55:31.088Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Arrecadação bate recorde de R$ 239 bilhões, mas perde força e acende alerta para as contas públicas\".",
@@ -1109,16 +1124,6 @@
   },
   {
     "data": "2026-09-24T23:46:35.586Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-09-24T20:03:58.814Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-09-24T18:50:26.213Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }
