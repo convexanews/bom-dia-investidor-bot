@@ -1,81 +1,17 @@
 [
   {
-    "postId": "17984369343120890",
-    "dataColeta": "2026-10-21T16:00:02.319Z",
-    "dataPostagem": "2026-10-21T14:24:14.055Z",
+    "postId": "18124544279317803",
+    "dataColeta": "2026-10-22T15:55:57.224Z",
+    "dataPostagem": "2026-10-21T19:09:49.313Z",
     "tipo": "reel",
     "pilares": [
       "macro",
-      "bolsa",
-      "exterior",
-      "mundo_empresas"
-    ],
-    "peso": 86,
-    "fonte": "Money Times",
-    "titulo": "Wall Street avança com balanço do 3T26 em foco; SpaceX dispara mais de 10%",
-    "horarioBRT": "11",
-    "cta": null,
-    "decisaoFormato": "peso 86: reel; Studio Engine 100/100",
-    "insights": {
-      "reach": 1,
-      "saved": 0,
-      "shares": 0,
-      "comments": 0,
-      "likes": 0,
-      "total_interactions": 0,
-      "falhas": [
-        {
-          "metrica": "plays",
-          "erro": "Instagram respondeu 400"
-        }
-      ]
-    }
-  },
-  {
-    "postId": "18094492088171908",
-    "dataColeta": "2026-10-21T16:00:03.307Z",
-    "dataPostagem": "2026-10-20T23:40:52.436Z",
-    "tipo": "reel",
-    "pilares": [
-      "bolsa",
-      "mundo_empresas"
-    ],
-    "peso": 73,
-    "fonte": "Money Times",
-    "titulo": "SpaceX tem lucro acima do esperado e receita dispara no 3º trimestre; ação sobe",
-    "horarioBRT": "20",
-    "cta": null,
-    "decisaoFormato": "peso 73: reel; Studio Engine 100/100",
-    "insights": {
-      "reach": 6,
-      "saved": 0,
-      "shares": 0,
-      "comments": 0,
-      "likes": 0,
-      "total_interactions": 0,
-      "falhas": [
-        {
-          "metrica": "plays",
-          "erro": "Instagram respondeu 400"
-        }
-      ]
-    }
-  },
-  {
-    "postId": "18063178151538202",
-    "dataColeta": "2026-10-21T16:00:04.369Z",
-    "dataPostagem": "2026-10-16T13:47:53.579Z",
-    "tipo": "reel",
-    "pilares": [
-      "macro",
-      "bolsa",
-      "exterior",
-      "mundo_empresas"
+      "bolsa"
     ],
     "peso": 75,
     "fonte": "Money Times",
-    "titulo": "Wall Street tem tom misto com pressão ‘tech’ e Fed",
-    "horarioBRT": "10",
+    "titulo": "“Quando a rentabilidade melhora, eles gastam”: acordo com Einstein reacende alerta sobre a Ânima (ANIM3)",
+    "horarioBRT": "16",
     "cta": null,
     "decisaoFormato": "peso 75: reel; Studio Engine 100/100",
     "insights": {
@@ -94,8 +30,102 @@
     }
   },
   {
+    "postId": "17984369343120890",
+    "dataColeta": "2026-10-22T15:55:58.126Z",
+    "dataPostagem": "2026-10-21T14:24:14.055Z",
+    "tipo": "reel",
+    "pilares": [
+      "macro",
+      "bolsa",
+      "exterior",
+      "mundo_empresas"
+    ],
+    "peso": 86,
+    "fonte": "Money Times",
+    "titulo": "Wall Street avança com balanço do 3T26 em foco; SpaceX dispara mais de 10%",
+    "horarioBRT": "11",
+    "cta": null,
+    "decisaoFormato": "peso 86: reel; Studio Engine 100/100",
+    "insights": {
+      "reach": 8,
+      "saved": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "total_interactions": 0,
+      "falhas": [
+        {
+          "metrica": "plays",
+          "erro": "Instagram respondeu 400"
+        }
+      ]
+    }
+  },
+  {
+    "postId": "18094492088171908",
+    "dataColeta": "2026-10-22T15:55:59.021Z",
+    "dataPostagem": "2026-10-20T23:40:52.436Z",
+    "tipo": "reel",
+    "pilares": [
+      "bolsa",
+      "mundo_empresas"
+    ],
+    "peso": 73,
+    "fonte": "Money Times",
+    "titulo": "SpaceX tem lucro acima do esperado e receita dispara no 3º trimestre; ação sobe",
+    "horarioBRT": "20",
+    "cta": null,
+    "decisaoFormato": "peso 73: reel; Studio Engine 100/100",
+    "insights": {
+      "reach": 8,
+      "saved": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "total_interactions": 0,
+      "falhas": [
+        {
+          "metrica": "plays",
+          "erro": "Instagram respondeu 400"
+        }
+      ]
+    }
+  },
+  {
+    "postId": "18063178151538202",
+    "dataColeta": "2026-10-22T15:55:59.987Z",
+    "dataPostagem": "2026-10-16T13:47:53.579Z",
+    "tipo": "reel",
+    "pilares": [
+      "macro",
+      "bolsa",
+      "exterior",
+      "mundo_empresas"
+    ],
+    "peso": 75,
+    "fonte": "Money Times",
+    "titulo": "Wall Street tem tom misto com pressão ‘tech’ e Fed",
+    "horarioBRT": "10",
+    "cta": null,
+    "decisaoFormato": "peso 75: reel; Studio Engine 100/100",
+    "insights": {
+      "reach": 8,
+      "saved": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "total_interactions": 0,
+      "falhas": [
+        {
+          "metrica": "plays",
+          "erro": "Instagram respondeu 400"
+        }
+      ]
+    }
+  },
+  {
     "postId": "18433176727194368",
-    "dataColeta": "2026-10-21T16:00:05.461Z",
+    "dataColeta": "2026-10-22T15:56:01.246Z",
     "dataPostagem": "2026-10-15T18:55:52.528Z",
     "tipo": "reel",
     "pilares": [
@@ -110,7 +140,7 @@
     "cta": null,
     "decisaoFormato": "peso 76: reel; Studio Engine 100/100",
     "insights": {
-      "reach": 6,
+      "reach": 8,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -126,7 +156,7 @@
   },
   {
     "postId": "17880151338549132",
-    "dataColeta": "2026-10-21T16:00:06.871Z",
+    "dataColeta": "2026-10-22T15:56:02.367Z",
     "dataPostagem": "2026-10-15T14:00:27.180Z",
     "tipo": "reel",
     "pilares": [
@@ -140,7 +170,7 @@
     "cta": null,
     "decisaoFormato": "peso 76: reel; Studio Engine 100/100",
     "insights": {
-      "reach": 16,
+      "reach": 17,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -156,7 +186,7 @@
   },
   {
     "postId": "18198452518384439",
-    "dataColeta": "2026-10-21T16:00:08.164Z",
+    "dataColeta": "2026-10-22T15:56:03.519Z",
     "dataPostagem": "2026-10-14T23:44:49.499Z",
     "tipo": "reel",
     "pilares": [
@@ -187,7 +217,7 @@
   },
   {
     "postId": "18117905389951964",
-    "dataColeta": "2026-10-21T16:00:09.385Z",
+    "dataColeta": "2026-10-22T15:56:04.786Z",
     "dataPostagem": "2026-10-14T14:23:18.895Z",
     "tipo": "reel",
     "pilares": [
@@ -217,7 +247,7 @@
   },
   {
     "postId": "17887019571685566",
-    "dataColeta": "2026-10-21T16:00:10.948Z",
+    "dataColeta": "2026-10-22T15:56:06.113Z",
     "dataPostagem": "2026-10-13T22:20:58.987Z",
     "tipo": "reel",
     "pilares": [
@@ -249,7 +279,7 @@
   },
   {
     "postId": "18109869248231887",
-    "dataColeta": "2026-10-21T16:00:11.938Z",
+    "dataColeta": "2026-10-22T15:56:07.280Z",
     "dataPostagem": "2026-10-11T15:23:17.043Z",
     "tipo": "reel",
     "pilares": [
@@ -281,7 +311,7 @@
   },
   {
     "postId": "18094261319349406",
-    "dataColeta": "2026-10-21T16:00:13.061Z",
+    "dataColeta": "2026-10-22T15:56:08.193Z",
     "dataPostagem": "2026-10-09T15:53:25.640Z",
     "tipo": "reel",
     "pilares": [
@@ -312,7 +342,7 @@
   },
   {
     "postId": "18498590122102793",
-    "dataColeta": "2026-10-21T16:00:14.270Z",
+    "dataColeta": "2026-10-22T15:56:09.223Z",
     "dataPostagem": "2026-10-08T23:00:15.558Z",
     "tipo": "reel",
     "pilares": [
@@ -342,7 +372,7 @@
   },
   {
     "postId": "17993012472051689",
-    "dataColeta": "2026-10-21T16:00:15.996Z",
+    "dataColeta": "2026-10-22T15:56:10.607Z",
     "dataPostagem": "2026-10-07T22:47:15.951Z",
     "tipo": "reel",
     "pilares": [
@@ -373,7 +403,7 @@
   },
   {
     "postId": "18105568454193433",
-    "dataColeta": "2026-10-21T16:00:17.224Z",
+    "dataColeta": "2026-10-22T15:56:12.315Z",
     "dataPostagem": "2026-10-07T16:09:18.298Z",
     "tipo": "reel",
     "pilares": [
@@ -403,7 +433,7 @@
   },
   {
     "postId": "18072758507723382",
-    "dataColeta": "2026-10-21T16:00:18.365Z",
+    "dataColeta": "2026-10-22T15:56:13.547Z",
     "dataPostagem": "2026-10-06T22:24:54.731Z",
     "tipo": "reel",
     "pilares": [
@@ -434,7 +464,7 @@
   },
   {
     "postId": "18096051884670752",
-    "dataColeta": "2026-10-21T16:00:19.758Z",
+    "dataColeta": "2026-10-22T15:56:14.570Z",
     "dataPostagem": "2026-10-06T15:44:54.163Z",
     "tipo": "reel",
     "pilares": [
@@ -465,7 +495,7 @@
   },
   {
     "postId": "18018316037931898",
-    "dataColeta": "2026-10-21T16:00:20.848Z",
+    "dataColeta": "2026-10-22T15:56:15.730Z",
     "dataPostagem": "2026-10-05T17:56:10.159Z",
     "tipo": "alerta",
     "pilares": [],
@@ -492,7 +522,7 @@
   },
   {
     "postId": "18105967610576253",
-    "dataColeta": "2026-10-21T16:00:22.042Z",
+    "dataColeta": "2026-10-22T15:56:17.193Z",
     "dataPostagem": "2026-10-02T20:52:54.954Z",
     "tipo": "alerta",
     "pilares": [],
@@ -519,7 +549,7 @@
   },
   {
     "postId": "18070095284770139",
-    "dataColeta": "2026-10-21T16:00:23.176Z",
+    "dataColeta": "2026-10-22T15:56:17.994Z",
     "dataPostagem": "2026-09-30T20:59:44.087Z",
     "tipo": "reel",
     "pilares": [
@@ -549,7 +579,7 @@
   },
   {
     "postId": "18105563180218517",
-    "dataColeta": "2026-10-21T16:00:24.460Z",
+    "dataColeta": "2026-10-22T15:56:18.995Z",
     "dataPostagem": "2026-09-30T16:31:07.170Z",
     "tipo": "reel",
     "pilares": [
@@ -579,7 +609,7 @@
   },
   {
     "postId": "18124864381885779",
-    "dataColeta": "2026-10-21T16:00:25.476Z",
+    "dataColeta": "2026-10-22T15:56:20.210Z",
     "dataPostagem": "2026-09-29T21:56:23.351Z",
     "tipo": "reel",
     "pilares": [
@@ -610,7 +640,7 @@
   },
   {
     "postId": "18116996371985532",
-    "dataColeta": "2026-10-21T16:00:26.590Z",
+    "dataColeta": "2026-10-22T15:56:21.441Z",
     "dataPostagem": "2026-09-29T15:24:58.307Z",
     "tipo": "reel",
     "pilares": [
@@ -640,7 +670,7 @@
   },
   {
     "postId": "18131184052751169",
-    "dataColeta": "2026-10-21T16:00:27.854Z",
+    "dataColeta": "2026-10-22T15:56:22.652Z",
     "dataPostagem": "2026-09-26T18:23:03.256Z",
     "tipo": "reel",
     "pilares": [
@@ -654,67 +684,6 @@
     "horarioBRT": "15",
     "cta": null,
     "decisaoFormato": "peso 90: reel; Studio Engine 100/100",
-    "insights": {
-      "reach": 15,
-      "saved": 0,
-      "shares": 0,
-      "comments": 0,
-      "likes": 1,
-      "total_interactions": 1,
-      "falhas": [
-        {
-          "metrica": "plays",
-          "erro": "Instagram respondeu 400"
-        }
-      ]
-    }
-  },
-  {
-    "postId": "18011117402762568",
-    "dataColeta": "2026-10-21T16:00:29.008Z",
-    "dataPostagem": "2026-09-22T13:57:21.479Z",
-    "tipo": "reel",
-    "pilares": [
-      "macro",
-      "bolsa"
-    ],
-    "peso": 78,
-    "fonte": "Money Times",
-    "titulo": "Ata do Copom: BC vê desaceleração ganhar força, mas deixa próximos cortes da Selic em aberto",
-    "horarioBRT": "10",
-    "cta": null,
-    "decisaoFormato": "peso 78: reel; Studio Engine 100/100",
-    "insights": {
-      "reach": 14,
-      "saved": 0,
-      "shares": 0,
-      "comments": 0,
-      "likes": 0,
-      "total_interactions": 0,
-      "falhas": [
-        {
-          "metrica": "plays",
-          "erro": "Instagram respondeu 400"
-        }
-      ]
-    }
-  },
-  {
-    "postId": "18410854753081645",
-    "dataColeta": "2026-10-21T16:00:30.268Z",
-    "dataPostagem": "2026-09-21T21:46:11.616Z",
-    "tipo": "reel",
-    "pilares": [
-      "bolsa",
-      "exterior",
-      "mundo_empresas"
-    ],
-    "peso": 84,
-    "fonte": "Money Times",
-    "titulo": "Wall Street fecha em alta com otimismo com IA e alívio no petróleo; Nasdaq salta 2% e renova recorde",
-    "horarioBRT": "18",
-    "cta": null,
-    "decisaoFormato": "peso 84: reel; Studio Engine 100/100",
     "insights": {
       "reach": 15,
       "saved": 0,
