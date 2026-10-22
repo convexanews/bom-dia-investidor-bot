@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-10-22T20:55:31.088Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Arrecadação bate recorde de R$ 239 bilhões, mas perde força e acende alerta para as contas públicas\".",
+    "postId": "18131780869827138",
+    "storyId": null,
+    "reelId": "18131780869827138",
+    "tipo": "reel",
+    "studioQuality": 100
+  },
+  {
+    "data": "2026-10-22T20:52:54.062Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 74): \"Arrecadação bate recorde de R$ 239 bilhões, mas perde força e acende alerta para as contas públicas\". Realizando postagem..."
+  },
+  {
     "data": "2026-10-22T19:06:23.534Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Arrecadação bate recorde em setembro, mas perde fôlego e acende alerta para meta fiscal, diz XP\".",
@@ -1104,16 +1119,6 @@
   },
   {
     "data": "2026-09-24T18:50:26.213Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-09-24T15:22:07.434Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-09-24T14:01:52.134Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }
