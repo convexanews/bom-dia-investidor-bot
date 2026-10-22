@@ -1,5 +1,34 @@
 [
   {
+    "data": "2026-10-22T19:06:23.531Z",
+    "titulo": "Arrecadação bate recorde em setembro, mas perde fôlego e acende alerta para meta fiscal, diz XP",
+    "categoria": "Economia",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/arrecadacao-bate-recorde-setembro-perde-folego-acende-alerta-para-meta-fiscal-xp-jcav/",
+    "postId": "18105045002526940",
+    "storyId": null,
+    "reelId": "18105045002526940",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1792695811447.mp4",
+    "tipo": "reel",
+    "peso": 93,
+    "pilares": [
+      "macro",
+      "bolsa",
+      "mundo_empresas"
+    ],
+    "horarioBRT": "16",
+    "cta": null,
+    "decisaoFormato": "peso 93: reel; Studio Engine 100/100",
+    "studioQuality": {
+      "approved": true,
+      "score": 100,
+      "blockers": [],
+      "warnings": []
+    }
+  },
+  {
     "data": "2026-10-21T19:09:49.313Z",
     "titulo": "“Quando a rentabilidade melhora, eles gastam”: acordo com Einstein reacende alerta sobre a Ânima (ANIM3)",
     "categoria": "Empresas",
@@ -4536,20 +4565,5 @@
     "videoUrl": null,
     "tipo": "carrossel",
     "peso": 9
-  },
-  {
-    "data": "2026-07-25T22:31:52.613Z",
-    "titulo": "Por que o “Trump Trade” está agora em frangalhos",
-    "categoria": "Mercados",
-    "fonte": "InfoMoney",
-    "link": "https://www.infomoney.com.br/mercados/por-que-o-trump-trade-esta-agora-em-frangalhos/",
-    "postId": "18097521545218957",
-    "storyId": "18099828095593748",
-    "reelId": null,
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1785018665381-feed.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1785018665381-story.png",
-    "videoUrl": null,
-    "tipo": "card",
-    "peso": 22
   }
 ]

@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-10-22T19:06:23.534Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Arrecadação bate recorde em setembro, mas perde fôlego e acende alerta para meta fiscal, diz XP\".",
+    "postId": "18105045002526940",
+    "storyId": null,
+    "reelId": "18105045002526940",
+    "tipo": "reel",
+    "studioQuality": 100
+  },
+  {
+    "data": "2026-10-22T19:03:22.002Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 93): \"Arrecadação bate recorde em setembro, mas perde fôlego e acende alerta para meta fiscal, diz XP\". Realizando postagem..."
+  },
+  {
     "data": "2026-10-22T16:08:02.661Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1099,16 +1114,6 @@
   },
   {
     "data": "2026-09-24T14:01:52.134Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-09-24T03:14:20.196Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (00:14 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-09-24T00:41:22.949Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }
