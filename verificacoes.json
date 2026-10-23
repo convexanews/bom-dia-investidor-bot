@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-10-23T15:23:44.876Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Inflação menor, preocupação maior? O que acendeu o alerta no IPCA-15 de outubro\".",
+    "postId": "17952378009317853",
+    "storyId": null,
+    "reelId": "17952378009317853",
+    "tipo": "reel",
+    "studioQuality": 100
+  },
+  {
+    "data": "2026-10-23T15:20:24.630Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 88): \"Inflação menor, preocupação maior? O que acendeu o alerta no IPCA-15 de outubro\". Realizando postagem..."
+  },
+  {
     "data": "2026-10-23T14:04:14.304Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1114,16 +1129,6 @@
   },
   {
     "data": "2026-09-25T19:08:21.234Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-09-25T15:24:05.678Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-09-25T14:26:02.124Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }

@@ -1,5 +1,33 @@
 [
   {
+    "data": "2026-10-23T15:23:44.874Z",
+    "titulo": "Inflação menor, preocupação maior? O que acendeu o alerta no IPCA-15 de outubro",
+    "categoria": "Economia",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/inflacao-menor-preocupacao-maior-alerta-ipca-15-outubro-rsgp/",
+    "postId": "17952378009317853",
+    "storyId": null,
+    "reelId": "17952378009317853",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1792768838866.mp4",
+    "tipo": "reel",
+    "peso": 88,
+    "pilares": [
+      "macro",
+      "bolsa"
+    ],
+    "horarioBRT": "12",
+    "cta": null,
+    "decisaoFormato": "peso 88: reel; Studio Engine 100/100",
+    "studioQuality": {
+      "approved": true,
+      "score": 100,
+      "blockers": [],
+      "warnings": []
+    }
+  },
+  {
     "data": "2026-10-22T23:55:57.508Z",
     "titulo": "Alívio com data marcada? IPCA-15 deve desacelerar antes de novas pressões na inflação",
     "categoria": "Economia",
@@ -4578,20 +4606,5 @@
     "videoUrl": null,
     "tipo": "carrossel",
     "peso": 40
-  },
-  {
-    "data": "2026-07-26T14:02:37.475Z",
-    "titulo": "Bitcoin (BTC) sobe, mas cautela predomina antes de decisão do Fed; veja cotações das criptomoedas neste domingo (26)",
-    "categoria": "Criptomoedas",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/bitcoin-btc-sobe-mas-cautela-predomina-antes-de-decisao-do-fed-veja-cotacoes-das-criptomoedas-neste-domingo-26-igdl/",
-    "postId": "18026222702844447",
-    "storyId": null,
-    "reelId": "18026222702844447",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1785074480296.mp4",
-    "tipo": "reel",
-    "peso": 36
   }
 ]
