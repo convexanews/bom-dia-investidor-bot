@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-10-23T15:48:23.201Z",
+  "atualizadoEm": "2026-10-24T14:42:14.537Z",
   "porFormato": {
     "reel": {
       "posts": 23,
@@ -21,7 +21,7 @@
   "porPilar": {
     "macro": {
       "posts": 22,
-      "alcanceMedio": 11,
+      "alcanceMedio": 12,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
@@ -45,7 +45,7 @@
     },
     "renda_fixa": {
       "posts": 1,
-      "alcanceMedio": 4,
+      "alcanceMedio": 6,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
@@ -95,7 +95,7 @@
     },
     "12": {
       "posts": 4,
-      "alcanceMedio": 10,
+      "alcanceMedio": 11,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
@@ -111,7 +111,7 @@
     },
     "15": {
       "posts": 1,
-      "alcanceMedio": 8,
+      "alcanceMedio": 9,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
@@ -127,11 +127,11 @@
     },
     "17": {
       "posts": 2,
-      "alcanceMedio": 12,
+      "alcanceMedio": 13,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
-      "taxaInteracaoMedia": 8.33
+      "taxaInteracaoMedia": 7.69
     },
     "18": {
       "posts": 1,
