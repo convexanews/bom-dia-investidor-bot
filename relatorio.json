@@ -1,5 +1,33 @@
 [
   {
+    "data": "2026-10-25T18:11:05.677Z",
+    "titulo": "Decisão de juros nos EUA, dados de emprego no Brasil; confira o que agita os mercados esta semana",
+    "categoria": "Economia",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/decisao-de-juros-nos-eua-dados-de-emprego-no-brasil-confira-o-que-agita-os-mercados-esta-semana-jcav/",
+    "postId": "18200223211386511",
+    "storyId": null,
+    "reelId": "18200223211386511",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1792951742929.mp4",
+    "tipo": "reel",
+    "peso": 75,
+    "pilares": [
+      "macro",
+      "bolsa"
+    ],
+    "horarioBRT": "15",
+    "cta": null,
+    "decisaoFormato": "peso 75: reel; Studio Engine 100/100",
+    "studioQuality": {
+      "approved": true,
+      "score": 100,
+      "blockers": [],
+      "warnings": []
+    }
+  },
+  {
     "data": "2026-10-23T15:23:44.874Z",
     "titulo": "Inflação menor, preocupação maior? O que acendeu o alerta no IPCA-15 de outubro",
     "categoria": "Economia",
@@ -4591,20 +4619,5 @@
     "videoUrl": null,
     "tipo": "card",
     "peso": 6
-  },
-  {
-    "data": "2026-07-26T16:32:28.912Z",
-    "titulo": "Bradesco (BBDC3;BBDC4), IRB (IRBR3) e mais duas empresas pagam dividendos nesta semana; veja o calendário",
-    "categoria": "Empresas",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/dividendos-da-semana-24-7-26-apsa/",
-    "postId": "18093203867636155",
-    "storyId": "18114923522509968",
-    "reelId": null,
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1785083473291-slide1.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1785083473291-story.png",
-    "videoUrl": null,
-    "tipo": "carrossel",
-    "peso": 40
   }
 ]

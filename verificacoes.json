@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-10-25T18:11:05.679Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Decisão de juros nos EUA, dados de emprego no Brasil; confira o que agita os mercados esta semana\".",
+    "postId": "18200223211386511",
+    "storyId": null,
+    "reelId": "18200223211386511",
+    "tipo": "reel",
+    "studioQuality": 100
+  },
+  {
+    "data": "2026-10-25T18:08:50.792Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 75): \"Decisão de juros nos EUA, dados de emprego no Brasil; confira o que agita os mercados esta semana\". Realizando postagem..."
+  },
+  {
     "data": "2026-10-25T14:29:14.256Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1114,16 +1129,6 @@
   },
   {
     "data": "2026-09-27T23:40:34.341Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-09-27T19:49:49.963Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-09-27T18:54:42.781Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }

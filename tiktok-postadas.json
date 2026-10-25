@@ -1,5 +1,14 @@
 [
   {
+    "titulo": "Decisão de juros nos EUA, dados de emprego no Brasil; confira o que agita os mercados esta semana",
+    "link": "https://www.moneytimes.com.br/decisao-de-juros-nos-eua-dados-de-emprego-no-brasil-confira-o-que-agita-os-mercados-esta-semana-jcav/",
+    "peso": 75,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1792951742929.mp4",
+    "coverUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1792951742929-capa.png",
+    "legendaUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1792951742929-legenda.txt",
+    "data": "2026-10-25T18:11:05.675Z"
+  },
+  {
     "titulo": "Inflação menor, preocupação maior? O que acendeu o alerta no IPCA-15 de outubro",
     "link": "https://www.moneytimes.com.br/inflacao-menor-preocupacao-maior-alerta-ipca-15-outubro-rsgp/",
     "peso": 88,
@@ -1653,13 +1662,5 @@
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783596704283.mp4",
     "legendaUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783596704283-legenda.txt",
     "data": "2026-07-09T11:33:42.435Z"
-  },
-  {
-    "titulo": "Wall Street fecha sem direção única após escalada no Oriente Médio e após ata do Fed",
-    "link": "https://www.moneytimes.com.br/wall-street-8-7-26-apsa/",
-    "peso": 78,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783542698421.mp4",
-    "legendaUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783542698421-legenda.txt",
-    "data": "2026-07-08T20:33:13.134Z"
   }
 ]
