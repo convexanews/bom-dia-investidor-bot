@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-10-26T16:52:01.710Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 55 min."
+  },
+  {
     "data": "2026-10-26T16:16:24.402Z",
     "resultado": "alerta_suprimido",
     "mensagem": "Alerta de recorde não publicado: intervalo mínimo de duas horas.",
@@ -1132,10 +1137,5 @@
     "reelId": "18116996371985532",
     "tipo": "reel",
     "studioQuality": 100
-  },
-  {
-    "data": "2026-09-29T15:22:40.901Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 75): \"Bradesco Asset: Selic pode ficar parada no início de 2027 com El Niño, mas tendência é de queda\". Realizando postagem..."
   }
 ]
