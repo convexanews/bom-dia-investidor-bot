@@ -1,7 +1,68 @@
 [
   {
+    "postId": "18127173175908554",
+    "dataColeta": "2026-10-26T17:29:09.763Z",
+    "dataPostagem": "2026-10-26T16:16:21.278Z",
+    "tipo": "reel",
+    "pilares": [
+      "macro",
+      "bolsa",
+      "brasil_eleicoes"
+    ],
+    "peso": 98,
+    "fonte": "Money Times",
+    "titulo": "Contágio: mercados argentinos despencam após reeleição de Lula no Brasil",
+    "horarioBRT": "13",
+    "cta": null,
+    "decisaoFormato": "peso 98: reel; Studio Engine 100/100",
+    "insights": {
+      "reach": 14,
+      "saved": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "total_interactions": 0,
+      "falhas": [
+        {
+          "metrica": "plays",
+          "erro": "Instagram respondeu 400"
+        }
+      ]
+    }
+  },
+  {
+    "postId": "18200223211386511",
+    "dataColeta": "2026-10-26T17:29:11.710Z",
+    "dataPostagem": "2026-10-25T18:11:05.677Z",
+    "tipo": "reel",
+    "pilares": [
+      "macro",
+      "bolsa"
+    ],
+    "peso": 75,
+    "fonte": "Money Times",
+    "titulo": "Decisão de juros nos EUA, dados de emprego no Brasil; confira o que agita os mercados esta semana",
+    "horarioBRT": "15",
+    "cta": null,
+    "decisaoFormato": "peso 75: reel; Studio Engine 100/100",
+    "insights": {
+      "reach": 17,
+      "saved": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "total_interactions": 0,
+      "falhas": [
+        {
+          "metrica": "plays",
+          "erro": "Instagram respondeu 400"
+        }
+      ]
+    }
+  },
+  {
     "postId": "17952378009317853",
-    "dataColeta": "2026-10-25T14:58:46.337Z",
+    "dataColeta": "2026-10-26T17:29:13.287Z",
     "dataPostagem": "2026-10-23T15:23:44.874Z",
     "tipo": "reel",
     "pilares": [
@@ -31,7 +92,7 @@
   },
   {
     "postId": "17882880072536280",
-    "dataColeta": "2026-10-25T14:58:47.810Z",
+    "dataColeta": "2026-10-26T17:29:15.371Z",
     "dataPostagem": "2026-10-22T23:55:57.508Z",
     "tipo": "reel",
     "pilares": [
@@ -62,7 +123,7 @@
   },
   {
     "postId": "18131780869827138",
-    "dataColeta": "2026-10-25T14:58:49.097Z",
+    "dataColeta": "2026-10-26T17:29:17.204Z",
     "dataPostagem": "2026-10-22T20:55:31.086Z",
     "tipo": "reel",
     "pilares": [
@@ -93,7 +154,7 @@
   },
   {
     "postId": "18105045002526940",
-    "dataColeta": "2026-10-25T14:58:50.300Z",
+    "dataColeta": "2026-10-26T17:29:19.013Z",
     "dataPostagem": "2026-10-22T19:06:23.531Z",
     "tipo": "reel",
     "pilares": [
@@ -108,7 +169,7 @@
     "cta": null,
     "decisaoFormato": "peso 93: reel; Studio Engine 100/100",
     "insights": {
-      "reach": 10,
+      "reach": 11,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -124,7 +185,7 @@
   },
   {
     "postId": "18124544279317803",
-    "dataColeta": "2026-10-25T14:58:51.514Z",
+    "dataColeta": "2026-10-26T17:29:20.854Z",
     "dataPostagem": "2026-10-21T19:09:49.313Z",
     "tipo": "reel",
     "pilares": [
@@ -138,7 +199,7 @@
     "cta": null,
     "decisaoFormato": "peso 75: reel; Studio Engine 100/100",
     "insights": {
-      "reach": 8,
+      "reach": 9,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -154,7 +215,7 @@
   },
   {
     "postId": "17984369343120890",
-    "dataColeta": "2026-10-25T14:58:52.680Z",
+    "dataColeta": "2026-10-26T17:29:22.784Z",
     "dataPostagem": "2026-10-21T14:24:14.055Z",
     "tipo": "reel",
     "pilares": [
@@ -186,7 +247,7 @@
   },
   {
     "postId": "18094492088171908",
-    "dataColeta": "2026-10-25T14:58:54.874Z",
+    "dataColeta": "2026-10-26T17:29:24.449Z",
     "dataPostagem": "2026-10-20T23:40:52.436Z",
     "tipo": "reel",
     "pilares": [
@@ -200,7 +261,7 @@
     "cta": null,
     "decisaoFormato": "peso 73: reel; Studio Engine 100/100",
     "insights": {
-      "reach": 8,
+      "reach": 9,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -216,7 +277,7 @@
   },
   {
     "postId": "18063178151538202",
-    "dataColeta": "2026-10-25T14:58:56.285Z",
+    "dataColeta": "2026-10-26T17:29:26.029Z",
     "dataPostagem": "2026-10-16T13:47:53.579Z",
     "tipo": "reel",
     "pilares": [
@@ -248,7 +309,7 @@
   },
   {
     "postId": "18433176727194368",
-    "dataColeta": "2026-10-25T14:58:57.258Z",
+    "dataColeta": "2026-10-26T17:29:27.726Z",
     "dataPostagem": "2026-10-15T18:55:52.528Z",
     "tipo": "reel",
     "pilares": [
@@ -279,7 +340,7 @@
   },
   {
     "postId": "17880151338549132",
-    "dataColeta": "2026-10-25T14:58:58.465Z",
+    "dataColeta": "2026-10-26T17:29:29.601Z",
     "dataPostagem": "2026-10-15T14:00:27.180Z",
     "tipo": "reel",
     "pilares": [
@@ -309,7 +370,7 @@
   },
   {
     "postId": "18198452518384439",
-    "dataColeta": "2026-10-25T14:58:59.687Z",
+    "dataColeta": "2026-10-26T17:29:31.452Z",
     "dataPostagem": "2026-10-14T23:44:49.499Z",
     "tipo": "reel",
     "pilares": [
@@ -340,7 +401,7 @@
   },
   {
     "postId": "18117905389951964",
-    "dataColeta": "2026-10-25T14:59:00.904Z",
+    "dataColeta": "2026-10-26T17:29:33.308Z",
     "dataPostagem": "2026-10-14T14:23:18.895Z",
     "tipo": "reel",
     "pilares": [
@@ -370,7 +431,7 @@
   },
   {
     "postId": "17887019571685566",
-    "dataColeta": "2026-10-25T14:59:02.199Z",
+    "dataColeta": "2026-10-26T17:29:34.935Z",
     "dataPostagem": "2026-10-13T22:20:58.987Z",
     "tipo": "reel",
     "pilares": [
@@ -402,7 +463,7 @@
   },
   {
     "postId": "18109869248231887",
-    "dataColeta": "2026-10-25T14:59:03.390Z",
+    "dataColeta": "2026-10-26T17:29:36.679Z",
     "dataPostagem": "2026-10-11T15:23:17.043Z",
     "tipo": "reel",
     "pilares": [
@@ -434,7 +495,7 @@
   },
   {
     "postId": "18094261319349406",
-    "dataColeta": "2026-10-25T14:59:04.438Z",
+    "dataColeta": "2026-10-26T17:29:38.609Z",
     "dataPostagem": "2026-10-09T15:53:25.640Z",
     "tipo": "reel",
     "pilares": [
@@ -465,7 +526,7 @@
   },
   {
     "postId": "18498590122102793",
-    "dataColeta": "2026-10-25T14:59:05.724Z",
+    "dataColeta": "2026-10-26T17:29:40.466Z",
     "dataPostagem": "2026-10-08T23:00:15.558Z",
     "tipo": "reel",
     "pilares": [
@@ -495,7 +556,7 @@
   },
   {
     "postId": "17993012472051689",
-    "dataColeta": "2026-10-25T14:59:07.293Z",
+    "dataColeta": "2026-10-26T17:29:42.491Z",
     "dataPostagem": "2026-10-07T22:47:15.951Z",
     "tipo": "reel",
     "pilares": [
@@ -526,7 +587,7 @@
   },
   {
     "postId": "18105568454193433",
-    "dataColeta": "2026-10-25T14:59:08.520Z",
+    "dataColeta": "2026-10-26T17:29:44.274Z",
     "dataPostagem": "2026-10-07T16:09:18.298Z",
     "tipo": "reel",
     "pilares": [
@@ -556,7 +617,7 @@
   },
   {
     "postId": "18072758507723382",
-    "dataColeta": "2026-10-25T14:59:09.598Z",
+    "dataColeta": "2026-10-26T17:29:46.162Z",
     "dataPostagem": "2026-10-06T22:24:54.731Z",
     "tipo": "reel",
     "pilares": [
@@ -587,7 +648,7 @@
   },
   {
     "postId": "18096051884670752",
-    "dataColeta": "2026-10-25T14:59:10.779Z",
+    "dataColeta": "2026-10-26T17:29:47.835Z",
     "dataPostagem": "2026-10-06T15:44:54.163Z",
     "tipo": "reel",
     "pilares": [
@@ -618,7 +679,7 @@
   },
   {
     "postId": "18018316037931898",
-    "dataColeta": "2026-10-25T14:59:11.932Z",
+    "dataColeta": "2026-10-26T17:29:49.697Z",
     "dataPostagem": "2026-10-05T17:56:10.159Z",
     "tipo": "alerta",
     "pilares": [],
@@ -645,7 +706,7 @@
   },
   {
     "postId": "18105967610576253",
-    "dataColeta": "2026-10-25T14:59:13.162Z",
+    "dataColeta": "2026-10-26T17:29:51.420Z",
     "dataPostagem": "2026-10-02T20:52:54.954Z",
     "tipo": "alerta",
     "pilares": [],
@@ -672,7 +733,7 @@
   },
   {
     "postId": "18070095284770139",
-    "dataColeta": "2026-10-25T14:59:14.345Z",
+    "dataColeta": "2026-10-26T17:29:53.025Z",
     "dataPostagem": "2026-09-30T20:59:44.087Z",
     "tipo": "reel",
     "pilares": [
@@ -687,67 +748,6 @@
     "decisaoFormato": "peso 78: reel; Studio Engine 100/100",
     "insights": {
       "reach": 19,
-      "saved": 0,
-      "shares": 0,
-      "comments": 0,
-      "likes": 1,
-      "total_interactions": 1,
-      "falhas": [
-        {
-          "metrica": "plays",
-          "erro": "Instagram respondeu 400"
-        }
-      ]
-    }
-  },
-  {
-    "postId": "18105563180218517",
-    "dataColeta": "2026-10-25T14:59:15.560Z",
-    "dataPostagem": "2026-09-30T16:31:07.170Z",
-    "tipo": "reel",
-    "pilares": [
-      "macro",
-      "bolsa"
-    ],
-    "peso": 75,
-    "fonte": "Money Times",
-    "titulo": "Inflação dos EUA alivia pressão por altas de juros, mas PIB mais forte mantém Fed em alerta",
-    "horarioBRT": "13",
-    "cta": null,
-    "decisaoFormato": "peso 75: reel; Studio Engine 100/100",
-    "insights": {
-      "reach": 15,
-      "saved": 0,
-      "shares": 0,
-      "comments": 0,
-      "likes": 1,
-      "total_interactions": 1,
-      "falhas": [
-        {
-          "metrica": "plays",
-          "erro": "Instagram respondeu 400"
-        }
-      ]
-    }
-  },
-  {
-    "postId": "18124864381885779",
-    "dataColeta": "2026-10-25T14:59:16.792Z",
-    "dataPostagem": "2026-09-29T21:56:23.351Z",
-    "tipo": "reel",
-    "pilares": [
-      "macro",
-      "bolsa",
-      "exterior"
-    ],
-    "peso": 77,
-    "fonte": "Money Times",
-    "titulo": "Ibovespa avança com ajuda de Petrobras (PETR4) e bancos; dólar cai a R$ 5,21",
-    "horarioBRT": "18",
-    "cta": null,
-    "decisaoFormato": "peso 77: reel; Studio Engine 100/100",
-    "insights": {
-      "reach": 13,
       "saved": 0,
       "shares": 0,
       "comments": 0,
