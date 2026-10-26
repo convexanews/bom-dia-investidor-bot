@@ -1,5 +1,34 @@
 [
   {
+    "data": "2026-10-26T16:16:21.278Z",
+    "titulo": "Contágio: mercados argentinos despencam após reeleição de Lula no Brasil",
+    "categoria": "Internacional",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/mercados-argentinos-despencam-apos-reeleicao-de-lula-no-brasil/",
+    "postId": "18127173175908554",
+    "storyId": null,
+    "reelId": "18127173175908554",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1793031188100.mp4",
+    "tipo": "reel",
+    "peso": 98,
+    "pilares": [
+      "macro",
+      "bolsa",
+      "brasil_eleicoes"
+    ],
+    "horarioBRT": "13",
+    "cta": null,
+    "decisaoFormato": "peso 98: reel; Studio Engine 100/100",
+    "studioQuality": {
+      "approved": true,
+      "score": 100,
+      "blockers": [],
+      "warnings": []
+    }
+  },
+  {
     "data": "2026-10-25T18:11:05.677Z",
     "titulo": "Decisão de juros nos EUA, dados de emprego no Brasil; confira o que agita os mercados esta semana",
     "categoria": "Economia",
@@ -4603,21 +4632,6 @@
     "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1785099675116-story.png",
     "videoUrl": null,
     "tipo": "carrossel",
-    "peso": 6
-  },
-  {
-    "data": "2026-07-26T19:00:03.511Z",
-    "titulo": "“OnlyMarms”: marmotas estão no OnlyFans para arrecadar fundos para pesquisa",
-    "categoria": "Global",
-    "fonte": "InfoMoney",
-    "link": "https://www.infomoney.com.br/business/global/onlymarms-marmotas-estao-no-onlyfans-para-arrecadar-fundos-para-pesquisa/",
-    "postId": "18168749197443352",
-    "storyId": "18434230726132030",
-    "reelId": null,
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1785092357525-feed.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1785092357525-story.png",
-    "videoUrl": null,
-    "tipo": "card",
     "peso": 6
   }
 ]

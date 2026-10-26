@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-10-26T16:16:21.281Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Contágio: mercados argentinos despencam após reeleição de Lula no Brasil\".",
+    "postId": "18127173175908554",
+    "storyId": null,
+    "reelId": "18127173175908554",
+    "tipo": "reel",
+    "studioQuality": 100
+  },
+  {
+    "data": "2026-10-26T16:12:50.431Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 98): \"Contágio: mercados argentinos despencam após reeleição de Lula no Brasil\". Realizando postagem..."
+  },
+  {
     "data": "2026-10-26T03:18:47.038Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (00:18 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1121,15 +1136,5 @@
     "data": "2026-09-29T04:20:23.785Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (01:20 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-09-28T23:52:58.956Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-09-28T22:57:50.576Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }
 ]
