@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-10-27T15:08:17.427Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
     "data": "2026-10-27T03:47:36.213Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (00:47 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1122,15 +1127,5 @@
     "data": "2026-09-29T23:05:58.582Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 21 min."
-  },
-  {
-    "data": "2026-09-29T21:56:23.354Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Ibovespa avança com ajuda de Petrobras (PETR4) e bancos; dólar cai a R$ 5,21\".",
-    "postId": "18124864381885779",
-    "storyId": null,
-    "reelId": "18124864381885779",
-    "tipo": "reel",
-    "studioQuality": 100
   }
 ]
