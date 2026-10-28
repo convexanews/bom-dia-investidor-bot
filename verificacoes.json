@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-10-28T15:45:38.165Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
     "data": "2026-10-28T04:05:02.476Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (01:05 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1117,15 +1122,5 @@
     "data": "2026-09-30T20:57:23.754Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 78): \"Dólar cai e fecha a R$ 5,17 com inflação dos EUA e contas públicas no foco; Ibovespa sobe\". Realizando postagem..."
-  },
-  {
-    "data": "2026-09-30T16:31:07.173Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Inflação dos EUA alivia pressão por altas de juros, mas PIB mais forte mantém Fed em alerta\".",
-    "postId": "18105563180218517",
-    "storyId": null,
-    "reelId": "18105563180218517",
-    "tipo": "reel",
-    "studioQuality": 100
   }
 ]
