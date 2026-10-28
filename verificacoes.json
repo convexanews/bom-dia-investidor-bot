@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-10-28T04:05:02.476Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (01:05 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-10-28T01:31:54.484Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1122,10 +1127,5 @@
     "reelId": "18105563180218517",
     "tipo": "reel",
     "studioQuality": 100
-  },
-  {
-    "data": "2026-09-30T16:28:30.953Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 75): \"Inflação dos EUA alivia pressão por altas de juros, mas PIB mais forte mantém Fed em alerta\". Realizando postagem..."
   }
 ]
