@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-10-28T01:31:54.484Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
     "data": "2026-10-27T21:50:19.540Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1122,10 +1127,5 @@
     "data": "2026-09-30T16:28:30.953Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 75): \"Inflação dos EUA alivia pressão por altas de juros, mas PIB mais forte mantém Fed em alerta\". Realizando postagem..."
-  },
-  {
-    "data": "2026-09-30T15:39:49.283Z",
-    "resultado": "erro",
-    "mensagem": "Erro na execução automática: Command failed: git push"
   }
 ]
