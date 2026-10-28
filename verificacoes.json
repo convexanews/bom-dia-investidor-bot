@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-10-28T23:27:38.805Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Petrobras (PETR4) bate recorde de produção de petróleo e gás, com alta de 11,7% em um ano\".",
+    "postId": "17984033648906254",
+    "storyId": null,
+    "reelId": "17984033648906254",
+    "tipo": "reel",
+    "studioQuality": 100
+  },
+  {
+    "data": "2026-10-28T23:23:46.692Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 75): \"Petrobras (PETR4) bate recorde de produção de petróleo e gás, com alta de 11,7% em um ano\". Realizando postagem..."
+  },
+  {
     "data": "2026-10-28T22:12:12.422Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1107,15 +1122,5 @@
     "data": "2026-10-01T04:16:19.392Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (01:16 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-10-01T01:24:28.745Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-09-30T21:53:55.742Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 36 min."
   }
 ]

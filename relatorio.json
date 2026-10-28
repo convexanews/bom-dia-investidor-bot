@@ -1,5 +1,35 @@
 [
   {
+    "data": "2026-10-28T23:27:38.802Z",
+    "titulo": "Petrobras (PETR4) bate recorde de produção de petróleo e gás, com alta de 11,7% em um ano",
+    "categoria": "Empresas",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/com-petroleo-ainda-nas-alturas-petrobras-petr4bate-recorde-de-producao-de-petroleo-e-gas-com-alta-de-117-em-um-ano-bdap/",
+    "postId": "17984033648906254",
+    "storyId": null,
+    "reelId": "17984033648906254",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1793229839427.mp4",
+    "tipo": "reel",
+    "peso": 75,
+    "pilares": [
+      "bolsa",
+      "renda_fixa",
+      "exterior",
+      "mundo_empresas"
+    ],
+    "horarioBRT": "20",
+    "cta": null,
+    "decisaoFormato": "peso 75: reel; Studio Engine 100/100",
+    "studioQuality": {
+      "approved": true,
+      "score": 100,
+      "blockers": [],
+      "warnings": []
+    }
+  },
+  {
     "data": "2026-10-26T16:16:21.278Z",
     "titulo": "Contágio: mercados argentinos despencam após reeleição de Lula no Brasil",
     "categoria": "Internacional",
@@ -4618,20 +4648,5 @@
     "videoUrl": null,
     "tipo": "card",
     "peso": 26
-  },
-  {
-    "data": "2026-07-26T21:02:20.876Z",
-    "titulo": "Baker Hughes declara dividendo trimestral de US$ 0,23 por ação",
-    "categoria": "MERCADO",
-    "fonte": "Investing.com",
-    "link": "https://br.investing.com/news/company-news/baker-hughes-declara-dividendo-trimestral-de-us-023-por-acao-93CH-2013873",
-    "postId": "18013163747923358",
-    "storyId": "18129101227724296",
-    "reelId": null,
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1785099675116-slide1.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1785099675116-story.png",
-    "videoUrl": null,
-    "tipo": "carrossel",
-    "peso": 6
   }
 ]
