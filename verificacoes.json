@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-10-29T23:28:58.050Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 31 min."
+  },
+  {
     "data": "2026-10-29T22:29:47.817Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Bolsas de NY caem com expectativas de alta dos juros; dona do Google tomba 12%\".",
@@ -1127,10 +1132,5 @@
     "resultado": "alerta_recorde",
     "mensagem": "Alerta de recorde publicado: Ibovespa (NOVA MÁXIMA).",
     "postId": "18105967610576253"
-  },
-  {
-    "data": "2026-10-02T20:52:19.168Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }
 ]
