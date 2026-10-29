@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-10-29T17:01:25.424Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 24 min."
+  },
+  {
     "data": "2026-10-29T15:54:50.305Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Wall Street abre sessão no vermelho após balanço do Google reacender dúvidas sobre IA\".",
@@ -1122,10 +1127,5 @@
     "data": "2026-10-02T15:24:52.820Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-10-02T04:09:18.960Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (01:09 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
