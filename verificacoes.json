@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-10-29T04:29:24.752Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (01:29 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-10-28T23:27:38.805Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Petrobras (PETR4) bate recorde de produção de petróleo e gás, com alta de 11,7% em um ano\".",
@@ -1117,10 +1122,5 @@
     "data": "2026-10-01T22:22:00.504Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-10-01T04:16:19.392Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (01:16 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
