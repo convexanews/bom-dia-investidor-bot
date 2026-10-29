@@ -1,5 +1,35 @@
 [
   {
+    "data": "2026-10-29T22:29:47.814Z",
+    "titulo": "Bolsas de NY caem com expectativas de alta dos juros; dona do Google tomba 12%",
+    "categoria": "Mercados",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/bolsas-ny-fechamento-29102026-davs/",
+    "postId": "18199414414385859",
+    "storyId": null,
+    "reelId": "18199414414385859",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1793312844472.mp4",
+    "tipo": "reel",
+    "peso": 116,
+    "pilares": [
+      "macro",
+      "bolsa",
+      "exterior",
+      "mundo_empresas"
+    ],
+    "horarioBRT": "19",
+    "cta": null,
+    "decisaoFormato": "peso 116: reel; Studio Engine 100/100",
+    "studioQuality": {
+      "approved": true,
+      "score": 100,
+      "blockers": [],
+      "warnings": []
+    }
+  },
+  {
     "data": "2026-10-29T15:54:50.303Z",
     "titulo": "Wall Street abre sessão no vermelho após balanço do Google reacender dúvidas sobre IA",
     "categoria": "Mercados",
@@ -4648,20 +4678,5 @@
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1785151867148.mp4",
     "tipo": "reel",
     "peso": 79
-  },
-  {
-    "data": "2026-07-27T09:02:19.521Z",
-    "titulo": "Dow Jones Futuro sobe e petróleo despenca com trégua no Irã; Fed e big techs no radar",
-    "categoria": "Mercados",
-    "fonte": "InfoMoney",
-    "link": "https://www.infomoney.com.br/mercados/dow-jones-futuro-sobe-e-petroleo-despenca-com-tregua-no-ira-fed-e-big-techs-no-radar/",
-    "postId": "18375681046225294",
-    "storyId": null,
-    "reelId": "18375681046225294",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1785142863054.mp4",
-    "tipo": "reel",
-    "peso": 80
   }
 ]

@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-10-29T22:29:47.817Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Bolsas de NY caem com expectativas de alta dos juros; dona do Google tomba 12%\".",
+    "postId": "18199414414385859",
+    "storyId": null,
+    "reelId": "18199414414385859",
+    "tipo": "reel",
+    "studioQuality": 100
+  },
+  {
+    "data": "2026-10-29T22:27:18.248Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 116): \"Bolsas de NY caem com expectativas de alta dos juros; dona do Google tomba 12%\". Realizando postagem..."
+  },
+  {
     "data": "2026-10-29T17:01:25.424Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 24 min."
@@ -1115,16 +1130,6 @@
   },
   {
     "data": "2026-10-02T20:52:19.168Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-10-02T16:20:01.865Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-10-02T15:24:52.820Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }

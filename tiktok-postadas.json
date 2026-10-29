@@ -1,5 +1,14 @@
 [
   {
+    "titulo": "Bolsas de NY caem com expectativas de alta dos juros; dona do Google tomba 12%",
+    "link": "https://www.moneytimes.com.br/bolsas-ny-fechamento-29102026-davs/",
+    "peso": 116,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1793312844472.mp4",
+    "coverUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1793312844472-capa.png",
+    "legendaUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1793312844472-legenda.txt",
+    "data": "2026-10-29T22:29:47.812Z"
+  },
+  {
     "titulo": "Wall Street abre sessão no vermelho após balanço do Google reacender dúvidas sobre IA",
     "link": "https://www.moneytimes.com.br/bolsas-eua-29102026-davs/",
     "peso": 87,
@@ -1657,13 +1666,5 @@
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783692089571.mp4",
     "legendaUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783692089571-legenda.txt",
     "data": "2026-07-10T14:03:02.350Z"
-  },
-  {
-    "titulo": "Tempo Real: Ibovespa fecha semana de olho na inflação brasileira",
-    "link": "https://www.moneytimes.com.br/tempo-real-ibovespa-hoje-mercado-ao-vivo-10-07-2026-jals-lils-apsa/",
-    "peso": 39,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783674108566.mp4",
-    "legendaUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783674108566-legenda.txt",
-    "data": "2026-07-10T09:03:16.359Z"
   }
 ]
