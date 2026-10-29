@@ -1,5 +1,14 @@
 [
   {
+    "titulo": "Wall Street abre sessão no vermelho após balanço do Google reacender dúvidas sobre IA",
+    "link": "https://www.moneytimes.com.br/bolsas-eua-29102026-davs/",
+    "peso": 87,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1793289146188.mp4",
+    "coverUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1793289146188-capa.png",
+    "legendaUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1793289146188-legenda.txt",
+    "data": "2026-10-29T15:54:50.301Z"
+  },
+  {
     "titulo": "Petrobras (PETR4) bate recorde de produção de petróleo e gás, com alta de 11,7% em um ano",
     "link": "https://www.moneytimes.com.br/com-petroleo-ainda-nas-alturas-petrobras-petr4bate-recorde-de-producao-de-petroleo-e-gas-com-alta-de-117-em-um-ano-bdap/",
     "peso": 75,
@@ -1656,13 +1665,5 @@
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783674108566.mp4",
     "legendaUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783674108566-legenda.txt",
     "data": "2026-07-10T09:03:16.359Z"
-  },
-  {
-    "titulo": "Opções de Copom da B3 apontam para corte de 0,25% na Selic em agosto",
-    "link": "https://www.infomoney.com.br/mercados/opcoes-de-copom-da-b3-apontam-para-corte-de-025-na-selic-em-agosto/",
-    "peso": 73,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783623692201.mp4",
-    "legendaUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783623692201-legenda.txt",
-    "data": "2026-07-09T19:02:46.754Z"
   }
 ]

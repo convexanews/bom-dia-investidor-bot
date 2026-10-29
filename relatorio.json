@@ -1,5 +1,35 @@
 [
   {
+    "data": "2026-10-29T15:54:50.303Z",
+    "titulo": "Wall Street abre sessão no vermelho após balanço do Google reacender dúvidas sobre IA",
+    "categoria": "Mercados",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/bolsas-eua-29102026-davs/",
+    "postId": "18093014429204081",
+    "storyId": null,
+    "reelId": "18093014429204081",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1793289146188.mp4",
+    "tipo": "reel",
+    "peso": 87,
+    "pilares": [
+      "macro",
+      "bolsa",
+      "exterior",
+      "mundo_empresas"
+    ],
+    "horarioBRT": "12",
+    "cta": null,
+    "decisaoFormato": "peso 87: reel; Studio Engine 100/100",
+    "studioQuality": {
+      "approved": true,
+      "score": 100,
+      "blockers": [],
+      "warnings": []
+    }
+  },
+  {
     "data": "2026-10-28T23:27:38.802Z",
     "titulo": "Petrobras (PETR4) bate recorde de produção de petróleo e gás, com alta de 11,7% em um ano",
     "categoria": "Empresas",
@@ -4633,20 +4663,5 @@
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1785142863054.mp4",
     "tipo": "reel",
     "peso": 80
-  },
-  {
-    "data": "2026-07-26T23:31:57.625Z",
-    "titulo": "Ibovespa e dólar hoje: Oriente Médio, petróleo e Focus em foco pré-FOMC",
-    "categoria": "MERCADO",
-    "fonte": "Investing.com",
-    "link": "https://br.investing.com/news/stock-market-news/ibovespa-e-dolar-hoje-oriente-medio-petroleo-e-focus-em-foco-prefomc-2013367",
-    "postId": "18050131250792548",
-    "storyId": "18409669546153786",
-    "reelId": null,
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1785108678257-feed.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1785108678257-story.png",
-    "videoUrl": null,
-    "tipo": "card",
-    "peso": 26
   }
 ]

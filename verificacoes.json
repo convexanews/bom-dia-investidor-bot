@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-10-29T15:54:50.305Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Wall Street abre sessão no vermelho após balanço do Google reacender dúvidas sobre IA\".",
+    "postId": "18093014429204081",
+    "storyId": null,
+    "reelId": "18093014429204081",
+    "tipo": "reel",
+    "studioQuality": 100
+  },
+  {
+    "data": "2026-10-29T15:52:22.490Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 87): \"Wall Street abre sessão no vermelho após balanço do Google reacender dúvidas sobre IA\". Realizando postagem..."
+  },
+  {
     "data": "2026-10-29T04:29:24.752Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (01:29 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1112,15 +1127,5 @@
     "data": "2026-10-02T04:09:18.960Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (01:09 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-10-01T23:19:29.119Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-10-01T22:22:00.504Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }
 ]
