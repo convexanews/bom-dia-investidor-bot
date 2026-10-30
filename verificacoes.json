@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-10-30T16:46:29.654Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 20 min."
+  },
+  {
     "data": "2026-10-30T15:35:55.875Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Wall Street abre última sessão da semana em queda em reação aos balanços de tecnologia\".",
@@ -1131,10 +1136,5 @@
     "resultado": "pauta_reprovada",
     "mensagem": "Notícia não publicada: manchete longa demais para caber completa no card.",
     "titulo": "Das ações que podem disparar caso Lula seja reeleito à locação do Esther Towers pelo Itaú; confira as mais lidas da semana"
-  },
-  {
-    "data": "2026-10-03T03:52:17.362Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (00:52 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
