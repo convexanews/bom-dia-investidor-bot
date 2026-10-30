@@ -1,17 +1,9 @@
 {
-  "atualizadoEm": "2026-10-29T17:28:56.155Z",
+  "atualizadoEm": "2026-10-30T17:04:37.072Z",
   "porFormato": {
     "reel": {
-      "posts": 24,
-      "alcanceMedio": 12,
-      "salvamentosMedios": 0,
-      "compartilhamentosMedios": 0,
-      "reproducoesMedias": null,
-      "taxaInteracaoMedia": 0
-    },
-    "alerta": {
-      "posts": 1,
-      "alcanceMedio": 16,
+      "posts": 25,
+      "alcanceMedio": 11,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
@@ -20,32 +12,32 @@
   },
   "porPilar": {
     "macro": {
-      "posts": 22,
-      "alcanceMedio": 12,
+      "posts": 23,
+      "alcanceMedio": 11,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
       "taxaInteracaoMedia": 0
     },
     "bolsa": {
-      "posts": 23,
-      "alcanceMedio": 12,
+      "posts": 25,
+      "alcanceMedio": 11,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
       "taxaInteracaoMedia": 0
     },
     "exterior": {
-      "posts": 9,
-      "alcanceMedio": 10,
+      "posts": 10,
+      "alcanceMedio": 9,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
       "taxaInteracaoMedia": 0
     },
     "mundo_empresas": {
-      "posts": 11,
-      "alcanceMedio": 10,
+      "posts": 12,
+      "alcanceMedio": 9,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
@@ -95,7 +87,7 @@
     },
     "12": {
       "posts": 5,
-      "alcanceMedio": 10,
+      "alcanceMedio": 9,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
@@ -134,8 +126,8 @@
       "taxaInteracaoMedia": 0
     },
     "19": {
-      "posts": 3,
-      "alcanceMedio": 15,
+      "posts": 4,
+      "alcanceMedio": 13,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
@@ -148,20 +140,12 @@
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
       "taxaInteracaoMedia": 0
-    },
-    "não informado": {
-      "posts": 1,
-      "alcanceMedio": 16,
-      "salvamentosMedios": 0,
-      "compartilhamentosMedios": 0,
-      "reproducoesMedias": null,
-      "taxaInteracaoMedia": 0
     }
   },
   "porCTA": {
     "não informado": {
       "posts": 25,
-      "alcanceMedio": 12,
+      "alcanceMedio": 11,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
