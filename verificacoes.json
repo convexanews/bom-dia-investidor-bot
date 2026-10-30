@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-10-30T04:27:53.153Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (01:27 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-10-29T23:28:58.050Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 31 min."
@@ -1126,11 +1131,5 @@
     "data": "2026-10-02T21:51:01.792Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 32 min."
-  },
-  {
-    "data": "2026-10-02T20:52:54.957Z",
-    "resultado": "alerta_recorde",
-    "mensagem": "Alerta de recorde publicado: Ibovespa (NOVA MÁXIMA).",
-    "postId": "18105967610576253"
   }
 ]
