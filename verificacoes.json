@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-10-30T15:35:55.875Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Wall Street abre última sessão da semana em queda em reação aos balanços de tecnologia\".",
+    "postId": "17980416360136654",
+    "storyId": null,
+    "reelId": "17980416360136654",
+    "tipo": "reel",
+    "studioQuality": 100
+  },
+  {
+    "data": "2026-10-30T15:33:04.382Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 84): \"Wall Street abre última sessão da semana em queda em reação aos balanços de tecnologia\". Realizando postagem..."
+  },
+  {
     "data": "2026-10-30T04:27:53.153Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (01:27 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1121,15 +1136,5 @@
     "data": "2026-10-03T03:52:17.362Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (00:52 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-10-03T01:17:45.469Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-10-02T21:51:01.792Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 32 min."
   }
 ]

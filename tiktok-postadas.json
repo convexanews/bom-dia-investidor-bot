@@ -1,5 +1,14 @@
 [
   {
+    "titulo": "Wall Street abre última sessão da semana em queda em reação aos balanços de tecnologia",
+    "link": "https://www.moneytimes.com.br/bolsa-eua-abertura-30102026-davs/",
+    "peso": 84,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1793374390421.mp4",
+    "coverUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1793374390421-capa.png",
+    "legendaUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1793374390421-legenda.txt",
+    "data": "2026-10-30T15:35:55.870Z"
+  },
+  {
     "titulo": "Bolsas de NY caem com expectativas de alta dos juros; dona do Google tomba 12%",
     "link": "https://www.moneytimes.com.br/bolsas-ny-fechamento-29102026-davs/",
     "peso": 116,
@@ -1658,13 +1667,5 @@
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783703898040.mp4",
     "legendaUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783703898040-legenda.txt",
     "data": "2026-07-10T17:20:25.710Z"
-  },
-  {
-    "titulo": "IPCA fraco reforça aposta em corte da Selic em agosto, mas petróleo mantém alerta",
-    "link": "https://www.infomoney.com.br/economia/ipca-fraco-reforca-aposta-em-corte-da-selic-em-agosto-mas-petroleo-mantem-alerta/",
-    "peso": 66,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783692089571.mp4",
-    "legendaUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783692089571-legenda.txt",
-    "data": "2026-07-10T14:03:02.350Z"
   }
 ]
