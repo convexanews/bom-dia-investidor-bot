@@ -1,5 +1,35 @@
 [
   {
+    "data": "2026-10-30T21:59:27.751Z",
+    "titulo": "Só o CDI se salva em outubro, enquanto Ibovespa despenca quase 10%; confira ranking de investimentos do mês",
+    "categoria": "Mercados",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/so-o-cdi-se-salva-em-outubro-enquanto-ibovespa-despenca-quase-10-mlim/",
+    "postId": "18106005872631524",
+    "storyId": null,
+    "reelId": "18106005872631524",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1793397436492.mp4",
+    "tipo": "reel",
+    "peso": 86,
+    "pilares": [
+      "macro",
+      "bolsa",
+      "renda_fixa",
+      "cripto"
+    ],
+    "horarioBRT": "18",
+    "cta": null,
+    "decisaoFormato": "peso 86: reel; Studio Engine 100/100",
+    "studioQuality": {
+      "approved": true,
+      "score": 100,
+      "blockers": [],
+      "warnings": []
+    }
+  },
+  {
     "data": "2026-10-30T15:35:55.872Z",
     "titulo": "Wall Street abre última sessão da semana em queda em reação aos balanços de tecnologia",
     "categoria": "Mercados",
@@ -4678,20 +4708,5 @@
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1785168083407.mp4",
     "tipo": "reel",
     "peso": 71
-  },
-  {
-    "data": "2026-07-27T13:35:13.375Z",
-    "titulo": "Ibovespa avança com alívio da guerra no Oriente Médio; 5 coisas para saber antes de investir hoje (27)",
-    "categoria": "Mercados",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/ibovespa-5-coisas-27-7-26-apsa/",
-    "postId": "18126208615678696",
-    "storyId": null,
-    "reelId": "18126208615678696",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1785159236944.mp4",
-    "tipo": "reel",
-    "peso": 61
   }
 ]

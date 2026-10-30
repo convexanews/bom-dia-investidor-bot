@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-10-30T21:59:27.753Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Só o CDI se salva em outubro, enquanto Ibovespa despenca quase 10%; confira ranking de investimentos do mês\".",
+    "postId": "18106005872631524",
+    "storyId": null,
+    "reelId": "18106005872631524",
+    "tipo": "reel",
+    "studioQuality": 100
+  },
+  {
+    "data": "2026-10-30T21:57:08.150Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 86): \"Só o CDI se salva em outubro, enquanto Ibovespa despenca quase 10%; confira ranking de investimentos do mês\". Realizando postagem..."
+  },
+  {
     "data": "2026-10-30T16:46:29.654Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 20 min."
@@ -1124,17 +1139,5 @@
     "data": "2026-10-03T18:33:18.394Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-10-03T14:47:57.879Z",
-    "resultado": "pauta_reprovada",
-    "mensagem": "Notícia não publicada: manchete longa demais para caber completa no card.",
-    "titulo": "Das ações que podem disparar caso Lula seja reeleito à locação do Esther Towers pelo Itaú; confira as mais lidas da semana"
-  },
-  {
-    "data": "2026-10-03T14:09:00.041Z",
-    "resultado": "pauta_reprovada",
-    "mensagem": "Notícia não publicada: manchete longa demais para caber completa no card.",
-    "titulo": "Das ações que podem disparar caso Lula seja reeleito à locação do Esther Towers pelo Itaú; confira as mais lidas da semana"
   }
 ]
