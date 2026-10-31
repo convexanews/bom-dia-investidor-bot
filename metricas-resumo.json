@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-10-30T17:04:37.072Z",
+  "atualizadoEm": "2026-10-31T16:12:30.218Z",
   "porFormato": {
     "reel": {
       "posts": 25,
@@ -27,6 +27,22 @@
       "reproducoesMedias": null,
       "taxaInteracaoMedia": 0
     },
+    "renda_fixa": {
+      "posts": 3,
+      "alcanceMedio": 7,
+      "salvamentosMedios": 0,
+      "compartilhamentosMedios": 0,
+      "reproducoesMedias": null,
+      "taxaInteracaoMedia": 0
+    },
+    "cripto": {
+      "posts": 1,
+      "alcanceMedio": 3,
+      "salvamentosMedios": 0,
+      "compartilhamentosMedios": 0,
+      "reproducoesMedias": null,
+      "taxaInteracaoMedia": 0
+    },
     "exterior": {
       "posts": 10,
       "alcanceMedio": 9,
@@ -37,27 +53,19 @@
     },
     "mundo_empresas": {
       "posts": 12,
-      "alcanceMedio": 9,
-      "salvamentosMedios": 0,
-      "compartilhamentosMedios": 0,
-      "reproducoesMedias": null,
-      "taxaInteracaoMedia": 0
-    },
-    "renda_fixa": {
-      "posts": 2,
-      "alcanceMedio": 9,
+      "alcanceMedio": 10,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
       "taxaInteracaoMedia": 0
     },
     "brasil_eleicoes": {
-      "posts": 2,
-      "alcanceMedio": 19,
+      "posts": 1,
+      "alcanceMedio": 24,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
-      "taxaInteracaoMedia": 5.26
+      "taxaInteracaoMedia": 0
     },
     "fiis": {
       "posts": 1,
@@ -95,7 +103,7 @@
     },
     "13": {
       "posts": 2,
-      "alcanceMedio": 21,
+      "alcanceMedio": 22,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
@@ -103,7 +111,7 @@
     },
     "15": {
       "posts": 2,
-      "alcanceMedio": 13,
+      "alcanceMedio": 14,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
@@ -125,8 +133,16 @@
       "reproducoesMedias": null,
       "taxaInteracaoMedia": 0
     },
+    "18": {
+      "posts": 1,
+      "alcanceMedio": 3,
+      "salvamentosMedios": 0,
+      "compartilhamentosMedios": 0,
+      "reproducoesMedias": null,
+      "taxaInteracaoMedia": 0
+    },
     "19": {
-      "posts": 4,
+      "posts": 3,
       "alcanceMedio": 13,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
