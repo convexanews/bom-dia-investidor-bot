@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-11-02T04:32:11.195Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (01:32 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-11-01T22:56:51.631Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1134,10 +1139,5 @@
     "resultado": "alerta_recorde",
     "mensagem": "Alerta de recorde publicado: Ibovespa (NOVA MÁXIMA).",
     "postId": "18018316037931898"
-  },
-  {
-    "data": "2026-10-05T17:55:19.590Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }
 ]
