@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-11-02T19:15:44.421Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Ouro sobe quase 2% com derrocada dos preços do petróleo\".",
+    "postId": "18108497792461451",
+    "storyId": null,
+    "reelId": "18108497792461451",
+    "tipo": "reel",
+    "studioQuality": 100
+  },
+  {
+    "data": "2026-11-02T19:12:27.885Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 90): \"Ouro sobe quase 2% com derrocada dos preços do petróleo\". Realizando postagem..."
+  },
+  {
     "data": "2026-11-02T04:32:11.195Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (01:32 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1128,16 +1143,5 @@
     "data": "2026-10-06T00:54:42.114Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-10-05T23:46:18.907Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-10-05T17:56:10.160Z",
-    "resultado": "alerta_recorde",
-    "mensagem": "Alerta de recorde publicado: Ibovespa (NOVA MÁXIMA).",
-    "postId": "18018316037931898"
   }
 ]

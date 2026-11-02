@@ -1,5 +1,35 @@
 [
   {
+    "data": "2026-11-02T19:15:44.418Z",
+    "titulo": "Ouro sobe quase 2% com derrocada dos preços do petróleo",
+    "categoria": "Mercados",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/ouro-2-11-26-lils/",
+    "postId": "18108497792461451",
+    "storyId": null,
+    "reelId": "18108497792461451",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1793646758816.mp4",
+    "tipo": "reel",
+    "peso": 90,
+    "pilares": [
+      "macro",
+      "bolsa",
+      "exterior",
+      "mundo_empresas"
+    ],
+    "horarioBRT": "16",
+    "cta": null,
+    "decisaoFormato": "peso 90: reel; Studio Engine 100/100",
+    "studioQuality": {
+      "approved": true,
+      "score": 100,
+      "blockers": [],
+      "warnings": []
+    }
+  },
+  {
     "data": "2026-10-30T21:59:27.751Z",
     "titulo": "Só o CDI se salva em outubro, enquanto Ibovespa despenca quase 10%; confira ranking de investimentos do mês",
     "categoria": "Mercados",
@@ -4693,20 +4723,5 @@
     "videoUrl": null,
     "tipo": "carrossel",
     "peso": 50
-  },
-  {
-    "data": "2026-07-27T16:02:52.009Z",
-    "titulo": "Tesouro IPCA+ ainda é a melhor aposta da renda fixa? Especialista explica porque título continua pagando tão bem",
-    "categoria": "Economia",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/o-que-pesa-mais-tesouro-ipca-volta-a-disparar-com-oriente-medio-e-risco-fiscal-jcav/",
-    "postId": "18171234673442245",
-    "storyId": null,
-    "reelId": "18171234673442245",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1785168083407.mp4",
-    "tipo": "reel",
-    "peso": 71
   }
 ]
