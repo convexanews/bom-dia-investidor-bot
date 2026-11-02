@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-01T17:11:38.047Z",
+  "atualizadoEm": "2026-11-02T20:50:21.467Z",
   "porFormato": {
     "reel": {
       "posts": 25,
@@ -27,6 +27,22 @@
       "reproducoesMedias": null,
       "taxaInteracaoMedia": 0
     },
+    "exterior": {
+      "posts": 11,
+      "alcanceMedio": 9,
+      "salvamentosMedios": 0,
+      "compartilhamentosMedios": 0,
+      "reproducoesMedias": null,
+      "taxaInteracaoMedia": 0
+    },
+    "mundo_empresas": {
+      "posts": 13,
+      "alcanceMedio": 10,
+      "salvamentosMedios": 0,
+      "compartilhamentosMedios": 0,
+      "reproducoesMedias": null,
+      "taxaInteracaoMedia": 0
+    },
     "renda_fixa": {
       "posts": 3,
       "alcanceMedio": 8,
@@ -38,22 +54,6 @@
     "cripto": {
       "posts": 1,
       "alcanceMedio": 5,
-      "salvamentosMedios": 0,
-      "compartilhamentosMedios": 0,
-      "reproducoesMedias": null,
-      "taxaInteracaoMedia": 0
-    },
-    "exterior": {
-      "posts": 10,
-      "alcanceMedio": 10,
-      "salvamentosMedios": 0,
-      "compartilhamentosMedios": 0,
-      "reproducoesMedias": null,
-      "taxaInteracaoMedia": 0
-    },
-    "mundo_empresas": {
-      "posts": 12,
-      "alcanceMedio": 10,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
@@ -102,8 +102,8 @@
       "taxaInteracaoMedia": 0
     },
     "13": {
-      "posts": 2,
-      "alcanceMedio": 22,
+      "posts": 1,
+      "alcanceMedio": 24,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
@@ -118,8 +118,8 @@
       "taxaInteracaoMedia": 0
     },
     "16": {
-      "posts": 2,
-      "alcanceMedio": 10,
+      "posts": 3,
+      "alcanceMedio": 8,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
