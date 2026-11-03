@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-11-03T16:50:27.085Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
     "data": "2026-11-03T03:34:59.959Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (00:34 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1133,15 +1138,5 @@
     "data": "2026-10-06T17:05:30.671Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 10 min."
-  },
-  {
-    "data": "2026-10-06T15:44:54.165Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Wall Street sobem com alívio dos Treasuries e petróleo; Nasdaq e S&P 500 renova recordes\".",
-    "postId": "18096051884670752",
-    "storyId": null,
-    "reelId": "18096051884670752",
-    "tipo": "reel",
-    "studioQuality": 100
   }
 ]
