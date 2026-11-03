@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-11-03T03:34:59.959Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (00:34 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-11-03T02:46:34.600Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (23:46 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1138,10 +1143,5 @@
     "reelId": "18096051884670752",
     "tipo": "reel",
     "studioQuality": 100
-  },
-  {
-    "data": "2026-10-06T15:42:29.410Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 93): \"Wall Street sobem com alívio dos Treasuries e petróleo; Nasdaq e S&P 500 renova recordes\". Realizando postagem..."
   }
 ]
