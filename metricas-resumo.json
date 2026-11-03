@@ -1,8 +1,16 @@
 {
-  "atualizadoEm": "2026-11-02T20:50:21.467Z",
+  "atualizadoEm": "2026-11-03T18:30:59.003Z",
   "porFormato": {
+    "alerta": {
+      "posts": 1,
+      "alcanceMedio": 1,
+      "salvamentosMedios": 0,
+      "compartilhamentosMedios": 0,
+      "reproducoesMedias": null,
+      "taxaInteracaoMedia": 0
+    },
     "reel": {
-      "posts": 25,
+      "posts": 24,
       "alcanceMedio": 11,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
@@ -12,7 +20,7 @@
   },
   "porPilar": {
     "macro": {
-      "posts": 23,
+      "posts": 22,
       "alcanceMedio": 11,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
@@ -20,7 +28,7 @@
       "taxaInteracaoMedia": 0
     },
     "bolsa": {
-      "posts": 25,
+      "posts": 24,
       "alcanceMedio": 11,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
@@ -28,7 +36,7 @@
       "taxaInteracaoMedia": 0
     },
     "exterior": {
-      "posts": 11,
+      "posts": 10,
       "alcanceMedio": 9,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
@@ -119,7 +127,7 @@
     },
     "16": {
       "posts": 3,
-      "alcanceMedio": 8,
+      "alcanceMedio": 9,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
@@ -142,8 +150,8 @@
       "taxaInteracaoMedia": 0
     },
     "19": {
-      "posts": 3,
-      "alcanceMedio": 13,
+      "posts": 2,
+      "alcanceMedio": 12,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
@@ -156,12 +164,20 @@
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
       "taxaInteracaoMedia": 0
+    },
+    "não informado": {
+      "posts": 1,
+      "alcanceMedio": 1,
+      "salvamentosMedios": 0,
+      "compartilhamentosMedios": 0,
+      "reproducoesMedias": null,
+      "taxaInteracaoMedia": 0
     }
   },
   "porCTA": {
     "não informado": {
       "posts": 25,
-      "alcanceMedio": 11,
+      "alcanceMedio": 10,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
