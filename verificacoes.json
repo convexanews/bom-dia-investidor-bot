@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-11-03T22:55:36.115Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
     "data": "2026-11-03T17:58:41.119Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 24 min."
@@ -1129,15 +1134,5 @@
     "data": "2026-10-06T23:11:18.079Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 44 min."
-  },
-  {
-    "data": "2026-10-06T22:24:54.733Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Veja os setores da economia que dispararam na bolsa após o 1º turno\".",
-    "postId": "18072758507723382",
-    "storyId": null,
-    "reelId": "18072758507723382",
-    "tipo": "reel",
-    "studioQuality": 100
   }
 ]
