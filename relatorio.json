@@ -1,5 +1,16 @@
 [
   {
+    "data": "2026-11-03T16:51:45.109Z",
+    "titulo": "NOVA MÁXIMA: Dólar",
+    "categoria": "Alerta de mercado",
+    "fonte": "Cotação de mercado",
+    "postId": "17999926397826187",
+    "tipo": "alerta",
+    "peso": 100,
+    "origem": "alerta_recorde",
+    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/recorde-dolar-1793724659356.png"
+  },
+  {
     "data": "2026-11-02T19:15:44.418Z",
     "titulo": "Ouro sobe quase 2% com derrocada dos preços do petróleo",
     "categoria": "Mercados",
@@ -4708,20 +4719,5 @@
     "videoUrl": null,
     "tipo": "card",
     "peso": 58
-  },
-  {
-    "data": "2026-07-27T18:20:16.109Z",
-    "titulo": "Por que JBS (JBSS32) e MBRF (MBRF3) disparam nesta segunda (27)?",
-    "categoria": "Empresas",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/por-que-jbs-jbss32-e-mbrf-mbrf3-disparam-nesta-segunda-27-pads/",
-    "postId": "18102327206010836",
-    "storyId": "17954512065192732",
-    "reelId": null,
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1785176345044-slide1.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1785176345044-story.png",
-    "videoUrl": null,
-    "tipo": "carrossel",
-    "peso": 50
   }
 ]

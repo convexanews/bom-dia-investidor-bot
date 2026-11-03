@@ -1,5 +1,11 @@
 [
   {
+    "data": "2026-11-03T16:51:45.112Z",
+    "resultado": "alerta_recorde",
+    "mensagem": "Alerta de recorde publicado: Dólar (NOVA MÁXIMA).",
+    "postId": "17999926397826187"
+  },
+  {
     "data": "2026-11-03T16:50:27.085Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1133,10 +1139,5 @@
     "data": "2026-10-06T22:21:55.080Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 95): \"Veja os setores da economia que dispararam na bolsa após o 1º turno\". Realizando postagem..."
-  },
-  {
-    "data": "2026-10-06T17:05:30.671Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 10 min."
   }
 ]
