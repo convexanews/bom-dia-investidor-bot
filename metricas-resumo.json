@@ -1,17 +1,17 @@
 {
-  "atualizadoEm": "2026-11-03T18:30:59.003Z",
+  "atualizadoEm": "2026-11-04T18:44:19.805Z",
   "porFormato": {
-    "alerta": {
-      "posts": 1,
-      "alcanceMedio": 1,
+    "reel": {
+      "posts": 24,
+      "alcanceMedio": 11,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
       "taxaInteracaoMedia": 0
     },
-    "reel": {
-      "posts": 24,
-      "alcanceMedio": 11,
+    "alerta": {
+      "posts": 1,
+      "alcanceMedio": 7,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
@@ -30,6 +30,14 @@
     "bolsa": {
       "posts": 24,
       "alcanceMedio": 11,
+      "salvamentosMedios": 0,
+      "compartilhamentosMedios": 0,
+      "reproducoesMedias": null,
+      "taxaInteracaoMedia": 0
+    },
+    "brasil_eleicoes": {
+      "posts": 2,
+      "alcanceMedio": 14,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
@@ -61,15 +69,7 @@
     },
     "cripto": {
       "posts": 1,
-      "alcanceMedio": 5,
-      "salvamentosMedios": 0,
-      "compartilhamentosMedios": 0,
-      "reproducoesMedias": null,
-      "taxaInteracaoMedia": 0
-    },
-    "brasil_eleicoes": {
-      "posts": 1,
-      "alcanceMedio": 24,
+      "alcanceMedio": 6,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
@@ -110,8 +110,8 @@
       "taxaInteracaoMedia": 0
     },
     "13": {
-      "posts": 1,
-      "alcanceMedio": 24,
+      "posts": 2,
+      "alcanceMedio": 14,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
@@ -127,7 +127,7 @@
     },
     "16": {
       "posts": 3,
-      "alcanceMedio": 9,
+      "alcanceMedio": 10,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
@@ -143,7 +143,7 @@
     },
     "18": {
       "posts": 1,
-      "alcanceMedio": 5,
+      "alcanceMedio": 6,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
@@ -158,7 +158,7 @@
       "taxaInteracaoMedia": 0
     },
     "20": {
-      "posts": 5,
+      "posts": 4,
       "alcanceMedio": 9,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
@@ -167,7 +167,7 @@
     },
     "não informado": {
       "posts": 1,
-      "alcanceMedio": 1,
+      "alcanceMedio": 7,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,

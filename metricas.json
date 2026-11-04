@@ -1,18 +1,22 @@
 [
   {
-    "postId": "17999926397826187",
-    "dataColeta": "2026-11-03T18:30:31.524Z",
-    "dataPostagem": "2026-11-03T16:51:45.109Z",
-    "tipo": "alerta",
-    "pilares": [],
-    "peso": 100,
-    "fonte": "Cotação de mercado",
-    "titulo": "NOVA MÁXIMA: Dólar",
-    "horarioBRT": null,
+    "postId": "18076844645583935",
+    "dataColeta": "2026-11-04T18:43:49.131Z",
+    "dataPostagem": "2026-11-04T16:54:17.762Z",
+    "tipo": "reel",
+    "pilares": [
+      "macro",
+      "bolsa",
+      "brasil_eleicoes"
+    ],
+    "peso": 95,
+    "fonte": "Money Times",
+    "titulo": "Gestores desmontam ‘kit Brasil’ e apostam no dólar antes do Copom; maioria agora vê Selic estável",
+    "horarioBRT": "13",
     "cta": null,
-    "decisaoFormato": null,
+    "decisaoFormato": "peso 95: reel; Studio Engine 100/100",
     "insights": {
-      "reach": 1,
+      "reach": 3,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -27,22 +31,17 @@
     }
   },
   {
-    "postId": "18108497792461451",
-    "dataColeta": "2026-11-03T18:30:32.703Z",
-    "dataPostagem": "2026-11-02T19:15:44.418Z",
-    "tipo": "reel",
-    "pilares": [
-      "macro",
-      "bolsa",
-      "exterior",
-      "mundo_empresas"
-    ],
-    "peso": 90,
-    "fonte": "Money Times",
-    "titulo": "Ouro sobe quase 2% com derrocada dos preços do petróleo",
-    "horarioBRT": "16",
+    "postId": "17999926397826187",
+    "dataColeta": "2026-11-04T18:43:50.473Z",
+    "dataPostagem": "2026-11-03T16:51:45.109Z",
+    "tipo": "alerta",
+    "pilares": [],
+    "peso": 100,
+    "fonte": "Cotação de mercado",
+    "titulo": "NOVA MÁXIMA: Dólar",
+    "horarioBRT": null,
     "cta": null,
-    "decisaoFormato": "peso 90: reel; Studio Engine 100/100",
+    "decisaoFormato": null,
     "insights": {
       "reach": 7,
       "saved": 0,
@@ -59,8 +58,40 @@
     }
   },
   {
+    "postId": "18108497792461451",
+    "dataColeta": "2026-11-04T18:43:51.657Z",
+    "dataPostagem": "2026-11-02T19:15:44.418Z",
+    "tipo": "reel",
+    "pilares": [
+      "macro",
+      "bolsa",
+      "exterior",
+      "mundo_empresas"
+    ],
+    "peso": 90,
+    "fonte": "Money Times",
+    "titulo": "Ouro sobe quase 2% com derrocada dos preços do petróleo",
+    "horarioBRT": "16",
+    "cta": null,
+    "decisaoFormato": "peso 90: reel; Studio Engine 100/100",
+    "insights": {
+      "reach": 11,
+      "saved": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "total_interactions": 0,
+      "falhas": [
+        {
+          "metrica": "plays",
+          "erro": "Instagram respondeu 400"
+        }
+      ]
+    }
+  },
+  {
     "postId": "18106005872631524",
-    "dataColeta": "2026-11-03T18:30:34.076Z",
+    "dataColeta": "2026-11-04T18:43:53.184Z",
     "dataPostagem": "2026-10-30T21:59:27.751Z",
     "tipo": "reel",
     "pilares": [
@@ -76,7 +107,7 @@
     "cta": null,
     "decisaoFormato": "peso 86: reel; Studio Engine 100/100",
     "insights": {
-      "reach": 5,
+      "reach": 6,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -92,7 +123,7 @@
   },
   {
     "postId": "17980416360136654",
-    "dataColeta": "2026-11-03T18:30:34.929Z",
+    "dataColeta": "2026-11-04T18:43:54.479Z",
     "dataPostagem": "2026-10-30T15:35:55.872Z",
     "tipo": "reel",
     "pilares": [
@@ -124,7 +155,7 @@
   },
   {
     "postId": "18199414414385859",
-    "dataColeta": "2026-11-03T18:30:36.046Z",
+    "dataColeta": "2026-11-04T18:43:55.644Z",
     "dataPostagem": "2026-10-29T22:29:47.814Z",
     "tipo": "reel",
     "pilares": [
@@ -156,7 +187,7 @@
   },
   {
     "postId": "18093014429204081",
-    "dataColeta": "2026-11-03T18:30:36.906Z",
+    "dataColeta": "2026-11-04T18:43:56.884Z",
     "dataPostagem": "2026-10-29T15:54:50.303Z",
     "tipo": "reel",
     "pilares": [
@@ -188,7 +219,7 @@
   },
   {
     "postId": "17984033648906254",
-    "dataColeta": "2026-11-03T18:30:37.854Z",
+    "dataColeta": "2026-11-04T18:43:57.909Z",
     "dataPostagem": "2026-10-28T23:27:38.802Z",
     "tipo": "reel",
     "pilares": [
@@ -220,7 +251,7 @@
   },
   {
     "postId": "18127173175908554",
-    "dataColeta": "2026-11-03T18:30:39.232Z",
+    "dataColeta": "2026-11-04T18:43:59.324Z",
     "dataPostagem": "2026-10-26T16:16:21.278Z",
     "tipo": "reel",
     "pilares": [
@@ -251,7 +282,7 @@
   },
   {
     "postId": "18200223211386511",
-    "dataColeta": "2026-11-03T18:30:40.246Z",
+    "dataColeta": "2026-11-04T18:44:00.752Z",
     "dataPostagem": "2026-10-25T18:11:05.677Z",
     "tipo": "reel",
     "pilares": [
@@ -281,7 +312,7 @@
   },
   {
     "postId": "17952378009317853",
-    "dataColeta": "2026-11-03T18:30:41.192Z",
+    "dataColeta": "2026-11-04T18:44:01.874Z",
     "dataPostagem": "2026-10-23T15:23:44.874Z",
     "tipo": "reel",
     "pilares": [
@@ -311,7 +342,7 @@
   },
   {
     "postId": "17882880072536280",
-    "dataColeta": "2026-11-03T18:30:42.175Z",
+    "dataColeta": "2026-11-04T18:44:03.038Z",
     "dataPostagem": "2026-10-22T23:55:57.508Z",
     "tipo": "reel",
     "pilares": [
@@ -342,7 +373,7 @@
   },
   {
     "postId": "18131780869827138",
-    "dataColeta": "2026-11-03T18:30:42.904Z",
+    "dataColeta": "2026-11-04T18:44:04.285Z",
     "dataPostagem": "2026-10-22T20:55:31.086Z",
     "tipo": "reel",
     "pilares": [
@@ -373,7 +404,7 @@
   },
   {
     "postId": "18105045002526940",
-    "dataColeta": "2026-11-03T18:30:43.874Z",
+    "dataColeta": "2026-11-04T18:44:05.776Z",
     "dataPostagem": "2026-10-22T19:06:23.531Z",
     "tipo": "reel",
     "pilares": [
@@ -404,7 +435,7 @@
   },
   {
     "postId": "18124544279317803",
-    "dataColeta": "2026-11-03T18:30:44.813Z",
+    "dataColeta": "2026-11-04T18:44:07.367Z",
     "dataPostagem": "2026-10-21T19:09:49.313Z",
     "tipo": "reel",
     "pilares": [
@@ -434,7 +465,7 @@
   },
   {
     "postId": "17984369343120890",
-    "dataColeta": "2026-11-03T18:30:46.364Z",
+    "dataColeta": "2026-11-04T18:44:08.695Z",
     "dataPostagem": "2026-10-21T14:24:14.055Z",
     "tipo": "reel",
     "pilares": [
@@ -466,7 +497,7 @@
   },
   {
     "postId": "18094492088171908",
-    "dataColeta": "2026-11-03T18:30:47.646Z",
+    "dataColeta": "2026-11-04T18:44:09.866Z",
     "dataPostagem": "2026-10-20T23:40:52.436Z",
     "tipo": "reel",
     "pilares": [
@@ -496,7 +527,7 @@
   },
   {
     "postId": "18063178151538202",
-    "dataColeta": "2026-11-03T18:30:49.917Z",
+    "dataColeta": "2026-11-04T18:44:11.263Z",
     "dataPostagem": "2026-10-16T13:47:53.579Z",
     "tipo": "reel",
     "pilares": [
@@ -528,7 +559,7 @@
   },
   {
     "postId": "18433176727194368",
-    "dataColeta": "2026-11-03T18:30:51.988Z",
+    "dataColeta": "2026-11-04T18:44:12.391Z",
     "dataPostagem": "2026-10-15T18:55:52.528Z",
     "tipo": "reel",
     "pilares": [
@@ -559,7 +590,7 @@
   },
   {
     "postId": "17880151338549132",
-    "dataColeta": "2026-11-03T18:30:53.010Z",
+    "dataColeta": "2026-11-04T18:44:13.681Z",
     "dataPostagem": "2026-10-15T14:00:27.180Z",
     "tipo": "reel",
     "pilares": [
@@ -589,7 +620,7 @@
   },
   {
     "postId": "18198452518384439",
-    "dataColeta": "2026-11-03T18:30:53.822Z",
+    "dataColeta": "2026-11-04T18:44:14.638Z",
     "dataPostagem": "2026-10-14T23:44:49.499Z",
     "tipo": "reel",
     "pilares": [
@@ -620,7 +651,7 @@
   },
   {
     "postId": "18117905389951964",
-    "dataColeta": "2026-11-03T18:30:54.770Z",
+    "dataColeta": "2026-11-04T18:44:15.737Z",
     "dataPostagem": "2026-10-14T14:23:18.895Z",
     "tipo": "reel",
     "pilares": [
@@ -650,7 +681,7 @@
   },
   {
     "postId": "17887019571685566",
-    "dataColeta": "2026-11-03T18:30:55.793Z",
+    "dataColeta": "2026-11-04T18:44:17.022Z",
     "dataPostagem": "2026-10-13T22:20:58.987Z",
     "tipo": "reel",
     "pilares": [
@@ -682,7 +713,7 @@
   },
   {
     "postId": "18109869248231887",
-    "dataColeta": "2026-11-03T18:30:56.743Z",
+    "dataColeta": "2026-11-04T18:44:18.491Z",
     "dataPostagem": "2026-10-11T15:23:17.043Z",
     "tipo": "reel",
     "pilares": [
@@ -714,7 +745,7 @@
   },
   {
     "postId": "18094261319349406",
-    "dataColeta": "2026-11-03T18:30:58.035Z",
+    "dataColeta": "2026-11-04T18:44:19.804Z",
     "dataPostagem": "2026-10-09T15:53:25.640Z",
     "tipo": "reel",
     "pilares": [
@@ -730,36 +761,6 @@
     "decisaoFormato": "peso 76: reel; Studio Engine 100/100",
     "insights": {
       "reach": 9,
-      "saved": 0,
-      "shares": 0,
-      "comments": 0,
-      "likes": 0,
-      "total_interactions": 0,
-      "falhas": [
-        {
-          "metrica": "plays",
-          "erro": "Instagram respondeu 400"
-        }
-      ]
-    }
-  },
-  {
-    "postId": "18498590122102793",
-    "dataColeta": "2026-11-03T18:30:59.002Z",
-    "dataPostagem": "2026-10-08T23:00:15.558Z",
-    "tipo": "reel",
-    "pilares": [
-      "macro",
-      "bolsa"
-    ],
-    "peso": 75,
-    "fonte": "Money Times",
-    "titulo": "IPCA pode frear os cortes da Selic? Inflação deve superar teto da meta nesta sexta (9)",
-    "horarioBRT": "20",
-    "cta": null,
-    "decisaoFormato": "peso 75: reel; Studio Engine 100/100",
-    "insights": {
-      "reach": 11,
       "saved": 0,
       "shares": 0,
       "comments": 0,
