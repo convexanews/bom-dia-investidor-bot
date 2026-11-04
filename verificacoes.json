@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-11-04T16:54:17.766Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Gestores desmontam ‘kit Brasil’ e apostam no dólar antes do Copom; maioria agora vê Selic estável\".",
+    "postId": "18076844645583935",
+    "storyId": null,
+    "reelId": "18076844645583935",
+    "tipo": "reel",
+    "studioQuality": 100
+  },
+  {
+    "data": "2026-11-04T16:51:13.327Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 95): \"Gestores desmontam ‘kit Brasil’ e apostam no dólar antes do Copom; maioria agora vê Selic estável\". Realizando postagem..."
+  },
+  {
     "data": "2026-11-04T04:54:39.325Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (01:54 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1119,20 +1134,5 @@
     "data": "2026-10-07T17:29:54.766Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 10 min."
-  },
-  {
-    "data": "2026-10-07T16:09:18.300Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Mercado se antecipou demais com Flávio? Felipe Salto vê espaço para correção após rali\".",
-    "postId": "18105568454193433",
-    "storyId": null,
-    "reelId": "18105568454193433",
-    "tipo": "reel",
-    "studioQuality": 100
-  },
-  {
-    "data": "2026-10-07T16:06:34.137Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 84): \"Mercado se antecipou demais com Flávio? Felipe Salto vê espaço para correção após rali\". Realizando postagem..."
   }
 ]

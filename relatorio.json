@@ -1,5 +1,34 @@
 [
   {
+    "data": "2026-11-04T16:54:17.762Z",
+    "titulo": "Gestores desmontam ‘kit Brasil’ e apostam no dólar antes do Copom; maioria agora vê Selic estável",
+    "categoria": "Mercados",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/gestores-desmontam-kit-brasil-e-apostam-no-dolar-selic-parada-mlim/",
+    "postId": "18076844645583935",
+    "storyId": null,
+    "reelId": "18076844645583935",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1793811079097.mp4",
+    "tipo": "reel",
+    "peso": 95,
+    "pilares": [
+      "macro",
+      "bolsa",
+      "brasil_eleicoes"
+    ],
+    "horarioBRT": "13",
+    "cta": null,
+    "decisaoFormato": "peso 95: reel; Studio Engine 100/100",
+    "studioQuality": {
+      "approved": true,
+      "score": 100,
+      "blockers": [],
+      "warnings": []
+    }
+  },
+  {
     "data": "2026-11-03T16:51:45.109Z",
     "titulo": "NOVA MÁXIMA: Dólar",
     "categoria": "Alerta de mercado",
@@ -4704,20 +4733,5 @@
     "videoUrl": null,
     "tipo": "carrossel",
     "peso": 28
-  },
-  {
-    "data": "2026-07-27T20:32:08.003Z",
-    "titulo": "Wall Street tem tom misto com trégua entre EUA-Irã e liquidação das ações de chips",
-    "categoria": "Mercados",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/wall-street-27-7-26-lils/",
-    "postId": "18088825496441528",
-    "storyId": "17889251340605732",
-    "reelId": null,
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1785184277074-feed.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1785184277074-story.png",
-    "videoUrl": null,
-    "tipo": "card",
-    "peso": 58
   }
 ]
