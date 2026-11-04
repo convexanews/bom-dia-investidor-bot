@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-11-04T04:54:39.325Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (01:54 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-11-04T00:03:38.963Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1129,10 +1134,5 @@
     "data": "2026-10-07T16:06:34.137Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 84): \"Mercado se antecipou demais com Flávio? Felipe Salto vê espaço para correção após rali\". Realizando postagem..."
-  },
-  {
-    "data": "2026-10-07T04:25:06.825Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (01:25 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
