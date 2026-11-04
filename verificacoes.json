@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-11-04T18:09:41.281Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 15 min."
+  },
+  {
     "data": "2026-11-04T16:54:17.766Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Gestores desmontam ‘kit Brasil’ e apostam no dólar antes do Copom; maioria agora vê Selic estável\".",
@@ -1129,10 +1134,5 @@
     "data": "2026-10-07T22:44:41.097Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 94): \"Ibovespa recua aos 204 mil pontos com bancos e Vale (VALE3); dólar volta aos R$ 5,01\". Realizando postagem..."
-  },
-  {
-    "data": "2026-10-07T17:29:54.766Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 10 min."
   }
 ]
