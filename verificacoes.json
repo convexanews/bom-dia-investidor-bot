@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-11-04T23:17:37.931Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Trava para investimentos: entidades empresariais criticam manutenção da Selic\".",
+    "postId": "18432092764146187",
+    "storyId": null,
+    "reelId": "18432092764146187",
+    "tipo": "reel",
+    "studioQuality": 100
+  },
+  {
+    "data": "2026-11-04T23:14:09.417Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 88): \"Trava para investimentos: entidades empresariais criticam manutenção da Selic\". Realizando postagem..."
+  },
+  {
     "data": "2026-11-04T18:09:41.281Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 15 min."
@@ -1119,20 +1134,5 @@
     "data": "2026-10-07T23:40:30.481Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 37 min."
-  },
-  {
-    "data": "2026-10-07T22:47:15.954Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Ibovespa recua aos 204 mil pontos com bancos e Vale (VALE3); dólar volta aos R$ 5,01\".",
-    "postId": "17993012472051689",
-    "storyId": null,
-    "reelId": "17993012472051689",
-    "tipo": "reel",
-    "studioQuality": 100
-  },
-  {
-    "data": "2026-10-07T22:44:41.097Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 94): \"Ibovespa recua aos 204 mil pontos com bancos e Vale (VALE3); dólar volta aos R$ 5,01\". Realizando postagem..."
   }
 ]

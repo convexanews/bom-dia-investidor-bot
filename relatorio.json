@@ -1,5 +1,34 @@
 [
   {
+    "data": "2026-11-04T23:17:37.929Z",
+    "titulo": "Trava para investimentos: entidades empresariais criticam manutenção da Selic",
+    "categoria": "Economia",
+    "fonte": "InfoMoney",
+    "link": "https://www.infomoney.com.br/economia/trava-para-investimentos-entidades-empresariais-criticam-manutencao-da-selic/",
+    "postId": "18432092764146187",
+    "storyId": null,
+    "reelId": "18432092764146187",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1793834055616.mp4",
+    "tipo": "reel",
+    "peso": 88,
+    "pilares": [
+      "macro",
+      "bolsa",
+      "fiis"
+    ],
+    "horarioBRT": "20",
+    "cta": null,
+    "decisaoFormato": "peso 88: reel; Studio Engine 100/100",
+    "studioQuality": {
+      "approved": true,
+      "score": 100,
+      "blockers": [],
+      "warnings": []
+    }
+  },
+  {
     "data": "2026-11-04T16:54:17.762Z",
     "titulo": "Gestores desmontam ‘kit Brasil’ e apostam no dólar antes do Copom; maioria agora vê Selic estável",
     "categoria": "Mercados",
@@ -4718,20 +4747,5 @@
     "videoUrl": null,
     "tipo": "card",
     "peso": 33
-  },
-  {
-    "data": "2026-07-27T23:01:53.788Z",
-    "titulo": "Telefônica Brasil (VIVT3) tem lucro de R$ 1,6 bilhão no 2º tri",
-    "categoria": "Empresas",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/telefonica-brasil-tem-lucro-de-r16-bi-no-2o-tri-vtra/",
-    "postId": "18122093617795478",
-    "storyId": "17959531746169850",
-    "reelId": null,
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1785193232017-slide1.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1785193232017-story.png",
-    "videoUrl": null,
-    "tipo": "carrossel",
-    "peso": 28
   }
 ]
