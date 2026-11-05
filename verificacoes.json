@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-11-05T17:10:02.057Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Ações da C&A (CEAB3) disparam até 10% com balanço melhor do que o esperado; o que agradou no 3T26?\".",
+    "postId": "18128664542477238",
+    "storyId": null,
+    "reelId": "18128664542477238",
+    "tipo": "reel",
+    "studioQuality": 100
+  },
+  {
+    "data": "2026-11-05T17:07:00.719Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 82): \"Ações da C&A (CEAB3) disparam até 10% com balanço melhor do que o esperado; o que agradou no 3T26?\". Realizando postagem..."
+  },
+  {
     "data": "2026-11-05T05:13:04.821Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (02:13 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1124,15 +1139,5 @@
     "data": "2026-10-08T22:58:03.461Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 75): \"IPCA pode frear os cortes da Selic? Inflação deve superar teto da meta nesta sexta (9)\". Realizando postagem..."
-  },
-  {
-    "data": "2026-10-08T17:29:05.653Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-10-08T16:08:22.443Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }
 ]
