@@ -1,5 +1,14 @@
 [
   {
+    "titulo": "Wall Street despenca: S&P 500 cai mais de 4% e Nvidia (NVDA) afunda; entenda",
+    "link": "https://www.suno.com.br/noticias/wall-street-queda-sp500-nvidia/",
+    "peso": 77,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1793920624158.mp4",
+    "coverUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1793920624158-capa.png",
+    "legendaUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1793920624158-legenda.txt",
+    "data": "2026-11-05T23:19:09.537Z"
+  },
+  {
     "titulo": "Ações da C&A (CEAB3) disparam até 10% com balanço melhor do que o esperado; o que agradou no 3T26?",
     "link": "https://www.moneytimes.com.br/acoes-da-ca-ceab3-disparam-ate-10-com-balanco-melhor-do-que-o-esperado-o-que-agradou-no-3t26-lmrs/",
     "peso": 82,
@@ -1664,13 +1673,5 @@
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783951310138.mp4",
     "legendaUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783951310138-legenda.txt",
     "data": "2026-07-13T14:03:32.304Z"
-  },
-  {
-    "titulo": "Conflito EUA-Irã, falas do Fed, Focus e mais destaques desta segunda-feira",
-    "link": "https://www.infomoney.com.br/mercados/conflito-eua-ira-falas-fed-focus-agenda-13072026/",
-    "peso": 80,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783933327007.mp4",
-    "legendaUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783933327007-legenda.txt",
-    "data": "2026-07-13T09:04:16.061Z"
   }
 ]

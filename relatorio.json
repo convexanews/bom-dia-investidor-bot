@@ -1,5 +1,33 @@
 [
   {
+    "data": "2026-11-05T23:19:09.538Z",
+    "titulo": "Wall Street despenca: S&P 500 cai mais de 4% e Nvidia (NVDA) afunda; entenda",
+    "categoria": "Internacional",
+    "fonte": "Suno",
+    "link": "https://www.suno.com.br/noticias/wall-street-queda-sp500-nvidia/",
+    "postId": "18350165872271621",
+    "storyId": null,
+    "reelId": "18350165872271621",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1793920624158.mp4",
+    "tipo": "reel",
+    "peso": 77,
+    "pilares": [
+      "exterior",
+      "mundo_empresas"
+    ],
+    "horarioBRT": "20",
+    "cta": null,
+    "decisaoFormato": "peso 77: reel; Studio Engine 100/100",
+    "studioQuality": {
+      "approved": true,
+      "score": 100,
+      "blockers": [],
+      "warnings": []
+    }
+  },
+  {
     "data": "2026-11-05T17:10:02.055Z",
     "titulo": "Ações da C&A (CEAB3) disparam até 10% com balanço melhor do que o esperado; o que agradou no 3T26?",
     "categoria": "Mercados",
@@ -4745,20 +4773,5 @@
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1785248946173.mp4",
     "tipo": "reel",
     "peso": 85
-  },
-  {
-    "data": "2026-07-28T11:32:21.483Z",
-    "titulo": "Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta terça",
-    "categoria": "Mercados",
-    "fonte": "InfoMoney",
-    "link": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-28072026/",
-    "postId": "18606673015055987",
-    "storyId": null,
-    "reelId": "18606673015055987",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1785238267519.mp4",
-    "tipo": "reel",
-    "peso": 55
   }
 ]

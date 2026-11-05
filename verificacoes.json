@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-11-05T23:19:09.541Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Wall Street despenca: S&P 500 cai mais de 4% e Nvidia (NVDA) afunda; entenda\".",
+    "postId": "18350165872271621",
+    "storyId": null,
+    "reelId": "18350165872271621",
+    "tipo": "reel",
+    "studioQuality": 100
+  },
+  {
+    "data": "2026-11-05T23:16:58.193Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 77): \"Wall Street despenca: S&P 500 cai mais de 4% e Nvidia (NVDA) afunda; entenda\". Realizando postagem..."
+  },
+  {
     "data": "2026-11-05T18:10:49.275Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 30 min."
@@ -1124,20 +1139,5 @@
     "data": "2026-10-09T04:39:33.972Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (01:39 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-10-08T23:50:35.364Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 40 min."
-  },
-  {
-    "data": "2026-10-08T23:00:15.561Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"IPCA pode frear os cortes da Selic? Inflação deve superar teto da meta nesta sexta (9)\".",
-    "postId": "18498590122102793",
-    "storyId": null,
-    "reelId": "18498590122102793",
-    "tipo": "reel",
-    "studioQuality": 100
   }
 ]
