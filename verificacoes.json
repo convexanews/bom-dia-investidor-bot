@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-11-05T18:10:49.275Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 30 min."
+  },
+  {
     "data": "2026-11-05T17:10:02.057Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Ações da C&A (CEAB3) disparam até 10% com balanço melhor do que o esperado; o que agradou no 3T26?\".",
@@ -1134,10 +1139,5 @@
     "reelId": "18498590122102793",
     "tipo": "reel",
     "studioQuality": 100
-  },
-  {
-    "data": "2026-10-08T22:58:03.461Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 75): \"IPCA pode frear os cortes da Selic? Inflação deve superar teto da meta nesta sexta (9)\". Realizando postagem..."
   }
 ]
