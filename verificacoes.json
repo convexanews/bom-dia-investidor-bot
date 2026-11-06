@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-11-06T16:36:53.086Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
     "data": "2026-11-06T05:32:32.040Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (02:32 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1129,15 +1134,5 @@
     "data": "2026-10-09T17:07:41.705Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 16 min."
-  },
-  {
-    "data": "2026-10-09T15:53:25.643Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"‘Efeito Flávio’ continua a fazer preço e Ibovespa renova recorde aos 209 mil pontos\".",
-    "postId": "18094261319349406",
-    "storyId": null,
-    "reelId": "18094261319349406",
-    "tipo": "reel",
-    "studioQuality": 100
   }
 ]
