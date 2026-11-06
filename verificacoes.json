@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-11-06T00:29:02.428Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 21 min."
+  },
+  {
     "data": "2026-11-05T23:19:09.541Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Wall Street despenca: S&P 500 cai mais de 4% e Nvidia (NVDA) afunda; entenda\".",
@@ -1134,10 +1139,5 @@
     "data": "2026-10-09T15:50:19.442Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 76): \"‘Efeito Flávio’ continua a fazer preço e Ibovespa renova recorde aos 209 mil pontos\". Realizando postagem..."
-  },
-  {
-    "data": "2026-10-09T04:39:33.972Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (01:39 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
