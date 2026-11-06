@@ -1,9 +1,9 @@
 {
-  "atualizadoEm": "2026-11-05T18:52:01.310Z",
+  "atualizadoEm": "2026-11-06T18:08:54.703Z",
   "porFormato": {
     "reel": {
       "posts": 24,
-      "alcanceMedio": 10,
+      "alcanceMedio": 9,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
@@ -11,7 +11,7 @@
     },
     "alerta": {
       "posts": 1,
-      "alcanceMedio": 7,
+      "alcanceMedio": 8,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
@@ -19,9 +19,33 @@
     }
   },
   "porPilar": {
-    "bolsa": {
-      "posts": 24,
+    "macro": {
+      "posts": 20,
       "alcanceMedio": 10,
+      "salvamentosMedios": 0,
+      "compartilhamentosMedios": 0,
+      "reproducoesMedias": null,
+      "taxaInteracaoMedia": 0
+    },
+    "bolsa": {
+      "posts": 23,
+      "alcanceMedio": 9,
+      "salvamentosMedios": 0,
+      "compartilhamentosMedios": 0,
+      "reproducoesMedias": null,
+      "taxaInteracaoMedia": 0
+    },
+    "exterior": {
+      "posts": 9,
+      "alcanceMedio": 9,
+      "salvamentosMedios": 0,
+      "compartilhamentosMedios": 0,
+      "reproducoesMedias": null,
+      "taxaInteracaoMedia": 0
+    },
+    "mundo_empresas": {
+      "posts": 12,
+      "alcanceMedio": 9,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
@@ -30,14 +54,6 @@
     "renda_fixa": {
       "posts": 4,
       "alcanceMedio": 7,
-      "salvamentosMedios": 0,
-      "compartilhamentosMedios": 0,
-      "reproducoesMedias": null,
-      "taxaInteracaoMedia": 0
-    },
-    "macro": {
-      "posts": 21,
-      "alcanceMedio": 10,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
@@ -54,22 +70,6 @@
     "brasil_eleicoes": {
       "posts": 2,
       "alcanceMedio": 15,
-      "salvamentosMedios": 0,
-      "compartilhamentosMedios": 0,
-      "reproducoesMedias": null,
-      "taxaInteracaoMedia": 0
-    },
-    "exterior": {
-      "posts": 9,
-      "alcanceMedio": 9,
-      "salvamentosMedios": 0,
-      "compartilhamentosMedios": 0,
-      "reproducoesMedias": null,
-      "taxaInteracaoMedia": 0
-    },
-    "mundo_empresas": {
-      "posts": 12,
-      "alcanceMedio": 10,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
@@ -94,8 +94,8 @@
       "taxaInteracaoMedia": 0
     },
     "11": {
-      "posts": 3,
-      "alcanceMedio": 13,
+      "posts": 2,
+      "alcanceMedio": 14,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
@@ -118,8 +118,8 @@
       "taxaInteracaoMedia": 0
     },
     "14": {
-      "posts": 1,
-      "alcanceMedio": 2,
+      "posts": 2,
+      "alcanceMedio": 3,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
@@ -158,16 +158,16 @@
       "taxaInteracaoMedia": 0
     },
     "19": {
-      "posts": 2,
-      "alcanceMedio": 12,
+      "posts": 1,
+      "alcanceMedio": 10,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
       "taxaInteracaoMedia": 0
     },
     "20": {
-      "posts": 5,
-      "alcanceMedio": 8,
+      "posts": 6,
+      "alcanceMedio": 9,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
@@ -175,7 +175,7 @@
     },
     "não informado": {
       "posts": 1,
-      "alcanceMedio": 7,
+      "alcanceMedio": 8,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
@@ -185,7 +185,7 @@
   "porCTA": {
     "não informado": {
       "posts": 25,
-      "alcanceMedio": 10,
+      "alcanceMedio": 9,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
