@@ -1,5 +1,33 @@
 [
   {
+    "data": "2026-11-06T17:41:27.714Z",
+    "titulo": "XP reduz projeção do PIB a 0,3% em 2027; dólar vai a R$ 5,50 e Selic fica em 13,75%",
+    "categoria": "Economia",
+    "fonte": "InfoMoney",
+    "link": "https://www.infomoney.com.br/economia/xp-projecao-pib-2027-selic-dolar/",
+    "postId": "18133977463805736",
+    "storyId": null,
+    "reelId": "18133977463805736",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1793986668010.mp4",
+    "tipo": "reel",
+    "peso": 82,
+    "pilares": [
+      "macro",
+      "bolsa"
+    ],
+    "horarioBRT": "14",
+    "cta": null,
+    "decisaoFormato": "peso 82: reel; Studio Engine 100/100",
+    "studioQuality": {
+      "approved": true,
+      "score": 100,
+      "blockers": [],
+      "warnings": []
+    }
+  },
+  {
     "data": "2026-11-05T23:19:09.538Z",
     "titulo": "Wall Street despenca: S&P 500 cai mais de 4% e Nvidia (NVDA) afunda; entenda",
     "categoria": "Internacional",
@@ -4758,20 +4786,5 @@
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1785258099358.mp4",
     "tipo": "reel",
     "peso": 70
-  },
-  {
-    "data": "2026-07-28T14:31:35.875Z",
-    "titulo": "Wall Street opera sem direção única com ‘sell-off’ de semicondutores e à espera de Fed",
-    "categoria": "Mercados",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/wall-street-abertura-28-7-26-lils/",
-    "postId": "17918432937203461",
-    "storyId": null,
-    "reelId": "17918432937203461",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1785248946173.mp4",
-    "tipo": "reel",
-    "peso": 85
   }
 ]

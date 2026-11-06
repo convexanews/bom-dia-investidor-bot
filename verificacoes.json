@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-11-06T17:41:27.718Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"XP reduz projeção do PIB a 0,3% em 2027; dólar vai a R$ 5,50 e Selic fica em 13,75%\".",
+    "postId": "18133977463805736",
+    "storyId": null,
+    "reelId": "18133977463805736",
+    "tipo": "reel",
+    "studioQuality": 100
+  },
+  {
+    "data": "2026-11-06T17:37:41.810Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 82): \"XP reduz projeção do PIB a 0,3% em 2027; dólar vai a R$ 5,50 e Selic fica em 13,75%\". Realizando postagem..."
+  },
+  {
     "data": "2026-11-06T16:36:53.086Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1123,16 +1138,5 @@
     "resultado": "pauta_reprovada",
     "mensagem": "Notícia não publicada: manchete longa demais para caber completa no card.",
     "titulo": "Ibovespa tem duplo recorde aos 209 mil pontos e avança quase 9% na semana após 1º turno; dólar cai e fica abaixo de R$ 5"
-  },
-  {
-    "data": "2026-10-09T22:17:15.643Z",
-    "resultado": "pauta_reprovada",
-    "mensagem": "Notícia não publicada: manchete longa demais para caber completa no card.",
-    "titulo": "Ibovespa tem duplo recorde aos 209 mil pontos e avança quase 9% na semana após 1º turno; dólar cai e fica abaixo de R$ 5"
-  },
-  {
-    "data": "2026-10-09T17:07:41.705Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 16 min."
   }
 ]
