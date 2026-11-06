@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-11-06T23:46:34.324Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 30 min."
+  },
+  {
     "data": "2026-11-06T22:46:16.731Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Bolsas de NY fecham sem direção única em meio à recuperação do setor de tech\".",
@@ -1135,11 +1140,6 @@
   },
   {
     "data": "2026-10-10T15:56:08.108Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-10-10T15:03:33.064Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }
