@@ -1,5 +1,35 @@
 [
   {
+    "data": "2026-11-06T22:46:16.729Z",
+    "titulo": "Bolsas de NY fecham sem direção única em meio à recuperação do setor de tech",
+    "categoria": "Mercados",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/bolsas-de-ny-fecham-sem-coesao-em-dia-de-recuperacao-de-techs-do-tombo-da-vespera-davs/",
+    "postId": "18041417261841844",
+    "storyId": null,
+    "reelId": "18041417261841844",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1794005034239.mp4",
+    "tipo": "reel",
+    "peso": 71,
+    "pilares": [
+      "macro",
+      "bolsa",
+      "exterior",
+      "mundo_empresas"
+    ],
+    "horarioBRT": "19",
+    "cta": null,
+    "decisaoFormato": "peso 71: reel; Studio Engine 100/100",
+    "studioQuality": {
+      "approved": true,
+      "score": 100,
+      "blockers": [],
+      "warnings": []
+    }
+  },
+  {
     "data": "2026-11-06T17:41:27.714Z",
     "titulo": "XP reduz projeção do PIB a 0,3% em 2027; dólar vai a R$ 5,50 e Selic fica em 13,75%",
     "categoria": "Economia",
@@ -4771,20 +4801,5 @@
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1785265872351.mp4",
     "tipo": "reel",
     "peso": 85
-  },
-  {
-    "data": "2026-07-28T17:03:01.613Z",
-    "titulo": "Inflação surpreende e reforça aposta em corte da Selic; veja o que esperar do Copom, segundo a Lifetime",
-    "categoria": "Mercados",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/inflacao-surpreende-e-reforca-aposta-em-corte-na-selic-veja-o-que-esperar-do-copom-segundo-a-lifetime-ceci/",
-    "postId": "18132845452590665",
-    "storyId": null,
-    "reelId": "18132845452590665",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1785258099358.mp4",
-    "tipo": "reel",
-    "peso": 70
   }
 ]

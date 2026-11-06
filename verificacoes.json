@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-11-06T22:46:16.731Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Bolsas de NY fecham sem direção única em meio à recuperação do setor de tech\".",
+    "postId": "18041417261841844",
+    "storyId": null,
+    "reelId": "18041417261841844",
+    "tipo": "reel",
+    "studioQuality": 100
+  },
+  {
+    "data": "2026-11-06T22:43:48.499Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 71): \"Bolsas de NY fecham sem direção única em meio à recuperação do setor de tech\". Realizando postagem..."
+  },
+  {
     "data": "2026-11-06T17:41:27.718Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"XP reduz projeção do PIB a 0,3% em 2027; dólar vai a R$ 5,50 e Selic fica em 13,75%\".",
@@ -1127,16 +1142,5 @@
     "data": "2026-10-10T15:03:33.064Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-10-10T04:25:09.096Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (01:25 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-10-09T23:24:16.021Z",
-    "resultado": "pauta_reprovada",
-    "mensagem": "Notícia não publicada: manchete longa demais para caber completa no card.",
-    "titulo": "Ibovespa tem duplo recorde aos 209 mil pontos e avança quase 9% na semana após 1º turno; dólar cai e fica abaixo de R$ 5"
   }
 ]

@@ -1,5 +1,14 @@
 [
   {
+    "titulo": "Bolsas de NY fecham sem direção única em meio à recuperação do setor de tech",
+    "link": "https://www.moneytimes.com.br/bolsas-de-ny-fecham-sem-coesao-em-dia-de-recuperacao-de-techs-do-tombo-da-vespera-davs/",
+    "peso": 71,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1794005034239.mp4",
+    "coverUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1794005034239-capa.png",
+    "legendaUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1794005034239-legenda.txt",
+    "data": "2026-11-06T22:46:16.727Z"
+  },
+  {
     "titulo": "XP reduz projeção do PIB a 0,3% em 2027; dólar vai a R$ 5,50 e Selic fica em 13,75%",
     "link": "https://www.infomoney.com.br/economia/xp-projecao-pib-2027-selic-dolar/",
     "peso": 82,
@@ -1666,13 +1675,5 @@
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783966702605.mp4",
     "legendaUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783966702605-legenda.txt",
     "data": "2026-07-13T18:19:48.206Z"
-  },
-  {
-    "titulo": "O alerta do Bradesco BBI para a Usiminas (USIM5), que perdeu R$ 4 bi na Bolsa em 1 mês",
-    "link": "https://www.moneytimes.com.br/o-alerta-do-bradesco-bbi-para-a-usiminas-usim5-que-perdeu-r-4-bi-na-bolsa-em-1-mes-rnda/",
-    "peso": 71,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783958776714.mp4",
-    "legendaUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1783958776714-legenda.txt",
-    "data": "2026-07-13T16:08:17.219Z"
   }
 ]
