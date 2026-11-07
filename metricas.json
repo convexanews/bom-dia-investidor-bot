@@ -1,7 +1,69 @@
 [
   {
+    "postId": "18080821727732970",
+    "dataColeta": "2026-11-07T16:55:44.633Z",
+    "dataPostagem": "2026-11-07T15:28:36.331Z",
+    "tipo": "reel",
+    "pilares": [
+      "macro",
+      "bolsa"
+    ],
+    "peso": 96,
+    "fonte": "Money Times",
+    "titulo": "Lucro dos três maiores bancos soma R$ 22,6 bi no 3º trimestre, alta de 2,4% em um ano",
+    "horarioBRT": "12",
+    "cta": null,
+    "decisaoFormato": "peso 96: reel; Studio Engine 100/100",
+    "insights": {
+      "reach": 1,
+      "saved": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "total_interactions": 0,
+      "falhas": [
+        {
+          "metrica": "plays",
+          "erro": "Instagram respondeu 400"
+        }
+      ]
+    }
+  },
+  {
+    "postId": "18041417261841844",
+    "dataColeta": "2026-11-07T16:55:45.582Z",
+    "dataPostagem": "2026-11-06T22:46:16.729Z",
+    "tipo": "reel",
+    "pilares": [
+      "macro",
+      "bolsa",
+      "exterior",
+      "mundo_empresas"
+    ],
+    "peso": 71,
+    "fonte": "Money Times",
+    "titulo": "Bolsas de NY fecham sem direção única em meio à recuperação do setor de tech",
+    "horarioBRT": "19",
+    "cta": null,
+    "decisaoFormato": "peso 71: reel; Studio Engine 100/100",
+    "insights": {
+      "reach": 6,
+      "saved": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "total_interactions": 0,
+      "falhas": [
+        {
+          "metrica": "plays",
+          "erro": "Instagram respondeu 400"
+        }
+      ]
+    }
+  },
+  {
     "postId": "18133977463805736",
-    "dataColeta": "2026-11-06T18:08:22.444Z",
+    "dataColeta": "2026-11-07T16:55:46.651Z",
     "dataPostagem": "2026-11-06T17:41:27.714Z",
     "tipo": "reel",
     "pilares": [
@@ -15,7 +77,7 @@
     "cta": null,
     "decisaoFormato": "peso 82: reel; Studio Engine 100/100",
     "insights": {
-      "reach": 0,
+      "reach": 7,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -31,7 +93,7 @@
   },
   {
     "postId": "18350165872271621",
-    "dataColeta": "2026-11-06T18:08:23.901Z",
+    "dataColeta": "2026-11-07T16:55:47.817Z",
     "dataPostagem": "2026-11-05T23:19:09.538Z",
     "tipo": "reel",
     "pilares": [
@@ -45,7 +107,7 @@
     "cta": null,
     "decisaoFormato": "peso 77: reel; Studio Engine 100/100",
     "insights": {
-      "reach": 10,
+      "reach": 11,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -61,7 +123,7 @@
   },
   {
     "postId": "18128664542477238",
-    "dataColeta": "2026-11-06T18:08:25.588Z",
+    "dataColeta": "2026-11-07T16:55:48.848Z",
     "dataPostagem": "2026-11-05T17:10:02.055Z",
     "tipo": "reel",
     "pilares": [
@@ -75,7 +137,7 @@
     "cta": null,
     "decisaoFormato": "peso 82: reel; Studio Engine 100/100",
     "insights": {
-      "reach": 5,
+      "reach": 6,
       "saved": 0,
       "shares": 0,
       "comments": 0,
@@ -91,7 +153,7 @@
   },
   {
     "postId": "18432092764146187",
-    "dataColeta": "2026-11-06T18:08:26.741Z",
+    "dataColeta": "2026-11-07T16:55:49.988Z",
     "dataPostagem": "2026-11-04T23:17:37.929Z",
     "tipo": "reel",
     "pilares": [
@@ -122,7 +184,7 @@
   },
   {
     "postId": "18076844645583935",
-    "dataColeta": "2026-11-06T18:08:28.253Z",
+    "dataColeta": "2026-11-07T16:55:51.053Z",
     "dataPostagem": "2026-11-04T16:54:17.762Z",
     "tipo": "reel",
     "pilares": [
@@ -153,7 +215,7 @@
   },
   {
     "postId": "17999926397826187",
-    "dataColeta": "2026-11-06T18:08:29.738Z",
+    "dataColeta": "2026-11-07T16:55:52.194Z",
     "dataPostagem": "2026-11-03T16:51:45.109Z",
     "tipo": "alerta",
     "pilares": [],
@@ -180,7 +242,7 @@
   },
   {
     "postId": "18108497792461451",
-    "dataColeta": "2026-11-06T18:08:31.066Z",
+    "dataColeta": "2026-11-07T16:55:53.268Z",
     "dataPostagem": "2026-11-02T19:15:44.418Z",
     "tipo": "reel",
     "pilares": [
@@ -212,7 +274,7 @@
   },
   {
     "postId": "18106005872631524",
-    "dataColeta": "2026-11-06T18:08:32.750Z",
+    "dataColeta": "2026-11-07T16:55:54.390Z",
     "dataPostagem": "2026-10-30T21:59:27.751Z",
     "tipo": "reel",
     "pilares": [
@@ -244,7 +306,7 @@
   },
   {
     "postId": "17980416360136654",
-    "dataColeta": "2026-11-06T18:08:33.894Z",
+    "dataColeta": "2026-11-07T16:55:55.310Z",
     "dataPostagem": "2026-10-30T15:35:55.872Z",
     "tipo": "reel",
     "pilares": [
@@ -276,7 +338,7 @@
   },
   {
     "postId": "18199414414385859",
-    "dataColeta": "2026-11-06T18:08:35.370Z",
+    "dataColeta": "2026-11-07T16:55:56.400Z",
     "dataPostagem": "2026-10-29T22:29:47.814Z",
     "tipo": "reel",
     "pilares": [
@@ -308,7 +370,7 @@
   },
   {
     "postId": "18093014429204081",
-    "dataColeta": "2026-11-06T18:08:36.739Z",
+    "dataColeta": "2026-11-07T16:55:57.252Z",
     "dataPostagem": "2026-10-29T15:54:50.303Z",
     "tipo": "reel",
     "pilares": [
@@ -340,7 +402,7 @@
   },
   {
     "postId": "17984033648906254",
-    "dataColeta": "2026-11-06T18:08:38.207Z",
+    "dataColeta": "2026-11-07T16:55:58.183Z",
     "dataPostagem": "2026-10-28T23:27:38.802Z",
     "tipo": "reel",
     "pilares": [
@@ -372,7 +434,7 @@
   },
   {
     "postId": "18127173175908554",
-    "dataColeta": "2026-11-06T18:08:39.435Z",
+    "dataColeta": "2026-11-07T16:55:59.341Z",
     "dataPostagem": "2026-10-26T16:16:21.278Z",
     "tipo": "reel",
     "pilares": [
@@ -403,7 +465,7 @@
   },
   {
     "postId": "18200223211386511",
-    "dataColeta": "2026-11-06T18:08:40.364Z",
+    "dataColeta": "2026-11-07T16:56:00.800Z",
     "dataPostagem": "2026-10-25T18:11:05.677Z",
     "tipo": "reel",
     "pilares": [
@@ -433,7 +495,7 @@
   },
   {
     "postId": "17952378009317853",
-    "dataColeta": "2026-11-06T18:08:41.387Z",
+    "dataColeta": "2026-11-07T16:56:01.794Z",
     "dataPostagem": "2026-10-23T15:23:44.874Z",
     "tipo": "reel",
     "pilares": [
@@ -463,7 +525,7 @@
   },
   {
     "postId": "17882880072536280",
-    "dataColeta": "2026-11-06T18:08:43.010Z",
+    "dataColeta": "2026-11-07T16:56:03.168Z",
     "dataPostagem": "2026-10-22T23:55:57.508Z",
     "tipo": "reel",
     "pilares": [
@@ -494,7 +556,7 @@
   },
   {
     "postId": "18131780869827138",
-    "dataColeta": "2026-11-06T18:08:44.333Z",
+    "dataColeta": "2026-11-07T16:56:04.168Z",
     "dataPostagem": "2026-10-22T20:55:31.086Z",
     "tipo": "reel",
     "pilares": [
@@ -525,7 +587,7 @@
   },
   {
     "postId": "18105045002526940",
-    "dataColeta": "2026-11-06T18:08:45.591Z",
+    "dataColeta": "2026-11-07T16:56:05.121Z",
     "dataPostagem": "2026-10-22T19:06:23.531Z",
     "tipo": "reel",
     "pilares": [
@@ -556,7 +618,7 @@
   },
   {
     "postId": "18124544279317803",
-    "dataColeta": "2026-11-06T18:08:46.958Z",
+    "dataColeta": "2026-11-07T16:56:06.436Z",
     "dataPostagem": "2026-10-21T19:09:49.313Z",
     "tipo": "reel",
     "pilares": [
@@ -586,7 +648,7 @@
   },
   {
     "postId": "17984369343120890",
-    "dataColeta": "2026-11-06T18:08:48.148Z",
+    "dataColeta": "2026-11-07T16:56:07.667Z",
     "dataPostagem": "2026-10-21T14:24:14.055Z",
     "tipo": "reel",
     "pilares": [
@@ -618,7 +680,7 @@
   },
   {
     "postId": "18094492088171908",
-    "dataColeta": "2026-11-06T18:08:49.391Z",
+    "dataColeta": "2026-11-07T16:56:08.806Z",
     "dataPostagem": "2026-10-20T23:40:52.436Z",
     "tipo": "reel",
     "pilares": [
@@ -648,7 +710,7 @@
   },
   {
     "postId": "18063178151538202",
-    "dataColeta": "2026-11-06T18:08:50.786Z",
+    "dataColeta": "2026-11-07T16:56:09.764Z",
     "dataPostagem": "2026-10-16T13:47:53.579Z",
     "tipo": "reel",
     "pilares": [
@@ -680,7 +742,7 @@
   },
   {
     "postId": "18433176727194368",
-    "dataColeta": "2026-11-06T18:08:52.093Z",
+    "dataColeta": "2026-11-07T16:56:10.822Z",
     "dataPostagem": "2026-10-15T18:55:52.528Z",
     "tipo": "reel",
     "pilares": [
@@ -696,67 +758,6 @@
     "decisaoFormato": "peso 76: reel; Studio Engine 100/100",
     "insights": {
       "reach": 9,
-      "saved": 0,
-      "shares": 0,
-      "comments": 0,
-      "likes": 0,
-      "total_interactions": 0,
-      "falhas": [
-        {
-          "metrica": "plays",
-          "erro": "Instagram respondeu 400"
-        }
-      ]
-    }
-  },
-  {
-    "postId": "17880151338549132",
-    "dataColeta": "2026-11-06T18:08:53.535Z",
-    "dataPostagem": "2026-10-15T14:00:27.180Z",
-    "tipo": "reel",
-    "pilares": [
-      "macro",
-      "bolsa"
-    ],
-    "peso": 76,
-    "fonte": "Money Times",
-    "titulo": "Localiza (RENT3) dispara no radar do Citi: banco eleva preço-alvo, mas faz alerta",
-    "horarioBRT": "11",
-    "cta": null,
-    "decisaoFormato": "peso 76: reel; Studio Engine 100/100",
-    "insights": {
-      "reach": 19,
-      "saved": 0,
-      "shares": 0,
-      "comments": 0,
-      "likes": 0,
-      "total_interactions": 0,
-      "falhas": [
-        {
-          "metrica": "plays",
-          "erro": "Instagram respondeu 400"
-        }
-      ]
-    }
-  },
-  {
-    "postId": "18198452518384439",
-    "dataColeta": "2026-11-06T18:08:54.703Z",
-    "dataPostagem": "2026-10-14T23:44:49.499Z",
-    "tipo": "reel",
-    "pilares": [
-      "macro",
-      "bolsa",
-      "exterior"
-    ],
-    "peso": 74,
-    "fonte": "Money Times",
-    "titulo": "Inflação dos EUA pressiona e Ibovespa tem leve queda; dólar sobe a R$ 5,02",
-    "horarioBRT": "20",
-    "cta": null,
-    "decisaoFormato": "peso 74: reel; Studio Engine 100/100",
-    "insights": {
-      "reach": 5,
       "saved": 0,
       "shares": 0,
       "comments": 0,
