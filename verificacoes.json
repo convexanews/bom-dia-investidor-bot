@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-11-07T15:28:36.333Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Lucro dos três maiores bancos soma R$ 22,6 bi no 3º trimestre, alta de 2,4% em um ano\".",
+    "postId": "18080821727732970",
+    "storyId": null,
+    "reelId": "18080821727732970",
+    "tipo": "reel",
+    "studioQuality": 100
+  },
+  {
+    "data": "2026-11-07T15:25:23.230Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 96): \"Lucro dos três maiores bancos soma R$ 22,6 bi no 3º trimestre, alta de 2,4% em um ano\". Realizando postagem..."
+  },
+  {
     "data": "2026-11-07T04:44:08.167Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (01:44 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1130,16 +1145,6 @@
   },
   {
     "data": "2026-10-11T01:07:20.945Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-10-10T21:11:30.319Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-10-10T20:13:14.643Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }

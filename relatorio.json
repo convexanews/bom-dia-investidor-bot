@@ -1,5 +1,33 @@
 [
   {
+    "data": "2026-11-07T15:28:36.331Z",
+    "titulo": "Lucro dos três maiores bancos soma R$ 22,6 bi no 3º trimestre, alta de 2,4% em um ano",
+    "categoria": "Empresas",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/lucro-dos-tres-maiores-bancos-soma-r-226-bi-no-3o-trimestre-alta-de-24-em-um-ano-jcav/",
+    "postId": "18080821727732970",
+    "storyId": null,
+    "reelId": "18080821727732970",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1794065126724.mp4",
+    "tipo": "reel",
+    "peso": 96,
+    "pilares": [
+      "macro",
+      "bolsa"
+    ],
+    "horarioBRT": "12",
+    "cta": null,
+    "decisaoFormato": "peso 96: reel; Studio Engine 100/100",
+    "studioQuality": {
+      "approved": true,
+      "score": 100,
+      "blockers": [],
+      "warnings": []
+    }
+  },
+  {
     "data": "2026-11-06T22:46:16.729Z",
     "titulo": "Bolsas de NY fecham sem direção única em meio à recuperação do setor de tech",
     "categoria": "Mercados",
@@ -4786,20 +4814,5 @@
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1785276879322.mp4",
     "tipo": "reel",
     "peso": 69
-  },
-  {
-    "data": "2026-07-28T19:12:41.091Z",
-    "titulo": "IPCA-15 muda o jogo: Economistas voltam a prever corte da Selic e reduzem projeção para inflação",
-    "categoria": "Economia",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/ipca-15-muda-o-jogo-economistas-voltam-a-prever-corte-da-selic-e-reduz-projecao-para-inflacao-jcav/",
-    "postId": "18077053205695006",
-    "storyId": null,
-    "reelId": "18077053205695006",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1785265872351.mp4",
-    "tipo": "reel",
-    "peso": 85
   }
 ]
