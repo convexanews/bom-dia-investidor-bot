@@ -1,5 +1,34 @@
 [
   {
+    "data": "2026-11-07T21:30:56.946Z",
+    "titulo": "C&A (CEAB3) dispara 23,82%, enquanto Brava Energia (BRAV3) é a pior ação da semana; veja o que rolou no Ibovespa",
+    "categoria": "Mercados",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/ca-ceab3-dispara-2382-enquanto-brava-energia-brav3-e-a-pior-acao-da-semana-veja-o-que-rolou-no-ibovespa-davs/",
+    "postId": "17918589555538677",
+    "storyId": null,
+    "reelId": "17918589555538677",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1794086915700.mp4",
+    "tipo": "reel",
+    "peso": 73,
+    "pilares": [
+      "macro",
+      "bolsa",
+      "mundo_empresas"
+    ],
+    "horarioBRT": "18",
+    "cta": null,
+    "decisaoFormato": "peso 73: reel; Studio Engine 100/100",
+    "studioQuality": {
+      "approved": true,
+      "score": 100,
+      "blockers": [],
+      "warnings": []
+    }
+  },
+  {
     "data": "2026-11-07T15:28:36.331Z",
     "titulo": "Lucro dos três maiores bancos soma R$ 22,6 bi no 3º trimestre, alta de 2,4% em um ano",
     "categoria": "Empresas",
@@ -4799,20 +4828,5 @@
     "videoUrl": null,
     "tipo": "carrossel",
     "peso": 28
-  },
-  {
-    "data": "2026-07-28T22:16:18.790Z",
-    "titulo": "Ibovespa sobe com IPCA-15 mais fraco; Petrobras (PETR4) dribla queda do petróleo",
-    "categoria": "Mercado Financeiro",
-    "fonte": "Suno",
-    "link": "https://www.suno.com.br/noticias/ibovespa-hoje-28-julho-2026-ipca-15-petr4-mt/",
-    "postId": "18021417785856317",
-    "storyId": null,
-    "reelId": "18021417785856317",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1785276879322.mp4",
-    "tipo": "reel",
-    "peso": 69
   }
 ]
