@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-11-07T22:53:49.944Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 8 min."
+  },
+  {
     "data": "2026-11-07T21:30:56.948Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"C&A (CEAB3) dispara 23,82%, enquanto Brava Energia (BRAV3) é a pior ação da semana; veja o que rolou no Ibovespa\".",
@@ -1142,15 +1147,5 @@
     "data": "2026-10-11T16:23:32.819Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 30 min."
-  },
-  {
-    "data": "2026-10-11T15:23:17.046Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"FMI alerta: disparadas e choques de preços podem ser mais frequentes e afetar inflação por anos\".",
-    "postId": "18109869248231887",
-    "storyId": null,
-    "reelId": "18109869248231887",
-    "tipo": "reel",
-    "studioQuality": 100
   }
 ]
