@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-11-07T16:34:20.755Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 25 min."
+  },
+  {
     "data": "2026-11-07T15:28:36.333Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Lucro dos três maiores bancos soma R$ 22,6 bi no 3º trimestre, alta de 2,4% em um ano\".",
@@ -1142,10 +1147,5 @@
     "data": "2026-10-11T04:07:05.236Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (01:07 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-10-11T01:07:20.945Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }
 ]
