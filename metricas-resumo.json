@@ -1,9 +1,9 @@
 {
-  "atualizadoEm": "2026-11-07T16:56:10.822Z",
+  "atualizadoEm": "2026-11-08T17:09:10.922Z",
   "porFormato": {
     "reel": {
       "posts": 24,
-      "alcanceMedio": 9,
+      "alcanceMedio": 10,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
@@ -21,7 +21,7 @@
   "porPilar": {
     "macro": {
       "posts": 20,
-      "alcanceMedio": 9,
+      "alcanceMedio": 10,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
@@ -35,16 +35,16 @@
       "reproducoesMedias": null,
       "taxaInteracaoMedia": 0
     },
-    "exterior": {
-      "posts": 9,
+    "mundo_empresas": {
+      "posts": 13,
       "alcanceMedio": 9,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
       "taxaInteracaoMedia": 0
     },
-    "mundo_empresas": {
-      "posts": 13,
+    "exterior": {
+      "posts": 9,
       "alcanceMedio": 9,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
@@ -103,7 +103,7 @@
     },
     "12": {
       "posts": 4,
-      "alcanceMedio": 6,
+      "alcanceMedio": 8,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
@@ -126,8 +126,8 @@
       "taxaInteracaoMedia": 0
     },
     "15": {
-      "posts": 2,
-      "alcanceMedio": 14,
+      "posts": 1,
+      "alcanceMedio": 18,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
@@ -150,8 +150,8 @@
       "taxaInteracaoMedia": 0
     },
     "18": {
-      "posts": 1,
-      "alcanceMedio": 6,
+      "posts": 2,
+      "alcanceMedio": 9,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
@@ -159,7 +159,7 @@
     },
     "19": {
       "posts": 2,
-      "alcanceMedio": 8,
+      "alcanceMedio": 9,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
