@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-11-10T16:47:52.913Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
     "data": "2026-11-10T04:14:33.102Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (01:14 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1142,10 +1147,5 @@
     "data": "2026-10-13T22:18:49.045Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 74): \"Wall Street tem dia negativo com liquidação de ações de chips e temporada de balanços em foco\". Realizando postagem..."
-  },
-  {
-    "data": "2026-10-13T17:42:39.807Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }
 ]
