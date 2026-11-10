@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-11-10T18:03:50.132Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
     "data": "2026-11-10T16:47:52.913Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1142,10 +1147,5 @@
     "reelId": "17887019571685566",
     "tipo": "reel",
     "studioQuality": 100
-  },
-  {
-    "data": "2026-10-13T22:18:49.045Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 74): \"Wall Street tem dia negativo com liquidação de ações de chips e temporada de balanços em foco\". Realizando postagem..."
   }
 ]
