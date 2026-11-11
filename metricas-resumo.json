@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-10T18:43:47.182Z",
+  "atualizadoEm": "2026-11-11T18:48:20.325Z",
   "porFormato": {
     "reel": {
       "posts": 24,
@@ -11,7 +11,7 @@
     },
     "alerta": {
       "posts": 1,
-      "alcanceMedio": 8,
+      "alcanceMedio": 9,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
@@ -35,17 +35,17 @@
       "reproducoesMedias": null,
       "taxaInteracaoMedia": 0
     },
-    "mundo_empresas": {
-      "posts": 13,
-      "alcanceMedio": 10,
+    "exterior": {
+      "posts": 9,
+      "alcanceMedio": 9,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
       "taxaInteracaoMedia": 0
     },
-    "exterior": {
-      "posts": 9,
-      "alcanceMedio": 9,
+    "mundo_empresas": {
+      "posts": 13,
+      "alcanceMedio": 10,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
@@ -61,7 +61,7 @@
     },
     "fiis": {
       "posts": 1,
-      "alcanceMedio": 9,
+      "alcanceMedio": 10,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
@@ -85,14 +85,6 @@
     }
   },
   "porHorarioBRT": {
-    "10": {
-      "posts": 1,
-      "alcanceMedio": 8,
-      "salvamentosMedios": 0,
-      "compartilhamentosMedios": 0,
-      "reproducoesMedias": null,
-      "taxaInteracaoMedia": 0
-    },
     "11": {
       "posts": 1,
       "alcanceMedio": 8,
@@ -103,7 +95,7 @@
     },
     "12": {
       "posts": 4,
-      "alcanceMedio": 8,
+      "alcanceMedio": 9,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
@@ -158,8 +150,8 @@
       "taxaInteracaoMedia": 0
     },
     "19": {
-      "posts": 2,
-      "alcanceMedio": 10,
+      "posts": 3,
+      "alcanceMedio": 8,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
@@ -175,7 +167,7 @@
     },
     "não informado": {
       "posts": 1,
-      "alcanceMedio": 8,
+      "alcanceMedio": 9,
       "salvamentosMedios": 0,
       "compartilhamentosMedios": 0,
       "reproducoesMedias": null,
