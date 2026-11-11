@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-11-11T04:47:17.708Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (01:47 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-11-11T00:09:10.856Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 16 min."
@@ -1142,10 +1147,5 @@
     "reelId": "18117905389951964",
     "tipo": "reel",
     "studioQuality": 100
-  },
-  {
-    "data": "2026-10-14T14:20:40.684Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 78): \"Inflação dos EUA reacende alerta para o Fed, dizem economistas\". Realizando postagem..."
   }
 ]
