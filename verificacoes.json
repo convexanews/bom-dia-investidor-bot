@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-11-11T16:56:15.111Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
     "data": "2026-11-11T04:47:17.708Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (01:47 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1137,15 +1142,5 @@
     "data": "2026-10-14T15:19:22.921Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 34 min."
-  },
-  {
-    "data": "2026-10-14T14:23:18.898Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Inflação dos EUA reacende alerta para o Fed, dizem economistas\".",
-    "postId": "18117905389951964",
-    "storyId": null,
-    "reelId": "18117905389951964",
-    "tipo": "reel",
-    "studioQuality": 100
   }
 ]
