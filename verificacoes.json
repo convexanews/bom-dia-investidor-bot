@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-11-11T00:09:10.856Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 16 min."
+  },
+  {
     "data": "2026-11-10T22:54:50.621Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Wall Street fecha em queda após dados de inflação dos EUA elevarem temores sobre juros\".",
@@ -1142,10 +1147,5 @@
     "data": "2026-10-14T14:20:40.684Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 78): \"Inflação dos EUA reacende alerta para o Fed, dizem economistas\". Realizando postagem..."
-  },
-  {
-    "data": "2026-10-14T03:36:52.652Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (00:36 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
