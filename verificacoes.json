@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-11-12T01:37:31.535Z",
+    "resultado": "sem_noticia",
+    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
+  },
+  {
     "data": "2026-11-12T00:04:27.993Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
@@ -1137,10 +1142,5 @@
     "data": "2026-10-14T23:42:20.343Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 74): \"Inflação dos EUA pressiona e Ibovespa tem leve queda; dólar sobe a R$ 5,02\". Realizando postagem..."
-  },
-  {
-    "data": "2026-10-14T20:17:10.431Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }
 ]
