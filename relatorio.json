@@ -1,5 +1,33 @@
 [
   {
+    "data": "2026-11-12T18:34:12.828Z",
+    "titulo": "Selic sem novas altas e PIB estagnado: o que o UBS BB espera para 2027",
+    "categoria": "Economia",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/selic-sem-novas-altas-e-pib-estagnado-o-que-o-ubs-bb-espera-para-2027-igdl/",
+    "postId": "18099666620112241",
+    "storyId": null,
+    "reelId": "18099666620112241",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1794508268157.mp4",
+    "tipo": "reel",
+    "peso": 91,
+    "pilares": [
+      "macro",
+      "bolsa"
+    ],
+    "horarioBRT": "15",
+    "cta": null,
+    "decisaoFormato": "peso 91: reel; Studio Engine 100/100",
+    "studioQuality": {
+      "approved": true,
+      "score": 100,
+      "blockers": [],
+      "warnings": []
+    }
+  },
+  {
     "data": "2026-11-10T22:54:50.618Z",
     "titulo": "Wall Street fecha em queda após dados de inflação dos EUA elevarem temores sobre juros",
     "categoria": "Mercados",
@@ -4828,20 +4856,5 @@
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1785323749109.mp4",
     "tipo": "reel",
     "peso": 37
-  },
-  {
-    "data": "2026-07-29T09:02:03.808Z",
-    "titulo": "Dólar pode ficar mais forte amanhã? O que esperar do mercado após o FOMC",
-    "categoria": "Mercados",
-    "fonte": "InfoMoney",
-    "link": "https://www.infomoney.com.br/mercados/dolar-pode-ficar-mais-forte-amanha-o-que-esperar-do-mercado-apos-o-fomc/",
-    "postId": "17903512905469290",
-    "storyId": "17905712673462630",
-    "reelId": null,
-    "imagemFeed": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1785315680031-feed.png",
-    "imagemStory": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-cards/noticia-1785315680031-story.png",
-    "videoUrl": null,
-    "tipo": "card",
-    "peso": 52
   }
 ]
