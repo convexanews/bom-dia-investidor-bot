@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-11-13T17:58:12.465Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 32 min."
+  },
+  {
     "data": "2026-11-13T17:00:05.376Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Wall Street opera sem direção única com crise da Nvidia e PPI abaixo do esperado\".",
@@ -1137,10 +1142,5 @@
     "data": "2026-10-15T23:33:34.831Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-10-15T19:58:01.788Z",
-    "resultado": "aguardando_intervalo",
-    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 28 min."
   }
 ]
