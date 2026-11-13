@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-11-13T00:37:57.088Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 10 min."
+  },
+  {
     "data": "2026-11-12T23:17:31.831Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Ibovespa cai, BB (BBAS3) afunda 8% e dólar dispara: o que pesou na Bolsa?\".",
@@ -1137,15 +1142,5 @@
     "data": "2026-10-15T15:12:02.350Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 19 min."
-  },
-  {
-    "data": "2026-10-15T14:00:27.182Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Localiza (RENT3) dispara no radar do Citi: banco eleva preço-alvo, mas faz alerta\".",
-    "postId": "17880151338549132",
-    "storyId": null,
-    "reelId": "17880151338549132",
-    "tipo": "reel",
-    "studioQuality": 100
   }
 ]
