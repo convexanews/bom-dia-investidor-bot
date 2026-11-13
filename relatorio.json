@@ -1,5 +1,36 @@
 [
   {
+    "data": "2026-11-13T17:00:05.373Z",
+    "titulo": "Wall Street opera sem direção única com crise da Nvidia e PPI abaixo do esperado",
+    "categoria": "Mercados",
+    "fonte": "Money Times",
+    "link": "https://www.moneytimes.com.br/wall-street-opera-sem-direcao-unica-com-crise-da-nvidia-e-ppi-abaixo-do-esperado-davs/",
+    "postId": "18400347598164061",
+    "storyId": null,
+    "reelId": "18400347598164061",
+    "imagemFeed": null,
+    "imagemStory": null,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1794589054063.mp4",
+    "tipo": "reel",
+    "peso": 75,
+    "pilares": [
+      "macro",
+      "bolsa",
+      "fiis",
+      "exterior",
+      "mundo_empresas"
+    ],
+    "horarioBRT": "14",
+    "cta": null,
+    "decisaoFormato": "peso 75: reel; Studio Engine 100/100",
+    "studioQuality": {
+      "approved": true,
+      "score": 100,
+      "blockers": [],
+      "warnings": []
+    }
+  },
+  {
     "data": "2026-11-12T23:17:31.829Z",
     "titulo": "Ibovespa cai, BB (BBAS3) afunda 8% e dólar dispara: o que pesou na Bolsa?",
     "categoria": "Mercado",
@@ -4854,20 +4885,5 @@
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1785339953185.mp4",
     "tipo": "reel",
     "peso": 68
-  },
-  {
-    "data": "2026-07-29T13:33:28.310Z",
-    "titulo": "Ao contrário do mercado, Citi não vê corte de juros pelo Copom na próxima reunião; entenda os motivos",
-    "categoria": "Economia",
-    "fonte": "Money Times",
-    "link": "https://www.moneytimes.com.br/mesmo-com-a-menor-projecao-para-inflacao-citi-nao-ve-corte-de-juros-na-proxima-reuniao-do-copom-jcav/",
-    "postId": "17927163045145592",
-    "storyId": null,
-    "reelId": "17927163045145592",
-    "imagemFeed": null,
-    "imagemStory": null,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1785331870108.mp4",
-    "tipo": "reel",
-    "peso": 78
   }
 ]

@@ -1,5 +1,14 @@
 [
   {
+    "titulo": "Wall Street opera sem direção única com crise da Nvidia e PPI abaixo do esperado",
+    "link": "https://www.moneytimes.com.br/wall-street-opera-sem-direcao-unica-com-crise-da-nvidia-e-ppi-abaixo-do-esperado-davs/",
+    "peso": 75,
+    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1794589054063.mp4",
+    "coverUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1794589054063-capa.png",
+    "legendaUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1794589054063-legenda.txt",
+    "data": "2026-11-13T17:00:05.371Z"
+  },
+  {
     "titulo": "Ibovespa cai, BB (BBAS3) afunda 8% e dólar dispara: o que pesou na Bolsa?",
     "link": "https://www.suno.com.br/noticias/ibovespa-bbas3-dolar-ipca/",
     "peso": 87,
@@ -1672,13 +1681,5 @@
     "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1784113880742.mp4",
     "legendaUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1784113880742-legenda.txt",
     "data": "2026-07-15T11:12:42.941Z"
-  },
-  {
-    "titulo": "Wall Street tem alta após inflação abaixo do esperado reduzir apostas de elevação nos juros pelo Fed",
-    "link": "https://www.moneytimes.com.br/wall-street-14-7-26-lils/",
-    "peso": 95,
-    "videoUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1784061550381.mp4",
-    "legendaUrl": "https://raw.githubusercontent.com/convexanews/convexanews.github.io/main/bdi-tiktok/reel-1784061550381-legenda.txt",
-    "data": "2026-07-14T20:40:45.971Z"
   }
 ]
