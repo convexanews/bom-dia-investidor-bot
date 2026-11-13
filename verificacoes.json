@@ -1,5 +1,20 @@
 [
   {
+    "data": "2026-11-13T23:19:08.005Z",
+    "resultado": "postado",
+    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Ibovespa sobe com fiscal no radar e avança 2,35% na semana; dólar supera ganho, com 2,66%\".",
+    "postId": "18138104542735154",
+    "storyId": null,
+    "reelId": "18138104542735154",
+    "tipo": "reel",
+    "studioQuality": 100
+  },
+  {
+    "data": "2026-11-13T23:16:22.307Z",
+    "resultado": "noticia_encontrada",
+    "mensagem": "Notícia nova encontrada (peso 73): \"Ibovespa sobe com fiscal no radar e avança 2,35% na semana; dólar supera ganho, com 2,66%\". Realizando postagem..."
+  },
+  {
     "data": "2026-11-13T17:58:12.465Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 32 min."
@@ -1132,15 +1147,5 @@
     "data": "2026-10-16T03:13:08.066Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (00:13 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-10-16T00:32:35.484Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-10-15T23:33:34.831Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }
 ]
