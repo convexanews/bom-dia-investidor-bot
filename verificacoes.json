@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-11-14T00:24:45.707Z",
+    "resultado": "aguardando_intervalo",
+    "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 25 min."
+  },
+  {
     "data": "2026-11-13T23:19:08.005Z",
     "resultado": "postado",
     "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Ibovespa sobe com fiscal no radar e avança 2,35% na semana; dólar supera ganho, com 2,66%\".",
@@ -1142,10 +1147,5 @@
     "data": "2026-10-16T13:45:23.482Z",
     "resultado": "noticia_encontrada",
     "mensagem": "Notícia nova encontrada (peso 75): \"Wall Street tem tom misto com pressão ‘tech’ e Fed\". Realizando postagem..."
-  },
-  {
-    "data": "2026-10-16T03:13:08.066Z",
-    "resultado": "fora_horario",
-    "mensagem": "Verificação fora do horário de pico (00:13 BRT). Postagens ocorrem entre 06h e 22h."
   }
 ]
