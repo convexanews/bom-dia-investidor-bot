@@ -1,5 +1,11 @@
 [
   {
+    "data": "2026-11-14T15:34:13.476Z",
+    "resultado": "token_invalido",
+    "mensagem": "Publicação pausada: IG_TOKEN inválido ou expirado. Atualize o segredo no GitHub Actions.",
+    "codigo": 190
+  },
+  {
     "data": "2026-11-14T05:00:06.162Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (02:00 BRT). Postagens ocorrem entre 06h e 22h."
@@ -1137,15 +1143,5 @@
     "data": "2026-10-16T14:58:10.375Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 20 min."
-  },
-  {
-    "data": "2026-10-16T13:47:53.582Z",
-    "resultado": "postado",
-    "mensagem": "Postagem realizada com sucesso (reel, Studio Engine 100/100): \"Wall Street tem tom misto com pressão ‘tech’ e Fed\".",
-    "postId": "18063178151538202",
-    "storyId": null,
-    "reelId": "18063178151538202",
-    "tipo": "reel",
-    "studioQuality": 100
   }
 ]
