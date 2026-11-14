@@ -1,5 +1,10 @@
 [
   {
+    "data": "2026-11-14T05:00:06.162Z",
+    "resultado": "fora_horario",
+    "mensagem": "Verificação fora do horário de pico (02:00 BRT). Postagens ocorrem entre 06h e 22h."
+  },
+  {
     "data": "2026-11-14T00:24:45.707Z",
     "resultado": "aguardando_intervalo",
     "mensagem": "Aguardando intervalo de 1h30 entre posts. Faltam 25 min."
@@ -1142,10 +1147,5 @@
     "reelId": "18063178151538202",
     "tipo": "reel",
     "studioQuality": 100
-  },
-  {
-    "data": "2026-10-16T13:45:23.482Z",
-    "resultado": "noticia_encontrada",
-    "mensagem": "Notícia nova encontrada (peso 75): \"Wall Street tem tom misto com pressão ‘tech’ e Fed\". Realizando postagem..."
   }
 ]
