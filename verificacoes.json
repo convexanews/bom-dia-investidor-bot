@@ -1,5 +1,11 @@
 [
   {
+    "data": "2026-11-16T19:16:33.968Z",
+    "resultado": "token_invalido",
+    "mensagem": "Publicação pausada: IG_TOKEN inválido ou expirado. Atualize o segredo no GitHub Actions.",
+    "codigo": 190
+  },
+  {
     "data": "2026-11-15T17:20:11.786Z",
     "resultado": "token_invalido",
     "mensagem": "Publicação pausada: IG_TOKEN inválido ou expirado. Atualize o segredo no GitHub Actions.",
@@ -1138,11 +1144,5 @@
     "data": "2026-10-16T23:15:45.151Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-10-16T19:38:05.233Z",
-    "resultado": "pauta_reprovada",
-    "mensagem": "Notícia não publicada: manchete longa demais para caber completa no card.",
-    "titulo": "Mais Magazine Luiza (MGLU3) e menos Embraer (EMBJ3): As ‘pimentas’ de Christian Keleti, da Alpha Key, para lucrar com trade Flávio"
   }
 ]
