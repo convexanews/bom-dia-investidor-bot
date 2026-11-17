@@ -1,5 +1,11 @@
 [
   {
+    "data": "2026-11-17T18:09:52.522Z",
+    "resultado": "token_invalido",
+    "mensagem": "Publicação pausada: IG_TOKEN inválido ou expirado. Atualize o segredo no GitHub Actions.",
+    "codigo": 190
+  },
+  {
     "data": "2026-11-16T19:17:16.918Z",
     "resultado": "erro_alerta_recorde",
     "mensagem": "Erro ao verificar alerta de recorde: Erro ao criar container do feed: {\"error\":{\"message\":\"Error validating access token: Session has expired on Saturday, 14-Nov-26 05:05:21 PST. The current time is Monday, 16-Nov-26 11:17:16 PST.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":0,\"fbtrace_id\":\"AXaf25SI1QzO8uYpj9a_er0\"}}"
@@ -1139,10 +1145,5 @@
     "data": "2026-10-17T03:04:03.362Z",
     "resultado": "fora_horario",
     "mensagem": "Verificação fora do horário de pico (00:04 BRT). Postagens ocorrem entre 06h e 22h."
-  },
-  {
-    "data": "2026-10-17T00:40:55.280Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }
 ]
