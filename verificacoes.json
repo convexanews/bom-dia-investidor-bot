@@ -1,5 +1,11 @@
 [
   {
+    "data": "2026-11-22T16:54:01.785Z",
+    "resultado": "token_invalido",
+    "mensagem": "Publicação pausada: IG_TOKEN inválido ou expirado. Atualize o segredo no GitHub Actions.",
+    "codigo": 190
+  },
+  {
     "data": "2026-11-21T17:43:04.043Z",
     "resultado": "token_invalido",
     "mensagem": "Publicação pausada: IG_TOKEN inválido ou expirado. Atualize o segredo no GitHub Actions.",
@@ -1144,11 +1150,6 @@
   },
   {
     "data": "2026-10-17T22:54:24.825Z",
-    "resultado": "sem_noticia",
-    "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
-  },
-  {
-    "data": "2026-10-17T21:34:50.132Z",
     "resultado": "sem_noticia",
     "mensagem": "Nenhuma notícia nova nas últimas 24h. Nada foi postado."
   }
