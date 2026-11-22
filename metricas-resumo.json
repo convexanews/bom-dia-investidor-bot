@@ -1,8 +1,8 @@
 {
-  "atualizadoEm": "2026-11-21T18:06:40.640Z",
+  "atualizadoEm": "2026-11-22T18:35:38.545Z",
   "porFormato": {
     "reel": {
-      "posts": 24,
+      "posts": 21,
       "alcanceMedio": null,
       "salvamentosMedios": null,
       "compartilhamentosMedios": null,
@@ -20,7 +20,7 @@
   },
   "porPilar": {
     "macro": {
-      "posts": 21,
+      "posts": 18,
       "alcanceMedio": null,
       "salvamentosMedios": null,
       "compartilhamentosMedios": null,
@@ -28,7 +28,7 @@
       "taxaInteracaoMedia": null
     },
     "bolsa": {
-      "posts": 23,
+      "posts": 20,
       "alcanceMedio": null,
       "salvamentosMedios": null,
       "compartilhamentosMedios": null,
@@ -36,7 +36,7 @@
       "taxaInteracaoMedia": null
     },
     "mundo_empresas": {
-      "posts": 12,
+      "posts": 11,
       "alcanceMedio": null,
       "salvamentosMedios": null,
       "compartilhamentosMedios": null,
@@ -60,7 +60,7 @@
       "taxaInteracaoMedia": null
     },
     "renda_fixa": {
-      "posts": 4,
+      "posts": 3,
       "alcanceMedio": null,
       "salvamentosMedios": null,
       "compartilhamentosMedios": null,
@@ -86,7 +86,7 @@
   },
   "porHorarioBRT": {
     "12": {
-      "posts": 4,
+      "posts": 3,
       "alcanceMedio": null,
       "salvamentosMedios": null,
       "compartilhamentosMedios": null,
@@ -125,14 +125,6 @@
       "reproducoesMedias": null,
       "taxaInteracaoMedia": null
     },
-    "17": {
-      "posts": 1,
-      "alcanceMedio": null,
-      "salvamentosMedios": null,
-      "compartilhamentosMedios": null,
-      "reproducoesMedias": null,
-      "taxaInteracaoMedia": null
-    },
     "18": {
       "posts": 2,
       "alcanceMedio": null,
@@ -150,7 +142,7 @@
       "taxaInteracaoMedia": null
     },
     "20": {
-      "posts": 6,
+      "posts": 5,
       "alcanceMedio": null,
       "salvamentosMedios": null,
       "compartilhamentosMedios": null,
@@ -168,7 +160,7 @@
   },
   "porCTA": {
     "não informado": {
-      "posts": 25,
+      "posts": 22,
       "alcanceMedio": null,
       "salvamentosMedios": null,
       "compartilhamentosMedios": null,
