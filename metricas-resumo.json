@@ -1,8 +1,8 @@
 {
-  "atualizadoEm": "2026-11-23T22:46:34.044Z",
+  "atualizadoEm": "2026-11-24T21:24:11.825Z",
   "porFormato": {
     "reel": {
-      "posts": 21,
+      "posts": 20,
       "alcanceMedio": null,
       "salvamentosMedios": null,
       "compartilhamentosMedios": null,
@@ -20,7 +20,7 @@
   },
   "porPilar": {
     "macro": {
-      "posts": 18,
+      "posts": 17,
       "alcanceMedio": null,
       "salvamentosMedios": null,
       "compartilhamentosMedios": null,
@@ -28,7 +28,7 @@
       "taxaInteracaoMedia": null
     },
     "bolsa": {
-      "posts": 20,
+      "posts": 19,
       "alcanceMedio": null,
       "salvamentosMedios": null,
       "compartilhamentosMedios": null,
@@ -110,7 +110,7 @@
       "taxaInteracaoMedia": null
     },
     "15": {
-      "posts": 2,
+      "posts": 1,
       "alcanceMedio": null,
       "salvamentosMedios": null,
       "compartilhamentosMedios": null,
@@ -160,7 +160,7 @@
   },
   "porCTA": {
     "não informado": {
-      "posts": 22,
+      "posts": 21,
       "alcanceMedio": null,
       "salvamentosMedios": null,
       "compartilhamentosMedios": null,
