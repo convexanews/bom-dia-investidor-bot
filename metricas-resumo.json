@@ -1,8 +1,8 @@
 {
-  "atualizadoEm": "2026-11-24T21:24:11.825Z",
+  "atualizadoEm": "2026-11-25T20:31:50.414Z",
   "porFormato": {
     "reel": {
-      "posts": 20,
+      "posts": 19,
       "alcanceMedio": null,
       "salvamentosMedios": null,
       "compartilhamentosMedios": null,
@@ -20,7 +20,7 @@
   },
   "porPilar": {
     "macro": {
-      "posts": 17,
+      "posts": 16,
       "alcanceMedio": null,
       "salvamentosMedios": null,
       "compartilhamentosMedios": null,
@@ -28,7 +28,7 @@
       "taxaInteracaoMedia": null
     },
     "bolsa": {
-      "posts": 19,
+      "posts": 18,
       "alcanceMedio": null,
       "salvamentosMedios": null,
       "compartilhamentosMedios": null,
@@ -68,7 +68,7 @@
       "taxaInteracaoMedia": null
     },
     "brasil_eleicoes": {
-      "posts": 2,
+      "posts": 1,
       "alcanceMedio": null,
       "salvamentosMedios": null,
       "compartilhamentosMedios": null,
@@ -94,7 +94,7 @@
       "taxaInteracaoMedia": null
     },
     "13": {
-      "posts": 2,
+      "posts": 1,
       "alcanceMedio": null,
       "salvamentosMedios": null,
       "compartilhamentosMedios": null,
@@ -160,7 +160,7 @@
   },
   "porCTA": {
     "não informado": {
-      "posts": 21,
+      "posts": 20,
       "alcanceMedio": null,
       "salvamentosMedios": null,
       "compartilhamentosMedios": null,
